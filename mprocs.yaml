@@ -1,0 +1,25 @@
+procs:
+  build:
+    autostart: false
+    shell: make build
+  check-eslint:
+    autostart: false
+    shell: make check-eslint
+  create:
+    autostart: false
+    shell: make create
+  help:
+    autostart: false
+    shell: make help
+  preview:
+    autostart: false
+    shell: make preview
+  run-dev:
+    autostart: false
+    shell: make run-dev
+  update:
+    autostart: false
+    shell: make update
+  upgrade-astro:
+    autostart: false
+    shell: make upgrade-astro
