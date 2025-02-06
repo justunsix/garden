@@ -26,7 +26,7 @@ emacs -q -l ~/.emacs.d/init.el
 
 # Minimal Start
 ## On Windows
-emacs -q -l C:\Users\TungJ2\.config\emacs\init.el
+emacs -q -l C:\Users\user1\.config\emacs\init.el
 ## On Linux
 emacs -q -l ~/emacs/.config\minimal.el
 
