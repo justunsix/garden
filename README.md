@@ -13,8 +13,8 @@ The source code for my digital garden with notes and learning stuff.
 - Markdown
   - Content is managed in Emacs `org` files and converted to markdown
     in this repository using pandoc
-  - Conversion to markdown is still being worked on so expect broken links
-    (internal links, some external links) and problems in markdown files
+  - Conversion to markdown is still being worked on so expect broken links,
+    images, and problems in markdown files
 - Hosted on [GitHub pages](https://pages.github.com/)
 
 ## Acknowledgements
