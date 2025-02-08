@@ -12,4 +12,10 @@ hx --health
 # Check for a specific language
 hx --health rust
 
+# Fetch and build grammars
+hx -g fetch; hx -g build
+# Optionally delete runtime folder to refresh runtimes
+# or syntax highlighting issues before grammar updates
+rm -rf ~/.config/helix/runtime
+
 ```
