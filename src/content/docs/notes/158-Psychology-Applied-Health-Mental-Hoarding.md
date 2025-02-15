@@ -4,12 +4,10 @@ id: e71bf21e-1fa5-43eb-9dfd-601380db68f8
 title: Mental Health Hoarding
 ---
 
-## Sources
-
-- [Hoarding Disorder - Psychology
-  Today](https://www.psychologytoday.com/ca/conditions/hoarding-disorder)
-- [Hoarding Disorder - Mayo
-  Clinic](https://www.mayoclinic.md/diseases-conditions/hoarding-disorder/diagnosis-treatment/drc-20356062)
+Sources: [Hoarding Disorder - Psychology
+Today](https://www.psychologytoday.com/ca/conditions/hoarding-disorder),
+[Hoarding Disorder - Mayo
+Clinic](https://www.mayoclinic.md/diseases-conditions/hoarding-disorder/diagnosis-treatment/drc-20356062)
 
 ## About
 
@@ -48,10 +46,17 @@ Treatment Ideas
   - Remove all hoarded materials of no/little value
   - Declutter
 - Decrease hoarding/consumption practices slowly
-- Increase social involvement in meaningful activites:
+- Increase social involvement in meaningful activities:
   - Replace hoarding with productive activities
 - Remove hoard to a more difficult to access location
 - Challenge thoughts and beliefs about acquiring and keeping items:
   - "Remember new items will be like old ones and there is no practical
     value is additional items"
   - Resist getting more items
+
+## See Also
+
+- [Minimalist
+  Lifestyle](158-Psychology-Applied-Environment-Minimalist-Lifestyle.md) -
+  [Minimalist, Zero Waste
+  Lifestyle](id:df69cada-d197-4508-9ae0-12affb79dfd0)
