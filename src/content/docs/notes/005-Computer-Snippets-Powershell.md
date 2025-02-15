@@ -1,0 +1,272 @@
+---
+filetags: ":powershell:shell:snippets:epubnote:"
+header-includes:
+- <link rel="stylesheet" type="text/css" href="basic-org.css"/>
+id: 803df536-bf76-4fef-8bc6-775cf2e7dec6
+title: Powershell Snippets
+---
+
+<link rel="stylesheet" type="text/css" href="basic-org.css"/>
+
+``` powershell
+
+# Run a Specific Command
+powershell -Command "Get-Process"
+
+# Check hosts file
+notepad C:\Windows\System32\drivers\etc\hosts
+
+# Test network connection to a specific host
+## Test-Network-Connection (tnc)
+tnc google.com -Port 443
+
+# See Powershell script that is run on new sessions
+$PROFILE
+# Check Powershell version
+$PSVersionTable
+$PSVersionTable.PSVersion
+
+# Get Host name
+$env:computername
+
+# cd to user's local app data
+cd $env:LOCALAPPDATA
+
+# List environment variables
+Get-ChildItem Env:
+
+# Switch to a different Windows Active Directory domain which is on the same network
+# https://dba.stackexchange.com/questions/166638/how-to-connect-remotely-to-mssql-database-from-local-using-windows-authenticati
+runas /netonly /user:mydomain\myusername powershell.exe
+# Then run programs and commands you need under the new domain login
+
+# Shutdown Computer
+Stop-Computer
+# Shutdown local computer, can be used to name remote computers as well
+Stop-Computer -ComputerName localhost
+
+# Start-Job - start a process in background that persists after shell is closed
+Start-Job -ScriptBlock { <commands> }
+Start-Job -ScriptBlock { dolphin.exe --stylesheet C:\Users\me\Code\dolpwin-dark\blue.qss --platform windows:darkmode=2 }
+
+# Update Modules
+## Run from another shell so powershell is not in use
+## SkipPublisherChecks
+pwsh -NoProfile -Command 'Update-Module -Force'
+
+# Open item with Operating System application
+Invoke-Item .\file.txt
+# Open item with default operating system application alias
+ii .\file.txt
+
+# Check command and its location
+Get-Command <command>
+
+# Convert an object to CSV
+Get-Process -Name pwsh | ConvertTo-Csv -NoTypeInformation
+
+# Get data information in long form
+Get-Date
+
+# Start a transcript file at a specific location to log session
+Start-Transcript -Path "C:\transcripts\transcript0.txt" -NoClobber
+# -Path location of file
+# -NoClobber prevents existing files from being overwritten.
+
+```
+
+## Windows Specific
+
+``` powershell
+
+# Redirect command line output to Windows clipboard, assume cat is installed
+hostname | Clip
+# Copy computer hostname to clipboard
+hostname | Set-Clipboard
+
+```
+
+## Start-Process (Administrative Rights)
+
+[Powershell Module
+Start-Process](https://learn.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/Start-Process?view=powershell-7.3)
+
+``` powershell
+# Open in new window the program to run as administrator
+Start-Process -Verb RunAs powershell.ext
+
+# Start notepad as administrator
+Start-Process -FilePath "notepad" -Wait -WindowStyle Maximized
+```
+
+## Shell history
+
+``` powershell
+
+# Get commands from history
+Get-History
+
+# Clear shell history for last 10 commands
+Clear History -Count 10 -Newest
+
+# Clear shell history for commands containing string or pattern like Help, *Syntax
+Clear-History -CommandLine *Help*, *Syntax
+
+# Clear PSReadline history
+## Check it
+Get-PSReadlineOption | select -expand historysavepath | Remove-Item  -whatif
+## Delete it
+Get-PSReadlineOption | select -expand historysavepath | Remove-Item
+# Close terminal
+
+# Open PS Readline history to edit it
+code (Get-PSReadLineOption).HistorySavePath
+
+# Got to previous working directory
+cd -
+
+# Got forward in working directory history
+cd +
+
+```
+
+## Get-Help (like man, get usage, switches)
+
+``` powershell
+
+# Get help for a specific command
+Get-Help Get-Process
+
+# Get help for a specific command with examples
+Get-Help Get-Process -Examples
+
+```
+
+## Get-Process, Stop-Process (List running processes, Stop running processes)
+
+``` powershell
+
+# Get-Process, also known as ps
+## Query for a process that contains xdr in the name
+Get-Process | Where-Object {$_.ProcessName -like "*xdr*"}
+Get-Process -Name firefox
+
+# Stop-Process, also known as kill
+## Stop a process with given process ID(s)
+Stop-Process -Id <Process ID>
+## Stop multiple processes
+Stop-Process -Id 1234,5678,9101
+
+Stop-Process -Name firefox
+
+```
+
+## Manage Modules
+
+``` powershell
+
+## Get-Module (List Powershell modules), Get-InstalledModule
+# Get all installed modules
+Get-Module -ListAvailable
+# or
+Get-InstalledModule
+
+# Install a specific module
+Install-Module AzureADPreview
+
+# Force install and skip certificate checks
+Install-Module AzureADPreview -Force -SkipPublisherCheck
+
+```
+
+## Get-ChildItem (List directory contents, alias ls)
+
+``` powershell
+
+# List contents of current directory
+Get-ChildItem
+
+# List contents of specific directory
+Get-ChildItem ~
+
+```
+
+## Web Cmdlets
+
+``` powershell
+
+
+# Invoke-WebRequest (Make web requests, alias wget)
+## Download a file at a specific URL
+## -UseBasicParsing = for compatibility
+## -OutFile = required output file location
+Invoke-WebRequest -Uri https://github.com/MicrosoftLearning/dp-300-database-administrator/raw/master/Instructions/Templates/AdventureWorks2017.bak -UseBasicParsing -OutFile 'AdventureWorks.bak'
+
+# DNS Lookup
+nslookup google.com
+
+```
+
+## Source Environment Variables
+
+This can be accomplished by Dot Sourcing.
+
+<https://stackoverflow.com/questions/13015953/import-variables-from-text-file-in-powershell>
+
+Create a .ps1 file, declare your variables in it, then dot source the
+file. This will bring any variables declared in the file into the global
+scope.
+
+Example:
+
+Contents of Variables.ps1:
+
+\$env is required for current process to see it per
+<https://stackoverflow.com/questions/66459734/cannot-read-environment-variable-set-with-powershell-with-os-environ-get>
+
+``` powershell
+
+$env:foo = "blarg"
+$env:bar = "other blarg"
+
+```
+
+Dot source it:
+
+``` powershell
+
+. ./Variables.ps1
+Write-Host "$foo $bar"
+
+# Check variable as above or using
+Get-ChildItem Env:
+
+```
+
+## Microsoft Graph PowerShell SDK
+
+``` powershell
+
+# Install Microsoft Graph PowerShell SDK
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Install-Module Microsoft.Graph -Scope CurrentUser
+# Verify
+Get-InstalledModule Microsoft.Graph
+# Update
+Update-Module Microsoft.Graph
+
+# Get user display name from principal name
+$user = Get-MgUser -Filter "userPrincipalName eq 'first.last@email.ca'"
+$user.displayName
+$user.Id
+
+```
+
+## See Also
+
+### Resources
+
+- [PowerShell Documentation - PowerShell \| Microsoft
+  Learn](https://learn.microsoft.com/en-us/powershell/)
+- [azure-tests](https://github.com/justunsix/azure-tests/) - My GitHub
+  repo testing Azure resources management using PowerShell

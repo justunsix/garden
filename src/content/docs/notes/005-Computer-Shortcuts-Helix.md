@@ -75,6 +75,7 @@ helix-editor/helix](https://github.com/helix-editor/helix/wiki/Migrating-from-Vi
 | Description                           | Shortcut           |
 |---------------------------------------|--------------------|
 | Buffer, close others                  | :bco               |
+| Hard wrap text, permanently reformat  | :reflow            |
 | Version control, change, reset a diff | :reset-diff-change |
 
 ### Selection

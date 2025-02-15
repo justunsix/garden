@@ -1,5 +1,5 @@
 ---
-date: 2024-02-25
+date: 2012-08-12
 filetags: ":ibm:tech:mainframe:epubnote:"
 id: 73b49967-bc41-4c4e-9207-ce3b2d61dba4
 title: Mainframe technology
@@ -19,12 +19,11 @@ Examples of mainframe computer usage: Bank ATMs, Payroll
   initiated by a single request that may affect one or more objects.
   This processing is usually interactive (screen-oriented), but
   background transactions are possible.
-- **DASD** direct access storage device: in [mainframe
-  computers](http://en.wikipedia.md/wiki/Mainframe_computer) and
-  some [minicomputers](http://en.wikipedia.md/wiki/Minicomputer), DASD
-  is any [secondary
-  storage](http://en.wikipedia.md/wiki/Secondary_storage) device which
-  has relatively low access time relative to its capacity.
+- **DASD** direct access storage device: in [mainframe
+  computers](http://en.wikipedia.md/wiki/Mainframe_computer) and some
+  [minicomputers](http://en.wikipedia.md/wiki/Minicomputer), DASD is any
+  [secondary storage](http://en.wikipedia.md/wiki/Secondary_storage)
+  device which has relatively low access time relative to its capacity.
 - **FICON** Fibre Connection is the IBM proprietary name for the ANSI
   FC-SB-3 Single-Byte Command Code Sets-3 Mapping Protocol for Fibre
   Channel (FC) protocol
@@ -98,23 +97,26 @@ Examples of mainframe computer usage: Bank ATMs, Payroll
 
 ## Info Library
 
-- [IBM mainframe
-  OS](http://publib.boulder.ibm.com/infocenter/zos/basics/) info site
-  for z/OS
+- [IBM z/OS Documentation](https://www.ibm.com/docs/en/zos)
+- [MVS 3.8j Tur(n)key 4- System](https://wotho.pebble-beach.ch/tk4-/) -
+  source, manuals
 - [Emulation basics](http://www.jaymoseley.com/hercules/) with Hercules
+  from jaymoseley.com
 
 ## Cookbook formerly from Volker Bandke
 
 - Find OS commands under Operation \> OS Commands cheat sheet
-- Use [Rob's Programming Facility
-  (RPF)](http://www.bsp-gmbh.com/hercules/herc_rpf.html) to substitute
-  for ISPF functions
+- Use [RPF: Rob's Programming
+  Facility](https://www.prince-webdesign.nl/rpf) to substitute for ISPF
+  functions
 - ["Easy" installation and MVS
   general](http://www.bsp-gmbh.com/hercules/index.shtml) info
 
 ## Hercules Mainframe Installation Notes
 
 ### Option 1 Docker (Recommended)
+
+Last reviewed on 2025-02-15
 
 Option 1: Turn key Docker container
 [RattyDAVE/docker-ubuntu-hercules-mvs
@@ -133,7 +135,7 @@ See repository for instructions on running and logging in
   1.  Can use prebuilt Windows (without Cygwin) version
   2.  Ignore update to hercules.cnf file for now
 
-- Install HERC GUI (Fish GUI and related files) @
+- Install HERC GUI (Fish GUI and related files) at
   <http://www.softdevlabs.com/Hercules/hercgui-index.html> including
   Fish LIB.
 
@@ -284,7 +286,7 @@ Step #4
 
 ```
 
-# Old Installation instructions via Jay's site
+## Old Installation instructions from jaymoseley.com
 
 Follow Guide <http://www.conmicro.com/hercos360/> with these exceptions
 in structions. Or this guide:
@@ -308,10 +310,3 @@ What is the path to your OS/360 distribution? /cygdrive/f/sfw/Mainframe/os360mvt
     directory and run dasdload -z …
 2.  Add TN3270 console to default gen.cnf provided as device: **001F
     3270**
-
-## See Also
-
-### Resources
-
-- [Mainframe computer -
-  Wikipedia](https://en.wikipedia.md/wiki/Mainframe_computer)

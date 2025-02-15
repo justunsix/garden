@@ -215,23 +215,18 @@ git push main2 main
 
 ## Reset and Set Git Proxy
 
-For information from OPS proxy
-
-// Define proxy variables var proxy1 = "PROXY 204.40.130.129:3128;";
-//Guelph LB VIP var proxy10 = "PROXY 204.40.194.129:3128;"; //Kingston
-LB VIP
+For information from proxy
 
 You may be prompted with a user/password when running git commands,
 enter your proxy credentials
 
 ``` bash
 
-# Set
+# Set git proxy
 git config --global https.proxy https://1.1.1.1:3128
 git config --global http.proxy http://1.1.1.1:3128
 
-# Reset
-
+# Reset git proxy
 git config --global --unset https.proxy
 git config --global --unset http.proxy
 git config --unset https.proxy

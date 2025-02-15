@@ -52,6 +52,11 @@ ffmpeg -i input.mp4 -vf "fps=10,scale=320:-1" output.gif
 # scale=320:-1: Resizes the width of the GIF to 320 pixels while maintaining the aspect ratio
 # (-1 calculates the height automatically based on the input video).
 
+# Create a git at specified time for a duration
+ffmpeg -i input.mp4 -vf "fps=10,scale=320:-1" -ss 00:00:10 -t 00:00:20 output.gif
+# -ss start time
+# -t duraction of gif
+
 # Add subtitles directly into a video
 ffmpeg -i input.mp4 -vf subtitles=input.srt output.mp4
 # subtitles=input.srt: Adds subtitles from the specified subtitle file (input.srt).
