@@ -356,38 +356,38 @@ research - manageable amounts can be helpful (Binging is never good).
 
     1.  Vision is better
 
-        1.  Action gamers can determine small details in clutter better.
-            \> E.g. reading fine print, colour differentiation
+        - Action gamers can determine small details in clutter better.
+          \> E.g. reading fine print, colour differentiation
 
-    <figure>
-    <img src="../media/Learning-TED-image3.png" />
-    <figcaption>Text Description automatically generated</figcaption>
-    </figure>
+        <figure>
+        <img src="../media/Learning-TED-image3.png" />
+        <figcaption>Text Description automatically generated</figcaption>
+        </figure>
 
-    1.  Attention, awareness
+    2.  Attention, awareness
 
-        1.  Colour/meaning conflicts are resolved faster by action
-            gamers
+        - Colour/meaning conflicts are resolved faster by action gamers
+        - Ability to track objects and remember - e.g. environmental
+          scan while driving
 
-        2.  Ability to track objects and remember - e.g. environmental
-            scan while driving
+        <figure>
+        <img src="../media/Learning-TED-image4.png" />
+        <figcaption>A picture containing diagram Description automatically
+        generated</figcaption>
+        </figure>
 
-        3.  \#+caption: A picture containing diagram Description
-            automatically generated
-            ![](../media/Learning-TED-image4.png)
+        - Areas that affect attention are more efficient for action game
+          players
 
-        4.  Areas that affect attention are more efficient for action
-            game players
+    3.  Multi-tasking
 
-    2.  Multi-tasking
+        - Action game players are better at changing focus
+        - High multi../media taskers (listening to music, searching) are
+          actually not effective at multitasking
 
-        1.  Action game players are better at changing focus
-        2.  High multi../media taskers (listening to music, searching)
-            are actually not effective at multitasking
-
-    Lab research: pretest, have people play action games, have them
-    tested again, test again after couple month. We discovered positive
-    effects last.
+        Lab research: pretest, have people play action games, have them
+        tested again, test again after couple month. We discovered
+        positive effects last.
 
 ## Physical Health
 
@@ -412,7 +412,12 @@ issues).
 - Have your pelvic "tail" behind you instead of "sitting on it". Don't
   slouch but keep pelvis/butt sticking out at the back
 
-- "J"spin, behind sticks out ![](../media/Learning-TED-image1.png)
+- "J"spin, behind sticks out
+
+<figure>
+<img src="../media/Learning-TED-image1.png" />
+<figcaption>statue and straight spine</figcaption>
+</figure>
 
 When sitting, sit back, stick butt out on back of chair, elongate spine
 and hook back on chair:
