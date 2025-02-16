@@ -345,7 +345,7 @@ Ordered outside to inside:
   - Table, column level security
   - See also [Microsoft
     Dataverse](id:cc998824-a24c-43fa-a060-0dbc98a7183d)
-    ([Dataverse](004-67-Tech-Microsoft-Dataverse.md))
+    ([Dataverse](005-Tech-Microsoft-Dataverse.md))
 
 ### Environment and Dataverse Security
 
