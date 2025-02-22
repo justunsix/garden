@@ -54,6 +54,8 @@ change over time and browsing features you may want to learn.
   Documentation](https://learn.microsoft.com/en-us/power-apps/)
 - [Power Automate - Microsoft Learn
   Documentation](https://learn.microsoft.com/en-us/power-automate/)
+- [Microsoft Power Fx overview - Power Platform \| Microsoft
+  Learn](https://learn.microsoft.com/en-us/power-platform/power-fx/overview)
 
 ### Other
 

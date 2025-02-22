@@ -5,8 +5,8 @@ id: 2709172c-00fb-4689-ab39-956a79b4eff0
 title: Microsoft Word - VB Macro to find Bolded Language and Report
 ---
 
-Source: [June Morrison](https://www.linkedin.com/in/jsmorrison/) shared
-by correspondence
+Source: [June Morrison](https://www.linkedin.com/in/jsmorrison/) (June M
+at work) shared by correspondence
 
 VB macro to detect over use of bold styles where another style like
 heading styles are more appropriate

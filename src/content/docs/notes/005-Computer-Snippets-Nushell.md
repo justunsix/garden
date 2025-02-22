@@ -57,8 +57,11 @@ $env | table
 ## Environment using table pager
 $env | explore
 
-# Detect columns in output
-podman top mycontainer | detech columns
+# Detect columns in output and output in table
+podman top mycontainer | detect columns
+
+# Convert to other format like csv, md, json, yaml, html, text
+cat mytable.md | detect columns | to csv
 
 # Find a program file, alias, or command
 which <command>

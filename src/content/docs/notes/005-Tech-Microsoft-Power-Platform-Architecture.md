@@ -2,7 +2,7 @@
 date: 2023-02-23
 description: Well-Architected Power Platform Solutions
 filetags: ":microsoft:power:platform:epubnote:"
-id: bd35fa4e-5acc-4d48-a223-b078412bca8c
+id: 7a2f5379-f2f4-4788-9d52-46bb0193b3b5
 title: Microsoft Power Platform Architecture
 ---
 

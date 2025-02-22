@@ -1,0 +1,661 @@
+---
+filetags: ":vim:shortcuts:epubnote:"
+id: bdb62bfe-56b7-4c13-a1e4-9f91cf4e0bb5
+title: Vim Shortcuts
+---
+
+## Movement
+
+From `vimtutor`
+
+To move the cursor, press the h,j,k,l keys as indicated.
+
+^ k Hint: The h key is at the left and moves left. \< h l \> The l key
+is at the right and moves right. j The j key looks like a down arrow. v
+
+## Normal and Insert, Switching Modes
+
+| Description                                           | Shortcut                                          |
+|-------------------------------------------------------|---------------------------------------------------|
+| Enter insert mode, from normal mode                   | i (insert before cursor), a (append after cursor) |
+| Leave insert mode, activate normal mode               | Esc or Ctrl + c or Ctrl + \[ (US Keyboard)        |
+| Leave insert mode, activate normal mode for 1 command | Ctrl + o                                          |
+| Quit and Save                                         | Z Z , :wq                                         |
+| Quit and do not save                                  | Z Q , :q!                                         |
+
+## File Explorer, netrw
+
+| Description                                  | Shortcut            |
+|----------------------------------------------|---------------------|
+| File Explorer, open                          | :Explore or :edit . |
+| File Explorer, new tab in current directory  | :Te                 |
+| File Explorer, open file selected in new tab | t                   |
+| File Explorer, open file selected in split   | s                   |
+| File Explorer, Delete file                   | D                   |
+| File Explorer, Rename file                   | R                   |
+| File Explorer, Make directory                | d                   |
+
+## Command (Ex) Mode - Frequently Used
+
+| Description                                         | Shortcut          |
+|-----------------------------------------------------|-------------------|
+| Save (write)                                        | :w                |
+| Save all open buffers                               | :wa               |
+| Quit                                                | :q                |
+| Save only if there are changes and quit             | :x                |
+| Save, write buffer even if no changes and quit      | :wq               |
+| See working directory                               | :pwd              |
+| Change directory to current open file/buffer        | :cd %:p:h         |
+| Change directory to specific directory              | :cd \<directory\> |
+| Change directory to current working directory (cwd) | :lcd              |
+| Quit without saving                                 | :q!               |
+
+### Command Mode - Other
+
+| Description                                          | Shortcut                    |
+|------------------------------------------------------|-----------------------------|
+| Search: command history                              | C-f                         |
+| Search: set case insensitive                         | :set ic                     |
+| Search: set case sensitive                           | :set noic                   |
+| Search: highlight                                    | :set hls                    |
+| Edit \<file\>                                        | :e \<file\> or :edit \<file |
+| Show list of commands / autocomplete                 | : \<…\> Ctrl + D or tab     |
+| Autocomplete, chose choices                          | Tab                         |
+| Autocomplete, accept choice, keep in command mode    | Ctrl + y                    |
+| Line numbers: absolute as in file / deactivate       | :set nu :set nonu           |
+| Line numbers: relative to point / deactivate         | :set rnu :setnornu          |
+| Line numbers: hybrid of above / deactivate           | :set:nu rnu :set nonu nornu |
+| Earlier, go back in time of file, 2 number of times  | :earlier 2                  |
+| Earlier, go back in time of file, {N} minutes before | :earlier {N}m               |
+| Make, run make by default or makeprg defined command | :make                       |
+| Messages, Vim logs View                              | :messages                   |
+| Lines, copy given line range, see :h cmdline-ranges  | :copy or :t                 |
+| Lines, move given line range                         | :norm                       |
+| Normal mode commands execution                       | :move or :m                 |
+
+:copy, :move, :norm examples
+
+- Copy previous 2 lines and current line: `:-2,t`
+- Move line down: `:m+1`, move line up 2 `:m-2`
+- Append \\ to all lines in buffer: `:%norm A\\`
+- In Python, comment all lines with the word print: `:g/print/norm I#`
+- Find all lines with the pattern beg.\*tab (e.g. \begin{tabular}) and
+  go to line before and append \\ to line: `g/beg.*tab/norm kA\\`
+  - Find all the lines matching the pattern beg.\*tab (a way for me to
+    match \begin{tabular} without having to type the whole thing).
+  - For each of those lines, go to the preceding line.
+  - Append \\ to that line.
+
+1.  Global :g examples - act on range, pattern and Ex execute command
+
+    Source: [Power of g - Vim
+    Tips](https://vim.fandom.com/wiki/Power_of_g)
+
+    | Description                                                        | Shortcut                                                                             |
+    |--------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+    | Global, act on range, pattern and execute command                  | :\[range\]g/pattern/cmd                                                              |
+    | Global, Display context (5 lines) for all occurrences of a pattern | :g/pattern/z#.5                                                                      |
+    | Global, Delete all lines matching a pattern                        | :g/pattern/d                                                                         |
+    | Global, Delete all lines not matching a pattern                    | :g!/pattern/d or :g!/pattern/d                                                       |
+    | Global, Delete all blank lines                                     | :g/^$/d                     |                                                        
+                                                                          | Global, Copy all lines matching pattern to end of file             | :g/pattern/t$  |
+    | Global, Copy all lines matching a pattern to register 'a'          | qaq:g/pattern/y A                                                                    |
+    | Global, Fast Delete (do not copy) all lines matching a pattern     | :g/pattern/d \_                                                                      |
+
+    See more with
+
+    - :help ex-cmd-index provides a list of Ex commands.
+    - :help 10.4 is the section of the user manual discussing the
+      :global command.
+    - :help multi-repeat talks about both the :g and :v commands.
+
+## Common VI Shortcuts
+
+This first table per [DevOps Bootcamp Series with Nana
+Janashia](id:47b64b3b-67a0-4cc5-9e96-2369c5877b08) ([DevOps Bootcamp
+with Nana](005-Computer-Tech-DevOps-Bootcamp-TWN.md))
+
+Other table per `vimtutor` command
+
+| Description                                                                | Shortcut                             |
+|----------------------------------------------------------------------------|--------------------------------------|
+| Delete character at point                                                  | x                                    |
+| Delete line                                                                | dd                                   |
+| Delete 10 lines                                                            | d10, d                               |
+| Delete all lines                                                           | :%d                                  |
+| Undo                                                                       | u                                    |
+| Enter Insert mode, at beginning of line                                    | I                                    |
+| Enter Insert mode, append text at end of character at point                | a                                    |
+| Enter Insert mode, Append text at end of line, insert mode                 | A                                    |
+| Enter Insert mode, at new line below / above current one                   | o, O                                 |
+| Go to line 12, Go to line 100                                              | 12G, 100G or :100                    |
+| Jump to beginning of line (bol)                                            | 0 / Home / ^ (soft)                  |
+| Jump to end of line (eol)                                                  | \$ / End                             |
+| Jump history back, forward                                                 | C-o, C-i                             |
+| Go to, beginning of file                                                   | gg                                   |
+| Go to, last selected text                                                  | gv                                   |
+| Go to file, url at point (open with system app)                            | gf , gx                              |
+| Go to, end of file                                                         | G                                    |
+| Go to, last insert mode                                                    | gi                                   |
+| Replace all occurrences of string<sub>old</sub> with new, new can be blank | :%s/string<sub>old</sub>/new         |
+| Replace in region string<sub>old</sub> with new, new can be blank          | :'\<,'\>s/string<sub>old</sub>/new/g |
+| Repeat last command, repeat macro (like command, inserts, combos)          | .                                    |
+| Search: command history                                                    | q: (like C-f in command mode)        |
+
+### Editing
+
+| Description                                    | Shortcut                         |
+|------------------------------------------------|----------------------------------|
+| Redo                                           | Ctrl + r                         |
+| Select, Start select - visual selection        | v                                |
+| Select, visual and selected area               | v i \<choose selection options\> |
+| Select, visual and text inside selected symbol | v i \], v i ', v i "             |
+| Select, visual line mode                       | V                                |
+| Select, visual block mode (rectangle mark)     | C-v                              |
+| Copy (yank) selection                          | y                                |
+| Copy (yank) word                               | yw                               |
+| Copy (yank inside) content inside quotations " | yi"                              |
+| Copy (yank) entire line                        | yy                               |
+| Copy (yank) entire file                        | :%y or gg v G, or :1,\$y         |
+| Copy 1 to 10 lines of file                     | :1,10y                           |
+| Put (paste deleted or copied text)             | p                                |
+| Case of character at point, toggle             | ~                                |
+| Case of word, toggle                           | g~w                              |
+| Case of inner tag selection, toggle            | g~it                             |
+| Join lines                                     | J                                |
+| Format, auto format                            | = =                              |
+
+- `p` can be combined with `dd` to delete and then paste the deleted
+  line.
+
+### Registers
+
+Source: :h registers, <https://www.brianstorti.com/vim-registers/>
+
+| Description                                                        | Shortcut   |
+|--------------------------------------------------------------------|------------|
+| Registers mini-mode (insert mode)                                  | C-r        |
+| Registers mini-mode (insert mode), paste (system clipboard)        | \+         |
+| Registers mini-mode (insert mode) paste from register 'a'          | C-r a      |
+| Register - access register at char 'r'                             | "r         |
+| Register - yank text to register 'r'                               | "ry        |
+| Register - paste text from register 'r'                            | "rp        |
+| Registers - List, last 0-9 registers are last yanked (copied) text | :reg       |
+| Registers - List                                                   | :reg a b c |
+
+1.  4 read only Registers
+
+    | Description                                       | Shortcut |
+    |---------------------------------------------------|----------|
+    | Register: Last inserted text                      | ".       |
+    | Register: Current file path                       | "%       |
+    | Register: Last executed command                   | ":       |
+    | Register: Alternative file, like last edited file | "#       |
+
+2.  Expression and Search Registers
+
+    | Description           | Shortcut |
+    |-----------------------|----------|
+    | Register: Expressions | "=       |
+    | Register: Search      | "/       |
+
+    1.  Example use
+
+        - ". to write same text twice
+        - "% enter current file name in commands
+        - ": to re run the last command like :w
+        - "# is the file used with Ctrl + ^
+        - \#= used with results of expression, like in insert mode, do
+          Ctrl+r = and do `2+2 <enter>`, then 4 is printed. Or do Ctrl+r
+          = and in the command do `system('ls') <enter>` and the output
+          of the `ls` command is pasted in the buffer
+        - "/ to reuse the last searched word for another search and
+          search and replace
+
+3.  Moving by Words ("web and WEB") and Lines
+
+    | Description                               | Shortcut |
+    |-------------------------------------------|----------|
+    | Move one word forward / after whitespace  | w / W    |
+    | Move one word backward / after whitespace | b / B    |
+    | Move to end of word / after whitespace    | e / E    |
+    | Move to word after next whitespace        | W        |
+    | Move to end of line                       | \$       |
+    | Move to beginning of line                 | 0        |
+
+    - Specifically, a capital W will move to just after the next
+      whitespace character, where a lowercase w will use other forms of
+      punctuation to delimit a word.
+
+    1.  Listing 9. Example Method Call and usage of web and WEB
+
+        Source: [Chapter 3: Getting Around - LazyVim for Ambitious
+        Developers](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-3/#_moving_by_words_only_bigger)
+
+        ``` txt
+
+        myObj.methodName("foo", "bar", "baz")
+        -----ww---------w-w--w--ww--w--ww--w---->
+        ------------------------W------W-------->
+
+        ```
+
+        | Description                                                 | Shortcut                     |
+        |-------------------------------------------------------------|------------------------------|
+        | Replace character at point                                  | r + \<character to replace\> |
+        | Replace mode (like Insert mode, delete replaced characters) | R                            |
+
+        `v` visual selection can be combined with commands `d` for
+        delete, `y` for copy, `c` for change
+
+4.  Open lines
+
+    | Description                         | Shortcut |
+    |-------------------------------------|----------|
+    | Open line below cursor, insert mode | o        |
+    | Open line above cursor              | O        |
+
+5.  Files
+
+    | Description                          | Shortcut    |
+    |--------------------------------------|-------------|
+    | Save selected lines to file FILENAME | :w FILENAME |
+
+6.  Combination Commands
+
+    | Description                                                   | Shortcut                 |
+    |---------------------------------------------------------------|--------------------------|
+    | Replace content between symbols                               | di + \<symbol\> like di" |
+    | Cut content between symbols                                   | ci + \<symbol\> like ci( |
+    | Swap lines up and down (delete line, paste it)                | ddp                      |
+    | Delete entire document - G from first line, gg from last line | dG or dgg                |
+    | Auto indent entire document                                   | gg=G                     |
+
+### Movement and Search
+
+1.  Movement
+
+    | Description                                                    | Shortcut           |
+    |----------------------------------------------------------------|--------------------|
+    | Jump \# of times using hjkl cursor                             | 10j / \#j          |
+    | Page Up                                                        | Ctrl + b           |
+    | Page Down                                                      | Ctrl + f           |
+    | Half page up                                                   | Ctrl + u           |
+    | Half page down                                                 | Ctrl + d           |
+    | Move cursor top, middle, bottom of screen                      | (Shift) H, M, L    |
+    | z mini mode: Move screen and leave cursor, top, bottom, middle | zt, zb, zz         |
+    | Search word at point                                           | \*                 |
+    | Begin/End of sentence                                          | ( / )              |
+    | Begin/End of paragraph                                         | { / }              |
+    | Find mode, character, move to next match                       | f \<char\>         |
+    | Find mode, move to next match of pattern                       | ;                  |
+    | Find mode (til / until), character, move to before it          | t \<char\>         |
+    | Navigation Previous, method start                              | \[m                |
+    | Navigation Previous, method end                                | \[M                |
+    | Navigation Previous, ( or { or \<                              | \[( or \[{ or \[\< |
+    | Navigation Next )                                              | \])                |
+    | Navigation Previous, Spelling error                            | \[s                |
+    | Navigation Next, Spelling error                                | \]s                |
+
+2.  Search and Replace
+
+    | Description                                | Shortcut               |
+    |--------------------------------------------|------------------------|
+    | Search text in file forwards               | / + \<phrase\> + Enter |
+    | Search next / previous                     | n / N                  |
+    | Search text in file backwards              | ? + \<phrase\> + Enter |
+    | Find matching bracket                      | %                      |
+    |                                            |                        |
+    | Change text in brackets                    | ci\[ or ci\] or ci{    |
+    | Search x and Replace with y in entire file | :%s/x/y/g              |
+
+    1.  Search and Replace Command Mode
+
+        - To substitute new for the first old in a line type
+          `:s/old/new`
+        - To substitute new for all 'old's on a line type `:s/old/new/g`
+        - To substitute phrases between two line \#'s type
+          `:#,#s/old/new/g`
+        - To substitute all occurrences in the file type `:%s/old/new/g`
+        - To ask for confirmation each time add 'c' `:%s/old/new/gc`
+
+        1.  Using do commands
+
+            Source: [Search and replace in multiple files - Vim Tips
+            Wiki](https://vim.fandom.com/wiki/Search_and_replace_in_multiple_buffers)
+
+            - :argdo: (all files in argument list)
+            - :bufdo (all buffers)
+            - :tabdo (all tabs)
+            - :windo (all windows in current tab)
+            - :cdo (all files listed in quickfix list)
+
+            ``` vim-command-mode
+
+            # Search and replace in all open buffers from :ls
+            :bufdo %s/pattern/replace/ge | update
+
+            # Explanation
+            # bufdo     Apply the following commands to all buffers.
+            # %s    Search and replace all lines in the buffer.
+            # pattern   Search pattern.
+            # replace   Replacement text.
+            # g     Change all occurrences in each line (global).
+            # e     No error if the pattern is not found.
+            # |     Separator between commands.
+            # update    Save (write file only if changes were made).
+
+            # Suppose all *.cpp and *.h files in the current directory need to be changed (not subdirectories)
+            # use the argument list (arglist):
+            :arg *.cpp  All *.cpp files in current directory.
+            :argadd *.h     And all *.h files.
+            :arg    Optional: Display the current arglist.
+            :argdo %s/pattern/replace/ge | update   Search and replace in all files in arglist.
+
+            # Search and replace, change, with all files
+            :arg **/*.cpp   All *.cpp files in and below current directory.
+            :argadd **/*.h  And all *.h files.
+            ...     As above, use :arg to list files, or :argdo to change.
+
+            # Replace current word
+            :arg **/*.cpp   All *.cpp files in and below current directory.
+            :argadd **/*.h  And all *.h files.
+            ...     As above, use :arg to list files, or :argdo to change.
+
+            ```
+
+3.  Tags
+
+    | Description                 | Shortcut |
+    |-----------------------------|----------|
+    | Find tag                    | C-\]     |
+    | Find ambiguous tag          | g C-\]   |
+    | Jump back in tag jump stack | C-t      |
+
+### Deletions
+
+Using `d` delete operator and a motion that the operator will operate on
+
+| Description                               | Shortcut |
+|-------------------------------------------|----------|
+| Delete word with first character at point | dw       |
+| Delete to end of line                     | d\$      |
+| Delete to end of current word             | de       |
+
+1.  Delete with Counts
+
+    | Description               | Shortcut   |
+    |---------------------------|------------|
+    | Delete 2 words from point | d2w / d#w  |
+    | Delete 2 / \# of lines    | 2dd / \#dd |
+
+2.  Change Operator
+
+    Delete and make changes
+
+    | Description                              | Shortcut |
+    |------------------------------------------|----------|
+    | Delete to end of word and insert mode    | ce       |
+    | Delete line and insert mode              | cc       |
+    | Delete line to end from point and insert | c\$      |
+
+### Counts for a motion
+
+| Description                         | Shortcut |
+|-------------------------------------|----------|
+| Move cursor 2 / \# words forward    | 2w / \#w |
+| Move cursor 2 / \# words backward   | 2b / \#b |
+| Move curse to end of 3 / \# forward | 3e / \#e |
+
+### Macro
+
+Source: :h recording, <https://www.redhat.com/sysadmin/use-vim-macros>
+and <https://www.brianstorti.com/vim-registers/>
+
+- To record a macro and save it to a register, type the key q followed
+  by a letter from a to z that represents the register to save the
+  macro, followed by all commands you want to record, and then type the
+  key q again to stop the recording.
+
+- q\<register\>\<commands\>q
+
+- Execute macro: @
+
+- Repeat last macro: @@
+
+- Example to store macro in register a, go down and delete line:
+  `qajddq`
+
+1.  Macros are just text and can be edited, examples
+
+    - Add a semicolon to end of the `w` macro :let @W='i;'
+      - W in uppercase means append value to the register
+    - Edit the register :let @w '\<Ctrl-r w\> and change what you want
+      and close the quotes
+    - Copy `ivim is awesome` into the clipboard register "+ and execute
+      @"+
+
+2.  Sample Key Combinations
+
+    Delete lines containing a string in a file
+
+    :g/\<your<sub>string</sub>\>/d
+
+    - :g Prepare to execute a command globally (on all lines that match
+      a certain pattern).
+    - /\<your<sub>string</sub>\> Start specifying the pattern to match
+      \<your<sub>string</sub>\>. Replace this with the string you want
+      to delete lines based on.
+    - / End specifying the pattern to match.
+    - d The command to execute on all lines that match the pattern. In
+      this case, delete those lines.
+
+### Marks (Bookmarks)
+
+Source: [Using Marks - Vim Tips
+Wiki](https://vim.fandom.com/wiki/Using_marks)
+
+| Description                              | Shortcut                |
+|------------------------------------------|-------------------------|
+| Mark place in file                       | m \<lower case letter\> |
+| Mark place in file to access in any file | m \<upper case letter\> |
+| Marks, normal mode, go to mark           | \` \<mark letter\>      |
+| Marks, list marks                        | :marks                  |
+
+### Fold
+
+| Description | Shortcut |
+|-------------|----------|
+| Fold, open  | zo       |
+| Fold, close | zc       |
+
+## Insert (Edit) Mode
+
+### Editing
+
+| Description                               | Shortcut |
+|-------------------------------------------|----------|
+| Delete word at point                      | C-w      |
+| Delete character at point                 | C-h      |
+| Run normal mode command, then run command | C-o      |
+
+### Completion (Autocomplete) in Insert Mode
+
+| Description                                 | Shortcut   |
+|---------------------------------------------|------------|
+| Completion, (autocomplete)                  | C-n or C-p |
+| Completion, anything from file              | C-x C-n    |
+| Completion, on filenames                    | C-x C-f    |
+| Completion, on tags                         | C-x C-\]   |
+| Completion, anything with 'complete' option | C-n        |
+
+## Status, External, Spell Commands
+
+| Description                   | Shortcut                       |
+|-------------------------------|--------------------------------|
+| Show file location and status | Ctrl + g                       |
+| Retrieve and place in buffer  | r \<file or external command\> |
+| Spell check                   | :set spell                     |
+
+### External Commands
+
+| Description           | Shortcut      |
+|-----------------------|---------------|
+| Execute shell command | :!\<command\> |
+
+1.  External Command Examples
+
+    ``` shell
+
+    # Execute shell command to list directory, then press enter to return to vim
+    !ls
+
+    # Get command output of {cmd} and place in buffer
+    :r !{cmd}
+    # Place date in buffer
+    :r !date
+
+    # Get file and place in buffer
+    :r {file}
+
+    # Replace current line with output of shell
+    # Example use: decoding strings, formatting text like json, using . for the current line
+    :.!{cmd}
+    # Replace entire buffer with command output, using % for entire
+    :%!{cmd}
+    # Replace a selection with the output of a shell command
+    # Example use: sorting, complex text changes
+    :'<,'>!{cmd}
+    #### Sort entire buffer
+    :% !sort
+
+    # Send current buffer as input to a command
+    :w !{cmd}
+
+    ## Practical Examples
+
+    ### Backup a file
+    :!cp % %.bak
+
+    ### Insert External Data
+    #### Date
+    :r !date
+
+    ### Buffer as command input
+    #### Create files listed in the buffer
+    :w !xargs touch
+
+    #### Decode base64 string on current line and replace the line in buffer
+    :.!base64 -d
+    #### Format current line json
+    :.!jq .
+
+    #### Sort selection
+    :'<,'>!sort
+
+    #### Sort case insensitive
+    :'<,'>!sort i
+
+    ```
+
+    1.  Key binding
+
+        Execute current line and output the result to the command line.
+        Execute in bash and see result in Vim
+
+        vim.keymap.set("n", "\<leader\>ex", ":.w !bash -e\<cr\>", opts)
+
+        Execute file and see results in Vim
+
+        vim.keymap.set("n", "\<leader\>eX", ":%w !bash -e\<cr\>", opts)
+
+        [6 Practical External Command Tricks: Level Up Your Neo(vim)
+        Skills](https://itnext.io/6-practical-external-command-tricks-level-up-your-neo-vim-skills-ed656abf38b1)
+
+## Window management and movement
+
+| Description                         | Shortcut                            |
+|-------------------------------------|-------------------------------------|
+| Move to next window                 | Ctrl + w Ctrl + w                   |
+| Switch to windows by direction      | Ctrl + w, hjkl                      |
+| Split frame, horiztonal (top, down) | C-w, s                              |
+| Split frame, vertical (left, right) | C-w, v                              |
+| Close split frame                   | C-w c                               |
+| Close window                        | :q                                  |
+| Zoom in / Zoom out                  | Ctrl + Shift + - / Ctrl + Shift + = |
+
+### Buffers
+
+| Description                                         | Shortcut                                        |
+|-----------------------------------------------------|-------------------------------------------------|
+| List buffers                                        | ls                                              |
+| Switch buffers                                      | :bnext :bprevious :bp                           |
+| Switch buffers by number or (partial) name          | :b \<number or name or partial unique name\>    |
+| Switch buffers - see also Navigation previous, next | \[b , \]b                                       |
+| Buffer Forward                                      | Ctrl + i                                        |
+| Buffer Back                                         | Ctrl + o , Ctrl + ^                             |
+| Buffer back to last buffer, alternate buffers       | Ctrl + ^ (Ctrl + Shift + 6, sometimes Ctrl + 6) |
+| Refresh buffer                                      | :e                                              |
+| Close buffer                                        | :bd                                             |
+
+### Tabs
+
+| Description                         | Shortcut          |
+|-------------------------------------|-------------------|
+| Edit/Open in new tab                | :tabe example.txt |
+| Open current buffer in new tab      | :tabnew %         |
+| Close tab                           | :tabc (close)     |
+| Close all other tabs except current | :tabo (only)      |
+| Next tab                            | gt                |
+| Prior tab                           | gT                |
+| Numbered tab                        | nnngt             |
+| list all tabs                       | :tabs             |
+
+## Help
+
+| Description                               | Shortcut           |
+|-------------------------------------------|--------------------|
+| Help                                      | :help or :h        |
+| Help key                                  | F1                 |
+| Help on command                           | :help \<command\>  |
+| Help on a key in normal mode              | :help \<key\>      |
+| Help on a key in insert mode              | :help i\_\<key\>   |
+| Help on a key in command mode             | :help c\_\<key\>   |
+| Help, search for a word                   | :helpgrep \<word\> |
+| Documentation at point                    | K                  |
+| Documentation at point, enter docs buffer | Ctrl + w, Ctrl + w |
+
+## Terminal
+
+| Description                 | Shortcut       |
+|-----------------------------|----------------|
+| Open terminal               | :term          |
+| Exit to Normal mode         | Ctrl-\\ Ctrl-N |
+| Bring up/Hide open terminal | C-/            |
+
+- Tip on switching to terminal on Unix/Linux:
+  - Ctrl + z to have vim go into background and bring up terminal
+  - fg to resume vim
+
+## Sessions
+
+| Description                              | Shortcut                    |
+|------------------------------------------|-----------------------------|
+| Suspend vim, go back to terminal         | C-z                         |
+| Suspend vim, from terminal return to vim | Type fg in terminal + enter |
+| Save a session to file                   | mksession session.vim       |
+| Load a session from file                 | source session.vim          |
+
+## See Also
+
+- [DevOps Bootcamp Techworld with
+  Nana](005-Computer-Tech-DevOps-Bootcamp-TWN.md) - [DevOps Bootcamp
+  Series with Nana Janashia](id:47b64b3b-67a0-4cc5-9e96-2369c5877b08)
+- [Neovim Shortcuts](005-Computer-Shortcuts-Neovim.md) - [Neovim
+  Shortcuts](id:441cec9c-4ca1-479a-9dcc-b0b0bbe294f6)
+
+### Resources
+
+- `vimtutor` command tutorial in terminal
+- [LazyVim for Ambitious Developers, Vim, Neovim, Lazyvim
+  Guide](https://lazyvim-ambitious-devs.phillips.codes/)

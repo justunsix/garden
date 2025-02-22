@@ -78,8 +78,9 @@ rustup component add rust-analyzer rustfmt clippy
 // Trait - The Rng trait defines methods that random number generators implement
 use rand::Rng;
 
-/* Match Expression
-   Made up of arms */
+// Example of multiple line comments
+// Match Expression
+// Made up of arms
 match guess.cmp(&secret_number) {
         Ordering::Less => println!("Too small!"),
         Ordering::Greater => println!("Too big!"),
@@ -120,6 +121,12 @@ const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
 let x = 5;
 let x = x + 1; // x is 6
 
+```
+
+## Data Types
+
+``` rust
+
 // Scalars - Integers
 let unsignedint : i18 = 1000 // or 1_000 where _ is visual separator
 
@@ -154,6 +161,99 @@ fn main() {
 }
 
 // Compound Types - Tuples and Arrays
+// Fixed length, can have multiple types
+// The variable tup binds to the entire tuple because a tuple is considered a single compound element
+// Can use pattern matching to destructure a tuple value, like:
+fn main() {
+    let tup = (500, 6.4, 1);
+
+    let (x, y, z) = tup;
+
+    println!("The value of y is: {y}");
+}
+
+// Array Type
+// Fixed length, cannot be changed, allocated on stack
+fn main() {
+    let a = [1, 2, 3, 4, 5];
+}
+
+#![allow(unused)]
+fn main() {
+let months = ["January", "February", "March", "April", "May", "June", "July",
+              "August", "September", "October", "November", "December"];
+}
+
+// Array using square brackets with the type of each element, a semicolon,
+// and then the number of elements in the array
+#![allow(unused)]
+fn main() {
+let a: [i32; 5] = [1, 2, 3, 4, 5];
+}
+
+// Create array with same value for each element by
+// specifying the initial value, followed by a semicolon, and then
+// length of the array in square brackets
+#![allow(unused)]
+fn main() {
+    let a = [3; 5];
+    // Accessing array elements
+    let first = a[0];
+    let second = a[1];
+
+}
+
+```
+
+## Functions
+
+- Use snake<sub>case</sub>
+
+``` rust
+
+// Function with parameter
+fn main() {
+    another_function(5);
+}
+
+fn another_function(x: i32) {
+    println!("The value of x is: {x}");
+}
+
+// Statements and Expressions
+// Statements are instructions that perform some action and do not return a values
+// Expressions evaluate to a resultant value. Let’s look at some examples.
+
+let y = 6; // a statement
+
+fn main() {
+    let y = 6;
+    // expression evaluating to 7
+    y + 1
+}
+
+// Functions with return values
+fn five() -> i32 {
+    5
+}
+
+fn main() {
+    let x = five();
+
+    println!("The value of x is: {x}");
+}
+
+fn main() {
+    let x = plus_one(5);
+
+    println!("The value of x is: {x}");
+}
+
+fn plus_one(x: i32) -> i32 {
+    // return
+    x + 1
+}
+
 
 
 ```

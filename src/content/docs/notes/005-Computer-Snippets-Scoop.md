@@ -6,6 +6,9 @@ title: Scoop Windows Package Manager Snippets
 
 ``` powershell
 
+# Install a program
+scoop install git
+
 # Update all programs
 scoop update -a
 
@@ -32,3 +35,28 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; Invoke-Res
 ```
 
 \>
+
+## Installing and using scoop
+
+On Windows, install tools using [Scoop](https://scoop.sh/). Run the
+command line installer using instructions from scoop. No administrative
+rights are needed.
+
+After `scoop` is installed, search for programs you want to use at
+[Scoop](https://scoop.sh/), then on command line, using the `scoop`
+command to install them.
+
+For example, to install `git`, VS Code, and Figma:
+
+``` powershell
+# Add extras bucket to scoop which has more programs
+scoop bucket add extras
+scoop install extras/vscode git figma
+```
+
+For example, install `nodejs` long term support version and `python`
+latest version:
+
+``` powershell
+scoop install nodejs-lts python
+```

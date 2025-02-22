@@ -190,3 +190,12 @@ Learn](https://learn.microsoft.com/en-us/training/paths/use-basic-formulas-power
       - Users can be notified by email
     - Click share
     - Create a notification plan to users of updates
+
+## Modern Controls
+
+- Modern controls offer simpler developer and a user experience that is
+  visually themed. They focus on accessibility, usability, performance
+  and themes
+- Activate "Modern controls and themes" in settings
+- Themes can be applied and configured
+  - Referenced in Power Fx with `App.Theme`

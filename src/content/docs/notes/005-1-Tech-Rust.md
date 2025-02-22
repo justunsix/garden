@@ -12,7 +12,7 @@ title: Rust Language
   - Cloud and desktop applications
   - Large technology company usage and support
   - Linux kernel
-- Programmer preference
+- Programmer preference and productivity
 
 ### Use Cases
 
@@ -72,6 +72,8 @@ cargo packages (can use cargo binstall):
 
     - [The Rust Programming Language
       Book](https://doc.rust-lang.md/book/)
+    - [Rust in Action
+      (book)](https://www.manning.com/books/rust-in-action)
     - [Rust By Example](https://doc.rust-lang.md/rust-by-example/) -
       [examples source
       code](https://github.com/rust-lang/rust-by-example)

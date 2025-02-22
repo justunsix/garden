@@ -1,8 +1,7 @@
 ---
 filetags: ":command:cli:snippets:epubnote:"
 id: 105e4b70-09da-40e7-9d7f-3798899a3b00
-title: "[awk Snippets - text processing and pattern
-  scanning](005-Computer-Snippets-awk.md)"
+title: awk Snippets - text processing and pattern scanning
 ---
 
 Source for many examples: [Learning Awk Is Essential For Linux Users -

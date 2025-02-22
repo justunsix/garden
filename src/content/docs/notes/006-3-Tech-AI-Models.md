@@ -16,7 +16,8 @@ title: Artificial Intelligence (AI) Models
 | [Deepseek-R1](https://ollama.com/library/deepseek-r1)        | General                  | Reasoning                                                |       |
 | [Gemma2](https://ollama.com/library/gemma2)                  | General                  | 2B good for low hardware                                 | [^6]  |
 | [Llama3](https://ollama.com/library/llama3)                  | General                  |                                                          | [^7]  |
-| [Medllama2](https://ollama.com/library/medllama2)            | Medical question         | Trained on open source medical data                      | [^8]  |
+| [Medllama2](https://ollama.com/library/medllama2)            | Medical                  | Medical questions, trained on open source medical data   | [^8]  |
+| [Meditron](https://ollama.com/library/meditron)              | Medical                  | Medical questions, diagnosis, information                |       |
 | [Mistral](https://ollama.com/library/mistral)                | General, Programming     | 7B ok for low hardware                                   | [^9]  |
 | [Moondream](https://ollama.com/library/moondream)            | Vision                   | Small for edge devices                                   |       |
 | [Nemotron-mini](https://ollama.com/library/nemotron-mini)    | Role-play, RAG, Function | 4b for low hardware                                      | [^10] |
