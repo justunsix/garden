@@ -9,7 +9,7 @@ title: Microsoft SharePoint
 Source: [Introducing the SharePoint Pages Authoring Accessibility
 Assistant \| Microsoft Community
 Hub](https://techcommunity.microsoft.com/blog/SPBlog/introducing-the-sharepoint-pages-authoring-accessibility-assistant/4369998)
-and June M at work
+and Correspondence with June M at work
 
 - Open page in Edit mode
 - Access right toolbar and select Accessibility Assistant (person icon)

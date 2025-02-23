@@ -6,7 +6,7 @@ title: Power Automate - Populate an Office Template
 
 Source: [Populate a Word Template with Power Automate \| How to
 Tutorial - YouTube](https://www.youtube.com/watch?v=vpo_U5Qf1ak) and
-June M at work
+Correspondence with June M at work
 
 - Create Microsoft Word Template with content controls - for example,
   select a template and creating fields like text and images to populate

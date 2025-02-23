@@ -11,7 +11,7 @@ victoria.dev](https://victoria.dev/how-to-future-proof-your-software-engineering
 
 Article describes concepts and learning to prepare for a career in
 artificial intelligence, including artificial general intelligence (AGI)
-in 2025. It suggests places to find learning
+in 2025. It suggests places to find learning.
 
 ## Why prepare for Artificial General Intelligence (AGI)?
 
@@ -80,9 +80,43 @@ Below are areas to look at for preparing yourself
 
 ### How to learn
 
-- Read about policy at organizationsl and government
+- Read about policy at organizations and government
 - Learn social sciences
 
 ## Human Computer Interaction (HCI)
 
+- Need for ways for humans to interact with systems
+
+### Topics
+
+- Psychology
+- User experience and user interface design
+
 ### How to learn
+
+- Courses: AI system like above with focus on design and interaction.
+  See relevant courses on [Interaction Design
+  Foundation](https://www.interaction-design.md/) and
+  [Coursera](https://www.coursera.md/search?query=human%20computer%20interaction)
+- Projects: Design user interfaces for AI integrated applications like
+  conversational agents and dashboards
+
+## Autonomous Systems and Robotics
+
+- Autonomous robots through improving robotics with artificial
+  intelligence
+- Robots that can do tasks in unstructured environments, learn, and work
+  with humans
+
+### Topics
+
+- Self-driving vehicles
+- Drones
+- Robotics
+
+### How to learn
+
+- Courses: autonomous systems, computer vision, AI integration
+- Projects: build an autonomous vehicle, programming a robot for tasks
+
+## Hardware Development

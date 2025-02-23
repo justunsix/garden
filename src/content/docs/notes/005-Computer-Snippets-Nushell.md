@@ -18,10 +18,13 @@ open <file>
 open data.csv | select "First Name" column2 column3 column4
 
 # Read a csv file, find a specific row and output specific columns
-open contacts.csv | where "First Name" =~ "Sonia" | select "First Name" "Last Name" "E-mail Address" "Mobile Phone"
+open contacts.csv | where "First Name" =~ "John" | select "First Name" "Last Name" "E-mail Address" "Mobile Phone"
 
 # Transpose table display - useful for small amount of rows, but many columns
-open contacts.csv | where "First Name" =~ "Sonia" | select "First Name" "Last Name" "E-mail Address" "Mobile Phone" | transpose
+open contacts.csv | where "First Name" =~ "John" | select "First Name" "Last Name" "E-mail Address" "Mobile Phone" | transpose
+
+# Read csv data, filter and only return non-empty items in Phone field
+open contacts.csv | where "First Name" =~ "John" | compact Phone
 
 # Output default config.nu and save to file
 config nu --default | save config.nu
@@ -47,6 +50,8 @@ open file.txt | str replace --all 'hello' 'hi'
 # See processes with table pager explore
 ## Explore use Vim key bindings
 ps | explore
+# See first 10 processes
+ps | first 10
 # Find a process that contains a name "gnome" and sort by cpu
 ps | where name =~ 'gnome' | sort-by cpu
 # Kill a process

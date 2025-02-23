@@ -15,7 +15,7 @@ Use case: Reuse text you often use in emails from a save template
 
 ### Alternative method to saving email templates
 
-Source: June M at work
+Source: Correspondence with June M at work
 
 - In Outlook, create a new message and format it as a template. Save it
   as a draft
@@ -30,7 +30,7 @@ Source: June M at work
 
 ## Finding the Folder that Contains a Message
 
-Source: Jim M at work
+Source: Correspondence with Jim M at work
 
 If you’ve ever tried to find a folder you’d created in Outlook.
 

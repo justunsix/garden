@@ -46,6 +46,17 @@ ffmpeg -re -i input.mp4 -c:v libx264 -f flv http://localhost:8080/live
 # -re ensures the stream is read in real-time
 # -f flv choose FLV format for streaming
 
+
+# Add subtitles directly into a video
+ffmpeg -i input.mp4 -vf subtitles=input.srt output.mp4
+# subtitles=input.srt: Adds subtitles from the specified subtitle file (input.srt).
+
+```
+
+## Creating GIFs
+
+``` bash
+
 # Create a gif
 ffmpeg -i input.mp4 -vf "fps=10,scale=320:-1" output.gif
 # fps=10: Sets the frame rate of the GIF to 10 frames per second, reducing file size while keeping the animation smooth.
@@ -57,9 +68,15 @@ ffmpeg -i input.mp4 -vf "fps=10,scale=320:-1" -ss 00:00:10 -t 00:00:20 output.gi
 # -ss start time
 # -t duraction of gif
 
-# Add subtitles directly into a video
-ffmpeg -i input.mp4 -vf subtitles=input.srt output.mp4
-# subtitles=input.srt: Adds subtitles from the specified subtitle file (input.srt).
+# Other option - convert video to gif
+ffmpeg -i input.mp4 \
+  -vf "fps=10,scale=400:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" \
+  -loop 0 output.gif
+
+# Other Options
+ffmpeg -i input.mp4 -vf fps=20,scale=320 output.gif
+ffmpeg -i input.mp4 -vf scale=320:-1 -r 10 output.gif
+ffmpeg -i input.mp4 -vf fps=10,scale=400:-1 -r 10 output.gif
 
 ```
 
