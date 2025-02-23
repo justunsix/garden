@@ -2,7 +2,7 @@
 date: 2024-09-28
 filetags: ":health:sleep:epubnote:"
 id: 964cb438-cb54-46ba-8a39-403aaca47e88
-title: Medical and Physical Health - Sleep
+title: Sleep - Medical and Physical Health
 ---
 
 ## About power naps and hours of sleep needs
@@ -13,8 +13,8 @@ title: Medical and Physical Health - Sleep
 
 ## 10-3-2-1-0 Rule for Sleep Preparation
 
-Source:
-<https://www.goodhousekeeping.com/health/wellness/a62922307/10-3-2-1-0-sleep-rule/>
+Source: [The Viral 10-3-2-1-0 Rule Can Help You Create Better Sleep
+Habits](https://www.goodhousekeeping.com/health/wellness/a62922307/10-3-2-1-0-sleep-rule/)
 
 - 10 hours before bed: No more caffeine
 
