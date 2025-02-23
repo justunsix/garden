@@ -91,15 +91,15 @@ return {
 
 ## See Also
 
-- [Neovim Shortcuts](005-Computer-Shortcuts-Neovim.md) - [Neovim
+- [Neovim Shortcuts](../005-computer-shortcuts-neovim) - [Neovim
   Shortcuts](id:441cec9c-4ca1-479a-9dcc-b0b0bbe294f6)
-- [Neovim Language Server Protocol (LSP)](005-Tech-Vim-Neovim-LSP.md) -
+- [Neovim Language Server Protocol (LSP)](../005-tech-vim-neovim-lsp) -
   [Neovim Language Server Protocol
   (LSP)](id:2a279ca1-8291-45e0-889d-26ec8063e535)
-- [Neovim Language Support](005-Tech-Vim-Neovim-Language-Support.md) -
+- [Neovim Language Support](../005-tech-vim-neovim-language-support) -
   [Neovim Language Support](id:645199ea-3a6f-4847-aecf-c475ac0c19b8)
 - [Neovim and Artificial
-  Intelligence](005-Tech-Vim-Neovim-Artificial-Intelligence.md)
+  Intelligence](../005-tech-vim-neovim-artificial-intelligence)
 
 ### Resources
 

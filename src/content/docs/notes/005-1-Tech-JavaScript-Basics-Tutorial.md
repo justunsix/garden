@@ -223,5 +223,5 @@ calculateShippingCost(totalPrice);
 
 ## See also
 
-- [JavaScript Snippets](005-Computer-Snippets-JavaScript.md) -
+- [JavaScript Snippets](../005-computer-snippets-javascript) -
   [JavaScript Snippets](id:9d66cc02-f8c7-46e0-8f92-da79b107f1c7)

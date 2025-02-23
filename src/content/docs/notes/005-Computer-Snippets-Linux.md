@@ -90,7 +90,7 @@ sudo chgrp devops test.txt
 See also DevOps Bootcamp [Modifying
 Permissions](id:ec2b10e8-9f38-4b44-85be-842d5e02994d) file permissions
 section of - [DevOps Bootcamp with
-Nana](005-Computer-Tech-DevOps-Bootcamp-TWN.md) - [DevOps Bootcamp
+Nana](../005-computer-tech-devops-bootcamp-twn) - [DevOps Bootcamp
 Series with Nana Janashia](id:47b64b3b-67a0-4cc5-9e96-2369c5877b08)
 
 ## ImageMagick, Image PDF Conversions, Combining, PDF Optical Character Recognition (OCR)
@@ -865,13 +865,13 @@ swap --l
 ## See Also
 
 - [awk - text processing and pattern
-  scanning](005-Computer-Snippets-awk.md) - [awk Snippets - text
+  scanning](../005-computer-snippets-awk) - [awk Snippets - text
   processing and pattern
   scanning](id:105e4b70-09da-40e7-9d7f-3798899a3b00)
-- [fzf Snippets](005-Computer-Snippets-fzf.md) - [fzf Fuzzy Finder
+- [fzf Snippets](../005-computer-snippets-fzf) - [fzf Fuzzy Finder
   Snippets](id:1aa7c311-74a6-4304-86f1-4c3676ad2498)
 - [Linux Terminal
-  shortcuts](005-Computer-Shortcuts-Linux-Terminal-GNU-Readline.md) -
+  shortcuts](../005-computer-shortcuts-linux-terminal-gnu-readline) -
   [Linux Terminal Shortcuts - GNU
   Readline](id:bf3b61d8-23cc-4959-a5c7-17041d7e43f4)
 

@@ -66,4 +66,4 @@ breathing will help you feel more relaxed and in control.
 ## See Also
 
 [Mental Health in the
-Workplace](158-Psychology-Applied-Health-Mental-First-Aid-In-the-Workplace.md)
+Workplace](../158-psychology-applied-health-mental-first-aid-in-the-workplace)

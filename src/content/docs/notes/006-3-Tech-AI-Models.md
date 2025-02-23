@@ -43,7 +43,7 @@ From Ollama README Guidance [^16]
 ## See also
 
 - [Deepseek R1 Locally, Open-Source Ai Tools, ollama, automation,
-  RAG](006-3-Tech-AI-Models-Deepseek-Local-Open-Source-AI-Tools-automation-RAG.md) -
+  RAG](../006-3-tech-ai-models-deepseek-local-open-source-ai-tools-automation-rag) -
   [Deepseek R1 Locally, Open-Source Ai Tools, ollama, automation,
   RAG](id:4ca0b4b4-ef4e-4eeb-b4a6-7537215aca53)
 

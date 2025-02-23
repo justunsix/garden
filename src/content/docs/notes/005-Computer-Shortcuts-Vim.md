@@ -113,7 +113,7 @@ is at the right and moves right. j The j key looks like a down arrow. v
 
 This first table per [DevOps Bootcamp Series with Nana
 Janashia](id:47b64b3b-67a0-4cc5-9e96-2369c5877b08) ([DevOps Bootcamp
-with Nana](005-Computer-Tech-DevOps-Bootcamp-TWN.md))
+with Nana](../005-computer-tech-devops-bootcamp-twn))
 
 Other table per `vimtutor` command
 
@@ -330,7 +330,9 @@ Source: :h registers, <https://www.brianstorti.com/vim-registers/>
             - :windo (all windows in current tab)
             - :cdo (all files listed in quickfix list)
 
-            ``` vim-command-mode
+            vim command mode:
+
+            ``` bash
 
             # Search and replace in all open buffers from :ls
             :bufdo %s/pattern/replace/ge | update
@@ -649,9 +651,9 @@ Wiki](https://vim.fandom.com/wiki/Using_marks)
 ## See Also
 
 - [DevOps Bootcamp Techworld with
-  Nana](005-Computer-Tech-DevOps-Bootcamp-TWN.md) - [DevOps Bootcamp
+  Nana](../005-computer-tech-devops-bootcamp-twn) - [DevOps Bootcamp
   Series with Nana Janashia](id:47b64b3b-67a0-4cc5-9e96-2369c5877b08)
-- [Neovim Shortcuts](005-Computer-Shortcuts-Neovim.md) - [Neovim
+- [Neovim Shortcuts](../005-computer-shortcuts-neovim) - [Neovim
   Shortcuts](id:441cec9c-4ca1-479a-9dcc-b0b0bbe294f6)
 
 ### Resources

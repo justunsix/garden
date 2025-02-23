@@ -91,7 +91,7 @@ Evaluate which of these 6 time traps is eating up all your time?
 
 1.  See Also
 
-    - [Finance: Value of Time](332-Finance-Time-Value.md) - [Finance:
+    - [Finance: Value of Time](../332-finance-time-value) - [Finance:
       Value of Time](id:87726ed4-b680-45ca-8bc4-e36dfa8b2508)
 
 ### What Your Money Habits Reveal About You

@@ -15,7 +15,7 @@ title: Video Editing
 - For easy automatic subtitles with translation for public content, use
   YouTube
 - For transcriptions, see [Microsoft Word - Audio
-  Transcription](005-Tech-Microsoft-Word-Audio-Transcription.md) -
+  Transcription](../005-tech-microsoft-word-audio-transcription) -
   [Microsoft Word - Audio
   Transcription](id:a1d18314-3499-4376-87c4-667954f8e0ca)
 
@@ -33,14 +33,14 @@ For private content or local transcription:
 
 ## See Also
 
-- [VLC Gif Creation](005-Tech-VLC-Gif-Creation.md) - [VLC Gif
+- [VLC Gif Creation](../005-tech-vlc-gif-creation) - [VLC Gif
   Creation](id:0c67af45-ba04-49fb-a91f-f1e1004b49b5)
 - [Microsoft Word - Audio
-  Transcription](005-Tech-Microsoft-Word-Audio-Transcription.md) -
+  Transcription](../005-tech-microsoft-word-audio-transcription) -
   [Microsoft Word - Audio
   Transcription](id:a1d18314-3499-4376-87c4-667954f8e0ca)
 - [Audio Subtitles and OpenAI
-  Whisper](006-3-Tech-AI-Audio-Subtitles-Whisper.md) - [Audio Subtitles
+  Whisper](../006-3-tech-ai-audio-subtitles-whisper) - [Audio Subtitles
   and OpenAI Whisper](id:2ba9f6d2-10f2-4c27-b781-ee754d1423b4)
-- [Yt-dlp Snippets](005-Computer-Snippets-youtube-yt-dlp.md) - [yt-dlp
+- [Yt-dlp Snippets](../005-computer-snippets-youtube-yt-dlp) - [yt-dlp
   Snippets](id:4cc04c35-2c98-4bcf-84ef-e51148ca8e3c)

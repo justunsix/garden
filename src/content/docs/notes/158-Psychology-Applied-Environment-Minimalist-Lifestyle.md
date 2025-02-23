@@ -99,9 +99,9 @@ Process:
 ## See Also
 
 - [the simple guide to a minimalist
-  life](158-Psychology-Applied-Environment-Minimalist-Lifestyle-Simple-Guide.md) -
+  life](../158-psychology-applied-environment-minimalist-lifestyle-simple-guide) -
   [the simple guide to a minimalist
   life](id:170ccdb8-73b1-4edd-aa09-f61e86a075f6)
 - [The
-  Minimalists](158-Psychology-Applied-Environment-Minimalist-The-Minimalists.md) -
+  Minimalists](../158-psychology-applied-environment-minimalist-the-minimalists) -
   [The Minimalists](id:5b72e98e-c259-4375-9f23-eb7bc6deffeb)

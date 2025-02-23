@@ -35,7 +35,7 @@ Pull up /Chin up Progressions:
 
 Source: [Nomad’s 15-minute workout
 routine](https://www.ubisoft.com/en-us/game/ghost-recon/breakpoint/news-updates/74CqDkzbjAzrqsUH0zz8QO/nomads-15minute-workout-routine),
-promotional game article on 2020-04-29
+promotional game article with image of workout on 2020-04-29
 
 If you have any pre-existing medical conditions that could put you at
 risk of an injury, please refrain from trying it out. Stay home, stay
@@ -96,7 +96,8 @@ third time. Focus on your legs and abdominal muscles.
 
 <figure>
 <img src="../media/Health-Calisthenics-2021-06-23-17-19-54.png" />
-<figcaption>Nomad's 15 minute workout routine</figcaption>
+<figcaption>Nomad's 15 minute workout routine, credit:
+Ubisoft</figcaption>
 </figure>
 
 ## Weekly Outdoor Person Workout
@@ -213,10 +214,10 @@ sled heavier each round
 
 ## See Also
 
-- [Sport](790-Sport.md)
-- [Health](610-Health.md)
-- [Calisthenics Workouts](790-Sport-Calisthenics-Workouts.md)
-- [Inspirational](158-Psychology-Applied-Goals-Inspirational.md) - Like
+- [Sport](../790-sport)
+- [Health](../610-health)
+- [Calisthenics Workouts](../790-sport-calisthenics-workouts)
+- [Inspirational](../158-psychology-applied-goals-inspirational) - Like
   Lara Croft workout
 
 ### Resources

@@ -57,6 +57,6 @@ Treatment Ideas
 ## See Also
 
 - [Minimalist
-  Lifestyle](158-Psychology-Applied-Environment-Minimalist-Lifestyle.md) -
+  Lifestyle](../158-psychology-applied-environment-minimalist-lifestyle) -
   [Minimalist, Zero Waste
   Lifestyle](id:df69cada-d197-4508-9ae0-12affb79dfd0)

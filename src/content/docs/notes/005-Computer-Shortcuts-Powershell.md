@@ -19,7 +19,7 @@ On Windows, On MacOS and Linux will vary slightly
 
 ## See Also
 
-- [Windows Shortcuts](005-Computer-Shortcuts-Windows.md) - [Windows
+- [Windows Shortcuts](../005-computer-shortcuts-windows) - [Windows
   Shortcuts](id:94f99405-bc87-4ae2-9f23-995f468ab10f)
 
 ### Resources

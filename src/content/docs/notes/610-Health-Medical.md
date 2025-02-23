@@ -82,20 +82,20 @@ champion and seven-time world champion.
 
 ## See Also
 
-- [First Aid](610-Health-EDU-First-Aid.md) - [First
+- [First Aid](../610-health-edu-first-aid) - [First
   Aid](id:6cb48881-9290-43dd-945b-efaf6c5a7ecd)
-- [Cancer Screening](610-Health-Medical-Cancer-Screening.md) - [Cancer
+- [Cancer Screening](../610-health-medical-cancer-screening) - [Cancer
   Screening - Medical and Physical
   Health](id:38165ca7-b6dd-4550-8d85-bc72c2e2a40e)
-- [Family Health](610-Health-Medical-Family-Health.md) - [Family
+- [Family Health](../610-health-medical-family-health) - [Family
   Health](id:22581bf1-4397-4827-b393-bfec1f840bf5)
-- [Fitness Test](610-Health-Medical-Fitness-Test.md) - [Fitness
+- [Fitness Test](../610-health-medical-fitness-test) - [Fitness
   Test](id:b663c559-e626-4080-84e6-2a47ecd89e4c) - basic flexibility,
   fat level, and pulse check under exercise
 - [Long-Term
-  Care](360-Social-Services-Health-Medical-Long-Term-Care.md) -
+  Care](../360-social-services-health-medical-long-term-care) -
   [Long-Term Care - Medical and Physical
   Health](id:44f19aa1-4ef3-4f0a-a5e0-ef64da79c659)
-- [Sleep](610-Health-Medical-Sleep.md) - [Sleep - Medical and Physical
+- [Sleep](../610-health-medical-sleep) - [Sleep - Medical and Physical
   Health](id:964cb438-cb54-46ba-8a39-403aaca47e88) - power naps, nightly
   suggested hours of sleep by age

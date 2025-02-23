@@ -112,7 +112,7 @@ Resources:
 
 ## See Also
 
-- [Vim Shortcuts](005-Computer-Shortcuts-Vim.md) - [Vim
+- [Vim Shortcuts](../005-computer-shortcuts-vim) - [Vim
   Shortcuts](id:bdb62bfe-56b7-4c13-a1e4-9f91cf4e0bb5)
 
 ### Resources

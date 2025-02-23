@@ -124,7 +124,7 @@ Cloud Solution Architect
 
 Content includes info from [Microsoft Power Platform Virtual Training
 Day - Automate Business
-Processes](005-Tech-Microsoft-Power-Automate-Business-Processes.md) -
+Processes](../005-tech-microsoft-power-automate-business-processes) -
 [Microsoft Power Platform Virtual Training Day - Automate Business
 Processes](id:e54cbe89-e3f0-4aa2-adb3-305b83d9e698)
 
@@ -210,7 +210,7 @@ Processes](id:e54cbe89-e3f0-4aa2-adb3-305b83d9e698)
 ## See Also
 
 - [Microsoft Power Platform Virtual Training Day - Automate Business
-  Processes](005-Tech-Microsoft-Power-Automate-Business-Processes.md) -
+  Processes](../005-tech-microsoft-power-automate-business-processes) -
   [Microsoft Power Platform Virtual Training Day - Automate Business
   Processes](id:e54cbe89-e3f0-4aa2-adb3-305b83d9e698)
 

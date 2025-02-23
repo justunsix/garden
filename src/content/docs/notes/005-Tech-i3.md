@@ -243,9 +243,9 @@ lxappearance (GUI theming app)
 
 ## See Also
 
-- [i3 Dotfile Config](005-Tech-i3-Dotfile-config.md)
-- [i3status.conf Dotfile](005-Tech-i3-Dotfile-i3status.md)
-- [i3 Shortcuts](005-Computer-Shortcuts-i3.md)
+- [i3 Dotfile Config](../005-tech-i3-dotfile-config)
+- [i3status.conf Dotfile](../005-tech-i3-dotfile-i3status)
+- [i3 Shortcuts](../005-computer-shortcuts-i3)
 
 ## Resources
 

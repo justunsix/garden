@@ -210,5 +210,5 @@ Example Anki flash cards in Emacs
 ## See Also
 
 - [Emacs Spaced Repetition System with
-  Anki](005-Tech-Emacs-Spaced-Repetition-System-Anki.md) - [Emacs Spaced
+  Anki](../005-tech-emacs-spaced-repetition-system-anki) - [Emacs Spaced
   Repetition System with Anki](id:343b3f91-0b53-450e-a8a9-4286bd619535)

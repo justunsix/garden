@@ -234,7 +234,7 @@ git config --unset https.proxy
 
 ## See Also
 
-- [Technology](600-Technology.md) -
+- [Technology](../600-technology) -
   [Technology](id:9092eabf-f6f5-4775-b8aa-6e78e74880c3)
-- [GitHub](005-Computer-Tech-GitHub.md) -
+- [GitHub](../005-computer-tech-github) -
   [GitHub](id:7780cbb0-5092-4233-8f80-bb90864828f9)

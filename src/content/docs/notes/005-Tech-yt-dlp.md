@@ -46,7 +46,7 @@ Can use:
 
 ## See Also
 
-- [Yt-dlp Snippets](005-Computer-Snippets-youtube-yt-dlp.md) - [yt-dlp
+- [Yt-dlp Snippets](../005-computer-snippets-youtube-yt-dlp) - [yt-dlp
   Snippets](id:4cc04c35-2c98-4bcf-84ef-e51148ca8e3c)
 
 ### Resources

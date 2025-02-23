@@ -20,12 +20,12 @@ quality](https://superuser.com/questions/556029/how-do-i-convert-a-video-to-gif-
 - The video will be saved to \$HOME/Videos on Linux and Windows
 
 Note a command line approach using [ffmpeg - video converter and tool
-Snippets](005-Computer-Snippets-ffmpeg.md) which is appropriate for bulk
+Snippets](../005-computer-snippets-ffmpeg) which is appropriate for bulk
 conversions and other configurations.
 
 ## See Also
 
 - [ffmpeg - video converter and tool
-  Snippets](005-Computer-Snippets-ffmpeg.md) - [ffmpeg - video converter
+  Snippets](../005-computer-snippets-ffmpeg) - [ffmpeg - video converter
   and tool Snippets](id:7dd8e1e7-2d9a-4a67-860f-250205d1286f) - Convert
   Video to GIF using ffmpeg

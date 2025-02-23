@@ -225,7 +225,10 @@ Include the reverse lunge stretch in your daily stretch routine.
 
 ### Single Leg Stretch
 
-![](..\media\Health-Stretching-image3.jpeg)
+<figure>
+<img src="..\media\Health-Stretching-image3.jpeg" />
+<figcaption>leg stretch</figcaption>
+</figure>
 
 Single leg stretch
 
@@ -535,6 +538,6 @@ thigh. Repeat a total of three times on each leg.
 
 ## See Also
 
-- [Health](610-Health.md)
-- [Sport](790-Sport.md)
-- [Sport workout with light stretch](790-Sport-Calisthenics-Workouts.md)
+- [Health](../610-health)
+- [Sport](../790-sport)
+- [Sport workout with light stretch](../790-sport-calisthenics-workouts)

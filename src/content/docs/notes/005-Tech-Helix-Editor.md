@@ -18,5 +18,5 @@ YouTube](https://www.youtube.com/watch?v=HcuDmSb-JBU)
 
 ## See Also
 
-- [Helix Shortcuts](005-Computer-Shortcuts-Helix.md) - [Helix
+- [Helix Shortcuts](../005-computer-shortcuts-helix) - [Helix
   Shortcuts](id:bc213b79-60c0-4e31-acf7-97ecfe5dd98b)

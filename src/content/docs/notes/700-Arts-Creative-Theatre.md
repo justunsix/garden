@@ -111,4 +111,8 @@ hang on yourself
 ## Puppets
 
 - Hand Puppets - "Caillie the Cat"
-  - ![](../media/Creative-Theatre-2021-10-29-15-09-16.png)
+
+<figure>
+<img src="../media/Creative-Theatre-2021-10-29-15-09-16.png" />
+<figcaption>hand puppets made from socks</figcaption>
+</figure>

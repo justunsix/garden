@@ -82,10 +82,10 @@ print(data)
 
 ## See Also
 
-- [Technology](600-Technology.md) -
+- [Technology](../600-technology) -
   [Technology](id:9092eabf-f6f5-4775-b8aa-6e78e74880c3)
-- [Python PyDay 2023](005-1-Tech-Python-PyDay2023.md) - [Python PyDay
+- [Python PyDay ../2023](005-1-tech-python-pyday2023) - [Python PyDay
   2023](id:f8bc9ba2-948f-4b44-92f8-37bcea837b6e)
 - [Python Anaconda and Conda
-  Snippets](005-Computer-Snippets-Python-Anaconda.md) - [Python and
+  Snippets](../005-computer-snippets-python-anaconda) - [Python and
   Anaconda Snippets](id:09101af3-7da0-4433-b8b4-c1df997fcd91)

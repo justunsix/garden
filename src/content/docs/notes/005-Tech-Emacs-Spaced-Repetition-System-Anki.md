@@ -30,7 +30,7 @@ title: Emacs Spaced Repetition System with Anki
 - Use `anki-editor-insert-note` to create a new card. Prefer the "3. All
   Purpose Card" note type
 - For my examples, see [Anki Master Deck for
-  Learning](370-Education-Learning-Anki-Master-Deck.md) - [Anki Master
+  Learning](../370-education-learning-anki-master-deck) - [Anki Master
   Deck for Learning](id:0f365634-db06-451f-a0ca-3699615538a1)
 - For better formatting inside Anki, do:
   - Select a deck –\> Browse –\> Cards (top right) –\> Styling
@@ -40,7 +40,7 @@ title: Emacs Spaced Repetition System with Anki
 ## See Also
 
 - [Anki Master Deck for
-  Learning](370-Education-Learning-Anki-Master-Deck.md) - [Anki Master
+  Learning](../370-education-learning-anki-master-deck) - [Anki Master
   Deck for Learning](id:0f365634-db06-451f-a0ca-3699615538a1)
 
 ### Resources

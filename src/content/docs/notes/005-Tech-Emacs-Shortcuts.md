@@ -115,7 +115,7 @@ title: Emacs Shortcuts
 See also:
 
 - [Emacs Search with fzf, ripgrep, ivy, counsel, consult,
-  vertico](005-Tech-Emacs-Search-fzf-ripgrep-ivy-counsel.md) - [Emacs
+  vertico](../005-tech-emacs-search-fzf-ripgrep-ivy-counsel) - [Emacs
   Search with fzf, ripgrep, ivy, counsel, consult,
   vertico](id:026ff642-5c97-4465-a4c2-e71fa8e2b63a)
 
@@ -433,22 +433,22 @@ methods
 
 ## See Also
 
-- [Emacs Snippets](005-Computer-Snippets-Emacs.md) - [Emacs
+- [Emacs Snippets](../005-computer-snippets-emacs) - [Emacs
   Snippets](id:f1e69dcf-1ee5-48c5-9efe-a05affb4236c)
-- [Emacs Shortcuts Evil Doom](005-Tech-Emacs-Shortcuts-Evil-Doom.md) -
+- [Emacs Shortcuts Evil Doom](../005-tech-emacs-shortcuts-evil-doom) -
   [Emacs Shortcuts for Evil and Doom
   Emacs](id:53e11158-909c-4d77-a705-d12a0077d1e0)
 - [Emacs Shortcuts in a Graphical Cheat
-  Sheet](005-Tech-Emacs-Shortcuts-Graphical-Cheat-Sheet.md) - [Emacs
+  Sheet](../005-tech-emacs-shortcuts-graphical-cheat-sheet) - [Emacs
   Shortcuts in a Graphical Cheat
   Sheet](id:222d371a-92ff-41ae-8af5-c12743b36edd)
 - [Emacs Shortcuts from Other
-  Packages](005-Tech-Emacs-Shortcuts-Other-Packages.md) - [Emacs
+  Packages](../005-tech-emacs-shortcuts-other-packages) - [Emacs
   Shortcuts from Other
   Packages](id:c83f42e0-ecb2-427d-bf75-0a3ca824bf1d)
-- [Emacs Shortcuts for dired](005-Tech-Emacs-Shortcuts-dired.md) -
+- [Emacs Shortcuts for dired](../005-tech-emacs-shortcuts-dired) -
   [Emacs Shortcuts for dired](id:8f08d874-1ec0-4709-b492-dc0d679513a0)
-- [Emacs Shortcuts for org-mode](005-Tech-Emacs-Shortcuts.md-mode.md) -
+- [Emacs Shortcuts for org-mode](../005-tech-emacs-shortcuts-mode) -
   [Emacs Shortcuts](id:daea5d06-6895-4073-a5c7-64e8f21bf085)
-- [Emacs Shortcuts for Magit](005-Tech-Emacs-Shortcuts-Magit.md) -
+- [Emacs Shortcuts for Magit](../005-tech-emacs-shortcuts-magit) -
   [Emacs Shortcuts for Magit](id:18083c56-9942-44b7-804d-623b22866188)

@@ -30,25 +30,25 @@ Coursera](https://www.coursera.md/learn/physiology/home/info)
 Course Modules
 
 - [1 Homeostasis and Endocrine
-  System](610-Health-EDU-Human-Physiology-1-Homeostasis-and-Endocrine-System.md) -
+  System](../610-health-edu-human-physiology-1-homeostasis-and-endocrine-system) -
   [Introduction to Human Physiology - 1 Homeostasis and Endocrine
   System](id:99df7d99-7929-4403-a2eb-78adfb28b53d)
 - [2 Nervous System, Senses, Somatic
-  NS](610-Health-EDU-Human-Physiology-2-Nervous-System.md) -
+  NS](../610-health-edu-human-physiology-2-nervous-system) -
   [Introduction to Human Physiology - 2 Nervous System, Senses, Somatic
   NS](id:5264a601-0eed-48fb-8290-255d7b2c91f3)
-- [3 Muscle](610-Health-EDU-Human-Physiology-3-Muscle.md) -
+- [3 Muscle](../610-health-edu-human-physiology-3-muscle) -
   [Introduction to Human Physiology - 3
   Muscle](id:b96d10fa-31ca-4f84-a554-59d376f083d8)
 - [4 Cardiovascular
-  System](610-Health-EDU-Human-Physiology-4-Cardiovascular-System.md)
+  System](../610-health-edu-human-physiology-4-cardiovascular-system)
 - [5 Respiratory System - Anatomy and
-  Mechanics](610-Health-EDU-Human-Physiology-5-Respiratory-System.md)
+  Mechanics](../610-health-edu-human-physiology-5-respiratory-system)
 - [6 Endocrine
-  System](610-Health-EDU-Human-Physiology-6-Endocrine-System.md)
+  System](../610-health-edu-human-physiology-6-endocrine-system)
 - [7 Reproductive
-  Systems](610-Health-EDU-Human-Physiology-7-Reproductive-Systems.md)
+  Systems](../610-health-edu-human-physiology-7-reproductive-systems)
 - [8 Gastrointestinal
-  Tract](610-Health-EDU-Human-Physiology-8-Gastrointestinal-Tract.md)
+  Tract](../610-health-edu-human-physiology-8-gastrointestinal-tract)
 - [9 Urinary
-  System](610-Health-EDU-Human-Physiology-9-Urinary-System.md)
+  System](../610-health-edu-human-physiology-9-urinary-system)
