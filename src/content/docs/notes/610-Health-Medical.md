@@ -27,7 +27,8 @@ Connect](https://www.ontario.ca/page/find-family-doctor-or-nurse-practitioner)
   - Past medical history
   - Medications
   - Immunizations
-  - Cancer screening
+  - Cancer screening using [What’s My Risk? \| My
+    CancerIQ](https://www.mycanceriq.ca/Cancers/Risk)
 
 ## Ontario Health
 

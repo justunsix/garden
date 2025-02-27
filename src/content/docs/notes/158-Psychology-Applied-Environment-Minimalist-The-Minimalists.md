@@ -80,6 +80,24 @@ discussions
     - User's maturity, age, life situation
     - Safety
 
+## Podcasts
+
+### 231 Stoicism
+
+- Stoicism like minimizing negative emotions
+- Appropriate for everyone from those with little (Musonius Rufus) and
+  those with a lot (Seneca)
+- Stoicism journey is long term project
+
+### 203 Connection
+
+- Like junk food which is poor for health, favouring junk values like
+  materialism, beauty makes mental health poor (for example depression)
+  - Think about the end in mind, at death, you will value things like
+    relationships, experiences
+  - Work through the belief in need for junk values, discover they are
+    created by society and perceptions
+
 ## See Also
 
 ### Resources
