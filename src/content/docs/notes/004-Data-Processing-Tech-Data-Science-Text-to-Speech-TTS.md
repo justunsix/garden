@@ -1,7 +1,7 @@
 ---
 filetags: ":tech:text-to-speech:epubnote:"
 id: f7d86fd7-47ba-49c0-bb56-b5e7e4ee3341
-title: Text to Speech (TTS)
+title: Text to Speech (TTS) and Speech to Text (STT)
 ---
 
 ## Text to Speech (TTS) in 2025
@@ -15,6 +15,7 @@ title: Text to Speech (TTS)
     Architecture)](https://github.com/marytts/marytts)
   - [eSpeak NG Text-to-Speech](https://github.com/espeak-ng/espeak-ng)
   - Others
+- [Speech Note](https://github.com/mkiol/dsnote) app
 
 ### Free Options
 
@@ -35,3 +36,19 @@ title: Text to Speech (TTS)
 - Text to speech of AI model responses should now work
 - To read custom text, edit a response and paste the text you want to be
   read out loud, then use the read out loud button
+
+## Speech to Text (STT)
+
+### Open Source
+
+- [Speech Note](https://github.com/mkiol/dsnote) app
+- See [Audio Subtitles and OpenAI
+  Whisper](../006-3-tech-ai-audio-subtitles-whisper) - [Audio Subtitles
+  and OpenAI Whisper](id:2ba9f6d2-10f2-4c27-b781-ee754d1423b4)
+- 2025-01: VLC upcoming feature for translations and speech to text
+  subtitles
+
+### Free Options
+
+- Microsoft Office
+  - Word: Home \> Dictate option

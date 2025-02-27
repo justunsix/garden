@@ -11,7 +11,7 @@ Morrison](https://www.linkedin.com/in/jsmorrison/) (June M at work)
 VB macro to detect over use of bold styles where another style like
 heading styles are more appropriate
 
-To test this macro:
+To use macro:
 
 1.  Open your source Word document.
 2.  Press Alt + F11 to open the VBA editor.

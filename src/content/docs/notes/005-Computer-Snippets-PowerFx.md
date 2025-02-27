@@ -56,6 +56,17 @@ Sum(Table, Expression)
 // Reset form
 SubmitForm(FeedbackForm); Reset(FeedbackForm)
 
+// Get and set current logged in user information
+Set(varCurrentUser, User());
+
+Set(
+    varCurrentUserID,
+    LookUp(
+        Users,
+        'Primary Email' = User().Email
+    )
+);
+
 // Filter data from https://learn.microsoft.com/en-us/power-platform/power-fx/reference/function-filter-lookup
 // Filter gallery data
 Filter(Products, StartsWith(ProductName, SearchInput.Text))

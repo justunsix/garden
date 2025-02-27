@@ -205,6 +205,13 @@ find . -name '*s' -print
 # Find files with dolphin in the file name, case insensitive and is a pdf
 find . -iname '*dolphin*' -iname '*.pdf' -print
 
+# Find largest files in current directory, sort
+find ./ -type f -size +2G -exec du -h {} + | sort -rh | head -30
+# -type f - is a file
+# -size +2G - is 2 gigabytes or larger
+# du -h - print out file information
+# head -30 - first 30 files
+
 ```
 
 ## fsck - check disks for errors
