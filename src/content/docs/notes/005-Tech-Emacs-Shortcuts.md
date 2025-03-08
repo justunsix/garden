@@ -409,6 +409,12 @@ Prot](https://www.youtube.com/watch?v=pSvsAutseO0)
 | Diff, ediff diff output difference                  | D             |
 | Diff, ediff quit                                    | q             |
 
+## Files
+
+| Name                       | Shortcuts        |
+|----------------------------|------------------|
+| Recover file from autosave | M-x recover-file |
+
 ## Fonts
 
 | Name           | Shortcuts              |

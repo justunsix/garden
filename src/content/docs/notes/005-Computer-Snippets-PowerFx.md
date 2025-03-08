@@ -133,5 +133,14 @@ If(
 // Display a welcome notification with the user's full name, using the "Information" notification type.
 Notify("Welcome back, " & User().FullName & "!", NotificationType.Information);
 
+// User Defined Function, Supports Set, Collect, Reset, and Notify
+// https://learn.microsoft.com/en-us/power-platform/power-fx/reference/object-app#user-defined-functions
+Spend( Amount: Number ) : Void = {
+    If( Amount > Savings,
+        Error( $"{Amount} is more than available savings" ),
+        Set( Savings, Savings - Amount );
+        Set( Spent, Spent + Amount)
+    );
+}
 
 ```

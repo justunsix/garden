@@ -52,3 +52,7 @@ title: Text to Speech (TTS) and Speech to Text (STT)
 
 - Microsoft Office
   - Word: Home \> Dictate option
+  - See [Microsoft Word - Audio
+    Transcription](../005-tech-microsoft-word-audio-transcription) -
+    [Microsoft Word - Audio
+    Transcription](id:a1d18314-3499-4376-87c4-667954f8e0ca)
