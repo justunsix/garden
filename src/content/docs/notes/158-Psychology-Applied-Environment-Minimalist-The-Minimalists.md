@@ -82,6 +82,13 @@ discussions
 
 ## Podcasts
 
+### 355 Kid's Stuff
+
+- Ask questions to children to understand their intentions, ask them
+  about their values and beliefs
+- Use the conversion to discuss boundaries in the whole family, though
+  be specific
+
 ### 231 Stoicism
 
 - Stoicism like minimizing negative emotions
