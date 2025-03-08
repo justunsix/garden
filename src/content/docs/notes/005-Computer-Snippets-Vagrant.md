@@ -64,7 +64,7 @@ vagrant plugin install vagrant-proxyconf
 
 ```
 
-``` Vagrantfile
+``` rb
 
 Vagrant.configure("2") do |config|
   if Vagrant.has_plugin?("vagrant-proxyconf")
