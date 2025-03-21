@@ -22,6 +22,13 @@ in 2025. It suggests places to find learning.
 - AGI combined with hardware can do any tasks a human does by itself and
   learn and improve over time
 
+### Conclusions
+
+- Future roles can require knowledge in multiple areas like technology
+  and science and require adaptation
+- Do learn and talk with people regularly to update skills and be
+  informed
+
 Below are areas to look at for preparing yourself
 
 ## Machine Learning and Deep Learning
@@ -54,17 +61,21 @@ Below are areas to look at for preparing yourself
     - [Search Machine Learning -
       freeCodeCamp.org](https://www.freecodecamp.md/news/search/?query=machine%20learning)
 
-## AI Integration and Engineering
+## AI Integration and Engineering, Multiple Disciplines
 
 - Integrate software and hardware with AI
 - Might be APIs, platforms
+- Integrate knowledge from other fields:
+  - Sciences: biology, bioinformatics, psychology, neuroscience
 
 ### How to learn
 
 - Work on AI components in software and hardware
 - Understand cloud AI services like AWS SageMaker or Google AI Platform
 - Projects: Integrate applications with AI like chatbots, predictive
-  analytics
+  analytics, interdisiplinary projects where AI is applied in another
+  area
+- Talking to experts and taking courses in other disciplines
 
 ## Ethics and AI Governance
 
@@ -77,11 +88,14 @@ Below are areas to look at for preparing yourself
 - Transparency
 - Statistics
 - Policy
+- Law
 
 ### How to learn
 
-- Read about policy at organizations and government
+- Read about policy at organisations and government
 - Learn social sciences
+- Learn regulations, law, policy related to technology and AI
+- Join industry groups like IEEE that looks at policy and ethics
 
 ## Human Computer Interaction (HCI)
 
@@ -120,3 +134,46 @@ Below are areas to look at for preparing yourself
 - Projects: build an autonomous vehicle, programming a robot for tasks
 
 ## Hardware Development
+
+- Design hardware like chips that are like the struction and function of
+  the human brain's neurons and synapses
+
+### How to learn
+
+- Neuromorphic and quantum computing
+- Commercial developments (IBM, Intel)
+- Projects on Field Programmable Gate Arrays (FPGAs), quantum computing
+  platforms
+
+## Cyber Security
+
+### Topics
+
+- IT security
+- Data privacy
+
+### How to learn
+
+- Courses: Cyber security courses related to AI and machine learning
+  (freeCodeCamp, Cybrary, and Coursera)
+- Do cybersecurity challenges (Capture the Flag (CTF) competitions,
+  secure systems)
+
+## Data, Infrastructure
+
+### Topics
+
+- Big data infrastructure and technologies (Hadoop, Spark, real time
+  processing with Apache Kafka)
+- Data pipelines - data ingestion, storage and processing - batch and
+  real time
+- Cloud computing (AWS, Google Cloud, Microsoft Azure), systems
+- Infrastructure as code (IAC) (Terraform, Ansible)
+- Scaling systems, high data volume
+
+### How to learn
+
+- Courses on topics listed above
+- Cloud provider certifications
+- Contributing to open source projects in those technologies
+- Projects with setting up data pipelines and infrastructure

@@ -21,10 +21,10 @@ Themes:
   - Artificial Intelligence
     - Skills: Large Language Models (LLM), Deep Learning, TensorFlow,
       Natural Language Processing (NLP), PyTorch, Prompt Engineering,
-      Python
+      Python, Generative AI
   - Cyber Security
     - Skills: Network Security, Vulnerability Assessment, Security
-      Information and Event Management (SIEM)
+      Information and Event Management (SIEM), DevSecOps
 - Business: partnerships, insurance, sales, revenue
 - Psychotherapy
 - Physical therapy / Health
