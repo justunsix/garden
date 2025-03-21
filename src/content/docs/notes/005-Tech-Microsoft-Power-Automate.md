@@ -214,7 +214,9 @@ Processes](id:e54cbe89-e3f0-4aa2-adb3-305b83d9e698)
   [Microsoft Power Platform Virtual Training Day - Automate Business
   Processes](id:e54cbe89-e3f0-4aa2-adb3-305b83d9e698)
 - [Microsoft Power Automate
-  Snippets](../005-computer-snippets-microsoft-power-automate) - :roam:
+  Snippets](../005-computer-snippets-microsoft-power-automate) -
+  [Microsoft Power Automate
+  Snippets](id:21dcf766-554f-4be9-a2d4-5116673f75be)
 
 ### Resources
 

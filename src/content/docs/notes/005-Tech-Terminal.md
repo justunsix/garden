@@ -102,24 +102,24 @@ nix package manager covers all below commands
 
 Key commands I use regularly and packaging support:
 
-| Program        | Arch    | Debian | Fedora | FreeBSD | Ubuntu | Void |
-|----------------|---------|--------|--------|---------|--------|------|
-| atuin          | x       | x      |        | x       |        | x    |
-| bat            | x       | x      | x      | x       | x      | x    |
-| broot          | x       | x      |        | x       |        | x    |
-| carapace       | x (AUR) | x      |        | x       | x      | x    |
-| fd             | x       | x      | x      | x       | x      | x    |
-| fzf            | x       | x      | x      | x       | x      | x    |
-| helix          | x       |        | x      | x       |        | x    |
-| lazygit        | x       |        | x      | x       |        | x    |
-| mprocs         | x (AUR) |        |        | x       |        |      |
-| nushell        | x       |        | x      | x       |        | x    |
-| ripgrep        | x       | x      | x      | x       | x      | x    |
-| starship       | x       | x      | x      | x       | x      | x    |
-| topgrade       | x       |        |        | x       |        | x    |
-| vcstool (pipx) | x       | x      | x      | x       | x      | x    |
-| yazi           | x       |        |        | x       |        | x    |
-| zoxide         | x       | x      | x      | x       | x      | x    |
+| Program        | Arch    | Debian | Fedora | FreeBSD | Ubuntu | Void | MSYS2 | scoop |
+|----------------|---------|--------|--------|---------|--------|------|-------|-------|
+| atuin          | x       | x      |        | x       |        | x    |       |       |
+| bat            | x       | x      | x      | x       | x      | x    | x     | x     |
+| broot          | x       | x      |        | x       |        | x    |       | x     |
+| carapace       | x (AUR) | x      |        | x       | x      | x    |       | x     |
+| fd             | x       | x      | x      | x       | x      | x    | x     | x     |
+| fzf            | x       | x      | x      | x       | x      | x    | x     | x     |
+| helix          | x       |        | x      | x       |        | x    | x     | x     |
+| lazygit        | x       |        | x      | x       |        | x    |       | x     |
+| mprocs         | x (AUR) |        |        | x       |        |      |       | x     |
+| nushell        | x       |        | x      | x       |        | x    |       | x     |
+| ripgrep        | x       | x      | x      | x       | x      | x    | x     | x     |
+| starship       | x       | x      | x      | x       | x      | x    | x     | x     |
+| topgrade       | x       |        |        | x       |        | x    |       | x     |
+| vcstool (pipx) | x       | x      | x      | x       | x      | x    | x     | x     |
+| yazi           | x       |        |        | x       |        | x    | x     | x     |
+| zoxide         | x       | x      | x      | x       | x      | x    | x     | x     |
 
 ### Cargo installation
 

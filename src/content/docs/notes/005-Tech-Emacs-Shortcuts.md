@@ -27,6 +27,7 @@ title: Emacs Shortcuts
 |--------------------------------------------------------|----------------------|
 | Run any command                                        | M-x                  |
 | Run commands relevant to buffer modes                  | M-S-X (M-X)          |
+| Find / Open file                                       | find-file            |
 | Save buffer                                            | C-x C-s              |
 | Help                                                   | C-h C-h              |
 | Quit partial command                                   | C-g                  |
@@ -306,18 +307,19 @@ character like r.
 
 ## Help
 
-| Name                                              | Shortcuts                              |
-|---------------------------------------------------|----------------------------------------|
-| Help                                              | C-h                                    |
-| Help on feature                                   | C-h c                                  |
-| Help on command                                   | C-h k                                  |
-| Help on function (describe-function)              | C-h f= - can drill into function's cod |
-| Help on variable (describe-variable)              | C-h v                                  |
-| Help Apropos (search command keyword)             | C-h a                                  |
-| Help Search - search all manuals                  | info-apropos                           |
-| Read manuals (aka info) for installed packages    | C-h i                                  |
-| Open emacs manual                                 | C-h r                                  |
-| Help buffer - next / Previous page in Info buffer | n / p                                  |
+| Name                                                 | Shortcuts                              |
+|------------------------------------------------------|----------------------------------------|
+| Help                                                 | C-h                                    |
+| Help on feature                                      | C-h c                                  |
+| Help on command                                      | C-h k                                  |
+| Help on function (describe-function)                 | C-h f= - can drill into function's cod |
+| Help on variable (describe-variable)                 | C-h v                                  |
+| Help on key bindings for current function/minibuffer | C-h b                                  |
+| Help Apropos (search command keyword)                | C-h a                                  |
+| Help Search - search all manuals                     | info-apropos                           |
+| Read manuals (aka info) for installed packages       | C-h i                                  |
+| Open emacs manual                                    | C-h r                                  |
+| Help buffer - next / Previous page in Info buffer    | n / p                                  |
 
 ## Emacs Window, Start, Lisp
 

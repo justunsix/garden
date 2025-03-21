@@ -26,3 +26,7 @@ title: Microsoft Word
   email](../005-tech-microsoft-word-mail-merge-send-bulk-email) -
   [Microsoft Word - Using Mail Merge to send build
   email](id:2efb7726-240f-410a-9f3b-1e15858867ca)
+- [Microsoft Word - Adding custom controls and fields and populating
+  them using Power
+  Automate](../005-tech-microsoft-word-custom-controls-power-automate-template-populate) -
+  :roam:

@@ -59,6 +59,15 @@ git config --global --add safe.directory '*'
 ## PowerShell
 git config --global --add safe.directory *
 
+# Set private key to sign with
+git config --global user.signingkey 0A46826A!
+
+# Signing a commit with -S
+git commit -a -S -m 'Signed commit' 
+
+# See and verify a signature on a commit
+git log --show-signature -1
+
 # Git worktrees - manage multiple working trees
 ## Like managing a git branch as a separate directory
 ## Like manually git cloning a repo to a separate directory and changing the working branch of that repo

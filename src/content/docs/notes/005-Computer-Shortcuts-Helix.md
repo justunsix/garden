@@ -19,8 +19,9 @@ helix-editor/helix](https://github.com/helix-editor/helix/wiki/Migrating-from-Vi
 | Go to beginning of line                     | gh                               |
 | Go to end of line                           | gl                               |
 | Copy line                                   | xy                               |
+| Copy to end of line                         | t + Enter + y                    |
 | Select entire buffer / file                 | %                                |
-| Global replace                              | %sword\<ret\>creplacement\<esc\> |
+| Buffer search, replace                      | %sword\<ret\>creplacement\<esc\> |
 | Delete entire line                          | xd                               |
 | Delete to end of line                       | vgl d or v \<end\> d             |
 | Go to matching brackey                      | mm                               |
@@ -34,6 +35,19 @@ helix-editor/helix](https://github.com/helix-editor/helix/wiki/Migrating-from-Vi
 | Run shell command, insert output to buffer  | :! command                       |
 | Log, View                                   | :log-open                        |
 | Sort, pipe selection to sort to sort buffer | :pipe sort                       |
+
+### Search and replace sequence
+
+- % - to select whole buffer
+- s - split the selection, and type the word you want to substitute,
+  press enter
+  - All the occurrences of the word are selected
+- c - change the selections, and type the new word, to replace all
+  occurrences
+- , or Esc - Go back to selections, normal mode
+
+To modify all lines in a certain way, you would first select the whole
+file, and then split the selection at .
 
 ### Same commands
 
@@ -55,9 +69,13 @@ helix-editor/helix](https://github.com/helix-editor/helix/wiki/Migrating-from-Vi
 | Code, Symbol picker workspace                 | SPC S                      |
 | Code, rename                                  | SPC r                      |
 | Jump list, open                               | SPC j                      |
-| Match, (selection) menu                       | m                          |
+| Jump list, save place                         | C-s                        |
+| Match, (selection / mark) menu                | m                          |
 | Match, select inside of given object          | mi \<object\>              |
 | Match, surround given object                  | ms \<object\>              |
+| Match, around function                        | maf                        |
+| Match, Tree sitter syntax tree contract       | A-i                        |
+| Match, Tree sitter syntax tree expand         | A-o                        |
 | Go to, next, previous buffer                  | gn, gp                     |
 | Go to menu like cursor, symbols, buffers      | g                          |
 | Go to menu like diagnostics, code             | \[ or \]                   |

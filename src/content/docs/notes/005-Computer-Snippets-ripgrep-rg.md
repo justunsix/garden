@@ -33,4 +33,8 @@ rg "word" *volunteer*.org
 # Search all files including hidden files in current directory and subdirectories
 rg --hidden "word"
 
+# search for apple, banana and/or cherry in any order in
+# current directory's files
+rg -e --pcre2 '^(?=.*apple)(?=.*banana)(?=.*cherry).*' .
+
 ```
