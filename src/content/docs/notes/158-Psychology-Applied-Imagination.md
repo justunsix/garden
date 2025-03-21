@@ -10,15 +10,15 @@ Sources: See resources at bottom
 
 - Can explore anything real and not real, no constraints
 - Created from within a person
-- Use cases: explore experiences, understand another person, solve
-  problems, creative work, visualize goals, meditation, therapy
-  treatment
+- Use cases: explore experiences, understand another person or
+  situation, solve problems, creative arts and play, visualise goals,
+  improve health (meditation, therapy)
 
 Considerations:
 
 - Be careful for mistaking an imagination with fantasies that are not
-  real and must not be perceived as real. They may cause stress or
-  conflict with understanding reality
+  real and must not be perceived as real. They may cause stress, fear,
+  or conflict with understanding reality
 
 ## Tips to Grow Imagination
 
