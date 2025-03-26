@@ -1,6 +1,6 @@
 ---
 description: Digital Marketing Report Template for Google Ads
-filetags: ":epubnote:"
+filetags: ":epubnote:digital:marketing:google-ads:template:report:"
 header-includes:
 - <link rel="stylesheet" type="text/css" href="basic-org.css"/>
 id: 3591ae51-8726-45a7-9c73-4cc858a29dc3
@@ -40,8 +40,11 @@ title: Digital Marketing Report Template for Google Ads
 - In Overview \> Searches
   - Download the card data `.csv` reports
 - Use reports to for analysis
-- Optional, extract data from `.csv` reports using Python \<insert
-  link\>
+- Optional, extract data from `.csv` reports using [Google Ads Report
+  Python
+  script](https://github.com/justunsix/automatetheboringstuff-py-tests/tree/main/src/project/spreadsheet/google-ads-report)
+- If using Emacs org mode template, use `org-export-dispatch` and chose
+  HTML for best formatting results
 
 ## Context
 
@@ -50,19 +53,35 @@ Report covers Jan to March 2023
 - Goals
 - What was done
 
+## Report Summary
+
+Summary insights and recommendations section
+
 ## Results
 
 ### Explanation of columns
 
-- Cost - how much was spent on ads
 - Clicks - clicks to website
-- Interactions - people who interacted with ads like clicks
+- Cost - how much was spent on ads
 - Impressions (Impr.) - number of times ads were shown
+- Interactions - people who interacted with ads like clicks
 - Interaction rate - percentage of people who saw and interacted with
   ads
 - Conversions - tracked interactions like website contacts, business
   profile interactions, calls
 - Phone Calls from Ads - phone calls directly from ads
+
+### Campaigns
+
+| Year | Clicks | Cost (\$) | Impressions | Interaction rate | Conversions | Phone calls |
+|------|--------|-----------|-------------|------------------|-------------|-------------|
+| 2024 | 9000   | 9000      | 600,000     | 2.00%            | 1000        | 100         |
+
+### Ad Group and Campaign Performance
+
+| Campaign          | Ad group | Clicks | Interaction Rate | Conversions |
+|-------------------|----------|--------|------------------|-------------|
+| Digital Marketing | Reports  | 300    | 1.55%            | 30          |
 
 ### Top Locations by Clicks
 
@@ -84,9 +103,9 @@ shown.
 
 ### Popular Words in Searches
 
-| Word  | Clicks | Impressions | Top Containing Queries                                  |
-|-------|--------|-------------|---------------------------------------------------------|
-| water | 193    | 3,189       | (water softener, tankless water heater, hot water tank) |
+| Word   | Clicks | Impressions | Top Containing Queries                                   |
+|--------|--------|-------------|----------------------------------------------------------|
+| report | 200    | 3000        | (report ad, google ads report, marketing report metrics) |
 
 ## Insights
 
