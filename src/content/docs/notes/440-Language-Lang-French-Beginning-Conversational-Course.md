@@ -300,7 +300,7 @@ family.
   washed the face."
 - [ ] French Sayings:
 
-``` example
+``` txt
 
 Sayings
 

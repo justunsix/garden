@@ -4,29 +4,123 @@ id: 3615be88-f25a-4fba-98c4-42f34c59be5d
 title: Stoicism
 ---
 
-## Takeaways
+## Introduction to Stoicism
 
-"42" in number of words
+Source: [Stoicism as a philosophy for an ordinary life \| Massimo
+Pigliucci \| TEDxAthens](https://www.youtube.com/watch?v=Yhn1Fe8cT0Q)
 
-- 4 - [Aim for psychological consistency](#what-is-stoicism) -
-  consistent character and judgements or making judgements consistently
-  to develop thinking and behaving consistently. Live consistently with
-  nature; both universe and human nature.
-- 2 - [Daily practice](#a-simplified-modern-approach-to-stoicism):
-  - Set goals with note that they are "fate permitting"
-  - Postpone judgements at least 1 hour, take time when making them. Let
-    emotions come as they are natural and judge them as neither good nor
-    bad.
-  - Things that we do not control - "this is nothing to me"
-  - Evaluate (good, bad, missed opportunities, counsel yourself, rate
-    0-10)
+### Two pillars of Stoicism
+
+- 4 Cardinal Virtuals
+  - Wisdom - what is good for you and not
+  - Courage - physical and moral courage to do the right thing
+  - Justice - what is the right thing, right way to treat people
+  - Temperance - do things in right measure, not too much or too little
+
+1.  What is Up to Us?
+
+    - Dichotomy of control - some things are up to us and some are not
+      - Focus on the functions of your mind that are up to us
+
+    More from an article "Some things are what? …"
+
+    Source: [Some things are what? What does the beginning of the
+    Enchiridion mean? – Living
+    Stoicism](https://livingstoicism.com/2023/05/10/epictetus-enchiridion-explained/)
+    by James Daltrey
+
+    Quotation from conclusion of the article about first chapter of the
+    Enchiridion:
+
+    > Prohairesis, our ability to rationally reflect upon our own
+    > judgments about what is to be pursued or avoided is the only thing
+    > that is ours, and the only thing of true value. What is not ours,
+    > external things, only have value if we avoid or pursue them for
+    > the right reasons, in the right way. Anything can interfere with
+    > getting or avoiding anything that is not freely ours, so to count
+    > on them will lead to disappointment. If we only count on working
+    > on what is ours, avoiding bad judgments, and pursuing good
+    > judgments about what we should do, we will be truly free from
+    > disappointment . To rationally reflect upon our own judgments
+    > about what is to be pursued or avoided alone is ours, our
+    > business, our work, our task. This is prohairesis, This is virtue.
+    > This is ours.
+
+### Teachings from Epictetus
+
+- "I have to die. If it is now, well then I die now; if later, then now
+  I will take my lunch, since the hour for lunch has arrived - and dying
+  I will tend to later" Discourses I.2
+  - Lunch is under your control, not death
+- " Some things are in our control and others not. Things in our control
+  are opinion, pursuit, desire, aversion, and, in a word, whatever are
+  our own actions. Things not in our control are body, property,
+  reputation, command, and, in one word, whatever are not our own
+  actions." Enchiridion 1
+  - You can do things, make decisions, but outcomes are not in your
+    control
+  - Focus on your intentions
+- Happiness as serenity: "If you have the right idea about what really
+  belongs to you and what does not, you will never be subject to force
+  or hindrance, you will never blame or critize anyone, and everything
+  you do will be done willingly" Enchiridion 3
+
+### Archery Example for Dichotomy of Control
+
+- You can control practice, equipment, effort
+- You cannot control after arrow is released
+- Target is chosen, but outcome is not to be desired. from Cicero
+  - You self esteem is attached to the effort, not the outcome
+- Modern applications:
+  - You can apply for a job
+    - Focus on effort like your resume and interview. Prepare and work
+      hard as best you can
+    - Do not worry if you get or do not get the job
+  - Relationships
+    - Be the best lovable person you can be
+    - Do not worry if that person stays with yo
+
+### Playing Roles
+
+- 3 roles we play:
+
+  - Human beings
+  - By circumstance (a son, daughter)
+  - By choice (career, mother, father)
+
+- Before doing something, ask yourself is it good for humanity? (your
+  role as a human)
+
+- "You are the one that knows yourself, of how much you are worth to
+  yourself and for how much you are selling yourself… Consider at what
+  price you sell your integrity; but please, for God's sake, don't sell
+  it cheap." Discourses I, 2.11,33
+
+  - Be best you can, if you compromise, understand it
+  - Be better than yourself yesterday, in small steps. No need to be
+    "perfect"
+
+- Balance: "Reflect on the other social roles you play. … If you are
+  young, what does being young mean, if you are old, what does age
+  imply, if you are a father, what does fatherhood entail? Each of our
+  titles suggests the act appropriate to it." Discoures II, 10.10
+
+  - Use wisdom and temperance to determine the right to play a role
+
+### How do you know what is right?
+
+- Look at role models, focus on approaching their level. Examples of
+  both ancients / modern, don't need to be perfect
+  - Real: Cato the Younger, Porcia Cato / Nelson Mandella, Susan Fowler
+    Rigetti
+  - Imaginary: Odysseus / Spider man
+- Like actors, we wear different masks. Play the best actor you can
+  possibly be
 
 ## What is Stoicism
 
 [Source](https://modernstoicism.com/what-is-stoicism-by-john-sellars/)
-from [Modern Stoicism](https://modernstoicism.com/)
-
-by John Sellars
+from [Modern Stoicism](https://modernstoicism.com/) by John Sellars
 
 ### Logic
 
@@ -83,13 +177,13 @@ Citium (Cyprus) ~ 300 BCE:
 - Cynics were preaching a rather extremely minimalist life style (virtue
   over all things), which is hard to practice for most human beings.
 
-- Stoics looked for a balance endorsing two ideas, on which I will
-  elaborate later, that virtue is the only true good, in itself
-  sufficient for eudaimonia regardless of one's circumstances, but also
-  that other things—like health, education, wealth—may be rationally
-  preferred (Proēgmena) or "dispreferred" (Apoproēgmena), as in the case
-  of sickness, ignorance, and poverty, as long as one did not confuse
-  them for things with inherent value.
+- Stoics looked for a balance endorsing two ideas that virtue is the
+  only true good, in itself sufficient for eudaimonia regardless of
+  one's circumstances, but also that other things—like health,
+  education, wealth—may be rationally preferred (Proēgmena) or
+  "dispreferred" (Apoproēgmena), as in the case of sickness, ignorance,
+  and poverty, as long as one did not confuse them for things with
+  inherent value.
 
 - In beginning, Stoicism was labeled as "Socratic" with the
   inspiration - virtue is the chief good.
@@ -153,14 +247,14 @@ Evening Review:
 
     Stoicism had 3 fields:
 
-    - Ethics - Stoicism' goal to help people live a virtuous life
+    - Ethics - Stoicism's goal to help people live a virtuous life
       - "Live consistently with nature" - both universe and human
         nature.
       - Human nature:
         - We naturally advance our interests and goals (health, wealth,
           and so forth)
         - We identify with other people's interests (initially our
-          parents, then friends, then countrymen)
+          parents, then friends, then other people)
         - We figure out ways to practically navigate life.
         - "The Stoics related these propensities directly to the four
           cardinal virtues of temperance, courage, justice and practical
@@ -405,6 +499,23 @@ by Tony A. A. Long
   control, and partially control
 - Becker (1997) - modernized physics, natural science views with ancient
   Stoicism
+
+## Takeaways
+
+"42" in number of words
+
+- 4 - [Aim for psychological consistency](#what-is-stoicism) -
+  consistent character and judgements or making judgements consistently
+  to develop thinking and behaving consistently. Live consistently with
+  nature; both universe and human nature.
+- 2 - [Daily practice](#a-simplified-modern-approach-to-stoicism):
+  - Set goals with note that they are "fate permitting"
+  - Postpone judgements at least 1 hour, take time when making them. Let
+    emotions come as they are natural and judge them as neither good nor
+    bad.
+  - Things that we do not control - "this is nothing to me"
+  - Evaluate (good, bad, missed opportunities, counsel yourself, rate
+    0-10)
 
 ## See Also
 

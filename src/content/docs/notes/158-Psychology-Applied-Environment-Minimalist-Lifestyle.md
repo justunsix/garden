@@ -103,5 +103,5 @@ Process:
   [the simple guide to a minimalist
   life](id:170ccdb8-73b1-4edd-aa09-f61e86a075f6)
 - [The
-  Minimalists](../158-psychology-applied-environment-minimalist-the-minimalists) -
+  Minimalists](../158-psychology-applied-minimalism-the-minimalists) -
   [The Minimalists](id:5b72e98e-c259-4375-9f23-eb7bc6deffeb)
