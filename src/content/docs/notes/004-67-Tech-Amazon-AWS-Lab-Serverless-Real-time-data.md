@@ -128,7 +128,11 @@ Diagram of how architecture works to run
 <https://github.com/dwmkerr/spaceinvaders> with user authentication,
 scoreboard tracking, user sessions, user data in DynamoDB
 
-![](../media/Tech-Amazon-AWS-Lab-Serverless-Real-time-data-Architecture-1.png)
+<figure>
+<img
+src="../media/Tech-Amazon-AWS-Lab-Serverless-Real-time-data-Architecture-1.png" />
+<figcaption>Serverless real time data architecture</figcaption>
+</figure>
 
 ### AWS Development
 
