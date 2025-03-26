@@ -9,7 +9,8 @@ title: Neuron Growth and Yoga
 Source: [Can yoga-inspired practices grow new neurons? B.C. yogi weighs
 in](https://www.eaglevalleynews.com/home2/can-yoga-inspired-practices-grow-new-neurons-bc-yogi-weighs-in-7775215)
 
-- Online course, “Yoga for Neurogenesis: Practices to Build Your Brain",
+- Online course, [“Yoga for Neurogenesis: Practices to Build Your
+  Brain"](https://costa-yoga.teachable.com/p/yoga-for-neurogenesis),
   taught by Mandy Lawson
 - Neurogenesis - creation of new neurons in brain
   - Needed for cognitive functions like learning, memory, brain health
