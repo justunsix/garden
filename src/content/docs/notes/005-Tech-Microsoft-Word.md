@@ -29,4 +29,5 @@ title: Microsoft Word
 - [Microsoft Word - Adding custom controls and fields and populating
   them using Power
   Automate](../005-tech-microsoft-word-custom-controls-power-automate-template-populate) -
-  :roam:
+  [Microsoft Word - Adding custom controls and fields and populating
+  them using Power Automate](id:e1514c6d-18fb-48cb-aac7-cc5b9a4236a6)

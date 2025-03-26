@@ -19,7 +19,7 @@ title: Terminal
   widgets, cross platform
 - [broot](https://dystroy.md/broot/) - directory and file navigation
   with directory sizes, search
-- curlie - curl user friendly
+- curlie - curl user friendly, good also for API tests
 - cheat - cheat sheets
 - dog - user friendly, powerful dig
 - cargo-info - shows info about crates
@@ -57,7 +57,8 @@ title: Terminal
 - Ouch: Painless compression and decompression for your terminal with
   autodetection of file types
 - porsmo - pomodoro timer
-- [nosting](https://github.com/darrenburns/posting) - API TUI
+- [posting](https://github.com/darrenburns/posting) - API TUI, good for
+  API tests
 - [procs](https://github.com/dalance/procs) - ps with colours and more
   accessible output, search
 - ripgrep - faster grep

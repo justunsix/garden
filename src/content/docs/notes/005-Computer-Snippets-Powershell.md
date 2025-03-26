@@ -62,6 +62,11 @@ ii .\file.txt
 # Check command and its location
 Get-Command <command>
 
+# Check if a command exists and use it
+if (Get-Command "zoxide.exe" -ErrorAction SilentlyContinue) {
+    # Use command
+}
+
 # Convert an object to CSV
 Get-Process -Name pwsh | ConvertTo-Csv -NoTypeInformation
 
@@ -259,6 +264,17 @@ Update-Module Microsoft.Graph
 $user = Get-MgUser -Filter "userPrincipalName eq 'first.last@email.ca'"
 $user.displayName
 $user.Id
+
+```
+
+## Remove thumbs.db files
+
+Source: [PowerShell Command to Recursively Delete Thumbs.db - Networking
+HowTos](https://www.networkinghowtos.com/howto/powershell-command-to-recursively-delete-thumbs-db/)
+
+``` powershell
+
+Get-ChildItem -Path . -Include thumbs.db -Recurse -Name -Force | Remove-Item -Force
 
 ```
 
