@@ -1,7 +1,7 @@
 ---
 filetags: ":microsoft:word::epubnote:mail-merge:"
 id: 2efb7726-240f-410a-9f3b-1e15858867ca
-title: Microsoft Word - Using Mail Merge to send build email
+title: Microsoft Word - Using Mail Merge to send bulk email
 ---
 
 Source: [Use mail merge in Word to send bulk email messages - Microsoft

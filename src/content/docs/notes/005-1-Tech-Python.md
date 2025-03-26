@@ -1,5 +1,5 @@
 ---
-filetags: ":python:tech:epubnote:"
+filetags: ":python:tech:epubnote:index:"
 id: 60afaf50-cb45-44be-b9f3-2e7c951ebc5a
 title: Python
 ---

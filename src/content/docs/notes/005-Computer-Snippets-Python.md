@@ -40,7 +40,7 @@ pipx upgrade-all
 
 ```
 
-### Jupyter
+## Jupyter notebooks
 
 ``` shell
 
