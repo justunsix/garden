@@ -94,4 +94,5 @@ models, chat controls, and settings.
 See [Local AI with Retrieval Augmented Generation (RAG) using Open WebUI
 and Ollama System and
 Setup](../006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama-system) -
-:roam:
+[Local AI with Retrieval Augmented Generation (RAG) using Open WebUI and
+Ollama System and Setup](id:137fc4d7-be88-4f53-b66c-b9b1f1106a01)
