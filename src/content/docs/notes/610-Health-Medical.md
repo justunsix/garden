@@ -13,14 +13,15 @@ Connect](https://www.ontario.ca/page/find-family-doctor-or-nurse-practitioner)
 ### Preparing for a Regular Check Up
 
 - Get a blood requisition form from your doctor
+  - Fill in personal information
 - Complete the blood test
   - Book an appointment as a blood testing site, for example with [Life
     Labs](https://www.lifelabs.com/)
   - Prepare for the test with the requisition form, health card, and
     other items recommended by the test site
   - Follow other test preparation instructions, for example 8 hours
-    fasting is required for glucose and 12 hours fasting for lipid
-    assessment
+    fasting is required for fasting glucose/GTT and 12 hours fasting for
+    lipid assessment
 - Book an appointment with your doctor
 - Prepare notes you want to discuss with your docture, for example:
   - Mental and physical health problems, chronic issues
