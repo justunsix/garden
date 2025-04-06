@@ -11,6 +11,9 @@ procs:
   help:
     autostart: false
     shell: make help
+  install:
+    autostart: false
+    shell: make install
   preview:
     autostart: false
     shell: make preview
