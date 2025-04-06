@@ -97,5 +97,7 @@ download_yt_dlp() {
   esac
 }
 
+# Use output of command
+vim $(fzf)
 
 ```

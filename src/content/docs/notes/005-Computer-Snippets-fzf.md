@@ -52,6 +52,9 @@ source /usr/share/fzf/shell/key-bindings.bash
 # See Ubuntu Debian per /usr/share/doc/fzf/README.Debian
 # For more, see https://github.com/junegunn/fzf/tree/master/shell
 
+# Nushell: Open fzf selected file with a helix
+hx (fzf)
+
 ```
 
 ## Search and Filters

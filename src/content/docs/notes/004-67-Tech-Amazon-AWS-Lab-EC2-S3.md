@@ -58,23 +58,19 @@ Benefits
 
 ### EC2 Instance Naming and Sizing
 
+``` txt
+
 Instance generation
-
-||
-||
-||
-||
-||
-
+ |
+ |     Instance size
+ |      |
 c7gn.xlarge
-
-|            |     |
-|------------|-----|
-|            |     |
-| Attributes |     |
-|            |     |
-
+| ||
+| Attributes
+|
 Instance family
+
+```
 
 Instance sizing could be like
 

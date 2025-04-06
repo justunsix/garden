@@ -25,12 +25,28 @@ curl -O https://raw.githubusercontent.com/nvim-lua/kickstart.nvim/master/init.lu
 
 Read through init.lua to understand installed packages and keymaps
 
+## LazyVim - Neovim Configuration
+
+Source: [LazyVim From Scratch To BEAST
+MODE](https://www.youtube.com/watch?v=evCmP4hH7ZU)
+
+Goal is set up Neovim with [LazyVim
+distribution](https://www.lazyvim.md/) for common editing tasks to start
+use with computer programming languages.
+
+- Follow [LazyVim Install
+  instructions](https://www.lazyvim.md/installation) and its
+  documentation for description of its files and usage.
+- On first run of `nvim`, plugins and configurations will be set up
+- Recommend to look through key mappings. You can search key mappings to
+  discover them and their functions with leader + s + k.
+
 ## Astrovim - Neovim configuration
 
 - Install using Getting Started section of [Astronvim
   Documentation](https://docs.astronvim.com).
 - Can install plugins using
-  [lazynvim](https://github.com/folke/lazy.nvim) such as putting single
+  [lazy.nvim](https://github.com/folke/lazy.nvim) such as putting single
   lua files per plugin to plugins directory, for example, for
   [orgmode](https://github.com/nvim.mdmode.mdmode) add `orgmode.lua` to
   plugins directory with block in [orgmode install
@@ -100,6 +116,8 @@ return {
   [Neovim Language Support](id:645199ea-3a6f-4847-aecf-c475ac0c19b8)
 - [Neovim and Artificial
   Intelligence](../005-tech-vim-neovim-artificial-intelligence)
+- [Neovim Debugging](../005-tech-vim-neovim-debug) - [Neovim
+  Debugging](id:3dd708f8-6a2e-4752-9d7f-3a71b5c64352)
 
 ### Resources
 

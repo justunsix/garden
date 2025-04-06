@@ -36,6 +36,12 @@ title: Neovim Shortcuts
 | Code, actions                                  | \<l\> c a                    |
 | Code, actions, check LSP, Linter with Mason    | \<l\> c m                    |
 | Code, actions, fix all                         | \<l\> c A                    |
+| Debug, actions                                 | \<l\> d                      |
+| Debug, toggle breakpoint                       | \<l\> db                     |
+| Debug, toggle user interface                   | \<l\> du                     |
+| Debug, run/continue                            | \<l\> dc                     |
+| Debug, step into                               | \<l\> di                     |
+| Debug, toggle breakpoint condition             | \<l\> dB                     |
 | Command history, to execute in command mode    | \<l\> :                      |
 | Dashboard open                                 | :lua Snacks.dashboard.open() |
 | Find files, telescope mode, fuzzy find         | \<l\> f f or SPC SPC         |
@@ -74,6 +80,7 @@ title: Neovim Shortcuts
 | Neo tree, Move up, down, scroll up, down       | j, k, C-u, C-d               |
 | Neo tree, Quit                                 | q                            |
 | Neo tree, Help                                 | :help neo-tree               |
+| Notifications                                  | :noice                       |
 | Screen: Adjust height and width                | C-arrow keys                 |
 | Screen: Navigate to screen in direction        | C-h,j,k,l                    |
 | Search: Command history                        | \<l\> s c                    |

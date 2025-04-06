@@ -1,7 +1,7 @@
 ---
 filetags: ":rust:cargo:snippets:epubnote:"
 id: 92688ec0-8523-4171-88c2-337e34693607
-title: Rust Cargo Snippets
+title: Rust and Cargo Snippets
 ---
 
 ## Rust Command Line Snippets
@@ -16,7 +16,7 @@ cargo install --list | awk '{print $1}' | xargs -I{} cargo uninstall {}
 
 ```
 
-### Programming
+### Programming with cargo and rustc
 
 ``` shell
 
@@ -207,7 +207,7 @@ fn main() {
 
 ## Functions
 
-- Use snake<sub>case</sub>
+- Use "snake<sub>case</sub>"
 
 ``` rust
 

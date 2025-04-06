@@ -35,6 +35,9 @@ cd $env:LOCALAPPDATA
 # List environment variables
 Get-ChildItem Env:
 
+# User's home directory
+$env:USERPROFILE
+
 # Switch to a different Windows Active Directory domain which is on the same network
 # https://dba.stackexchange.com/questions/166638/how-to-connect-remotely-to-mssql-database-from-local-using-windows-authenticati
 runas /netonly /user:mydomain\myusername powershell.exe

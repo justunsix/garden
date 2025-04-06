@@ -49,6 +49,7 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Dired, down directory or open file               | l                                   |
 | Dired, up directory                              | h                                   |
 | Exit insert mode                                 | Esc or jk                           |
+| Format, region or buffer                         | +format/region or +format/buffer    |
 | Go to file or url                                | g f                                 |
 | Go to, Avy : go to char2                         | g s s                               |
 | Go to, Avy : go to timer                         | g s /                               |

@@ -93,6 +93,7 @@ ps | where name =~ 'emacs' | first | kill -f $in.pid
 # Kill process with process ID
 kill <pid>
 
+
 # Filter output on string
 gfold | lines | where {str contains "clean"}
 
@@ -110,4 +111,25 @@ open --raw sheet1.xlsx | from xlsx | find health | rg health
 http get https://google.com
 # Can returned structured data for further use
 # Similar to curl, jq tools combined
+
+# Use output of command fzf with another command
+vim (fzf)
+
+# Redirect both stdout and stderr to the same file with out+err>
+cat unknown.txt out+err> log.log
+
+# Complete: Gather stdout, stderr, and exit code together in one record
+cat unknown.txt | complete
+
+# View system information
+sys host
+# Other possible values are:
+# cpu - View information about the system CPUs.
+# disks - View information about the system disks.
+# host - View information about the system host, operating system
+# mem - View information about the system memory.
+# net - View information about the system network interfaces.
+# temp - View the temperatures of system components.
+# users - View information about the users on the system.
+
 ```
