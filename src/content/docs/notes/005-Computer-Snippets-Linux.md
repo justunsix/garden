@@ -214,16 +214,40 @@ find ./ -type f -size +2G -exec du -h {} + | sort -rh | head -30
 
 ```
 
-## fsck - check disks for errors
+## fsck or smartctl - check disks for errors
+
+Source: [How to Run a Disk Check to Fix Bad Sectors -
+Baeldung](https://www.baeldung.com/linux/disk-check-repair-bad-sectors)
+
+Alternatively, can use gnome-disks GUI app and click on the drive and
+use 3 dot menu to run SMART (Self-Monitoring, Analysis, and Reporting
+Technology) tests
+
+Get the device identifiers for the disk(s) to scan
 
 ``` shell
 
 # List disks
 df -h
+# Full list including loops
 lsblk -f
+
+```
+
+For later commands, `/dev/sdb` is the example disk to scan
+
+### fsck
+
+``` shell
+
+# First unmount the disk to scan
+sudo umount /dev/sdb
 
 # Do a dry run
 sudo fsck -N /dev/sdb
+
+# Force filesystem check, perform all checks to search for corruptions even when it thinks there are no issues
+sudo fsck -f /dev/sdb
 
 # Fix Detected Error Automatically
 sudo fsck -y /dev/sdb
@@ -231,6 +255,21 @@ sudo fsck -y /dev/sdb
 # Force fsck to Do a Filesystem Check
 # When you perform a fsck on a clean device, the tool skips the filesystem check. If you want to force the filesystem check, use the -f option.
 sudo fsck -f /dev/sdb
+
+# Remount the scanned disk
+mount /dev/sdb
+
+```
+
+### smartctl
+
+``` shell
+
+# Can be installed for example with apt
+sudo apt-get install smartmontools
+
+# Run scan, note some drives do not support SMART
+sudo smartctl -a /dev/sdb
 
 ```
 
@@ -515,11 +554,13 @@ progress bar for the transfers and the second allows you to resume
 interrupted transfers –exclude is used to ignore files and can have a
 recursive flag
 
-## tar - System Administration including Windows tar
+## tar - System Administration
 
 ``` bash
+
 # Untar a file todo.txt_cli-2.12.0.tar.gz
 tar -xvf todo.txt_cli-2.12.0.tar.gz
+
 ```
 
 ## tee

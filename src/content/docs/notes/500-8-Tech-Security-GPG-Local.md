@@ -20,7 +20,7 @@ cd ~/.ssh
 ## Name key with date to identify generation date
 ssh-keygen -t ed25519 -C "myemail@domain.com"
 
-# Upload public key to repository like GitHub, format is like ssh-ed25519 long-key-string justin.tung@live.ca
+# Upload public key to repository like GitHub, format is like ssh-ed25519 long-key-string myemail@domain.com
 cat ~/.ssh/id_ed25519.pub
 
 ```

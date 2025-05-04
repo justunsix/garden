@@ -15,18 +15,42 @@ ssh-keygen -t ed25519 -C "myemail@domain.com"
 # SSH to destination with an identity file "id_rsa_myidentity"
 ssh -i id_rsa_myidentity user@ip_address
 
-# Run ssh agent, Linux
+```
+
+## Start SSH agent and add keys
+
+### On Linux, Unix, MacOS and Windows with MSYS2/Cygwin
+
+These commands also work using msys2 and cygwin on Windows with
+`openssh` package installed. See [Working with SSH key passphrases -
+GitHub
+Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases#auto-launching-ssh-agent-on-git-for-windows)
+for using a similar method with git bash on Windows.
+
+Source: [Generating a new SSH key and adding it to the ssh-agent -
+GitHub
+Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+``` shell
+
+# Run ssh agent in background
 eval "$(ssh-agent -s)"
 
-# Add ssh key
+# Add ssh private key
 ssh-add /path/to/key
+
+# List identities and private keys
+ssh-add -l
 
 ```
 
-## Start SSH agent on Windows
+### On Windows
 
 Source: [Key-based authentication in OpenSSH for Windows \| Microsoft
 Learn](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement)
+
+Below commands require administrative rights to start ssh-agent. For a
+non-administrative rights method, see the above instructions.
 
 ``` powershell
 
@@ -40,7 +64,7 @@ Start-Service ssh-agent
 # The following command should return a status of Running.
 Get-Service ssh-agent
 
-# Load your key files into ssh-agent.
+# Load your key private files into ssh-agent
 ssh-add $env:USERPROFILE\.ssh\id_ecdsa
 
 ```

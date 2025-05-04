@@ -439,6 +439,15 @@ methods
 - See troubleshooting at [Emacs Wiki -
   Tramp](https://www.emacswiki.md/emacs/TrampMode#toc7)
 
+## Games and Therapy
+
+| Name                     | Shortcuts  |
+|--------------------------|------------|
+| Play game, pong          | M-x pong   |
+| Play game, snake         | M-x snake  |
+| Play game, tetris        | M-x tetris |
+| Psychotherapy with Eliza | M-x doctor |
+
 ## See Also
 
 - [Emacs Snippets](../005-computer-snippets-emacs) - [Emacs

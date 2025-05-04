@@ -97,6 +97,20 @@ download_yt_dlp() {
   esac
 }
 
+# Read user input
+read -r -p "Enter input: " input
+
+# Read secret user input
+read -rs -p "Enter password: " PASSWORD
+# -r do not allow backslashes to escape any characters
+# -s hide input
+# -p print the prompt
+
+# Commands
+
+# Create directory and any parent folders needed, do not give error if directories exist
+mkdir -p /path/to/new-dir
+
 # Use output of command
 vim $(fzf)
 

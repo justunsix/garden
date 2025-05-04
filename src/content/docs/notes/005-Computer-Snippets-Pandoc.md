@@ -23,8 +23,8 @@ Hello *pandoc*!
 # Ctrl-D (or Ctrl-Z followed by Enter on Windows)
 # ... Defaults to HTML output
 
-# Markdown to HTML, -o output
-pandoc test1.md -f markdown -t html -s -o test1.html
+# Markdown to HTML, -o output, --verbose to output conversion log
+pandoc test1.md -f markdown -t html -s -o test1.html --verbose
 
 # Markdown to LaTeX
 # requires https://miktex.org/howto/portable-edition installed and running
@@ -109,6 +109,10 @@ end
 # Org to HTML
 pandoc -s input.org -o output.html
 
+# Select an org file to convert, use a specific css stylesheet
+pandoc -s (fzf) --css=basic-org.css --standalone -o output.html; firefox output.html
+# --standalone / -s as stylesheet will go in the html output header
+
 ```
 
 ## Docx to Org
@@ -169,13 +173,13 @@ xclip -o -t text/html | pandoc -f html -t org --wrap=none | sed 's/\\\\//g' | xc
 
 ## Simple Clipboard Piping
 
-### Windows Clipboard
+### Windows / PowerShell
 
 ``` powershell
 
 # Get clipboard from markdown to org
-## -Raw and --wrap=none to workaround odd characters in conversion
 Get-Clipboard -Raw | pandoc -f markdown -t org --wrap=none | clip
+## -Raw and --wrap=none to workaround odd characters in conversion
 
 # Get clipboard and convert its markdown to html
 Get-Clipboard | pandoc -f markdown -t html | Set-Clipboard
@@ -186,6 +190,13 @@ Get-Clipboard | pandoc | Set-Clipboard -AsHtml
 # Deprecated clip instead of newer Clipboard commands
 # from https://docs.joshuatz.com/cheatsheets/markdown/ for more options and troubleshooting
 `pandoc myfile.md | clip` -
+
+# or
+#
+# Script using PowerShell to get markdown clipboard contents and paste converted to org to clipboard
+$markdowncontent = get-clipboard; set-content -path input.md -value $markdowncontent
+pandoc -f markdown -t org -o input.md.org -s input.md --wrap=none 
+$fileContent = Get-Content -Path input.md.org; Set-Clipboard -Value $fileContent
 
 ```
 
@@ -202,10 +213,20 @@ pbpaste | pandoc -f markdown -t html | pbcopy
 macOS](https://bendyworks.com/blog/cut-paste-rich-text-pandoc-markdown),
 use `pbcopy`. On Unix, use `xclip`
 
-### Linux
+### Linux / Bash
 
 ``` bash
 pandoc -S file.mkd | xclip -t text/html -selection clipboard
+
+# or
+#
+# Script using bash to get markdown clipboard contents and paste converted to org to clipboard
+xsel -ob >input.md
+pandoc -f markdown -t org -o input.md.org -s input.md --wrap=none
+# Replace odd spacing and characters in org file
+sed -i 's/\xc2\xa0/ /g' ./*.org
+xsel --clipboard <input.md.org
+
 ```
 
 ## Converting docx with images to markdown
@@ -233,21 +254,141 @@ for %a in (*.*) do ren "%a" "prefix - %a"
 
 ### Portable pandoc and MiKTeX and telling pandoc about MiKTeX
 
-Make sure MiKTeX is running in background first
+Make sure MiKTeX (Console)'s packages are all updated before running
 
 ``` bash
+
 # Command specifies pdf engine for pandoc to use
-pandoc test1.md -s -o test1.pdf --pdf-engine=C:\usr\bin\PortableApps\PortableApps\miktexPortable\texmfs\install\miktex\bin\x64\pdflatex.exe
+pandoc test1.md -s -o test1.pdf --pdf-engine=C:\Users\MyUser\scoop\apps\miktex\current\texmfs\install\miktex\bin\x64\pdflatex.exe
+# --pdf-engine flag is not needed if pdflatex is already in path
+
 ```
 
-### Converting a web page to markdown
+### Converting a web page to markdown or other formats
 
 ``` bash
-pandoc -s -r html http://www.gnu.org/software/make/ -o example12.md
+
+pandoc -s -r html https://www.gnu.org/gnu/gnu.html -o example12.md
+# the -o example12.md implies output format of -t markdown
+
+# Convert multiple web pages to larger document
+pandoc -f html https://www.gnu.org/gnu/gnu.html https://www.gnu.org/licenses/licenses.html -o aboutgnu.md
+# Like above but make into simpler HTML
+pandoc -f html https://www.gnu.org/gnu/gnu.html https://www.gnu.org/licenses/licenses.html -o aboutgnu.html
+
 ```
 
 ### Word (Docx) to markdown, including math
 
 ``` bash
 pandoc -s example30.docx -t markdown -o example35.md
+```
+
+## Slide shows (Presentations in PDF, HTML, PowerPoint)
+
+Source: [Pandoc Manual, Slide
+Shows](https://pandoc.md/MANUAL.html#slide-shows)
+
+``` shell
+
+# Using a markdown source, convert to HTML and JS presentation
+pandoc -t revealjs -s source.md -o presentation.html -V revealjs-url=https://unpkg.com/reveal.js@^5
+# There are other -t options, see pandoc manual
+# --slide-level to Override slide level with like 1, 2, 3
+
+# Convert markdown to RevealJS presentation without transition, use white theme and local css
+pandoc -t revealjs -s source.md -o presentation.html -V theme=white -V transition=none -V revealjs-url=https://unpkg.com/reveal.js@^5 --css slides.css
+# Set custom stylesheet with --css
+
+# Set revealjs configuration options using variables -V and set width and height of monitor used for presentation
+pandoc -t revealjs -s source.md -o presentation.html -V theme=white -V transition=none -V revealjs-url=https://unpkg.com/reveal.js@^5 -V width=2560 -V height=1000 --css slides.css
+
+# Using a Emacs org-mode source, create a Microsoft PowerPoint presentation
+paondoc -s mydoc.org -o presentation.pptx
+
+```
+
+Example `source.md`
+
+``` md
+
+---
+title: My Slide Show
+parallaxBackgroundImage: /path/to/my/background_image.png
+title-slide-attributes:
+    data-background-image: /path/to/title_image.png
+    data-background-size: contain
+---
+
+# Habits of John Doe March 22, 2005 Title Slide
+
+## Slide One (alternatively, use markdown heading 1 for all slides)
+
+Slide 1 has background_image.png as its background.
+
+## {background-image="/path/to/special_image.jpg"}
+
+Slide 2 has a special image for its background, even though the heading has no content.
+
+## Slide 3 Introduction to Routines
+
+[user.github.io/my-presents/habits](https://user.github.io/my-presents/habits)
+
+Tips for navigating the slides in a browser
+
+- Press O or Escape for overview mode
+- [Print this presentation](?print-pdf)
+
+## Slide 4 Getting up
+
+- Turn off alarm
+- Get out of bed
+- Longer list of stuff
+
+## Slide 5 Breakfast
+
+- Eat eggs
+- Drink coffee
+
+---
+
+Slide 6 content
+
+::: notes
+
+This is my note.
+
+- It can contain Markdown
+- like this list
+
+:::
+
+## Slide with a pause
+
+content before the pause
+
+. . .
+
+content after the pause
+
+## Slide with list displayed incrementally
+
+::: incremental
+
+- Eat spaghetti
+- Drink wine
+
+:::
+
+## Slide with side by side columns (div containers)
+
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+contents...
+:::
+::: {.column width="60%"}
+contents...
+:::
+::::::::::::::
+
 ```

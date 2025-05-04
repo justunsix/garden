@@ -16,6 +16,29 @@ YouTube](https://www.youtube.com/watch?v=HcuDmSb-JBU)
 - Normal mode using `w` and `b` to move between words like Vim. Helix
   also highlights the words
 
+## Exploring Helix from a Neovim Perspective
+
+Source: [Talk with Nik Revenco (Helix Contributor) \| Learning about
+Helix, as a Neovim user](https://www.youtube.com/watch?v=AS7mnDgFgnw) in
+a question and answer format
+
+### How to open files and explore directories?
+
+- File picker
+- Helix integration with Yazi file explorer
+- Helix explorer (newer feature)
+- :open \<file\> using command mode
+
+### How do you know Helix commands?
+
+Pressing space and other key combinations, a help screen will displayed.
+Helix mostly uses vim motions, though some keys are different.
+
+### How to configure Helix?
+
+Set up files at `~/.config/helix` and put `config.toml`, could copy
+existing `languages.toml`
+
 ## See Also
 
 - [Helix Shortcuts](../005-computer-shortcuts-helix) - [Helix

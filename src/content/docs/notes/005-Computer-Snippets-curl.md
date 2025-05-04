@@ -35,4 +35,7 @@ curl -x http://proxy.example.com:8080 http://www.example.com/
 # with username and password to REST API
 curl -u user:pwd -X GET 'http:1.1.1.1:8081/service/rest/v1/components?repository=maven-snapshots'
 
+# Download a file
+curl -O https://www.digitalocean.com/robots.txt
+
 ```

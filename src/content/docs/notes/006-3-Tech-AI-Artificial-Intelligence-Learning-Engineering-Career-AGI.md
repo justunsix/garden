@@ -135,7 +135,7 @@ Below are areas to look at for preparing yourself
 
 ## Hardware Development
 
-- Design hardware like chips that are like the struction and function of
+- Design hardware like chips that are like the structure and function of
   the human brain's neurons and synapses
 
 ### How to learn

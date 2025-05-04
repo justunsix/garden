@@ -215,12 +215,21 @@ nslookup google.com
 
 ```
 
+## Environment Variables
+
+### Set Environment Variables, Add to Path
+
+``` powershell
+
+[Environment]::SetEnvironmentVariable("HOME", "C:\Users\user1", "User")
+[Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Users\user1\usr\bin", "User")
+
+```
+
 ## Source Environment Variables
 
-This can be accomplished by Dot Sourcing.
-
-<https://stackoverflow.com/questions/13015953/import-variables-from-text-file-in-powershell>
-
+Using [dot
+sourcing](https://stackoverflow.com/questions/13015953/import-variables-from-text-file-in-powershell).
 Create a .ps1 file, declare your variables in it, then dot source the
 file. This will bring any variables declared in the file into the global
 scope.

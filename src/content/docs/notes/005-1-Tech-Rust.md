@@ -63,6 +63,8 @@ cargo packages (can use cargo binstall):
   [Neovim Language Server Protocol
   (LSP)](id:2a279ca1-8291-45e0-889d-26ec8063e535) - includes setup for
   Neovim with Rust
+- [Rust on Windows](../005-1-tech-rust-on-windows) - [Rust on
+  Windows](id:06fcfe47-81b3-4717-9a77-bb261b3b7376)
 
 ### Resources
 

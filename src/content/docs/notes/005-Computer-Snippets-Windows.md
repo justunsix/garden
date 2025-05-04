@@ -4,6 +4,17 @@ id: cba87902-6edd-4f82-8071-24d8902da403
 title: Windows Snippets
 ---
 
+## Shell Commands
+
+``` powershell
+
+# Check disk for errors
+chkdsk /f d:
+# Attempt to repair logical file system errors during the scan with /f switch.
+# If drive in use, you'll be asked to schedule a scan for the next restart
+
+```
+
 ## Windows Commands
 
 | **Command**      | **Usage/Function**                                                                                                        |

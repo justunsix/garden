@@ -12,14 +12,13 @@ title: Terminal
 - [ag](https://github.com/ggreer/the_silver_searcher) - A code searching
   tool similar to ack, but faster.
 - bacon - re-runs cargo clippy, build, test, or run
-- bat
 - bat - cat with colours, line numbers, git integration, paging
 - bob-nvim - nvim version manager
 - [bottom](https://github.com/ClementTsang/bottom) - like htop with
   widgets, cross platform
 - [broot](https://dystroy.md/broot/) - directory and file navigation
   with directory sizes, search
-- curlie - curl user friendly, good also for API tests
+- curlie - user friendly curl, good also for API tests
 - cheat - cheat sheets
 - dog - user friendly, powerful dig
 - cargo-info - shows info about crates
@@ -29,27 +28,28 @@ title: Terminal
   ones like alias usort = "coreutils sort"
 - Difftastic: structural diff tool that compares files based on their
   syntax.
-- du-dust
 - duf - df alternative
-- [dust](https://github.com/bootandy/dust) - du with colours like
-  subdirectories, intuitive interface
+- [dust](https://github.com/bootandy/dust) - file and folder size tree,
+  du with colours like subdirectories, intuitive interface
 - evcxr<sub>jupyter</sub> - rust kernel for jupyter, requires Jupyter
   framework to be installed
 - [eza](https://github.com/eza-community/eza) - ls with colours, icons
 - fd - find with shorter syntax, some limitations, colours
 - fzf - fuzzy finder
 - [hurl](https://hurl.dev/) - for repeatable tests and plain text files
-  for requests
+  for requests, API testing
 - hyperfine - command line benchmarking tool
 - jq - sed for JSON
 - httpie - user friend HTTP client
 - [gitui](https://github.com/extrawurst/gitui) - terminal client for git
 - [irust](https://github.com/tarcieri/irust) - interactive rust REPL
 - lsd - ls with more accessible output, colours, icons
-- macchina: A system information frontend.
+- macchina: A system information frontend
 - mcfly - better history search
 - [monolith](https://github.com/y2z/monolith): CLI tool for saving
   complete web pages as a single HTML file
+- [mosh](https://mosh.md/) - remote terminal allowing roaming,
+  intermittent connectivity, like SSH
 - [mprocs](https://github.com/pvolok/mprocs) - like tmux, but useful for
   long running non-interactive single processes to give them status
 - ncspot - spotify client
@@ -61,8 +61,8 @@ title: Terminal
   API tests
 - [procs](https://github.com/dalance/procs) - ps with colours and more
   accessible output, search
-- ripgrep - faster grep
-- ripgrep - grep with default recursive search, filters
+- pgcli - postgresql interface
+- ripgrep - faster grep, grep with default recursive search, filters
 - rtx-cli - version manager of programming languages like python, node,
   ruby, like program `asdf`
 - [sccache](https://github.com/mozilla/sccache) - cache for compiler
@@ -95,9 +95,8 @@ title: Terminal
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - smart cd to jump to
   frequently used directories
 
-### Installation summary
-
-nix package manager covers all below commands
+nix package manager on Linux, MacOS and scoop on Windows covers most of
+these programs
 
 ### Support Summary as of 2025-02-13
 
@@ -122,9 +121,9 @@ Key commands I use regularly and packaging support:
 | yazi           | x       |        |        | x       |        | x    | x     | x     |
 | zoxide         | x       | x      | x      | x       | x      | x    | x     | x     |
 
-### Cargo installation
+### Installation
 
-All packages above can be installed using cargo with
+Most packages above can be installed using cargo with
 `cargo install <command>`
 
 [Installation - The Cargo
@@ -152,3 +151,5 @@ Book](https://doc.rust-lang.md/cargo/getting-started/installation.html)
   Land](https://github.com/0atman/noboilerplate/blob/main/scripts/20-rust-userland.md) -
   Suggested cross platform rust terminal programs
 - [Modern Unix](https://github.com/ibraheemdev/modern-unix)
+- [A list of new(ish) command line tools - Julia
+  Evans](https://jvns.ca/blog/2022/04/12/a-list-of-new-ish--command-line-tools/)
