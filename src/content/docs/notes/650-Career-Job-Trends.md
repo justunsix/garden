@@ -146,7 +146,7 @@ Recommend learning through Coursera, Udemy
 
     - Machine learning
 
-    - Data modeling
+    - Data modelling
 
     - Statistics
 
@@ -173,7 +173,7 @@ Recommend learning through Coursera, Udemy
 
     - Web accessibility
     - Web design
-    - Figma (collaborative design tool
+    - Figma (collaborative design tool)
     - Mobile app design
     - 3D animation
     - Product design
@@ -192,7 +192,7 @@ Recommend learning through Coursera, Udemy
       - Next.js, React
     - SQL
     - Angular
-    - Selenimum
+    - Selenium
     - Kubernetes
       - Helm
     - CSS
