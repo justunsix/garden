@@ -291,18 +291,18 @@ common security issues in applications
 
 Some reviewed above. Top 10 and prevention techniques
 
-| OWASP Top 10 2017            | Code Review | Threat Modeling | Static Analysis | Dynamic Analysis |
-|------------------------------|-------------|-----------------|-----------------|------------------|
-| A1: Injection                | Y           |                 | Y               | Y                |
-| A2: Broken Auth              |             | Y               |                 | Y                |
-| A3: Sensitive Data Exposure  |             | Y               |                 | Y                |
-| A4: XML External Entities    | Y           |                 | Y               | Y                |
-| A5: Broken Access Control    |             | Y               |                 | Y                |
-| A6: Secure Misconfiguration  |             | Y               |                 |                  |
-| A7: Cross-Site Scripting     | Y           |                 | Y               | Y                |
-| A8: Insecure Deserialization | Y           |                 | Y               | Y                |
-| A9: Using Vulnerable Comp.   |             |                 | Y               | Y                |
-| A10: Insufficient Logging    |             | Y               |                 |                  |
+| OWASP Top 10 2017 | Code Review | Threat Modeling | Static Analysis | Dynamic Analysis |
+|----|----|----|----|----|
+| A1: Injection | Y |  | Y | Y |
+| A2: Broken Auth |  | Y |  | Y |
+| A3: Sensitive Data Exposure |  | Y |  | Y |
+| A4: XML External Entities | Y |  | Y | Y |
+| A5: Broken Access Control |  | Y |  | Y |
+| A6: Secure Misconfiguration |  | Y |  |  |
+| A7: Cross-Site Scripting | Y |  | Y | Y |
+| A8: Insecure Deserialization | Y |  | Y | Y |
+| A9: Using Vulnerable Comp. |  |  | Y | Y |
+| A10: Insufficient Logging |  | Y |  |  |
 
 A9 is common due to insecure JavaScript libraries
 
