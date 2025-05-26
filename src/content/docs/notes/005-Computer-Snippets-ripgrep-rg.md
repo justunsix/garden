@@ -30,6 +30,9 @@ rg -w word file1 file2 file3
 #or
 rg "word" *volunteer*.org
 
+# Check pattern in specific path, files
+rg -i host -g '*.env'
+
 # Search all files including hidden files in current directory and subdirectories
 rg --hidden "word"
 

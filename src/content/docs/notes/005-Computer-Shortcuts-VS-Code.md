@@ -49,13 +49,13 @@ title: VS Code Shortcuts
 
 ### Terminal
 
-| Description            | Shortcut                                                                    |
-|------------------------|-----------------------------------------------------------------------------|
-| Go to Recent Directory | Ctrl + G (use Ctrl + Alt + G to send Ctrl + G to term)                      |
-| Run Recent Command     | Ctrl + Alt + G (like term Ctrl + R)                                         |
-| Open Detected Links    | Ctrl + Shift + O                                                            |
-| Send SIGINT            | Ctrl + C, Ctrl + C (Second one used in case there is a selection activated) |
-| Toggle Terminal        | Ctrl + \`                                                                   |
+| Description | Shortcut |
+|----|----|
+| Go to Recent Directory | Ctrl + G (use Ctrl + Alt + G to send Ctrl + G to term) |
+| Run Recent Command | Ctrl + Alt + G (like term Ctrl + R) |
+| Open Detected Links | Ctrl + Shift + O |
+| Send SIGINT | Ctrl + C, Ctrl + C (Second one used in case there is a selection activated) |
+| Toggle Terminal | Ctrl + \` |
 
 ### Problems
 

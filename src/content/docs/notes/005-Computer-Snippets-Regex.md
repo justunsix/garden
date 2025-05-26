@@ -12,6 +12,18 @@ title: Regex Regular Expression Snippets
 # Match any characters
 .
 
+# Match digits (numbers)
+\d
+
+# Match words
+\w
+
+# Match 1 or more word
+\w+
+
+# Match 1 or more digits
+\d+
+
 # Match only 1 character in the given set
 [abc]
 # Match to a, b, or c

@@ -9,32 +9,35 @@ title: Helix Shortcuts
 See [Migrating from Vim -
 helix-editor/helix](https://github.com/helix-editor/helix/wiki/Migrating-from-Vim)
 
-| Description                                 | Shortcut                         |
-|---------------------------------------------|----------------------------------|
-| Delete character at point                   | d                                |
-| Delete word                                 | wd                               |
-| Delete line                                 | xd                               |
-| Go to first line (same as vim)              | gg                               |
-| Go to last line                             | ge                               |
-| Go to beginning of line                     | gh                               |
-| Go to end of line                           | gl                               |
-| Copy line                                   | xy                               |
-| Copy to end of line                         | t + Enter + y                    |
-| Select entire buffer / file                 | %                                |
-| Buffer search, replace                      | %sword\<ret\>creplacement\<esc\> |
-| Delete entire line                          | xd                               |
-| Delete to end of line                       | vgl d or v \<end\> d             |
-| Go to matching brackey                      | mm                               |
-| Autocomplete                                | C-x                              |
-| Comment lines                               | C-c                              |
-| Search word at point                        | be\* n                           |
-| Multiple cursors, add                       | Shift + c                        |
-| Multiple cursors, turn off cursors          | ,                                |
-| Multiple cursors, use for "block selection" | Shift + c                        |
-| Run shell command                           | :sh command                      |
-| Run shell command, insert output to buffer  | :! command                       |
-| Log, View                                   | :log-open                        |
-| Sort, pipe selection to sort to sort buffer | :pipe sort                       |
+| Description | Shortcut |
+|----|----|
+| Delete character at point | d |
+| Delete word | wd |
+| Delete line | xd |
+| Go to first line (same as vim) | gg |
+| Go to last line | ge |
+| Go to beginning of line | gh |
+| Go to end of line | gl or t + Enter |
+| Go to file/URL in selection | gf |
+| Copy line | xy |
+| Copy to end of line | t + Enter + y |
+| Select entire buffer / file | % |
+| Buffer search, replace | %sword\<ret\>creplacement\<esc\> |
+| Delete entire line | xd |
+| Delete to end of line | vgl d or v \<end\> d |
+| Go to matching bracket | mm |
+| Autocomplete | C-x |
+| Comment lines | C-c |
+| Search word at point | be\* n |
+| Multiple cursors, add | Shift + c |
+| Multiple cursors, turn off cursors | , |
+| Multiple cursors, use for "block selection" | Shift + c |
+| Run shell command | :sh command |
+| Run shell command, insert output to buffer | :! command |
+| Log, View | :log-open |
+| Sort, pipe selection to sort to sort buffer | :pipe sort |
+
+- For t + Enter, Helix has newlines like a character which is Enter
 
 ### Search and replace sequence
 
@@ -57,49 +60,52 @@ file, and then split the selection at .
 
 ## Main
 
-| Description                                          | Shortcut                   |
-|------------------------------------------------------|----------------------------|
-| Code, Symbol picker                                  | SPC s                      |
-| Code, Symbol picker workspace                        | SPC S                      |
-| Code, diagnostics, errors                            | SPC d                      |
-| Code, rename                                         | SPC r                      |
-| Code, show documentation for item at point           | SPC k                      |
-| Command palette                                      | SPC ?                      |
-| Command palette, search bindings                     | SPC ? (%bindings \<keys\>) |
-| File picker, open file in vertical split             | C-v                        |
-| File picker, up, down                                | C-n, C-p                   |
-| Go to menu like cursor, symbols, buffers, line       | g                          |
-| Go to menu like diagnostics, code                    | \[ or \]                   |
-| Go to, next, previous buffer                         | gn, gp                     |
-| Go to, version control changes                       | \[ or \], g or G           |
-| Go to, word, like Vim Flash, seek / Emacs Avy        | gw, \<letter code\>        |
-| Jump list, open                                      | SPC j                      |
-| Jump list, save place                                | C-s                        |
-| Match, (selection / mark) menu                       | m                          |
-| Match, Tree sitter syntax tree contract              | A-i                        |
-| Match, Tree sitter syntax tree expand                | A-o                        |
-| Match, around function                               | maf                        |
-| Match, select inside of given object                 | mi \<object\>              |
-| Match, surround given object                         | ms \<object\>              |
-| Match, replace and then selection                    | mr \<selection\>           |
-| Multiple cursor in next line, above line             | C / Alt-C                  |
-| Multiple cursor turn off                             | ,                          |
-| Register, menu                                       | "                          |
-| Register, document path                              | "%                         |
-| Register, system clipboard                           | "+                         |
-| Paste                                                | p                          |
-| Paste, from system clipboard                         | SPC + p                    |
-| Picker, open last picker (like file, palette)        | SPC '                      |
-| Select, line and press again to select next line     | x                          |
-| Select, within selection, input regex                | s                          |
-| Select, move to next selected element as primary     | )                          |
-| Select, move to previous selected element as primary | )                          |
-| Select, Keep only primary selection                  | ,                          |
-| Select, Remove primary selection                     | Alt ,                      |
-| Select, Collapse selection onto a single cursor      | ;                          |
-| Version control, file picker of changes              | SPC g                      |
+| Description | Shortcut |
+|----|----|
+| Code, Symbol picker | SPC s |
+| Code, Symbol picker workspace | SPC S |
+| Code, diagnostics, errors | SPC d |
+| Code, rename | SPC r |
+| Code, show documentation for item at point | SPC k |
+| Command palette | SPC ? |
+| Command palette, search bindings | SPC ? (%bindings \<keys\>) |
+| Edit, Undo | u |
+| Edit, Redo | Shift + u |
+| File picker, open file in vertical split | C-v |
+| File picker, up, down | C-n, C-p |
+| Go to menu like cursor, symbols, buffers, line | g |
+| Go to menu like diagnostics, code | \[ or \] |
+| Go to, next, previous buffer | gn, gp |
+| Go to, version control changes | \[ or \], g or G |
+| Go to, word, like Vim Flash, seek / Emacs Avy | gw, \<letter code\> |
+| Jump list, open | SPC j |
+| Jump list, save place (current selection for use later) | C-s |
+| Match, (selection / mark) menu | m |
+| Match, Tree sitter syntax tree contract | A-i |
+| Match, Tree sitter syntax tree expand | A-o |
+| Match, around function | maf |
+| Match, select inside of given object | mi \<object\> |
+| Match, surround given object | ms \<object\> |
+| Match, replace and then selection | mr \<selection\> |
+| Multiple cursor in next line, above line | C / Alt-C |
+| Multiple cursor turn off | , |
+| Register, menu | " |
+| Register, document path | "% |
+| Register, system clipboard | "+ |
+| Paste | p |
+| Paste, from system clipboard | SPC + p |
+| Picker, open last picker (like file, palette) | SPC ' |
+| Select, line and press again to select next line | x |
+| Select, within selection, input regex | s |
+| Select, within selection, split selection up | Shift + s |
+| Select, move to next selected element as primary | ) |
+| Select, move to previous selected element as primary | ) |
+| Select, Keep only primary selection | , |
+| Select, Remove primary selection | Alt , |
+| Select, Collapse selection onto a single cursor | ; |
+| Version control, file picker of changes | SPC g |
 
-### Selection
+### Selection, Multiple Cursors
 
 - Select matches in a selection with `s`, then type selection and Enter.
   Can type c to change the selection
@@ -121,8 +127,10 @@ file, and then split the selection at .
 | Toggle options                        | :toggle \<option\> |
 | Hard wrap text, permanently reformat  | :reflow            |
 | Version control, change, reset a diff | :reset-diff-change |
+| Language, Set for syntax highlight    | :lang \<language\> |
 
-Toggles can be visual elements, options
+Toggles can be visual elements, options. Tab completion is available for
+options.
 
 ## See Also
 

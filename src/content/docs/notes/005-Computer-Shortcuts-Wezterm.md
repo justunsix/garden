@@ -9,30 +9,33 @@ Source:
 
 ## Common
 
-| Description          | Shortcut                                            |
-|----------------------|-----------------------------------------------------|
-| Command Palette      | Ctrl + Shift + P                                    |
-| Paste                | Shift + Insert                                      |
-| Panes - Split        | Ctrl + Shift + Alt + % (horizontal) or " (vertical) |
-| Pants - Move between | Ctrl + Shift + Arrow keys                           |
-| Tab - Change tabs    | Ctrl + Tab                                          |
-| Tab - Next, Previous | Ctrl + Page Up / Page Down                          |
-| Tab - Open new tab   | Ctrl + Shift + t                                    |
-| Tab - Close tab      | Ctrl + Shift + w                                    |
+| Description | Shortcut |
+|----|----|
+| Command Palette | Ctrl + Shift + P |
+| Paste | Shift + Insert |
+| Panes - Split | Ctrl + Shift + Alt + % (horizontal) or " (vertical) |
+| Pants - Move between | Ctrl + Shift + Arrow keys |
+| Tab - Change tabs | Ctrl + Tab |
+| Tab - Next, Previous | Ctrl + Page Up / Page Down |
+| Tab - Open new tab | Ctrl + Shift + t |
+| Tab - Close tab | Ctrl + Shift + w |
+| Panel, Split Vertical | Ctrl + Shift + Alt + " |
+| Panel, Split Horizontal | Ctrl + Shift + Alt + % |
+| Panel, Activate panel in direction | Ctrl + Shift + left arrow, right arrrow |
 
 - Command palette example use cases: open new shell
 
 ## Search and Scrollback
 
-| Description                                                | Shortcut                          |
-|------------------------------------------------------------|-----------------------------------|
-| Searchable Scrollback                                      | Shift + Page Up / Page Down       |
-| Searchable Scrollback, copy selected text                  | Ctrl + Shift + c                  |
-| Search                                                     | Ctrl + Shift + f                  |
-| Search results, cycle pattern to match like case sensitive | Ctrl + r                          |
-| Search results, navigate                                   | Arrow keys or Enter or Ctrl + P/N |
-| Search results, clear search pattern                       | Ctrl + u                          |
-| Search, leave                                              | Esc                               |
+| Description | Shortcut |
+|----|----|
+| Search, from any mode | Ctrl + Shift + f |
+| Searchable Scrollback | Shift + Page Up / Page Down |
+| Searchable Scrollback, copy selected text | Ctrl + Shift + c |
+| Search results, cycle pattern to match like case sensitive | Ctrl + r |
+| Search results, navigate | Arrow keys or Enter or Ctrl + P/N |
+| Search results, clear search pattern | Ctrl + u |
+| Search, leave | Esc |
 
 ## Copy Mode
 
@@ -60,11 +63,11 @@ copy to clipboard or paste.
 
 ## Windows
 
-| Description             | Shortcut                                             |
-|-------------------------|------------------------------------------------------|
-| New Window              | Super + N                                            |
-| Tabs navigation         | Super + T, Super + Shift + \[ or \], Super + \[1-9\] |
-| Font size + or - / zoom | C-S– or C-S-=                                        |
+| Description | Shortcut |
+|----|----|
+| New Window | Super + N |
+| Tabs navigation | Super + T, Super + Shift + \[ or \], Super + \[1-9\] |
+| Font size + or - / zoom | C-S– or C-S-= |
 
 ## Recording
 

@@ -24,7 +24,7 @@ Core extra and language extra for language you are using
 
 - Set breakpoints for place in code you want to start debugging
 - Turn on user interface and set breakpoint(s)
-- Run debugger with progam and see:
+- Run debugger with program and see:
   - Local variables, scopes
   - Set breakpoints, can step into a program running, going into code
     and libraries
@@ -36,3 +36,9 @@ You can use expressions to check program information. Code can be edited
 in real time.
 
 Threads are useful for going through multi threaded programs.
+
+## See Also
+
+- [GDB and LLDB
+  Snippets](../005-computer-snippets-gdb-lldb-gnu-debugger) - [GDB and
+  LLDB Debugger Snippets](id:7fba6e8c-f671-4deb-8126-88a1208d567e)

@@ -10,8 +10,14 @@ title: Powershell Snippets
 
 ``` powershell
 
+# Help on powershell command
+powershell -help
+pwsh -help
+
 # Run a Specific Command
 powershell -Command "Get-Process"
+# Run commands, do not load profile
+powershell -NoProfile -c
 
 # Check hosts file
 notepad C:\Windows\System32\drivers\etc\hosts
@@ -29,11 +35,28 @@ $PSVersionTable.PSVersion
 # Get Host name
 $env:computername
 
+# Write text to console
+Write-Host "Hello World"
+# Write new line and text
+Write-Host "`nHello`nWorld"
+
 # cd to user's local app data
 cd $env:LOCALAPPDATA
 
+# Set a variable
+$variableName = "Hello World"
+
+# Set a boolean
+$debugMode = $true
+
 # List environment variables
 Get-ChildItem Env:
+
+# Write a specific environment variable, example temporarily remove proxy
+$env:https_proxy=""
+
+# Temporarily set an environment variable
+$env:https_proxy="myproxy.com:3841"
 
 # User's home directory
 $env:USERPROFILE
@@ -81,6 +104,22 @@ Start-Transcript -Path "C:\transcripts\transcript0.txt" -NoClobber
 # -Path location of file
 # -NoClobber prevents existing files from being overwritten.
 
+# Multiple line (multiline) command using backtick character
+scoop install fzf `
+neovim `
+
+# Function with mandatory parameters
+function Get-Square {
+  param(
+      [Parameter(Mandatory=$true)]
+      [int]$number
+  )
+  $Number * $Number
+}
+
+# Remove file or directory and files under it
+Remove-Item -Force -Recurse -Path .\file_or_directory
+
 ```
 
 ## Windows Specific
@@ -105,6 +144,7 @@ Start-Process -Verb RunAs powershell.ext
 
 # Start notepad as administrator
 Start-Process -FilePath "notepad" -Wait -WindowStyle Maximized
+
 ```
 
 ## Shell history

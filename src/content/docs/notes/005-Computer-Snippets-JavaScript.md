@@ -155,3 +155,88 @@ function calculateShippingCost() {
 }
 
 ```
+
+## Debugger
+
+``` javascript
+
+function startsWithJ(array) {
+  {const jStudents = [];
+    // Add debugger, will run in things like web tools or node inspect
+    debugger;
+    for (let i = 0; i < array.length; i++) {
+      const currentStudent = array[i];
+      const firstLetter = currentStudent[0];
+      if (firstLetter === "J") {
+        jStudents.push(currentStudent);
+      }
+    }
+  }
+  return jStudents;
+}
+
+```
+
+## Bookmarklets
+
+Source: [What are Bookmarklets? How to Use JavaScript to Make a
+Bookmarklet in Chromium and
+Firefox](https://www.freecodecamp.md/news/what-are-bookmarklets/)
+
+Creating a bookmarklet is like creating a regular bookmark in the
+browser. Instead of the URL HTTP/HTTPS in the URL field, write
+JavaScript.
+
+``` javascript
+
+// Bookmarklet with (() => { }) as an anonymous (lambda) function
+javascript: (() => {
+    alert('Dismissing topics');
+    // Select a button inside a specific div
+    const selector = 'div[aria-label=Dismiss][role=button]';
+    const topics = document.querySelectorAll(selector);
+
+    // Click dismiss for each topic
+    for (let i = 0; i < topics.length; i++) {
+      let topic = topics[i];
+      setTimeout(() => topic.click(), i * 250);
+    }
+
+    // generate and return HTML
+    return '<h1 style="color: white; background-color: black;">Hello, World!</h1>';
+})();
+
+// Find unique emails on page
+javascript: (() => {
+  const documentHTML = document.documentElement.outerHTML;
+  const matches = documentHTML.matchAll(/[\w.+=~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*/g);
+  const flatMatches = Array.from(matches).map((item) => item[0]);
+  const uniqueMatches = Array.from(new Set(flatMatches));
+
+  if (uniqueMatches.length > 0) {
+    const result = uniqueMatches.join('\n');
+    alert(result);
+  } else {
+    alert('No emails found!');
+  }
+})();
+
+// Change all font elements
+javascript: (() => {
+  const allElements = document.querySelectorAll('*');
+
+  for (let element of allElements) {
+    element.style.fontFamily = 'Comic Sans MS';
+  }
+})();
+
+```
+
+``` html
+
+<!-- Create a link for someone to bookmark the link as a bookmarklet -->
+<a href="javascript: (() => {   alert('Hello, World!'); })();">
+  Hello, World!
+</a>
+
+```

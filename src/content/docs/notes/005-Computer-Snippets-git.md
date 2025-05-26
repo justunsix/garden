@@ -120,6 +120,16 @@ git sparse-checkout list
 # Repopulate all files in repository, remove sparse-checkout patterns
 git sparse-checkout disable
 
+# Submodules - add a submodule into a specific directory in current repository
+git submodule add https://github.com/chaconinc/DbConnector dbconnfolder
+
+# Submodules - initialize existing module inside a repository and fetch all data from the project
+git submodule init
+git submodule update
+
+# Submodules - clone, initialize all submodules and update each submodule in the repository
+git clone --recurse-submodules https://github.com/chaconinc/MainProject
+
 ```
 
 ## Create a new repository

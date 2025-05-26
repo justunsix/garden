@@ -6,30 +6,30 @@ title: Artificial Intelligence (AI) Models
 
 ## Model and Use Cases
 
-| Model Name                                                                   | Use Cases                | Strengths                                                    | Notes |
-|------------------------------------------------------------------------------|--------------------------|--------------------------------------------------------------|-------|
-| [Dolphin-mistral](https://ollama.ai/library/dolphin-mistral)                 | General                  | Uncensored, use when other models refuse answers             | [^1]  |
-| [Codebooga](https://ollama.com/library/codebooga)                            | Programming              | Python and JavaScript                                        | [^2]  |
-| [CodeGeeX](https://ollama.com/library/codegeex4)                             | Programming              | Cross language translation, plugins for many IDEs            | [^3]  |
-| [Codeqwen](https://ollama.com/library/codeqwen)                              | Programming              |                                                              | [^4]  |
-| [DolphinMixtral](https://ollama.com/library/dolphin-mixtral)                 | Programming              | Uncensored                                                   | [^5]  |
-| [Deepseek-R1](https://ollama.com/library/deepseek-r1)                        | General                  | Reasoning                                                    |       |
-| [Gemma2](https://ollama.com/library/gemma2)                                  | General                  | 2B good for low hardware                                     | [^6]  |
-| [Gemma3](https://ollama.com/library/gemma3)                                  | General, RAG             | low hardware/1 GPU, context length, multilingual, multimodal |       |
-| [Llama3](https://ollama.com/library/llama3)                                  | General                  |                                                              | [^7]  |
-| [Medllama2](https://ollama.com/library/medllama2)                            | Medical                  | Medical questions, trained on open source medical data       | [^8]  |
-| [Meditron](https://ollama.com/library/meditron)                              | Medical                  | Medical questions, diagnosis, information                    |       |
-| [Mistral](https://ollama.com/library/mistral)                                | General, Programming     | 7B ok for low hardware                                       | [^9]  |
-| [Moondream](https://ollama.com/library/moondream)                            | Vision                   | Small for edge devices                                       |       |
-| [Nemotron-mini](https://ollama.com/library/nemotron-mini)                    | Role-play, RAG, Function | 4b for low hardware                                          | [^10] |
-| [Phi3](https://ollama.com/library/phi3)                                      | General, RAG             | low hardware, context length                                 |       |
-| [Phi4-mini](https://ollama.com/library/phi4-mini)                            | General, RAG             | low hardware, multilingual, context length                   |       |
-| [Qwen2.5-7B-Instruct-1M](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-1M) | Genreal                  | long context tasks due to 1 million token context window     |       |
-| [Qwen2.5](https://ollama.com/library/qwen2.5)                                | General                  | 3b for low hardware                                          | [^11] |
-| [Qwen2](https://ollama.com/library/qwen2)                                    | General, Programming     | Chat, Small to Large models                                  | [^12] |
-| [StarCoder](https://ollama.com/library/starcoder)                            | Programming              | Trained on 80+ languages, Small to large models              | [^13] |
-| [WizardCoder](https://ollama.com/library/wizardcoder)                        | Programming              |                                                              | [^14] |
-| [Zephyr](https://ollama.com/library/zephyr)                                  | Assistant                | Trained version of Mistral and Mixtral as help assistant     | [^15] |
+| Model Name | Use Cases | Strengths | Notes |
+|----|----|----|----|
+| [Dolphin-mistral](https://ollama.ai/library/dolphin-mistral) | General | Uncensored, use when other models refuse answers | [^1] |
+| [Codebooga](https://ollama.com/library/codebooga) | Programming | Python and JavaScript | [^2] |
+| [CodeGeeX](https://ollama.com/library/codegeex4) | Programming | Cross language translation, plugins for many IDEs | [^3] |
+| [Codeqwen](https://ollama.com/library/codeqwen) | Programming |  | [^4] |
+| [DolphinMixtral](https://ollama.com/library/dolphin-mixtral) | Programming | Uncensored | [^5] |
+| [Deepseek-R1](https://ollama.com/library/deepseek-r1) | General | Reasoning |  |
+| [Gemma2](https://ollama.com/library/gemma2) | General | 2B good for low hardware | [^6] |
+| [Gemma3](https://ollama.com/library/gemma3) | General, RAG | low hardware/1 GPU, context length, multilingual, multimodal |  |
+| [Llama3](https://ollama.com/library/llama3) | General |  | [^7] |
+| [Medllama2](https://ollama.com/library/medllama2) | Medical | Medical questions, trained on open source medical data | [^8] |
+| [Meditron](https://ollama.com/library/meditron) | Medical | Medical questions, diagnosis, information |  |
+| [Mistral](https://ollama.com/library/mistral) | General, Programming | 7B ok for low hardware | [^9] |
+| [Moondream](https://ollama.com/library/moondream) | Vision | Small for edge devices |  |
+| [Nemotron-mini](https://ollama.com/library/nemotron-mini) | Role-play, RAG, Function | 4b for low hardware | [^10] |
+| [Phi3](https://ollama.com/library/phi3) | General, RAG | low hardware, context length |  |
+| [Phi4-mini](https://ollama.com/library/phi4-mini) | General, RAG | low hardware, multilingual, context length |  |
+| [Qwen2.5-7B-Instruct-1M](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-1M) | Genreal | long context tasks due to 1 million token context window |  |
+| [Qwen2.5](https://ollama.com/library/qwen2.5) | General | 3b for low hardware | [^11] |
+| [Qwen2](https://ollama.com/library/qwen2) | General, Programming | Chat, Small to Large models | [^12] |
+| [StarCoder](https://ollama.com/library/starcoder) | Programming | Trained on 80+ languages, Small to large models | [^13] |
+| [WizardCoder](https://ollama.com/library/wizardcoder) | Programming |  | [^14] |
+| [Zephyr](https://ollama.com/library/zephyr) | Assistant | Trained version of Mistral and Mixtral as help assistant | [^15] |
 
 multimodal means the model can do text and image
 

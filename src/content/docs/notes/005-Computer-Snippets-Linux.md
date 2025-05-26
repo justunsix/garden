@@ -375,6 +375,11 @@ whatis passwd
 # Show location of manual page for a concept
 man -w passwd
 
+# Extract arguments of ls command from man page (works on Unix from 2005)
+function args() {
+    man ls | col -b | grep '^[[:space:]]*ls \[' | awk -F '[][]' '{print $2}'
+}
+
 ```
 
 Manual Sections from [RTFM! How to Read (and Understand) the Fantastic

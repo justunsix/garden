@@ -15,13 +15,13 @@ is at the right and moves right. j The j key looks like a down arrow. v
 
 ## Normal and Insert, Switching Modes
 
-| Description                                           | Shortcut                                          |
-|-------------------------------------------------------|---------------------------------------------------|
-| Enter insert mode, from normal mode                   | i (insert before cursor), a (append after cursor) |
-| Leave insert mode, activate normal mode               | Esc or Ctrl + c or Ctrl + \[ (US Keyboard)        |
-| Leave insert mode, activate normal mode for 1 command | Ctrl + o                                          |
-| Quit and Save                                         | Z Z , :wq                                         |
-| Quit and do not save                                  | Z Q , :q!                                         |
+| Description | Shortcut |
+|----|----|
+| Enter insert mode, from normal mode | i (insert before cursor), a (append after cursor) |
+| Leave insert mode, activate normal mode | Esc or Ctrl + c or Ctrl + \[ (US Keyboard) |
+| Leave insert mode, activate normal mode for 1 command | Ctrl + o |
+| Quit and Save | Z Z , :wq |
+| Quit and do not save | Z Q , :q! |
 
 ## File Explorer, netrw
 
@@ -52,26 +52,26 @@ is at the right and moves right. j The j key looks like a down arrow. v
 
 ### Command Mode - Other
 
-| Description                                          | Shortcut                    |
-|------------------------------------------------------|-----------------------------|
-| Search: command history                              | C-f                         |
-| Search: set case insensitive                         | :set ic                     |
-| Search: set case sensitive                           | :set noic                   |
-| Search: highlight                                    | :set hls                    |
-| Edit \<file\>                                        | :e \<file\> or :edit \<file |
-| Show list of commands / autocomplete                 | : \<…\> Ctrl + D or tab     |
-| Autocomplete, chose choices                          | Tab                         |
-| Autocomplete, accept choice, keep in command mode    | Ctrl + y                    |
-| Line numbers: absolute as in file / deactivate       | :set nu :set nonu           |
-| Line numbers: relative to point / deactivate         | :set rnu :setnornu          |
-| Line numbers: hybrid of above / deactivate           | :set:nu rnu :set nonu nornu |
-| Earlier, go back in time of file, 2 number of times  | :earlier 2                  |
-| Earlier, go back in time of file, {N} minutes before | :earlier {N}m               |
-| Make, run make by default or makeprg defined command | :make                       |
-| Messages, Vim logs View                              | :messages                   |
-| Lines, copy given line range, see :h cmdline-ranges  | :copy or :t                 |
-| Lines, move given line range                         | :norm                       |
-| Normal mode commands execution                       | :move or :m                 |
+| Description | Shortcut |
+|----|----|
+| Search: command history | C-f |
+| Search: set case insensitive | :set ic |
+| Search: set case sensitive | :set noic |
+| Search: highlight | :set hls |
+| Edit \<file\> | :e \<file\> or :edit \<file |
+| Show list of commands / autocomplete | : \<…\> Ctrl + D or tab |
+| Autocomplete, chose choices | Tab |
+| Autocomplete, accept choice, keep in command mode | Ctrl + y |
+| Line numbers: absolute as in file / deactivate | :set nu :set nonu |
+| Line numbers: relative to point / deactivate | :set rnu :setnornu |
+| Line numbers: hybrid of above / deactivate | :set:nu rnu :set nonu nornu |
+| Earlier, go back in time of file, 2 number of times | :earlier 2 |
+| Earlier, go back in time of file, {N} minutes before | :earlier {N}m |
+| Make, run make by default or makeprg defined command | :make |
+| Messages, Vim logs View | :messages |
+| Lines, copy given line range, see :h cmdline-ranges | :copy or :t |
+| Lines, move given line range | :norm |
+| Normal mode commands execution | :move or :m |
 
 :copy, :move, :norm examples
 
@@ -91,16 +91,16 @@ is at the right and moves right. j The j key looks like a down arrow. v
     Source: [Power of g - Vim
     Tips](https://vim.fandom.com/wiki/Power_of_g)
 
-    | Description                                                        | Shortcut                                                                             |
-    |--------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-    | Global, act on range, pattern and execute command                  | :\[range\]g/pattern/cmd                                                              |
-    | Global, Display context (5 lines) for all occurrences of a pattern | :g/pattern/z#.5                                                                      |
-    | Global, Delete all lines matching a pattern                        | :g/pattern/d                                                                         |
-    | Global, Delete all lines not matching a pattern                    | :g!/pattern/d or :g!/pattern/d                                                       |
-    | Global, Delete all blank lines                                     | :g/^$/d                     |                                                        
-                                                                          | Global, Copy all lines matching pattern to end of file             | :g/pattern/t$  |
-    | Global, Copy all lines matching a pattern to register 'a'          | qaq:g/pattern/y A                                                                    |
-    | Global, Fast Delete (do not copy) all lines matching a pattern     | :g/pattern/d \_                                                                      |
+    | Description | Shortcut |
+    |----|----|
+    | Global, act on range, pattern and execute command | :\[range\]g/pattern/cmd |
+    | Global, Display context (5 lines) for all occurrences of a pattern | :g/pattern/z#.5 |
+    | Global, Delete all lines matching a pattern | :g/pattern/d |
+    | Global, Delete all lines not matching a pattern | :g!/pattern/d or :g!/pattern/d |
+    | Global, Delete all blank lines | :g/^$`/d                     |
+    | Global, Copy all lines matching pattern to end of file             | :g/pattern/t`$ |
+    | Global, Copy all lines matching a pattern to register 'a' | qaq:g/pattern/y A |
+    | Global, Fast Delete (do not copy) all lines matching a pattern | :g/pattern/d \_ |
 
     See more with
 
@@ -117,53 +117,53 @@ with Nana](../005-computer-tech-devops-bootcamp-twn))
 
 Other table per `vimtutor` command
 
-| Description                                                                | Shortcut                             |
-|----------------------------------------------------------------------------|--------------------------------------|
-| Delete character at point                                                  | x                                    |
-| Delete line                                                                | dd                                   |
-| Delete 10 lines                                                            | d10, d                               |
-| Delete all lines                                                           | :%d                                  |
-| Undo                                                                       | u                                    |
-| Enter Insert mode, at beginning of line                                    | I                                    |
-| Enter Insert mode, append text at end of character at point                | a                                    |
-| Enter Insert mode, Append text at end of line, insert mode                 | A                                    |
-| Enter Insert mode, at new line below / above current one                   | o, O                                 |
-| Go to line 12, Go to line 100                                              | 12G, 100G or :100                    |
-| Jump to beginning of line (bol)                                            | 0 / Home / ^ (soft)                  |
-| Jump to end of line (eol)                                                  | \$ / End                             |
-| Jump history back, forward                                                 | C-o, C-i                             |
-| Go to, beginning of file                                                   | gg                                   |
-| Go to, last selected text                                                  | gv                                   |
-| Go to file, url at point (open with system app)                            | gf , gx                              |
-| Go to, end of file                                                         | G                                    |
-| Go to, last insert mode                                                    | gi                                   |
-| Replace all occurrences of string<sub>old</sub> with new, new can be blank | :%s/string<sub>old</sub>/new         |
-| Replace in region string<sub>old</sub> with new, new can be blank          | :'\<,'\>s/string<sub>old</sub>/new/g |
-| Repeat last command, repeat macro (like command, inserts, combos)          | .                                    |
-| Search: command history                                                    | q: (like C-f in command mode)        |
+| Description | Shortcut |
+|----|----|
+| Delete character at point | x |
+| Delete line | dd |
+| Delete 10 lines | d10, d |
+| Delete all lines | :%d |
+| Undo | u |
+| Enter Insert mode, at beginning of line | I |
+| Enter Insert mode, append text at end of character at point | a |
+| Enter Insert mode, Append text at end of line, insert mode | A |
+| Enter Insert mode, at new line below / above current one | o, O |
+| Go to line 12, Go to line 100 | 12G, 100G or :100 |
+| Jump to beginning of line (bol) | 0 / Home / ^ (soft) |
+| Jump to end of line (eol) | \$ / End |
+| Jump history back, forward | C-o, C-i |
+| Go to, beginning of file | gg |
+| Go to, last selected text | gv |
+| Go to file, url at point (open with system app) | gf , gx |
+| Go to, end of file | G |
+| Go to, last insert mode | gi |
+| Replace all occurrences of string<sub>old</sub> with new, new can be blank | :%s/string<sub>old</sub>/new |
+| Replace in region string<sub>old</sub> with new, new can be blank | :'\<,'\>s/string<sub>old</sub>/new/g |
+| Repeat last command, repeat macro (like command, inserts, combos) | . |
+| Search: command history | q: (like C-f in command mode) |
 
 ### Editing
 
-| Description                                    | Shortcut                         |
-|------------------------------------------------|----------------------------------|
-| Redo                                           | Ctrl + r                         |
-| Select, Start select - visual selection        | v                                |
-| Select, visual and selected area               | v i \<choose selection options\> |
-| Select, visual and text inside selected symbol | v i \], v i ', v i "             |
-| Select, visual line mode                       | V                                |
-| Select, visual block mode (rectangle mark)     | C-v                              |
-| Copy (yank) selection                          | y                                |
-| Copy (yank) word                               | yw                               |
-| Copy (yank inside) content inside quotations " | yi"                              |
-| Copy (yank) entire line                        | yy                               |
-| Copy (yank) entire file                        | :%y or gg v G, or :1,\$y         |
-| Copy 1 to 10 lines of file                     | :1,10y                           |
-| Put (paste deleted or copied text)             | p                                |
-| Case of character at point, toggle             | ~                                |
-| Case of word, toggle                           | g~w                              |
-| Case of inner tag selection, toggle            | g~it                             |
-| Join lines                                     | J                                |
-| Format, auto format                            | = =                              |
+| Description | Shortcut |
+|----|----|
+| Redo | Ctrl + r |
+| Select, Start select - visual selection | v |
+| Select, visual and selected area | v i \<choose selection options\> |
+| Select, visual and text inside selected symbol | v i \], v i ', v i " |
+| Select, visual line mode | V |
+| Select, visual block mode (rectangle mark) | C-v |
+| Copy (yank) selection | y |
+| Copy (yank) word | yw |
+| Copy (yank inside) content inside quotations " | yi" |
+| Copy (yank) entire line | yy |
+| Copy (yank) entire file | :%y or gg v G, or :1,\$y |
+| Copy 1 to 10 lines of file | :1,10y |
+| Put (paste deleted or copied text) | p |
+| Case of character at point, toggle | ~ |
+| Case of word, toggle | g~w |
+| Case of inner tag selection, toggle | g~it |
+| Join lines | J |
+| Format, auto format | = = |
 
 - `p` can be combined with `dd` to delete and then paste the deleted
   line.
@@ -172,16 +172,16 @@ Other table per `vimtutor` command
 
 Source: :h registers, <https://www.brianstorti.com/vim-registers/>
 
-| Description                                                        | Shortcut   |
-|--------------------------------------------------------------------|------------|
-| Registers mini-mode (insert mode)                                  | C-r        |
-| Registers mini-mode (insert mode), paste (system clipboard)        | \+         |
-| Registers mini-mode (insert mode) paste from register 'a'          | C-r a      |
-| Register - access register at char 'r'                             | "r         |
-| Register - yank text to register 'r'                               | "ry        |
-| Register - paste text from register 'r'                            | "rp        |
-| Registers - List, last 0-9 registers are last yanked (copied) text | :reg       |
-| Registers - List                                                   | :reg a b c |
+| Description | Shortcut |
+|----|----|
+| Registers mini-mode (insert mode) | C-r |
+| Registers mini-mode (insert mode), paste (system clipboard) | \+ |
+| Registers mini-mode (insert mode) paste from register 'a' | C-r a |
+| Register - access register at char 'r' | "r |
+| Register - yank text to register 'r' | "ry |
+| Register - paste text from register 'r' | "rp |
+| Registers - List, last 0-9 registers are last yanked (copied) text | :reg |
+| Registers - List | :reg a b c |
 
 1.  4 read only Registers
 
@@ -240,10 +240,10 @@ Source: :h registers, <https://www.brianstorti.com/vim-registers/>
 
         ```
 
-        | Description                                                 | Shortcut                     |
-        |-------------------------------------------------------------|------------------------------|
-        | Replace character at point                                  | r + \<character to replace\> |
-        | Replace mode (like Insert mode, delete replaced characters) | R                            |
+        | Description | Shortcut |
+        |----|----|
+        | Replace character at point | r + \<character to replace\> |
+        | Replace mode (like Insert mode, delete replaced characters) | R |
 
         `v` visual selection can be combined with commands `d` for
         delete, `y` for copy, `c` for change
@@ -263,39 +263,39 @@ Source: :h registers, <https://www.brianstorti.com/vim-registers/>
 
 6.  Combination Commands
 
-    | Description                                                   | Shortcut                 |
-    |---------------------------------------------------------------|--------------------------|
-    | Replace content between symbols                               | di + \<symbol\> like di" |
-    | Cut content between symbols                                   | ci + \<symbol\> like ci( |
-    | Swap lines up and down (delete line, paste it)                | ddp                      |
-    | Delete entire document - G from first line, gg from last line | dG or dgg                |
-    | Auto indent entire document                                   | gg=G                     |
+    | Description | Shortcut |
+    |----|----|
+    | Replace content between symbols | di + \<symbol\> like di" |
+    | Cut content between symbols | ci + \<symbol\> like ci( |
+    | Swap lines up and down (delete line, paste it) | ddp |
+    | Delete entire document - G from first line, gg from last line | dG or dgg |
+    | Auto indent entire document | gg=G |
 
 ### Movement and Search
 
 1.  Movement
 
-    | Description                                                    | Shortcut           |
-    |----------------------------------------------------------------|--------------------|
-    | Jump \# of times using hjkl cursor                             | 10j / \#j          |
-    | Page Up                                                        | Ctrl + b           |
-    | Page Down                                                      | Ctrl + f           |
-    | Half page up                                                   | Ctrl + u           |
-    | Half page down                                                 | Ctrl + d           |
-    | Move cursor top, middle, bottom of screen                      | (Shift) H, M, L    |
-    | z mini mode: Move screen and leave cursor, top, bottom, middle | zt, zb, zz         |
-    | Search word at point                                           | \*                 |
-    | Begin/End of sentence                                          | ( / )              |
-    | Begin/End of paragraph                                         | { / }              |
-    | Find mode, character, move to next match                       | f \<char\>         |
-    | Find mode, move to next match of pattern                       | ;                  |
-    | Find mode (til / until), character, move to before it          | t \<char\>         |
-    | Navigation Previous, method start                              | \[m                |
-    | Navigation Previous, method end                                | \[M                |
-    | Navigation Previous, ( or { or \<                              | \[( or \[{ or \[\< |
-    | Navigation Next )                                              | \])                |
-    | Navigation Previous, Spelling error                            | \[s                |
-    | Navigation Next, Spelling error                                | \]s                |
+    | Description | Shortcut |
+    |----|----|
+    | Jump \# of times using hjkl cursor | 10j / \#j |
+    | Page Up | Ctrl + b |
+    | Page Down | Ctrl + f |
+    | Half page up | Ctrl + u |
+    | Half page down | Ctrl + d |
+    | Move cursor top, middle, bottom of screen | (Shift) H, M, L |
+    | z mini mode: Move screen and leave cursor, top, bottom, middle | zt, zb, zz |
+    | Search word at point | \* |
+    | Begin/End of sentence | ( / ) |
+    | Begin/End of paragraph | { / } |
+    | Find mode, character, move to next match | f \<char\> |
+    | Find mode, move to next match of pattern | ; |
+    | Find mode (til / until), character, move to before it | t \<char\> |
+    | Navigation Previous, method start | \[m |
+    | Navigation Previous, method end | \[M |
+    | Navigation Previous, ( or { or \< | \[( or \[{ or \[\< |
+    | Navigation Next ) | \]) |
+    | Navigation Previous, Spelling error | \[s |
+    | Navigation Next, Spelling error | \]s |
 
 2.  Search and Replace
 
@@ -588,17 +588,17 @@ Wiki](https://vim.fandom.com/wiki/Using_marks)
 
 ### Buffers
 
-| Description                                         | Shortcut                                        |
-|-----------------------------------------------------|-------------------------------------------------|
-| List buffers                                        | ls                                              |
-| Switch buffers                                      | :bnext :bprevious :bp                           |
-| Switch buffers by number or (partial) name          | :b \<number or name or partial unique name\>    |
-| Switch buffers - see also Navigation previous, next | \[b , \]b                                       |
-| Buffer Forward                                      | Ctrl + i                                        |
-| Buffer Back                                         | Ctrl + o , Ctrl + ^                             |
-| Buffer back to last buffer, alternate buffers       | Ctrl + ^ (Ctrl + Shift + 6, sometimes Ctrl + 6) |
-| Refresh buffer                                      | :e                                              |
-| Close buffer                                        | :bd                                             |
+| Description | Shortcut |
+|----|----|
+| List buffers | ls |
+| Switch buffers | :bnext :bprevious :bp |
+| Switch buffers by number or (partial) name | :b \<number or name or partial unique name\> |
+| Switch buffers - see also Navigation previous, next | \[b , \]b |
+| Buffer Forward | Ctrl + i |
+| Buffer Back | Ctrl + o , Ctrl + ^ |
+| Buffer back to last buffer, alternate buffers | Ctrl + ^ (Ctrl + Shift + 6, sometimes Ctrl + 6) |
+| Refresh buffer | :e |
+| Close buffer | :bd |
 
 ### Tabs
 

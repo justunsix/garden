@@ -52,6 +52,7 @@ fi
 
 # Create a function and set local to function variables
 jt-up() {
+  # local variables
   # Go up a number of directories in the function argument
   local d=""
   local limit="$1"

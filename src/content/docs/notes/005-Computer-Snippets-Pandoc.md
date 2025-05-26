@@ -291,6 +291,12 @@ Shows](https://pandoc.md/MANUAL.html#slide-shows)
 
 ``` shell
 
+# Create slide show
+pandoc -t FORMAT -s source.txt -o output.html
+# FORMAT can be beamer (PDF slide show), s5, slidy, slideous, dzslides, or revealjs
+# Create slide show and embed JS, CSS files - for slide, reveal.js S5
+pandoc -t revealjs -s source.txt -o output.html --standalone
+
 # Using a markdown source, convert to HTML and JS presentation
 pandoc -t revealjs -s source.md -o presentation.html -V revealjs-url=https://unpkg.com/reveal.js@^5
 # There are other -t options, see pandoc manual
@@ -303,12 +309,20 @@ pandoc -t revealjs -s source.md -o presentation.html -V theme=white -V transitio
 # Set revealjs configuration options using variables -V and set width and height of monitor used for presentation
 pandoc -t revealjs -s source.md -o presentation.html -V theme=white -V transition=none -V revealjs-url=https://unpkg.com/reveal.js@^5 -V width=2560 -V height=1000 --css slides.css
 
-# Using a Emacs org-mode source, create a Microsoft PowerPoint presentation
-paondoc -s mydoc.org -o presentation.pptx
+# Create a Microsoft PowerPoint presentation, using a Emacs org-mode source
+pandoc -s mydoc.org -o presentation.pptx
+
+# Create a Microsoft PowerPoint Presentation from a template
+pandoc -s mypresentation.md -o presentation.pptx --reference-doc reference.pptx
+# --reference-doc - the PowerPoint template to us
+# Modify the existing pandoc template by downloading the template:
+# https://github.com/jgm/pandoc/blob/main/test/pptx/footer/basic/reference.pptx
+# then in slide master view, make changes to the template
 
 ```
 
-Example `source.md`
+Example `source.md` for pandoc slide show presentations showing features
+like: background images, slide headers, lists, pauses, and speaker notes
 
 ``` md
 

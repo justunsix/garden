@@ -24,6 +24,9 @@ sudo pacman -Syu --noconfirm
 # List installed packages
 pacman -Q
 
+# Clean up local caches
+pacman -Sc
+
 ```
 
 ## Arch User Repository (AUR) Helpers
