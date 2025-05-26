@@ -4,7 +4,7 @@ id: c18bb8e9-a511-4bfe-bcce-3fb59b349ac3
 title: TED Talks
 ---
 
-TED talks and notes from them
+TED talks and my notes from them
 
 ## Work Life
 
@@ -244,6 +244,24 @@ Source: Figure 4. Important of Self-Care TED Talk Playlist for Coaches
 
 ## Psychology and Philosophy
 
+### Why Change is so Scary and How to Unlock Its Potential
+
+Source: [Why Change Is So Scary — and How to Unlock Its Potential \|
+Maya Shankar \| TED -
+YouTube](https://www.youtube.com/watch?v=Tt0arZN6EBM)
+
+Unexpected changes happen resulting in:
+
+- Uncertainty
+- Stress, thought of loss, leaving old ways
+- Can inspire and improve you - ask yourself questions
+
+Ask: How might this change,
+
+1.  Change what you are capable of?
+2.  Change what you value?
+3.  Change how you define yourself?
+
 ### Minimalism: An alternative narrative about enough by Marlous van der Veen
 
 Source: [Minimalism: An alternative narrative about enough \| Marlous
@@ -396,18 +414,21 @@ research - manageable amounts can be helpful (Binging is never good).
 [Matt Walker: Sleep is your
 superpower](https://www.ted.com/talks/matt_walker_sleep_is_your_superpower#t-1146003)
 
-Sleep is key to learning, health, and feeling younger. Not enough sleep
-causes many health problems (e.g. daylight saving time changes cause
-issues).
+Sleep is required for life and key to learning, health, and feeling
+younger. Not enough sleep causes many health problems. Research shows
+negative outcomes for daylight saving time changes and less sleep
+results in negative body changes, learning performance, and disease.
 
 1.  Sleep regularly and enough
-2.  Keep a cooler bedroom temperature
-3.  Avoid stimulants (drugs, coffee) at night
+2.  Keep a cooler bedroom temperature (around 65 F, 18 C)
+3.  Avoid stimulants and drugs (for example coffee, alcohol) at night
+4.  If staying awake in bed too long, go to other place for a while
 
 ### Find your primal posture and sit without back pain
 
-- [Find your primal posture and sit without back pain: Esther Gokhale at
-  TEDxStanford](https://www.youtube.com/watch?v=k1luKAS_Xcg&feature=emb_logo)
+Source: [Find your primal posture and sit without back pain: Esther
+Gokhale at
+TEDxStanford](https://www.youtube.com/watch?v=k1luKAS_Xcg&feature=emb_logo)
 
 - Have your pelvic "tail" behind you instead of "sitting on it". Don't
   slouch but keep pelvis/butt sticking out at the back
