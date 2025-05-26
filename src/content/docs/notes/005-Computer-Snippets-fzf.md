@@ -14,6 +14,10 @@ fzf
 # Search files using find and selections to file
 find * -type f | fzf > selected
 
+# Search only directories, change directory into them
+cd (fd --type directory | fzf)
+cd (find -type d | fzf)
+
 # Search all files including hidden files
 fzf -a
 

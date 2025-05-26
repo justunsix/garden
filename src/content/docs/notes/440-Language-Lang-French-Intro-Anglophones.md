@@ -820,11 +820,11 @@ tied directly to the verb.
 Il écrit *un livre*. en: He writes a book. - there is no preposition
 before pronoun.
 
-| Singulier                              | Pluriel                                   |
-|----------------------------------------|-------------------------------------------|
-| le                                     | les                                       |
-| Il lit un roman - Il le lit            | Il lit des romans - Il les lit            |
-| la                                     |                                           |
+| Singulier | Pluriel |
+|----|----|
+| le | les |
+| Il lit un roman - Il le lit | Il lit des romans - Il les lit |
+| la |  |
 | Vous mangez une pomme - Vous la mangez | Vous mangez des pommes - Vous les managez |
 
 ### Pronoms de complément d'objet in direct

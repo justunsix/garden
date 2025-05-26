@@ -23,29 +23,29 @@ title: Emacs Shortcuts
 
 ## High usage
 
-| Name                                                   | Shortcuts            |
-|--------------------------------------------------------|----------------------|
-| Run any command                                        | M-x                  |
-| Run commands relevant to buffer modes                  | M-S-X (M-X)          |
-| Find / Open file                                       | find-file            |
-| Save buffer                                            | C-x C-s              |
-| Help                                                   | C-h C-h              |
-| Quit partial command                                   | C-g                  |
-| Exit emacs                                             | C-x C-c              |
-| Switch buffers                                         | C-x b                |
-| Switch buffers: List Buffers                           | C-x C-b              |
-| Switch buffers: Cycle through buffers                  | C-x right , C-x left |
-| Quit read only buffer                                  | q                    |
-| Personal and common major mode leader key              | C-c                  |
-| Reload screen, mode (many modes like magit, dashboard) | g                    |
+| Name | Shortcuts |
+|----|----|
+| Run any command | M-x |
+| Run commands relevant to buffer modes | M-S-X (M-X) |
+| Find / Open file | find-file |
+| Save buffer | C-x C-s |
+| Help | C-h C-h |
+| Quit partial command | C-g |
+| Exit emacs | C-x C-c |
+| Switch buffers | C-x b |
+| Switch buffers: List Buffers | C-x C-b |
+| Switch buffers: Cycle through buffers | C-x right , C-x left |
+| Quit read only buffer | q |
+| Personal and common major mode leader key | C-c |
+| Reload screen, mode (many modes like magit, dashboard) | g |
 
 ## System
 
-| Name                                                           | Shortcuts     |
-|----------------------------------------------------------------|---------------|
-| proced: htop equivalent, list system processes and act on them | proced        |
-| proced: Mark                                                   | m             |
-| Restart Emacs                                                  | restart-emacs |
+| Name | Shortcuts |
+|----|----|
+| proced: htop equivalent, list system processes and act on them | proced |
+| proced: Mark | m |
+| Restart Emacs | restart-emacs |
 
 ### Updates of Packages
 
@@ -89,23 +89,23 @@ title: Emacs Shortcuts
 
 ### Select / Marking, Killing and Yanking Text
 
-| Name                                                                     | Shortcuts                                |
-|--------------------------------------------------------------------------|------------------------------------------|
-| Mark / Select                                                            | C-SPC (Spacebar) to start/stop highlight |
-| Mark - multiple select, region in rectangle, if in Evil, switch to Emacs | C-x SPC or rectangle-mark-mode           |
-| Mark - paragraph                                                         | mark-paragraph                           |
-| Mark - select current paragraph                                          | M-h                                      |
-| Cut (kill marked) text                                                   | SHIFT-DEL or C-w                         |
-| Cut to end of current line                                               | C-k                                      |
-| Copy (copy marked) text                                                  | C-INSERT or M-w                          |
-| Paste (yank text back)                                                   | SHIFT-INSERT or C-y                      |
-| Paste (using kill ring)                                                  | M-y or M-Y (reverse direction)           |
-| Undo - redo                                                              | C-/ or C-\_                              |
-| Undo                                                                     | C-M-\_                                   |
-| Undo Multiple Mode                                                       | undo-tree-mode                           |
-| Kill word (delete word near cursor)                                      | M-d                                      |
-| Comment Region / Uncomment region                                        | M-; / uncomment-region                   |
-| Clear kill ring                                                          | (setq kill-ring nil)                     |
+| Name | Shortcuts |
+|----|----|
+| Mark / Select | C-SPC (Spacebar) to start/stop highlight |
+| Mark - multiple select, region in rectangle, if in Evil, switch to Emacs | C-x SPC or rectangle-mark-mode |
+| Mark - paragraph | mark-paragraph |
+| Mark - select current paragraph | M-h |
+| Cut (kill marked) text | SHIFT-DEL or C-w |
+| Cut to end of current line | C-k |
+| Copy (copy marked) text | C-INSERT or M-w |
+| Paste (yank text back) | SHIFT-INSERT or C-y |
+| Paste (using kill ring) | M-y or M-Y (reverse direction) |
+| Undo - redo | C-/ or C-\_ |
+| Undo | C-M-\_ |
+| Undo Multiple Mode | undo-tree-mode |
+| Kill word (delete word near cursor) | M-d |
+| Comment Region / Uncomment region | M-; / uncomment-region |
+| Clear kill ring | (setq kill-ring nil) |
 
 - For undo in region, select/mark region and undo will be limited to the
   region, there are other operations like replace-string (search and
@@ -124,50 +124,50 @@ See also:
 
     Only matches characters, not regex unless using isearch-…-regex
 
-    | Name                                                      | Shortcuts                                                       |
-    |-----------------------------------------------------------|-----------------------------------------------------------------|
-    | Search in file isearch                                    | C-s or isearch-forward, C-s or isearch-backward                 |
-    | Search in file isearch, cancel                            | C-g                                                             |
-    | Search in file isearch, enter at point                    | Enter                                                           |
-    | Search in file isearch, enter beginning of search word    | C-b                                                             |
-    | Search in file isearch, repeat last search                | C-s C-s or C-r C-r                                              |
-    | Search in file isearch regex                              | C-M-s or isearch-forward-regex, C-M-r or isearch-backward-regex |
-    | Search with search results occur                          | M-s-o or occur                                                  |
-    | Search in file isearch with occur for buffer with results | C-s \<search-text\> M-s-o (while in isearch)                    |
-    | Search and highlight in file                              | M-s h l or hi-lock-face-buffer                                  |
-    | Search and highlight in file, cancel                      | M-s h u or hi-lock-unface-buffer aka unhighlight-regexp         |
+    | Name | Shortcuts |
+    |----|----|
+    | Search in file isearch | C-s or isearch-forward, C-s or isearch-backward |
+    | Search in file isearch, cancel | C-g |
+    | Search in file isearch, enter at point | Enter |
+    | Search in file isearch, enter beginning of search word | C-b |
+    | Search in file isearch, repeat last search | C-s C-s or C-r C-r |
+    | Search in file isearch regex | C-M-s or isearch-forward-regex, C-M-r or isearch-backward-regex |
+    | Search with search results occur | M-s-o or occur |
+    | Search in file isearch with occur for buffer with results | C-s \<search-text\> M-s-o (while in isearch) |
+    | Search and highlight in file | M-s h l or hi-lock-face-buffer |
+    | Search and highlight in file, cancel | M-s h u or hi-lock-unface-buffer aka unhighlight-regexp |
 
 2.  Find/Search and Replace
 
-    | Name                                            | Shortcuts                                                                             |
-    |-------------------------------------------------|---------------------------------------------------------------------------------------|
-    | Search and replace with extra functionality     | M-Shift-% or query replace or replace-string                                          |
-    | Find and replace search query                   | M-% or query-replace                                                                  |
-    | Find and replace search query from isearch      | C-s \<search-text\> M-% (while in isearch, can also work with isearch regex commands) |
-    | Find and replace search query, previous queries | M-p                                                                                   |
+    | Name | Shortcuts |
+    |----|----|
+    | Search and replace with extra functionality | M-Shift-% or query replace or replace-string |
+    | Find and replace search query | M-% or query-replace |
+    | Find and replace search query from isearch | C-s \<search-text\> M-% (while in isearch, can also work with isearch regex commands) |
+    | Find and replace search query, previous queries | M-p |
 
 3.  Other packages
 
     Find and replace works for whole buffer or selected region
 
-    | Name                                      | Shortcuts                                                                           |
-    |-------------------------------------------|-------------------------------------------------------------------------------------|
-    | Search in file                            | M-x swiper or helm-swoop                                                            |
-    | Find and replace - Close all file buffers | projectile-replace                                                                  |
+    | Name | Shortcuts |
+    |----|----|
+    | Search in file | M-x swiper or helm-swoop |
+    | Find and replace - Close all file buffers | projectile-replace |
     | Find and replace - Close all file buffers | `dired-do-find-regexp-and-replace` (Q) in dired in a directory or with marked files |
-    | Find word -Search (backward)              | C-r or Backspace (aka DEL)                                                          |
-    | Regexp "helper"                           | M-x re-builder                                                                      |
+    | Find word -Search (backward) | C-r or Backspace (aka DEL) |
+    | Regexp "helper" | M-x re-builder |
 
 ### Delete
 
-| Name                                                                                    | Shortcuts |
-|-----------------------------------------------------------------------------------------|-----------|
-| Delete the character just before the cursor                                             | \<DEL\>   |
-| Delete the next character after the cursor, delete line on character before empty lines | C-d       |
-| Kill the word immediately before the cursor                                             | M-\<DEL\> |
-| Kill the next word after the cursor                                                     | M-d       |
-| Kill from the cursor position to end of line                                            | C-k       |
-| Kill to the end of the current sentence                                                 | M-k       |
+| Name | Shortcuts |
+|----|----|
+| Delete the character just before the cursor | \<DEL\> |
+| Delete the next character after the cursor, delete line on character before empty lines | C-d |
+| Kill the word immediately before the cursor | M-\<DEL\> |
+| Kill the next word after the cursor | M-d |
+| Kill from the cursor position to end of line | C-k |
+| Kill to the end of the current sentence | M-k |
 
 ### Abbreviations
 
@@ -195,30 +195,30 @@ lowercase or capitalize all words
   command to move by that number (e.g. `C-u 2 C-f` to move forward 2
   characters).
 
-| Name                                          | Shortcuts                                                                  |
-|-----------------------------------------------|----------------------------------------------------------------------------|
-| Move forward a character                      | C-f                                                                        |
-| Move backward a character                     | C-b                                                                        |
-| Move forward a word                           | M-f= or `C-arrow-key-left                 |                                
-                                                 | Move backward a word                        | M-b` or =C-arrow-key-right  |
-| Move to next line                             | C-n                                                                        |
-| Move to previous line                         | C-p                                                                        |
-| Move to beginning of line                     | C-a or home                                                                |
-| Move to end of line                           | C-e or end                                                                 |
-| Move to beginning of buffer                   | M-\< or =C-Home                                                            |
-| Move to end of buffer                         | M-\> or =C-End                                                             |
-| Move back to beginning of sentence            | M-a                                                                        |
-| Move forward to end of sentence               | M-e                                                                        |
-| Scroll up                                     | Page Up or C-v                                                             |
-| Scroll up other window                        | M-Page Up                                                                  |
-| Scroll down                                   | Page Down M-v                                                              |
-| Scroll down other window                      | M-Page Down                                                                |
-| Increase font / text size                     | C-x C-+ or text scale increase                                             |
-| Navigate on headings / code parts in buffer   | counsel-imenu or imenu / M-g i (Emacs 29)                                  |
-| Navigate on headings                          | counsel-outline                                                            |
-| Switch to or restart '****scratch****' buffer | scratch-buffer                                                             |
-| Center current line in buffer                 | C-l                                                                        |
-| Center current line in buffer, then top       | C-l C-l                                                                    |
+| Name | Shortcuts |
+|----|----|
+| Move forward a character | C-f |
+| Move backward a character | C-b |
+| Move forward a word | M-f= or `C-arrow-key-left                 |
+| Move backward a word                        | M-b` or =C-arrow-key-right |
+| Move to next line | C-n |
+| Move to previous line | C-p |
+| Move to beginning of line | C-a or home |
+| Move to end of line | C-e or end |
+| Move to beginning of buffer | M-\< or =C-Home |
+| Move to end of buffer | M-\> or =C-End |
+| Move back to beginning of sentence | M-a |
+| Move forward to end of sentence | M-e |
+| Scroll up | Page Up or C-v |
+| Scroll up other window | M-Page Up |
+| Scroll down | Page Down M-v |
+| Scroll down other window | M-Page Down |
+| Increase font / text size | C-x C-+ or text scale increase |
+| Navigate on headings / code parts in buffer | counsel-imenu or imenu / M-g i (Emacs 29) |
+| Navigate on headings | counsel-outline |
+| Switch to or restart '****scratch****' buffer | scratch-buffer |
+| Center current line in buffer | C-l |
+| Center current line in buffer, then top | C-l C-l |
 
 ### Justification, Margins, Fixed Width of Columns, Guide lines
 
@@ -226,12 +226,12 @@ Source: [Issue 001 - System
 Crafters](https://systemcrafters.net/newsletter/sc-news-001.html) - see
 Tips of the Week
 
-| Name                                                                | Shortcuts                          |
-|---------------------------------------------------------------------|------------------------------------|
-| Draw line in buffer where fill-column is set                        | display-fill-column-indicator-mode |
-| Automatically wrap paragraph text to fit within the specified width | auto-fill-mode                     |
-| Center a region                                                     | center-region                      |
-| Reshapes a paragraph of text so that it fits under 80 columns       | M-q or fill-paragraph              |
+| Name | Shortcuts |
+|----|----|
+| Draw line in buffer where fill-column is set | display-fill-column-indicator-mode |
+| Automatically wrap paragraph text to fit within the specified width | auto-fill-mode |
+| Center a region | center-region |
+| Reshapes a paragraph of text so that it fits under 80 columns | M-q or fill-paragraph |
 
 - Set at where `fill-column` cuts off for display fill column indicator
 
@@ -251,36 +251,36 @@ character like r.
 | Bookmark: list all         | C-x r l , list-bookmarks |
 | Bookmark: save all to file | bookmark-save            |
 
-| Name                                                        | Shortcuts                              |
-|-------------------------------------------------------------|----------------------------------------|
-| Register: View contents of named register "r"               | view-register RET r                    |
-| Register: Record position of point in register "r"          | C-x r SPC r , point-to-register        |
-| Register: Go to register "r", recall frameset, number, etc. | C-x r j r , jump-to-register           |
-| Register: Copy region into register "r"                     | C-x r s r , copy-to-register           |
-| Register: Insert (paste) from register "r"                  | C-x r i r, insert-register             |
-| Register: Append region to register "r"                     | append-to-register RET r               |
-| Register: Prepend region to register "r"                    | prepend-to-register RET r              |
-| Register: Copy rectangle region to register "r"             | C-x r r r , copy-rectangle-to-register |
-| Register: Insert rectangle region to register "r"           | C-x r i r , copy-rectangle-to-register |
-| Register: Save window and frame configurations              | window-configuration-to-register       |
-| Register: Save frames and windows configurations            | frameset-to-register                   |
-| Register: Restore window/frame config (same as jump)        | C-x r j r , jump-to-register           |
-| Register: Store number in register "r"                      | C-x r n r , number-to-register         |
-| Register: Increment number in register "r"                  | C-x r + r , increment-register         |
-| Register: Save macro to register "r"                        | C-x C-k x r , kmacro-to-register       |
-| Register: Execute keyboard macro in register "r"            | C-x r j r                              |
+| Name | Shortcuts |
+|----|----|
+| Register: View contents of named register "r" | view-register RET r |
+| Register: Record position of point in register "r" | C-x r SPC r , point-to-register |
+| Register: Go to register "r", recall frameset, number, etc. | C-x r j r , jump-to-register |
+| Register: Copy region into register "r" | C-x r s r , copy-to-register |
+| Register: Insert (paste) from register "r" | C-x r i r, insert-register |
+| Register: Append region to register "r" | append-to-register RET r |
+| Register: Prepend region to register "r" | prepend-to-register RET r |
+| Register: Copy rectangle region to register "r" | C-x r r r , copy-rectangle-to-register |
+| Register: Insert rectangle region to register "r" | C-x r i r , copy-rectangle-to-register |
+| Register: Save window and frame configurations | window-configuration-to-register |
+| Register: Save frames and windows configurations | frameset-to-register |
+| Register: Restore window/frame config (same as jump) | C-x r j r , jump-to-register |
+| Register: Store number in register "r" | C-x r n r , number-to-register |
+| Register: Increment number in register "r" | C-x r + r , increment-register |
+| Register: Save macro to register "r" | C-x C-k x r , kmacro-to-register |
+| Register: Execute keyboard macro in register "r" | C-x r j r |
 
 - Save file and buffer names in registers:
   `(set-register r '(file . name))`
 
 ## Options and Customization
 
-| Name                                                   | Shortcuts                                        |
-|--------------------------------------------------------|--------------------------------------------------|
-| Customize interface                                    | M-x customize                                    |
-| Activate text major mode                               | M-x text-mode                                    |
-| Change margins for auto-fill-mode (auto line wrapping) | C-x f                                            |
-| Set directory local variables                          | M-x add-dir-local-variable or use .dir-locals.el |
+| Name | Shortcuts |
+|----|----|
+| Customize interface | M-x customize |
+| Activate text major mode | M-x text-mode |
+| Change margins for auto-fill-mode (auto line wrapping) | C-x f |
+| Set directory local variables | M-x add-dir-local-variable or use .dir-locals.el |
 
 - Set directory local variables are useful for variables that only apply
   in a certain directory like with using projectile-test-cmd, setting
@@ -293,33 +293,33 @@ character like r.
 - per [Keyboard Macros are Misunderstood - Mastering
   Emacs](https://www.masteringemacs.md/article/keyboard-macros-are-misunderstood)
 
-| Name                                     | Shortcuts                                           |
-|------------------------------------------|-----------------------------------------------------|
-| Record macro                             | F3                                                  |
-| Stop recording macro                     | F4                                                  |
-| Execute macro                            | F4                                                  |
-| Execute macro until end of file or error | C-0 F4                                              |
-| Name, save macro                         | M-x kmacro-name-last-macro= (use a prefix like mp-) |
-| Have Emacs generate Elisp for a macro    | M-x insert-kbd-macro                                |
+| Name | Shortcuts |
+|----|----|
+| Record macro | F3 |
+| Stop recording macro | F4 |
+| Execute macro | F4 |
+| Execute macro until end of file or error | C-0 F4 |
+| Name, save macro | M-x kmacro-name-last-macro= (use a prefix like mp-) |
+| Have Emacs generate Elisp for a macro | M-x insert-kbd-macro |
 
 - Tip: using `insert-kbd=macro`, save for use as an interactive function
   for repetitive use
 
 ## Help
 
-| Name                                                 | Shortcuts                              |
-|------------------------------------------------------|----------------------------------------|
-| Help                                                 | C-h                                    |
-| Help on feature                                      | C-h c                                  |
-| Help on command                                      | C-h k                                  |
-| Help on function (describe-function)                 | C-h f= - can drill into function's cod |
-| Help on variable (describe-variable)                 | C-h v                                  |
-| Help on key bindings for current function/minibuffer | C-h b                                  |
-| Help Apropos (search command keyword)                | C-h a                                  |
-| Help Search - search all manuals                     | info-apropos                           |
-| Read manuals (aka info) for installed packages       | C-h i                                  |
-| Open emacs manual                                    | C-h r                                  |
-| Help buffer - next / Previous page in Info buffer    | n / p                                  |
+| Name | Shortcuts |
+|----|----|
+| Help | C-h |
+| Help on feature | C-h c |
+| Help on command | C-h k |
+| Help on function (describe-function) | C-h f= - can drill into function's cod |
+| Help on variable (describe-variable) | C-h v |
+| Help on key bindings for current function/minibuffer | C-h b |
+| Help Apropos (search command keyword) | C-h a |
+| Help Search - search all manuals | info-apropos |
+| Read manuals (aka info) for installed packages | C-h i |
+| Open emacs manual | C-h r |
+| Help buffer - next / Previous page in Info buffer | n / p |
 
 ## Emacs Window, Start, Lisp
 
@@ -331,11 +331,11 @@ character like r.
 
 ### Evaluate Elisp
 
-| Name                                  | Shortcuts                              |
-|---------------------------------------|----------------------------------------|
-| Run elisp code                        | eval-expression or M-:                 |
-| Evaluate the current elisp expression | C-x C-e or eval-last-sexp              |
-| Evaluate region or buffer             | C-c C-e or elisp-eval-region-or-buffer |
+| Name | Shortcuts |
+|----|----|
+| Run elisp code | eval-expression or M-: |
+| Evaluate the current elisp expression | C-x C-e or eval-last-sexp |
+| Evaluate region or buffer | C-c C-e or elisp-eval-region-or-buffer |
 
 ## Terminal
 
@@ -346,12 +346,12 @@ character like r.
 
 ### term-mode / ansi-term modes
 
-| Name                                               | Shortcuts                                                               |
-|----------------------------------------------------|-------------------------------------------------------------------------|
-| Line mode to navigate buffer independent of prompt | C-c C-j (on) / C-c C-k (off)                                            |
-| Access Emacs command prompt                        | C-x M-x= (my binding is F1)                                             |
-| Scroll one screen at a time                        | S-Page Up/Down                                                          |
-| Send `C-c` SIGINT to terminal                      | C-c C-c or `C-g C-c C-c` to quit any keyboard commands and send SIGINT) |
+| Name | Shortcuts |
+|----|----|
+| Line mode to navigate buffer independent of prompt | C-c C-j (on) / C-c C-k (off) |
+| Access Emacs command prompt | C-x M-x= (my binding is F1) |
+| Scroll one screen at a time | S-Page Up/Down |
+| Send `C-c` SIGINT to terminal | C-c C-c or `C-g C-c C-c` to quit any keyboard commands and send SIGINT) |
 
 ### Async shell command
 
@@ -360,33 +360,35 @@ character like r.
 
 ## Web Browser: EWW / System
 
-| Name                                         | Shortcuts                      |
-|----------------------------------------------|--------------------------------|
-| Open web browser                             | eww                            |
-| Open system browser on current file / url    | browse-url-of-file, browse-url |
-| Open html file, from eww or other browser    | eww-open-file                  |
-| Reader mode to remove nav headers and others | R, eww-readable                |
-| Copy text from eww with org mode links       | org-eww-copy-for-org-mode      |
+| Name | Shortcuts |
+|----|----|
+| Open web browser | eww |
+| Open system browser on current file / url | browse-url-of-file, browse-url |
+| Open html file, from eww or other browser | eww-open-file |
+| Reader mode to remove nav headers and others | R, eww-readable |
+| Copy text from eww with org mode links | org-eww-copy-for-org-mode |
 
 ## Development on Languages, include Prose
 
-| Name                                             | Shortcuts                        |
-|--------------------------------------------------|----------------------------------|
-| At suggestions at cursor                         | completion-at-point              |
-| Flycheck, check LSP, linters, checkers enabled   | C-c ! v or flycheck-verify-setup |
-| Flycheck, LSP, linters, Errors List              | C-c ! l or flycheck-list-errors  |
-| LSP Mode - Leader key                            | C-c l                            |
-| LSP Mode - Find references                       | C-c l g r                        |
-| LSP Mode - Find definitions                      | C-c l g g                        |
-| LSP Mode - Refactor like rename                  | C-c l r                          |
-| LSP Mode - Flymake tracks problems in file       | flymake-show-buffer-diagnostics  |
-| LSP Mode - Code formatting                       | C-c l = == or TAB                |
-| LSP Mode - Display symbols with treemacs         | M-x lsp-treemacs-symbols         |
-| LSP, Update LSP servers                          | M-x lsp-update-servers           |
-| LSP, Update LSP specific server                  | M-x lsp-update-server            |
-| Spelling - Flyspell autocorrect word             | C-M-i                            |
-| Spelling - Flyspell suggest words for correction | C-c-\$                           |
-| Compile, run make command                        | M-x compile                      |
+| Name | Shortcuts |
+|----|----|
+| At suggestions at cursor | completion-at-point |
+| Flycheck, check LSP, linters, checkers enabled | C-c ! v or flycheck-verify-setup |
+| Flycheck, LSP, linters, Errors List | C-c ! l or flycheck-list-errors |
+| LSP Mode - Leader key | C-c l |
+| LSP Mode - Find references | C-c l g r |
+| LSP Mode - Find definitions | C-c l g g |
+| LSP Mode - Refactor like rename | C-c l r |
+| LSP Mode - Flymake tracks problems in file | flymake-show-buffer-diagnostics |
+| LSP Mode - Code formatting | C-c l = == or TAB |
+| LSP Mode - Display symbols with treemacs | M-x lsp-treemacs-symbols |
+| LSP, Update LSP servers | M-x lsp-update-servers |
+| LSP, Update LSP specific server | M-x lsp-update-server |
+| Spelling - Flyspell autocorrect word | C-M-i |
+| Spelling - Flyspell suggest words for correction | C-c-\$ |
+| Compile, run async shell command, output buffer | M-x compile |
+| Compile, go to next error and file | C-x \` |
+| Compile, run last compile command again | M-x recompile |
 
 ### Diff
 

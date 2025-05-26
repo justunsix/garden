@@ -1,0 +1,393 @@
+---
+filetags: ":foss:software:apps:open-source:epubnote:"
+id: 4d3e0888-9e79-414c-a552-48c6357ad845
+title: Applications - Free and/or Open Source Software
+---
+
+## Free/Libre and/or Open Source Software 2022-09-17
+
+Source: [Fight for your freedom in computing. Don't let proprietary
+programs control
+you](https://www.reddit.com/r/StallmanWasRight/comments/xepajh/comment/ioj2e8z/?context=3)
+plus my additions
+
+- 7zip - file archiver, a utility used to place groups of files within
+  compressed containers known as "archives"
+- Ansible - software tools that enables infrastructure as code
+- Ardour - digital audio workstation
+- Audacity - digital audio editor and recording application software
+- Bash - Unix shell and command language written by Brian Fox for the
+  GNU Project as a free software replacement for the Bourne shell
+- Bitwarden - password management service
+- Blender - Blender 3D computer graphics software tool set
+- BusyBox - a software suite that provides several Unix utilities in a
+  single executable file
+- Calibre - cross-platform suite of e-book software
+- Ceph - software-defined storage platform that implements object
+  storage
+- Clonezilla - drive cloning, drive imaging and system deployment
+  utilities used to simplify deployment and maintenance of a group of
+  computers
+- Drupal - web content management system (CMS) written in PHP and
+  distributed under the GNU General Public License
+- [Espanso](https://espanso.md/) - Privacy-first, cross-platform text
+  expander
+- Fairmail - privacy oriented email app for Android
+- F-Droid - app store and software repository for Android, serving a
+  similar function to the Google Play store
+- Firefox - web browser developed by the Mozilla Foundation, see also
+  [Firefox Shortcuts](../005-computer-shortcuts-firefox) - [Firefox
+  Shortcuts](id:8d636d51-8333-4a2e-a9ab-b073f6ae6721)
+- Flatpak - formerly known as xdg-app is a utility for software
+  deployment and package management for Linux. It is advertised as
+  offering a sandbox environment in which users can run application
+  software in isolation
+- FreeTube - private YouTube viewer
+- GCC - GNU Compiler Collection is an optimizing compiler produced by
+  the GNU Project supporting various programming languages, hardware
+  architectures and operating systems
+- Gimp - GNU Image Manipulation Program) is a free and open-source
+  raster graphics editor\[5\] used for image manipulation (retouching)
+  and image editing, free-form drawing, transcoding between different
+  image file formats
+- [Git](../005-tech-git) - [Git Version Control
+  System](id:419da8ba-373b-4e83-9f3a-0d20f7804ed1) - distributed version
+  control
+- Gnome - GNU Network Object Model Environment desktop environment for
+  Linux/Unix like
+- GNU - "GNU is Not Unix" core software to GNU/Linux systems
+- GNU Boxes - virtualization
+- GNU/Linux - operating system
+- GRASS GIS - Geographical Information System software used for
+  geospatial data management and analysis, image processing,
+  graphics/map production, spatial modelling, and visualization
+- Grub - GNU project's bootloader software
+- Handbrake - video converter, transcoder for digital video files
+- htop - interactive system-monitor process-viewer and process-manager
+- Infinity
+- Jellyfin - suite of multimedia applications designed to organize,
+  manage, and share digital media files to networked devices
+- KDE Desktop environment for Linux/Unix like
+- KDE Connect - facilitates wireless communications and data transfer
+  between devices over local network
+- [Kdenlive](https://kdenlive.md/) - Video Editor, Can also do music
+  editing and output.
+- [kondo](https://github.com/tbillington/kondo) - Cleans dependencies
+  and build artifacts from your projects
+- Krita - raster graphics editor designed primarily for digital painting
+  and 2D animation
+- KVM - virtualization module in the Linux kernel that allows the kernel
+  to function as a hypervisor
+- [Lazarus](https://www.lazarus-ide.md/) - Delphi compatible
+  cross-platform IDE for Rapid Application Development, uses Free Pascal
+- LibreOffice - office Prod software suite
+- MariaDB - community-developed, commercially supported fork of the
+  MySQL relational database management system (RDBMS), intended to
+  remain free and open-source software under the GNU General Public
+  License
+- Mastodon - running self-hosted social networking services. It has
+  microblogging features similar to the Twitter service
+- MicroG - Implementation of proprietary Google libraries that serves as
+  a replacement for Google Play Services on the Android operating system
+- mpv - media player software based on MPlayer, mplayer2 and FFmpeg
+- Nextcloud - suite of client-server software for creating and using
+  file hosting services
+- Notepad++ - text editor
+- OBS - cross-platform screencasting and streaming app
+- Onlyoffice - office suite
+- Openshot - video editor
+- Open Street Map - geographical and map information
+- [PeaZip](https://github.com/peazip/PeaZip) - cross platform file
+  manager and file archiver
+- PeerTube - decentralized, ActivityPub federated video platform powered
+  by WebTorrent, that uses peer-to-peer technology to reduce load on
+  individual servers when viewing videos
+- Pihole - Linux network-level advertisement and Internet tracker
+  blocking application which acts as a DNS sinkhole and optionally a
+  DHCP server, intended for use on a private network
+- Piped - YouTube viewer
+- [Podman desktop](https://podman-desktop.io/) - Manage Podman and other
+  container engines from a single UI and tray
+- [Podman TUI](https://github.com/containers/podman-tui) - Podman
+  terminal user interface
+- Proton tools - Mail, VPN, Drive open source
+- Qemu - emulator (Quick EMUlator). It emulates the machine's processor
+  through dynamic binary translation and provides a set of different
+  hardware and device models for the machine, enabling it to run a
+  variety of guest operating systems
+- RStudio - IDE for R
+- Session - decentralized messaging platform
+- Shotcut - Non-linear video editor similar to Adobe Premiere Elements
+- Signal - cross-platform centralized encrypted instant messaging
+  service developed by the non-profit Signal Foundation
+- Spyder - IDE for scientific programming in the Python language
+- systemd - provides an array of system components for Linux operating
+  systems - aim is to unify service configuration and behavior across
+  Linux distributions
+- Termux - terminal emulator for Android
+- Terraform - infrastructure as code build and maintenance (Mozzila
+  Public License 2.0, weak copyleft)
+- Thurderbird - cross-platform email client, personal information
+  manager, news client, RSS and chat clien
+- Tor Browser
+- Transmission - BitTorrent client which features a variety of user
+  interfaces on top of a cross-platform back-end
+- Ublock Origin - Browser ad and annoyance blocker
+- Vim - text editor
+- Virtual Manager
+- VLC - portable, cross-platform media player software and streaming
+  media server
+- Wine - Wine Is Not an Emulator, now just "Wine" is a free and
+  open-source compatibility layer that aims to allow application
+  software and computer games developed for Microsoft Windows to run on
+  Unix-like operating systems
+- Wireguard - communication protocol and free and open-source software
+  that implements encrypted virtual private networks (VPNs), and was
+  designed with the goals of ease of use, high speed performance, and
+  low attack surface
+- WireShark - packet analyzer. It is used for network troubleshooting,
+  analysis, software and communications protocol development, and
+  education
+- WordPress - content management system (CMS) written in PHP and paired
+  with a MySQL or MariaDB database with supported HTTPS
+- zotero - manage bibliographic data and related research materials
+
+## Modern Terminal Commands
+
+- [alacritty](https://alacritty.md/) - terminal emulator, URLs can open,
+  search, VI bindings
+- [atuin](https://github.com/ellie/atuin) - interactive shell history
+- [ag](https://github.com/ggreer/the_silver_searcher) - A code searching
+  tool similar to ack, but faster.
+- bacon - re-runs cargo clippy, build, test, or run
+- bat - cat with colours, line numbers, git integration, paging
+- bob-nvim - nvim version manager
+- [bottom](https://github.com/ClementTsang/bottom) - like htop with
+  widgets, cross platform
+- [broot](https://dystroy.md/broot/) - directory and file navigation
+  with directory sizes, search
+- curlie - user friendly curl, good also for API tests
+- cheat - cheat sheets
+- [delta](https://github.com/dandavison/delta) - syntax-highlighting
+  pager for git, diff, grep, and blame output
+- dog - user friendly, powerful dig
+- [dua](https://github.com/Byron/dua-cli) - disk usage analyzer,
+  parallel and can analyze specific directories
+- cargo-info - shows info about crates
+- choose - human-friendly and fast alternative to cut and (sometimes)
+  awk
+- [coreutils](https://github.com/uutils/coreutils) - GNU coreutils in
+  Rust, cross platform, can alias to run rust coreutils instead of OS
+  ones like alias usort = "coreutils sort"
+- Difftastic - structural diff tool that compares files based on their
+  syntax.
+- duf - df alternative
+- [dust](https://github.com/bootandy/dust) - file and folder size tree,
+  du (disk usage) with colours like subdirectories, intuitive interface
+- evcxr<sub>jupyter</sub> - rust kernel for jupyter, requires Jupyter
+  framework to be installed
+- [eza](https://github.com/eza-community/eza) - ls with colours, icons
+- fd - find with shorter syntax, some limitations compared to find,
+  colours
+- [fish shell](https://fishshell.com/) - command line shell
+- [fselect](https://github.com/jhspetersson/fselect) - Find files with
+  SQL-like queries
+- fzf - fuzzy finder
+- [Helix](https://helix-editor.com/) - modal editor like vim with modern
+  defaults and more built in features
+- [hurl](https://hurl.dev/) - for repeatable tests and plain text files
+  for requests, API testing
+- hyperfine - command line benchmarking tool, check run times
+- jq - sed for JSON
+- Just - like make, command runner
+- httpie - user friend HTTP client
+- [gitui](https://github.com/extrawurst/gitui) - terminal client for
+  git, good for small git operations
+- [irust](https://github.com/tarcieri/irust) - interactive rust REPL
+- lsd - ls with more accessible output, colours, icons
+- [lnav](https://github.com/tstack/lnav) - log file navigator, log
+  directory manager, analysis
+- macchina: A system information frontend
+- [mask](https://github.com/jacobdeichert/mask) - like make and just,
+  tasks are defined in a markdown file
+- mcfly - better history search
+- [monolith](https://github.com/y2z/monolith): CLI tool for saving
+  complete web pages as a single HTML file
+- [mosh](https://mosh.md/) - remote terminal allowing roaming,
+  intermittent connectivity, like SSH
+- [mprocs](https://github.com/pvolok/mprocs) - running multiple process,
+  like tmux, but useful for long running non-interactive single
+  processes to give them status
+- ncspot - spotify client terminal UI
+- [nu](https://www.nushell.sh/) - shell with pipelines and everything is
+  data, has plugins
+- Ouch: Painless compression and decompression for your terminal with
+  autodetection of file types
+- porsmo - pomodoro timer
+- [presenterm](https://github.com/mfontanini/presenterm) - markdown
+  terminal slideshow tool
+- [posting](https://github.com/darrenburns/posting) - API TUI, good for
+  API tests
+- [procs](https://github.com/dalance/procs) - ps with colours and more
+  accessible output, search
+- podman - tool for managing OCI containers and pods
+- pgcli - postgresql interface
+- [ripgrep](https://github.com/BurntSushi/ripgrep) - faster grep, grep
+  with default recursive search, filters
+- [ripgrep-all](https://github.com/phiresky/ripgrep-all) - ripgrep but
+  also search in compressed files, PDF, ebooks, office docs
+- rtx-cli - version manager of programming languages like python, node,
+  ruby, like program `asdf`
+- [sccache](https://github.com/mozilla/sccache) - cache for compiler
+  tools, support for Rust code, see
+  [usage](https://github.com/mozilla/sccache#usage) for set up
+- [sd](https://github.com/chmln/sd) - Intuitive find & replace CLI (sed
+  alternative)
+- skim - command fuzzy finder
+- speedtest-rs - network speedtesters
+- [starship](https://starship.rs/) prompt - cross platform/shell
+  configurable prompt
+- tig - git log viewer
+- tldr ([tealdeer](https://github.com/dbrgn/tealdeer)) - shortened man
+  pages with examples
+- tokei - code statistics, lines of codes summary by language
+- [typst](https://github.com/typst/typst) - markup-based typesetting
+  system, like a modern LaTex, Word, Google docs, good for academic and
+  technical documentation
+- [topgrade](https://github.com/topgrade-rs/topgrade) Upgrade all the
+  things by detecting the tools you use and running the appropriate
+  commands to update them.
+- wiki-tui - wikipedia terminal ui
+- [wormhole](https://github.com/magic-wormhole/magic-wormhole) - private
+  file transfer from computer to computer
+- [wttr.in](https://github.com/chubin/wttr.in) - using curl to query
+  weather like curl wttr.in/toronto
+- [xh](https://github.com/ducaale/xh) - send HTTP requests, like HTTPie
+- [Yazi](https://yazi-rs.github.io/) - terminal file manager with
+  previews
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - audio/video downloader
+- [zellij](https://github.com/zellij.md/zellij) - terminal multiplexer
+  like tmux and screen, no Windows implementation as of 2023-06-14
+- [zoxide](https://github.com/ajeetdsouza/zoxide) - smart cd to jump to
+  frequently used directories
+
+nix package manager on Linux, MacOS and scoop on Windows covers most of
+these programs
+
+### Support Summary as of 2025-02-13
+
+Key commands I use regularly and packaging support:
+
+| Program        | Arch    | Debian | Fedora | FreeBSD | Ubuntu | Void | MSYS2 | scoop |
+|----------------|---------|--------|--------|---------|--------|------|-------|-------|
+| atuin          | x       | x      |        | x       |        | x    |       |       |
+| bat            | x       | x      | x      | x       | x      | x    | x     | x     |
+| broot          | x       | x      |        | x       |        | x    |       | x     |
+| carapace       | x (AUR) | x      |        | x       | x      | x    |       | x     |
+| fd             | x       | x      | x      | x       | x      | x    | x     | x     |
+| fzf            | x       | x      | x      | x       | x      | x    | x     | x     |
+| helix          | x       |        | x      | x       |        | x    | x     | x     |
+| lazygit        | x       |        | x      | x       |        | x    |       | x     |
+| mprocs         | x (AUR) |        |        | x       |        |      |       | x     |
+| nushell        | x       |        | x      | x       |        | x    |       | x     |
+| ripgrep        | x       | x      | x      | x       | x      | x    | x     | x     |
+| starship       | x       | x      | x      | x       | x      | x    | x     | x     |
+| topgrade       | x       |        |        | x       |        | x    |       | x     |
+| vcstool (pipx) | x       | x      | x      | x       | x      | x    | x     | x     |
+| yazi           | x       |        |        | x       |        | x    | x     | x     |
+| zoxide         | x       | x      | x      | x       | x      | x    | x     | x     |
+
+### Installation
+
+Most packages above can be installed using cargo with
+`cargo install <command>`
+
+[Installation - The Cargo
+Book](https://doc.rust-lang.md/cargo/getting-started/installation.html)
+
+## Mobile Android
+
+Source:
+<https://www.reddit.com/r/freesoftware/comments/15cp6ff/all_my_open_source_app_alternatives/>
+and see also [GitHub - offa/android-foss: A list of Free and Open Source
+Software (FOSS) for
+Android](https://github.com/offa/android-foss?tab=readme-ov-file)
+
+App → Alternative
+
+- Keyboard → [OpenBoard](https://github.com/openboard-team/openboard)
+  ([OpenBoard Updated Fork](https://github.com/Helium314/openboard),
+  [FlorisBoard](https://github.com/florisboard/florisboard) when the v4
+  will be released…)
+- SMS → [Simple
+  SMS](https://github.com/SimpleMobileTools/Simple-SMS-Messenger)
+- Google Authentificator →
+  [Aegis](https://github.com/beemdevelopment/Aegis)
+- Calculator → [OpenCalc](https://github.com/Darkempire78/OpenCalc)♥️
+- Play Store → [Fdroid](https://gitlab.com/fdroid/fdroidclient), [Neo
+  Store](https://github.com/NeoApplications/Neo-Store), [Aurora
+  Store](https://github.com/whyorean/AuroraStore)
+- Google News → [News](https://github.com/bubelov/news)
+- Note → [QuillNote](https://github.com/msoultanidis/quillnote)
+  ([QuillPad](https://github.com/quillpad/quillpad) is a new updated
+  fork)
+- Google Chrome → [Firefox
+  Nightly](https://github.com/mozilla-mobile/firefox-android) ♥️
+- Contact → [Connect You](https://github.com/Bnyro/ConnectYou)
+- Google Photo → [Aves](https://github.com/deckerst/aves) & [Simple
+  Galery](https://github.com/SimpleMobileTools/Simple-Gallery)
+- Camera → [GrapheneOS Camera](https://github.com/GrapheneOS/Camera)
+  (it's very hard to achieve good quality with open source alternatives)
+- File explorer → [Material
+  Files](https://github.com/zhanghai/MaterialFiles) ♥️
+- Google Docs → [Librera
+  Reader](https://github.com/foobnix/LibreraReader), [Collabora
+  Office](https://github.com/CollaboraOnline/online)
+- YouTube → [Libretube](https://github.com/libre-tube/LibreTube)♥️
+- Email Client → [FairEmail](https://github.com/M66B/FairEmail)
+- Password Manager → [Bitwarden](https://github.com/bitwarden/mobile)♥️
+  /
+  [KeePassDX](https://f-droid.md/packages/com.kunzisoft.keepass.libre/)
+- Google Map → [Organic Map](https://github.com.mdanicmaps.mdanicmaps)
+- Google Search → [Whoogle](https://github.com/benbusby/whoogle-search)
+- Google Task →
+  [SimpleTask](https://github.com/mpcjanssen/simpletask-android)
+- Google Drive PDF Reader → [MJ PDF
+  Reader](https://gitlab.com/mudlej_android/mj_pdf_reader) ♥️
+- Phone → [Koler](https://github.com/Chooloo/koler)
+- Calendar → [Etar](https://github.com/Etar-Group/Etar-Calendar)
+- Google Traductor →
+  [TranslateYou](https://github.com/Bnyro/TranslateYou)♥️
+- Reddit →
+  [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit)♥️
+- Meteo → [Geometric
+  Weather](https://github.com/WangDaYeeeeee/GeometricWeather), [Breezy
+  Weather](https://github.com/breezy-weather/breezy-weather) (an updated
+  fork of Geometric Weather) ♥️
+- Media Player → [VLC](https://github.com/videolan/vlc-android)
+- Yuka → [OpenFoodFacts](https://github.com/openfoodfacts/smooth-app) ♥️
+- Citymapper → [Transportr](https://github.com/grote/Transportr)
+- Twitter → [Qquawker](https://github.com/j-fbriere/squawker) &
+  [Quacker](https://github.com/TheHCJ/Quacker)
+- Twitch → [Xtra](https://github.com/crackededed/Xtra) &
+  [Twire](https://github.com/twireapp/Twire)
+- GoodReads →
+  [Openreads](https://github.com/mateusz-bak/openreads-android)♥️
+- Torrent Manager →
+  [Transdroid](https://github.com/erickok/transdroid)♥️
+- Clock → [CLock You](https://github.com/Bnyro/ClockYou)
+- MyFitnessPal → [Waistline](https://github.com/davidhealey/waistline)
+- Music Player →
+  [Retro](https://github.com/RetroMusicPlayer/RetroMusicPlayer)
+- Birthday Remember → [Birday](https://github.com/m-i-n-a-r/birday)
+- Habit Tracker → [Loop Habit
+  Tracker](https://github.com/iSoron/uhabits) &
+  [Habo](https://github.com/xpavle00/Habo)
+
+## See Also
+
+- [Free and Open source software
+  alternatives](../005-tech-foss-alternatives) - [Free and Open source
+  software alternatives](id:cc3fae8b-58d7-4d82-9ee9-3fe7001dc50a)
+- [Terminal](../005-tech-terminal) -
+  [Terminal](id:af66c501-039b-4af6-ba93-18e759546761)

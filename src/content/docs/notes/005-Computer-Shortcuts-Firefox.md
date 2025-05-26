@@ -4,20 +4,20 @@ id: 8d636d51-8333-4a2e-a9ab-b073f6ae6721
 title: Firefox Shortcuts
 ---
 
-| Description                        | Shortcut                                |
-|------------------------------------|-----------------------------------------|
-| Select tab                         | Alt + 1, 2, 3, 4, 5, 6, 7, 8, 9         |
-| Go to location bar                 | Ctrl + l, F6                            |
-| Move tabs                          | Alt-Page up/Page Down                   |
-| Location bar, search engine        | Ctrl + k                                |
+| Description | Shortcut |
+|----|----|
+| Select tab | Alt + 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Go to location bar | Ctrl + l, F6 |
+| Move tabs | Alt-Page up/Page Down |
+| Location bar, search engine | Ctrl + k |
 | Location bar, search engine select | Ctrl + k or search and Alt + arrow keys |
-| Location bar, search bookmarks     | /\*                                     |
-| Location bar, search history       | ^ \<search                              |
-| Location bar, search tabs          | % \<search tabs\>                       |
-| Manage Bookmarks                   | Ctrl + Shift + o                        |
-| Reopen closed tab                  | Ctrl + Shift + T                        |
-| Caret mode (cursor on page)        | F7                                      |
-| Chat box                           | Ctrl + Alt + x                          |
+| Location bar, search bookmarks | /\* |
+| Location bar, search history | ^ \<search |
+| Location bar, search tabs | % \<search tabs\> |
+| Manage Bookmarks | Ctrl + Shift + o |
+| Reopen closed tab | Ctrl + Shift + T |
+| Caret mode (cursor on page) | F7 |
+| Chat box | Ctrl + Alt + x |
 
 ## Navigation
 

@@ -103,9 +103,9 @@ shown.
 
 ### Popular Words in Searches
 
-| Word   | Clicks | Impressions | Top Containing Queries                                   |
-|--------|--------|-------------|----------------------------------------------------------|
-| report | 200    | 3000        | (report ad, google ads report, marketing report metrics) |
+| Word | Clicks | Impressions | Top Containing Queries |
+|----|----|----|----|
+| report | 200 | 3000 | (report ad, google ads report, marketing report metrics) |
 
 ## Insights
 

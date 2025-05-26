@@ -17,31 +17,31 @@ chkdsk /f d:
 
 ## Windows Commands
 
-| **Command**      | **Usage/Function**                                                                                                        |
-|------------------|---------------------------------------------------------------------------------------------------------------------------|
-| certmgr.msc      | Certificates                                                                                                              |
-| ciadv.msc        | Indexing Service                                                                                                          |
-| comexp.msc       | Component Services                                                                                                        |
+| **Command** | **Usage/Function** |
+|----|----|
+| certmgr.msc | Certificates |
+| ciadv.msc | Indexing Service |
+| comexp.msc | Component Services |
 | **compmgmt.msc** | **Computer Management, central administration panel for Windows. Can also be used to access IIS administration console.** |
-| control mouse    | Open control panel for mouse                                                                                              |
-| defrag, dfrg.msc | Disk Defragmenter                                                                                                         |
-| devmgmt.msc      | Device Manager                                                                                                            |
-| diskmgmt.msc     | Disk Management                                                                                                           |
-| eventvwr.msc     | Event Viewer                                                                                                              |
-| fsmgmt.msc       | Shared Folders                                                                                                            |
-| gpedit.msc       | Group Policy                                                                                                              |
-| lusrmgr.msc      | Local Users and Groups                                                                                                    |
-| **msconfig**     | **Startup files and processes configuration**                                                                             |
-| ntmsmgr.msc      | Removable Storage                                                                                                         |
-| ntmsoprq.msc     | Removable Storage Operator Requests                                                                                       |
-| **perfmon.msc**  | **Performance monitor**                                                                                                   |
-| **regedit**      | **Registry editor**                                                                                                       |
-| rsop.msc         | Resultant Set of Policy                                                                                                   |
-| sc query         | Find function. E.g. Find a Windows services called "WSearch"sc query or FINDSTR /i /r WSearch                             |
-| secpol.msc       | Local Security Settings                                                                                                   |
-| **services.msc** | **Services and Process manager**                                                                                          |
-| wab              | Windows address book                                                                                                      |
-| wmimgmt.msc      | Windows Management Infrastructure (WMI)                                                                                   |
+| control mouse | Open control panel for mouse |
+| defrag, dfrg.msc | Disk Defragmenter |
+| devmgmt.msc | Device Manager |
+| diskmgmt.msc | Disk Management |
+| eventvwr.msc | Event Viewer |
+| fsmgmt.msc | Shared Folders |
+| gpedit.msc | Group Policy |
+| lusrmgr.msc | Local Users and Groups |
+| **msconfig** | **Startup files and processes configuration** |
+| ntmsmgr.msc | Removable Storage |
+| ntmsoprq.msc | Removable Storage Operator Requests |
+| **perfmon.msc** | **Performance monitor** |
+| **regedit** | **Registry editor** |
+| rsop.msc | Resultant Set of Policy |
+| sc query | Find function. E.g. Find a Windows services called "WSearch"sc query or FINDSTR /i /r WSearch |
+| secpol.msc | Local Security Settings |
+| **services.msc** | **Services and Process manager** |
+| wab | Windows address book |
+| wmimgmt.msc | Windows Management Infrastructure (WMI) |
 
 ## Remote Desktop Management related commands
 

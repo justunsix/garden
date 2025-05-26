@@ -44,7 +44,7 @@ ls *.md
 # List non-hidden files under current directory
 ls **/*
 # Other glob syntax is supported
-# List all files including hidden files and show sizes of files/folders
+# List all files including hidden files (-al) and show sizes of files/folders (-d)
 ls -ald
 
 # List files, sort, filter, query first item
@@ -163,8 +163,12 @@ gfold -d json | from json | where status =~ 'Unclean|Unpushed'
 # Create a new column using upsert with computed values of other columns
 gfold -d json | from json | where status =~ 'Unclean|Unpushed' | upsert path {|row| $row.parent + '/' + $row.name}
 
-# Filter / find text "health" in an Excel spreadsheet / table
-open --raw sheet1.xlsx | from xlsx | find health | rg health
+# Open specific Excel spreadsheet
+open --raw sheet1.xlsx | from xlsx --sheets [Sheet1]
+# Open sheet "Sheet1" in binary xlsx file
+open sheet1.xlsx | get "Sheet1"
+# Open sheet "Sheet1" in binary xlsx file and search first column
+open sheet1.xlsx | get "Sheet1" | where column0 =~ myfilter"
 
 # http command to get, fetch and other commands
 http get https://google.com

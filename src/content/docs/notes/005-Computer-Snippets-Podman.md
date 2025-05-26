@@ -12,8 +12,13 @@ podman ps
 # See all containers
 podman ps -a
 
+# Stop a container
+podman kill container_name
+podman kill (podman ps)
+
 # Help
 podman --help
+podman -h
 
 # Search for images
 podman search search_term
@@ -37,7 +42,7 @@ podman run -dt -p 8080:80/tcp docker.io/library/httpd
 podman run -it image_name
 
 # Go into container terminal
-podman exec it api sh
+podman exec it container_name sh
 
 # Run containers and create a kubernetes deployment for them
 podman run -d --name web nginx

@@ -15,16 +15,16 @@ Care
 Ontario](https://www.cancercareontario.ca/en/cancer-care-ontario/programs/screening-programs)
 for more guidance and programs.
 
-| Cancer Type                    | Screening Test                           | Age (influenced by history)        |
-|--------------------------------|------------------------------------------|------------------------------------|
-| Thyroid                        | Blood test, \*confirmed personal history | adult                              |
-| Breast                         | Mammogram                                | 40-50                              |
-| Colorectal                     | Colonoscopy                              | 50                                 |
-| Lung                           | Chest X-ray                              | 50                                 |
-| Prostate                       | Prostate-Specific Antigen (PSA) Test     | 50                                 |
-| Uterus, Ovary or Cyst, Fibroid | Ultrasound                               | 40+                                |
-| Stomach, Esophagus             | Gastroscopy                              | According to compliant of symptoms |
-| Cervix                         | Pap test                                 | 21+                                |
+| Cancer Type | Screening Test | Age (influenced by history) |
+|----|----|----|
+| Thyroid | Blood test, \*confirmed personal history | adult |
+| Breast | Mammogram | 40-50 |
+| Colorectal | Colonoscopy | 50 |
+| Lung | Chest X-ray | 50 |
+| Prostate | Prostate-Specific Antigen (PSA) Test | 50 |
+| Uterus, Ovary or Cyst, Fibroid | Ultrasound | 40+ |
+| Stomach, Esophagus | Gastroscopy | According to compliant of symptoms |
+| Cervix | Pap test | 21+ |
 
 ### Example assessment based on Screening for Colorectal Cancer
 

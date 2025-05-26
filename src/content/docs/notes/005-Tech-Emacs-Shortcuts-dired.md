@@ -6,11 +6,11 @@ title: Emacs Shortcuts for dired
 
 ## Dired and Search
 
-| Description                                                 | Shortcut                                  |
-|-------------------------------------------------------------|-------------------------------------------|
+| Description | Shortcut |
+|----|----|
 | Find a file with pattern, case sensitive (like ***Linux***) | `find-name-dired <pattern like *string*>` |
-| Grep in directory, by default does not include hidden       | `consult-rg` or `counsel-rg`              |
-| Grep in version controlled files in git                     | `consult-rg` or `counsel-git-grep`        |
+| Grep in directory, by default does not include hidden | `consult-rg` or `counsel-rg` |
+| Grep in version controlled files in git | `consult-rg` or `counsel-git-grep` |
 
 ### Search File Names and Replace
 
@@ -32,11 +32,11 @@ title: Emacs Shortcuts for dired
   - `query-replace` or `M-%` to make changes
   - apply changes with `C-x C-s` to save or `C-c C-k` to abort
 
-| Description                                            | Shortcut                                                   |
-|--------------------------------------------------------|------------------------------------------------------------|
-| Grep in directory                                      | grep                                                       |
-| Grep in directory, change search results               | grep and search, `C-c C-p` or `wgrep-change-to-wgrep-mode` |
-| Grep in directory, change search results save or abort | C-x C-s (save) or C-c C-k                                  |
+| Description | Shortcut |
+|----|----|
+| Grep in directory | grep |
+| Grep in directory, change search results | grep and search, `C-c C-p` or `wgrep-change-to-wgrep-mode` |
+| Grep in directory, change search results save or abort | C-x C-s (save) or C-c C-k |
 
 ## Dired and Files Management
 
@@ -70,22 +70,22 @@ YouTube](https://youtu.be/-qo2Ai3pZRk?t=504) \|
 
 ### File Operations
 
-| Name                                             | Shortcuts                   |
-|--------------------------------------------------|-----------------------------|
-| Open, Edit file                                  | RET                         |
-| Open with local browser                          | browse-url-of-dired-file, W |
-| Copy file                                        | C                           |
-| Move/rename file                                 | R                           |
-| Rename based on RegExp                           | % R                         |
-| Delete - D                                       |                             |
-| Delete - Mark for deletion d                     |                             |
-| Delete - Execute deletion of marks               | x                           |
-| Open file                                        | RET                         |
-| Open file in other window                        | o                           |
-| Open file in other window without focusing on it | Alt-o/RET                   |
-| Preview file                                     | g o and close with q        |
-| Execute program on file (e.g. cat)               | ! or &                      |
-| Copy filename at point or marked                 | C-0 w                       |
+| Name | Shortcuts |
+|----|----|
+| Open, Edit file | RET |
+| Open with local browser | browse-url-of-dired-file, W |
+| Copy file | C |
+| Move/rename file | R |
+| Rename based on RegExp | % R |
+| Delete - D |  |
+| Delete - Mark for deletion d |  |
+| Delete - Execute deletion of marks | x |
+| Open file | RET |
+| Open file in other window | o |
+| Open file in other window without focusing on it | Alt-o/RET |
+| Preview file | g o and close with q |
+| Execute program on file (e.g. cat) | ! or & |
+| Copy filename at point or marked | C-0 w |
 
 ### Changes and Permissions
 
@@ -106,8 +106,8 @@ YouTube](https://youtu.be/-qo2Ai3pZRk?t=504) \|
 
 ### Other
 
-| Name                                                                                | Shortcuts |
-|-------------------------------------------------------------------------------------|-----------|
-| Compress/uncompress                                                                 | Z         |
-| Load Emacs Lisp (.el) file into Emacs                                               | L         |
-| Show/hide/view permission, user, group, space details using dired-hide-details-mode | (         |
+| Name | Shortcuts |
+|----|----|
+| Compress/uncompress | Z |
+| Load Emacs Lisp (.el) file into Emacs | L |
+| Show/hide/view permission, user, group, space details using dired-hide-details-mode | ( |

@@ -1,5 +1,5 @@
 ---
-filetags: ":rust:tech:language:epubnote:"
+filetags: ":rust:tech:language:index:epubnote:"
 id: 1c4a327d-4de8-461a-b3d6-7191b2f12982
 title: Rust Language
 ---
@@ -65,6 +65,8 @@ cargo packages (can use cargo binstall):
   Neovim with Rust
 - [Rust on Windows](../005-1-tech-rust-on-windows) - [Rust on
   Windows](id:06fcfe47-81b3-4717-9a77-bb261b3b7376)
+- [Rust Libraries](../005-1-tech-rust-libraries) - [Rust
+  Libraries](id:1163ccec-6925-455a-bf8a-4c3a1c5ee1f9)
 
 ### Resources
 
@@ -84,18 +86,3 @@ cargo packages (can use cargo binstall):
     - [GitHub - ctjhoa/rust-learning: A bunch of links to blog posts,
       articles, videos, etc for learning
       Rust](https://github.com/ctjhoa/rust-learning)
-
-2.  Rust Package Recommendations
-
-    Where to find trusted, recommended crates
-
-    - [Blessed.rs](https://blessed.rs/)
-    - [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
-    - [Lib.rs](https://lib.rs/)
-
-    1.  Recommendations
-
-        - 2024-12: Stable libraries based on book "Practical Rust
-          Projects"
-          - CLI - clap
-          - GUI - GTK

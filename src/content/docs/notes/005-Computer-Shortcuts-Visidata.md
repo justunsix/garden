@@ -16,5 +16,7 @@ title: Visidata Shortcuts
 | Column, add \# of blank column          | gza \<number\> |
 | Column, resize, half width              | z-             |
 | Column, resize, max width               | \_             |
+| Column, filter with regex and copy      | / "            |
 | Row, resize, max height                 | gzv            |
 | Row, resize, Set height                 | zv             |
+| Sort, by column ascending, descending   | \[, \]         |

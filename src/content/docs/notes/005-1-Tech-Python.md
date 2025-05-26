@@ -12,6 +12,8 @@ title: Python
   2023](id:f8bc9ba2-948f-4b44-92f8-37bcea837b6e)
 - [Python Snippets](../005-computer-snippets-python) - [Python
   Snippets](id:b775ff13-9b5b-4af4-9c2b-e98be0af5fdc)
+- [Python Libraries](../005-1-tech-python-libraries) - [Python
+  Libraries](id:041a6d11-4433-48f8-9b10-d64034031e61)
 - [Pycharm Shortcuts](../005-computer-shortcuts-pycharm) - [Pycharm
   Shortcuts](id:df9ec4ef-423f-4e7c-9a4d-973860997ac9)
 - [Pycharm Python IDE](../005-tech-python-pycharm) - [Pycharm Python

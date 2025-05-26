@@ -77,8 +77,8 @@ yt-dlp --ignore-errors --continue --no-overwrites --download-archive progress.tx
 # Allow for the download to continue even after interruption
 # If you are archiving, add the usual `--write-xxx` and `--embed-xxx` options you may have
 
-# Audio only download
-yt-dlp -x -f bestaudio URL
+# Audio only download, download as mp3
+yt-dlp -x --audio-format mp3 -f bestaudio URL
 
 # Transcript / Subtitle only download
 yt-dlp --write-auto-sub --sub-lang en --skip-download "https://www.youtube.com/watch?v=TKjYtfRDASE" --output subtitles.txt

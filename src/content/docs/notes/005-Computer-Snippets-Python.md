@@ -38,6 +38,11 @@ python3 -m pipx install ansible
 ## Upgrade all pipx packages
 pipx upgrade-all
 
+# Debug a script with Python Debugger (PDB)
+python -m pdb pyfile.py
+# See https://docs.python.org/3/library/pdb.html
+# Commands are similar to GDB
+
 ```
 
 ## Jupyter notebooks
@@ -59,6 +64,84 @@ jupytext --to ipynb my_org_file.org
 ```
 
 ## Python Language Snippets
+
+### Basics
+
+``` python
+
+# String
+"string3"
+print("string1")
+
+# Numbers as:
+## Float
+3.5
+## Integers
+2
+
+# String concatenation, adding strings together using +
+## Convert a float number to string using str()
+print("20 days are " + str(28800) + " minutes")
+
+# Print with f strings
+print (f"20 days are {28800} minutes")
+
+# Run operating system shell command
+import os
+# Call command
+os.system('echo "hello world"')
+
+# Define a new function called days_to_units
+# function parameter is num_of_days, a local scope variable
+def days_to_units_20():
+    print(f"20 days are {20 * calculation_to_units} {name_of_unit}")
+
+# Ask users for input and store user's input in a variable
+# The input function always returns a string variable
+user_input = input("Input a number of days and I will convert it to seconds\n")
+print(user_input)
+
+# Conditional checking
+# Return number of units in days as string
+# Validate input is a positive number
+def days_to_units_text_checked(num_of_days):
+    # Check if parameter is a positive number
+    condition_check = num_of_days > 0
+    # Print the data type of the condition_check variable
+    print(type(condition_check))
+    # Conditional to check if parameter is a positive number and evaluates to a boolean
+    # true: parameter is a positive number
+    # false: parameter is not a positive number
+    if num_of_days > 0:
+        return f"{num_of_days} days are {num_of_days * calculation_to_units} {name_of_unit}"
+    else:
+        return "Enter a positive number, other values or data types are not allowed"
+
+# Exception handling
+try:
+    # logic
+except ValueError:
+    print("Error: Your input is not a valid number.")
+
+# While loop
+while user_input != "exit":
+    user_input = input("Enter number of days that this program will convert to hours or type exit to stop\n")
+    validate_and_execute_try_except()
+
+# Create List
+list_of_months = ["January", "February", "March"]
+
+
+# List: Add items
+list_of_months.append("April")
+
+# List: Remove items
+list_of_months.remove("January")
+
+# List: Change items
+list_of_months[0] = "New January"
+
+```
 
 ### CSV file operations
 

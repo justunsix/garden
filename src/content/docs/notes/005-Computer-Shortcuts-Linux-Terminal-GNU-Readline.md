@@ -4,23 +4,23 @@ id: bf3b61d8-23cc-4959-a5c7-17041d7e43f4
 title: Linux Terminal Shortcuts - GNU Readline
 ---
 
-| Description                                               | Shortcut             |
-|-----------------------------------------------------------|----------------------|
-| Autocomplete                                              | TAB                  |
-| CUA: Cut word backward (behind cursor)                    | C-w                  |
-| CUA: Cut word forward                                     | M-d                  |
-| CUA: Paste, yank from kill ring                           | C-y                  |
-| CUA: Kill (to clipboard) to end of line/beginning of line | C-k, C-u             |
-| CUA: Cycle undo list                                      | C-\_ , C-x, C-u, C-/ |
-| Clear terminal screen                                     | C-l                  |
-| Cursor: delete everything to beginning of line            | C-u                  |
-| Cursor: delete everything to end of line                  | C-k                  |
-| Cursor: line - move to beginning                          | C-a, Home            |
-| Cursor: line - move to end                                | C-e, End             |
-| Cursor: move to beginning of word                         | M-b / C-left arrow   |
-| Cursor: move to end of word                               | M-f / C-right arrow  |
-| Search history reverse isearch                            | C-r                  |
-| Transpose character / word                                | C-t / M-t            |
+| Description | Shortcut |
+|----|----|
+| Autocomplete | TAB |
+| CUA: Cut word backward (behind cursor) | C-w |
+| CUA: Cut word forward | M-d |
+| CUA: Paste, yank from kill ring | C-y |
+| CUA: Kill (to clipboard) to end of line/beginning of line | C-k, C-u |
+| CUA: Cycle undo list | C-\_ , C-x, C-u, C-/ |
+| Clear terminal screen | C-l |
+| Cursor: delete everything to beginning of line | C-u |
+| Cursor: delete everything to end of line | C-k |
+| Cursor: line - move to beginning | C-a, Home |
+| Cursor: line - move to end | C-e, End |
+| Cursor: move to beginning of word | M-b / C-left arrow |
+| Cursor: move to end of word | M-f / C-right arrow |
+| Search history reverse isearch | C-r |
+| Transpose character / word | C-t / M-t |
 
 ## Macros
 
@@ -53,21 +53,21 @@ title: Linux Terminal Shortcuts - GNU Readline
 
 ## Commands
 
-| Description                                              | Command                                                       |
-|----------------------------------------------------------|---------------------------------------------------------------|
-| Empty file without deleting it                           | cat /dev/null \> file<sub>name</sub>                          |
-| Go to home directory                                     | cd or cd ~                                                    |
-| List files in current directory                          | ll (ls -l                                                     |
-| Open Ubuntu files in folder (e.g. nautilus ~/)           | nautilus                                                      |
-| Reuse entire last command (e.g. useful for sudo !!)      | !!                                                            |
-| Reuse the last argument from the previous command (bash) | !\$                                                           |
-| Reuse the last argument… example:                        | ls tool && cd !\$                                             |
-| Run multiple commands if previous command was successful | command<sub>1</sub> && command<sub>2</sub>                    |
-| Run multiple commands in one line                        | command<sub>1</sub>; command<sub>2</sub>; command<sub>3</sub> |
-| Stop a running command                                   | C-c                                                           |
-| Switch back to last working directory                    | cd -                                                          |
-| View a file in a paged fashion                           | less file<sub>name</sub>                                      |
-| Watch log file for change                                | tail -f log<sub>file</sub>                                    |
+| Description | Command |
+|----|----|
+| Empty file without deleting it | cat /dev/null \> file<sub>name</sub> |
+| Go to home directory | cd or cd ~ |
+| List files in current directory | ll (ls -l |
+| Open Ubuntu files in folder (e.g. nautilus ~/) | nautilus |
+| Reuse entire last command (e.g. useful for sudo !!) | !! |
+| Reuse the last argument from the previous command (bash) | !\$ |
+| Reuse the last argument… example: | ls tool && cd !\$ |
+| Run multiple commands if previous command was successful | command<sub>1</sub> && command<sub>2</sub> |
+| Run multiple commands in one line | command<sub>1</sub>; command<sub>2</sub>; command<sub>3</sub> |
+| Stop a running command | C-c |
+| Switch back to last working directory | cd - |
+| View a file in a paged fashion | less file<sub>name</sub> |
+| Watch log file for change | tail -f log<sub>file</sub> |
 
 ## About
 

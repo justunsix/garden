@@ -4,13 +4,13 @@ id: 06fcfe47-81b3-4717-9a77-bb261b3b7376
 title: Rust on Windows
 ---
 
-## Installing Rust on Windows without Rustup or Visual Studio
-
 Source: [RUST 02: Installing RUST on Windows Without Visual Studio -
 YouTube](https://www.youtube.com/watch?v=pdqPNTL6uDk) and adapted with
 less dependencies and [atuin-win/.github/workflows/build.yml at main ·
 Magniquick/atuin-win ·
 GitHub](https://github.com/Magniquick/atuin-win/blob/main/.github/workflows/build.yml)
+
+## Installing Rust on Windows without Rustup or Visual Studio
 
 Before shell steps below, install [MSYS2](https://www.msys2.md/). For
 detailed steps, see the source video.
@@ -57,3 +57,29 @@ Get-Command rustc
 Get-Command cargo
 
 ```
+
+## Installing with Rustup
+
+### Install Visual Studio Tools
+
+This option only installs the command line tools which is smaller
+instead of the full Visual Studio suite.
+
+- Go to [Download Visual Studio Tools - Install Free for Windows, Mac,
+  Linux](https://visualstudio.microsoft.com/downloads/)
+- Scroll down and make sure Windows and C++ are clicked
+- Scroll down to Build Tools for Visual Studio 2022 and Download and
+  install it
+- Start the installation, and choose Desktop C++ for the install tools
+
+### Install with Rustup
+
+- Install with [rustup.rs - The Rust toolchain
+  installer](https://rustup.rs/)
+
+### Optional: Install Tools
+
+Install a rustfmt (formatter), clippy (linter), and rust-analyzer
+(language server) to support development:
+
+`rustup component add rustfmt clippy rust-analyzer`

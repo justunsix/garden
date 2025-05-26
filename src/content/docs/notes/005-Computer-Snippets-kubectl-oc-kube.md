@@ -14,6 +14,11 @@ kubectl get node
 ## See more pod information
 kubectl get pod -o wide
 kubectl get pod
+
+## Get resource information as yaml
+kubectl get pod/mypod2 -o yaml
+kubectl get service/myservice -o yaml > service-myservice.yaml
+
 # See services
 kubectl get svc
 kubectl get deployment

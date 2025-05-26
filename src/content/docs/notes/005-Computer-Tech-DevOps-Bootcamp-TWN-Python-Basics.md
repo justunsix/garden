@@ -218,7 +218,7 @@ def days_to_units_20():
 
 
 # Define a new function called days_to_units
-# Function parameter is num_of_days, a local scope variable
+# function parameter is num_of_days, a local scope variable
 def days_to_units(num_of_days: object, custom_message: object) -> object:
     print(f"{num_of_days} days are {num_of_days * calculation_to_units} {name_of_unit}")
     print(custom_message)
