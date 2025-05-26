@@ -578,6 +578,8 @@ Recruitments can increase, depending on neurons recruited:
 
 - Force of fibers
 
+>  
+
  
 
 ### Muscle Plasticity

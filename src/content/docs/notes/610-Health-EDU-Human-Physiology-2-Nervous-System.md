@@ -584,6 +584,8 @@ Coursera](https://www.coursera.md/learn/physiology/home/info)
 
     - Hot thermoreceptors respond to capsaicin and ethanol
 
+    >  
+
 4.  Pain
 
     > Free nerve endings expressing nociceptors that sense mechanical
@@ -617,6 +619,8 @@ Coursera](https://www.coursera.md/learn/physiology/home/info)
 - Retinal photoceptors transduce light energy into electrical signal
 
 - Processing of the electrical signals through neural pathways
+
+>  
 
 - Light hits Cornea, most light focusing is occurring there since light
   is going from air to through tissue containing water.
@@ -711,6 +715,8 @@ Coursera](https://www.coursera.md/learn/physiology/home/info)
   movement in the external environment. Light is detected by different
   cells (rods, cones) in the eye and sent via the optic nerve to the
   visual cortex for processing.
+
+>  
 
 ## Hearing and the Vestibular System
 
@@ -1097,6 +1103,8 @@ Coursera](https://www.coursera.md/learn/physiology/home/info)
 
 - Both legs are innervated, though the reactions are different and
   opposite.
+
+>  
 
 ### Central Pattern Generators (CPG)
 
