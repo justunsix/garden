@@ -73,9 +73,12 @@ title: Google Ads Campaign Plan for Ad Assets Template
 
 1.  Brand
 
-## AI Recommendations
+### Conversion Value
 
-See
+Example estimates
+
+- Calls: estimated value of average job / 10
+- Contact form: estimated value of average job / 20
 
 ## See Also
 
