@@ -8,6 +8,29 @@ TED talks and my notes from them
 
 ## Work Life
 
+### How to Get Your Brain to Focus
+
+Source: [How to Get Your Brain to Focus \| Chris Bailey \|
+TEDxManchester - YouTube](https://www.youtube.com/watch?v=Hu4Yvq-g7_Y)
+
+Benefits of focus are attention span and getting more ideas and plans.
+
+Research shows brains are not distracted, the root cause is the brain is
+over stimulated and wants distraction. Distractions can be new food,
+media, people, and experiences.
+
+Practice lowered stimulation, approaching boredom to along the mind to
+wander. Less stimulation will make it easier to focus and make
+connections. Mind wandering examples could be rhythmic / repetitive
+activities and sports. Other tips include reduce disconnect from
+technology and accept boring activities.
+
+Concept is similar to diffuse mode in [Learning How to Learn Week 1
+Focused Diffuse Modes Procrastination Memory
+Sleep](../370-education-learning-how-to-learn-week-1-focused-diffuse-modes-procrastination-memory-sleep) -
+[Learning How to Learn Week 1 Focused/Diffuse Modes, Procrastination &
+Memory & Sleep](id:682da365-b118-412a-8089-05714475e8c7)
+
 ### The first 20 hours – how to learn anything by Josh Kaufman
 
 Source: [The first 20 hours – how to learn anything \| Josh Kaufman \|
