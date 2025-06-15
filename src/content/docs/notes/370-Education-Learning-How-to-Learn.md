@@ -4,7 +4,7 @@ id: 1e2563ae-4b97-423c-a719-8e2eb9d6db03
 title: Learning How to Learn
 ---
 
-About [Learning How to Learn Coursera
+Source: My personal notes from [Learning How to Learn Coursera
 course](https://www.coursera.md/learn/learning-how-to-learn/)
 
 ## Introduction

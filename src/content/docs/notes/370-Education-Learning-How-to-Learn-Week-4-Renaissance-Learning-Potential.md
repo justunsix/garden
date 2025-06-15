@@ -5,6 +5,9 @@ title: Learning How to Learn Week 4 Renaissance Learning and Unlocking
   Your Potential
 ---
 
+Source: My personal notes from [Learning How to Learn Coursera
+course](https://www.coursera.md/learn/learning-how-to-learn/)
+
 ## Renaissance Learning and Unlocking Your Potential - Part 1: Better Learner
 
 ### How to Become a Better Learner

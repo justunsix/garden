@@ -4,6 +4,9 @@ id: cb4f7a9f-fe87-4622-8d4c-61400d4fb515
 title: Learning How to Learn Week 3 Procrastination and Memory
 ---
 
+Source: My personal notes from [Learning How to Learn Coursera
+course](https://www.coursera.md/learn/learning-how-to-learn/)
+
 ## Procrastination
 
 ### Introduction to Procrastination and Memory
