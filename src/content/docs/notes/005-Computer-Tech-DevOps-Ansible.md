@@ -109,6 +109,7 @@ Ansible uses YAML, making it easier to understand and human readable.
     Example Playbook:
 
     ``` yaml
+
     hosts: webservers
     remote_user: root
 
@@ -158,7 +159,7 @@ Ansible uses YAML, making it easier to understand and human readable.
 
     For example:
 
-    ``` example
+    ``` txt
     10.24.0.100
 
     [webservers]

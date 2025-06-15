@@ -64,7 +64,9 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Next, error | \] e |
 | Back, section | \[\[ |
 | Back, error | \[ e |
-| Org: insert subheading | C-m Enter |
+| Org: Insert subheading (org-insert-subheading) | C-m Enter |
+| Org: Link store (org-store-link) | SPC n l |
+| Org: Link insert (org-insert-link) | SPC m l l |
 | Project - switch and open new workspace | SPC p p |
 | Project: Search | SPC / |
 | Search - 2 char, next match or go into avy | ; or C-; |

@@ -144,6 +144,8 @@ kubectl get deployment <deployment-name> -o yaml | from yaml | explore
 ## Spaces around = sign are required
 $env.YAZI_FILE_ONE = '~\scoop\apps\git\current\usr\bin\file.exe'
 $env.NVIM_APPNAME = 'lazyvim'
+## Clear HTTP PROXY variables
+$env.http_proxy = ''; $env.https_proxy
 ## Extend path
 $env.Path = ($env.Path | prepend 'C:\path\you\want\to\add')
 
@@ -168,7 +170,15 @@ open --raw sheet1.xlsx | from xlsx --sheets [Sheet1]
 # Open sheet "Sheet1" in binary xlsx file
 open sheet1.xlsx | get "Sheet1"
 # Open sheet "Sheet1" in binary xlsx file and search first column
-open sheet1.xlsx | get "Sheet1" | where column0 =~ myfilter"
+open sheet1.xlsx | get "Sheet1" | where column0 =~ "myfilter"
+
+# Open a file, folder or website in the default application or viewer for the operating system
+start file.txt
+start https://www.nushell.sh
+start obsidian://open?vault=Test
+
+# Run system (external) command instead of nushell command
+^ls
 
 # http command to get, fetch and other commands
 http get https://google.com
@@ -199,6 +209,12 @@ sys host
 let var = input
 # Get secret input
 let secret = input -s
+
+# Job, Bring background job back up, like fg in bash
+job unfreeze
+
+# Job, Suspend, freeze foreground application
+# Press Ctrl + z on Unix targets like Linux and macOS
 
 ```
 

@@ -6,8 +6,14 @@ title: bat Snippets
 
 ``` shell
 
+# View file
+bat main.rs
+
 # See supported languages
 bat -L
+
+# View characters not usually printed like control characters, line feeds
+bat -A Makefile
 
 # View todo file in todo.txt format
 bat Todo-for-me.txt -l todo.txt

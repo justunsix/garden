@@ -284,7 +284,9 @@ character like r.
 
 - Set directory local variables are useful for variables that only apply
   in a certain directory like with using projectile-test-cmd, setting
-  file formatters and others
+  file formatter, project and [language specific
+  configurations/LSPs](https://blog.aheymans.xyz/post/emacs-lsp-rust-features/)
+  and others
 
 ## Macros
 
@@ -367,6 +369,7 @@ character like r.
 | Open html file, from eww or other browser | eww-open-file |
 | Reader mode to remove nav headers and others | R, eww-readable |
 | Copy text from eww with org mode links | org-eww-copy-for-org-mode |
+| Previous, next page | l, r |
 
 ## Development on Languages, include Prose
 
@@ -424,6 +427,15 @@ Prot](https://www.youtube.com/watch?v=pSvsAutseO0)
 | Name           | Shortcuts              |
 |----------------|------------------------|
 | List all fonts | M-x list-faces-display |
+
+## Version Control
+
+| Name                                         | Shortcuts |
+|----------------------------------------------|-----------|
+| Commit current file                          | C-x v v   |
+| Display diff showing changes to current file | C-x v =   |
+| See annoted version of file showing commits  | C-x v g   |
+| See log of previous changes to file          | C-x v l   |
 
 ## Mouse Integration
 

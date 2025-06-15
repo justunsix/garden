@@ -99,4 +99,19 @@ podman machine start
 # List Machines
 podman machine ls
 
+# Volumes - list
+podman volume ls
+
+# Volume - create
+podman volume create mydata
+
+# Volume - see details of a volume like disk location
+podman volume inspect mydata
+
+# Volume - Run image with volume mydata
+podman run -d --name webapp -v mydata:/usr/share/nginx/html nginx
+
+# Volume - clean up unused volumes
+podman volume prune
+
 ```

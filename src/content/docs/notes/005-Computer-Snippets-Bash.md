@@ -17,6 +17,14 @@ export EDITOR="nvim"
 # Set variable
 video_files_dir="/home/user/my-videos"
 
+# Reuse last argument with $_
+mkdir mydir && cd $_
+# Will create a directory and then change to it
+
+# Execute last command with !!
+apt install vim
+sudo !!
+
 # Conditionals
 
 # Or
@@ -114,5 +122,11 @@ mkdir -p /path/to/new-dir
 
 # Use output of command
 vim $(fzf)
+
+# Job, Bring background job back up
+fg
+
+# Job, move application to background
+# Press Ctrl + z
 
 ```

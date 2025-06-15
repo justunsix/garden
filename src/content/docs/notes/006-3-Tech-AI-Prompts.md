@@ -8,7 +8,8 @@ title: AI Prompts
 
 ## Google Ads Campaign
 
-Output seemed best with OpenAI Chat GPT, but also check with Bing Chat
+Output seemed best with OpenAI Chat GPT, but also check with Microsoft
+Copilot chat
 
 I am constructing a advertising campaign for this website
 <https://placeholder.com/> which is a … company. The campaign is to

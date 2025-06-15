@@ -14,6 +14,9 @@ cargo install --list
 # Unstinall my cargo packages
 cargo install --list | awk '{print $1}' | xargs -I{} cargo uninstall {}
 
+# Install a crate from Git URL
+cargo install --git https://github.com/atuinsh/atuin/
+
 ```
 
 ### Programming with cargo and rustc

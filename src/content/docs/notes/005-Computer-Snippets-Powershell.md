@@ -49,18 +49,6 @@ $variableName = "Hello World"
 # Set a boolean
 $debugMode = $true
 
-# List environment variables
-Get-ChildItem Env:
-
-# Write a specific environment variable, example temporarily remove proxy
-$env:https_proxy=""
-
-# Temporarily set an environment variable
-$env:https_proxy="myproxy.com:3841"
-
-# User's home directory
-$env:USERPROFILE
-
 # Switch to a different Windows Active Directory domain which is on the same network
 # https://dba.stackexchange.com/questions/166638/how-to-connect-remotely-to-mssql-database-from-local-using-windows-authenticati
 runas /netonly /user:mydomain\myusername powershell.exe
@@ -130,6 +118,9 @@ Remove-Item -Force -Recurse -Path .\file_or_directory
 hostname | Clip
 # Copy computer hostname to clipboard
 hostname | Set-Clipboard
+
+# Open Mouse and Touchpad Windows settings
+start ms-settings:mousetouchpad
 
 ```
 
@@ -244,11 +235,11 @@ Get-ChildItem ~
 ``` powershell
 
 
-# Invoke-WebRequest (Make web requests, alias wget)
+# Invoke-WebRequest (Make web requests, alias wget, also similar to curl)
+Invoke-WebRequest -Uri https://github.com/MicrosoftLearning/dp-300-database-administrator/raw/master/Instructions/Templates/AdventureWorks2017.bak -UseBasicParsing -OutFile 'AdventureWorks.bak'
 ## Download a file at a specific URL
 ## -UseBasicParsing = for compatibility
 ## -OutFile = required output file location
-Invoke-WebRequest -Uri https://github.com/MicrosoftLearning/dp-300-database-administrator/raw/master/Instructions/Templates/AdventureWorks2017.bak -UseBasicParsing -OutFile 'AdventureWorks.bak'
 
 # DNS Lookup
 nslookup google.com
@@ -257,12 +248,26 @@ nslookup google.com
 
 ## Environment Variables
 
-### Set Environment Variables, Add to Path
+### Set Environment Variables, Add to Path, List them
 
 ``` powershell
 
+# Permanently set environment variables
 [Environment]::SetEnvironmentVariable("HOME", "C:\Users\user1", "User")
 [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Users\user1\usr\bin", "User")
+
+# List environment variables
+Get-ChildItem Env:
+
+# Write a specific environment variable, example temporarily remove proxy
+$env:https_proxy=""
+
+# Temporarily set an environment variable
+$env:https_proxy="myproxy.com:3841"
+
+# User's home directory
+$env:USERPROFILE
+
 
 ```
 

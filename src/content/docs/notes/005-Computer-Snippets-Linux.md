@@ -273,7 +273,7 @@ sudo smartctl -a /dev/sdb
 
 ```
 
-## grep
+## grep - find patterns
 
 print lines that match patterns
 
@@ -421,6 +421,19 @@ sudo truncate -s 0 /etc/environment
 # -n is test first, then run
 find . -name "*foo*" -exec rename -n 's/foo/bar/' {} \;
 find . -name "*foo*" -exec rename 's/foo/bar/' {} \;
+```
+
+## od (Octal Dump)
+
+Displays a file in octal (base 8) format by default. Used for seeing
+data that isn't in a human readable format that control characters in
+files.
+
+``` shell
+
+# Display file in character format and show control characters
+od -c input.txt
+
 ```
 
 ## pkill, kill - process kill
@@ -597,9 +610,8 @@ echo 'FirstName LastName Comment Age' | tr ' ' ','
 echo $PATH | tr ":" "\n"
 
 # Combine techniques below to clean up text
-# and pipe output to tr repeatedly
-# like a bad filename
 echo "Mangled FiLE-nAMe.txt" | tr -d '-' | tr -s ' ' | tr ' ' '_' | tr '[:upper:]' '[:lower:]'
+# and pipe output to tr repeatedly like a bad filename
 
 # Replace lower case with upper case
 echo 'Call me Justin' | tr '[:lower:]' '[:upper:]'

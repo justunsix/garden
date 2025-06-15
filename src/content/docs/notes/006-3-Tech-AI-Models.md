@@ -16,6 +16,7 @@ title: Artificial Intelligence (AI) Models
 | [Deepseek-R1](https://ollama.com/library/deepseek-r1) | General | Reasoning |  |
 | [Gemma2](https://ollama.com/library/gemma2) | General | 2B good for low hardware | [^6] |
 | [Gemma3](https://ollama.com/library/gemma3) | General, RAG | low hardware/1 GPU, context length, multilingual, multimodal |  |
+| [Granite](https://ollama.com/library/granite3.3) | Reasoning, Instruction |  |  |
 | [Llama3](https://ollama.com/library/llama3) | General |  | [^7] |
 | [Medllama2](https://ollama.com/library/medllama2) | Medical | Medical questions, trained on open source medical data | [^8] |
 | [Meditron](https://ollama.com/library/meditron) | Medical | Medical questions, diagnosis, information |  |

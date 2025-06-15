@@ -67,6 +67,9 @@ plus my additions
 - Infinity
 - Jellyfin - suite of multimedia applications designed to organize,
   manage, and share digital media files to networked devices
+- [Kamal](https://github.com/basecamp/kamal) - Application deployment
+  anywhere from bare metal, VMs, to cloud, will work with any type of
+  web app that can be containerized
 - KDE Desktop environment for Linux/Unix like
 - KDE Connect - facilitates wireless communications and data transfer
   between devices over local network
@@ -152,8 +155,10 @@ plus my additions
   with a MySQL or MariaDB database with supported HTTPS
 - zotero - manage bibliographic data and related research materials
 
-## Modern Terminal Commands
+## Modern Terminal Commands and Programs
 
+- [asciinema](https://asciinema.md/) - record and share terminal
+  sessions
 - [alacritty](https://alacritty.md/) - terminal emulator, URLs can open,
   search, VI bindings
 - [atuin](https://github.com/ellie/atuin) - interactive shell history
@@ -166,11 +171,20 @@ plus my additions
   widgets, cross platform
 - [broot](https://dystroy.md/broot/) - directory and file navigation
   with directory sizes, search
-- curlie - user friendly curl, good also for API tests
+- [btop](https://github.com/aristocratos/btop) - like top, system
+  monitoring
 - cheat - cheat sheets
+- [ctop](https://github.com/bcicen/ctop) - top like interface for
+  container metrics
+- [collima](https://github.com/abiosoft/colima) - container runtimes on
+  macOS, Linux with minimal setup
+- curlie - user friendly curl, good also for API tests
 - [delta](https://github.com/dandavison/delta) - syntax-highlighting
   pager for git, diff, grep, and blame output
-- dog - user friendly, powerful dig
+- [dive](https://github.com/wagoodman/dive) - exploring container image
+  layers
+- [doggo](https://github.com/mr-karan/doggo) - Command-line DNS Client,
+  user friendly
 - [dua](https://github.com/Byron/dua-cli) - disk usage analyzer,
   parallel and can analyze specific directories
 - cargo-info - shows info about crates
@@ -189,10 +203,14 @@ plus my additions
 - [eza](https://github.com/eza-community/eza) - ls with colours, icons
 - fd - find with shorter syntax, some limitations compared to find,
   colours
+- [findutils (uutils)](https://github.com/uutils/findutils) - Rust
+  implementation of GNU find, locate, xargs run commands on files
 - [fish shell](https://fishshell.com/) - command line shell
 - [fselect](https://github.com/jhspetersson/fselect) - Find files with
   SQL-like queries
 - fzf - fuzzy finder
+- [gum](https://github.com/charmbracelet/gum) - tool to create nice
+  glamorous (nice looking) shell scripts
 - [Helix](https://helix-editor.com/) - modal editor like vim with modern
   defaults and more built in features
 - [hurl](https://hurl.dev/) - for repeatable tests and plain text files
@@ -200,10 +218,20 @@ plus my additions
 - hyperfine - command line benchmarking tool, check run times
 - jq - sed for JSON
 - Just - like make, command runner
+- [k6](https://github.com/grafana/k6) - loading testing tool for
+  application and infrastructure
+- [k9s](https://github.com/derailed/k9s) - Kubernetes TUI, manage pods
+- [kubectx](https://github.com/ahmetb/kubectx) - Switch between
+  Kubernetes clusters and namespaces
+- [Kubescape](https://github.com/kubescape/kubescape) - Kubernetes
+  security platform checking security in clusters, YAML, and Helm and
+  using different security frameworks
 - httpie - user friend HTTP client
 - [gitui](https://github.com/extrawurst/gitui) - terminal client for
   git, good for small git operations
 - [irust](https://github.com/tarcieri/irust) - interactive rust REPL
+- [lazydocker](https://github.com/jesseduffield/lazydocker) - manage
+  docker, TUI
 - lsd - ls with more accessible output, colours, icons
 - [lnav](https://github.com/tstack/lnav) - log file navigator, log
   directory manager, analysis
