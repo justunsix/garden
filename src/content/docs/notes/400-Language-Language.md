@@ -15,4 +15,6 @@ title: Language
   [Introduction to French, OPS FrancoNoir Cours de français (Niveau
   débutant)](id:63cc4825-ff7d-4862-b7d3-dfc1020728c3)
 - [Speaking Languages:
-  Mandarin](../440-language-lang-mandarin-speaking-languages)
+  Mandarin](../440-language-lang-mandarin-speaking-languages) -
+  [Speaking Languages:
+  Mandarin](id:907491ef-4d7f-42db-8d55-c01ce8847fb5)
