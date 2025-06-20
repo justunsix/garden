@@ -411,6 +411,14 @@ Using `d` delete operator and a motion that the operator will operate on
 
 ### Macro
 
+| Description                         | Shortcut                   |
+|-------------------------------------|----------------------------|
+| Record macro to register like a     | qa                         |
+| Record macro to register, then quit | q\<register\>\<commands\>q |
+| Stop macro during recording         | q                          |
+| Run macro                           | @                          |
+| Run last macro                      | @@                         |
+
 Source: :h recording, <https://www.redhat.com/sysadmin/use-vim-macros>
 and <https://www.brianstorti.com/vim-registers/>
 
@@ -418,15 +426,8 @@ and <https://www.brianstorti.com/vim-registers/>
   by a letter from a to z that represents the register to save the
   macro, followed by all commands you want to record, and then type the
   key q again to stop the recording.
-
-- q\<register\>\<commands\>q
-
-- Execute macro: @
-
-- Repeat last macro: @@
-
-- Example to store macro in register a, go down and delete line:
-  `qajddq`
+- Example to store macro in register a, go down and delete line and then
+  stop macro recording: `qajddq`
 
 1.  Macros are just text and can be edited, examples
 

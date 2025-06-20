@@ -18,4 +18,6 @@ title: IBM Openshift
 - [Redhat Openshift Logging](../005-tech-ibm-redhat-openshift-logging) -
   [Redhat Openshift Logging](id:fb40866f-7c57-4745-af4e-3059478b17ce)
 - [Redhat Openshift Data Foundation
-  (ODF)](../005-tech-ibm-redhat-openshift-data-foundation) -
+  (ODF)](../005-tech-ibm-redhat-openshift-data-foundation) - [Redhat
+  Openshift Data Foundation
+  (ODF)](id:84428d10-a790-493f-b1d2-349861cb0d44)

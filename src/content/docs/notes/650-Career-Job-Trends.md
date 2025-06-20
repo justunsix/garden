@@ -1,6 +1,6 @@
 ---
 description: Emerging jobs reports and trends
-filetags: ":job:career:trends:epubnote:"
+filetags: ":job:career:trends:epubnote:artificial-intelligence:"
 id: a93223e8-37ff-48aa-8305-93fad054067c
 title: Job Trends
 ---

@@ -24,5 +24,3 @@ future through AI and data science learning
   AGI](../006-3-tech-ai-artificial-intelligence-learning-engineering-career-agi) -
   [Learning Skills for Engineering Career in
   AGI](id:1403756e-8640-481a-9f4c-215070a04576)
-- [Data Science Project](Project-Data-Science.md) - [Data Science
-  Project](id:69d97981-f1b9-4790-879f-ae30670865e7)

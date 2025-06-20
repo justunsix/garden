@@ -1,4 +1,5 @@
 ---
+date: 2023-02-25
 filetags: ":ai:artificial-intelligence:power-platform:epubnote:"
 id: d85c6b3c-b675-46bd-8399-7919d2a3a6b3
 title: Microsoft Power Platform and AI

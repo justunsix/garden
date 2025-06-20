@@ -38,10 +38,18 @@ gpg --export --armor alice@example.com
 gpg --clearsign doc.txt
 
 # Encrypt and sign a document for multiple people
-gpg --encrypt --sign --recipient alice@example.com --recipient bob@example.com doc.txt
+gpg --output doc.txt.gpg --encrypt --sign --recipient alice@example.com --recipient bob@example.com doc.txt
+# --output : encrypted file after command
+# --encrypt : encrypt a file
+# --receipient : email corresponding to the GPG key of the receiver imported previously
+# --sign : sign with your key
+
+# Decrypt a file
+gpg --output doc.txt --decrypt doc.txt.gpg
 
 # Encrypt file with only passphrase
 gpg --symmetric doc.txt
+gpg -c doc.txt
 
 # Import a public key
 gpg --import public.gpg

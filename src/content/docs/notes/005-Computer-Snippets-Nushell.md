@@ -53,6 +53,10 @@ ls
 | sort-by size
 | first
 
+# Disk usage of files in current directory, 1 folder depth
+du
+# Runs similar to GNU coreutils' du -h --max-depth=1
+
 # Print output
 print "Hello World"
 # Print is not the same as echo "Hello World" as

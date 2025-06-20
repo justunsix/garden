@@ -1,5 +1,5 @@
 ---
-filetags: ":tech:text-to-speech:epubnote:"
+filetags: ":tech:text-to-speech:epubnote:artificial-intelligence:"
 id: f7d86fd7-47ba-49c0-bb56-b5e7e4ee3341
 title: Text to Speech (TTS) and Speech to Text (STT)
 ---

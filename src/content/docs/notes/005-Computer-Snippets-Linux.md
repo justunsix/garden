@@ -8,6 +8,9 @@ title: Linux Snippets
 
 <link rel="stylesheet" type="text/css" href="basic-org.css"/>
 
+Commands includes GNU coreutils, findutils in other operating systems
+and other common commands on Linux
+
 ## &\> pipes
 
 ``` bash
@@ -69,30 +72,6 @@ prevd
 
 ```
 
-## chown, chmod - Change file permission
-
-``` bash
-
-# Give current user read write execute on all files in currect directory and files and folder below it
-chmod -R u=rwx ./
-
-# Change ownership to user tom, group admin of text.txt file
-sudo chown tom:admin test.txt
-
-# Chage just owner
-sudo chown admin test.txt
-
-# Change just group
-sudo chgrp devops test.txt
-
-```
-
-See also DevOps Bootcamp [Modifying
-Permissions](id:ec2b10e8-9f38-4b44-85be-842d5e02994d) file permissions
-section of - [DevOps Bootcamp with
-Nana](../005-computer-tech-devops-bootcamp-twn) - [DevOps Bootcamp
-Series with Nana Janashia](id:47b64b3b-67a0-4cc5-9e96-2369c5877b08)
-
 ## ImageMagick, Image PDF Conversions, Combining, PDF Optical Character Recognition (OCR)
 
 For image to PDF conversions and OCR, recommend use img2pdf and ocrmypdf
@@ -137,21 +116,6 @@ done
 
 ```
 
-## df - display free disk space
-
-Reports on disk space on mounted and mounted file systems
-
-``` shell
-
-# display in human readable format
-df -h
-# -a all mount points
-# -h human readable
-# -k Use 1024 byte (1-Kbyte) blocks
-df -ahk
-
-```
-
 ## ncdu - ncurses disk usage, see disk usage by directories and navigate them
 
 ``` shell
@@ -172,45 +136,6 @@ ssh -C user@system ncdu -o- / | ./ncdu -f-
 ``` bash
 
 dig google.com
-
-```
-
-## find
-
-``` bash
-
-# Find files in current directory and subdirectories with .html extension
-find . -name "*.html" -type f
-
-# files with foo in the title
-find . -name "*foo*" -type f
-
-# Like above, except find all .html files and delete them
-find . -name "*.html" -type f -delete
-
-# Find files given filename and other parameters.
-# Some usage patterns are below.
-# -exec is powerful since it defines what to do with the file(s) found by the find command. For example, you can use grep to look for information inside those files (see below)
-find (./ -name or expression 'in quotes') -print
-
-# Find files containing a string called "string_here"
-find / -type f -exec grep -l "string_here" {} ;
-
-# Find files containing a string called "string_here" and output the lines from those files that contain that string. -print will show which files were found
-find / -type f -print -exec grep -l "string_here" {} ;
-
-# To see which files within the current directory and its subdirectories that end in s
-find . -name '*s' -print
-
-# Find files with dolphin in the file name, case insensitive and is a pdf
-find . -iname '*dolphin*' -iname '*.pdf' -print
-
-# Find largest files in current directory, sort
-find ./ -type f -size +2G -exec du -h {} + | sort -rh | head -30
-# -type f - is a file
-# -size +2G - is 2 gigabytes or larger
-# du -h - print out file information
-# head -30 - first 30 files
 
 ```
 
@@ -317,22 +242,6 @@ sudo grub-reboot 1
 
 Process and task information
 
-## ln - link files
-
-``` shell
-
-# Create a symbolic link to a file
-ln -s /path/to/file /path/to/symlink
-
-# Create a symbolic link to a directory
-ln -s /path/to/directory /path/to/symlink
-
-# Remove a symbolic link
-rm /path/to/symlink
-rm -r /path/to/symlink-directory
-
-```
-
 ## lsblk - list block devices
 
 List information on available devices, drives, disks
@@ -423,19 +332,6 @@ find . -name "*foo*" -exec rename -n 's/foo/bar/' {} \;
 find . -name "*foo*" -exec rename 's/foo/bar/' {} \;
 ```
 
-## od (Octal Dump)
-
-Displays a file in octal (base 8) format by default. Used for seeing
-data that isn't in a human readable format that control characters in
-files.
-
-``` shell
-
-# Display file in character format and show control characters
-od -c input.txt
-
-```
-
 ## pkill, kill - process kill
 
 ``` shell
@@ -491,21 +387,6 @@ source .env
 ## Option 3
 ### Assuming no whitespace in environment values
 export $(xargs <.env)
-
-```
-
-## sort - GNU Coreutils
-
-``` shell
-
-# Sort output of a command or text files, output to standard out
-sort file.txt
-
-# Sort file and save back to new file or can be same file
-sort file.txt -o new_file.txt
-
-# Call sort from uutil
-coreutils sort [OPTION] [FILE]
 
 ```
 
@@ -698,7 +579,147 @@ cat file.txt | uniq
 
 ```
 
-## xargs
+## GNU Coreutils
+
+### chown, chmod - Change file permission
+
+``` bash
+
+# Give current user read write execute on all files in currect directory and files and folder below it
+chmod -R u=rwx ./
+
+# Change ownership to user tom, group admin of text.txt file
+sudo chown tom:admin test.txt
+
+# Chage just owner
+sudo chown admin test.txt
+
+# Change just group
+sudo chgrp devops test.txt
+
+```
+
+See also DevOps Bootcamp [Modifying
+Permissions](id:ec2b10e8-9f38-4b44-85be-842d5e02994d) file permissions
+section of - [DevOps Bootcamp with
+Nana](../005-computer-tech-devops-bootcamp-twn) - [DevOps Bootcamp
+Series with Nana Janashia](id:47b64b3b-67a0-4cc5-9e96-2369c5877b08)
+
+### df - display free disk space
+
+Reports on disk space on mounted and mounted file systems
+
+``` shell
+
+# display in human readable format
+df -h
+df -ahk
+# -a all mount points
+# -h human readable
+# -k Use 1024 byte (1-Kbyte) blocks
+
+```
+
+### du - disk usage
+
+``` shell
+
+# Check disk usage of current directory up to 1 directory level
+du -h --max-depth=1
+
+```
+
+### ln - link files
+
+``` shell
+
+# Create a symbolic link to a file
+ln -s /path/to/file /path/to/symlink
+
+# Create a symbolic link to a directory
+ln -s /path/to/directory /path/to/symlink
+
+# Remove a symbolic link
+rm /path/to/symlink
+rm -r /path/to/symlink-directory
+
+```
+
+### locate - find files from index
+
+See [Locate Snippets](../005-computer-snippets-locate) - [Locate
+Snippets](id:4bb55697-f217-4460-b29b-57d021a951a6)
+
+### od (Octal Dump)
+
+Displays a file in octal (base 8) format by default. Used for seeing
+data that isn't in a human readable format that control characters in
+files.
+
+``` shell
+
+# Display file in character format and show control characters
+od -c input.txt
+
+```
+
+### sort
+
+``` shell
+
+# Sort output of a command or text files, output to standard out
+sort file.txt
+
+# Sort file and save back to new file or can be same file
+sort file.txt -o new_file.txt
+
+# Call sort from uutil
+coreutils sort [OPTION] [FILE]
+
+```
+
+## GNU Findutils
+
+### find
+
+``` bash
+
+# Find files in current directory and subdirectories with .html extension
+find . -name "*.html" -type f
+
+# files with foo in the title
+find . -name "*foo*" -type f
+
+# Like above, except find all .html files and delete them
+find . -name "*.html" -type f -delete
+
+# Find files given filename and other parameters.
+# Some usage patterns are below.
+# -exec is powerful since it defines what to do with the file(s) found by the find command. For example, you can use grep to look for information inside those files (see below)
+find (./ -name or expression 'in quotes') -print
+
+# Find files containing a string called "string_here"
+find / -type f -exec grep -l "string_here" {} ;
+
+# Find files containing a string called "string_here" and output the lines from those files that contain that string. -print will show which files were found
+find / -type f -print -exec grep -l "string_here" {} ;
+
+# To see which files within the current directory and its subdirectories that end in s
+find . -name '*s' -print
+
+# Find files with dolphin in the file name, case insensitive and is a pdf
+find . -iname '*dolphin*' -iname '*.pdf' -print
+
+# Find largest files in current directory, sort
+find ./ -type f -size +2G -exec du -h {} + | sort -rh | head -30
+# -type f - is a file
+# -size +2G - is 2 gigabytes or larger
+# du -h - print out file information
+# head -30 - first 30 files
+
+```
+
+### xargs
 
 ``` bash
 # xargs is a command that takes the output of a command and uses it as arguments to another command. It is useful for passing the output of one command to another command. For example, you can use it to pass the output of find to rm to delete files.
@@ -723,7 +744,7 @@ find . -iname 'filename' -printf %h\0 | xargs -0t dolphin
 This post lists common commands used in Windows and Linux/Unix system
 administration, server support, and troubleshooting.
 
-# Networking
+## Networking
 
 - `ifconfig` - network information
 - `netstat` (deprecated, use ss) - active network connections
@@ -731,7 +752,7 @@ administration, server support, and troubleshooting.
 - `nslookup` - check IP address of domains
 - `ping` - check if a host is reachable
 
-# Linux/Unix
+## Linux/Unix
 
 The first command indicates the command name (searchable with a man
 page). The parens indicate useful extensions
@@ -860,74 +881,75 @@ to view existing kernel IP routing table
 Programming Command Usage/Function gcc (or cc) C compiles pico, nano
 File editors make Builder program
 
-## Useful Concepts for Linux/Unix
+### Useful Concepts for Linux/Unix
 
-### **Directory Structure**
+1.  **Directory Structure**
 
-\*Logs, spoools, and file resources (mail, logs, temp, etc.):\*/var
+    \*Logs, spoools, and file resources (mail, logs, temp, etc.):\*/var
 
-\*Configuration Files:\*/etc, /etc/rc.init (startup scripts).
-/etc/sendmail.cf
+    \*Configuration Files:\*/etc, /etc/rc.init (startup scripts).
+    /etc/sendmail.cf
 
-\*Unix "blackhole":\*/dev/null
+    \*Unix "blackhole":\*/dev/null
 
-\*Core Command locations if not in path:\*/usr/(s)bin,
-/usr/local/(s)bin, *usr/sfw/bin* \| Solaris: /usr/openwin
+    \*Core Command locations if not in path:\*/usr/(s)bin,
+    /usr/local/(s)bin, *usr/sfw/bin* \| Solaris: /usr/openwin
 
-\*Devices (I/O):\*/dev
+    \*Devices (I/O):\*/dev
 
-\*Mounted Systems:\*/mnt, /media
+    \*Mounted Systems:\*/mnt, /media
 
-\*Code Libraries/Modules:\*/usr/lib, /usr/local/lib
+    \*Code Libraries/Modules:\*/usr/lib, /usr/local/lib
 
-\*Stored source:\*/usr/src
+    \*Stored source:\*/usr/src
 
-\*Services:\*/etc/services - example of entries in services file (ports
-and protocols associated with the ports.
+    \*Services:\*/etc/services - example of entries in services file
+    (ports and protocols associated with the ports.
 
-netstat 15/tcp
+    netstat 15/tcp
 
-ftp 21/tcp \# File Transfer
+    ftp 21/tcp \# File Transfer
 
-ssh 22/tcp \# Secure Shell
+    ssh 22/tcp \# Secure Shell
 
-telnet 23/tcp
+    telnet 23/tcp
 
-### **Platform Specific**
+2.  **Platform Specific**
 
-User settings ~/.\<user setting folder\>
+    User settings ~/.\<user setting folder\>
 
-e.g.~/.kde/share/apps stores KDE desktop settings and configurations.
+    e.g.~/.kde/share/apps stores KDE desktop settings and
+    configurations.
 
-**Checking serviers and ports in netstat**
+    **Checking serviers and ports in netstat**
 
-less /etc/services \| grep \<service name\>
+    less /etc/services \| grep \<service name\>
 
-``` shell
+    ``` shell
 
-netstat -a | grep <service name>| grep <keyword, e.g.LISTEN>
+    netstat -a | grep <service name>| grep <keyword, e.g.LISTEN>
 
-# Check ports with active connections
-netstat -lpnt
+    # Check ports with active connections
+    netstat -lpnt
 
-```
+    ```
 
-### Checking Memory
+3.  Checking Memory
 
-``` shell
+    ``` shell
 
-# Check Free physical Memory
-top
-sar -r
-vmstat
+    # Check Free physical Memory
+    top
+    sar -r
+    vmstat
 
-# For swap:
-swap -s
-swap --l
+    # For swap:
+    swap -s
+    swap --l
 
-```
+    ```
 
-## See Also
+### See Also
 
 - [awk - text processing and pattern
   scanning](../005-computer-snippets-awk) - [awk Snippets - text
@@ -940,7 +962,7 @@ swap --l
   [Linux Terminal Shortcuts - GNU
   Readline](id:bf3b61d8-23cc-4959-a5c7-17041d7e43f4)
 
-### Resources
+1.  Resources
 
-- [List of GNU Core Utilities commands -
-  Wikipedia](https://en.wikipedia.md/wiki/List_of_GNU_Core_Utilities_commands)
+    - [List of GNU Core Utilities commands -
+      Wikipedia](https://en.wikipedia.md/wiki/List_of_GNU_Core_Utilities_commands)
