@@ -84,6 +84,10 @@ champion and seven-time world champion.
 
 ## See Also
 
+- [Long-Term
+  Care](../360-social-services-health-medical-long-term-care) -
+  [Long-Term Care - Medical and Physical
+  Health](id:44f19aa1-4ef3-4f0a-a5e0-ef64da79c659)
 - [First Aid](../610-health-edu-first-aid) - [First
   Aid](id:6cb48881-9290-43dd-945b-efaf6c5a7ecd)
 - [Cancer Screening](../610-health-medical-cancer-screening) - [Cancer
@@ -94,10 +98,10 @@ champion and seven-time world champion.
 - [Fitness Test](../610-health-medical-fitness-test) - [Fitness
   Test](id:b663c559-e626-4080-84e6-2a47ecd89e4c) - basic flexibility,
   fat level, and pulse check under exercise
-- [Long-Term
-  Care](../360-social-services-health-medical-long-term-care) -
-  [Long-Term Care - Medical and Physical
-  Health](id:44f19aa1-4ef3-4f0a-a5e0-ef64da79c659)
+- [Other Health Care Providers for
+  Ontario](../610-health-medical-other-providers-ontario) - [Other
+  Health Care Providers for
+  Ontario](id:2634cf57-00f7-43c9-af64-56d8078c244f)
 - [Sleep](../610-health-medical-sleep) - [Sleep - Medical and Physical
   Health](id:964cb438-cb54-46ba-8a39-403aaca47e88) - power naps, nightly
   suggested hours of sleep by age
