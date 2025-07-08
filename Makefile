@@ -12,20 +12,20 @@ create: ## Create Astro project and config ESLint
 install: ## Install all dependencies
 	npm install
 
-run-dev: ## Start Astro dev server
+run-dev: build ## Build and run Astro development site
 	npm run dev
 
 check-eslint: ## Check project files with ESLint
 	npx eslint ./*.js
-	
+
 update: ## Update dependencies
 	npm update
 
 upgrade-astro: ## Upgrade Astro and official integrations
 	npx @astrojs/upgrade
-	
+
 build: ## Build site
 	npm run build
 
-preview: build ## Build and preview site
+run-preview: build ## Build and preview site
 	npm run preview
