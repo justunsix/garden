@@ -61,6 +61,14 @@ title: Artificial Intelligence (AI)
   AGI](../006-3-tech-ai-artificial-intelligence-learning-engineering-career-agi) -
   [Learning Skills for Engineering Career in
   AGI](id:1403756e-8640-481a-9f4c-215070a04576)
+- [Frontiers of AI: Insights with Geoffrey Hinton, Toronto Tech Week
+  ../2025](006-3-tech-ai-artificial-intelligence-insights-toronto-tech-week-2025) -
+  [Frontiers of AI: Insights with Geoffrey Hinton, Toronto Tech Week
+  2025](id:eea63abc-27b4-4327-a747-ae51731c0a5a)
+- [Ethics in the Age of Generative
+  AI](../006-3-tech-ai-artificial-intelligence-ethics-in-age-of-generative-ai) -
+  [Ethics in the Age of Generative AI - Generative AI and Ethics - the
+  Urgency of Now](id:5d269fc6-f581-421a-b2c9-bd4a90ad2ca1)
 
 ### Microsoft Training
 
@@ -79,8 +87,8 @@ title: Artificial Intelligence (AI)
   Websites](../006-3-tech-microsoft-ai-chatbots-in-lowcode-apps-and-websites) -
   [Microsoft AI Chatbot in Lowcode Apps and
   Websites](id:8d906108-2a1c-4768-9696-2f48560c3711)
-- [Microsoft Azure OpenAI](id:5f3fb72d-cc33-4c99-b553-5962dc6909e7) -
-  [Microsoft Azure OpenAI](id:5f3fb72d-cc33-4c99-b553-5962dc6909e7)
+- [Microsoft Azure OpenAI](../006-3-tech-ai-openai-azure) - [Microsoft
+  Azure OpenAI](id:5f3fb72d-cc33-4c99-b553-5962dc6909e7)
 - [Create Power Platform solutions with AI and
   Copilot](../005-tech-microsoft-power-platform-ai-solutions-and-copilot) -
   [Create Power Platform solutions with AI and
@@ -89,14 +97,12 @@ title: Artificial Intelligence (AI)
   Automate](../006-3-tech-microsoft-ai-builder-and-power-platform) - [AI
   Builder and Power Platform Apps and
   Automate](id:1412a840-ce18-41a6-b292-ce89c70562f4)
-- [Azure Open AI](../006-3-tech-ai-openai-azure) - [Microsoft Azure
-  OpenAI](id:5f3fb72d-cc33-4c99-b553-5962dc6909e7)
 
 ## Services
 
 - [Open AI](../006-3-tech-ai-openai) - [Open
   AI](id:db7175d9-6a78-432d-888c-222e40787201)
-- [Mycroft Artificial Intellgence (AI)](../006-3-tech-ai-mycroft) -
+- [Mycroft Artificial Intelligence (AI)](../006-3-tech-ai-mycroft) -
   [Mycroft Artificial Intelligence
   (AI)](id:f8db3814-1116-4010-9e4a-ba5828dc4c34)
 

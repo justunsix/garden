@@ -1,10 +1,9 @@
 ---
+date: 2025-04-09
 filetags: ":artificial-intelligence:generative:ai:azure:epubnote:"
 id: 4e618b1d-6f89-4eb3-811b-be31133ea2f3
 title: "Microsoft Azure AI Fundamentals: Generative AI"
 ---
-
-\#date: 2025-04-09
 
 Source: My personal notes and comments from [Microsoft Azure AI
 Fundamentals: Generative

@@ -25,11 +25,9 @@ mkdir subtitles
 cd subtitles
 
 python -m virtualenv ./venv
-# or uv init; uv venv
 source ./venv/bin/activate
 
 pip install -U openai-whisper
-# or uv add openai-whisper
 
 # Create audio from existing video
 ffmpeg -i input_video.mp4 -q:a 0 -map a audio.wav
@@ -38,6 +36,14 @@ ffmpeg -i input_video.mp4 -q:a 0 -map a audio.wav
 # See Whisper documentation on which model to use and with languages
 whisper audio.wav --model small --language English --output_format srt
 ## audio.srt file will be created
+
+# Alternative commands using uv instead of ones above
+## Set up virtual environment
+uv init; uv venv
+## Add package
+uv add openai-whisper
+## Run whisper
+uv run whisper <arguments>
 
 ```
 
