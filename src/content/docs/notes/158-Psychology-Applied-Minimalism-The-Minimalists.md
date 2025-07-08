@@ -7,9 +7,11 @@ id: 5b72e98e-c259-4375-9f23-eb7bc6deffeb
 title: The Minimalists
 ---
 
+My personal notes on The Minimalist's media
+
 ## Minimalism - Documentary about the important things
 
-Source [Minimalism Official Netflix
+Source: [Minimalism Official Netflix
 Documentary](https://www.youtube.com/watch?v=J8DGjUv-Vjc&pp=ygUXdGhlIG1pbmltYWxpc3RzIG5ldGZsaXg%3D)
 
 - Focus on important things to you and what makes you happy, provides
@@ -104,6 +106,28 @@ discussions
     relationships, experiences
   - Work through the belief in need for junk values, discover they are
     created by society and perceptions
+
+## Fragments
+
+### Success does not exist
+
+Source: [Success does not exist](https://youtu.be/46-87YCyGUI)
+
+Focusing on outcomes keeps you away from the present moment. It makes
+you concentrate and chase things which can lead to suffering and will be
+failure. A trophy is just a thing.
+
+You are free to do create, consume, and contribute; however, do not
+attach happiness to outcomes. See peace and happiness exists in the
+present, right here, right now.
+
+### Museum of Things
+
+Source: [Museum of Things](https://youtu.be/ieibdM0yeEg)
+
+Things are in a museum because of how people used those things and their
+stories are most important. The wonder is in how people saw and used
+those things differently. People won't remember your things themselves.
 
 ## See Also
 

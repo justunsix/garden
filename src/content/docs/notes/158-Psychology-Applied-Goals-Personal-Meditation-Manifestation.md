@@ -48,7 +48,7 @@ YouTube](https://www.youtube.com/watch?v=aMq5aTKUFQc)
 
 ### About
 
-- Inspired by 2024-10 OPS meditation session, meditating on my desired
+- Inspired by 2024-10 work meditation session, meditating on my desired
   reality, saying it out loud and focusing on it
 
 ### Manifestation Morning Routine
