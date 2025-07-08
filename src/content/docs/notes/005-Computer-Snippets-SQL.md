@@ -4,6 +4,16 @@ id: 7aacccab-4571-4fbe-a61a-67236aaf2d60
 title: SQL Snippets
 ---
 
+``` sql
+
+-- Select a column and name it as another name
+select file.id as file_id from files
+
+-- Select top 10 records from table
+SELECT * FROM Customers LIMIT 10
+
+```
+
 ## SQL Client in Terminal and Command Line
 
 ``` shell
@@ -25,6 +35,9 @@ select whoami = SUSER_NAME();
 # https://github.com/microsoft/go-mssqldb?tab=readme-ov-file#azure-active-directory-authentication
 #  ActiveDirectoryDefault will use existing credentials, for example Azure CLI credential (az login)
 usql 'azuresql://myserver.database.windows.net?database=mydatabase&fedauth=ActiveDirectoryDefault'
+
+# connect to a sqlite database that exists on disk
+usql dbname.sqlite3
 
 # Help information
 help

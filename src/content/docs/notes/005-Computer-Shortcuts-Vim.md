@@ -212,7 +212,8 @@ Source: :h registers, <https://www.brianstorti.com/vim-registers/>
         - "/ to reuse the last searched word for another search and
           search and replace
 
-3.  Moving by Words ("web and WEB") and Lines
+3.  Moving by Words ("web and WEB") and Lines, Go to words, line
+    positions
 
     | Description                               | Shortcut |
     |-------------------------------------------|----------|
@@ -222,6 +223,7 @@ Source: :h registers, <https://www.brianstorti.com/vim-registers/>
     | Move to word after next whitespace        | W        |
     | Move to end of line                       | \$       |
     | Move to beginning of line                 | 0        |
+    | Move to first non blank character         | ^        |
 
     - Specifically, a capital W will move to just after the next
       whitespace character, where a lowercase w will use other forms of
@@ -577,15 +579,17 @@ Wiki](https://vim.fandom.com/wiki/Using_marks)
 
 ## Window management and movement
 
-| Description                         | Shortcut                            |
-|-------------------------------------|-------------------------------------|
-| Move to next window                 | Ctrl + w Ctrl + w                   |
-| Switch to windows by direction      | Ctrl + w, hjkl                      |
-| Split frame, horiztonal (top, down) | C-w, s                              |
-| Split frame, vertical (left, right) | C-w, v                              |
-| Close split frame                   | C-w c                               |
-| Close window                        | :q                                  |
-| Zoom in / Zoom out                  | Ctrl + Shift + - / Ctrl + Shift + = |
+| Description                          | Shortcut                            |
+|--------------------------------------|-------------------------------------|
+| Move to next window                  | Ctrl + w, w                         |
+| Balance windows, resize to same size | Ctrl + w, =                         |
+| Switch to windows by direction       | Ctrl + w, hjkl                      |
+| Split frame, horizontal (top, down)  | C-w, s or :sp                       |
+| Split frame, vertical (left, right)  | C-w, v or :vsp                      |
+| Split frame, open file in new window | :sp \<file\>                        |
+| Close split frame                    | C-w c                               |
+| Close window                         | :q                                  |
+| Zoom in / Zoom out                   | Ctrl + Shift + - / Ctrl + Shift + = |
 
 ### Buffers
 

@@ -14,7 +14,7 @@ Source:
 | Command Palette | Ctrl + Shift + P |
 | Paste | Shift + Insert |
 | Panes - Split | Ctrl + Shift + Alt + % (horizontal) or " (vertical) |
-| Pants - Move between | Ctrl + Shift + Arrow keys |
+| Panes - Move between | Ctrl + Shift + Arrow keys |
 | Tab - Change tabs | Ctrl + Tab |
 | Tab - Next, Previous | Ctrl + Page Up / Page Down |
 | Tab - Open new tab | Ctrl + Shift + t |

@@ -22,7 +22,8 @@ helix-editor/helix](https://github.com/helix-editor/helix/wiki/Migrating-from-Vi
 | Copy line | xy |
 | Copy to end of line | t + Enter + y |
 | Select entire buffer / file | % |
-| Buffer search, replace | %sword\<ret\>creplacement\<esc\> |
+| Search, buffer replace | %sword\<ret\>creplacement\<esc\> |
+| Search, replace | s c , See instructions below |
 | Delete entire line | xd |
 | Delete to end of line | vgl d or v \<end\> d |
 | Go to matching bracket | mm |
@@ -41,12 +42,16 @@ helix-editor/helix](https://github.com/helix-editor/helix/wiki/Migrating-from-Vi
 
 ### Search and replace sequence
 
-- % - to select whole buffer
-- s - split the selection, and type the word you want to substitute,
-  press enter
+- % - to select whole buffer or v for visual select
+
+- s - split the selection, and type the pattern/word you want to
+  substitute, press enter
+
   - All the occurrences of the word are selected
-- c - change the selections, and type the new word, to replace all
+
+- c - change the selections, and type the replacement to replace all
   occurrences
+
 - , or Esc - Go back to selections, normal mode
 
 To modify all lines in a certain way, you would first select the whole

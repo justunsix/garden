@@ -12,7 +12,7 @@ espanso service register
 # Start espanso in background
 espanso start
 
-# Stop espanso
+# Stop espanso service
 espanso stop
 
 # Check espanso is running

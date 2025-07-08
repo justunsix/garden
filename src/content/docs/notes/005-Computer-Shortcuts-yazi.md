@@ -1,14 +1,15 @@
 ---
+filetags: ":yazi:shortcuts:epubnote:"
 id: 6e5e2e7a-210e-4f99-82a3-743109eaf120
 title: Yazi Shortcuts
 ---
-
-+filetags: :yazi:shortcuts:epubnote:
 
 Generally, vim shortcuts are used
 
 | Description                                       | Shortcut              |
 |---------------------------------------------------|-----------------------|
+| Help                                              | F1 or ~               |
+| Help, exit                                        | Esc                   |
 | File operations, create file (end with / for dir) | a                     |
 | File operations, open                             | o or Enter            |
 | File operations, paste                            | p                     |

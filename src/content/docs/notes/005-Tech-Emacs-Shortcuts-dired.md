@@ -40,12 +40,13 @@ title: Emacs Shortcuts for dired
 
 ## Dired and Files Management
 
-| Name                              | Shortcuts           |
-|-----------------------------------|---------------------|
-| Open dired                        | C-x d               |
-| Rename current file (Emacs 29+)   | rename-visited-file |
-| Find file and open or create file | C-x C-f             |
-| Make Directory                    | \+                  |
+| Name                                               | Shortcuts           |
+|----------------------------------------------------|---------------------|
+| Open dired                                         | C-x d               |
+| Open dired in directory with point on current file | C-x C-j             |
+| Rename current file (Emacs 29+)                    | rename-visited-file |
+| Find file and open or create file                  | C-x C-f             |
+| Make Directory                                     | \+                  |
 
 ### Selection
 

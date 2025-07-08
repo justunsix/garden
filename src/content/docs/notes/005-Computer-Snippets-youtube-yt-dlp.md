@@ -81,7 +81,12 @@ yt-dlp --ignore-errors --continue --no-overwrites --download-archive progress.tx
 yt-dlp -x --audio-format mp3 -f bestaudio URL
 
 # Transcript / Subtitle only download
+yt-dlp --write-sub --sub-lang en --skip-download "https://www.youtube.com/watch?v=TKjYtfRDASE" --output subtitles.txt --no-playlist
+# --write-sub - write subtitles
+# --sub-lang en - language of choice for subtitles
+# --no-playlist - only download the specific video and not playlist related to it
 yt-dlp --write-auto-sub --sub-lang en --skip-download "https://www.youtube.com/watch?v=TKjYtfRDASE" --output subtitles.txt
+# --write-auto-sub - write subtitles for automatic (YouTube only)
 
 # Download a YouTube playlist with the videos best video and the best audio.
 yt-dlp -f 'bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]' "https://www.youtube.com/playlist?list=PLZVnnAt5_5lao0Cdr9sTtL2EQbhKIcxLm" -o '%(channel)s-%(playlist)s-%(title)s.%(ext)s'

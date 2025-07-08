@@ -177,6 +177,15 @@ function startsWithJ(array) {
 
 ```
 
+## Other
+
+``` javascript
+
+// Sleep, set a timeout
+setTimeout(1000);
+
+```
+
 ## Bookmarklets
 
 Source: [What are Bookmarklets? How to Use JavaScript to Make a
@@ -187,22 +196,29 @@ Creating a bookmarklet is like creating a regular bookmark in the
 browser. Instead of the URL HTTP/HTTPS in the URL field, write
 JavaScript.
 
+Avoid comments in Bookmarklets to prevent issues at run time
+
 ``` javascript
 
 // Bookmarklet with (() => { }) as an anonymous (lambda) function
+// Select a button inside a specific div
+// Click dismiss for each topic
+// generate and return HTML
+// function within a bookmarklet
 javascript: (() => {
     alert('Dismissing topics');
-    // Select a button inside a specific div
     const selector = 'div[aria-label=Dismiss][role=button]';
     const topics = document.querySelectorAll(selector);
 
-    // Click dismiss for each topic
     for (let i = 0; i < topics.length; i++) {
       let topic = topics[i];
       setTimeout(() => topic.click(), i * 250);
     }
 
-    // generate and return HTML
+    function hello() {
+        alert("Hello World!")
+    }
+
     return '<h1 style="color: white; background-color: black;">Hello, World!</h1>';
 })();
 
@@ -228,6 +244,47 @@ javascript: (() => {
   for (let element of allElements) {
     element.style.fontFamily = 'Comic Sans MS';
   }
+})();
+
+// Menu system using functions and alert messages
+javascript:(function() {
+    function extractText() {
+        alert("my extract text function")
+    }
+
+    function showMenu() {
+        const menuOptions = `
+            Please choose an option:
+            1. Extract text
+            2. Option 2 (Add your own function here)
+            3. Option 3 (Add your own function here)
+            4. Exit
+        `;
+        const choice = prompt(menuOptions);
+
+        switch (choice) {
+            case '1':
+                extractText();
+                break;
+            case '2':
+                // Call another function here
+                alert('Option 2 selected. (Function not implemented)');
+                break;
+            case '3':
+                // Call another function here
+                alert('Option 3 selected. (Function not implemented)');
+                break;
+            case '4':
+                alert('Exiting menu.');
+                break;
+            default:
+                alert('Invalid choice. Please try again.');
+                showMenu(); // Show the menu again for invalid input
+        }
+    }
+
+    // Show the menu when the bookmarklet is activated
+    showMenu();
 })();
 
 ```

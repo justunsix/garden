@@ -238,9 +238,20 @@ sudo grub-reboot 1
 
 ```
 
-## htop
+## htop - Process and task information
 
-Process and task information
+``` shell
+
+# Start `htop` displaying processes owned by a specific user:
+htop [-u|--user] username
+
+# Display processes hierarchically in a tree view to show the parent-child relationships:
+htop [-t|--tree]
+
+# Sort processes by a specified `sort_item` (use `htop --sort help` for available options):
+htop [-s|--sort] sort_item
+
+```
 
 ## lsblk - list block devices
 
@@ -453,7 +464,7 @@ progress bar for the transfers and the second allows you to resume
 interrupted transfers –exclude is used to ignore files and can have a
 recursive flag
 
-## tar - System Administration
+## tar - archiving utility
 
 ``` bash
 
@@ -462,103 +473,30 @@ tar -xvf todo.txt_cli-2.12.0.tar.gz
 
 ```
 
-## tee
-
-``` shell
-
-# Update a file's contents and append items
-# Update /etc/environment for all users
-echo "http_proxy=http://2.3.4.5:3128" | sudo tee -a /etc/environment
-echo "https_proxy=http://2.3.4.5:3128" | sudo tee -a /etc/environment
-echo "export no_proxy=localhost, 127.0.0.1" | sudo tee -a /etc/environment
-
-```
-
-## tr - translate/delete
-
-Use also `sed` command if use of `tr` becomes complex
-
-``` shell
-
-# Replace Characters J for Z
-echo 'Call me Justin' | tr 'J' 'Z'
-
-# Replace delimiters
-echo 'FirstName LastName Comment Age' | tr ' ' ','
-
-# Replace character with newlines
-# Easier way to see a path
-echo $PATH | tr ":" "\n"
-
-# Combine techniques below to clean up text
-echo "Mangled FiLE-nAMe.txt" | tr -d '-' | tr -s ' ' | tr ' ' '_' | tr '[:upper:]' '[:lower:]'
-# and pipe output to tr repeatedly like a bad filename
-
-# Replace lower case with upper case
-echo 'Call me Justin' | tr '[:lower:]' '[:upper:]'
-# or
-echo 'Call me Justin' | tr 'a-z' 'A-Z'
-# Other tokens that can be used for matching and replacing
-# [:alnum:]: Letters and digits.
-# [:alpha:]: Letters only.
-# [:digit:]: Digits only.
-# [:blank:]: Tabs and spaces.
-# [:space:]: All whitespace, including newline characters.
-# [:graph:]: All characters including symbols, but not spaces.
-# [:print:]: All characters including symbols, including spaces.
-# [:punct:]: All punctuation characters.
-# [:lower:]: Lowercase letters.
-# [:upper:]: Uppercase letters.
-
-# Invert matches with -c (complement)
-# Convert all spaces to dashes '-'
-echo 'A long file name nice to have as dashed name' | tr ' ' '-'
-
-# Delete characters -d
-# Delete all spaces and letter i
-echo 'Characters and 12354 numbers' | tr -d ' i'
-
-# Reduce repeated characters -s (squeeze repeats)
-# Reduce repeated spaces to a single space
-echo 'A  spaced  out  sentence' | tr -s ' '
-
-# Delete all blank characters
-echo 'Call  me  Just  in' | tr -d '[:blank:]'
-
-# Delete all whitespace (tabs, newlines, spaces)
-echo 'bunch of words to merge' | tr -d '[:space:]'
-
-# Delete everything except digits from a string
-# Deletion will include space, whitespace, newlines
-# -c and -d to complete (reverse match) and delete others
-echo 'Call me 123 Justin 552' | tr -cd '[:digit:]'
-
-```
-
 ## wget
 
-Mirror site - if you have a website, you can make a complete backup
-using this one simple command
+``` shell
 
-`wget -m www.everydaylinuxuser.com`
+# Mirror site - if you have a website, you can make a complete backup using this one simple command
+wget -m www.everydaylinuxuser.com
+# -m is a combination of all the -r, -l, -k commands below. Output will log to the screen.
 
--m is a combination of all the -r, -l, -k commands below. Output will
-log to the screen.
+# Download site, and do not go to links below the current URL
+wget -m www.everydaylinuxuser.com/context/2 --no-parent
+# --no-parent can be used to prevent it from navigating to links below the current URL
 
-`wget -m www.everydaylinuxuser.com/context/2 --no-parent` –no-parent can
-be used to prevent it from navigating to links below the current URL
+# Download site recursively
+wget -r -k -l10 www.everydaylinuxuser.com
+# -r Download a site recursively and create directories as needed (-x forces creation of directories)
+# -l Up to 10 levels deep, by default the command only downloads 5 levels deep
+# -k Turns links into relative local links
 
-`wget -r -k -l10 www.everydaylinuxuser.com`
+# Download links from file, infinite levels down
+wget -r -k -l0 --no-parent -i artemislinks
+# -i download using URLs from a file called artemislinks
+# -l0 infinite levels
 
--r Download a site recursively and create directories as needed (-x
-forces creation of directories) -l Up to 10 levels deep, by default the
-command only downloads 5 levels deep. -k Turns links into relative local
-links
-
-`wget -r -k -l0 --no-parent -i artemislinks`
-
--i download using URLs from a file called artemislinks -l0 infinite
-levels
+```
 
 ## which, where as, also use newer command type
 
@@ -569,15 +507,6 @@ levels
 Similar to:
 
 `whereis <command>` - find the location of command and its manual page
-
-## uniq
-
-``` bash
-
-# Show only uniq lines in a file
-cat file.txt | uniq
-
-```
 
 ## GNU Coreutils
 
@@ -678,6 +607,88 @@ coreutils sort [OPTION] [FILE]
 
 ```
 
+### tee
+
+``` shell
+
+# Update a file's contents and append items
+# Update /etc/environment for all users
+echo "http_proxy=http://2.3.4.5:3128" | sudo tee -a /etc/environment
+echo "https_proxy=http://2.3.4.5:3128" | sudo tee -a /etc/environment
+echo "export no_proxy=localhost, 127.0.0.1" | sudo tee -a /etc/environment
+
+```
+
+### tr - translate/delete
+
+Use also `sed` command if use of `tr` becomes complex
+
+``` shell
+
+# Replace Characters J for Z
+echo 'Call me Justin' | tr 'J' 'Z'
+
+# Replace delimiters
+echo 'FirstName LastName Comment Age' | tr ' ' ','
+
+# Replace character with newlines
+# Easier way to see a path
+echo $PATH | tr ":" "\n"
+
+# Combine techniques below to clean up text
+echo "Mangled FiLE-nAMe.txt" | tr -d '-' | tr -s ' ' | tr ' ' '_' | tr '[:upper:]' '[:lower:]'
+# and pipe output to tr repeatedly like a bad filename
+
+# Replace lower case with upper case
+echo 'Call me Justin' | tr '[:lower:]' '[:upper:]'
+# or
+echo 'Call me Justin' | tr 'a-z' 'A-Z'
+# Other tokens that can be used for matching and replacing
+# [:alnum:]: Letters and digits.
+# [:alpha:]: Letters only.
+# [:digit:]: Digits only.
+# [:blank:]: Tabs and spaces.
+# [:space:]: All whitespace, including newline characters.
+# [:graph:]: All characters including symbols, but not spaces.
+# [:print:]: All characters including symbols, including spaces.
+# [:punct:]: All punctuation characters.
+# [:lower:]: Lowercase letters.
+# [:upper:]: Uppercase letters.
+
+# Invert matches with -c (complement)
+# Convert all spaces to dashes '-'
+echo 'A long file name nice to have as dashed name' | tr ' ' '-'
+
+# Delete characters -d
+# Delete all spaces and letter i
+echo 'Characters and 12354 numbers' | tr -d ' i'
+
+# Reduce repeated characters -s (squeeze repeats)
+# Reduce repeated spaces to a single space
+echo 'A  spaced  out  sentence' | tr -s ' '
+
+# Delete all blank characters
+echo 'Call  me  Just  in' | tr -d '[:blank:]'
+
+# Delete all whitespace (tabs, newlines, spaces)
+echo 'bunch of words to merge' | tr -d '[:space:]'
+
+# Delete everything except digits from a string
+# Deletion will include space, whitespace, newlines
+# -c and -d to complete (reverse match) and delete others
+echo 'Call me 123 Justin 552' | tr -cd '[:digit:]'
+
+```
+
+### uniq
+
+``` bash
+
+# Show only uniq lines in a file
+cat file.txt | uniq
+
+```
+
 ## GNU Findutils
 
 ### find
@@ -752,15 +763,19 @@ administration, server support, and troubleshooting.
 - `nslookup` - check IP address of domains
 - `ping` - check if a host is reachable
 
-## Linux/Unix
+## Other Linux/Unix Commands
 
 The first command indicates the command name (searchable with a man
 page). The parens indicate useful extensions
 
-Command Usage/Function egrep Extract line containing word / pattern
-after the command pwd Print (output to console) current working
-directory less, more Console content control/reader locate Cp mv Rm
-(-Rf) Remove (with recursive and forced)
+| Command    | Usage/Function                                           |
+|------------|----------------------------------------------------------|
+| egrep      | Extract line containing word / pattern after the command |
+| pwd        | Print (output to console) current working directory      |
+| less, more | Console content control/reader                           |
+| cp         | copy                                                     |
+| mv         | move                                                     |
+| rm (-rf)   | Remove (with recursive and forced)                       |
 
 ampersand (&)Â - Executed after a UNIX command makes the command run
 while providing the command prompt back. Using & allows you to continue
@@ -771,139 +786,77 @@ their own windows like a web browser or an editor..
 
 The amperand (&) means something different when used immediately after a
 greater than (\>) for output redirection or after the pipe symbol ( \| )
-for passing output to other commands. Utility Command Usage/Function cat
-man Manuals (help pages) for system commands. ln –s Create symbolic
-links between files touch ftp File transfer protocol program ping finger
-telnet ssh Secure Shell bash Bash shell (running activates bash shell on
-console if it is available). Rm (-Rf) Remove (with recursive and forced)
-whois Query traceroute Trace network route lynx Text based HTML browser
-mount, unmount Mount or unmounts file systems date Date/time on system
-runmqsc (WebSphere Messaging Queue MQ)
+for passing output to other commands.
 
-ex. runmqsc
+### Utility
 
-DISPLAY CHSTATUS(\*)
+| Command | Usage/Function |
+|----|----|
+| cat |  |
+| man | Manuals (help pages) for system commands. |
+| ln –s | Create symbolic links between files |
+| touch |  |
+| ftp | File transfer protocol program |
+| ping |  |
+| finger |  |
+| telnet |  |
+| ssh | Secure Shell |
+| bash | Bash shell (running activates bash shell on console if it is available). |
+| whois | Query |
+| traceroute | Trace network route |
+| lynx | Text based HTML browser |
+| mount, unmount | Mount or unmounts file systems |
+| date | Date/time on system |
 
-display all channels info
+1.  runmqsc - (WebSphere Messaging Queue MQ)
 
-DISPLAY CHSTATUS('')
+    ex. runmqsc
 
-STOP CHANNEL('')
+    DISPLAY CHSTATUS(\*)
 
-RESET CHANNEL('')
+    display all channels info
 
-START CHANNEL('')
+    DISPLAY CHSTATUS('')
 
-DISPLAY CHANNEL('') wget GNU tool to retrieve web or file content.
+    STOP CHANNEL('')
 
-Example of using wget to create of backup of a website (web archive)
-stored on your local computer. See theÂ wget manualÂ for more
-options.Get/backup website content for offline viewing:
+    RESET CHANNEL('')
 
-\[darkbox\]wget -c -m -k -K -E -P/tmp
-<http://url_of_the_website%5B/darkbox%5D>
+    START CHANNEL('')
 
-Get/backup website content for offline viewing. Limit rate to reduce
-load on the target website and ignore robots file. Ignoring the robots
-file is helping for backuping up everything under a website and for
-WordPress blogs.
+    DISPLAY CHANNEL('')
 
-\[darkbox\]wget -c -m -k -K -E -P/tmp –limit-rate=300k -e robots=off
-<http://url_of_the_website%5B/darkbox%5D>
+### System Administration
 
-Here is what each option means:
-
-wget \> Download web content
-
--c continue from partially downloaded files, useful for finishing a
-partial wget in the past
-
--m or –mirror \> recursively with time-stamping (), while
-
--k -K \> converting links for local viewing
-
--E or –html-extension \> and add .html extension for html files if not
-present.
-
--P or –directory-prefix=… \> Download the web content to the directory
-indicated; in this case /tmp.
-
-<http://>… \> Location where to start the web backup / archival
-
--—limit-rate (e.g.Â –limit-rate=300k -—wait=2\> To limit your download
-rate and prevent overloading or taxing the performance of the web server
-
-System Administration from
-<https://justintung.com/2010/10/24/system-administration-1-useful-commands-on-windows-and-unixlinux/>
-
-Command Usage/Function prstat: report active process statisticssar:
-System activity reportermpstat : Report per-processor or
-per-processor-set statistics Check CPU utilization, per CPU statistics.
-(e.g.Â sar 1, sar -u 10 60, mpstat 10 60)(e.g.Â Stats by zone: prstat
--Z, Stats by Projects/users prstat -J) useradd (Solaris) Create a user
-Example: useradd -d /export/home/smithjo -m -k -s /bin/bash -c "John
-Smith" -g100 smithjo
-
-usermod -aG sudo user1
-
-userdel (Solaris) Remove a user. Example: userdel -r smithjo The -r
-option removes the users home directory and login information groupadd
-(Solaris) Modify a user's information like group usermod (Solaris)
-Modify a user's information like group rpm (Redhat based systems)
-Package manager ifconfig (-a) Display IP address information including
-loopback and inet interfaces, sometimes in /usr/sbin hostname (-f)
-Obtain hostname information of server domainname Display a servers
-domain name pkgadd (Solaris), yum (Fedora, RPM)package-cleanup Package
-manager toolsÂ (e.g.Â yum install chkconfig File compressions and
-ExtractionCompressgzip -c file1 file2 \> foo.gztar cf –
-targetfileordirectory \| gzip -c \> target.tgzgtar -cvzf target
-output.tgzUncompressgzip -dc outputfile.tar.gz \| tar -xf -
-
-Related commandsCreate a tar tar cvf Extract a tar tar xvf Check the
-contents of a tar file:
-
-tar tvf tar (-xzif)
-
-Unzip
-
-unzips a zip filegunzip :unzips tar.gz files sendmail Mailer mail Email
-management head tail (-f) See near end of file or stream file with -f
-passwd User password management su Assume root user or user specified
-after command. Will prompt for password. sudo Assume root user only for
-command following sudo. Will prompt for password. last who md5 Checksum
-command cron Scheduler uname (-a) System/machine information ps (-ef)
-(-Al) List (all) processes and their details xinetd shutdown (now) (-r)
-Shutdown operating system e.g.Â -r restart afterwards "now" shuts the
-system down right away without a time delay netstat (-an) Network
-information for system, port listeners and addresses. E.g. netstat –rnÂ
-to view existing kernel IP routing table
-
-Programming Command Usage/Function gcc (or cc) C compiles pico, nano
-File editors make Builder program
+See [DevOps Bootcamp - Operating Systems and Linux
+Basics](../005-computer-tech-devops-bootcamp-twn-operating-systems-and-linux-basics) -
+[DevOps Bootcamp - Operating Systems and Linux
+Basics](id:e37ac848-6bb2-4f18-afcf-71c6a7388961) for common commands and
+file system structure.
 
 ### Useful Concepts for Linux/Unix
 
-1.  **Directory Structure**
+1.  Directory Structure
 
-    \*Logs, spoools, and file resources (mail, logs, temp, etc.):\*/var
+    **Logs, spools, and file resources (mail, logs, temp, etc.)** :/var
 
-    \*Configuration Files:\*/etc, /etc/rc.init (startup scripts).
+    **Configuration Files** :/etc, /etc/rc.init (startup scripts).
     /etc/sendmail.cf
 
-    \*Unix "blackhole":\*/dev/null
+    **Unix "blackhole"** :/dev/null
 
-    \*Core Command locations if not in path:\*/usr/(s)bin,
+    **Core Command locations if not in path** :/usr/(s)bin,
     /usr/local/(s)bin, *usr/sfw/bin* \| Solaris: /usr/openwin
 
-    \*Devices (I/O):\*/dev
+    **Devices (I/O)** :/dev
 
-    \*Mounted Systems:\*/mnt, /media
+    **Mounted Systems** :/mnt, /media
 
-    \*Code Libraries/Modules:\*/usr/lib, /usr/local/lib
+    **Code Libraries/Modules** :/usr/lib, /usr/local/lib
 
-    \*Stored source:\*/usr/src
+    **Stored source** :/usr/src
 
-    \*Services:\*/etc/services - example of entries in services file
+    **Services** :/etc/services - example of entries in services file
     (ports and protocols associated with the ports.
 
     netstat 15/tcp
@@ -914,25 +867,12 @@ File editors make Builder program
 
     telnet 23/tcp
 
-2.  **Platform Specific**
+2.  Platform Specific
 
     User settings ~/.\<user setting folder\>
 
     e.g.~/.kde/share/apps stores KDE desktop settings and
     configurations.
-
-    **Checking serviers and ports in netstat**
-
-    less /etc/services \| grep \<service name\>
-
-    ``` shell
-
-    netstat -a | grep <service name>| grep <keyword, e.g.LISTEN>
-
-    # Check ports with active connections
-    netstat -lpnt
-
-    ```
 
 3.  Checking Memory
 
@@ -949,20 +889,24 @@ File editors make Builder program
 
     ```
 
-### See Also
+## See Also
 
+- [Linux Terminal Shortcuts
+  Readline](../005-computer-shortcuts-linux-terminal-gnu-readline) -
+  [Linux Terminal Shortcuts - GNU
+  Readline](id:bf3b61d8-23cc-4959-a5c7-17041d7e43f4)
 - [awk - text processing and pattern
   scanning](../005-computer-snippets-awk) - [awk Snippets - text
   processing and pattern
   scanning](id:105e4b70-09da-40e7-9d7f-3798899a3b00)
 - [fzf Snippets](../005-computer-snippets-fzf) - [fzf Fuzzy Finder
   Snippets](id:1aa7c311-74a6-4304-86f1-4c3676ad2498)
-- [Linux Terminal
-  shortcuts](../005-computer-shortcuts-linux-terminal-gnu-readline) -
-  [Linux Terminal Shortcuts - GNU
-  Readline](id:bf3b61d8-23cc-4959-a5c7-17041d7e43f4)
+- [DevOps Bootcamp - Operating Systems and Linux
+  Basics](../005-computer-tech-devops-bootcamp-twn-operating-systems-and-linux-basics) -
+  [DevOps Bootcamp - Operating Systems and Linux
+  Basics](id:e37ac848-6bb2-4f18-afcf-71c6a7388961)
 
-1.  Resources
+### Resources
 
-    - [List of GNU Core Utilities commands -
-      Wikipedia](https://en.wikipedia.md/wiki/List_of_GNU_Core_Utilities_commands)
+- [List of GNU Core Utilities commands -
+  Wikipedia](https://en.wikipedia.md/wiki/List_of_GNU_Core_Utilities_commands)

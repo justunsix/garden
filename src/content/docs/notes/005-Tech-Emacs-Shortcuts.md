@@ -279,6 +279,7 @@ character like r.
 |----|----|
 | Customize interface | M-x customize |
 | Activate text major mode | M-x text-mode |
+| Completion, minibuffer | M-x ido-mode or fido-mode |
 | Change margins for auto-fill-mode (auto line wrapping) | C-x f |
 | Set directory local variables | M-x add-dir-local-variable or use .dir-locals.el |
 
@@ -375,7 +376,7 @@ character like r.
 
 | Name | Shortcuts |
 |----|----|
-| At suggestions at cursor | completion-at-point |
+| Completion, Suggestions at cursor | completion-at-point |
 | Flycheck, check LSP, linters, checkers enabled | C-c ! v or flycheck-verify-setup |
 | Flycheck, LSP, linters, Errors List | C-c ! l or flycheck-list-errors |
 | LSP Mode - Leader key | C-c l |

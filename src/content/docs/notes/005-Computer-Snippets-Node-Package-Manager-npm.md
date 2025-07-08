@@ -18,6 +18,9 @@ npm update
 # Update global (-g) packages
 npm update -g
 
+# Install a global (-g) package to be available in path
+npm install -g prettier
+
 # List install packages
 npm ls
 

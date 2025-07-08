@@ -13,6 +13,8 @@ plus my additions
 
 - 7zip - file archiver, a utility used to place groups of files within
   compressed containers known as "archives"
+- [Aegis](https://github.com/beemdevelopment/Aegis) - free, secure and
+  open source app for Android to manage your 2-step verification tokens
 - Ansible - software tools that enables infrastructure as code
 - Ardour - digital audio workstation
 - Audacity - digital audio editor and recording application software
@@ -28,6 +30,8 @@ plus my additions
 - Clonezilla - drive cloning, drive imaging and system deployment
   utilities used to simplify deployment and maintenance of a group of
   computers
+- [DB Browser for SQLite](https://sqlitebrowser.md/) - SQLite
+  management, editing browser
 - Drupal - web content management system (CMS) written in PHP and
   distributed under the GNU General Public License
 - [Espanso](https://espanso.md/) - Privacy-first, cross-platform text
@@ -246,6 +250,7 @@ plus my additions
 - [mprocs](https://github.com/pvolok/mprocs) - running multiple process,
   like tmux, but useful for long running non-interactive single
   processes to give them status
+- [navi](https://github.com/denisidoro/navi) - interactive cheatsheets
 - ncspot - spotify client terminal UI
 - [nu](https://www.nushell.sh/) - shell with pipelines and everything is
   data, has plugins
@@ -290,6 +295,8 @@ plus my additions
   file transfer from computer to computer
 - [wttr.in](https://github.com/chubin/wttr.in) - using curl to query
   weather like curl wttr.in/toronto
+- [usql](https://github.com/xo/usql) - Universal command-line interface
+  for SQL databases
 - [xh](https://github.com/ducaale/xh) - send HTTP requests, like HTTPie
 - [Yazi](https://yazi-rs.github.io/) - terminal file manager with
   previews
