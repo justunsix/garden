@@ -6,7 +6,8 @@ title: Zero Waste
 
 ## What is a Zero Waste Lifestyle
 
-Source: Sophi Robertson \[cite/t:@YourEcoFriend\]
+Source: My personal notes from session with Sophi Robertson
+\[cite/t:@YourEcoFriend\] at Toronto Public Library
 
 ### 5 R's of Zero Waste
 
