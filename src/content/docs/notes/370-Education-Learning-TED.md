@@ -4,7 +4,7 @@ id: c18bb8e9-a511-4bfe-bcce-3fb59b349ac3
 title: TED Talks
 ---
 
-TED talks and my notes from them
+Source: My personal notes from TED talks
 
 ## Work Life
 

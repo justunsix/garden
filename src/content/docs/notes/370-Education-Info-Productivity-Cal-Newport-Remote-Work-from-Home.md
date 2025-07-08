@@ -76,10 +76,46 @@ Manage your time, energy and focus with a goal and plan, then practice
 to learn and persist knowledge.
 
 - Energy - proper sleep, food, rest, exercise
-
 - Attention - cut distractions
-
 - Focus - practice time for deep work, time management, test for
-  knowledge
+  knowledge and recall
 
-  47.35
+## Slow Productivity applied to Learning
+
+Study like a job: Schedule regular time to work on problem sets,
+homework and do recall of what you learned. Check large deliverables and
+work backwards from their deadlines to finish them.
+
+Make strategies to work on tests, homework, study and evaluate
+strategies. Do example problems.
+
+Focus on studies and avoid time consuming extra curricular activities.
+
+See book "How to become a straight-A student" by Cal Newport
+
+## Sabbatical Writing Project Approach
+
+- Habit: 5 days a week writing
+- Join community related to your writing
+- Put scheduled things in middle of week to leave focus time on other
+  days
+- Adventure focus time - go to a new place to work that is fun and
+  interesting
+
+Cal's approach on writing books: For non-fiction book, write annotated
+outline and sell to others to get advance. Then write each chapter
+sequentially, go back to write introduction and make edits. For fiction
+books, write first and market manuscript.
+
+## Social Media more Restrictions for Children more like cigarettes or junk food
+
+Current social and legal trends is towards restricting children by laws
+(like cigarettes) instead of parent oversight (like junk food)
+
+## See Also
+
+- [Learning How to Learn](../370-education-learning-how-to-learn) -
+  [Learning How to Learn](id:1e2563ae-4b97-423c-a719-8e2eb9d6db03) -
+  course that also talks about focus, energy and attention management
+- [Remote Work](../650-business-environment-remote-work) - [Remote
+  Work](id:9968f136-4607-4993-a4a0-be9d51433b4e)

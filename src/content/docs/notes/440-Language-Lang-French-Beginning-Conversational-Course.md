@@ -6,7 +6,8 @@ id: 878c3b0f-a9c5-48e6-b3e1-22b87c807b4e
 title: Beginning Conversational French
 ---
 
-# Course
+Source: My personal notes from french course from Toronto Public Library
+taught by Sara Hardin
 
 ## Lesson 1 Introduction and Pronunciation
 
