@@ -124,7 +124,7 @@ Working memory (can come from long term)
 
 ## Spaced repetition
 
-Space out something you are trying to learn, e.g. over several days like
+Space out something you are trying to learn, e.g. over several days like
 Monday, Tuesday, Wednesday, rest, Saturday, reset
 
 ## How to Integrate a Flashcard Retrieval Practice System into This Course
@@ -223,24 +223,21 @@ journalist and non-fiction writer
     - Edit after writing first, not at same time
   - Diffuse mode = writing
     - Mind mapping aka clustering
-
       - Most important parts will come up naturally using your memory
       - Memorization can help your understand something like poetry,
         literature
-
     - Write all ideas, no boundaries
-
     - An approach is turn off your monitor while typing, write without
       reading it, timing yourself
 
-      ``` txt
+``` txt
 
-                            how to do it  comments about approach -- what works, what doesn't
-                                      \   /
-                                       \ /
-         Good for all use cases ---  Mind map
-         /                         /       \
-      Metaphor                    /         \
-                              no boundaries  \
-                                           landscrape orientation on paper
-      ```
+                      how to do it  comments about approach -- what works, what doesn't
+                                \   /
+                                 \ /
+   Good for all use cases ---  Mind map
+   /                         /       \
+Metaphor                    /         \
+                        no boundaries  \
+                                     landscrape orientation on paper
+```

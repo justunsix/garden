@@ -1,6 +1,6 @@
 ---
 DOWNLOADED: "screenshot @ 2023-08-21 19:58:40"
-filetags: ":anki-emacs:epubnote:"
+filetags: ":anki-emacs:anki-deck:epubnote:"
 id: 0f365634-db06-451f-a0ca-3699615538a1
 title: Anki Master Deck for Learning
 ---
@@ -22,9 +22,9 @@ Example Anki flash cards in Emacs
     then push cards again per
     <https://github.com/louietan/anki-editor/issues/30>
 
-## Learning How to Learn
+## Learning How to Learn <span class="tag" tag-name="learn2learn"><span class="smallcaps">learn2learn</span></span>
 
-### Learning how to Learn - Diffuse Thinking <span class="tag" tag-name="learn2learn"><span class="smallcaps">learn2learn</span></span>
+### Learning how to Learn - Diffuse Thinking
 
 1.  Front (Example with word blanked out or missing)
 
@@ -65,7 +65,7 @@ Example Anki flash cards in Emacs
 
 9.  (Copy and paste area)
 
-### Learning how to learn - chunk library <span class="tag" tag-name="learn2learn"><span class="smallcaps">learn2learn</span></span>
+### Learning how to learn - chunk library
 
 1.  Front (Example with word blanked out or missing)
 
@@ -106,7 +106,7 @@ Example Anki flash cards in Emacs
 
 9.  (Copy and paste area)
 
-### Learning How to Learn - Mindset <span class="tag" tag-name="learn2learn"><span class="smallcaps">learn2learn</span></span>
+### Learning How to Learn - Mindset
 
 1.  Front (Example with word blanked out or missing)
 
@@ -171,7 +171,7 @@ Example Anki flash cards in Emacs
 
 9.  (Copy and paste area)
 
-### Law of Serendipity <span class="tag" tag-name="learn2learn"><span class="smallcaps">learn2learn</span></span>
+### Law of Serendipity :
 
 1.  Front (Example with word blanked out or missing)
 
@@ -209,6 +209,10 @@ Example Anki flash cards in Emacs
 
 ## See Also
 
+- [Anki Deck for Learning Artificial
+  Intelligence](../370-education-learning-anki-master-deck-artificial-intelligence) -
+  [Anki Deck for Learning Artificial
+  Intelligence](id:18b5d0b7-d31c-47b0-8b5d-81541a537828)
 - [Emacs Spaced Repetition System with
   Anki](../005-tech-emacs-spaced-repetition-system-anki) - [Emacs Spaced
   Repetition System with Anki](id:343b3f91-0b53-450e-a8a9-4286bd619535)

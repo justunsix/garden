@@ -1,7 +1,7 @@
 ---
 description: Collection of notes on productivity and focus processes
   written by Cal Newport
-filetags: ":productivity:epubnote:"
+filetags: ":productivity:epubnote:cal-newport:"
 id: 0044bdc0-c260-457a-8a2e-2bb025cb8888
 title: Productivity and Work with Cal Newport
 ---
@@ -48,8 +48,43 @@ scheduled learning, books
     - Record your learning and knowledge like a taking notes on subjects
       and add to notes / essays over time
 
+## 1 Page Productivity System
+
+Source: [The 1-Page Productivity Hack That Will Save Your Sanity \| Cal
+Newport](https://youtu.be/LzWuRTzPebo)
+
+The system uses 2 basics things in most work environments: 1. Calendar,
+2. 1 sheet of paper, for example notebook.
+
+Use the calendar as the main tool to track meetings, work.
+
+### Paper
+
+Write ideas, tasks on paper. If possible, move item to the calendar like
+time for task in calendar and cross item off.
+
+### Calendar
+
+Use calendar for time blocks.
+
+### Maintenance Mode
+
+If items come like emails/requests, schedule them in calendar for later
+or say no during maintenance mode. The mode is temporary to allow you to
+recharge. Maintenance keeps items and calendar current.
+
+Maintaining the paper: when the sheet is full, for each item in the
+paper:
+
+- Copy to new paper / sheet or remove it if not needed anymore
+- Move to the calendar or put note in future date
+
 ## See Also
 
+- [Cal Newport's Planning System - Core Documents, Productivity,
+  Discipline](../370-education-info-productivity-cal-newport-planning-system) -
+  [Cal Newport's Planning System - Core Documents, Productivity,
+  Discipline](id:063caedc-018f-440b-bd70-927e00171d8e)
 - [Remote Work and
   Productivity](../370-education-info-productivity-cal-newport-remote-work-from-home) -
   [Remote Work and
