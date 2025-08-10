@@ -30,6 +30,8 @@ title: Hiking Trails & Books
 
 - Bruce trail segments
 
+- The Massasauga
+
 - Bartlett Lodge, Arowhon Pines, Killarney from Irene S. at 2work
 
   - [Maps](http://algonquinoutfitters.com/maps/hiking-maps/)
