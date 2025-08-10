@@ -62,7 +62,7 @@ title: Artificial Intelligence (AI)
   [Learning Skills for Engineering Career in
   AGI](id:1403756e-8640-481a-9f4c-215070a04576)
 - [Frontiers of AI: Insights with Geoffrey Hinton, Toronto Tech Week
-  ../2025](006-3-tech-ai-artificial-intelligence-insights-toronto-tech-week-2025) -
+  2025](../006-3-tech-ai-artificial-intelligence-insights-toronto-tech-week-2025) -
   [Frontiers of AI: Insights with Geoffrey Hinton, Toronto Tech Week
   2025](id:eea63abc-27b4-4327-a747-ae51731c0a5a)
 - [Ethics in the Age of Generative
@@ -102,7 +102,7 @@ title: Artificial Intelligence (AI)
   Builder and Power Platform Apps and
   Automate](id:1412a840-ce18-41a6-b292-ce89c70562f4)
 - [Introduction to AI in Microsoft Azure
-  AI-../900](006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
+  AI-900](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
   [Introduction to AI in Microsoft Azure
   AI-900](id:dd87d682-2c98-4272-acb2-eafa6ebabf78)
 

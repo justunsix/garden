@@ -107,7 +107,7 @@ proxy_servers:
 
 - [Technology](../600-technology) -
   [Technology](id:9092eabf-f6f5-4775-b8aa-6e78e74880c3)
-- [Python PyDay ../2023](005-1-tech-python-pyday2023) - [Python PyDay
+- [Python PyDay 2023](../005-1-tech-python-pyday2023) - [Python PyDay
   2023](id:f8bc9ba2-948f-4b44-92f8-37bcea837b6e)
 - [Python Snippets](../005-computer-snippets-python) - [Python
   Snippets](id:b775ff13-9b5b-4af4-9c2b-e98be0af5fdc)

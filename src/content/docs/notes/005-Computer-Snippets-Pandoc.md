@@ -65,7 +65,7 @@ find . -name \*.md -type f -delete
 ```
 
 To [remove CUSTOM<sub>ID</sub> in
-headers](https://emacs.stackexchange.com/questions/../54400/export-a-docx-file-to-using-pandoc-but-without-the-property-drawers)
+headers](https://emacs.stackexchange.com/questions/54400/export-a-docx-file-to.md-using-pandoc-but-without-the-property-drawers)
 see: - The drawers are added only if a header has additional attributes.
 One can use a simple Lua filter to remove all attributes from headers in
 pandoc's internal document format:
@@ -247,7 +247,7 @@ Pandoc puts extracted images in a `media` folder.
 pandoc --extract-media=. input.docx -o output.md
 
 # or with multiline tables
-pandoc --extract-media=. clipboard.docx -t markdown-simple_tables-multiline_tables-grid_tables --wrap=none --column=../999 -o clipboard
+pandoc --extract-media=. clipboard.docx -t markdown-simple_tables-multiline_tables-grid_tables --wrap=none --column=999 -o clipboard.md
 ```
 
 The `--extract-media=` option creates a media subfolder in the path

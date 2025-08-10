@@ -402,7 +402,7 @@ hand writing, documents).
 ## See Also
 
 - [Introduction to AI in Microsoft Azure
-  AI-../900](006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
+  AI-900](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
   [Introduction to AI in Microsoft Azure
   AI-900](id:dd87d682-2c98-4272-acb2-eafa6ebabf78)
 - [Data Warehouse vs Data Lakehouse vs Data

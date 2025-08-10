@@ -95,6 +95,6 @@ A Speech Azure resource is needed or Azure AI services resource.
   [Text to Speech (TTS) and Speech to Text
   (STT)](id:f7d86fd7-47ba-49c0-bb56-b5e7e4ee3341)
 - [Introduction to AI in Microsoft Azure
-  AI-../900](006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
+  AI-900](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
   [Introduction to AI in Microsoft Azure
   AI-900](id:dd87d682-2c98-4272-acb2-eafa6ebabf78)

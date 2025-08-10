@@ -162,7 +162,7 @@ print(data)
 
 - [Technology](../600-technology) -
   [Technology](id:9092eabf-f6f5-4775-b8aa-6e78e74880c3)
-- [Python PyDay ../2023](005-1-tech-python-pyday2023) - [Python PyDay
+- [Python PyDay 2023](../005-1-tech-python-pyday2023) - [Python PyDay
   2023](id:f8bc9ba2-948f-4b44-92f8-37bcea837b6e)
 - [Python Anaconda and Conda
   Snippets](../005-computer-snippets-python-anaconda) - [Python and

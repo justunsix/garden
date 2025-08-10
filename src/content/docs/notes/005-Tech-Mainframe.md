@@ -128,7 +128,7 @@ See repository for instructions on running and logging in
 ### Option 2 Manual install
 
 - Install Hercules:
-  [http://www.hercules-../390.org/](http://www.hercules-390/) , [The
+  [http://www.hercules-390.org/](http://www.hercules-390.md/) , [The
   Hercules System/370, ESA/390, and z/Architecture Emulator
   (hercules-390.github.io)](http://hercules-390.github.io/html/)
 

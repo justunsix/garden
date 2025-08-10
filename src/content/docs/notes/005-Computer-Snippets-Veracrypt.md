@@ -23,7 +23,7 @@ sudo veracrypt --text --create vcdrive.vc
 ## --keyfiles : can be used with/without password, empty means disable interactive requests for keyfiles
 
 # Create container in current directory using a randomdata text file
-sudo veracrypt --text --create vcdrive.vc --size 10G --password=MySuperSecurePassword1! --volume-type=normal --encryption AES --hash sha-../512 --filesystem ext4 --pim=0 --random-source randomdata.txt --keyfiles ""
+sudo veracrypt --text --create vcdrive.vc --size 10G --password=MySuperSecurePassword1! --volume-type=normal --encryption AES --hash sha-512 --filesystem ext4 --pim=0 --random-source randomdata.txt --keyfiles ""
 
 # Mount the Veracrypt volume
 ## --text : text mode and not GUI

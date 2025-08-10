@@ -467,7 +467,7 @@ workers
 ## See Also
 
 - [IT Career Paths
-  ../2023](005-computer-tech-devops-twn-it-career-paths-2023) - [IT
+  2023](../005-computer-tech-devops-twn-it-career-paths-2023) - [IT
   Career Paths 2023](id:3f6fb017-48ee-4e3a-b55b-9a16ffdabe30)
 
 ### Resources

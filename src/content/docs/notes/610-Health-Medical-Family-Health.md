@@ -63,7 +63,7 @@ within the first hour of birth.
 
 ## Additional Resources
 
-- [World Breastfeeding Week ../2016](http://worldbreastfeedingweek/)
+- [World Breastfeeding Week 2016](http://worldbreastfeedingweek.md/)
 
 - [Learn more about
   breastfeeding](http://www.health.gov.on.ca/en/public/programs/healthykids/breastfeeding.aspx)
