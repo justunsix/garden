@@ -38,11 +38,6 @@ python3 -m pipx install ansible
 ## Upgrade all pipx packages
 pipx upgrade-all
 
-# Debug a script with Python Debugger (PDB)
-python -m pdb pyfile.py
-# See https://docs.python.org/3/library/pdb.html
-# Commands are similar to GDB
-
 ```
 
 ## Jupyter notebooks
@@ -172,3 +167,11 @@ print(data)
 - [Python Anaconda and Conda
   Snippets](../005-computer-snippets-python-anaconda) - [Python and
   Anaconda Snippets](id:09101af3-7da0-4433-b8b4-c1df997fcd91)
+- [DevOps Bootcamp - Python
+  Basics](../005-computer-tech-devops-bootcamp-twn-python-basics) -
+  [DevOps Bootcamp - Python
+  Basics](id:a5dd45be-10bf-4ab6-8c8f-cb4719c74f1c)
+- [DevOps Bootcamp - Python
+  Automation](../005-computer-tech-devops-bootcamp-twn-python-automation) -
+  [DevOps Bootcamp - Python
+  Automation](id:c3dc1f6f-d9c4-4d86-88bc-488e42698f7d)

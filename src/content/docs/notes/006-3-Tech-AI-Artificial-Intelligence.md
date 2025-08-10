@@ -69,11 +69,15 @@ title: Artificial Intelligence (AI)
   AI](../006-3-tech-ai-artificial-intelligence-ethics-in-age-of-generative-ai) -
   [Ethics in the Age of Generative AI - Generative AI and Ethics - the
   Urgency of Now](id:5d269fc6-f581-421a-b2c9-bd4a90ad2ca1)
+- [Applying Artificial Intelligence to
+  Learning](../006-3-tech-ai-artificial-intelligence-microsoft-azure-applied-to-learning) -
+  [Applying Artificial Intelligence to
+  Learning](id:483fb086-6a97-47ac-a086-066fd91fd4e9)
 
 ### Microsoft Training
 
-- [Azure AI Fundamentals, Generative
-  AI](../006-3-tech-ai-artificial-intelligence-generative-ai) -
+- [Microsoft Azure AI Fundamentals, Generative
+  AI](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
   [Microsoft Azure AI Fundamentals: Generative
   AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3)
 - [Microsoft Power Platform and
@@ -97,6 +101,10 @@ title: Artificial Intelligence (AI)
   Automate](../006-3-tech-microsoft-ai-builder-and-power-platform) - [AI
   Builder and Power Platform Apps and
   Automate](id:1412a840-ce18-41a6-b292-ce89c70562f4)
+- [Introduction to AI in Microsoft Azure
+  AI-../900](006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
+  [Introduction to AI in Microsoft Azure
+  AI-900](id:dd87d682-2c98-4272-acb2-eafa6ebabf78)
 
 ## Services
 

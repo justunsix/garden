@@ -11,7 +11,7 @@ title: Golang Todolist app
 ### Why use Golang
 
 Source: [Full Golang Tutorial - Learn Go by Building a TodoList
-App](https://www.youtube.com/watch?v=XCZWyN9ZbEQ)
+App](https://www.youtube.com/watch?v=XCZWyN9ZbEQ) with TWN
 
 - Created by Google in 2007 and open source in 2009
 - Why? Purpose? and Different from other languages?

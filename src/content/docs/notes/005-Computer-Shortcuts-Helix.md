@@ -74,8 +74,9 @@ file, and then split the selection at .
 | Code, show documentation for item at point | SPC k |
 | Command palette | SPC ? |
 | Command palette, search bindings | SPC ? (%bindings \<keys\>) |
-| Edit, Undo | u |
 | Edit, Redo | Shift + u |
+| Edit, Undo | u |
+| File explorer | SPC e |
 | File picker, open file in vertical split | C-v |
 | File picker, up, down | C-n, C-p |
 | Go to menu like cursor, symbols, buffers, line | g |
@@ -89,25 +90,25 @@ file, and then split the selection at .
 | Match, Tree sitter syntax tree contract | A-i |
 | Match, Tree sitter syntax tree expand | A-o |
 | Match, around function | maf |
+| Match, replace and then selection | mr \<selection\> |
 | Match, select inside of given object | mi \<object\> |
 | Match, surround given object | ms \<object\> |
-| Match, replace and then selection | mr \<selection\> |
 | Multiple cursor in next line, above line | C / Alt-C |
 | Multiple cursor turn off | , |
-| Register, menu | " |
-| Register, document path | "% |
-| Register, system clipboard | "+ |
 | Paste | p |
 | Paste, from system clipboard | SPC + p |
 | Picker, open last picker (like file, palette) | SPC ' |
-| Select, line and press again to select next line | x |
-| Select, within selection, input regex | s |
-| Select, within selection, split selection up | Shift + s |
-| Select, move to next selected element as primary | ) |
-| Select, move to previous selected element as primary | ) |
+| Register, menu | " |
+| Register, document path | "% |
+| Register, system clipboard | "+ |
+| Select, Collapse selection onto a single cursor | ; |
 | Select, Keep only primary selection | , |
 | Select, Remove primary selection | Alt , |
-| Select, Collapse selection onto a single cursor | ; |
+| Select, line and press again to select next line | x |
+| Select, move to next selected element as primary | ) |
+| Select, move to previous selected element as primary | ) |
+| Select, within selection, input regex | s |
+| Select, within selection, split selection up | Shift + s |
 | Version control, file picker of changes | SPC g |
 
 ### Selection, Multiple Cursors
@@ -129,6 +130,7 @@ file, and then split the selection at .
 | Description                           | Shortcut           |
 |---------------------------------------|--------------------|
 | Buffer, close others                  | :bco               |
+| Sort selection                        | :sort              |
 | Toggle options                        | :toggle \<option\> |
 | Hard wrap text, permanently reformat  | :reflow            |
 | Version control, change, reset a diff | :reset-diff-change |

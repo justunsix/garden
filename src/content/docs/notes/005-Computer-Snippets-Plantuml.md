@@ -11,10 +11,24 @@ Source: [PlantUML Command Line](https://plantuml.com/command-line)
 # Generate diagrams in PNG format for each file
 java -jar plantuml.jar file1 file2 file3
 
-# if plantuml CLI is installed, can substitute java -jar plantuml.jar with plantuml
-plantuml -png mydiagram.puml
+# If plantuml CLI is installed, can substitute java -jar plantuml.jar with plantuml
+plantuml -tpng mydiagram.puml
+# Required on Windows
+plantuml -tpng path/to/mydiagram.puml
+
+# Help
+plantuml -h
+
+# Open GUI to select directory
+plantuml -gui
+
+# Render diagram in default format PNG
+plantuml diagram1.puml
+
+# Rend diagrams in directory
+plantuml path/to/diagrams
 
 # Generate an ASCII Art file using Unicode characters
-plantuml -utxt mydiagram.puml
+plantuml -ttxt mydiagram.puml
 
 ```

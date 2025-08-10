@@ -4,12 +4,58 @@ id: 0a00398f-f4d9-42ae-8830-c37fa9abdc8f
 title: AI Prompts
 ---
 
-# Marketing
+## Writing Prompts
 
-## Google Ads Campaign
+See "Improve Prompt Results" section of [Microsoft Azure AI
+Fundamentals, Generative
+AI](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
+[Microsoft Azure AI Fundamentals: Generative
+AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3) sourced from [Improve
+prompt results - Training \| Microsoft
+Learn](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/6-writing-prompts)
 
-Output seemed best with OpenAI Chat GPT, but also check with Microsoft
-Copilot chat
+Good prompts provide the AI with:
+
+1.  Goal
+2.  Context
+3.  Information sources to use
+4.  Expectation on what you want
+5.  Iterate on the previous prompt
+
+## Learning
+
+### Creating Anki Cards from Learning Document for a Student to Study
+
+Create Anki cards in the Emacs anki-editor format by using the attached
+document in markdown format about generative AI. Find key concepts in
+the document and create at least 10 cards to cover important concepts in
+the document. The cards need to help a student remember key concepts and
+terms from the document. Provide the cards so they can be copied in a
+code block. The Emacs anki-editor format for a card is:
+
+# Card Heading
+
+## Front
+
+Front of card content
+
+## Back
+
+Back card content
+
+—
+
+Example output: [Anki Deck for Learning Artificial
+Intelligence](../370-education-learning-anki-master-deck-artificial-intelligence) -
+[Anki Deck for Learning Artificial
+Intelligence](id:18b5d0b7-d31c-47b0-8b5d-81541a537828)
+
+## Marketing
+
+### Google Ads Campaign
+
+Output seemed best with OpenAI Chat GPT, but also used with with
+Microsoft Copilot chat
 
 I am constructing a advertising campaign for this website
 <https://placeholder.com/> which is a … company. The campaign is to

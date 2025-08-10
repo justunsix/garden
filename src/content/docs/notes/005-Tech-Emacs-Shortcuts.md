@@ -454,6 +454,14 @@ methods
 - See troubleshooting at [Emacs Wiki -
   Tramp](https://www.emacswiki.md/emacs/TrampMode#toc7)
 
+## Themes - Emacs look
+
+| Name                                | Shortcuts     |
+|-------------------------------------|---------------|
+| Load a new theme                    | load-theme    |
+| Toggle a theme variant if available | toggle-theme  |
+| Disable a theme                     | disable-theme |
+
 ## Games and Therapy
 
 | Name                     | Shortcuts  |

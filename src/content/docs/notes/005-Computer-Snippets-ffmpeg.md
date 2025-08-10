@@ -83,10 +83,9 @@ ffmpeg -i input.mp4 -vf fps=10,scale=400:-1 -r 10 output.gif
 ## Script to extract audio of mp4 videos in directory into mp3 files
 
 ``` shell
-
 lc_convert_video_to_audio() {
 
-  VIDEO_FILES_DIR="/path/to/videos"
+  VIDEO_FILES_DIR="/path/to/directory/
 
   cd "$VIDEO_FILES_DIR" || exit
 
@@ -96,26 +95,27 @@ lc_convert_video_to_audio() {
     exit 1
   fi
 
-  echo "Going through mp4 files in the current directory to convert to audio mp3"
-  for video in *.mp4; do
-    # Check if there are any .mp4 files
-    if [[ ! -e $video ]]; then
-      echo "No .mp4 files found in the current directory."
-      exit 0
+  echo "Going through mp4, mkv, webm files in the $VIDEO_FILES_DIR to convert to audio mp3"
+  for video in *.mp4 *.mkv *.webm; do
+
+    if [[ -e $video ]]; then
+
+      # Get the base name of the video file (without extension)
+      base_name="${video%.mp4}"
+
+      # Convert the video to mp3
+      # -q:a 0 ensures the highest audio quality
+      # -map a maps only the audio stream.
+      ffmpeg -i "$video" -q:a 0 -map a "${base_name}.mp3"
+      echo "Converted $video to ${base_name}.mp3"
+
+    else
+      echo "No video files with that extension found in the current directory."
     fi
-
-    # Get the base name of the video file (without extension)
-    base_name="${video%.mp4}"
-
-    # Convert the video to mp3
-    ffmpeg -i "$video" -q:a 0 -map a "${base_name}.mp3"
-
-    echo "Converted $video to ${base_name}.mp3"
   done
 
   echo "All conversions are complete."
 }
-
 ```
 
 ## See Also

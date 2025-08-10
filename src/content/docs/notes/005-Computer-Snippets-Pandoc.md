@@ -23,12 +23,22 @@ Hello *pandoc*!
 # Ctrl-D (or Ctrl-Z followed by Enter on Windows)
 # ... Defaults to HTML output
 
+```
+
+## Markdown to HTML / Latex and HTML to Markdown with media
+
+``` bash
+
 # Markdown to HTML, -o output, --verbose to output conversion log
 pandoc test1.md -f markdown -t html -s -o test1.html --verbose
 
 # Markdown to LaTeX
 # requires https://miktex.org/howto/portable-edition installed and running
 pandoc test1.md -f markdown -t latex -s -o test1.tex
+
+# HTML or web page to Markdown, media like images will be stored in a media folder
+pandoc -f html https://mywebpage.html -o mywebpage.md --extract-media media
+
 ```
 
 ## Markdown to Org
@@ -264,7 +274,7 @@ pandoc test1.md -s -o test1.pdf --pdf-engine=C:\Users\MyUser\scoop\apps\miktex\c
 
 ```
 
-### Converting a web page to markdown or other formats
+### HTML to Markdown, Converting a web page to markdown or other formats
 
 ``` bash
 
@@ -275,6 +285,9 @@ pandoc -s -r html https://www.gnu.org/gnu/gnu.html -o example12.md
 pandoc -f html https://www.gnu.org/gnu/gnu.html https://www.gnu.org/licenses/licenses.html -o aboutgnu.md
 # Like above but make into simpler HTML
 pandoc -f html https://www.gnu.org/gnu/gnu.html https://www.gnu.org/licenses/licenses.html -o aboutgnu.html
+
+# Convert HTML page with media/pictures to media folder to Emacs Org format
+pandoc -f html https://lazyvim-ambitious-devs.phillips.codes/course/chapter-1/ -o chapter-1.org --extract-media media
 
 ```
 

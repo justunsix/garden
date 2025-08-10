@@ -26,6 +26,9 @@ git checkout -b new-branch-name
 git checkout main
 git merge new-branch-name
 
+# Checkout an existing branch
+git checkout my-branch
+
 # List all git branches, local, and remotes in current repository
 git branch -a
 
@@ -46,6 +49,10 @@ git checkout -
 
 # Show git commit history of specified file
 git log -p -- <filename>
+## -p : --patch means it will produce patch text, like commit, file and diff information
+
+# Show git log history including change diffs
+git log -p
 
 # Browse repository and log
 tig
@@ -87,12 +94,14 @@ git log --show-signature -1
 ## Easier to keep track of separate branches
 
 # Create a new branch whose name is the final part of the path
-git worktree add <path>
+git worktree add my_path_and_branch
+# Add a new worktree with a feature branch
+git worktree add ../myrepo-newfeature new-feature
 ## Example
 ## /bubbles is [master]
 ## /bubbles-table is branch [use-lipgloss-table]
 
-# Create new worktree with existing branch example
+# Create new worktree with existing branch main
 git worktree add ../repo-main main
 
 # If you want to make experimental changes or do testing without disturbing development,
@@ -100,11 +109,11 @@ git worktree add ../repo-main main
 # Creates a new worktree with a detached HEAD at the same commit as the current branch example
 git worktree add -d ../repo-experimental
 
-# List work trees
-git-worktree list
+# List work trees, their location, and checked out branches
+git worktree list
 
 # Remove a worktree
-git worktree remove <worktree-name>
+git worktree remove worktree-name
 
 # Tagging
 git tag -a v1.0 -m "pre digital garden"
@@ -129,6 +138,15 @@ git submodule update
 
 # Submodules - clone, initialize all submodules and update each submodule in the repository
 git clone --recurse-submodules https://github.com/chaconinc/MainProject
+
+# Example workflow with these branches:
+# - main / master
+# - pull request review
+# - feature development
+git clone myrepo.git # main
+cd myrepo
+git worktree add ../myrepo-feature feature_branch
+git worktree add ../myrepo-pr pull_request_numbered_branch
 
 ```
 

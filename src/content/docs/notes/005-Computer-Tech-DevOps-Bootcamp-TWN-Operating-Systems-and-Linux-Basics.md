@@ -5,7 +5,8 @@ id: e37ac848-6bb2-4f18-afcf-71c6a7388961
 title: DevOps Bootcamp - Operating Systems and Linux Basics
 ---
 
-Source: My notes from DevOps course by TechWorld with Nana
+Source: My notes and personal comments from DevOps course by TechWorld
+with Nana
 
 ## Introduction to Operating Systems (OS)
 
@@ -307,6 +308,8 @@ only.
 - `/etc` - system configurations
   - Originally was for "etcetera", anything not in other folders
   - Ex. network, passwords, users, groups
+  - Dictionary (word list) for language of the operating system
+    `/etc/dictionaries-common/words`
 - `/dev` - devices
   - Ex. webcam, mouse, keyboard, USB
   - Used by apps and drivers. Not for users

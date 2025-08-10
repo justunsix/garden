@@ -15,9 +15,15 @@ vagrant up
 # SSH into the VM
 vagrant ssh
 
+# SSH into VM with X11
+vagrant ssh -- -X
+# in Vagrantfile, set config.ssh.forward_x11 to true
+# For guest, install xauth
+# If on Windows, use Xming X server and Putty for display
+
 # View SSH configuration related to VM
 vagrant ssh-config
-## Recreate the vagrant public key using the identify file listed in 
+## Recreate the vagrant public key using the identify file listed in
 ## the output of the ssh-config command
 ssh-keygen -y -f <identity-file-location> > key.pub
 ## key.pub can be used to restore vagrant access to the VM

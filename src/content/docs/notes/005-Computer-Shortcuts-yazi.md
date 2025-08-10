@@ -6,45 +6,46 @@ title: Yazi Shortcuts
 
 Generally, vim shortcuts are used
 
-| Description                                       | Shortcut              |
-|---------------------------------------------------|-----------------------|
-| Help                                              | F1 or ~               |
-| Help, exit                                        | Esc                   |
-| File operations, create file (end with / for dir) | a                     |
-| File operations, open                             | o or Enter            |
-| File operations, paste                            | p                     |
-| File operations, paste and overwrite              | P                     |
-| File operations, trash, permanent delete          | d, D                  |
-| File operations, rename                           | r                     |
-| File operations, yank (copy)                      | y                     |
-| File operations, yank (cut)                       | x                     |
-| Input mode, exit to normal mode, example rename   | Esc                   |
-| Directory, previous, next                         | H, L                  |
-| Hidden files, show/hide toggle                    | .                     |
-| Navigation                                        | j k h l or arrow keys |
-| Navigation, cursor to top, bottom                 | gg, G                 |
-| Paths, copy directory path                        | c d                   |
-| Paths, copy file name                             | c f                   |
-| Paths, copy file name, no extension               | c n                   |
-| Paths, copy file path                             | c c                   |
-| Preview, Seek 5 units up, down                    | K, J                  |
-| Quit                                              | q                     |
-| Search, filter file                               | f                     |
-| Search, find file, next/previous                  | f, n/N                |
-| Search, change directory or reveal file with fzf  | z                     |
-| Search, change directory with zoxide              | Z                     |
-| Search, search files cancel                       | Ctrl + s              |
-| Search, search files using fd, rg                 | s, S                  |
-| Selection, Select file                            | Space                 |
-| Shell, run command                                | ;                     |
-| Sort by modified time or reverse                  | , m or , M            |
-| Sort by file extension                            | , e                   |
-| Sort alphabetically                               | , a                   |
-| Sort by size                                      | , s                   |
-| Tabs, new tab                                     | t                     |
-| Tabs, switch to tab \#                            | 1, 2, 3, … 9          |
-| Tabs, switch to previous, next tab                | \[, \]                |
-| Tabs, close current tab                           | Ctrl + c              |
+| Description                                         | Shortcut              |
+|-----------------------------------------------------|-----------------------|
+| Copy paths, directory path                          | c d                   |
+| Copy paths, file name                               | c f                   |
+| Copy paths, file name, no extension                 | c n                   |
+| Copy paths, file path                               | c c                   |
+| Directory, previous, next                           | H, L                  |
+| File operations, create file (end with / for dir)   | a                     |
+| File operations, open                               | o or Enter            |
+| File operations, paste                              | p                     |
+| File operations, paste and overwrite                | P                     |
+| File operations, rename                             | r                     |
+| File operations, trash, permanent delete            | d, D                  |
+| File operations, yank (copy)                        | y                     |
+| File operations, yank (cut)                         | x                     |
+| Help                                                | F1 or ~               |
+| Help, exit                                          | Esc                   |
+| Hidden files, show/hide toggle                      | .                     |
+| Input mode, exit to normal mode, example rename     | Esc                   |
+| Navigation                                          | j k h l or arrow keys |
+| Navigation, cursor to top, bottom                   | gg, G                 |
+| Preview, Seek 5 units up, down                      | K, J                  |
+| Quit                                                | q                     |
+| Search files, cancel search                         | Ctrl + s              |
+| Search files, search files by content using ripgrep | S                     |
+| Search files, search files by name using fd         | s                     |
+| Search, change directory or reveal file with fzf    | z                     |
+| Search, change directory with zoxide                | Z                     |
+| Search, filter file                                 | f                     |
+| Search, find file, next/previous                    | /, n/N                |
+| Selection, Select file                              | Space                 |
+| Shell, run command                                  | ;                     |
+| Sort alphabetically                                 | , a                   |
+| Sort by file extension                              | , e                   |
+| Sort by modified time or reverse                    | , m or , M            |
+| Sort by size                                        | , s                   |
+| Tabs, close current tab                             | Ctrl + c              |
+| Tabs, new tab                                       | t                     |
+| Tabs, switch to previous, next tab                  | \[, \]                |
+| Tabs, switch to tab \#                              | 1, 2, 3, … 9          |
 
 ## Troubleshooting yazi
 

@@ -118,3 +118,25 @@ Advanced settings show element highlights, linearize page
     Reveal all hidden content for checks and determine hiding technique
     (display, overflow, absolute positions), and find ARIA hidden true
     elements.
+
+## See Also
+
+### Resources
+
+- [Accessibility
+  Bookmarklets](https://accessibility-bookmarklets.md/install.html) -
+  highlights and allows test of Landmarks, Headings, Lists, Images,
+  Forms
+- [JavaScript Bookmarklets](http://pauljadam.com/bookmarklets/) -
+  supported on browsers and mobile phones and allows testing of many
+  elements
+- [Diagnostic.css](http://www.karlgroves.com/2013/09/07/diagnostic-css-super-quick-web-accessibility-testing/)﻿ -
+  CSS (cascading style sheet) files to help with accessibility issues
+- [HTML Codesniffer](https://squizlabs.github.io/HTML_CodeSniffer/) -
+  checks HTML code for violations against WCAG 2.1 at all three levels
+  (A, AA, AAA)
+- [Text Spacing Bookmarklet](https://s.codepen.io/stevef/debug/YLMqbo)﻿ -
+  tests [WCAG 2.1 Success Criterion 1.4.12 Text
+  Spacing](https://www.w3.md/TR/WCAG21/#text-spacing)
+- [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) -
+  show what screen readers say for interactive elements

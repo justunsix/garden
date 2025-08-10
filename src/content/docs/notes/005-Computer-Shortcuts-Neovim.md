@@ -85,10 +85,10 @@ title: Neovim Shortcuts
 | Screen: Navigate to screen in direction | C-h,j,k,l |
 | Search: Command history | \<l\> s c |
 | Search: Commands, Auto Commands, Key maps | \<l\> s C, a, k |
-| Search: Current buffer | \<l\> s b |
 | Search: Diagnostic messages | \<l\> s d |
 | Search: Diagnostic messages, root directory | \<l\> s D |
 | Search: Help | \<l\> s h |
+| Search: Keymap | \<l\> s k |
 | Search: Replace, Do Replace | \<l\> s r, \<l\> R |
 | Search: Todos | \<l\> s t |
 | UI, Split screen vertical, horizontal | \<l\> \\ , \<l\> - |
@@ -100,6 +100,8 @@ title: Neovim Shortcuts
 | Window, move to split left, right, down up | C-h, C-l, C-j, C-k |
 | Window, next, previous window | \<l\> w w or W |
 | git: Lazygit | \<l\> g g |
+
+To simulate M-x in Emacs, use search keymaps and search commands.
 
 ### Plugins
 

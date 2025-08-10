@@ -142,16 +142,16 @@ Other table per `vimtutor` command
 | Repeat last command, repeat macro (like command, inserts, combos) | . |
 | Search: command history | q: (like C-f in command mode) |
 
-### Editing
+### Editing, Selection (Marking)
 
 | Description | Shortcut |
 |----|----|
 | Redo | Ctrl + r |
 | Select, Start select - visual selection | v |
 | Select, visual and selected area | v i \<choose selection options\> |
-| Select, visual and text inside selected symbol | v i \], v i ', v i " |
+| Select, visual and text inside selected symbol, like bracket | v i \], v i ', v i " |
 | Select, visual line mode | V |
-| Select, visual block mode (rectangle mark) | C-v |
+| Select, visual block mode (rectangle mark, multiple cursor select) | C-v |
 | Copy (yank) selection | y |
 | Copy (yank) word | yw |
 | Copy (yank inside) content inside quotations " | yi" |
@@ -606,6 +606,9 @@ Wiki](https://vim.fandom.com/wiki/Using_marks)
 | Close buffer | :bd |
 
 ### Tabs
+
+Tabs in Vim are like layouts or workspaces and not like tabs in newer
+IDEs. They preserve the window layout.
 
 | Description                         | Shortcut          |
 |-------------------------------------|-------------------|

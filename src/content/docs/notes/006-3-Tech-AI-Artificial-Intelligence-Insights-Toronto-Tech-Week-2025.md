@@ -7,7 +7,7 @@ title: "Frontiers of AI: Insights with Geoffrey Hinton, Toronto Tech
 ---
 
 Source: My personal notes from talk on theme of Relationship between
-Digital and Biological Intelligence
+Digital and Biological Intelligence on 2025-06-25
 
 ## Introduction: Models
 

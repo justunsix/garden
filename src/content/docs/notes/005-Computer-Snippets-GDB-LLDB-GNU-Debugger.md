@@ -7,7 +7,9 @@ title: GDB and LLDB Debugger Snippets
 
 Source: [GDB to LLDB command map](https://lldb.llvm.md/use/map.html),
 [Debugging Rust apps with GDB - LogRocket
-Blog](https://blog.logrocket.com/debugging-rust-apps-with-gdb/)
+Blog](https://blog.logrocket.com/debugging-rust-apps-with-gdb/),
+[Debugging with GDB (GDB
+manual)](https://sourceware.md/gdb/current/onlinedocs/gdb)
 
 Note commands/aliases like run (r), step (s), and breakpoint (b) are
 similar or same with GDB and LLDB
@@ -40,16 +42,22 @@ b info
 # Breakpoint disable it
 disable 1
 
-# Step - next
+# Breakpoint in temporary place, breakpoint will only occur once
+tbreak 6
+
+# Step - next, go to next line
 n
 
-# Step - step into
+# Step - step into like a function, run next line of code
 s
+
+# Step N - run next N lines of code
+s Number
 
 # Step - finish function
 finish
 
-# Step - continue execution
+# Step - continue execution until new breakpoint or end
 c
 
 # Repeat previous command
@@ -59,6 +67,7 @@ Enter
 info args
 
 # Print information on variable, function
+print myvariable
 p variable_name
 p code_element
 
@@ -66,6 +75,12 @@ p code_element
 f
 # Set - change state of variables
 set var_name = my_value
+
+# List - print source lines, print lines centered around line number
+l 2
+list 6
+# List - print source around beginnning of function
+list function_name
 
 ```
 

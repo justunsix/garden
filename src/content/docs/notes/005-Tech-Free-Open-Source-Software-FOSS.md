@@ -4,7 +4,7 @@ id: 4d3e0888-9e79-414c-a552-48c6357ad845
 title: Applications - Free and/or Open Source Software
 ---
 
-## Free/Libre and/or Open Source Software 2022-09-17
+## Free/Libre and/or Open Source Software
 
 Source: [Fight for your freedom in computing. Don't let proprietary
 programs control
@@ -30,6 +30,8 @@ plus my additions
 - Clonezilla - drive cloning, drive imaging and system deployment
   utilities used to simplify deployment and maintenance of a group of
   computers
+- [Data Display Debugger DDD](https://www.gnu.md/software/ddd/) -
+  graphical front end for GDB and CUDA-GDB
 - [DB Browser for SQLite](https://sqlitebrowser.md/) - SQLite
   management, editing browser
 - Drupal - web content management system (CMS) written in PHP and
@@ -50,6 +52,10 @@ plus my additions
 - GCC - GNU Compiler Collection is an optimizing compiler produced by
   the GNU Project supporting various programming languages, hardware
   architectures and operating systems
+- [GDB](https://sourceware.md/gdb/) - GNU Project Debugger for various
+  languages
+- [gImageReader](https://github.com/manisandro/gImageReader/) - Optical
+  Character Recognition (OCR), A Gtk/Qt front-end to tesseract-ocr
 - Gimp - GNU Image Manipulation Program) is a free and open-source
   raster graphics editor\[5\] used for image manipulation (retouching)
   and image editing, free-form drawing, transcoding between different
@@ -59,8 +65,8 @@ plus my additions
   control
 - Gnome - GNU Network Object Model Environment desktop environment for
   Linux/Unix like
-- GNU - "GNU is Not Unix" core software to GNU/Linux systems
 - GNU Boxes - virtualization
+- GNU - "GNU is Not Unix" core software to GNU/Linux systems
 - GNU/Linux - operating system
 - GRASS GIS - Geographical Information System software used for
   geospatial data management and analysis, image processing,
@@ -74,9 +80,9 @@ plus my additions
 - [Kamal](https://github.com/basecamp/kamal) - Application deployment
   anywhere from bare metal, VMs, to cloud, will work with any type of
   web app that can be containerized
-- KDE Desktop environment for Linux/Unix like
 - KDE Connect - facilitates wireless communications and data transfer
   between devices over local network
+- KDE Desktop environment for Linux/Unix like
 - [Kdenlive](https://kdenlive.md/) - Video Editor, Can also do music
   editing and output.
 - [kondo](https://github.com/tbillington/kondo) - Cleans dependencies
@@ -161,13 +167,13 @@ plus my additions
 
 ## Modern Terminal Commands and Programs
 
-- [asciinema](https://asciinema.md/) - record and share terminal
-  sessions
-- [alacritty](https://alacritty.md/) - terminal emulator, URLs can open,
-  search, VI bindings
-- [atuin](https://github.com/ellie/atuin) - interactive shell history
 - [ag](https://github.com/ggreer/the_silver_searcher) - A code searching
   tool similar to ack, but faster.
+- [alacritty](https://alacritty.md/) - terminal emulator, URLs can open,
+  search, VI bindings
+- [asciinema](https://asciinema.md/) - record and share terminal
+  sessions
+- [atuin](https://github.com/ellie/atuin) - interactive shell history
 - bacon - re-runs cargo clippy, build, test, or run
 - bat - cat with colours, line numbers, git integration, paging
 - bob-nvim - nvim version manager
@@ -177,28 +183,28 @@ plus my additions
   with directory sizes, search
 - [btop](https://github.com/aristocratos/btop) - like top, system
   monitoring
+- cargo-info - shows info about crates
 - cheat - cheat sheets
-- [ctop](https://github.com/bcicen/ctop) - top like interface for
-  container metrics
+- choose - human-friendly and fast alternative to cut and (sometimes)
+  awk
 - [collima](https://github.com/abiosoft/colima) - container runtimes on
   macOS, Linux with minimal setup
+- [coreutils](https://github.com/uutils/coreutils) - GNU coreutils in
+  Rust, cross platform, can alias to run rust coreutils instead of OS
+  ones like alias usort = "coreutils sort"
+- [ctop](https://github.com/bcicen/ctop) - top like interface for
+  container metrics
 - curlie - user friendly curl, good also for API tests
 - [delta](https://github.com/dandavison/delta) - syntax-highlighting
   pager for git, diff, grep, and blame output
+- Difftastic - structural diff tool that compares files based on their
+  syntax.
 - [dive](https://github.com/wagoodman/dive) - exploring container image
   layers
 - [doggo](https://github.com/mr-karan/doggo) - Command-line DNS Client,
   user friendly
 - [dua](https://github.com/Byron/dua-cli) - disk usage analyzer,
   parallel and can analyze specific directories
-- cargo-info - shows info about crates
-- choose - human-friendly and fast alternative to cut and (sometimes)
-  awk
-- [coreutils](https://github.com/uutils/coreutils) - GNU coreutils in
-  Rust, cross platform, can alias to run rust coreutils instead of OS
-  ones like alias usort = "coreutils sort"
-- Difftastic - structural diff tool that compares files based on their
-  syntax.
 - duf - df alternative
 - [dust](https://github.com/bootandy/dust) - file and folder size tree,
   du (disk usage) with colours like subdirectories, intuitive interface
@@ -213,13 +219,19 @@ plus my additions
 - [fselect](https://github.com/jhspetersson/fselect) - Find files with
   SQL-like queries
 - fzf - fuzzy finder
+- [gdbgui](https://github.com/cs01/gdbgui/tree/master) - Browser based
+  front end for GNU Debugger (GDB)
+- [gitui](https://github.com/extrawurst/gitui) - terminal client for
+  git, good for small git operations
 - [gum](https://github.com/charmbracelet/gum) - tool to create nice
   glamorous (nice looking) shell scripts
 - [Helix](https://helix-editor.com/) - modal editor like vim with modern
   defaults and more built in features
+- httpie - user friend HTTP client
 - [hurl](https://hurl.dev/) - for repeatable tests and plain text files
   for requests, API testing
 - hyperfine - command line benchmarking tool, check run times
+- [irust](https://github.com/tarcieri/irust) - interactive rust REPL
 - jq - sed for JSON
 - Just - like make, command runner
 - [k6](https://github.com/grafana/k6) - loading testing tool for
@@ -230,15 +242,11 @@ plus my additions
 - [Kubescape](https://github.com/kubescape/kubescape) - Kubernetes
   security platform checking security in clusters, YAML, and Helm and
   using different security frameworks
-- httpie - user friend HTTP client
-- [gitui](https://github.com/extrawurst/gitui) - terminal client for
-  git, good for small git operations
-- [irust](https://github.com/tarcieri/irust) - interactive rust REPL
 - [lazydocker](https://github.com/jesseduffield/lazydocker) - manage
   docker, TUI
-- lsd - ls with more accessible output, colours, icons
 - [lnav](https://github.com/tstack/lnav) - log file navigator, log
   directory manager, analysis
+- lsd - ls with more accessible output, colours, icons
 - macchina: A system information frontend
 - [mask](https://github.com/jacobdeichert/mask) - like make and just,
   tasks are defined in a markdown file
@@ -256,19 +264,19 @@ plus my additions
   data, has plugins
 - Ouch: Painless compression and decompression for your terminal with
   autodetection of file types
+- pgcli - postgresql interface
+- podman - tool for managing OCI containers and pods
 - porsmo - pomodoro timer
-- [presenterm](https://github.com/mfontanini/presenterm) - markdown
-  terminal slideshow tool
 - [posting](https://github.com/darrenburns/posting) - API TUI, good for
   API tests
+- [presenterm](https://github.com/mfontanini/presenterm) - markdown
+  terminal slideshow tool
 - [procs](https://github.com/dalance/procs) - ps with colours and more
   accessible output, search
-- podman - tool for managing OCI containers and pods
-- pgcli - postgresql interface
-- [ripgrep](https://github.com/BurntSushi/ripgrep) - faster grep, grep
-  with default recursive search, filters
 - [ripgrep-all](https://github.com/phiresky/ripgrep-all) - ripgrep but
   also search in compressed files, PDF, ebooks, office docs
+- [ripgrep](https://github.com/BurntSushi/ripgrep) - faster grep, grep
+  with default recursive search, filters
 - rtx-cli - version manager of programming languages like python, node,
   ruby, like program `asdf`
 - [sccache](https://github.com/mozilla/sccache) - cache for compiler
@@ -284,19 +292,19 @@ plus my additions
 - tldr ([tealdeer](https://github.com/dbrgn/tealdeer)) - shortened man
   pages with examples
 - tokei - code statistics, lines of codes summary by language
-- [typst](https://github.com/typst/typst) - markup-based typesetting
-  system, like a modern LaTex, Word, Google docs, good for academic and
-  technical documentation
 - [topgrade](https://github.com/topgrade-rs/topgrade) Upgrade all the
   things by detecting the tools you use and running the appropriate
   commands to update them.
+- [typst](https://github.com/typst/typst) - markup-based typesetting
+  system, like a modern LaTex, Word, Google docs, good for academic and
+  technical documentation
+- [usql](https://github.com/xo/usql) - Universal command-line interface
+  for SQL databases
 - wiki-tui - wikipedia terminal ui
 - [wormhole](https://github.com/magic-wormhole/magic-wormhole) - private
   file transfer from computer to computer
 - [wttr.in](https://github.com/chubin/wttr.in) - using curl to query
   weather like curl wttr.in/toronto
-- [usql](https://github.com/xo/usql) - Universal command-line interface
-  for SQL databases
 - [xh](https://github.com/ducaale/xh) - send HTTP requests, like HTTPie
 - [Yazi](https://yazi-rs.github.io/) - terminal file manager with
   previews

@@ -114,6 +114,9 @@ Remove-Item -Force -Recurse -Path .\file_or_directory
 
 ``` powershell
 
+# Print name of system / host
+hostname
+
 # Redirect command line output to Windows clipboard, assume cat is installed
 hostname | Clip
 # Copy computer hostname to clipboard
@@ -121,6 +124,13 @@ hostname | Set-Clipboard
 
 # Open Mouse and Touchpad Windows settings
 start ms-settings:mousetouchpad
+
+# Install Remote Server Administration Tools, a Windows feature
+Get-WindowsCapability -Name RSAT* -Online | Add-WindowsCapability -Online
+# Verify what programs in RSAT are Installed
+Get-WindowsCapability -Name RSAT* -Online | Select-Object -Property DisplayName, State
+# Contains Active Directory Users and Computers (ADUC) MMC snap-in tool
+# and “Active Directory Users and Computers” app
 
 ```
 

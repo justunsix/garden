@@ -25,3 +25,16 @@ title: Dolphin File Manager Shortcuts
 | Select specific | Ctrl + mouse click / space |
 | Select range | Shift + mouse click or cursor or page up/down home or end keys |
 | Select searched item | Type first few letters of its name, ESC to cancel out |
+
+## Other
+
+| Description                | Shortcut                                     |
+|----------------------------|----------------------------------------------|
+| SSH, FTP, other Connection | Use location and <ssh://servername> protocol |
+
+## See Also
+
+### Resources
+
+- [File transfers - KDE UserBase
+  Wiki](https://userbase.kde.md/File_transfers)

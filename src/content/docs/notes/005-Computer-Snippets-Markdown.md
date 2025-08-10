@@ -70,8 +70,10 @@ links](Htps://www.markdownguide.md/basic-syntax#reference-style-links)
 markdownlint-cli2 --fix '**/*.md'
 
 # Format markdown with prettier and wrap prose
-prettier --parser markdown --prose-wrap always file.md
+prettier --parser markdown --prose-wrap always -w file.md
+prettier --parser markdown --prose-wrap always -w *.md
 # <always|never|preserve>
+# -w write file in place
 
 ```
 

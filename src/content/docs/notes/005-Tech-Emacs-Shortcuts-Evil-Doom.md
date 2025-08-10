@@ -17,7 +17,12 @@ package](https://github.com/emacs-evil/evil/blob/master/evil-maps.el)
 | Window move up, down, left, right | C-w + arrow keys |
 | Complete (autocomplete) next or previous (insert mode) | C-n or C-p |
 | Go to char using Avy | g s s (char), g s / (timer) |
-| To lower case (downcase), upper case (upcase) with selection | u, U |
+| Go, to lower case (evil-downcase), downcase selection | g u , u |
+| Go, to upper case (evil-upcase), upcase selection | g U , U |
+
+See [Vim Shortcuts](../005-computer-shortcuts-vim) - [Vim
+Shortcuts](id:bdb62bfe-56b7-4c13-a1e4-9f91cf4e0bb5) which are mostly
+implemented in Evil
 
 ## Doom Emacs
 
@@ -48,6 +53,7 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Completion, go up 1 choice | C-k |
 | Dired, down directory or open file | l |
 | Dired, up directory | h |
+| Dired, open marked files with external program | E, dired-do-open |
 | Exit insert mode | Esc or jk |
 | Format, region or buffer | +format/region or +format/buffer |
 | Go to file or url | g f |

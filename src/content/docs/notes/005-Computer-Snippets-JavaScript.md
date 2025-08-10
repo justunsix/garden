@@ -186,6 +186,35 @@ setTimeout(1000);
 
 ```
 
+## String Regex and Cleaning
+
+``` javascript
+
+/**
+ * Cleans a given string by removing specified phrases and special characters.
+ *
+ * @param {string} input - The string to be cleaned.
+ * @param {Array<string>} phrasesToStrip - An array of phrases to remove from the input string.
+ * @returns {string} - The cleaned string with specified phrases and special characters removed.
+ */
+function cleanString(input, phrasesToStrip) {
+    phrasesToStrip.forEach((phrase) => {
+        const regex = new RegExp(phrase, "gi");
+        const specialCharsRegex = /[^a-zA-Z0-9\s]/g;
+        input = input.replace(specialCharsRegex, "");
+        input = input.replace(regex, "");
+    });
+
+return input.trim();
+}
+
+let mutableString = "Hello, this is a sample string! Let's strip some phrases.";
+const phrasesToRemove = ["sample", "strip", "some", "!", "my name"];
+
+mutableString = stripString(mutableString, phrasesToRemove);
+
+```
+
 ## Bookmarklets
 
 Source: [What are Bookmarklets? How to Use JavaScript to Make a

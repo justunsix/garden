@@ -36,4 +36,12 @@ npm config set https-proxy http://1.1.1.1:3128
 npm config rm proxy
 npm config rm https-proxy
 
+# NPM Execute (npx) to run a local or remoate npm package, Angular CLI build
+npx ng build
+# Run angular CLI set up in the project
+# Requires npm install first
+
+# npm exec Check project files with ESLint version in project
+npx eslint ./*.js
+
 ```

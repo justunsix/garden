@@ -12,47 +12,51 @@ Danilevsky at IBM
 
 ### Generation Example
 
-- Asking which planet in the solar system has the most moons?
+Asking which planet in the solar system has the most moons?
 
-- Large Language Model (LLM) Challenges
+Large Language Model (LLM) Challenges
 
-  - No source of information - just trained information
-  - Out of date - there are more moons discovered over time
+- No source of information - just trained information
+- Out of date - there are more moons discovered over time
 
-- LLM could confidently give a wrong answer like planet Jupiter when it
-  could be Saturn as moons are discovered
-
-  - It needs to have authoritative sources like Nasa and up to date
-    data.
+LLM could confidently give a wrong answer like planet Jupiter when it
+could be Saturn as moons are discovered. It needs to have authoritative
+sources like NASA and up to date data.
 
 ### Retrieval-Augmented
 
-- LLM gets relevant data from updated data set and gives response with
-  evidence of the response
-  - It can say I don't know when the data is not available
-- Needs work on 2 parts:
-  - Retrieval Augmented - better retrievers to find most relevant data
-    to user prompts
-  - Generation - structuring responses and best responses
+LLM gets relevant data from updated data set and gives response with
+evidence of the response. RAG improves a model's performance with
+updated and domain specific information.
+
+It can say I don't know when the data is not available
+
+Needs work on 2 parts:
+
+- Retrieval Augmented - better retrievers to find most relevant data to
+  user prompts
+- Generation - structuring responses and best responses
 
 ## RAG Explained
 
-Soure: [RAG Explained](https://www.youtube.com/watch?v=qppV3n3YlF8) -
+Source: [RAG Explained](https://www.youtube.com/watch?v=qppV3n3YlF8) -
 YouTube by Luv Aggarwal and Shawn Brennan at IBM
 
-- Use case: Journalist is researching a topic using library, need to
-  check relevant books. They ask librarian (expert on finding
-  information) for books on certain topics so journalist (expert on
-  content) can assess. Users trust the data in books.
-  - RAG similarities:
-    - User/machine (journalist) has questions
-    - Prompt uses LLM
-    - Get multiple sources of data, put data in vector database (math
-      representation of structured and unstructured data).
-    - LLM uses vector database to provide answers
-- Risk mitigation of bias, hallucinations:
-  - Verify input data quality is clean, governed
-  - Choose appropriate LLM
+Use case: Journalist is researching a topic using library, need to check
+relevant books. They ask librarian (expert on finding information) for
+books on certain topics so journalist (expert on content) can assess.
+Users trust the data in books.
+
+RAG similarities:
+
+- User/machine (journalist) has questions
+- Prompt uses LLM
+- Get multiple sources of data, put data in vector database (math
+  representation of structured and unstructured data).
+- LLM uses vector database to provide answers
+
+Risk mitigation of bias, hallucinations involve (1) Verify input data
+quality is clean, governed and (2) choose appropriate LLM
 
 ## See Also
 

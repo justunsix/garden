@@ -4,9 +4,6 @@ id: b8c0b8a1-f1ed-4f17-bf4b-8c03498760ff
 title: Fish Shell Snippets
 ---
 
-[Source: Fish
-Tutorial](https://fishshell.com/docs/current/tutorial.html)
-
 ``` bash
 
 # Open Help
@@ -62,13 +59,16 @@ history delete -c substring
 # Print Working Directory
 pwd
 
-# Navigate to recent directories
+# Change directory, Navigate to recent directories
 cdh
 
-# Move backward in directory history
+# Change to previous directory, see also Alt + left, right arrow
+cd -
+
+# Change directory, Move backward in directory history
 prevd
 
-# Move forward in directory history
+# Change directory, Move forward in directory history
 nextd
 
 # Combine commands with &&
@@ -82,17 +82,23 @@ cp file1 file1_bak && cp file2 file2_bak; and echo "Backup successful"; or echo 
 
 ### Resources
 
-[Tutorial](https://fishshell.com/docs/current/tutorial.html) and
-[interactive
-use](https://fishshell.com/docs/current/interactive.html#interactive-use)
-for more:
+- [Tutorial](https://fishshell.com/docs/current/tutorial.html) and
+  [interactive
+  use](https://fishshell.com/docs/current/interactive.html#interactive-use)
+  for more:
 
 - if else
+
 - Functions
+
 - while true loops
+
 - fish configuration
+
   - autoloading functions
+
 - Interactive
+
   - Autosuggestions and completions
   - Writing your own completions
   - Syntax highlighting

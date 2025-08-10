@@ -18,10 +18,10 @@ web frameworks and libs written in
 Rust](https://github.com/flosse/rust-web-framework-comparison).
 Recommendations based on accessibility and productivity:
 
-- egui
-- Leptos
 - [Dioxus](https://dioxuslabs.com/) - full stack cross platform app and
   web for Rust
+- egui
+- Leptos
 - [Tauri](https://tauri.app/) - cross platform app platform
   - Example: <https://github.com/readest/readest>
 
@@ -31,6 +31,6 @@ Recommendations based on accessibility and productivity:
 
 Where to find trusted, recommended crates
 
-- [Blessed.rs](https://blessed.rs/)
 - [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
+- [Blessed.rs](https://blessed.rs/)
 - [Lib.rs](https://lib.rs/)

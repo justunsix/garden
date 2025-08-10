@@ -106,8 +106,8 @@ Set(
 ## See Also
 
 - [Artificial Intelligence
-  (AI)](id:bfe7af6c-9a91-4f3e-a98c-60ed67b8285a) ([Artificial
-  Intelligence (AI)](../006-3-tech-ai-artificial-intelligence)
+  (AI)](../006-3-tech-ai-artificial-intelligence) - [Artificial
+  Intelligence (AI)](id:bfe7af6c-9a91-4f3e-a98c-60ed67b8285a)
 - [Create Power Platform solutions with AI and
   Copilot](../005-tech-microsoft-power-platform-ai-solutions-and-copilot) -
   [Create Power Platform solutions with AI and

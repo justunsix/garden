@@ -12,8 +12,6 @@ title: JavaScript Libraries
     example usage with Python
 - [Playwright](https://playwright.dev/) - End to end, browser, web based
   testing
-- [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) -
-  HTML, XML parser
 
 ## See Also
 
