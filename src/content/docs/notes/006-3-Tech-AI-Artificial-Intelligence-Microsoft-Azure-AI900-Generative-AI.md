@@ -14,6 +14,7 @@ Azure](https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-az
 
 Use cases for generative AI can be:
 
+- Create new content like natural language, text, image, video
 - Assistants and custom ones to build on for complex applications like
   use of agents
 - Analyze and use data
@@ -34,7 +35,11 @@ Use cases for generative AI can be:
 ## Large Language Models (LLM) and How they work
 
 A LLM is specialized type of machine learning model to do natural
-language processing (NLP) tasks
+language processing (NLP) tasks.
+
+Data, processors and time are used to train LLMs which results in
+billions-trillions of parameters. More parameters means more ability of
+the LLM.
 
 ### Tokens and Tokenization
 
@@ -198,10 +203,10 @@ Example of indexing:
 ### About Attention
 
 Transformers use of attention instead of recurrence to determine context
-and provides an alternative to RNNs. RNNs are compute intensive since
-they process words sequentially, Transformers don't process words
-sequentially and instead process each word independently in parallel by
-using attention.
+and relationships in words. Transformers provide an alternative to RNNs.
+RNNs are compute intensive since they process words sequentially,
+Transformers don't process words sequentially and instead process each
+word independently in parallel by using attention.
 
 Attention (also referred to as self-attention or intra-attention) is a
 way to map new information to learned information in order to understand
@@ -280,7 +285,7 @@ proprietary.
 
     LLM:
 
-    - GPT-4
+    - GPT-4, Generative Pre-trained Transformer (GPT)
     - Mistral 7B
     - Llama 3
 
@@ -293,6 +298,10 @@ proprietary.
     More examples of models and use at [AI
     Models](../006-3-tech-ai-models) - [AI
     Models](id:65533479-7d6e-4726-92f8-fb66177a39c6)
+
+    Models will have different context sizes, which is how much input
+    they can take in prompts and output windows. For example, GPT 4
+    Turbo has 128k context window and 4k output.
 
 ## Improve Prompt Results
 
@@ -314,6 +323,14 @@ Go through a process with Generative AI by letting the AI know:
 Example: summarize the key considerations for using AI (1) described in
 this document (2) for a corporate executive (3). For the summary as no
 more than six bullet points with professional tone (4).
+
+For context (2), optional examples can be used with these methods:
+
+- Zero shot - provide examples of what you want
+- Few shot - provide a couple examples of what you want
+
+Information sources (3) provide grounding for the model like documents,
+emails.
 
 Prompts can be added with:
 
@@ -420,7 +437,18 @@ AI capabilities:
 Solutions can combine these capabilities and others like other AI
 components to work together which is known as orchestration.
 
-1.  Framework for understanding generative AI applications
+1.  Orchestrator, Generative AI as a Service
+
+    Microsoft Copilot is an example of a generative AI solution and
+    orchestrator that calls generative AI models, gets data from sources
+    like web or grounding data, and other executes other resources to
+    complete user requests. It is multi-modal can both take media as
+    input and also make media output.
+
+    For example, Copilot can call GPT for NLP and generative text
+    content and DALL-E for image generation.
+
+2.  Framework for understanding generative AI applications
 
     Generative AI applications may be categorized like:
 
@@ -473,7 +501,7 @@ determine models based on performance, quality, and cost.
 
 ### Azure AI Foundry Capabilities and Demonstration
 
-The portal provides hubs and projects. Projects live in hubs. Access toe
+The portal provides hubs and projects. Projects live in hubs. Access to
 Azure AI services, Speech, Language, Vision, and Found Content Safety
 are available.
 
@@ -511,6 +539,8 @@ testing. Models can be configured.
         (RAG)](../006-3-tech-ai-retrieval-augmented-generation-rag) -
         [Retrieval Augmented Generation
         (RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23)
+
+        RAG allows grounding in existing data sources like documents.
 
     3.  Fine-tuning
 

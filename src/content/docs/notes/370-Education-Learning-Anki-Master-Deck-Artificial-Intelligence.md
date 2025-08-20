@@ -10,25 +10,50 @@ Intelligence (AI)](id:bfe7af6c-9a91-4f3e-a98c-60ed67b8285a) Some cards
 were generated with the help of Microsoft Copilot Artificial
 Intelligence (AI) and are being updated or corrected.
 
-# Areas of artificial intelligence
+# Artificial intelligence
 
-## Front
+## Areas of artificial intelligence
 
-What are the 5 areas of AI use cases and functions
+### Front
+
+What are the 6 areas of AI use cases and functions
 
 Hint: they are like human capabilities and senses
 
-## Back
+### Back
 
-1.  Generative AI - like human creativity and pattern matching
-2.  Computer Vision - like human sight
-3.  Speech - like human voice and hearing
-4.  Natural Language Processing (NLP) - like human content analysis
-5.  Extract data and insights - like human ability to follow a process
+1.  Machine learning - like human learning
+2.  Generative AI - like human creativity and pattern matching
+3.  Computer Vision - like human sight
+4.  Speech - like human voice and hearing
+5.  Natural Language Processing (NLP) - like human content analysis
+6.  Extract data and insights - like human ability to follow a process
     and analysis
 
 Bonus: Responsible AI - human ability for audit, monitoring, checking,
 and inclusion is required in application of AI.
+
+## Power of Machine Learning
+
+### Front
+
+What human capability is machine learning like and how might it be used
+and compared to traditional computer programming?
+
+### Back
+
+Machine learning is like human learning where a computer can be
+trained/learn using an algorithm to predict the correct human
+capability.
+
+In comparison to programming a computer to do human functions precisely
+like coding all shapes of an orange for a computer to recognize. With
+machine learning, the machine can be trained to do any tasks using
+predictions as long as there is data of the input and what the task
+completed looks like.
+
+The data are features like what an orange looks like and labels like
+whether it is an orange or type of oranges.
 
 # Introduction to Artificial Intelligence Microsoft Azure AI-900
 
@@ -116,10 +141,8 @@ and inclusion is required in application of AI.
 
 2.  Back
 
-    A confusion matrix visualizes the performance of a classification
-    model.
-
-    A matrix with the number of correct and incorrect predictions for
+    A confusion matrix visualizes the accuracy of a classification model
+    with a matrix of the number of correct and incorrect predictions for
     each possible class label like:
 
     |     |       |       |
@@ -302,6 +325,121 @@ and inclusion is required in application of AI.
       by looking at the encoder's representation and predicting the next
       token in the sequence
 
+### Predicting use cases
+
+1.  Front
+
+    What type of machine learning should be used for these use cases?
+
+    1.  If you need to predict the sea level in meter for the next 10
+        years
+    2.  If you need to predict the hours of overtime for an office
+        worker given the number of incidents they receive?
+
+    Examples: classification, regression, clustering
+
+2.  Back
+
+    Regression because the values predicted will be numeric values in
+    meters for \#1 and hours in \#2.
+
+    The trained model uses a labeled dataset and regression gets a
+    relationship between feature variables like the sea level in meters
+    in the training data, allowing it to make predictions.
+
+### Automated ML
+
+1.  Front
+
+    Which of the following statements are true about automated machine
+    learning?
+
+    1.  It can automate iterative tasks of model development
+    2.  It can automatically infer training data from the use case
+    3.  It runs multiple training iterations that are scored and ranked
+        with user provided metrics
+    4.  It allows setting a dataset and understanding which labels to
+        predict
+
+2.  Back
+
+    1.  True - AutoML can do iterations for model development
+    2.  F
+    3.  True - Azure ML creates pipelines for running in parallel and
+        tries different algorithms and parameters
+    4.  F - Automated ML uses target metrics you specify
+
+### Banking system predictions
+
+1.  Front
+
+    A banking system can use the <u>\_</u> type of machine learning to
+    predict whether a loan will be repaid.
+
+2.  Back
+
+    Classification - The bank can use features like information about
+    the customer to predict yes or no classes for loan repayment.
+
+### Model training and setup
+
+1.  Front
+
+    Which of the following statements about models and training is true?
+
+    1.  Labelling is tagging training data with known values
+    2.  Data used for validation should be the same data used to train
+        the model
+    3.  Accuracy is always the primary metric to measure models
+
+2.  Back
+
+    1.  T - Labelled data does mean data is marked and annotated with
+        the targets for predictions
+    2.  F - a separate set of data should be set aside before training
+        to be used for validation later
+    3.  F - Accuracy is a metric for classification but may not be
+        appropriate for unbalanced data where many data points are in
+        one class or being correct in one class is more important than
+        others.
+
+### Accessing Azure Machine Learning
+
+1.  Front
+
+    After creating a web service with Azure Machine Learning for
+    inference, what two items of the following are required for
+    accessing it?
+
+    1.  Model name
+    2.  Training endpoint
+    3.  Authentication key
+    4.  REST endpoint
+
+2.  Back
+
+    C and D: The (D) REST endpoint can be accessed by an application
+    using an (C) authentication key.
+
+    SDKs are available for some services to make application development
+    easier.
+
+### Azure ML Designer first step
+
+1.  Front
+
+    You need to use the Azure Machine Learning designer to train a
+    machine learning model.
+
+    What should you do first in the Machine Learning designer?
+
+2.  Back
+
+    Before you can start training a machine learning model, you must
+    first **create a pipeline** in the Machine Learning designer. This
+    is followed by adding a dataset, adding training modules, and
+    eventually deploying a service.
+
 ## Generative AI <span class="tag" tag-name="generative"><span class="smallcaps">generative</span></span> <span class="tag" tag-name="ai"><span class="smallcaps">ai</span></span>
 
 ### What is Generative AI?
@@ -401,41 +539,6 @@ and inclusion is required in application of AI.
     Prompt engineering involves refining prompts to improve AI
     responses. It includes setting goals, context, expectations, and
     iterating to enhance relevance and quality.
-
-### What are Microsoft's principles for responsible AI?
-
-1.  Front
-
-    What are the key principles for responsible AI according to
-    Microsoft?
-
-2.  Back
-
-    - Fairness - treat all people fairly. Example: models make
-      predictions without incorporating bias
-    - Reliability and safety - Example: an autonomous vehicle or patient
-      diagnoses must be safe to use related to human life
-    - Privacy and security - training data may have personal details and
-      must be kept private, even after model deployment, sensitive data
-      must be protected
-    - Inclusiveness - AI must empower everyone and benefit all parts of
-      society, regardless of physical ability, gender, sexual
-      orientation, ethnicity, or other factors. Example: have a diverse
-      group of people test applications
-    - Transparency - systems are understandable and users know the
-      purpose of the system, how it works, and what limitations may be
-      expected. Example: a system communicates to users about its
-      accuracy, training data, and features that affect predictions.
-      When personal data like faces are use in a system, the system
-      makes clear how the personal data is handled, retained, and
-      accessed.
-    - Accountability - although many AI systems seem to operate
-      autonomously, it is the responsibility of the developers who
-      trained and validated the models they use, and defined the logic
-      that bases decisions on model predictions to ensure that the
-      system meets requirements. Example: solutions use a framework of
-      governance and principles to meet responsible and legal standards
-      that are defined.
 
 ### How do transformers improve upon RNNs?
 
@@ -669,6 +772,34 @@ and inclusion is required in application of AI.
     Generative AI builds on NLP to create new content such as text,
     images, or code.
 
+### Tokenization for NLP
+
+1.  Front
+
+    What are 4 concepts in NLP tokenization?
+
+2.  Back
+
+    - Text normalization: Before generating tokens, text is normalized
+      by removing punctuation and making all words lower case.
+      - Good for analysis purely on word frequency with high
+        performance.
+      - Some semantic meaning may be lost like example, "Mr Banks has
+        worked in many banks." where the sentence and punctuation has
+        meaning for Mr. Banks and bank.
+    - Stop word removal: Stop words are words that should be excluded
+      from the analysis. For example, "the", "a", or "it" make text
+      easier for people to read but add little semantic meaning.
+      Excluding these words, allows better identification of important
+      words.
+    - n-grams: Multi-term phrases such as "I have" or "he walked". A
+      single word phrase is a unigram, a two-word phrase is a bi-gram, a
+      three-word phrase is a tri-gram, and so on. Considering words as
+      groups allows a model to make better sense of the text.
+    - Stemming: algorithms are applied to consolidate words before
+      counting them, so that words with the same root, like "power",
+      "powered", and "powerful", are interpreted as the same token.
+
 ## Computer Vision <span class="tag" tag-name="computer"><span class="smallcaps">computer</span></span> <span class="tag" tag-name="vision"><span class="smallcaps">vision</span></span>
 
 ### What is computer vision (CV)?
@@ -701,6 +832,22 @@ and inclusion is required in application of AI.
 1.  Front
 
     What is a convolutional neural network (CNN)?
+
+    Image as a data in a computer program. An image is an array of
+    numeric pixel values.
+
+    ``` text
+
+     0   0   0   0   0   0   0
+     0   0   0   0   0   0   0
+     0   0  255 255 255  0   0
+     0   0  255 255 255  0   0
+     0   0  255 255 255  0   0
+     0   0   0   0   0   0   0
+     0   0   0   0   0   0   0
+
+    The array consists of seven rows and seven columns, representing the pixel values for a 7x7 pixel image (which is known as the image's resolution). Each pixel has a value between 0 (black) and 255 (white); with values between these bounds representing shades of gray.
+    ```
 
 2.  Back
 
@@ -769,14 +916,17 @@ and inclusion is required in application of AI.
 
 1.  Front
 
-    What are common use cases for computer vision in industry?
+    What are common use cases for computer vision in industry? Name at
+    least 3
 
 2.  Back
 
-    - Defect detection in manufacturing
+    - Defect detection in manufacturing, anomaly detection in any
+      industry
     - Medical imaging analysis
     - Retail shelf monitoring
     - Autonomous vehicle navigation
+    - Object detection and analysis in transportation, security
 
 ### What is the role of feature maps in CNNs?
 
@@ -786,8 +936,24 @@ and inclusion is required in application of AI.
 
 2.  Back
 
+    Images –\> Feature maps –\> Visual features in classification
+
     Feature maps are arrays of numeric values extracted from images
     using filters, representing visual features used for classification.
+
+### Pixel Analysis
+
+1.  Front
+
+    Which type of artificial intelligence (AI) workload provides the
+    ability to classify individual pixels in an image depending on the
+    object that they represent?
+
+2.  Back
+
+    Semantic segmentation is advanced object detection where in addition
+    to drawing a box around the object's location, it can identify
+    pixels that belong to the object.
 
 ## AI Speech <span class="tag" tag-name="ai"><span class="smallcaps">ai</span></span> <span class="tag" tag-name="speech"><span class="smallcaps">speech</span></span>
 
@@ -824,27 +990,19 @@ and inclusion is required in application of AI.
     Speech synthesis converts text into spoken audio using phonetic
     transcription and prosodic units, with customizable voice settings.
 
-### What does an acoustic model do in speech recognition?
+### What does a language and acoustic model do in speech recognition and synthesis?
 
 1.  Front
 
-    What does an acoustic model do in speech recognition?
+    What does a language and acoustic model do in speech recognition?
 
 2.  Back
 
-    It converts audio signals into phonemes, which are representations
-    of specific sounds.
-
-### What does a language model do in speech recognition?
-
-1.  Front
-
-    What does a language model do in speech recognition?
-
-2.  Back
-
-    It maps phonemes to words using statistical algorithms to predict
-    the most probable word sequence.
+    - Acoustic model that converts the audio signal into representations
+      of specific sounds, called phonemes
+    - Language model maps sounds (phonemes) to words, usually using
+      statistics to predicts the most probable sequence of words based
+      on phonemes.
 
 ### What is Azure AI Speech used for?
 
@@ -1021,3 +1179,100 @@ and inclusion is required in application of AI.
 
     An indexer ingests data, extracts content using AI skills, and
     stores it in a searchable index for querying and analysis.
+
+### Scanned documents and information extraction
+
+1.  Front
+
+    Which service can be used to extract data like text, field/data
+    pairs, and tables from scanned documents?
+
+    Which service can be used to extract totals and subtotals from an
+    invoice?
+
+2.  Back
+
+    Azure AI Content Understanding can extract data from documents with
+    structures and use schemas, for example scanning invoices and
+    analyze their data.
+
+## Responsible AI
+
+### What are Microsoft's principles for responsible AI?
+
+1.  Front
+
+    What are the key principles for responsible AI according to
+    Microsoft?
+
+2.  Back
+
+    | Risk               | Responsible AI Principle |
+    |--------------------|--------------------------|
+    | Bias               | Fairness                 |
+    | Error              | Reliability & Safety     |
+    | Data exposure      | Privacy & Security       |
+    | Not for everyone   | Inclusion                |
+    | Trust?             | Transparency             |
+    | Who is responsible | Accountability           |
+
+    - Fairness - treat all people fairly. Example: models make
+      predictions without incorporating bias
+    - Reliability and safety - Example: an autonomous vehicle or patient
+      diagnoses must be safe to use related to human life
+    - Privacy and security - training data may have personal details and
+      must be kept private, even after model deployment, sensitive data
+      must be protected
+    - Inclusiveness - AI must empower everyone and benefit all parts of
+      society, regardless of physical ability, gender, sexual
+      orientation, ethnicity, or other factors. Example: have a diverse
+      group of people test applications
+    - Transparency - systems are understandable and users know the
+      purpose of the system, how it works, and what limitations may be
+      expected. Example: a system communicates to users about its
+      accuracy, training data, and features that affect predictions.
+      When personal data like faces are use in a system, the system
+      makes clear how the personal data is handled, retained, and
+      accessed.
+    - Accountability - although many AI systems seem to operate
+      autonomously, it is the responsibility of the developers who
+      trained and validated the models they use, and defined the logic
+      that bases decisions on model predictions to ensure that the
+      system meets requirements. Example: solutions use a framework of
+      governance and principles to meet responsible and legal standards
+      that are defined.
+
+### Healthcare and responsible AI
+
+1.  Front
+
+    Which two principles of responsible artificial intelligence (AI) are
+    most important when designing an AI system to manage healthcare
+    data? Each correct answer presents part of the solution.
+
+    Example: reliability and safety, accountability, transparency,
+    inclusiveness, privacy & security
+
+2.  Back
+
+    1.  Privacy & security
+    2.  Accountability
+
+    The accountability principle states that AI systems are designed to
+    meet any ethical and legal standards that are applicable. The system
+    must be designed to ensure that privacy of the healthcare data is of
+    the highest importance, including anonymizing data where applicable.
+
+### Responsible AI Limits
+
+1.  Front
+
+    Which principle of responsible artificial intelligence (AI) raises
+    awareness about the limitations of AI-based solutions?
+
+    Example: reliability and safety, accountability, transparency
+
+2.  Back
+
+    Transparency so users understand how an AI came up with its
+    predictions and limits of the model.

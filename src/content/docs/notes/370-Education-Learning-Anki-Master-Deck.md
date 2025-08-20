@@ -1,5 +1,4 @@
 ---
-DOWNLOADED: "screenshot @ 2023-08-21 19:58:40"
 filetags: ":anki-emacs:anki-deck:epubnote:"
 id: 0f365634-db06-451f-a0ca-3699615538a1
 title: Anki Master Deck for Learning
@@ -24,27 +23,18 @@ Example Anki flash cards in Emacs
 
 ## Learning How to Learn <span class="tag" tag-name="learn2learn"><span class="smallcaps">learn2learn</span></span>
 
-### Learning how to Learn - Diffuse Thinking
+### Learning how to Learn - Diffuse method
 
-1.  Front (Example with word blanked out or missing)
+1.  Front
 
     What is a way to use diffuse mode thinking like for writing and
     address writer's block?
 
-2.  Front (Picture)
-
-3.  Front (Definitions, base word, etc.)
-
-4.  Back (a single word/phrase, no context)
+2.  Back
 
     Use mind mapping
 
-5.  \- The full sentence (no words blanked out)
-
     Avoid trying to edit or manage content, just let it flow up
-
-6.  \- Extra Info (Pronunciation, personal connections, conjugations,
-    etc)
 
     ``` txt
 
@@ -58,57 +48,29 @@ Example Anki flash cards in Emacs
                                          landscrape orientation on paper
     ```
 
-7.  • Make 2 cards? (y = yes, blank = no)
+### Learning how to learn - Chunk library
 
-8.  • Test Spelling (Insert sound file/pronunciation here to test, leave
-    blank otherwise)
-
-9.  (Copy and paste area)
-
-### Learning how to learn - chunk library
-
-1.  Front (Example with word blanked out or missing)
+1.  Front
 
     A <u>\_\_\_\_\_</u> of chunks helps combine chunks in new and
     creative ways. The concept of <u>\_\_\_\_\_</u> is making connection
     between chunks across disciplines that helps with problem solving.
 
-2.  Front (Picture)
-
-    <figure>
-    <img src="../media/20230812-160352_screenshot.png" />
-    <figcaption>library of chunks and chunk as a ribbon going into working
-    memory</figcaption>
-    </figure>
-
-3.  Front (Definitions, base word, etc.)
-
-4.  Back (a single word/phrase, no context)
+2.  Back
 
     - Library of chunks - A person learns chunks over time and can be
       combined for problem solving and applications
     - Transfer - when the library can help with learning related chunks
       in other disciplines
 
-5.  \- The full sentence (no words blanked out)
+    Application of chunks and solutions:
 
-6.  \- Extra Info (Pronunciation, personal connections, conjugations,
-    etc)
-
-    - Application of chunks and solutions:
-      - Sequential: step by step
-      - Holistic (global): intuition and diffuse thinking
-
-7.  • Make 2 cards? (y = yes, blank = no)
-
-8.  • Test Spelling (Insert sound file/pronunciation here to test, leave
-    blank otherwise)
-
-9.  (Copy and paste area)
+    - Sequential: step by step
+    - Holistic (global): intuition and diffuse thinking
 
 ### Learning How to Learn - Mindset
 
-1.  Front (Example with word blanked out or missing)
+1.  Front
 
     What are pros and cons of the following?
 
@@ -116,19 +78,7 @@ Example Anki flash cards in Emacs
     - Einstellung (German for "mindset")
     - Interleaving
 
-2.  Front (Picture)
-
-    <figure>
-    <img src="../media/20230812-155956_screenshot.png" />
-    <figcaption>Chunks in the mind and Einstellung "roadmap" prefers a
-    certain pattern, which a thought may try to jump to first</figcaption>
-    </figure>
-
-3.  Front (Definitions, base word, etc.)
-
-4.  Back (a single word/phrase, no context)
-
-5.  \- The full sentence (no words blanked out)
+2.  Back
 
     - **Overlearning** = When learning something, sometimes we
       learn/practice it over and over again
@@ -149,9 +99,6 @@ Example Anki flash cards in Emacs
       - Builds flexibility and creativity and allows independent
         thinking
 
-6.  \- Extra Info (Pronunciation, personal connections, conjugations,
-    etc)
-
     Application:
 
     - Allows cross-discipline application of knowledge
@@ -164,48 +111,19 @@ Example Anki flash cards in Emacs
       - People used to old ways gradually leave the field, allowing
         changes
 
-7.  • Make 2 cards? (y = yes, blank = no)
+### Learning How to Learn - Law of Serendipity
 
-8.  • Test Spelling (Insert sound file/pronunciation here to test, leave
-    blank otherwise)
-
-9.  (Copy and paste area)
-
-### Law of Serendipity :
-
-1.  Front (Example with word blanked out or missing)
+1.  Front
 
     What is the Law of Serendipity?
 
-2.  Front (Picture)
+2.  Back
 
-    <figure>
-    <img src="../media/20230821-195840_screenshot.png" />
-    <figcaption>Law of Serendipity, lady luck favours the one who
-    tries</figcaption>
-    </figure>
-
-3.  Front (Definitions, base word, etc.)
-
-4.  Back (a single word/phrase, no context)
-
-    - Law of Serendipity: "Lady Luck favours the one who tries"
-
-5.  \- The full sentence (no words blanked out)
-
-6.  \- Extra Info (Pronunciation, personal connections, conjugations,
-    etc)
+    Law of Serendipity: "Lady Luck favours the one who tries"
 
     - Practice makes it easier, even when there are many concepts and
       chunks to take it
     - Repeated effort will make things easier
-
-7.  • Make 2 cards? (y = yes, blank = no)
-
-8.  • Test Spelling (Insert sound file/pronunciation here to test, leave
-    blank otherwise)
-
-9.  (Copy and paste area)
 
 ## See Also
 

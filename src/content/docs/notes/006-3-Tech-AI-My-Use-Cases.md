@@ -4,9 +4,23 @@ id: 180e6223-6f26-44bc-956d-a1df14bc4ee4
 title: My Use Cases for AI
 ---
 
+## Use Cases and AI Strategy
+
+Source: [AI strategy - Cloud Adoption Framework \| Microsoft
+Learn](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/strategy?ns-enrollment-type=Collection&ns-enrollment-id=p64xbztoj1kkk5#define-an-ai-technology-strategy)
+
+How to identify AI use cases:
+
+- Automation opportunities: find repetitive tasks, data heavy
+  operations, task high error rates
+- Ask users how theu could be more satisfied
+- Assess organization and industry with survey to find challenges and
+  inefficiencies
+- Set AI performance targets
+
 ## Common Use Cases
 
-### Industry use cases from Microsoft
+### Industry Enterprise use cases from Microsoft
 
 - [Taiwan hospital deploys AI copilots to lighten workloads for doctors,
   nurses and
@@ -31,8 +45,12 @@ title: My Use Cases for AI
 - [Amid health-care crunch, AI applications add flexibility and provide
   more time for
   patients](https://news.microsoft.com/source/emea/features/amid-health-care-crunch-ai-applications-add-flexibility-and-provide-more-time-for-patients/)
+  - Health care person scheduling system that takes into account nurse
+    availability, coverage, and specific changes
+  - System could reduce time spent on scheduling and make it easier to
+    make scheduling requests and approvals
 
-### Assistant
+### Personal use cases, Assistant
 
 From [azure-openai-samples/quick<sub>start</sub> at main ·
 Azure/azure-openai-samples ·
@@ -46,18 +64,18 @@ GitHub](https://github.com/Azure/azure-openai-samples/tree/main/quick_start)
   - Business intelligence & analytics
     - Summarizing data
   - Legal and compliance
-- Writing:
+- Writing
   - Programming
   - Text
   - Review and editing
   - Report writing
 - Integration of processes
-- Image analysis
+- Image, Video, Media analysis
   - Content creation
   - Accessibility
   - Classification
 - Business service
-  - Personalised service
+  - Personalized service
   - Data processing
     - Calculations
   - Financial, cost management
@@ -87,3 +105,10 @@ GitHub](https://github.com/Azure/azure-openai-samples/tree/main/quick_start)
 - Common patterns, API, and code option exploration
 - Code creation from prompts and changes (ex. test cases, upgrades,
   version changes), translation
+
+## See Also
+
+- [Introduction to AI in Microsoft Azure
+  AI-900](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
+  [Introduction to AI in Microsoft Azure
+  AI-900](id:dd87d682-2c98-4272-acb2-eafa6ebabf78)

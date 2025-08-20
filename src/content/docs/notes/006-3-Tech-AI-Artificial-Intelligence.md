@@ -76,35 +76,39 @@ title: Artificial Intelligence (AI)
 
 ### Microsoft Training
 
-- [Microsoft Azure AI Fundamentals, Generative
-  AI](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
-  [Microsoft Azure AI Fundamentals: Generative
-  AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3)
-- [Microsoft Power Platform and
-  AI](../005-tech-microsoft-power-platform-ai) - [Microsoft Power
-  Platform and AI](id:d85c6b3c-b675-46bd-8399-7919d2a3a6b3)
-- [Microsoft Artificial Intelligence (AI)
-  Fundamentals](../006-3-tech-microsoft-ai-artificial-intelligence-fundamentals)
-  -[Microsoft Artificial Intelligence (AI)
-  Fundamentals](id:9db12dce-1cba-49a1-820b-bc0ba62c24da)
-- [Microsoft AI Chatbots in Lowcode Apps and
-  Websites](../006-3-tech-microsoft-ai-chatbots-in-lowcode-apps-and-websites) -
-  [Microsoft AI Chatbot in Lowcode Apps and
-  Websites](id:8d906108-2a1c-4768-9696-2f48560c3711)
-- [Microsoft Azure OpenAI](../006-3-tech-ai-openai-azure) - [Microsoft
-  Azure OpenAI](id:5f3fb72d-cc33-4c99-b553-5962dc6909e7)
-- [Create Power Platform solutions with AI and
-  Copilot](../005-tech-microsoft-power-platform-ai-solutions-and-copilot) -
-  [Create Power Platform solutions with AI and
-  Copilot](id:09ea5ea0-19da-40ca-bb27-f78ed8938e2f)
 - [AI Builder and Power Platform Apps and
   Automate](../006-3-tech-microsoft-ai-builder-and-power-platform) - [AI
   Builder and Power Platform Apps and
   Automate](id:1412a840-ce18-41a6-b292-ce89c70562f4)
+- [Create Power Platform solutions with AI and
+  Copilot](../005-tech-microsoft-power-platform-ai-solutions-and-copilot) -
+  [Create Power Platform solutions with AI and
+  Copilot](id:09ea5ea0-19da-40ca-bb27-f78ed8938e2f)
+- [Develop AI solutions in Azure
+  AI-102](../006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102) -
+  [Develop AI solutions in Azure
+  AI-102](id:dc608ccd-b4bc-4820-8bfa-e522c827e6f8)
 - [Introduction to AI in Microsoft Azure
   AI-900](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
   [Introduction to AI in Microsoft Azure
   AI-900](id:dd87d682-2c98-4272-acb2-eafa6ebabf78)
+- [Microsoft AI Chatbots in Lowcode Apps and
+  Websites](../006-3-tech-microsoft-ai-chatbots-in-lowcode-apps-and-websites) -
+  [Microsoft AI Chatbot in Lowcode Apps and
+  Websites](id:8d906108-2a1c-4768-9696-2f48560c3711)
+- [Microsoft Artificial Intelligence (AI)
+  Fundamentals](../006-3-tech-microsoft-ai-artificial-intelligence-fundamentals)
+  -[Microsoft Artificial Intelligence (AI)
+  Fundamentals](id:9db12dce-1cba-49a1-820b-bc0ba62c24da)
+- [Microsoft Azure AI Fundamentals, Generative
+  AI](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
+  [Microsoft Azure AI Fundamentals: Generative
+  AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3)
+- [Microsoft Azure OpenAI](../006-3-tech-ai-openai-azure) - [Microsoft
+  Azure OpenAI](id:5f3fb72d-cc33-4c99-b553-5962dc6909e7)
+- [Microsoft Power Platform and
+  AI](../005-tech-microsoft-power-platform-ai) - [Microsoft Power
+  Platform and AI](id:d85c6b3c-b675-46bd-8399-7919d2a3a6b3)
 
 ## Services
 

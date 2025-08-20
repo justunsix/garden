@@ -46,13 +46,18 @@ Computer vision capabilities categories:
 Image as a data in a computer program. An image is an array of numeric
 pixel values.
 
-> 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 0 0 0 0 255 255 255 0 0 0
-> 0 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
->
-> The array consists of seven rows and seven columns, representing the
-> pixel values for a 7x7 pixel image (which is known as the image's
-> resolution). Each pixel has a value between 0 (black) and 255 (white);
-> with values between these bounds representing shades of gray.
+``` text
+
+ 0   0   0   0   0   0   0
+ 0   0   0   0   0   0   0
+ 0   0  255 255 255  0   0
+ 0   0  255 255 255  0   0
+ 0   0  255 255 255  0   0
+ 0   0   0   0   0   0   0
+ 0   0   0   0   0   0   0
+
+The array consists of seven rows and seven columns, representing the pixel values for a 7x7 pixel image (which is known as the image's resolution). Each pixel has a value between 0 (black) and 255 (white); with values between these bounds representing shades of gray.
+```
 
 The array of pixel values for the image is in two dimensions with rows
 and columns or x and y. Most digital images have multiple dimensions
@@ -123,7 +128,7 @@ extracting meaning where ML models recognize features in many images.
 
 1.  Convolutional neural networks (CNNs)
 
-    CNN is a type of deep learning architecture and use filters to get
+    CNN is a type of deep learning architecture and uses filters to get
     numeric feature maps from images and input the feature values to a
     deep learning model for label prediction.
 
@@ -194,10 +199,13 @@ classes of entities in the image.
 
 2.  Multi-modal models
 
-    AI researchers have looked the transformers approach to building
-    language models and considered it for image data resulting in
-    multi-modal models. These multi-modal models train on captioned
-    images with no labels.
+    Multi-modal means the model can process text, language, images, and
+    other media.
+
+    AI researchers use the transformers approach to build language
+    models and considered it for image data resulting in multi-modal
+    models. These multi-modal models train on captioned images with no
+    labels.
 
     <figure id="fig:multi-modal-model">
     <img
@@ -209,7 +217,7 @@ classes of entities in the image.
     </figure>
 
     Foundation models are pre-trained general models with language
-    encode and image encoder that can be used to build adaptive models
+    encoder and image encoder that can be used to build adaptive models
     for specialized tasks like:
 
     - Image classification: get image category
@@ -258,7 +266,7 @@ Example use cases:
 > - Museum archive management - using optical character recognition to
 >   preserve information from paper documents.
 
-### Vision Studio (trial, free)
+### Vision Studio (Can try free)
 
 Services are: Azure AI Vision including Vision Studio, Azure Face which
 is restricted by responsible AI use
@@ -332,7 +340,7 @@ shapes</figcaption>
     Azure AI Face can locate human faces as well as:
 
     > - Accessories: indicates whether the given face has accessories.
-    >   This attribute returns possible accessories including headwear,
+    >   This attribute returns possible accessories including hats,
     >   glasses, and mask, with confidence score between zero and one
     >   for each accessory.
     > - Blur: how blurred the face is, which can be an indication of how

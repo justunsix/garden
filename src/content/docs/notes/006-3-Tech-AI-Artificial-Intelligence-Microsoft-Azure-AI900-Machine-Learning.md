@@ -38,9 +38,9 @@ level and other measurements.
 ``` txt
 
 Evaluate model; compare labels to predict y(x)
-        |                       |
-
-Training data -> Algorithm -> Model
+        |                         |
+        |                         |
+Training data --> Algorithm --> Model
         |                |
         |                |
 Features (x), Label (y)  |
@@ -62,9 +62,9 @@ An ML model is software that encapsulates a function to calculate an
 output value y = f(x) using input values x
 
 When training is completed, the model is used for inferencing and
-wrapped inside a software program. Users can input x values to get a y
-output. Sometimes output from the function shown as ŷ (called "y-hat")
-to indicate it is a calculated prediction and not an observed value like
+wrapped inside software. Users can input x values to get a y output.
+Sometimes output from the function shown as ŷ (called "y-hat") to
+indicate it is a calculated prediction and not an observed value like
 the original training data labels.
 
 ## Type of Machine Learning (ML), Options
@@ -99,9 +99,9 @@ Data Format:
     - Multiclass - predict a label that represents one of multiple
       possible classes: species of penguin based on height
       - Models be trained to predict mutually exclusive labels. However,
-        some algorithms can train multilable classification, allowing
-        more than one label for an observation, like a movie categorized
-        as sci-fi and comedy
+        some algorithms can train multiple classification, allowing more
+        than one label for an observation, like a movie categorized as
+        sci-fi and comedy
 - Unsupervised Learning (\[x1, x2, x3\]): Training data is unlabeled,
   try to find similarities in observations based on features and group
   them into cluster
@@ -471,7 +471,7 @@ top left to bottom right.
 
 ## Multiclass Classification
 
-Multiclass predict which of multiple possible classes a feature belongs
+Multiclass predicts which of multiple possible classes a feature belongs
 to.
 
 ### Example - multiclass classification
@@ -591,7 +591,7 @@ results to later build a classification model.
     point centroid reassignement</figcaption>
     </figure>
 
-### Evaluting a clustering model
+### Evaluating a clustering model
 
 With no labels to compare to, evaluation is based on how well resulting
 cluster are separate from one another, similar to uniqueness.
@@ -633,6 +633,38 @@ calculate values for y-hat. Iterations involve validating the variance
 in y-hat and y values (level of error or loss in the model) and
 modifying weights (w) to reduce loss. The final model includes weight
 values that result in most accurate predictions.
+
+### Simplified neural network diagram
+
+<div class="captioned-content">
+
+<div class="caption">
+
+All neurons have connections with ones in the next layer and the are
+multiple layers, but not shown in detail in this diagram
+
+</div>
+
+``` text
+
+            Middle layers:
+            Activation Function with weights for each
+            neuron to neuron connection
+
+              O
+Input Layer  /|\
+            | | |              Output Layer
+      O-----O-O-O-O-O-O        with softmax function
+      /\    |/|\|/|\|/|\       applied for probability
+      O-----O-O-O-O-O-O-O---------------O
+       \    |/|\|  /|\|/|\ /
+        ----O-O-O--O-OO-O---------------O
+            \|/    \|/
+             O      O
+
+```
+
+</div>
 
 ### Example - Using deep learning for classification
 
@@ -861,8 +893,8 @@ Example implementations:
       determined for its vector embedding. Vector values are based on
       relationship between token and other tokens it frequently appears
       with. Context is taken so the same word may have multiple
-      embeddings depending on context. Example "the bark of a tree" and
-      "I heard a dog bark".
+      embedding values depending on context. Example "the bark of a
+      tree" and "I heard a dog bark".
 
     - Decoder block: attention layers help predict the next token in
       sequence. For each token generated, the model has an attention
@@ -907,7 +939,7 @@ Example implementations:
 
     1.  Token embeddings are fed into the attention layer
     2.  Decoder predicts the next token in the sequence, a vector in
-        line with an embedding in the model’s vocabulary.
+        line with an embedding in the model's vocabulary.
     3.  Attention layer evaluates the sequence so far and assigns
         weights to each token to represent their relative influence on
         the next token.
@@ -963,10 +995,13 @@ Transformer Model
 
 1.  Language Models
 
-    Data -\> Encoder -\> Transformer Model (Vector DB) uses embeddings
+    ``` text
 
-    ||
-    ||
+    Data -> Encoder -> Transformer Model (Vector DB) uses embeddings
+                            |
+                            |-> Decoder -> Output
+
+    ```
 
     Tokenisation - transforms sentence words to numbers, a mathematical
     translation of words to tokens; 1 token is about 4 characters
@@ -996,6 +1031,9 @@ Section looks at how to design a ML solution with Microsoft Azure using
     experiment.
 5.  Integrate the model - deploy to an endpoint
 6.  Monitor - check the model's performance
+
+Models can be used in Azure Machine Learning as well as be exported for
+outside use.
 
 ### Define the Problem (Use Case)
 
@@ -1084,8 +1122,8 @@ Common ML tasks are:
         Supports:
 
         - Data preparation
-        - Training and evaluating machine learning models.
-        - Registering and managing trained models.
+        - Training and evaluating machine learning models
+        - Registering and managing trained models
         - Deploying models for use
         - Applying responsible AI
 
@@ -1094,7 +1132,7 @@ Common ML tasks are:
         - Storage and management of data for model training and
           evaluation
         - Automated ML (AutoML) allowing multiple training jobs
-          (algorithms, paratmers) to find the best model
+          (algorithms, parameters) to find the best model
         - Pipelines for training and inferencing
         - Integration with ML frameworks like MLflow
         - Metric visualization and evaluation, like check against

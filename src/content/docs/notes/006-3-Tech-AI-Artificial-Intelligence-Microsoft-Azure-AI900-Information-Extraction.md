@@ -52,9 +52,9 @@ Example use cases:
 - In context of learning and personal use, a student wants to extract
   key concepts and terms from their class notes and classroom documents.
   To help the student prepare for an exam, extracted class and note data
-  will be processed by generative AI to create flash cards for the
-  student to use and search on. This use case matches generative AI and
-  multi-model analysis of structured data.
+  will be processed by generative AI and the student to create flash
+  cards for the student to use and search on. This use case matches
+  generative AI and multi-modal analysis of structured data.
 
 AI information extraction means getting meaning from content.
 
@@ -207,12 +207,12 @@ information:
 - Azure AI Vision Image Analysis: extract insights from images,
   including the detection and identification of common objects in
   images, captions and tagging for images, and text extraction
-- Azure AI Content Understanding: generative AI-based multimodal
+- Azure AI Content Understanding: generative AI-based multi-modal
   analysis service that can extract insights from structured documents,
   images, audio, and video.
 - Azure AI Document Intelligence: extract fields and values from digital
   (or digitized) forms, such as invoices, receipts, purchase orders, and
-  others.
+  others. Parts were formerly called Forms Recognizer.
 - Azure AI Search: AI-assisted indexing where pipeline of AI skills are
   used to extract and index information from structured and unstructured
   content.
@@ -289,7 +289,7 @@ documents like business cards and menus.
 
 2.  Object detection
 
-    Detect comon objects and people in images and provide their
+    Detect common objects and people in images and provide their
     locations as bounding box coordinates
 
 3.  Optical character recognition (OCR)
@@ -360,9 +360,12 @@ be created.
 
 ### Create a knowledge mining solution with Azure AI Search
 
-Search combines AI search on your data and includes insights. As a
-service, it can index information, then do media analysis (image, PDF,
-hand writing, documents).
+Use case: You have lots of information and need to find information in
+it and analysis of it.
+
+Azure AI Search combines AI search on your data and includes insights.
+As a service, it can index information, then do media analysis (image,
+PDF, hand writing, documents).
 
 1.  Indexers, indexes, and skills
 
@@ -383,7 +386,8 @@ hand writing, documents).
           sentiment or named entities.
         - Using Azure AI Document Intelligence to extract field values
           from forms.
-    - Store extracted fields as an index.
+    - Store extracted fields as an index like a text and vector hybrid
+      store
 
     The resulting index can be used to enable users to search for
     information in the extracted fields based on keywords and filters.

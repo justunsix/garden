@@ -13,12 +13,48 @@ Learn](https://learn.microsoft.com/en-us/training/modules/recognize-synthesize-s
 ## Introduction
 
 AI speech can help with management system with voice, get answers with
-spoken questions to computers, and creating captions fo audio/video.
+spoken questions to computers, and creating captions for audio/video.
 
 Two capabilities are required for those functions:
 
 - Speech recognition - the ability to detect and interpret spoken input
 - Speech synthesis - the ability to generate spoken output
+
+``` text
+
+     synthesis
+Text --------> Speech 
+  /\              |
+  |               |
+  +---------------+
+    transcription
+
+Can also do translation
+
+```
+
+``` plantuml
+
+Text -> Speech: synthesis
+Speech -> Text: transcription
+
+```
+
+``` text
+
+┌────┐           ┌──────┐
+│Text│           │Speech│
+└──┬─┘           └───┬──┘
+   │   synthesis     │
+   │────────────────>│
+   │                 │
+   │ transcription   │
+   │<────────────────│
+┌──┴─┐           ┌───┴──┐
+│Text│           │Speech│
+└────┘           └──────┘
+
+```
 
 ## Speech recognition and synthesis
 

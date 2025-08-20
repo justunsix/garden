@@ -5,7 +5,7 @@ id: 1403756e-8640-481a-9f4c-215070a04576
 title: Learning Skills for Engineering Career in AGI
 ---
 
-Source: My person notes and thoughts on [How to Future-Proof Your
+Source: My personal notes and thoughts on [How to Future-Proof Your
 Software Engineering Career for the Age of AGI -
 victoria.dev](https://victoria.dev/how-to-future-proof-your-software-engineering-career-for-the-age-of-agi/)
 

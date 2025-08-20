@@ -23,8 +23,18 @@ sight, prediction, pattern recognition, hearing, and information
 extraction. AI is approximating what the brain is doing using
 computation.
 
-Use cases for AI support these types of activities according to the AI
-technology area that mimics human capabilities:
+Use cases for AI support these types of activities according to which
+human capability to mimic:
+
+Machine Learning - like human learning
+
+- In comparison to programming a computer to do human functions
+  precisely, the idea in machine learning is a computer can be
+  trained/learn using an algorithm to predict the correct human
+  capability given labeled input data.
+- This learning can be applied to any task as long as there is data of
+  the feature like what an orange looks like (features) and whether it
+  is an orange or type of oranges (label).
 
 Generative AI - like human creativity and pattern matching
 
@@ -63,7 +73,7 @@ analysis
 
 - Processing of forms in a business process like an expense claim
 - Make paper forms digital, for example scanning and archiving records
-- Indexing documents for search
+- Indexing documents for search and insights
 - Find key points and actions in a meeting transcript or recording
 
 Responsible AI - like human ability for audit, monitoring, checking, and
@@ -106,7 +116,7 @@ images and predict appropriate labels.
 
 Object detection is when a model is trainer to identify the location of
 specific objects in an image. Semantic segmentation is advanced object
-detection where in addiont to drawing a box around the object's
+detection where in addition to drawing a box around the object's
 location, it can identify pixels that belong to the object.
 
 Computer vision and language models can be combined to create a
@@ -140,7 +150,7 @@ tasks like these can be more cost effective using NLP:
 ### Extract data and insights
 
 Optical character recognition (OCR) and computer vision allow documents
-to be read and analyzed. The OCR odel can identify the location of text
+to be read and analyzed. The OCR model can identify the location of text
 in an image and advanced models can interpret values in the document and
 get specific fields.
 
@@ -149,7 +159,18 @@ models that extract information from other media like audio and video.
 
 ### Responsible AI
 
-AI must be created with these principles:
+There are risks in using technology:
+
+| Risk                           | Mitigation           |
+|--------------------------------|----------------------|
+| Bias                           | Fairness             |
+| Error                          | Reliability & Safety |
+| Data exposure                  | Privacy & Security   |
+| Not for everyone               | Inclusion            |
+| Distrust of results            | Transparency         |
+| Who is responsible, governance | Accountability       |
+
+AI must be created with these principles to address the risks:
 
 - Fairness: includes inclusive data, attention of unconscious bias, and
   testing for fairness
@@ -158,7 +179,7 @@ AI must be created with these principles:
 - Privacy and security: training data is protected, sensitive data is
   not disclosed and is secured
 - Inclusiveness: services should be open to everyone and AI solutions
-  must not excluse some users
+  must not exclude some users
 - Transparency: users are aware of how system works and its limits
 - Accountability: people and organizations giving AI solutions are
   accountable for AI actions and must have a governance framework with
@@ -224,6 +245,91 @@ group and data centre location like Canada Central.
   Labs](id:dea94cad-796a-4c53-bf8a-99d0a9e88934) - Exercises from
   Microsoft Learn course modules
 
+## Mind Map of AI Use cases with Azure AI Services
+
+Note for individual Azure AI Services, there is usually a free pricing
+tier of the resource.
+
+``` plantuml
+@startmindmap
+
++ Azure AI Use Cases
+++ Machine Learning
++++ Data preparation, loading, analytics
+++++ Azure Databricks
+++++ Microsoft Fabric and Power BI reports
+++++ Azure AI Services
++++ Model training, data preparation, pipelines
+++++ Azure Machine Learning
+++++ Azure Machine Learning Studio
++++++[#lightgreen] Example: Setting up a a model for a specific task
++++ Model training, compute allocation and iterative tasks
+++++ Automated ML
+-- Generative AI
+--- Chat
+---- Copilot Chat
+--- Model catalog and deployment
+---- Azure AI Foundry
+---- Azure AI Foundry Portal
+-----[#lightgreen] Example: Write email for communication
+---- Azure AI Foundry Model catalog
+--- Conversational AI
+---- Copilot Studio
+--- Integration with Speech, Language, Vision
+---- Azure AI Foundry hubs
+-- Speech
+--- Translation, recognition and synthesis
+---- Azure AI Translator
+--- Speech to text (STT)
+---- Azure AI Speech
+-----[#lightgreen] Example: Transcribing meeting audio
+--- Text to Speech (TTS)
+---- Azure AI Speech
+-----[#lightgreen] Example: Reading aloud a document
+++ Natural Language Processing
++++ Entity recognition, entity links, personal info identification, language detection, summarization, key phrase extraction, sentiment
+++++ Azure AI Language
+++++ Azure Language Studio, try free
++++ Conversational, FAQ
+++++ Question Answering
++++++[#lightgreen] Example: Chatbot to answer common user questions
++++ Conversational, understanding commands, intent and entities
+++++ Conversational language understanding (CLU)
++++++[#lightgreen] Example: Execute voice commands given to a system
++++ Text, document, custom translation
+++++ Azure AI Translator
++++++[#lightgreen] Example: Translate document to another language to increase accessibility
++++ Translation and Language Integration
+++++ Azure AI Foundry
++++++ Language resource
++++++ Translator resource
++++++ Azure AI Services resources
+++ Computer Vision
++++ Experiments
+++++ Vision Studio, try free
++++ Object detection, tagging, captions, OCR
+++++ Azure AI Vision Image Analysis
++++++[#lightgreen] Example: Assess medical images for disease conditions
++++ Face detection, feature detection
+++++ Azure AI Face service, Azure AI Foundry
++++++ Detecting smiles for taking a photograph
++++ Multiple media with face, translation, image and speech
+++++ Azure AI Video Indexer
+-- Information Extraction
+--- Analyze images
+---- Azure AI Vision Image Analysis
+--- Extract insights from content
+---- Azure AI Content Understanding
+-----[#lightgreen] Example: Process and store data from submitted forms
+--- Extract fields and data from structured content, custom models
+---- Azure AI Document Intelligence
+--- Assisted search and indexing of content
+---- Azure AI Search
+-----[#lightgreen] Example: Search for mentions of a service in a business case
+
+@endmindmap
+```
+
 ## See Also
 
 - [Vector Database](../006-3-tech-ai-vector-database) - [Vector
@@ -249,26 +355,54 @@ group and data centre location like Canada Central.
 - [Microsoft Learn - Introduction to AI in Azure exercises \|
   mslearn-ai-fundamentals](https://microsoftlearning.github.io/mslearn-ai-fundamentals/) -
   Labs and Exercise from Microsoft Learn course
+- [AI-900 Study Collections and Resources \| Microsoft
+  Learn](https://learn.microsoft.com/en-us/collections/ng06cjtrzn7rx7) -
+  includes tokenizer, more training, AI and Azure, trial sites
+- [AI shared responsibility model - Microsoft Azure \| Microsoft
+  Learn](https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility-ai)
+- [AI strategy - Cloud Adoption Framework \| Microsoft
+  Learn](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/strategy?ns-enrollment-type=Collection&ns-enrollment-id=p64xbztoj1kkk5#define-an-ai-technology-strategy)
+- [Tokenizer - OpenAI Platform](https://platform.openai.com/tokenizer)
 
-1.  Study and Certification Exam
+1.  Azure AI Free / Trial Services
+
+    - [Azure AI Foundry](https://ai.azure.com/explore/aiservices) (demos
+      and resources)
+    - [Azure AI Foundry Language](https://ai.azure.com/explore/language)
+    - [Azure AI Foundry Vision and
+      Document](https://ai.azure.com/explore/aiservices/vision)
+    - [Azure AI Fountry
+      Speech](https://ai.azure.com/explore/models/aiservices/Azure-AI-Speech/version/1/registry/azureml-cogsvc/tryout)
+    - [Azure Language Studio](https://language.cognitive.azure.com/)
+    - [Azure Vision
+      Studio](https://portal.vision.cognitive.azure.com/gallery/featured)
+    - [Azure Speech Studio](https://speech.microsoft.com/portal)
+
+2.  Study and Certification Exam
 
     - [Study guide for Exam AI-900: Microsoft Azure AI Fundamentals \|
       Microsoft
       Learn](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900)
-    - [AI-900 Study Collections \| Microsoft
-      Learn](https://learn.microsoft.com/en-us/collections/ng06cjtrzn7rx7)
     - [Microsoft Certified: Azure AI Fundamentals - Certifications \|
       Microsoft
       Learn](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification#two-ways-to-prepare)
     - [AI-900 Certification Program - Instructions to
       Certify](https://learn.microsoft.com/en-us/collections/ng06cjtrzn7rx7)
 
-2.  Recorded Learning
+3.  Recorded Learning
 
     - [AI-900: Microsoft Azure AI Fundamentals -
       YouTube](https://www.youtube.com/playlist?list=PLahhVEj9XNTfFP-841X_gdJ0nmjfjfCQN)
-    - [AI-900 - Learning About Generative
-      AI](https://www.youtube.com/watch?v=Ch6KE7KxHGM&t=23s) - on
-      YouTube with John Savill
     - [AI-900 On Demand Instructor-led Training Series \| Microsoft
       Learn](https://learn.microsoft.com/en-gb/shows/on-demand-instructor-led-training-series/?terms=AI-900)
+
+4.  YouTube series with John Savill
+
+    - [AI-900 - Learning About Generative
+      AI](https://www.youtube.com/watch?v=Ch6KE7KxHGM&t=23s) -
+      transformers, encoding, attention, prompts, Azure services,
+      responsible AI
+    - [AI-900 Study Cram v2 (the non-Generative AI
+      bits)](https://www.youtube.com/watch?v=bTkUTkXrqOQ&t=1s) - ML,
+      training, Azure services and usage, computer vision, natural
+      language, speech, information extraction

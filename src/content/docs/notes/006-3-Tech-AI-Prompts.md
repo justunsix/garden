@@ -16,11 +16,75 @@ Learn](https://learn.microsoft.com/en-us/training/modules/fundamentals-generativ
 
 Good prompts provide the AI with:
 
-1.  Goal
-2.  Context
-3.  Information sources to use
-4.  Expectation on what you want
+1.  Goal (what you want), see tasks below
+2.  Context (people involved, why you need something), see job types
+    below
+3.  Information sources to use (attachments, documents, links, meetings)
+4.  Expectation on what you want (tone, type of output, format, response
+    length and details like sources)
 5.  Iterate on the previous prompt
+
+Other tips:
+
+- Use positive instructions, tell model what to do instead of what not
+  to do
+
+### Tasks and Jobs for Prompts
+
+Example Tasks and Job Types for Prompts from [Microsoft Copilot Prompts
+Gallery](https://copilot.cloud.microsoft/en-GB/prompts) with tips,
+examples with my additions
+
+1.  Tasks
+
+    - Catch up
+    - Create
+    - Ask
+    - Understand
+    - Learn
+    - Schedule
+    - Edit
+    - Prepare
+    - Analyse
+    - Code
+    - Find
+    - Design
+    - Execute
+    - Ideate
+
+2.  Job Types
+
+    1.  Department
+
+        - Accessibility
+        - Frontline Management
+        - Executive
+        - Human Resources
+        - Marketing
+        - Sales
+        - Communications
+        - Marketing
+        - Operations
+        - Finance
+        - Project Management
+        - Information Technology
+        - Customer Service
+        - Legal
+
+    2.  Industry
+
+        - Manufacturing
+        - Retail
+        - Sustainability
+        - Financial Services
+        - Energy
+        - Consumer Goods
+        - Mobility
+        - Nonprofit
+        - Government
+        - Healthcare
+        - Media and Entertainment
+        - Education - Student / Faculty
 
 ## Learning
 
@@ -33,17 +97,21 @@ the document. The cards need to help a student remember key concepts and
 terms from the document. Provide the cards so they can be copied in a
 code block. The Emacs anki-editor format for a card is:
 
-# Card Heading
-
-## Front
+``` org
+* Card Heading
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Artificial-Intelligence
+:END:
+** Front
 
 Front of card content
 
-## Back
+** Back
 
 Back card content
 
-—
+```
 
 Example output: [Anki Deck for Learning Artificial
 Intelligence](../370-education-learning-anki-master-deck-artificial-intelligence) -
@@ -71,6 +139,8 @@ same thing with these web pages on the same site?
 
 ### Resources
 
+- [Learn about Copilot
+  Prompts](https://support.microsoft.com/en-gb/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5)
 - [50 Awesome ChatGPT
   Prompts](https://www.reddit.com/r/ArtificialInteligence/comments/17k8rsn/50_awesome_chatgpt_prompts/)
   from Reddit

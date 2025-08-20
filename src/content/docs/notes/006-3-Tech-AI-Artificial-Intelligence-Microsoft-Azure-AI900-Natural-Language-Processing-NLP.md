@@ -45,8 +45,9 @@ Common NLP text analysis use cases are:
 
 It is not a Generative AI model.
 
-Text -\> Tokenization → Model with Training → NLP Use Cases like
-conversational AI which mimics conversation like a Q/A bot
+Text -\> Tokenization → Model with Training, output in tokens → NLP Use
+Cases like conversational AI which mimics conversation like a Question
+and Answering bot
 
 Azure services: language, translate, speech, custom translation
 
@@ -223,9 +224,13 @@ Azure AI Translator service: uses Neural Machine Translation (NMT) for
 translation, which analyzes the semantic context of the text and renders
 a more accurate and complete translation as a result.
 
+Try free at [Azure Language
+Studio](https://language.cognitive.azure.com/)
+
 ### Azure AI Language's text analysis capabilities
 
-They are also available in the Azure Language Studio (no sign in needed)
+They are also available in the Azure Language Studio (no sign in needed
+for demonstrations)
 
 - Named entity recognition: identifies people, places, events, other,
   and possible custom categories
@@ -330,14 +335,16 @@ They are also available in the Azure Language Studio (no sign in needed)
     creating a knowledge base of question and answer pairs that can be
     queried using natural language input.
 
+    Bot could be exposed in chat, web, and other channels.
+
 2.  Conversational language understanding (CLU) formerly Luis
 
     CLU builds language models that interpret meaning of phrases in a
     conversation.
 
-    Language understanding: command, intent, entity
+    Language understanding: command with intent, entity
 
-    Example: commands like "turn on lights"
+    Example utterance: commands like "turn on lights"
 
     - Intent: Turn on
     - Entity: Lights
@@ -369,8 +376,8 @@ and allows translating a source document into multiple languages. It has
 capabilities for:
 
 - Text translation - real time translation
-- Document translation - translatation while preserving original
-  document structure
+- Document translation - translation while preserving original document
+  structure
 - Custom translation - build customized neural machine translation (NMT)
   systems
 
