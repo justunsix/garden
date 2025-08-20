@@ -1,5 +1,5 @@
 ---
-filetags: ":machine-learning:anki-emacs:anki-deck:artificial-intelligence:ai:epubnote:"
+filetags: ":responsible-ai:machine-learning:anki-emacs:anki-deck:artificial-intelligence:ai:epubnote:"
 id: 18b5d0b7-d31c-47b0-8b5d-81541a537828
 title: Anki Deck for Learning Artificial Intelligence
 ---
@@ -1196,7 +1196,7 @@ whether it is an orange or type of oranges.
     structures and use schemas, for example scanning invoices and
     analyze their data.
 
-## Responsible AI
+## Responsible AI <span class="tag" tag-name="responsible"><span class="smallcaps">responsible</span></span> <span class="tag" tag-name="ai"><span class="smallcaps">ai</span></span>
 
 ### What are Microsoft's principles for responsible AI?
 

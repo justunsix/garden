@@ -96,8 +96,6 @@ ibankingsys --> mainframebsys : gets account information
 @enduml
 ```
 
-![](../media/plantuml-Tech-Architecture-C4-Model-for-Software-level1.png)
-
 ### Level 2 Container Diagram
 
 "Zoom into the context like a map to see more details"
@@ -149,8 +147,6 @@ apiapp -[dashed]-> ibsdb : reads from and writes to [JDBC]
 
 @enduml
 ```
-
-![](../media/plantuml-Tech-Architecture-C4-Model-for-Software-level2.png)
 
 ### Level 3 Component Diagram
 
@@ -225,8 +221,6 @@ apiapp -[dashed]-> ibsdb : reads from and writes to [JDBC]
 
     @enduml
     ```
-
-    ![](../media/plantuml-Tech-Architecture-C4-Model-for-Software-level3.png)
 
 ### Level 4 Code Diagram
 
@@ -324,8 +318,6 @@ techtribes -d-> [microservice A container] : Manage users
 
 @enduml
 ```
-
-![](../media/plantuml-Tech-Architecture-C4-Model-for-Software-element-examples.png)
 
 ## Assessing Diagram Usefulness
 

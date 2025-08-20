@@ -1,9 +1,8 @@
 ---
 filetags: ":minikube:kubernetes:k8s:snippets:epubnote:"
 id: c430e255-a071-45a5-873c-da3104149bdc
+title: Minikube Snippets
 ---
-
-0#+title: Minikube Snippets
 
 ``` shell
 
