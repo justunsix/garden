@@ -321,6 +321,9 @@ Source: :h registers, <https://www.brianstorti.com/vim-registers/>
         - To substitute all occurrences in the file type `:%s/old/new/g`
         - To ask for confirmation each time add 'c' `:%s/old/new/gc`
 
+        Search and replace also takes regex like `\d` for digits, see
+        `:help pattern-search`
+
         1.  Using do commands
 
             Source: [Search and replace in multiple files - Vim Tips
@@ -579,17 +582,18 @@ Wiki](https://vim.fandom.com/wiki/Using_marks)
 
 ## Window management and movement
 
-| Description                          | Shortcut                            |
-|--------------------------------------|-------------------------------------|
-| Move to next window                  | Ctrl + w, w                         |
-| Balance windows, resize to same size | Ctrl + w, =                         |
-| Switch to windows by direction       | Ctrl + w, hjkl                      |
-| Split frame, horizontal (top, down)  | C-w, s or :sp                       |
-| Split frame, vertical (left, right)  | C-w, v or :vsp                      |
-| Split frame, open file in new window | :sp \<file\>                        |
-| Close split frame                    | C-w c                               |
-| Close window                         | :q                                  |
-| Zoom in / Zoom out                   | Ctrl + Shift + - / Ctrl + Shift + = |
+| Description | Shortcut |  |
+|----|----|----|
+| Move to next window | Ctrl + w, w |  |
+| Balance windows, resize to same size | Ctrl + w, = |  |
+| Switch to windows by direction | Ctrl + w, hjkl |  |
+| Split frame, horizontal (top, down) | C-w, s or :sp |  |
+| Split frame, vertical (left, right) | C-w, v or :vsp |  |
+| Split frame, open file in new window | :sp \<file\> |  |
+| Close split frame | C-w c |  |
+| Close window | :q |  |
+| Zoom in / Zoom out | Ctrl + Shift + - / Ctrl + Shift + = |  |
+| Max height | \_ |  |
 
 ### Buffers
 

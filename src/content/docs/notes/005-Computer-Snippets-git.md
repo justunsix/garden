@@ -136,6 +136,14 @@ git submodule add https://github.com/chaconinc/DbConnector dbconnfolder
 git submodule init
 git submodule update
 
+# Make changes to submodule and parent repository
+cd submodule
+git commit -m"add file"
+git submodule update
+cd ..
+git add path/to/your/submodule
+git commit -m "Updated submodule to latest main branch"
+
 # Submodules - clone, initialize all submodules and update each submodule in the repository
 git clone --recurse-submodules https://github.com/chaconinc/MainProject
 

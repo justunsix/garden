@@ -1,7 +1,7 @@
 ---
 filetags: ":ripgrep:rg:snippets:epubnote:"
 id: 6e48cb97-82cb-40b9-ad4e-0ecc70d13b7b
-title: ripgrep rg Snippets
+title: Grep, ripgrep rg Snippets
 ---
 
 ``` shell
@@ -39,5 +39,28 @@ rg --hidden "word"
 # search for apple, banana and/or cherry in any order in
 # current directory's files
 rg -e --pcre2 '^(?=.*apple)(?=.*banana)(?=.*cherry).*' .
+
+# Replace output text using character groups
+rg '(\\d{3})-(\\d{3})-(\\d{4})' --replace 'xxx-xxx-$3'
+## Matches a phone number pattern and replaces all
+## previous digits with x and leaves last four digit in
+## the 3rd group
+
+```
+
+## Grep
+
+``` shell
+
+# Search all files in current directory
+grep PATTERN *
+grep -e PATTERN
+## -e use pattern after -e, helps with patterns begining with -
+
+# Search all files in current and recurive directories
+grep -r PATTERN
+
+# Case insentive search
+grep -i PATTERN
 
 ```

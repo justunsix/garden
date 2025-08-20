@@ -9,7 +9,7 @@ title: Text to Speech (TTS) and Speech to Text (STT)
 ### Open Source
 
 - Free and accessible, built into browsers: Firefox
-- Open Source TTS Source:
+- Open Source TTS from
   <https://www.datacamp.com/blog/best-open-source-text-to-speech-tts-engines>
   - [MaryTTS (Multimodal Interaction
     Architecture)](https://github.com/marytts/marytts)
@@ -17,7 +17,7 @@ title: Text to Speech (TTS) and Speech to Text (STT)
   - Others
 - [Speech Note](https://github.com/mkiol/dsnote) app
 
-### Free Options
+### Free Proprietary Options
 
 - Microsoft Edge
 - Microsoft Office - speak, reader functions depending on application

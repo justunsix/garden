@@ -32,3 +32,23 @@ plantuml path/to/diagrams
 plantuml -ttxt mydiagram.puml
 
 ```
+
+## Emacs org-mode Snippets for plantuml-mode
+
+Output to media directory and output source block in exports
+
+``` plantuml
+
+  <hit C-c ' here to open a plantuml-mode buffer and C-' to return to this org document>
+
+Alice -> Bob: test
+
+```
+
+Output to temporary file
+
+ASCII text output
+
+``` plantuml
+Bob -> Alice : Hello World!
+```

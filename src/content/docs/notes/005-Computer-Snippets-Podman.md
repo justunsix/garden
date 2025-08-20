@@ -1,5 +1,5 @@
 ---
-filetags: ":podman:snippets:epubnote:"
+filetags: ":podman:kubernetes:k8s:snippets:epubnote:"
 id: cff51a5c-156b-4f2e-a49f-17a61dd46f76
 title: Podman Snippets
 ---
@@ -24,6 +24,7 @@ podman -h
 podman search search_term
 
 # Pull an image with repository specified
+podman pull quay.io/podman/hello
 podman pull docker.io/library/httpd
 
 # Pull image from Docker Hub
@@ -94,11 +95,6 @@ podman pod inspect webapp
 # See logs
 podman logs --container redis
 
-# Windows, macOS start podman host
-podman machine start
-# List Machines
-podman machine ls
-
 # Volumes - list
 podman volume ls
 
@@ -115,3 +111,86 @@ podman run -d --name webapp -v mydata:/usr/share/nginx/html nginx
 podman volume prune
 
 ```
+
+## Podman Machines
+
+``` shell
+
+# Podman machine host for Windows, macOS start
+podman machine start
+
+# Podman machine stop
+podman machine stop
+
+# Podman machine rootful mode, stop and start after for use
+podman machine set --rootful
+
+# List Machines
+podman machine ls
+
+# Machine information
+podman machine info
+
+# podman machine connections
+podman system connection list
+
+```
+
+## Podman Desktop Setup on Windows with WSL
+
+Source: [Windows \| Podman
+Desktop](https://podman-desktop.io/docs/installation/windows-install)
+
+``` shell
+
+# pwsh: Enable WSL Feature without default Ubuntu Linux
+wsl --update
+wsl --install --no-distribution
+
+```
+
+Restart computer, then in start podman-desktop:
+
+- Run through set up of podman machine
+- With WSL choose user mode networking, leave other defaults
+- After all setup, in dashboard, verify podman is running
+
+In the background, a default podman machine will be running.
+
+## Podman Desktop with Minikube Kubernetes Cluster
+
+Source: <https://podman-desktop.io/docs/minikube>
+
+In podman desktop extensions, install minikube extensions and make sure
+minikube CLI is installed
+
+``` shell
+
+# Check profiles if any
+minikube profile list
+
+# If on Windows and WSL, require rootful machine
+podman machine stop
+podman machine set --rootful
+podman machine start
+
+# Start minikube cluster using podman driver
+minikube start -d podman
+
+# Check pods and context
+minikube kubectl get po -A
+kubectl config current-context
+kubectl get pod
+
+# Open minikube dashboard
+minikube dashboard
+
+# Stop cluster
+minikube stop
+
+```
+
+## See Also
+
+- [Minikube Snippets](../005-computer-snippets-minikube) - [Minikube
+  Snippets](id:c430e255-a071-45a5-873c-da3104149bdc)

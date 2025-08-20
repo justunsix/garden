@@ -23,7 +23,7 @@ sudo apt-get install -f
 sudo apt install ./name.deb
 
 # Combined
-sudo apt update && sudo apt upgrade -y && apt autoremove -y; sudo aptitude safe-upgrade -y
+sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y; sudo aptitude safe-upgrade -y
 
 # List all repositories used or added to apt
 grep ^ /etc/apt/sources.list /etc/apt/sources.list.d/* > apt-repos.txt

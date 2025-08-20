@@ -17,6 +17,10 @@ cargo install --list | awk '{print $1}' | xargs -I{} cargo uninstall {}
 # Install a crate from Git URL
 cargo install --git https://github.com/atuinsh/atuin/
 
+# Install cargo binaries with binstall if they are available
+cargo install cargo-binstall
+cargo binstall atuin
+
 ```
 
 ### Programming with cargo and rustc

@@ -133,9 +133,10 @@ deployment to describe how components are deployed
 
 ## Kubernetes Architecture
 
-- 2 types of nodes:
-  - Control plane
-  - Worker node
+2 types of nodes:
+
+- Control plane
+- Worker node
 
 ### Worker Node
 
@@ -228,9 +229,9 @@ See [Minikube documentation](https://minikube.sigs.k8s.io/docs/)
 
 ## Main kubectl commands
 
-See [kubectl, oc Openshift, Other K8s related command Snippets
-vSnippets](../005-computer-snippets-kubectl-oc-kube) - [kubectl, oc
-Openshift, Other K8s related command Snippets
+See [kubectl, oc Openshift, Other K8s related command
+Snippets](../005-computer-snippets-kubectl-oc-kube) - [kubectl, oc
+Openshift, Other K8s related command
 Snippets](id:1b0d6d70-3fc0-4246-bec2-425fe12d454f)
 
 Layers of Abstractions
@@ -1427,28 +1428,32 @@ K8s on cloud:
 
 ### Use Case: Templating Engine
 
-- Need: you have multiple microservices and need to deploy them and they
-  are only different by a couple lines
+Need: you have multiple microservices and need to deploy them and they
+are only different by a couple lines and/or you need to deploy the same
+solution in different clusters.
 
-- Helm allows you to define a blueprint which is a template YAML config
-  and get Values from a `values.yaml` or in command line using `--set`
-  flag when calling helm
+Helm allows you to define a blueprint which is a template YAML config
+and get Values from a `values.yaml` or in command line using `--set`
+flag when calling helm
 
 ### Use Case: Same applications across different environments
 
-- Create your own chart to re-deploy same application in different
-  environments
+Create your own chart to re-deploy same application in different
+environments
 
 ### Helm Chart Structure
 
+``` text
+
 - mychart/
   - Chart.yaml - meta info about chart
-  - values.yaml - values for template files, can have defaults for
-    override
+  - values.yaml - values for template files, can have defaults for override
   - charts/ - chart dependencies
   - templates/ - templates to be filled from values
   - README
   - LICENSE
+
+```
 
 ### Values injection into template files
 
@@ -1486,9 +1491,9 @@ See:
 ### What we will deploy
 
 - Deploy mongodb using Helm
-- 3 Stateful Sets
-- Deploy UI client using deployment file
-- Configure nginx-ingress
+- 3 Stateful Sets to support instances of mongodb
+- Deploy UI client, mongo-express, using deployment file
+- Configure ingress controller, nginx-ingress, to allow web access
 
 ### Steps
 
@@ -1512,9 +1517,14 @@ helm search repo bitnami/mongodb
 
 ```
 
-- Modify StatefulSet, root password, set StorageClass to Linode's
-  storage
-  - Create a custom helm-mongodb.yaml to override values
+Modify StatefulSet, root password, set StorageClass to Linode's storage
+
+Create a custom `helm-mongodb.yaml` to override values
+
+Look through the mongodb parameters to determine which values you want
+to configure for the deployment. For this deployment, the `architecture`
+should be `replicaset`, root password, and the volume storage will use
+Linode's cloud storage.
 
 ``` yaml
 
@@ -1527,9 +1537,11 @@ persistence:
   # Linode storage class will automatically managed storage and volumes creation
   storageClass: "linode-block-storage"
 auth:
+  rootPassword: a-password
 
 ---
 # helm-mongo-express.yaml
+# To deploy mongo express user interface and internal service
 
 apiVersion: apps/v1
 kind: Deployment
@@ -1577,6 +1589,9 @@ spec:
 
 ```
 
+Ingress rule to allow access to mongo-express. It is a configuration for
+ingress controller, for after ingress controller helm chart install
+
 ``` yaml
 
 # helm-ingress.yaml
@@ -1602,7 +1617,7 @@ spec:
 
 ```
 
-- Physical storage will be created automatically during helm install
+Physical storage will be created automatically during helm install
 
 ``` shell
 
@@ -1616,8 +1631,9 @@ kubectl get all
 # To Deploy mongoexpress, manually define configuration and get database values
 kubectl apply -f mongo-express.yaml
 
-# Set up Ingress using Helm Chart, nginx controller
+# Set up Ingress using Helm Chart, nginx controller and set value
 helm install nginx-ingress ingress-nginx/ingress-nginx --set controller.publishService.enabled=true
+## Sets up a LoadBalancer for use with External IP
 
 # Verify
 kubectl get pod
@@ -1632,10 +1648,10 @@ kubectl get ingress
 
 ```
 
-- For Linode, it has an automatically created "NodeBalancer" that
-  provides an IP that can be used to access the cluster
-- Visit the host name, note you can make changes and the data is
-  persisted
+For Linode, it has an automatically created "NodeBalancer" that provides
+an IP that can be used to access the cluster
+
+Visit the host name, note you can make changes and the data is persisted
 
 ``` shell
 
@@ -1650,12 +1666,12 @@ helm ls
 
 # Remove mongodb, Helm will reverse all changes
 # Persistent volumes will remain
-heml uninstall mongodb
+helm uninstall mongodb
 
 ```
 
-- In Linode, you can delete the cluster and the NodeBalancer to return
-  to the beginning
+In Linode, you can delete the cluster and the NodeBalancer to return to
+the beginning.
 
 ## Deploying Images in Kubernetes from private Docker repository
 
@@ -1726,8 +1742,8 @@ Final code:
 
     ```
 
-    - Using the `.dockerconfigjson` type can be useful for accessing
-      multiple repositories using the one Secret file contents
+    Using the `.dockerconfigjson` type can be useful for accessing
+    multiple repositories using the one Secret file contents
 
     `docker-secret.yaml` for use in Docker pull image later in
     deployment
@@ -1749,7 +1765,7 @@ Final code:
 
 2.  Deployment on K8s using Image Repository Secret
 
-    - Deploy app to pod, spec has image name with tag
+    Deploy app to pod, spec has image name with tag
 
     `my-app-deployment.yaml`
 

@@ -80,6 +80,7 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Search - buffer | SPC s s |
 | Search - imenu | SPC s i |
 | Search - jump list | SPC s j |
+| Spelling, suggest correct spelling of word | z =, ispell-word |
 | Switch Buffer | SPC , |
 | Tags: projectile find tag | C-t |
 | Toggle: line numbers: absolute, relative, none | SPC t l or doom/toggle-line-numbers |

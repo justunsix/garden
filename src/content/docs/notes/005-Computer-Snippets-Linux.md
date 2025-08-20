@@ -202,16 +202,24 @@ sudo smartctl -a /dev/sdb
 
 print lines that match patterns
 
+Using grep on cwd files should use -r or specify the file(s), otherwise,
+grep assumes grep on standard input
+
 ``` shell
 
 # ignore case, include lines that match pattern
-grep -i <pattern>
+grep -ir <pattern>
+## -r search on files recursively
 
 # exclude lines that match pattern
-grep -v <pattern>
+grep -vr <pattern> *
+
+# Use grep with regex PATTERN on current directory
+grep PATTERN *
 
 # print lines that match pattern
-grep <pattern>
+grep <pattern> *
+## * search in all files in current directory
 
 ```
 
@@ -509,6 +517,17 @@ Similar to:
 `whereis <command>` - find the location of command and its manual page
 
 ## GNU Coreutils
+
+### cat - concatenate
+
+``` shell
+
+# Send multiline text to a file
+cat <<EOF > test.md
+The quick brown fox jumped over the lazy dog
+EOF
+
+```
 
 ### chown, chmod - Change file permission
 

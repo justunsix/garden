@@ -30,6 +30,9 @@ plus my additions
 - Clonezilla - drive cloning, drive imaging and system deployment
   utilities used to simplify deployment and maintenance of a group of
   computers
+- [Cockpit](https://github.com/cockpit-project/cockpit) - web based
+  interface for servers, intended for everyone like Linux admins and new
+  users
 - [Data Display Debugger DDD](https://www.gnu.md/software/ddd/) -
   graphical front end for GDB and CUDA-GDB
 - [DB Browser for SQLite](https://sqlitebrowser.md/) - SQLite
@@ -73,6 +76,8 @@ plus my additions
   graphics/map production, spatial modelling, and visualization
 - Grub - GNU project's bootloader software
 - Handbrake - video converter, transcoder for digital video files
+- [headlamp](https://github.com/kubernetes-sigs/headlamp) - Kubernetes
+  web UI for local or in cluster use
 - htop - interactive system-monitor process-viewer and process-manager
 - Infinity
 - Jellyfin - suite of multimedia applications designed to organize,
@@ -237,8 +242,8 @@ plus my additions
 - [k6](https://github.com/grafana/k6) - loading testing tool for
   application and infrastructure
 - [k9s](https://github.com/derailed/k9s) - Kubernetes TUI, manage pods
-- [kubectx](https://github.com/ahmetb/kubectx) - Switch between
-  Kubernetes clusters and namespaces
+- [kubectx](https://github.com/ahmetb/kubectx) and kubens - Switch
+  between Kubernetes clusters and namespaces
 - [Kubescape](https://github.com/kubescape/kubescape) - Kubernetes
   security platform checking security in clusters, YAML, and Helm and
   using different security frameworks
@@ -288,6 +293,8 @@ plus my additions
 - speedtest-rs - network speedtesters
 - [starship](https://starship.rs/) prompt - cross platform/shell
   configurable prompt
+- [stern](https://github.com/stern/stern) - multi pod and container log
+  tailing for Kubernetes
 - tig - git log viewer
 - tldr ([tealdeer](https://github.com/dbrgn/tealdeer)) - shortened man
   pages with examples
@@ -296,8 +303,9 @@ plus my additions
   things by detecting the tools you use and running the appropriate
   commands to update them.
 - [typst](https://github.com/typst/typst) - markup-based typesetting
-  system, like a modern LaTex, Word, Google docs, good for academic and
-  technical documentation
+  system with programming logic, like a modern LaTex, Word, Google docs,
+  good for academic and technical documentation, example use cases: math
+  papers, resume, documents, diagrams, presentations
 - [usql](https://github.com/xo/usql) - Universal command-line interface
   for SQL databases
 - wiki-tui - wikipedia terminal ui

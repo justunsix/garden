@@ -219,6 +219,7 @@ lowercase or capitalize all words
 | Switch to or restart '****scratch****' buffer | scratch-buffer |
 | Center current line in buffer | C-l |
 | Center current line in buffer, then top | C-l C-l |
+| Clone, duplicate buffer | clone-buffer |
 
 ### Justification, Margins, Fixed Width of Columns, Guide lines
 
@@ -279,11 +280,13 @@ character like r.
 |----|----|
 | Customize interface | M-x customize |
 | Activate text major mode | M-x text-mode |
-| Completion, minibuffer | M-x ido-mode or fido-mode |
-| Change margins for auto-fill-mode (auto line wrapping) | C-x f |
-| Set directory local variables | M-x add-dir-local-variable or use .dir-locals.el |
+| Completion, minibuffer . . | M-x.ido-mode or fido-mode |
+| Change margins for auto-fill-mode .auto line wrapp.ng) | C-x f . |
+| Set directory local variables . . | M-x.add-dir-..cal-variable or use .dir-locals.el |
 
-- Set directory local variables are useful for variables that only apply
+. . . . .
+
+- Set directory local variables are u.ef.l .or v.riables that only apply
   in a certain directory like with using projectile-test-cmd, setting
   file formatter, project and [language specific
   configurations/LSPs](https://blog.aheymans.xyz/post/emacs-lsp-rust-features/)
@@ -324,6 +327,43 @@ character like r.
 | Open emacs manual | C-h r |
 | Help buffer - next / Previous page in Info buffer | n / p |
 
+### Info Mode
+
+For Emacs manuals, `info-emacs-manual` and press `h` to view info mode
+manual
+
+| Name                                      | Shortcuts        |
+|-------------------------------------------|------------------|
+| Cross references                          | f                |
+| Directory, list of manuals                | d                |
+| Help for info mode                        | S-H or ?         |
+| Link, go back                             | l                |
+| Link, history of nodes visited            | L                |
+| Link, return to previous node             | r                |
+| Menu, up                                  | u                |
+| Node, go to node by name                  | g                |
+| Node, menu                                | m                |
+| Node, menu selections (if available)      | 1, 2, 3, - , 9   |
+| Node, next                                | n, Enter, \]     |
+| Node, previous                            | p, \[            |
+| Node, top node of current manual          | t                |
+| Page, Backward                            | Del or Backspace |
+| Page, Forward or next node at end of page | Space            |
+| Page, Reset                               | C-l              |
+| Quit                                      | q                |
+| Search, all info manuals installed        | M-x info-apropos |
+| Search, index                             | i                |
+| Search, manual                            | s                |
+
+g command examples
+
+|                                    |                    |
+|------------------------------------|--------------------|
+| Go to info-mode directory node     | g(dir)Top\<RET\>   |
+| Go to Emacs directory node         | g(emacs)Top\<RET\> |
+| Go to whole file of current manual | g\*\<RET\>         |
+|                                    |                    |
+
 ## Emacs Window, Start, Lisp
 
 | Name                                     | Shortcuts     |
@@ -360,6 +400,12 @@ character like r.
 
 - Run shell command asynchronously: `M-&` - show command results in
   separate buffer
+
+## Artist mode - drawing
+
+| Name                             | Shortcuts   |
+|----------------------------------|-------------|
+| Activate artist mode for drawing | artist-mode |
 
 ## Web Browser: EWW / System
 
@@ -492,3 +538,5 @@ methods
   [Emacs Shortcuts](id:daea5d06-6895-4073-a5c7-64e8f21bf085)
 - [Emacs Shortcuts for Magit](../005-tech-emacs-shortcuts-magit) -
   [Emacs Shortcuts for Magit](id:18083c56-9942-44b7-804d-623b22866188)
+- [Emacs Shortcuts for
+  plantuml-mode](../005-tech-emacs-shortcuts-plantuml-mode) -

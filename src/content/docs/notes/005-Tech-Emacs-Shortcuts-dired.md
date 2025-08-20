@@ -74,6 +74,7 @@ YouTube](https://youtu.be/-qo2Ai3pZRk?t=504) \|
 | Name | Shortcuts |
 |----|----|
 | Open, Edit file | RET |
+| Open with External Program | dired-do-open |
 | Open with local browser | browse-url-of-dired-file, W |
 | Copy file | C |
 | Move/rename file | R |
