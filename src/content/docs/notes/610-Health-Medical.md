@@ -31,6 +31,9 @@ Connect](https://www.ontario.ca/page/find-family-doctor-or-nurse-practitioner)
   - [ ] Immunizations
   - [ ] Cancer screening using [What’s My Risk? \| My
     CancerIQ](https://www.mycanceriq.ca/Cancers/Risk)
+
+### Tips for Blood work lab visit
+
 - Before the blood work, drink water to keep hydrated
 - After blood work at lab, apply pressure to the extraction spot for at
   least 2 minutes to prevent bruising.
