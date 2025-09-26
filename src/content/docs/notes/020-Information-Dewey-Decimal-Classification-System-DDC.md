@@ -387,7 +387,7 @@ Class 300 – Social sciences - [fn:3]
         337 International economics
         338 Production
         339 Macroeconomics and related topics
-    340 Law
+    340 Law [fn:6]
         340 Law
         341 Law of nations
         342 Constitutional and administrative law
