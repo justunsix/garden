@@ -6,12 +6,10 @@ title: Vim Snippets
 
 ``` bash
 
-# Launch vim with a specific configuration folder
-# e.g. ~/.config/astronvim
-NVIM_APPNAME=astronvim nvim
+# Open file
+vim myfile.txt
 
-# or in PowerShell set environment variable
-$env:NVIM_APPNAME = "astronvim"
-nvim
+# Open current directory in netrw
+vim .
 
 ```

@@ -6,11 +6,19 @@ title: Minikube Snippets
 
 ``` shell
 
+# Help
+minikube
+
 # Start minikube cluster using podman driver
 minikube start -d podman
+# Start minikube using vm driver with selected hypervisor, in example hyperkit for MacOS
+minikube start --vm-driver=hyperkit
 # Check context and pods
 kubectl config current-context
 kubectl get pod
+
+# Start in debugging mode with messages to standard err
+minikube start -d podman --v=7 --alsologtostderr
 
 # Open minikube dashboard
 minikube dashboard
@@ -32,6 +40,9 @@ minikube unpause
 
 # Stop cluster
 minikube stop
+
+# Delete local cluster
+minikube delete
 
 ```
 

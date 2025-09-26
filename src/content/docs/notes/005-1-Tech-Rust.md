@@ -67,6 +67,8 @@ cargo packages (can use cargo binstall):
   Windows](id:06fcfe47-81b3-4717-9a77-bb261b3b7376)
 - [Rust Libraries](../005-1-tech-rust-libraries) - [Rust
   Libraries](id:1163ccec-6925-455a-bf8a-4c3a1c5ee1f9)
+- [Rust Faster Compile Times](../005-1-tech-rust-faster-compile-times) -
+  [Rust Faster Compile Times](id:7696f344-68a6-4851-b39d-7b73e131a252)
 
 ### Resources
 

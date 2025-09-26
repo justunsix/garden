@@ -11,18 +11,22 @@ package](https://github.com/emacs-evil/evil/blob/master/evil-maps.el)
 
 | Name | Shortcut |
 |----|----|
-| Record macro (command mode) | q + \<register like a\> |
-| Replace macro | F4 |
-| Enter and Exit Emacs Mode (close to default Emacs) | C-z |
-| Window move up, down, left, right | C-w + arrow keys |
 | Complete (autocomplete) next or previous (insert mode) | C-n or C-p |
+| Digraph: insert | :evil-insert-digraph |
+| Digraphs, show digraphs to sequences | :evil-ex-show-digraphs |
+| Enter and Exit Emacs Mode (close to default Emacs) | C-z |
 | Go to char using Avy | g s s (char), g s / (timer) |
 | Go, to lower case (evil-downcase), downcase selection | g u , u |
 | Go, to upper case (evil-upcase), upcase selection | g U , U |
+| Navigation, previous/next paragraph/section | {, } |
+| Navigation, previous/next sentence | (, ) |
+| Record macro (command mode) | q + \<register like a\> |
+| Replace macro | F4 |
+| Window move up, down, left, right | C-w + arrow keys |
 
 See [Vim Shortcuts](../005-computer-shortcuts-vim) - [Vim
 Shortcuts](id:bdb62bfe-56b7-4c13-a1e4-9f91cf4e0bb5) which are mostly
-implemented in Evil
+implemented in Evil and for explanation of terms.
 
 ## Doom Emacs
 
@@ -37,44 +41,61 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 
 | Name | Shortcut |
 |----|----|
-| Autocompletion, cape, dictionary | C-x s |
-| Autocompletion, dabbrev | C-x C-n |
-| Autocompletion, file | C-x C-f |
-| Autocompletion, keyword | C-x C-k |
-| Autocompletion, snippet | C-x C-s |
+| Back, error | \[ e |
+| Back, section | \[\[ |
 | Bookmarks | SPC Enter |
 | Browse url of file, open in browser | SPC o b |
 | Buffer, delete buffer | SPC b d |
 | Buffer, open scratch buffer | SPC x |
+| Code actions, Jump to definition | SPC c d |
+| Code actions, Jump to reference | SPC c D |
 | Code actions / LSP | SPC c a |
-| Code actions, list errors, problems | SPC c x |
+| Code actions, quickfix, list errors, problems, flycheck | SPC c x |
 | Command, M-x | SPC : |
+| Completion, cape, dictionary | C-x s |
+| Completion, dabbrev | C-x C-n |
+| Completion, file | C-x C-f |
 | Completion, go down 1 choice | C-j |
 | Completion, go up 1 choice | C-k |
+| Completion, keyword | C-x C-k |
+| Completion, snippet | C-x C-s |
 | Dired, down directory or open file | l |
-| Dired, up directory | h |
 | Dired, open marked files with external program | E, dired-do-open |
+| Dired, up directory | h |
+| eww, back URL | H or \[\[ |
+| eww, bookmark | m |
+| eww, bookmark add | m |
+| eww, download | d |
+| eww, eww-readable, see readable part of web page | r |
+| eww, forward URL | L or \]\] |
+| eww, go to bookmark | gb |
+| eww, go to bookmark, quit | q |
+| eww, jump to visible link | SPC s l |
+| eww, list eww buffers | gt |
+| eww, open URL | o |
+| eww, quit | q |
+| eww, Z menu: text decrease, increase | zj, zk |
 | Exit insert mode | Esc or jk |
 | Format, region or buffer | +format/region or +format/buffer |
-| Go to file or url | g f |
 | Go to, Avy : go to char2 | g s s |
 | Go to, Avy : go to timer | g s / |
 | Go to, element Declaration | g D |
-| Go to, element Implementation | g I |
 | Go to, element definition | g d |
+| Go to, element Implementation | g I |
+| Go to file or url at point | g f |
 | Help: Doom, Doom Modules | SPC h d m |
 | Leader key while in insert mode | M-SPC |
+| LSP, Restart workspace and server | lsp-workspace-restart |
+| LSP, Update all servers installed | lsp-update-servers |
 | Magit | SPC g g |
 | Next buffer | C-x right arrow |
-| Next, section | \]\] |
 | Next, error | \] e |
-| Back, section | \[\[ |
-| Back, error | \[ e |
+| Next, section | \]\] |
 | Org: Insert subheading (org-insert-subheading) | C-m Enter |
-| Org: Link store (org-store-link) | SPC n l |
 | Org: Link insert (org-insert-link) | SPC m l l |
-| Project - switch and open new workspace | SPC p p |
+| Org: Link store (org-store-link) | SPC n l |
 | Project: Search | SPC / |
+| Project - switch and open new workspace | SPC p p |
 | Search - 2 char, next match or go into avy | ; or C-; |
 | Search - 2 char, normal mode | s |
 | Search - buffer | SPC s s |
@@ -91,15 +112,20 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Z menu for folding, screen movement | z |
 | Z menu: kill current buffer | zx |
 | Z menu: org-mode toggle inline images | zi |
-| eww, back URL | H or \[\[ |
-| eww, bookmark add | m |
-| eww, download | d |
-| eww, eww-readable, see readable part of web page | r |
-| eww, forward URL | L or \]\] |
-| eww, jump to visible link | SPC s l |
-| eww, list eww buffers | gt |
-| eww, open URL | o |
-| eww, quit | q |
+
+For completions, shortcuts are implemented similarly to completion
+section of [Vim Shortcuts](../005-computer-shortcuts-vim) - [Vim
+Shortcuts](id:bdb62bfe-56b7-4c13-a1e4-9f91cf4e0bb5) and complete the
+same kind of items.
+
+### Item Navigation with \[ and \] (Unimpaired Mode)
+
+| Description               | Shortcut               |
+|---------------------------|------------------------|
+| Next, previous item       | \[ \<item\>\] \<item\> |
+| Buffer                    | \[b, \]b               |
+| Function                  | \[f, \]f               |
+| Spelling: misspelled word | \[s, \]s               |
 
 ### Command Mode
 

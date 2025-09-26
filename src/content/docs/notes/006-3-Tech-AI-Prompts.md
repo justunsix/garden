@@ -135,6 +135,23 @@ same thing with these web pages on the same site?
 <https://placeholder.com/service1> and
 <https://placeholder.com/service2>
 
+## Medical
+
+### Image analysis
+
+Example use with MedGemma4B:
+
+You are an expert radiologist. Please succinctly describe the findings
+for the above chest x-ray \<attachment chest x-ray image\>
+
+Describe this image and provide the most likely condition. Keep your
+answer brief. \<attach chest x-ray\>
+
+What is the most likely condition in this image. Explain the diagnosis.
+Keep the answer brief. \<attach photograph of skin issue\>. What other
+information would you want to know from the patent to improve your
+diagnosis?
+
 ## See Also
 
 ### Resources

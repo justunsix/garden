@@ -171,3 +171,20 @@ WHERE s.is_user_process = 1
 and DB_NAME(s.database_id)='myDatabaseName'
 
 ```
+
+## Postgres
+
+Connect with psql
+
+``` sql
+
+-- Get table schemas
+\dt
+
+```
+
+## See Also
+
+- [Emacs Org Mode Snippets](../005-computer-snippets-emacs-org-mode) -
+  [Emacs Org Mode Snippets](id:4a735bbe-5abd-434a-8387-df414685c341) for
+  using Emacs and SQL within org mode

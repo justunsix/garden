@@ -304,38 +304,38 @@ print(calculated_value)
 
 - Functions can be nested meaning a function can call another function
 
-  ``` python
+``` python
 
-  ###################################################
-  # Conditionals (if / else) and Boolean Data Type  #
-  # Input validation                                #
-  ###################################################
-
-
-  # Return number of units in days as string
-  # Validate input is a positive number
-  def days_to_units_text_checked(num_of_days):
-      # Check if parameter is a positive number
-      condition_check = num_of_days > 0
-      # Print the data type of the condition_check variable
-      print(type(condition_check))
-      # Conditional to check if parameter is a positive number and evaluates to a boolean
-      # true: parameter is a positive number
-      # false: parameter is not a positive number
-      if num_of_days > 0:
-          return f"{num_of_days} days are {num_of_days * calculation_to_units} {name_of_unit}"
-      else:
-          return "Enter a positive number, other values or data types are not allowed"
+###################################################
+# Conditionals (if / else) and Boolean Data Type  #
+# Input validation                                #
+###################################################
 
 
-  checked_calculated_value = days_to_units_text_checked(user_input_number)
-  print(checked_calculated_value)
+# Return number of units in days as string
+# Validate input is a positive number
+def days_to_units_text_checked(num_of_days):
+    # Check if parameter is a positive number
+    condition_check = num_of_days > 0
+    # Print the data type of the condition_check variable
+    print(type(condition_check))
+    # Conditional to check if parameter is a positive number and evaluates to a boolean
+    # true: parameter is a positive number
+    # false: parameter is not a positive number
+    if num_of_days > 0:
+        return f"{num_of_days} days are {num_of_days * calculation_to_units} {name_of_unit}"
+    else:
+        return "Enter a positive number, other values or data types are not allowed"
 
 
-  # Additional checking
-  # Return number of units in days as string
-  # Validate input is a positive number
-  def days_to_units_text_checked(num_of_days):
+checked_calculated_value = days_to_units_text_checked(user_input_number)
+print(checked_calculated_value)
+
+
+# Additional checking
+# Return number of units in days as string
+# Validate input is a positive number
+def days_to_units_text_checked(num_of_days):
     # Check if parameter is a positive number
     # assumes num_of_days is an integer data type
     condition_check = num_of_days > 0
@@ -353,78 +353,74 @@ print(calculated_value)
         return "You entered a negative or other data type. Enter a positive number."
 
 
-  # Validate input is an integer
-  # isdigit() method returns True if all characters in a string are digits
-  if user_input.isdigit():
-      user_input_number = int(user_input)
-      checked_calculated_value = days_to_units_text_checked(user_input_number)
-      print(checked_calculated_value)
-  else:
-      print("Your input is not a valid number. Enter a positive number.")
+# Validate input is an integer
+# isdigit() method returns True if all characters in a string are digits
+if user_input.isdigit():
+    user_input_number = int(user_input)
+    checked_calculated_value = days_to_units_text_checked(user_input_number)
+    print(checked_calculated_value)
+else:
+    print("Your input is not a valid number. Enter a positive number.")
 
-  ##################
-  # Cleaned up Code
-
-
-  def validate_and_execute():
-      if user_input.isdigit():
-          user_input_number = int(user_input)
-          if user_input_number > 0:
-              checked_calculated_value = days_to_units_text_validated(user_input_number)
-              print(checked_calculated_value)
-          elif user_input_number == 0:
-              return "You entered a 0. Enter a positive number"
-      else:
-          print("Your input is not a valid number. Enter a positive number.")
+##################
+# Cleaned up Code
 
 
-  # Return number of units in days as string
-  # Parameter num_of_days must be a postive integer
-  def days_to_units_text_validated(num_of_days):
-      return f"{num_of_days} days are {num_of_days * calculation_to_units} {name_of_unit}"
+def validate_and_execute():
+    if user_input.isdigit():
+        user_input_number = int(user_input)
+        if user_input_number > 0:
+            checked_calculated_value = days_to_units_text_validated(user_input_number)
+            print(checked_calculated_value)
+        elif user_input_number == 0:
+            return "You entered a 0. Enter a positive number"
+    else:
+        print("Your input is not a valid number. Enter a positive number.")
 
 
-  validate_and_execute()
+# Return number of units in days as string
+# Parameter num_of_days must be a postive integer
+def days_to_units_text_validated(num_of_days):
+    return f"{num_of_days} days are {num_of_days * calculation_to_units} {name_of_unit}"
 
-  ```
+
+validate_and_execute()
+
+```
 
 ## Error Handling with Try-Except
 
 - Error handling prevents programs from crashing
-
 - Try-Except catches any failures, capture the error and handle it in
   the program
-
 - Allows program to catch all possible errors
-
 - Use `try` and `except` keywords in a block. Other languages use
   try-catch block
-
 - Error type can be specified for all types (type is not specified)
 
-  ``` python
+``` python
 
-      ##################################
-      # Error Handling with Try-Except #
-      ##################################
+##################################
+# Error Handling with Try-Except #
+##################################
 
-  def validate_and_execute_try_except():
-      try:
-          user_input_number = int(user_input)
-          if user_input_number > 0:
-              calculated_value = days_to_units_text_validated(user_input_number)
-              print(calculated_value)
-          elif user_input_number == 0:
-              print("You entered a 0. Enter a positive number")
-          else:
-              print("You entered a negative number. Enter a positive number.")
-      except ValueError:
-          print("Error: Your input is not a valid number.")
+def validate_and_execute_try_except():
+try:
+    user_input_number = int(user_input)
+    if user_input_number > 0:
+        calculated_value = days_to_units_text_validated(user_input_number)
+        print(calculated_value)
+    elif user_input_number == 0:
+        print("You entered a 0. Enter a positive number")
+    else:
+        print("You entered a negative number. Enter a positive number.")
+except ValueError:
+    print("Error: Your input is not a valid number.")
 
 
-  validate_and_execute_try_except()
+validate_and_execute_try_except()
 
-  ```
+```
 
 ## While Loops
 
@@ -452,13 +448,18 @@ while user_input != "exit":
 
 ## Lists and For Loops
 
-- Lists are a collection of things like values
-- Lists store multiple items in a single variable
-- Lists are a Python data type and can store different data types like:
-  - Strings
-  - Integers
-  - Float
-  - Boolean (True or False)
+Lists are a collection of things like values. Lists store multiple items
+in a single variable.
+
+Lists are a Python data type and can store different data types like:
+
+- Strings
+- Integers
+- Float
+- Boolean (True or False)
+
+Lists can contain duplicate values in order
+
 - Example list of integers: `list_of_random_integers = [1, 3, 4, 5, 6]`
 
 ``` python
@@ -466,6 +467,9 @@ while user_input != "exit":
 # Basic list operations:
 # Create
 list_of_months = ["January", "February", "March"]
+
+# List: access specific value in list, in this case first element
+list_of_months[0]
 
 # Access items of list, Get first item (January)
 # with index 0
@@ -491,35 +495,111 @@ print(list_of_months)
 
 ``` python
 
-#######################
-# Lists and For Loops #
-#######################
+#############
+# For Loops #
+#############
 
 # Allow user to provide a list of values
 # Validate all values and return calculation
-
+for num_of_days_elements in user_input.split(", ")
+  validate_and_execute
 
 ```
 
 ## Comments
 
-- Comments give yourself and people looking at it notes about the code:
-  - Help explain code
-  - Comment out code that is not needed or should not be executed and
-    may have been used for testing, debugging, and exploring options
-- Single line comments in Python start with `#`
-- Multiline comments in Python start and end with `"""`
-- Good practice is to minimize comments and write code that can explain
-  itself
+Comments give yourself and people looking at it notes about the code:
+
+- Help explain code
+- Comment out code that is not needed or should not be executed and may
+  have been used for testing, debugging, and exploring options
+
+Single line comments in Python start with `#`
+
+Multiple line comments in Python start and end with `"""`
+
+Good practice is to minimize comments and write code that can explain
+itself.
 
 ## Sets
 
+It is a list of elements but does not allow duplicate values. Used when
+you need unique values only.
+
+The set does not allow access of individual elements by an index like
+lists, though elements can be accessed like in a for loop or the set's
+functions.
+
+``` python
+
+########
+# Sets #
+########
+
+# Set: Apply set to a given list
+list_of_months = ["January", "February", "March", "January"]
+# Set will only contain first 3 months, duplicate January is removed
+set(list_of_months)
+
+# Set: Create set
+my_months_set = {"January", "February", "March"}
+
+# Set: Add element
+my_months_set.add("April")
+
+# Set: Remove element
+my_months_set.remove("April")
+
+print(my_months_set)
+
+```
+
 ## Built-In Functions
+
+These are functions included in Python.
+
+``` python
+
+#################################
+# Functions, Built-in Functions #
+#################################
+
+# Print a calculation
+# Define a new function called days_to_units
+# function parameter is num_of_days, a local scope variable
+def days_to_units_20():
+    print(f"20 days are {20 * calculation_to_units} {name_of_unit}")
+
+# Get user input
+# Ask users for input and store user's input in a variable
+# The input function always returns a string variable
+user_input = input("Input a number of days and I will convert it to seconds\n")
+print(user_input)
+
+# Create a set from a list
+set(my_list)
+
+# Convert to integer
+int("20")
+
+# Call built-in function on data type
+## String split function
+"2, 3".split()
+## List count
+[1, 2, 3].count()
+
+```
 
 ## Dictionary Data Type
 
 The final project file can be found here:
 <https://gitlab.com/twn-devops-bootcamp/latest/13-programming-with-python/days-to-units>
+
+``` python
+
+
+
+```
 
 ## Modules
 

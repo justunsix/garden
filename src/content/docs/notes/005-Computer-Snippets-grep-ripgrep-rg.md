@@ -35,6 +35,8 @@ rg -i host -g '*.env'
 
 # Search all files including hidden files in current directory and subdirectories
 rg --hidden "word"
+# Search hidden files also with -.
+rg -. 'word'
 
 # search for apple, banana and/or cherry in any order in
 # current directory's files
@@ -45,6 +47,9 @@ rg '(\\d{3})-(\\d{3})-(\\d{4})' --replace 'xxx-xxx-$3'
 ## Matches a phone number pattern and replaces all
 ## previous digits with x and leaves last four digit in
 ## the 3rd group
+
+# Output a specific capture group using $number
+rg '<title>(.*)</title>' test.html -r '$1'
 
 ```
 

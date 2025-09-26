@@ -88,6 +88,10 @@ title: Artificial Intelligence (AI)
   AI-102](../006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102) -
   [Develop AI solutions in Azure
   AI-102](id:dc608ccd-b4bc-4820-8bfa-e522c827e6f8)
+- [Design and Implement Data Science Solution in Azure
+  DP-100](../006-3-tech-ai-artificial-intelligence-microsoft-azure-design-implement-data-science-dp-100) -
+  [Design and Implement Data Science Solution in Azure
+  DP-100](id:276d06c2-5240-4f8f-bbb3-c964cecfce30)
 - [Introduction to AI in Microsoft Azure
   AI-900](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
   [Introduction to AI in Microsoft Azure

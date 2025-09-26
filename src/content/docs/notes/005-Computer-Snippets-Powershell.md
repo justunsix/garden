@@ -98,11 +98,11 @@ neovim `
 
 # Function with mandatory parameters
 function Get-Square {
-  param(
-      [Parameter(Mandatory=$true)]
-      [int]$number
-  )
-  $Number * $Number
+param(
+    [Parameter(Mandatory=$true)]
+    [int]$number
+)
+$Number * $Number
 }
 
 # Remove file or directory and files under it

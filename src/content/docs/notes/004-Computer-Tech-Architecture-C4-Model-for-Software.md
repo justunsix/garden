@@ -316,6 +316,11 @@ techtribes -d-> [microservice A container] : Manage users
 [microservice A container] -d-> [microservice B container] : Requests list of customers from [JSON/HTTPS] - use double arrows if makes sense
 [microservice B container] -u-> [microservice A container] : Returns list of customers as [Kafka topic]
 
+legend right
+Legend
+Comments: Sample legend item
+endlegend
+
 @enduml
 ```
 

@@ -11,7 +11,7 @@ apt info <package>
 # Show information about a package from cache
 apt-cache show <package>
 
-# Update, upgrade, and clean packages
+# Update, upgrade, and clean packages and orphaned dependencies
 sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
 # Optional upgrade apt flagged unsafe packages
 sudo aptitude safe-upgrade

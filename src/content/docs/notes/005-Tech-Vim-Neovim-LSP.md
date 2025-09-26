@@ -4,6 +4,12 @@ id: 2a279ca1-8291-45e0-889d-26ec8063e535
 title: Neovim and Language Server Protocol (LSP)
 ---
 
+Language Server Protocol (LSP) helps computer programmers working on
+editors and get information about the languages they are working on. The
+LSP is an interface between editors (files, codes, cursor, state of
+code) and language server(s) running on the computer and the language
+server provides information on the state of the code.
+
 ## Rust Setup for Neovim
 
 Source: [Rust Setup For Neovim (ft BashBunni) \#bash2basics - YouTube

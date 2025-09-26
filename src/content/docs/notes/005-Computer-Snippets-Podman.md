@@ -161,8 +161,8 @@ In the background, a default podman machine will be running.
 
 Source: <https://podman-desktop.io/docs/minikube>
 
-In podman desktop extensions, install minikube extensions and make sure
-minikube CLI is installed
+In podman desktop extensions, install minikube extension and make sure
+minikube is installed
 
 ``` shell
 

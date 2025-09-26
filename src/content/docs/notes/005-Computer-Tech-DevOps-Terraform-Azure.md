@@ -4,7 +4,48 @@ id: 1a54acd2-4463-4917-bb08-dfcb4a0e8ced
 title: Terraform - Azure
 ---
 
-## Azure Terraform Example
+## Steps to Learn and Apply Terraform to Cloud Resources Using an Azure Example
+
+Summary: Learn about the cloud provider and the resource you want to
+create. Create a resource manually in the cloud provider. Observe or
+export the results of the resource(s) created. Read the relevant
+Terraform provider in the Terraform registry and cloud provider's
+documentation on the resource. Use the registry and cloud provider
+documentation/examples to create a Terraform configuration to recreate
+the resource.
+
+### Applying to Steps to Creating an Azure Shared Dashboard
+
+1.  Learn [Fundamentals of Terraform on
+    Azure](https://learn.microsoft.com/en-us/training/paths/terraform-fundamentals/)
+    to learn concepts of Infrastructure as Code (IaC) and how to use
+    Terraform's declarative syntax to manage Azure resources. Create an
+    example Terraform workflow. Go through the [Azure with
+    Terraform](https://learn.microsoft.com/en-us/azure/developer/terraform/overview)
+    documentation.
+2.  Follow [Create a dashboard in the Azure
+    portal](https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards)
+    to manual build a dashboard and its tiles in the Azure portal. A
+    task for use with Terraform later is learning to export the
+    dashboard to JSON.
+3.  Using the [Terraform registry:
+    azurerm<sub>portaldashboard</sub>](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/portal_dashboard)
+    specifications and the Microsoft Azure documentation, start to
+    create the Terraform configuration. Export the JSON of the manually
+    created Azure dashboard. Place the JSON in the Terraform HCL files.
+4.  THe [Microsoft.Portal
+    dashboards](https://learn.microsoft.com/en-us/azure/templates/microsoft.portal/dashboards?pivots=deployment-language-terraform)
+    reference has Bicep, ARM template & Terraform examples. It describes
+    each configuration of the cloud resource that might be seen in the
+    registry and used in the HCL files.
+5.  Create the Terraform project, for example with files
+    - `main.tf` - main configuration
+    - `variables.tf` - input variables, for example locations, resource
+      groups
+    - `providers.tf` - provider for Terraform
+    - `outputs.tf` - output variables
+
+## Azure Terraform Example to Create a Resource Group
 
 ``` powershell
 
@@ -85,6 +126,10 @@ resource "azurerm_resource_group" "rg" {
 
 ### Resources
 
+- [GitHub - trussworks/terraform-layout-example: Example of a Truss
+  Terraform
+  project](https://github.com/trussworks/terraform-layout-example) -
+  organization and environment template
 - [terraform-provider-azurerm/examples](https://github.com/hashicorp/terraform-provider-azurerm/tree/main/examples)
 - [Build Infrastructure - Terraform Azure Example \| Terraform \|
   HashiCorp

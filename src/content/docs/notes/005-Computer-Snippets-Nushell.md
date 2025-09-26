@@ -195,6 +195,10 @@ vim (fzf)
 # Redirect both stdout and stderr to the same file with out+err>
 cat unknown.txt out+err> log.log
 
+# Redirect command's output to other command
+^$env.EDITOR (fd --hidden | fzf)
+# Get Editor environment variable and call it with finding files
+
 # Complete: Gather stdout, stderr, and exit code together in one record
 cat unknown.txt | complete
 

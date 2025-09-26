@@ -4,11 +4,9 @@ tags: ":markdown:snippets:epubnote:"
 title: Markdown Snippets
 ---
 
-## References
-
-This reference to Hobbit in the paragraph:
-
 ``` markdown
+
+<!-- References and footnotes -->
 
 In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends
 of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to
@@ -20,15 +18,7 @@ eat: it was a [hobbit-hole][1], and that means comfort.
 
 <a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Hobbit lifestyles">hobbit-hole</a>
 
-```
-
-From: [Example source: Markdown Guide - Reference style
-links](Htps://www.markdownguide.md/basic-syntax#reference-style-links)
-
-## Tables
-
-``` markdown
-
+<!-- Tables -->
 | Column1 | Column2 | Column3 | column 4 | col5 | col6 | col 7 |
 | ------- | ------- | ------- | -------- | ---- | ---- | ----- |
 | Item1   | Item1   | Item1   | ite      | ite  | ite  | ite   |
@@ -50,18 +40,12 @@ links](Htps://www.markdownguide.md/basic-syntax#reference-style-links)
 | column | column2 | column 3 |
 | --
 
-```
-
-## Other
-
-``` markdown
-
 <!-- Adding Images -->
 ![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
 
 ```
 
-## Linting
+## Linting Tools
 
 ``` bash
 
@@ -84,5 +68,7 @@ prettier --parser markdown --prose-wrap always -w *.md
 
 ### Resources
 
+- [Markdown Guide - Reference style
+  links](https://www.markdownguide.md/basic-syntax#reference-style-links)
 - [Supported languages, shells in
   Markdown](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md)

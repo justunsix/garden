@@ -7,13 +7,13 @@ title: My Use Cases for AI
 ## Use Cases and AI Strategy
 
 Source: [AI strategy - Cloud Adoption Framework \| Microsoft
-Learn](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/strategy?ns-enrollment-type=Collection&ns-enrollment-id=p64xbztoj1kkk5#define-an-ai-technology-strategy)
+Learn](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/strategy)
 
 How to identify AI use cases:
 
 - Automation opportunities: find repetitive tasks, data heavy
-  operations, task high error rates
-- Ask users how theu could be more satisfied
+  operations, tasks with high error rates
+- Ask users how they could be more satisfied
 - Assess organization and industry with survey to find challenges and
   inefficiencies
 - Set AI performance targets

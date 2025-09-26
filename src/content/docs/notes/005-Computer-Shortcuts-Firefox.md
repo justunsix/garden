@@ -11,13 +11,17 @@ title: Firefox Shortcuts
 | Move tabs | Alt-Page up/Page Down |
 | Location bar, search engine | Ctrl + k |
 | Location bar, search engine select | Ctrl + k or search and Alt + arrow keys |
-| Location bar, search bookmarks | /\* |
-| Location bar, search history | ^ \<search |
-| Location bar, search tabs | % \<search tabs\> |
+| Location bar, search bookmarks | \* \<search\> , @bookmarks |
+| Location bar, search history | ^ \<search\> , @history |
+| Location bar, search tabs | % \<search tabs\> , @tabs |
+| Location bar, search actions [^1] | @actions |
 | Manage Bookmarks | Ctrl + Shift + o |
 | Reopen closed tab | Ctrl + Shift + T |
 | Caret mode (cursor on page) | F7 |
 | Chat box | Ctrl + Alt + x |
+| Search, start or quick find | Ctrl + f or / |
+| Search, find again | F3 or Ctrl + g |
+| Search, find previous | Shift + F3, Ctrl + Shift + g |
 
 ## Navigation
 
@@ -46,6 +50,13 @@ title: Firefox Shortcuts
 
 - Sample colours on screen: Tools \> Browser Tools \> Eye dropper
 
+## Commands
+
+| Description       | Shortcut                      |
+|-------------------|-------------------------------|
+| <about:profile>   | see profiles in local storage |
+| <about:processes> | see processes in Firefox      |
+
 ## See Also
 
 - [Firefox Tridactyl Add On Vim like
@@ -57,3 +68,6 @@ title: Firefox Shortcuts
 
 [Keyboard shortcuts - Perform common Firefox tasks quickly \| Firefox
 Help](https://support.mozilla.md/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly)
+
+[^1]: Actions can be like clear history, open downloads, or take a
+    screenshot

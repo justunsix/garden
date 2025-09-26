@@ -56,6 +56,17 @@ if command -v carapace &>/dev/null; then
   source <(carapace _carapace)
 fi
 
+# Parse arguments
+if [ "$1" = "--help" ] || [ "$1" = "-h" ]; then
+
+  echo "My help text"
+  echo "--all: my flag text"
+  exit
+
+elif [ "$1" = "--all" ]; then
+  # do --all stuff
+fi
+
 # Functions
 
 # Create a function and set local to function variables
@@ -108,6 +119,8 @@ download_yt_dlp() {
 
 # Read user input
 read -r -p "Enter input: " input
+# Use input
+echo $input
 
 # Read secret user input
 read -rs -p "Enter password: " PASSWORD
@@ -128,5 +141,8 @@ fg
 
 # Job, move application to background
 # Press Ctrl + z
+
+# Formatting printing, like with new lines
+printf "\nCopied data to $folder"
 
 ```

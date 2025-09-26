@@ -51,6 +51,9 @@ gpg --output doc.txt --decrypt doc.txt.gpg
 gpg --symmetric doc.txt
 gpg -c doc.txt
 
+# Decrypt file to output -o files doc.txt
+gpg -o 'doc.txt' -d 'doc.txt.gpg'
+
 # Import a public key
 gpg --import public.gpg
 

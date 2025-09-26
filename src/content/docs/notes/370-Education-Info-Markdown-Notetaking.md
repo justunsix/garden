@@ -148,3 +148,5 @@ script](https://github.com/SjoerdV/ConvertOneNote2MarkDown), requires:
   management](../370-education-info-personal-knowledge-management-system) -
   [Personal Knowledge Management
   System](id:0d36d526-cbec-4809-85cd-b306bb0bf573)
+- [Marksman LSP Markdown and Neovim
+  Notetaking](../370-education-info-markdown-notetaking-lsp-neovim) -

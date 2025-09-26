@@ -351,7 +351,7 @@ find . -name "*foo*" -exec rename -n 's/foo/bar/' {} \;
 find . -name "*foo*" -exec rename 's/foo/bar/' {} \;
 ```
 
-## pkill, kill - process kill
+## pkill, kill, killall - stop process also known as kill
 
 ``` shell
 
@@ -362,6 +362,9 @@ pkill -f firefox
 kill (-HUP) process_id
 # kills a process with pid specified
 kill -9 pid
+
+# kill all processes by a name, for example firefox browser
+killall firefox
 
 ```
 
@@ -448,7 +451,14 @@ Synchronize directories
 ``` bash
 rsync -anv dir1/ dir2/
 
-rsync -aPv --delete "${LIBRARYDIR}/${array[$i]}/" "${LOCALDIR}/${array[$i]}/" --exclude "Archive"
+# Recurvisely copy first directory/file to second file and exclude folder/files called Archive and include only 7z files
+rsync -aPv --delete "${LIBRARYDIR}/${array[$i]}/" "${LOCALDIR}/${array[$i]}/" --exclude "Archive" --include="*.7z"
+# -a archive mode (recursively copy directories, copy symlinks without resolving, and preserve permissions, ownership and modification times)
+# -P show prgress
+# -v verbose
+# --delete delete extra files from destination directories
+# --exclude PATTERN do not copy files with PATTERN
+# --include PATTERN only include files with PATTERN
 
 # Copy exmaple.txt from local to remote server
 rsync -avz -e ssh /path/to/example.txt user@remote-host:/path/to/destination/
@@ -707,6 +717,26 @@ echo 'Call me 123 Justin 552' | tr -cd '[:digit:]'
 cat file.txt | uniq
 
 ```
+
+### yes - repeat string or y
+
+Useful for scripts requiring prompts
+
+
+    # Output Hello world repeatedly
+    yes "Hello World"
+
+    # Automatically confirm a prompt, for example in apt, alternative to apt -y
+    yes | sudo apt install vim-nox
+
+    # Automatically decline a prompt by outputting n repeatedly
+    yes n | sudo apt install vim-nox
+    # Note yes piping will only work when there is a prompt
+    # In this example, if all vim-nox dependencies are installed, there won't be a prompt
+    # and the package will be installed anyways
+
+    # Limit output of string output to first 5 lines using head limit of 5
+    yes | head -n 5
 
 ## GNU Findutils
 

@@ -22,17 +22,18 @@ title: Artificial Intelligence (AI) Models
 | [Llama3](https://ollama.com/library/llama3) | General |  | [^7] |
 | [Meditron](https://ollama.com/library/meditron) | Medical | Medical questions, diagnosis, information |  |
 | [Medllama2](https://ollama.com/library/medllama2) | Medical | Medical questions, trained on open source medical data | [^8] |
-| [Mistral](https://ollama.com/library/mistral) | General, Programming | 7B ok for low hardware | [^9] |
+| [MedGemma](https://huggingface.co/collections/google/medgemma-release-680aade845f90bec6a3f60c4) | Medical | Medical text and image comprehension | [^9] |
+| [Mistral](https://ollama.com/library/mistral) | General, Programming | 7B ok for low hardware | [^10] |
 | [Moondream](https://ollama.com/library/moondream) | Vision | Small for edge devices |  |
-| [Nemotron-mini](https://ollama.com/library/nemotron-mini) | Role-play, RAG, Function | 4b for low hardware | [^10] |
+| [Nemotron-mini](https://ollama.com/library/nemotron-mini) | Role-play, RAG, Function | 4b for low hardware | [^11] |
 | [Phi3](https://ollama.com/library/phi3) | General, RAG | low hardware, context length |  |
 | [phi-4](https://huggingface.co/microsoft/phi-4) | General | low hardware, reasoning |  |
 | [Phi4-mini](https://ollama.com/library/phi4-mini) | General, RAG | low hardware, multilingual, context length |  |
 | [Qwen3 series](https://github.com/QwenLM/Qwen3) | General | [Multiple models](https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f) depending on use |  |
 | [Qwen-Image](https://huggingface.co/Qwen/Qwen-Image) | Image generation, editing | Good at text, especially Chinese |  |
-| [StarCoder](https://ollama.com/library/starcoder) | Programming | Trained on 80+ languages, Small to large models | [^11] |
-| [WizardCoder](https://ollama.com/library/wizardcoder) | Programming |  | [^12] |
-| [Zephyr](https://ollama.com/library/zephyr) | Assistant | Trained version of Mistral and Mixtral as help assistant | [^13] |
+| [StarCoder](https://ollama.com/library/starcoder) | Programming | Trained on 80+ languages, Small to large models | [^12] |
+| [WizardCoder](https://ollama.com/library/wizardcoder) | Programming |  | [^13] |
+| [Zephyr](https://ollama.com/library/zephyr) | Assistant | Trained version of Mistral and Mixtral as help assistant | [^14] |
 
 multimodal means the model can do text and image
 
@@ -44,7 +45,7 @@ multimodal means the model can do text and image
 | 13B        | 16 GB |
 | 33B        | 32 GB |
 
-From Ollama README Guidance [^14]
+From Ollama README Guidance [^15]
 
 ## Footnotes and Sources
 
@@ -53,8 +54,8 @@ From Ollama README Guidance [^14]
 | Model Name | Use Cases | Strengths | Notes |
 |----|----|----|----|
 | [Qwen2.5-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-1M) | General | long context tasks due to 1 million token context window |  |
-| [Qwen2.5](https://ollama.com/library/qwen2.5) | General | 3b for low hardware | [^15] |
-| [Qwen2](https://ollama.com/library/qwen2) | General, Programming | Chat, Small to Large models | [^16] |
+| [Qwen2.5](https://ollama.com/library/qwen2.5) | General | 3b for low hardware | [^16] |
+| [Qwen2](https://ollama.com/library/qwen2) | General, Programming | Chat, Small to Large models | [^17] |
 
 ## See also
 
@@ -91,26 +92,29 @@ From Ollama README Guidance [^14]
 [^8]: [5 easy ways to run an LLM
     locally](https://www.infoworld.com/article/2338922/5-easy-ways-to-run-an-llm-locally.html)
 
-[^9]: [Coding LLMs Copilot
+[^9]: MedGemma supports image understanding across radiology, pathology,
+    dermatology, and others
+
+[^10]: [Coding LLMs Copilot
     Alternatives](https://itsfoss.com/coding-llms-copilot-alternatives/)
 
-[^10]: [I Ran 9 Popular LLMs on Raspberry Pi 5; Here's What I
+[^11]: [I Ran 9 Popular LLMs on Raspberry Pi 5; Here's What I
     Found](https://itsfoss.com/llms-for-raspberry-pi/)
 
-[^11]: [Tabby ML Windows
+[^12]: [Tabby ML Windows
     Install](https://tabby.tabbyml.com/docs/quick-start/installation/windows/)
 
-[^12]: [Coding LLMs Copilot
+[^13]: [Coding LLMs Copilot
     Alternatives](https://itsfoss.com/coding-llms-copilot-alternatives/)
 
-[^13]: [5 easy ways to run an LLM
+[^14]: [5 easy ways to run an LLM
     locally](https://www.infoworld.com/article/2338922/5-easy-ways-to-run-an-llm-locally.html)
 
-[^14]: [Ollama README Guidance on models and
+[^15]: [Ollama README Guidance on models and
     RAM](https://github.com/ollama/ollama/blob/main/README.md)
 
-[^15]: [I Ran 9 Popular LLMs on Raspberry Pi 5; Here's What I
+[^16]: [I Ran 9 Popular LLMs on Raspberry Pi 5; Here's What I
     Found](https://itsfoss.com/llms-for-raspberry-pi/)
 
-[^16]: [Tabby ML Windows
+[^17]: [Tabby ML Windows
     Install](https://tabby.tabbyml.com/docs/quick-start/installation/windows/)

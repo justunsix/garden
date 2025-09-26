@@ -68,6 +68,11 @@ git grep string
 # -n : show line number
 git grep -n "string pattern"
 
+# Edit commits, interactive rebase
+git rebase -i HEAD~5
+# rebase -i : interactive rebase using editor
+# HEAD~5 : include last 5 commits from HEAD
+
 # Windows git bash
 ## Graphical User Interfaces
 git gui
@@ -200,7 +205,6 @@ git push origin master
 ## Reset, Revert Changes
 
 ``` shell
-
 
 # "Reset repository to the latest remote
 git fetch origin

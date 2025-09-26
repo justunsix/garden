@@ -25,6 +25,8 @@ plus my additions
 - BusyBox - a software suite that provides several Unix utilities in a
   single executable file
 - Calibre - cross-platform suite of e-book software
+- [ctags, etags](https://docs.ctags.io/en/latest/man/ctags.1.html) -
+  Generate tag files for source code
 - Ceph - software-defined storage platform that implements object
   storage
 - Clonezilla - drive cloning, drive imaging and system deployment
@@ -146,7 +148,7 @@ plus my additions
 - Terraform - infrastructure as code build and maintenance (Mozzila
   Public License 2.0, weak copyleft)
 - Thurderbird - cross-platform email client, personal information
-  manager, news client, RSS and chat clien
+  manager, news client, RSS and chat client
 - Tor Browser
 - Transmission - BitTorrent client which features a variety of user
   interfaces on top of a cross-platform back-end
@@ -188,7 +190,9 @@ plus my additions
   with directory sizes, search
 - [btop](https://github.com/aristocratos/btop) - like top, system
   monitoring
-- cargo-info - shows info about crates
+- cargo-info - shows info about cratesS
+- [crush](https://github.com/charmbracelet/crush) - coding CLI with
+  artificial intelligence (AI) models
 - cheat - cheat sheets
 - choose - human-friendly and fast alternative to cut and (sometimes)
   awk

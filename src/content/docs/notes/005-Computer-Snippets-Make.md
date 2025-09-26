@@ -10,36 +10,41 @@ victoria.dev](https://victoria.dev/blog/how-to-create-a-self-documenting-makefil
 ``` makefile
 
 SHELL := /bin/bash
+MY_VARIABLE := /path/to/new-dir
 
 .PHONY: help
 help: ## Show this help
-@egrep -h '\s##\s' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
+    @egrep -h '\s##\s' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
 
 save-dconf: ## Save dconf settings to .config/dconf/settings.dconf
-dconf dump /org/gnome/ > .config/dconf/settings.dconf
+    dconf dump /org/gnome/ > .config/dconf/settings.dconf
 
 save-vsce: ## Save a list of VSC extensions to .config/Code/extensions.txt
-ls ~/.vscode/extensions/ > .config/Code/extensions.txt
+    ls ~/.vscode/extensions/ > .config/Code/extensions.txt
 
 save: save-dconf save-vsce ## Update dconf and vsc extensions files
 
 update: ## Do apt upgrade and autoremove
-sudo apt update && sudo apt upgrade -y
-sudo apt autoremove -y
+    sudo apt update && sudo apt upgrade -y
+    sudo apt autoremove -y
 
 ## Make all changes in one shell session
 .ONESHELL:
 pandoc-markdown-to-org: ## markdown to org
-  cd lc/scripts/pandoc
-  find . -name \*.md -type f -exec pandoc -f markdown -t org -o {}.org {} --lua-filter=remove-header-attr.lua --wrap=none \;
-  sed -i 's/\xc2\xa0/ /g' *.org
+    cd lc/scripts/pandoc
+    find . -name \*.md -type f -exec pandoc -f markdown -t org -o {}.org {} --lua-filter=remove-header-attr.lua --wrap=none \;
+    sed -i 's/\xc2\xa0/ /g' *.org
 
 ## If you have subdirectories with their own Makefiles, you can use recursive make invocations.
-##    Create a top-level Makefile that calls make in each subdirectory:
+##  Create a top-level Makefile that calls make in each subdirectory:
 all:
-  $(MAKE) -C subdir1
-  $(MAKE) -C subdir2
-  $(MAKE) -C subdir3
+    $(MAKE) -C subdir1
+    $(MAKE) -C subdir2
+    $(MAKE) -C subdir3
+
+.PHONY: help
+print_my_variable: ## Print my variable
+    echo "$$MY_VARIABLE"
 
 ```
 

@@ -29,6 +29,9 @@ Regex syntax and explanations with examples
 # Match digit pattern, like a phone number using quantifier
 \d{3}-\d{3}-\d{4}
 
+# Match exactly 4 word characters
+^\w{4}$
+
 # Match non digits
 \D
 
@@ -78,10 +81,14 @@ I love (cat|dog)s
 
 # Reference capture groups (depends on implementation) with \#
 \1
-## Capture group 1
-
+## Capture group 1 with \1
 ## Capture group 2
 \2
+
+# Match words consisting of the same letter repeating exactly 3 times
+^([a-zA-Z])\1{2}
+# First (brackets) matches a letter, \1 will reference the capture group
+# and {2} indicates only match capture group 1, two more times
 
 # Match not characters group
 [^dog]
@@ -116,7 +123,7 @@ dog$
 # .+ 1 or more characters
 # $ match end
 
-# Match a specific {number}, or {min,} or {min,max] with quantifiers
+# Match a specific {number}, or {min,} or {min,max} with quantifiers
 ^a.{5}g$
 ## {5} matches exactly 5 characters between a and g
 ^a.{1,}g$
@@ -140,6 +147,8 @@ dog$
 
 # Escaped characters [ ] \ with \
 \[part\]backslash_coming\\
+# Escape plus (+) sign with \, works for other symbols
+\+
 
 # Match tab
 \t
@@ -240,3 +249,6 @@ grep -r 'f[io]x'
   PCRE](https://www.debuggex.com/) - visual representation of regex
 - [RegexOne - Learn Regular Expressions - Lesson 1: An Introduction, and
   the ABCs](https://www.regexone.com/) - test yourself with sample text
+- [Regular Expressions Exercises at Sketch
+  Engine](https://regex.sketchengine.eu/index.html) - exercises and
+  tutorial

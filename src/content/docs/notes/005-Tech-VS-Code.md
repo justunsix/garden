@@ -173,6 +173,15 @@ settings
 
 ```
 
+## Extensions
+
+### Power Platform
+
+Install the [Power Platform
+Tools](https://marketplace.visualstudio.com/items?itemName=microsoft-IsvExpTools.powerplatform-vscode)
+extension by Microsoft. It includes the Power Platform CLI (pac) to help
+with solution exports, canvas app extraction, and other features.
+
 ## See Also
 
 - [VS Code Shortcuts](../005-computer-shortcuts-vs-code) - [VS Code

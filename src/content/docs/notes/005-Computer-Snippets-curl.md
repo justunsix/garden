@@ -38,4 +38,7 @@ curl -u user:pwd -X GET 'http:1.1.1.1:8081/service/rest/v1/components?repository
 # Download a file
 curl -O https://www.digitalocean.com/robots.txt
 
+# Run a get request
+curl https://jsonplaceholder.typicode.com/todos/1
+
 ```

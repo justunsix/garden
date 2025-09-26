@@ -18,7 +18,7 @@ asdf list all name
 # Install a specific version of a package:
 asdf install name version
 
-# Example: Install Proton GE with unofficial plugin
+# Example: Install Proton Glorious Eggroll (GE) with unofficial plugin
 asdf plugin add protonge
 # Or install a version from a tag (Eg.: GE-Proton8-25)
 asdf install protonge latest

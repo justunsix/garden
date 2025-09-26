@@ -12,11 +12,12 @@ title: Emacs Shortcuts from Other Packages
 | ripgrep results - display menu | m                  |
 | ripgrep results - new regex    | r                  |
 
-## Hypberbole
+## Hyperbole
 
-| Name                      | Shortcuts               |
-|---------------------------|-------------------------|
+| Name | Shortcuts |
+|----|----|
 | Action key, follow button | M-Enter or hui-hbut-act |
+| Action key, hkey-either | {M-RET} (ESC RETURN, ALT-RETURN, or CMD-RETURN) or SHIFT-MIDDLE-MOUSE |
 
 ## Markdown Mode
 

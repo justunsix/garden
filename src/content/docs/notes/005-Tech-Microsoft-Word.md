@@ -1,5 +1,5 @@
 ---
-filetags: ":microsoft:word::epubnote:"
+filetags: ":microsoft:word:epubnote:"
 id: 91ef78d2-8bac-4b47-9761-a27ad35e1ed3
 title: Microsoft Word
 ---

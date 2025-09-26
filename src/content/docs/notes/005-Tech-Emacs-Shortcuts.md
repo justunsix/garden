@@ -68,6 +68,7 @@ title: Emacs Shortcuts
 
 | Name                                         | Shortcuts |
 |----------------------------------------------|-----------|
+| Split, set only 1 window (un-split)          | C-x 1     |
 | Split window horizontally                    | C-x 2     |
 | Split window vertically                      | C-x 3     |
 | Go to other windows (cycle through windows)) | C-x o     |
@@ -105,6 +106,7 @@ title: Emacs Shortcuts
 | Undo Multiple Mode | undo-tree-mode |
 | Kill word (delete word near cursor) | M-d |
 | Comment Region / Uncomment region | M-; / uncomment-region |
+| Comment region with box | comment-box |
 | Clear kill ring | (setq kill-ring nil) |
 
 - For undo in region, select/mark region and undo will be limited to the
@@ -141,6 +143,7 @@ See also:
 
     | Name | Shortcuts |
     |----|----|
+    | Search all files with \* | M-x grep , grep \<options\> PATTERN \* |
     | Search and replace with extra functionality | M-Shift-% or query replace or replace-string |
     | Find and replace search query | M-% or query-replace |
     | Find and replace search query from isearch | C-s \<search-text\> M-% (while in isearch, can also work with isearch regex commands) |
@@ -280,17 +283,27 @@ character like r.
 |----|----|
 | Customize interface | M-x customize |
 | Activate text major mode | M-x text-mode |
-| Completion, minibuffer . . | M-x.ido-mode or fido-mode |
-| Change margins for auto-fill-mode .auto line wrapp.ng) | C-x f . |
-| Set directory local variables . . | M-x.add-dir-..cal-variable or use .dir-locals.el |
+| Completion, minibuffer | M-x.ido-mode or fido-mode |
+| Change margins for auto-fill-mode auto line wrapping) | C-x f |
+| Set directory local variables | M-x.add-dir-local-variable or use .dir-locals.el |
 
-. . . . .
-
-- Set directory local variables are u.ef.l .or v.riables that only apply
-  in a certain directory like with using projectile-test-cmd, setting
-  file formatter, project and [language specific
+- Set directory local variables that only apply in a certain directory
+  like with using projectile-test-cmd, setting file formatter, project
+  and [language specific
   configurations/LSPs](https://blog.aheymans.xyz/post/emacs-lsp-rust-features/)
   and others
+
+Example `.dir-locals.el` to set compile command
+
+``` commonlisp
+
+((nil . ((compile-command . "cmake --fresh -S <source> -B <build> && cmake --build  <build> -j32 && ctest --output-on-failure --test-dir <build> -j32"))))
+
+;; For a rust project, tells LSP to analyze the code with the generate_templates feature enabled
+;; Additional multiple features can be added like debug_mode and experimental
+((nil . ((lsp-rust-features . ["generate_templates" "debug_mode" "experimental"]))))
+
+```
 
 ## Macros
 
@@ -321,6 +334,7 @@ character like r.
 | Help on function (describe-function) | C-h f= - can drill into function's cod |
 | Help on variable (describe-variable) | C-h v |
 | Help on key bindings for current function/minibuffer | C-h b |
+| Help on all active major and minor modes | C-h m or M-x describe-mode |
 | Help Apropos (search command keyword) | C-h a |
 | Help Search - search all manuals | info-apropos |
 | Read manuals (aka info) for installed packages | C-h i |
@@ -434,6 +448,7 @@ g command examples
 | LSP Mode - Display symbols with treemacs | M-x lsp-treemacs-symbols |
 | LSP, Update LSP servers | M-x lsp-update-servers |
 | LSP, Update LSP specific server | M-x lsp-update-server |
+| Tags, automatically regenerate TAGS file in repo | M-x etags-regen-mode |
 | Spelling - Flyspell autocorrect word | C-M-i |
 | Spelling - Flyspell suggest words for correction | C-c-\$ |
 | Compile, run async shell command, output buffer | M-x compile |

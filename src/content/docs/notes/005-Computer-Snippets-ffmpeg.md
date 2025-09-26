@@ -40,6 +40,9 @@ ffmpeg -framerate 0.5 -i img%03d.jpg -c:v libx264 -r 30 -pix_fmt yuv420p slidesh
 # -framerate 0.5 sets a 2-second interval (1/0.5).
 #  img%03d.jpg assumes images are named img001.jpg, img002.jpg, etc.
 
+# Convert images TIFF to PNG
+ffmpeg -i myimage.TFF myimage.png
+
 # Stream Video
 ffmpeg -re -i input.mp4 -c:v libx264 -f flv http://localhost:8080/live
 # Stream using http

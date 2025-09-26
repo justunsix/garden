@@ -9,6 +9,9 @@ title: kubectl, oc Openshift, Other K8s related command Snippets, Other
 
 ``` shell
 
+# See complete list of api resources that could be viewed
+kubectl api-resources
+
 # See nodes, pods, services, deployments
 kubectl get node
 ## See more pod information
@@ -102,10 +105,6 @@ kubectl apply -f deployment.yaml --namespace=my-namespace
 kubectl get all  --namespace=my-namespace
 # Change active namespace
 kubectl config set-context --current --namespace=my-namespace
-## List namespaces
-kubens
-## Change namespace
-kubens my-namspace
 
 # Create pod and run image with parameters
 ## cpu-test : name of pod
@@ -208,6 +207,9 @@ oc exec -it prod-connect-cluster-dbz-connect-0 -- curl -v telnet://10.33.33.33:1
 
 # Switch cluster/context name
 kubectx <context_name>
+
+# List namespaces
+kubens
 
 # Switch namespace
 kubens <namespace>
