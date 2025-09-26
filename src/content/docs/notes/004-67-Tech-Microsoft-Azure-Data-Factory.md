@@ -188,7 +188,11 @@ Learn](https://learn.microsoft.com/en-us/azure/data-factory/create-self-hosted-i
   @enduml
   ```
 
-  ![](../media/plantuml-Tech-Microsoft-Azure-Data-Factory-copy-pattern.png)
+  <figure>
+  <img
+  src="../media/plantuml-Tech-Microsoft-Azure-Data-Factory-copy-pattern-epubnote.png" />
+  <figcaption>Copying data from on premise to cloud storage</figcaption>
+  </figure>
 
 1.  Ports and Firewalls
 
