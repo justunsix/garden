@@ -5,14 +5,42 @@ id: 22581bf1-4397-4827-b393-bfec1f840bf5
 title: Family Health
 ---
 
+## Family Doctor Medicine, Physical Check Ups
+
+Getting a family doctor: [Health Care
+Connect](https://www.ontario.ca/page/find-family-doctor-or-nurse-practitioner)
+
+### Preparing for a Regular Check Up
+
+- [ ] Get a blood requisition form from your doctor
+  - [ ] Fill in personal information
+- [ ] Complete the blood test
+  - [ ] Book an appointment as a blood testing site, for example with
+    [Life Labs](https://www.lifelabs.com/)
+  - [ ] Prepare for the test with the requisition form, health card, and
+    other items recommended by the test site
+  - [ ] Follow other test preparation instructions, for example 8 hours
+    fasting is required for fasting glucose/GTT and 12 hours fasting for
+    lipid assessment
+- [ ] Book an appointment with your doctor
+- [ ] Prepare notes you want to discuss with your doctor, for example:
+  - [ ] Past issues in blood work like last report
+  - [ ] Mental and physical health problems, chronic issues
+  - [ ] Past medical history
+  - [ ] Medications
+  - [ ] Immunizations
+  - [ ] Cancer screening using [What’s My Risk? \| My
+    CancerIQ](https://www.mycanceriq.ca/Cancers/Risk)
+
+### Tips for Blood work lab visit
+
+- Before the blood work, drink water to keep hydrated
+- After blood work at lab, apply pressure to the extraction spot for at
+  least 2 minutes to prevent bruising.
+
 ## Breastfeeding Supports Available to Ontarians
 
-Resources Include Phone Support and Local Services
-
 August 1, 2016 9:00 A.M.
-
-[Ministry of Health and Long-Term
-Care](https://news.ontario.ca/mohltc/en)
 
 During World Breastfeeding Week, new mothers and mothers-to-be in
 Ontario are reminded that there are provincial supports available to
@@ -56,26 +84,6 @@ Breastfeeding also has benefits for mothers including: controlling
 bleeding after baby's birth, reducing the risk of breast and ovarian
 cancer and osteoporosis
 
-The [Baby-Friendly Initiative](http://breastfeedingresourcesontario.ca/)
-is a globally recognized standard for infant feeding and breastfeeding
-promotion, and supports exclusive breastfeeding and skin-to-skin contact
-within the first hour of birth.
-
-## Additional Resources
-
-- [World Breastfeeding Week 2016](http://worldbreastfeedingweek.md/)
-
-- [Learn more about
-  breastfeeding](http://www.health.gov.on.ca/en/public/programs/healthykids/breastfeeding.aspx)
-
-- [Ontariobreastfeeds.ca](http://ontariobreastfeeds.ca/)
-
-- [Healthy Kids
-  Strategy](http://www.health.gov.on.ca/en/public/programs/healthykids/)
-
-- [Patients First: Action Plan for Health
-  Care](http://www.health.gov.on.ca/en/ms/ecfa/healthy_change/)
-
 ## Quotes
 
 *"The majority of moms in Ontario want to breastfeed. It's convenient,
@@ -87,15 +95,3 @@ breastfeeding."*
 [Dr. Eric Hoskins](https://news.ontario.ca/profiles/en/dr-eric-hoskins)
 
 Minister of Health and Long-Term Care
-
-*"Breastfeeding has so many benefits for mothers, babies and families.
-Families are encouraged to get the support and information they need to
-start and maintain breastfeeding. A good place to start is the bilingual
-online searchable directory of Ontario breastfeeding services!"*
-
-Wendy McAllister
-
-Manager, Best Start Resource Centre
-
-*Pasted from
-\<<https://news.ontario.ca/mohltc/en/2016/08/breastfeeding-supports-available-to-ontarians.html?utm_source=ondemand&utm_medium=email&utm_campaign=o>\>*

@@ -5,39 +5,6 @@ id: cfb156e2-2a4b-4248-9329-9f040bf3d656
 title: Medical and Physical Health
 ---
 
-## Family Medicine
-
-Getting a family doctor: [Health Care
-Connect](https://www.ontario.ca/page/find-family-doctor-or-nurse-practitioner)
-
-### Preparing for a Regular Check Up
-
-- [ ] Get a blood requisition form from your doctor
-  - [ ] Fill in personal information
-- [ ] Complete the blood test
-  - [ ] Book an appointment as a blood testing site, for example with
-    [Life Labs](https://www.lifelabs.com/)
-  - [ ] Prepare for the test with the requisition form, health card, and
-    other items recommended by the test site
-  - [ ] Follow other test preparation instructions, for example 8 hours
-    fasting is required for fasting glucose/GTT and 12 hours fasting for
-    lipid assessment
-- [ ] Book an appointment with your doctor
-- [ ] Prepare notes you want to discuss with your doctor, for example:
-  - [ ] Past issues in blood work like last report
-  - [ ] Mental and physical health problems, chronic issues
-  - [ ] Past medical history
-  - [ ] Medications
-  - [ ] Immunizations
-  - [ ] Cancer screening using [What’s My Risk? \| My
-    CancerIQ](https://www.mycanceriq.ca/Cancers/Risk)
-
-### Tips for Blood work lab visit
-
-- Before the blood work, drink water to keep hydrated
-- After blood work at lab, apply pressure to the extraction spot for at
-  least 2 minutes to prevent bruising.
-
 ## Ontario Health
 
 Get medical advice: [Digital and Virtual Care Services \| Ontario
@@ -91,20 +58,22 @@ champion and seven-time world champion.
 
 ## See Also
 
+- [Cancer Screening](../610-health-medical-cancer-screening) - [Cancer
+  Screening - Medical and Physical
+  Health](id:38165ca7-b6dd-4550-8d85-bc72c2e2a40e)
+- [Family Health](../610-health-medical-family-health-doctor) - [Family
+  Health](id:22581bf1-4397-4827-b393-bfec1f840bf5)
+- [First Aid](../610-health-edu-first-aid) - [First
+  Aid](id:6cb48881-9290-43dd-945b-efaf6c5a7ecd)
+- [Fitness Test](../610-health-medical-fitness-test) - [Fitness
+  Test](id:b663c559-e626-4080-84e6-2a47ecd89e4c) - basic flexibility,
+  fat level, and pulse check under exercise
 - [Long-Term
   Care](../360-social-services-health-medical-long-term-care) -
   [Long-Term Care - Medical and Physical
   Health](id:44f19aa1-4ef3-4f0a-a5e0-ef64da79c659)
-- [First Aid](../610-health-edu-first-aid) - [First
-  Aid](id:6cb48881-9290-43dd-945b-efaf6c5a7ecd)
-- [Cancer Screening](../610-health-medical-cancer-screening) - [Cancer
-  Screening - Medical and Physical
-  Health](id:38165ca7-b6dd-4550-8d85-bc72c2e2a40e)
-- [Family Health](../610-health-medical-family-health) - [Family
-  Health](id:22581bf1-4397-4827-b393-bfec1f840bf5)
-- [Fitness Test](../610-health-medical-fitness-test) - [Fitness
-  Test](id:b663c559-e626-4080-84e6-2a47ecd89e4c) - basic flexibility,
-  fat level, and pulse check under exercise
+- [Medication Chart](../610-health-medical-medication-chart) -
+  [Medication Chart](id:80f9bdf9-30fb-427e-8f87-7fc0608993e2)
 - [Other Health Care Providers for
   Ontario](../610-health-medical-other-providers-ontario) - [Other
   Health Care Providers for
