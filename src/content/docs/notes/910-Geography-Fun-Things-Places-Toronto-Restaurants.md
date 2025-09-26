@@ -58,6 +58,8 @@ inexpensive options and/or good price for portions.
 | [The Chefs' House](https://www.thechefshouse.com/) | Sherbourne-King |  | Value, Student |  |
 | Village by the Grange Food Court | McCaul-Dundas | Various | Value |  |
 
+jd = near TMU
+
 ## Near North York Centre
 
 Yonge-Finch and Yonge-Shepperd areas
@@ -73,14 +75,15 @@ Yonge-Finch and Yonge-Shepperd areas
 
 | Name | Location | Style | Special |
 |----|----|----|----|
-| Mt Everest Restaurant |  | Nepalese/Indian |  |
 | [Café Polonez](https://cafepolonez.ca/) | 195 Roncesvalles Avenue | Polish |  |
 | [Casa Barcelona](https://www.casabarcelona.ca/) | Royal York-Bloor | Spanish | tapas |
 | Centennial College Restaurant | Markham Road-401 | Various | Value, Student |
-| Providential 9 | Woodbine-407, Markham | Chinese |  |
-| [Orient Bistro](https://www.yelp.ca/biz/orient-bistro-fine-chinese-dining-and-bar-richmond-hill) | 404-16th Ave | Chinese | Fine |
-| Good Catch Cafe | Don Mills-Sheppard, Fairview Mall | Chinese | Value=specials |
 | Congee Queen | Various, Yonge-Steeles | Chinese, Cantonese | Value shared |
+| Good Catch Cafe | Don Mills-Sheppard, Fairview Mall | Chinese | Value=specials |
+| Mt Everest Restaurant |  | Nepalese/Indian |  |
+| [Orient Bistro](https://www.yelp.ca/biz/orient-bistro-fine-chinese-dining-and-bar-richmond-hill) | 404-16th Ave | Chinese | Fine |
+| Providential 9 | Woodbine-407, Markham | Chinese |  |
+| Yan's Kitchen | West Pearce-Leslie | Chinese, Shanghai |  |
 
 ## Restaurants in Downtown Core
 
