@@ -217,8 +217,7 @@ sled heavier each round
 - [Sport](../790-sport)
 - [Health](../610-health)
 - [Calisthenics Workouts](../790-sport-calisthenics-workouts)
-- [Inspirational](../158-psychology-applied-goals-inspirational) - Like
-  Lara Croft workout
+- [Inspirational](../158-psychology-applied-goals-inspirational)
 
 ### Resources
 
