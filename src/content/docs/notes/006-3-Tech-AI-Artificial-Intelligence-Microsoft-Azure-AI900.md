@@ -389,20 +389,20 @@ tier of the resource.
     - [AI-900 Certification Program - Instructions to
       Certify](https://learn.microsoft.com/en-us/collections/ng06cjtrzn7rx7)
 
-3.  Recorded Learning
+3.  Videos, Recorded Learning
 
     - [AI-900: Microsoft Azure AI Fundamentals -
       YouTube](https://www.youtube.com/playlist?list=PLahhVEj9XNTfFP-841X_gdJ0nmjfjfCQN)
     - [AI-900 On Demand Instructor-led Training Series \| Microsoft
       Learn](https://learn.microsoft.com/en-gb/shows/on-demand-instructor-led-training-series/?terms=AI-900)
 
-4.  YouTube series with John Savill
+    1.  YouTube series with John Savill
 
-    - [AI-900 - Learning About Generative
-      AI](https://www.youtube.com/watch?v=Ch6KE7KxHGM&t=23s) -
-      transformers, encoding, attention, prompts, Azure services,
-      responsible AI
-    - [AI-900 Study Cram v2 (the non-Generative AI
-      bits)](https://www.youtube.com/watch?v=bTkUTkXrqOQ&t=1s) - ML,
-      training, Azure services and usage, computer vision, natural
-      language, speech, information extraction
+        - [AI-900 - Learning About Generative
+          AI](https://www.youtube.com/watch?v=Ch6KE7KxHGM&t=23s) -
+          transformers, encoding, attention, prompts, Azure services,
+          responsible AI
+        - [AI-900 Study Cram v2 (the non-Generative AI
+          bits)](https://www.youtube.com/watch?v=bTkUTkXrqOQ&t=1s) - ML,
+          training, Azure services and usage, computer vision, natural
+          language, speech, information extraction

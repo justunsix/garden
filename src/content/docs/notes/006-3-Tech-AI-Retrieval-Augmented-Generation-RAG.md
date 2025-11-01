@@ -27,9 +27,11 @@ sources like NASA and up to date data.
 
 LLM gets relevant data from updated data set and gives response with
 evidence of the response. RAG improves a model's performance with
-updated and domain specific information.
+updated and domain specific information to give accurate and relevant
+answers.
 
-It can say I don't know when the data is not available
+It can say I don't know when the data is not available or use the data
+for grounding like document files.
 
 Needs work on 2 parts:
 

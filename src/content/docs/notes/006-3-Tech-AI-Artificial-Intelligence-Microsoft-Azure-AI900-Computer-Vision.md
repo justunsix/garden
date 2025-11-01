@@ -322,6 +322,10 @@ access control and face redaction (masking).
 Face detection will identify locations of human faces with bounding box
 coordinates.
 
+- Face detection - locate faces in image
+- Face attribute analysis: analyze features of faces (head position,
+  occlusion)
+
 <figure id="fig:face-landmarks">
 <img
 src="https://learn.microsoft.com/en-us/training/wwl-data-ai/get-started-computer-vision-azure/media/landmarks-2.png" />

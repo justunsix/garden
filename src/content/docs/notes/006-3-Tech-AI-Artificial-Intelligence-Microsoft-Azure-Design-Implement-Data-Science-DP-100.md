@@ -11,3 +11,8 @@ title: Design and Implement Data Science Solution in Azure DP-100
 - [Designing and implementing a data science solution on Azure - Courses
   and Syllabus - Microsoft
   Learn](https://learn.microsoft.com/training/courses/DP-100T01)
+
+### Video Learning
+
+- [DP-100 On Demand Instructor-led Training Series \| Microsoft
+  Learn](https://learn.microsoft.com/en-us/shows/on-demand-instructor-led-training-series/?terms=dp-100)

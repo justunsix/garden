@@ -17,7 +17,7 @@ title: Artificial Intelligence (AI) Models
 | [Gemma2](https://ollama.com/library/gemma2) | General | 2B good for low hardware | [^6] |
 | [Gemma3](https://ollama.com/library/gemma3) | General, RAG | low hardware/1 GPU, context length, multilingual, multimodal |  |
 | [GPT-oss-20b](https://huggingface.co/openai/gpt-oss-20b) | General, Reasoning, Agentic | Configurable reasoning |  |
-| [Granite](https://ollama.com/library/granite3.3) | Reasoning, Instruction |  |  |
+| [Granite](https://huggingface.co/ibm-granite) | General | FOSS, SLM, 4 series low to medium hardware, multi modal |  |
 | [Kimi-K2-Instruct](https://huggingface.co/moonshotai/Kimi-K2-Instruct) | General, Agentic | Chat, agentic |  |
 | [Llama3](https://ollama.com/library/llama3) | General |  | [^7] |
 | [Meditron](https://ollama.com/library/meditron) | Medical | Medical questions, diagnosis, information |  |

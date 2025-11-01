@@ -84,14 +84,14 @@ title: Artificial Intelligence (AI)
   Copilot](../005-tech-microsoft-power-platform-ai-solutions-and-copilot) -
   [Create Power Platform solutions with AI and
   Copilot](id:09ea5ea0-19da-40ca-bb27-f78ed8938e2f)
-- [Develop AI solutions in Azure
-  AI-102](../006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102) -
-  [Develop AI solutions in Azure
-  AI-102](id:dc608ccd-b4bc-4820-8bfa-e522c827e6f8)
 - [Design and Implement Data Science Solution in Azure
   DP-100](../006-3-tech-ai-artificial-intelligence-microsoft-azure-design-implement-data-science-dp-100) -
   [Design and Implement Data Science Solution in Azure
   DP-100](id:276d06c2-5240-4f8f-bbb3-c964cecfce30)
+- [Develop AI solutions in Azure
+  AI-102](../006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102) -
+  [Develop AI solutions in Azure
+  AI-102](id:dc608ccd-b4bc-4820-8bfa-e522c827e6f8)
 - [Introduction to AI in Microsoft Azure
   AI-900](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
   [Introduction to AI in Microsoft Azure
@@ -113,6 +113,13 @@ title: Artificial Intelligence (AI)
 - [Microsoft Power Platform and
   AI](../005-tech-microsoft-power-platform-ai) - [Microsoft Power
   Platform and AI](id:d85c6b3c-b675-46bd-8399-7919d2a3a6b3)
+
+## Resources
+
+- [Hugging Face – AI community, models, data, and
+  applications](https://huggingface.co/)
+- [Mendeley Data](https://data.mendeley.com/) - sample research data for
+  use with data science
 
 ## Services
 

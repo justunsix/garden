@@ -1,4 +1,5 @@
 ---
+date: 2025-01-25
 filetags: ":ai:artificial-intelligence:epubnote:"
 id: db7175d9-6a78-432d-888c-222e40787201
 title: Open AI

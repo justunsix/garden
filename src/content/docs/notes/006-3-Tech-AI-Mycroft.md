@@ -5,7 +5,10 @@ id: f8db3814-1116-4010-9e4a-ba5828dc4c34
 title: Mycroft Artificial Intelligence (AI)
 ---
 
-Original source: [Mycroft AI](https://mycroft.ai/) retrieved in 2020
+Original source: [Mycroft AI](https://mycroft.ai/) retrieved in 2020.
+For successors, see [Open Voice OS](https://www.openvoiceos.md/) and
+[NeonCore](https://github.com/NeonGeckoCom/NeonCore) which extends
+Mycroft.
 
 ## About
 

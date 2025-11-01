@@ -964,12 +964,13 @@ Example implementations:
     aligned to the sequence so far.
 
     Example: a transformer model like GPT-4 (the model behind ChatGPT
-    and Bing) is designed to take text input (called a prompt) and
-    generate a syntactically correct output (called a completion). The
-    model uses its large vocabulary and the ability to generate
-    meaningful sequences of words. The model relies on its training of
-    large volume of data (public and licensed data from the Internet)
-    and complexity of the network.
+    and Bing) which stands for generative pre-trained transformer (GPT)
+    is designed to take text input (called a prompt) and generate a
+    syntactically correct output (called a completion). The model uses
+    its large vocabulary and the ability to generate meaningful
+    sequences of words. The model relies on its training of large volume
+    of data (public and licensed data from the Internet) and complexity
+    of the network.
 
 ### More about Models, Transformer Architecture
 
