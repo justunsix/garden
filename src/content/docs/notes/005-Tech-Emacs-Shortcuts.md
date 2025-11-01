@@ -45,6 +45,8 @@ title: Emacs Shortcuts
 |----|----|
 | proced: htop equivalent, list system processes and act on them | proced |
 | proced: Mark | m |
+| proced: sort, select sorting | s |
+| proced: sort, by memory | s m |
 | Restart Emacs | restart-emacs |
 
 ### Updates of Packages
@@ -167,9 +169,10 @@ See also:
 |----|----|
 | Delete the character just before the cursor | \<DEL\> |
 | Delete the next character after the cursor, delete line on character before empty lines | C-d |
-| Kill the word immediately before the cursor | M-\<DEL\> |
-| Kill the next word after the cursor | M-d |
+| Delete to end of line/beginning of line | C-k, C-u |
 | Kill from the cursor position to end of line | C-k |
+| Kill the next word after the cursor | M-d |
+| Kill the word immediately before the cursor | M-\<DEL\> |
 | Kill to the end of the current sentence | M-k |
 
 ### Abbreviations
@@ -202,8 +205,7 @@ lowercase or capitalize all words
 |----|----|
 | Move forward a character | C-f |
 | Move backward a character | C-b |
-| Move forward a word | M-f= or `C-arrow-key-left                 |
-| Move backward a word                        | M-b` or =C-arrow-key-right |
+| Move forward a word | M-f= or `C-arrow-key-left                 | | Move backward a word                        | M-b` or =C-arrow-key-right |
 | Move to next line | C-n |
 | Move to previous line | C-p |
 | Move to beginning of line | C-a or home |
@@ -361,22 +363,23 @@ manual
 | Node, next                                | n, Enter, \]     |
 | Node, previous                            | p, \[            |
 | Node, top node of current manual          | t                |
+| Node, top of info manuals directory       | d                |
 | Page, Backward                            | Del or Backspace |
 | Page, Forward or next node at end of page | Space            |
 | Page, Reset                               | C-l              |
 | Quit                                      | q                |
 | Search, all info manuals installed        | M-x info-apropos |
+| Searc, with autocomplete                  | m                |
 | Search, index                             | i                |
 | Search, manual                            | s                |
 
 g command examples
 
-|                                    |                    |
+| Name                               | Shortcuts          |
 |------------------------------------|--------------------|
 | Go to info-mode directory node     | g(dir)Top\<RET\>   |
 | Go to Emacs directory node         | g(emacs)Top\<RET\> |
 | Go to whole file of current manual | g\*\<RET\>         |
-|                                    |                    |
 
 ## Emacs Window, Start, Lisp
 
@@ -414,6 +417,12 @@ g command examples
 
 - Run shell command asynchronously: `M-&` - show command results in
   separate buffer
+
+### eshell
+
+| Name             | Shortcuts      |
+|------------------|----------------|
+| Run command, one | eshell-command |
 
 ## Artist mode - drawing
 
@@ -549,9 +558,12 @@ methods
   Packages](id:c83f42e0-ecb2-427d-bf75-0a3ca824bf1d)
 - [Emacs Shortcuts for dired](../005-tech-emacs-shortcuts-dired) -
   [Emacs Shortcuts for dired](id:8f08d874-1ec0-4709-b492-dc0d679513a0)
+- [Emacs Shortcuts for elfeed](../005-tech-emacs-shortcuts-elfeed) -
+  [Emacs Shortcuts for elfeed](id:54b690fd-eac4-4934-8a30-97388d72e99f)
 - [Emacs Shortcuts for org-mode](../005-tech-emacs-shortcuts-mode) -
   [Emacs Shortcuts](id:daea5d06-6895-4073-a5c7-64e8f21bf085)
 - [Emacs Shortcuts for Magit](../005-tech-emacs-shortcuts-magit) -
   [Emacs Shortcuts for Magit](id:18083c56-9942-44b7-804d-623b22866188)
 - [Emacs Shortcuts for
-  plantuml-mode](../005-tech-emacs-shortcuts-plantuml-mode) -
+  plantuml-mode](../005-tech-emacs-shortcuts-plantuml-mode) - [Emacs
+  plantuml-mode Shortcuts](id:4f3385f7-4b51-48cd-b004-2e4a73e6f27a)

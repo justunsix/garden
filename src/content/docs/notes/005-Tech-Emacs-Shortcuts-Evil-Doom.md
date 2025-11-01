@@ -18,6 +18,8 @@ package](https://github.com/emacs-evil/evil/blob/master/evil-maps.el)
 | Go to char using Avy | g s s (char), g s / (timer) |
 | Go, to lower case (evil-downcase), downcase selection | g u , u |
 | Go, to upper case (evil-upcase), upcase selection | g U , U |
+| Go, to file under cursor at point | g f |
+| Go, to file under cursor at point, with line | g F, evil-find-file-at-point-with-line |
 | Navigation, previous/next paragraph/section | {, } |
 | Navigation, previous/next sentence | (, ) |
 | Record macro (command mode) | q + \<register like a\> |
@@ -27,6 +29,9 @@ package](https://github.com/emacs-evil/evil/blob/master/evil-maps.el)
 See [Vim Shortcuts](../005-computer-shortcuts-vim) - [Vim
 Shortcuts](id:bdb62bfe-56b7-4c13-a1e4-9f91cf4e0bb5) which are mostly
 implemented in Evil and for explanation of terms.
+
+For "Go, to file under cursor at point, with line", an example is using
+`gF` on text like myfile.txt:42 where 42 is the line number to go to
 
 ## Doom Emacs
 
@@ -60,8 +65,11 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Completion, keyword | C-x C-k |
 | Completion, snippet | C-x C-s |
 | Dired, down directory or open file | l |
-| Dired, open marked files with external program | E, dired-do-open |
+| Dired, edit with wdired | i |
+| Dired, edit with wdired, save changes | :w or C-c |
+| Dired, open marked files with external program | W, dired-do-open |
 | Dired, up directory | h |
+| Documentation, Look up or Web search on selection | K |
 | eww, back URL | H or \[\[ |
 | eww, bookmark | m |
 | eww, bookmark add | m |
@@ -74,6 +82,7 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | eww, list eww buffers | gt |
 | eww, open URL | o |
 | eww, quit | q |
+| eww, URL, copy current URL | yy |
 | eww, Z menu: text decrease, increase | zj, zk |
 | Exit insert mode | Esc or jk |
 | Format, region or buffer | +format/region or +format/buffer |
@@ -84,6 +93,8 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Go to, element Implementation | g I |
 | Go to file or url at point | g f |
 | Help: Doom, Doom Modules | SPC h d m |
+| Insert, Evil Register | SPC i r |
+| Insert, Snippet | SPC i s |
 | Leader key while in insert mode | M-SPC |
 | LSP, Restart workspace and server | lsp-workspace-restart |
 | LSP, Update all servers installed | lsp-update-servers |
@@ -105,7 +116,9 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Switch Buffer | SPC , |
 | Tags: projectile find tag | C-t |
 | Toggle: line numbers: absolute, relative, none | SPC t l or doom/toggle-line-numbers |
+| Workspace (tab): Select workspace number | M-\<number\> like M-1 |
 | Workspace (tab): Close | SPC tab d |
+| Workspace (tab): Close session, work spaces, buffers | SPC tab x |
 | Workspace (tab): List tabs | SPC Tab Tab |
 | Workspace (tab): New | C-t |
 | Workspace (tab): Next | gt |

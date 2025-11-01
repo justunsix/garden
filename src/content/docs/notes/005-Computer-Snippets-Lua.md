@@ -6,7 +6,7 @@ title: Lua Snippets
 
 Source: Personal comments and snippets from [Everything You Need To
 Start Writing Lua - TJ DeVries -
-YouTube](filehttps://www.youtube.com/watch?v=CuWfgiwI73Q&list=PLep05UYkc6wTyBe7kPjQFWVXTlhKeQejM&index=3) -
+YouTube](https://www.youtube.com/watch?v=CuWfgiwI73Q&list=PLep05UYkc6wTyBe7kPjQFWVXTlhKeQejM&index=3) -
 28 minute tutorial on Lua comments, variables, control flow, modules,
 functions, metatables, Part 3 of "Advent of Neovim" introduction to
 Neovim, with

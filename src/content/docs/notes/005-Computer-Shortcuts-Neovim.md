@@ -66,7 +66,7 @@ See :h lsp for more commands
 | Command history, to execute in command mode | \<l\> : |
 | Completion, accept | C-y |
 | Completion, insert mode up or down | C-n or C-p |
-| Dashboard open | :lua Snacks.dashboard.open() |
+| Dashboard open | :lua Snacks.dashboard() |
 | Debug, actions | \<l\> d |
 | Debug, run/continue | \<l\> dc |
 | Debug, step into | \<l\> di |
@@ -85,13 +85,14 @@ See :h lsp for more commands
 | Find files, telescope mode, seek mode | s |
 | Flash: go to characters(s), Like Emacs Avy | s \<characters\> |
 | Flash: go to for tree-sitter | S |
-| Help: search | \<l\> s h |
 | git: Lazygit | \<l\> g g |
 | Go to element Declaration | g D |
 | Go to element definition | g d |
 | Go to element Implementation | g I |
 | Go to, File under cursor | g f |
+| Go to, Toggle comment line | g c c |
 | Go to, Toggle comment on selection | g c |
+| Help: search | \<l\> s h |
 | Navigation, buffer to left, right of current | H, L |
 | Navigation, Next, buffer | \]b |
 | Navigation, Previous, buffer | \[b |
@@ -125,6 +126,7 @@ See :h lsp for more commands
 | Search: Keymap | \<l\> s k |
 | Search: Replace, Do Replace | \<l\> s r, \<l\> R |
 | Search: Todos | \<l\> s t |
+| Search: with selection on root or cwd | \<l\> s w or s W |
 | Terminal, Bring up/Hide open terminal | C-/ |
 | Terminal, Find: enter terminal | \<l\> f t |
 | Terminal, return to normal mode | ESC ESC or C-\\ C-n (default vim) |

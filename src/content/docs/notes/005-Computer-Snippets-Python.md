@@ -31,7 +31,7 @@ python -m pip install --user --upgrade pip
 ## List installed packages
 python -m pip list
 
-## Install applications with pipx
+## Install applications with pipx command
 pipx install ansible
 ## or
 python -m pipx install ansible
@@ -61,6 +61,12 @@ This sentance is a
 multi line
 comment
 """
+
+# Multiline strings with ''' or """
+multiline_string = '''This is a
+multiline
+string.'''
+print(multiline_string)
 
 # Simple Docstring, can be for modules, classes, functions
 def determine_magic_level(magic_number):
@@ -131,7 +137,7 @@ print("string1")
 ## Convert a float number to string using str()
 print("20 days are " + str(28800) + " minutes")
 
-# Print a string with f string for variables
+# Print a string with format f string for variables
 print (f"20 days are {28800} minutes")
 
 # Print a value
@@ -205,6 +211,10 @@ try:
 except ValueError:
     print("Error: Your input is not a valid number.")
 
+# Check string is not None to validate it has a value
+if cog_endpoint is not None and cog_key is not None:
+    # Use strings
+
 ##############
 # While Loop #
 ##############
@@ -273,6 +283,21 @@ with open(file_path, "r" encoding="utf-8") as file:
 # Supports read, append, write, create and opening text or binary files
 f = open("demofile.txt", "r")
 print(f.read()
+
+#############################################
+# Switch / Case statement with match, case  #
+#############################################
+
+match term:
+    case pattern-1:
+         action-1
+    case pattern-2:
+         action-2
+    case "pattern-3":
+         print("action-3")
+    case _:
+        action-default
+
 
 ```
 

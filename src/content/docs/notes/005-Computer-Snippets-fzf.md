@@ -11,6 +11,10 @@ Some snippets are bash shell specific
 # Search all files in current directory (default)
 fzf
 
+# Search and only multiple select
+fzf --multi
+fzf -m
+
 # Search files using find and selections to file
 find * -type f | fzf > selected
 
@@ -20,6 +24,8 @@ cd (find -type d | fzf)
 
 # Search all files including hidden files
 fzf -a
+## Search all files including hidden and ignored files from fd -HI
+fd -HI | fzf
 
 # Preview files with bat
 fzf --preview 'bat --color=always {}'
@@ -68,10 +74,10 @@ hx (fzf)
 # fzf extended search - default setting
 # https://github.com/junegunn/fzf#search-syntax
 
-# fuzzy-match     Items that match sbtrkt
+# fuzzy-match   Items that match sbtrkt
 fzf sbtrkt
 
-# exact-match     Items that match wild (uses ')
+# exact-match   Items that match wild (uses ')
 fzf \'wild
 fzf -e
 
@@ -96,13 +102,13 @@ fzf +i
 fzf \'wild \'world
 # prefix-exact-match - items that start with music
 fzf ^music
-# suffix-exact-match  Items that end with .mp3
+# suffix-exact-match    Items that end with .mp3
 fzf .mp3$
-# inverse-exact-match     Items that do not include fire
+# inverse-exact-match   Items that do not include fire
 fzf !fire
-# inverse-prefix-exact-match  Items that do not start with music
+# inverse-prefix-exact-match    Items that do not start with music
 fzf !^music
-# inverse-suffix-exact-match  Items that do not end with .mp3
+# inverse-suffix-exact-match    Items that do not end with .mp3
 !.mp3$
 
 ```

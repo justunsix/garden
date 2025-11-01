@@ -5,12 +5,13 @@ title: Azure CLI Snippets
 
 \#filetags: :azure:snippets:epubnote:
 
-## Azure CLI
-
 - Use help and portal UI for help with values like types and resource
   IDs
 
 ``` shell
+
+# Log in with web prompt
+az login
 
 # Log in using a device code from web browser
 az login --use-device-code

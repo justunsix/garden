@@ -9,6 +9,7 @@ title: Emacs Shortcuts for dired
 | Description | Shortcut |
 |----|----|
 | Find a file with pattern, case sensitive (like ***Linux***) | `find-name-dired <pattern like *string*>` |
+| Find a file with pattern, case insensitive or other flags | `find-dired` and set flags as needed |
 | Grep in directory, by default does not include hidden | `consult-rg` or `counsel-rg` |
 | Grep in version controlled files in git | `consult-rg` or `counsel-git-grep` |
 
@@ -16,8 +17,8 @@ title: Emacs Shortcuts for dired
 
 - Use `find-name-dired` to search for files recursively in a directory
   - Use `*` as a wild card, the search is case sensitive
-- Use `wdired-change-to-wdired-mode` to edit the results in dired and
-  apply with `C-c`
+- Use `wdired-change-to-wdired-mode` or `C-c C-e` to edit the results in
+  dired and apply with `C-c`
 - Use `browse-url-of-dired-file` to open the file in the browser or
   default OS program like on Windows
   - Suggested by
@@ -48,6 +49,10 @@ title: Emacs Shortcuts for dired
 | Find file and open or create file                  | C-x C-f             |
 | Make Directory                                     | \+                  |
 
+For renaming files under version control, dired will rename them in a
+friendly way, for example using `git mv`. This functionality is
+controlled by the variable `dired-vc-rename-file` being `t` (true).
+
 ### Selection
 
 | Name                           | Shortcuts |
@@ -73,21 +78,22 @@ YouTube](https://youtu.be/-qo2Ai3pZRk?t=504) \|
 
 | Name | Shortcuts |
 |----|----|
-| Open, Edit file | RET |
-| Open with External Program | dired-do-open |
-| Open with local browser | browse-url-of-dired-file, W |
 | Copy file | C |
-| Move/rename file | R |
-| Rename based on RegExp | % R |
+| Copy filename at point or marked | C-0 w |
 | Delete - D |  |
-| Delete - Mark for deletion d |  |
 | Delete - Execute deletion of marks | x |
+| Delete - Mark for deletion d |  |
+| Execute program on file (e.g. cat) | ! or & |
+| Move/rename file | R |
+| Open, Edit file | RET |
 | Open file | RET |
 | Open file in other window | o |
 | Open file in other window without focusing on it | Alt-o/RET |
+| Open with External Program | dired-do-open |
+| Open with local browser | browse-url-of-dired-file, W |
 | Preview file | g o and close with q |
-| Execute program on file (e.g. cat) | ! or & |
-| Copy filename at point or marked | C-0 w |
+| Rename based on RegExp | % R |
+| Wdired dired, make dired buffer editable | C-c C-e |
 
 ### Changes and Permissions
 

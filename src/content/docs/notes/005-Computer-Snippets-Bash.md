@@ -42,6 +42,12 @@ if ! [ condition ]; then
   #Code to execute if the condition is false
 fi
 
+# Boolean and conditional evaluation
+dry_run=true
+if [ "$dry_run" = true ] ; then
+    echo 'Doing test run'
+fi
+
 # Check if a file exists before doing something
 if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
@@ -119,6 +125,11 @@ download_yt_dlp() {
 
 # Read user input
 read -r -p "Enter input: " input
+read -rps "Enter password: " password
+# -p prompt
+# -r  Do not treat a Backslash as an escape character. The backslash is considered to be line
+# -s Silent mode. If input is coming from a terminal, characters are not echoed.
+
 # Use input
 echo $input
 
@@ -144,5 +155,10 @@ fg
 
 # Formatting printing, like with new lines
 printf "\nCopied data to $folder"
+
+# Passing array of strings as arugments to a command
+local topgrade_flags=(--disable clam_av_db asdf vim helix uv)
+echo "Running topgrade with: ${topgrade_flags[*]}"
+topgrade "${topgrade_flags[@]}" -y
 
 ```

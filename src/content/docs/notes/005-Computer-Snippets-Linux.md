@@ -443,32 +443,42 @@ ss -6
 
 ## rsync
 
-from
-<https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories>
+Source:
+<https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories>,
+[Everyday Rsync - Veronica Explains](https://vkc.sh/everyday-rsync/),
+[Rsync on Archwiki](https://wiki.archlinux.md/title/Rsync)
 
-Synchronize directories
+Synchronize directories and files across local and remote machines
 
 ``` bash
-rsync -anv dir1/ dir2/
 
-# Recurvisely copy first directory/file to second file and exclude folder/files called Archive and include only 7z files
-rsync -aPv --delete "${LIBRARYDIR}/${array[$i]}/" "${LOCALDIR}/${array[$i]}/" --exclude "Archive" --include="*.7z"
+# Test Synchronize a source and destination --dry-run
+rsync --dry-run -anv source destination
+
+# Synchronize with ssh destination
+rsync -av ~/records username@destination.server:~/record-archives
+## Best practice is destination is remote in case remote directory is not mounted properly
+
+# Recurvisely copy first directory/file to destination file and exclude folder/files called Archive and include only 7z files
+rsync -aPvh --delete "${LIBRARYDIR}/${array[$i]}/" "${LOCALDIR}/${array[$i]}/" --exclude "Archive" --include="*.7z"
 # -a archive mode (recursively copy directories, copy symlinks without resolving, and preserve permissions, ownership and modification times)
-# -P show prgress
+# -P show progress, partial transfer of files
 # -v verbose
-# --delete delete extra files from destination directories
+# -h use human readable numbers
+# --delete delete files in destination directories if not existing in source
+#   Can also use --delete-before or --delete-after to have deletes occur at a certain time in job
 # --exclude PATTERN do not copy files with PATTERN
 # --include PATTERN only include files with PATTERN
 
 # Copy exmaple.txt from local to remote server
 rsync -avz -e ssh /path/to/example.txt user@remote-host:/path/to/destination/
 
-# Copy from remote to local
+# Copy from local to remote
 # --progress : Show progress during a transfer using
 # -a Archive for recursive and preserver file attributes
 # -v verbose
-# -z compress data to reduce network use
-rsync -avz --progress -e ssh user@remote-host:/path/to/remote-file.txt /local/destination/
+# -z compress data to reduce network use, required processing power
+rsync -avz --progress /local/destination/ -e ssh user@remote-host:/path/to/remote-file.txt
 
 ```
 
@@ -940,20 +950,22 @@ file system structure.
 
 ## See Also
 
-- [Linux Terminal Shortcuts
-  Readline](../005-computer-shortcuts-linux-terminal-gnu-readline) -
-  [Linux Terminal Shortcuts - GNU
-  Readline](id:bf3b61d8-23cc-4959-a5c7-17041d7e43f4)
 - [awk - text processing and pattern
   scanning](../005-computer-snippets-awk) - [awk Snippets - text
   processing and pattern
   scanning](id:105e4b70-09da-40e7-9d7f-3798899a3b00)
-- [fzf Snippets](../005-computer-snippets-fzf) - [fzf Fuzzy Finder
-  Snippets](id:1aa7c311-74a6-4304-86f1-4c3676ad2498)
 - [DevOps Bootcamp - Operating Systems and Linux
   Basics](../005-computer-tech-devops-bootcamp-twn-operating-systems-and-linux-basics) -
   [DevOps Bootcamp - Operating Systems and Linux
   Basics](id:e37ac848-6bb2-4f18-afcf-71c6a7388961)
+- [fzf Snippets](../005-computer-snippets-fzf) - [fzf Fuzzy Finder
+  Snippets](id:1aa7c311-74a6-4304-86f1-4c3676ad2498)
+- [GNU Info Snippets](../005-computer-snippets-info) - [GNU Info
+  Snippets](id:9421a803-3ff4-4a17-87a5-322cabb371e3)
+- [Linux Terminal Shortcuts
+  Readline](../005-computer-shortcuts-linux-terminal-gnu-readline) -
+  [Linux Terminal Shortcuts - GNU
+  Readline](id:bf3b61d8-23cc-4959-a5c7-17041d7e43f4)
 
 ### Resources
 

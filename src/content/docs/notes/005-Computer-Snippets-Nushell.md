@@ -34,6 +34,9 @@ cp
 # List files
 ls
 
+# List files and find files with a name or pattern with Nushell's find
+ls | find .jpg
+
 # Run a pipeline of commands
 nu -c <commands>
 # Run script
@@ -90,6 +93,9 @@ config env --default | save env.nu
 # Open env.nu in editor
 config env
 
+# Save output to file
+ls -al | save lsoutput.txt
+
 # Edit nushell env.nu
 vim $nu.env-path
 # Edit nushell config.nu
@@ -131,9 +137,17 @@ cat mytable.md | detect columns | to csv
 
 # Find a program file, alias, or command
 which <command>
+# Check if command is installed
+if (which fzf | is-empty) {
+    print "fzf is not installed. Please install it to use this script."
+    exit 1
+}
 
 # Set alias
 alias s = git status -sb
+
+# View aliases
+scope alias
 
 # Sort in increasing order
 sort
@@ -183,11 +197,16 @@ start obsidian://open?vault=Test
 
 # Run system (external) command instead of nushell command
 ^ls
+^find
 
-# http command to get, fetch and other commands
+# http command to get, fetch and other commands, similar to curl --get
+http get https://jsonplaceholder.typicode.com/todos/1
 http get https://google.com
 # Can returned structured data for further use
-# Similar to curl, jq tools combined
+# Similar to curl --get, jq tools combined
+# Post with http post
+http post https://httpbun.com/post 'name=myname'
+http post https://httpbun.com/post 'name=myname' | get data
 
 # Use output of command fzf with another command
 vim (fzf)
@@ -224,6 +243,15 @@ job unfreeze
 # Job, Suspend, freeze foreground application
 # Press Ctrl + z on Unix targets like Linux and macOS
 
+# If statement
+if 5 < 3 { 'yes!' } else { 'no!' }
+no!
+
+# Booleans
+## Check empty
+value | is-empty
+value | is-not-empty
+
 ```
 
 ## Data
@@ -252,7 +280,7 @@ let name = 'John'
 $msg
 $"greeting, ($name)"
 
-# Previous commmand's output, can be used similar to xargs in bash
+# Previous command's output, can be used similar to xargs in bash
 $in
 
 # Copy largest file to user's home directory using $in
@@ -264,7 +292,7 @@ ls | sort-by size | first | get name | cp $in ~
 
 ``` shell
 
-# Get help
+# Help on operators
 help operators
 
 # Greater than operator
@@ -281,11 +309,24 @@ outside a block.
 
 ``` shell
 
+# For each statement from a table
 ls | each { |row|
   # Change to PWD will not persist outside this block
   # ending in the bracket
   cd $row.name
   make
 }
+# For each: Loop on process table
+let processes = ps | select pid name | each {|it| $'($it.pid) ($in.name)'}
+
+
+```
+
+## Development
+
+``` shell
+
+# Python - activate virtual environment with overlay use
+overlay use .venv/bin/activate.nu
 
 ```

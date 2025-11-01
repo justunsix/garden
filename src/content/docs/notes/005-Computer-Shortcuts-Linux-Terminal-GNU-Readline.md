@@ -7,12 +7,12 @@ title: Linux Terminal Shortcuts - GNU Readline
 | Description | Shortcut |
 |----|----|
 | Autocomplete | TAB |
+| Clear terminal screen | C-l |
 | CUA: Cut word backward (behind cursor) | C-w |
 | CUA: Cut word forward | M-d |
-| CUA: Paste, yank from kill ring | C-y |
-| CUA: Kill (to clipboard) to end of line/beginning of line | C-k, C-u |
 | CUA: Cycle undo list | C-\_ , C-x, C-u, C-/ |
-| Clear terminal screen | C-l |
+| CUA: Kill (to clipboard) to end of line/beginning of line | C-k, C-u |
+| CUA: Paste, yank from kill ring | C-y |
 | Cursor: delete everything to beginning of line | C-u |
 | Cursor: delete everything to end of line | C-k |
 | Cursor: line - move to beginning | C-a, Home |

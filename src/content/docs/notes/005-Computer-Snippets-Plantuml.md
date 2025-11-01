@@ -48,8 +48,14 @@ For available sprites (icons, boxes), see
 <https://plantuml.com/stdlib> for example cloud icons, K8s, security
 icons.
 
-For C4 examples, see
-<https://crashedmind.github.io/PlantUMLHitchhikersGuide/C4/C4Stdlib.html>
+For C4 examples, see [Using PlantUML Stdlib C4 Lightweight Software
+Architecture Description Method - Hitchhiker's Guide to
+PlantUML](https://crashedmind.github.io/PlantUMLHitchhikersGuide/C4/C4Stdlib.html)
+and multiple concept, logical diagrams at [C4 model for visualising
+software
+architecture](../004-computer-tech-architecture-c4-model-for-software) -
+[C4 model for visualising software
+architecture](id:ac2b410e-5d70-4216-88b4-51b9dc492ad6)
 
 ``` plantuml
 @startuml
@@ -138,6 +144,33 @@ endlegend
 footer %filename() rendered with PlantUML version %version()\nExample from The Hitchhiker’s Guide to PlantUML
 @enduml
 
+```
+
+### Nested Items
+
+``` plantuml
+@startuml
+
+rectangle "Dev/Test Subscription" as devsub {
+
+    card "Virtual Machine 1" as vm1 {
+        component app [
+                Application
+        ]
+    }
+    card "AI Foundry" as aifoundry1 {
+        card "Hub" as hub1 {
+          card "AI Project" as aiproject1 {
+             component endpoint1 [
+                                Endpoint for Deployed model
+             ]
+          }
+        }
+    }
+
+}
+
+@enduml
 ```
 
 ### Entity Diagram Relationships

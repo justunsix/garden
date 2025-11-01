@@ -1815,12 +1815,12 @@ Final code:
 
 ### Stateless Applications on K8s
 
-- Use case:
-  - Create a Deployment, ConfigMap, Service. Do deployment and changes
-    with configurations like updates and scaling
-  - No backups needed
-  - K8s will check and try to keep desired state from configuration
-    files
+Use case:
+
+- Create a Deployment, ConfigMap, Service. Do deployment and changes
+  with configurations like updates and scaling
+- No backups needed
+- K8s will check and try to keep desired state from configuration files
 
 ### Stateful Applications on K8s without Operators
 

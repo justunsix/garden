@@ -4,7 +4,7 @@ id: 5ec63584-bd68-4dfb-a466-46b7acc9f3d0
 title: Data Science
 ---
 
-# See Also
+## See Also
 
 - [Artificial Intelligence](../006-3-tech-ai-artificial-intelligence) -
   [Artificial Intelligence
@@ -25,3 +25,6 @@ title: Data Science
   Pandas](../004-data-processing-tech-data-science-pandas-workshop) -
   [Introduction to Data Science with
   Pandas](id:8f735eb2-0e76-4e57-b2f0-809a14e63fc7)
+- [Generating Synthetic
+  Data](../004-data-processing-tech-data-science-generating-synthetic-data) -
+  [Generating Synthetic Data](id:7afc2137-0042-42d8-8fce-2c07ba852c76)

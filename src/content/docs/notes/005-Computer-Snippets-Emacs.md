@@ -36,4 +36,17 @@ emacs --debug-init
 # Start Emacs with specific configuration directory
 emacs --init-directory ~/.config/emacs-old
 
+# Run in batch, editor will sent messages to stderr
+emacs --batch --eval (print "Hello from Batch Emacs")
+# Run in batch with specific file
+emacs --batch -l ~/.config/emacs/myinit.el --eval '(org-roam-db-sync)'
+# Example from https://emacsdocs.org/docs/org/Batch-Execution
+emacs -Q --batch --eval "
+    (progn
+      (require 'ob-tangle)
+      (dolist (file command-line-args-left)
+        (with-current-buffer (find-file-noselect file)
+          (org-babel-tangle))))
+  " "$@"
+
 ```

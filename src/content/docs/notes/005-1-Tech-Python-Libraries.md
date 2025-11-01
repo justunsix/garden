@@ -9,6 +9,7 @@ title: Python Libraries
   HTML, XML parser
 - [Django](https://www.djangoproject.com/): Opinionated web framework,
   includes database functionality, REST API in plugin
+- [Faker](https://pypi.md/project/Faker/): Test/fake data generation
 - [FastAPI](https://fastapi.tiangolo.com/): Lightweight, API-first
   development
 - [Flask](https://flask.palletsprojects.com/en/3.0.x/) /

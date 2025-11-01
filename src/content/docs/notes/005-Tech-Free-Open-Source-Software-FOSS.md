@@ -13,6 +13,8 @@ plus my additions
 
 - 7zip - file archiver, a utility used to place groups of files within
   compressed containers known as "archives"
+- [Autogen](https://github.com/microsoft/autogen) - A programming
+  framework for agentic AI
 - [Aegis](https://github.com/beemdevelopment/Aegis) - free, secure and
   open source app for Android to manage your 2-step verification tokens
 - Ansible - software tools that enables infrastructure as code
@@ -22,11 +24,12 @@ plus my additions
   GNU Project as a free software replacement for the Bourne shell
 - Bitwarden - password management service
 - Blender - Blender 3D computer graphics software tool set
+- [Bruno](https://github.com/usebruno/bruno) - Opensource IDE For
+  Exploring and Testing API's (lightweight alternative to
+  Postman/Insomnia)
 - BusyBox - a software suite that provides several Unix utilities in a
   single executable file
 - Calibre - cross-platform suite of e-book software
-- [ctags, etags](https://docs.ctags.io/en/latest/man/ctags.1.html) -
-  Generate tag files for source code
 - Ceph - software-defined storage platform that implements object
   storage
 - Clonezilla - drive cloning, drive imaging and system deployment
@@ -35,6 +38,8 @@ plus my additions
 - [Cockpit](https://github.com/cockpit-project/cockpit) - web based
   interface for servers, intended for everyone like Linux admins and new
   users
+- [ctags, etags](https://docs.ctags.io/en/latest/man/ctags.1.html) -
+  Generate tag files for source code
 - [Data Display Debugger DDD](https://www.gnu.md/software/ddd/) -
   graphical front end for GDB and CUDA-GDB
 - [DB Browser for SQLite](https://sqlitebrowser.md/) - SQLite
@@ -94,6 +99,8 @@ plus my additions
   editing and output.
 - [kondo](https://github.com/tbillington/kondo) - Cleans dependencies
   and build artifacts from your projects
+- [Kottster](https://github.com/kottster/kottster) - Instant Node.js
+  admin panel. Secure, self-hosted, and easy to set up
 - Krita - raster graphics editor designed primarily for digital painting
   and 2D animation
 - KVM - virtualization module in the Linux kernel that allows the kernel
@@ -110,6 +117,7 @@ plus my additions
 - MicroG - Implementation of proprietary Google libraries that serves as
   a replacement for Google Play Services on the Android operating system
 - mpv - media player software based on MPlayer, mplayer2 and FFmpeg
+- [Neovim](https://neovim.io/) - hyperextensible Vim-based text editor
 - Nextcloud - suite of client-server software for creating and using
   file hosting services
 - Notepad++ - text editor
@@ -135,6 +143,10 @@ plus my additions
   through dynamic binary translation and provides a set of different
   hardware and device models for the machine, enabling it to run a
   variety of guest operating systems
+- [Recoll](https://www.recoll.md/) - Full-text search for desktop,
+  covering files, contents, messages, and other document formats
+- [Remmina](https://remmina.md/) - Remote access screen and file sharing
+  to your desktop
 - RStudio - IDE for R
 - Session - decentralized messaging platform
 - Shotcut - Non-linear video editor similar to Adobe Premiere Elements
@@ -147,7 +159,7 @@ plus my additions
 - Termux - terminal emulator for Android
 - Terraform - infrastructure as code build and maintenance (Mozzila
   Public License 2.0, weak copyleft)
-- Thurderbird - cross-platform email client, personal information
+- Thunderbird - cross-platform email client, personal information
   manager, news client, RSS and chat client
 - Tor Browser
 - Transmission - BitTorrent client which features a variety of user
@@ -170,7 +182,9 @@ plus my additions
   education
 - WordPress - content management system (CMS) written in PHP and paired
   with a MySQL or MariaDB database with supported HTTPS
-- zotero - manage bibliographic data and related research materials
+- [zotero](https://www.zotero.md/) - Manage bibliographic data and
+  research materials by helping you collect, organize, annotate, cite,
+  and share research.
 
 ## Modern Terminal Commands and Programs
 
@@ -203,7 +217,11 @@ plus my additions
   ones like alias usort = "coreutils sort"
 - [ctop](https://github.com/bcicen/ctop) - top like interface for
   container metrics
-- curlie - user friendly curl, good also for API tests
+- [curl](https://curl.se/) - command line tool and library for
+  transferring data with URLs since 1998. See similar utilities: xh,
+  nushell's http
+- [curlie](https://github.com/rs/curlie) - user friendly curl, good also
+  for API tests
 - [delta](https://github.com/dandavison/delta) - syntax-highlighting
   pager for git, diff, grep, and blame output
 - Difftastic - structural diff tool that compares files based on their

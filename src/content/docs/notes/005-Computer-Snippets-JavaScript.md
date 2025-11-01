@@ -184,6 +184,38 @@ function startsWithJ(array) {
 // Sleep, set a timeout
 setTimeout(1000);
 
+///////////////////////////////////
+// Loop, for, forEach, iteration //
+///////////////////////////////////
+
+// Loop over set with for loop
+const mySet = new Set();
+
+mySet.add("Virat");
+mySet.add("Rohit");
+mySet.add("Rahul");
+
+for (const value of mySet) {
+    console.log(value);
+}
+
+// Loop over set with forEach()
+const Data = new Set();
+
+Data.add("Delhi");
+Data.add("Noida");
+Data.add("Gurgaon");
+
+Data.forEach(function (value) {
+    console.log(value);
+});
+
+// Iterate over array
+const myArray = Array.from(myset);
+for (let i = 0; i < myArray.length; i++) {
+    console.log(myArray[i]);
+}
+
 ```
 
 ## String Regex and Cleaning

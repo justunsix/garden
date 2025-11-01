@@ -39,7 +39,7 @@ The Org website [fn:50] now looks a lot better than it used to.
 
 # Run a specific program using :shebang
 # https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-shell.html
-#+begin_src sh :shebang #!/home/justin/.nix-profile/bin/nu :results output
+#+begin_src sh :shebang #!/home/user/.nix-profile/bin/nu :results output
 ls
 #+end_src
 
@@ -90,7 +90,7 @@ curl https://jsonplaceholder.typicode.com/todos/1
 
 # Run a specific program using :shebang
 # See https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-shell.html
-#+begin_src sh :shebang #!/home/justin/.nix-profile/bin/nu :results output raw
+#+begin_src sh :shebang #!/home/user/.nix-profile/bin/nu :results output raw
 sys host
 #+end_src
 
@@ -115,9 +115,9 @@ Set the environment Python binary in the properties for the file
 
 Specific at section heading
 
-,\* Python Session
-
 or properties block in a section heading
+
+,\* Python Session with Virtual Environment Set
 
 ### Running commands
 
@@ -150,6 +150,29 @@ Run Python code and show executable being used
 import sys
 print(sys.executable)
 print("Hello World")
+```
+
+Run Python code with virtual environment
+
+``` python
+import sys
+print("Hello from venv")
+print(sys.executable)
+
+```
+
+Run Python code with uv
+
+``` python
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "matplotlib",
+# ]
+# ///
+import sys
+print("Hello from uv")
+print(sys.executable)
 ```
 
 ## Run a specific program using :shebang

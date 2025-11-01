@@ -112,27 +112,28 @@ title Container diagram for Internet Banking System
 
 actor "Banking Customer [Person]" as customer
 rectangle "Internet Banking System" as ibankingsys {
-  card webapp [
-    Web Application
-    Container Java Spring MVC
-  ]
-  card spaapp [
-    Single-Page Application
-    JS Angular
-  ]
-  card mobileapp [
-    Mobile App
-    Xamarin
-  ]
-  card apiapp [
-    Java Spring MVC
-    JSON/HTTPS API
-  ]
-  database ibsdb [
-    Database
-    Relational Database Schema
-  ]
+    card webapp [
+        Web Application
+        Container Java Spring MVC
+    ]
+    card spaapp [
+        Single-Page Application
+        JS Angular
+    ]
+    card mobileapp [
+        Mobile App
+        Xamarin
+    ]
+    card apiapp [
+        Java Spring MVC
+        JSON/HTTPS API
+    ]
+    database ibsdb [
+        Database
+        Relational Database Schema
+    ]
 }
+
 database "Mainframe Banking System [Software System]" as mainframebsys
 rectangle "Email System [Software System]" as emailsys
 
@@ -153,74 +154,73 @@ apiapp -[dashed]-> ibsdb : reads from and writes to [JDBC]
 - Zoom into a container to see components for API application
 - Components should reflect code structure like
   - Language modules
-
   - Packages
-
   - Namespaces
-
   - Libraries
 
-    ``` plantuml
-    @startuml
-    !theme mars
-    title Component diagram for Internet Banking System - API Application
+``` plantuml
+@startuml
+!theme mars
+title Component diagram for Internet Banking System - API Application
 
-      rectangle "Email System [Software System]" as emailsys
+rectangle "Email System [Software System]" as emailsys {
 
-      card spaapp [
+    card spaapp [
         Single-Page Application
         JS Angular
-      ]
-      card mobileapp [
+    ]
+    card mobileapp [
         Mobile App
         Xamarin
-      ]
-      card "API Application" as apiapp {
+    ]
+    card "API Application" as apiapp {
         component apictl [
-          Sign In Controller
-          [Component Spring MVC Rest Controller]
+        Sign In Controller
+        [Component Spring MVC Rest Controller]
         ]
         component apisecurity [
-          Security component
-          [Component: Spring Bean]
+        Security component
+        [Component: Spring Bean]
         ]
         component acctctl [
-          Account Summary Controller
-          [Component: Spring MVC Rest Controller]
+        Account Summary Controller
+        [Component: Spring MVC Rest Controller]
         ]
         component mfbsf [
-          Mainframe Banking System Facade
-          [Component: Spring Bean]
+        Mainframe Banking System Facade
+        [Component: Spring Bean]
         ]
         component resetctl [
-          Password Reset Controller
-          [Component: Spring MVC Rest Controller]
+        Password Reset Controller
+        [Component: Spring MVC Rest Controller]
         ]
         component emailcp [
-          Email Component
-          [Component: Spring Bean]
+        Email Component
+        [Component: Spring Bean]
         ]
-      }
-      database ibsdb [
+    }
+    database ibsdb [
         Database
         Relational Database Schema
-      ]
+    ]
 
     database "Mainframe Banking System [Software System]" as mainframebsys
 
-    spaapp -[dashed]-> apictl : makes API calls to [JSON/HTTPS]
-    mobileapp -[dashed]-> apictl : makes API calls to [JSON/HTTPS]
-    apictl -[dashed]-> apisecurity : uses
-    apisecurity -[dashed]-> ibsdb : reads from and writes to [JDBC]
-    spaapp -[dashed]->  acctctl : makes API calls to [JSON/HTTPS]
-    acctctl -[dashed]-> mfbsf : uses
-    mfbsf -[dashed]-> mainframebsys : uses [XML/HTTPS]
-    resetctl -[dashed]-> emailcp : uses
-    resetctl -[dashed]-> apisecurity : uses
-    emailcp -[dashed]-> emailsys : sends email using [SMTP]
+}
 
-    @enduml
-    ```
+spaapp -[dashed]-> apictl : makes API calls to [JSON/HTTPS]
+mobileapp -[dashed]-> apictl : makes API calls to [JSON/HTTPS]
+apictl -[dashed]-> apisecurity : uses
+apisecurity -[dashed]-> ibsdb : reads from and writes to [JDBC]
+spaapp -[dashed]->  acctctl : makes API calls to [JSON/HTTPS]
+acctctl -[dashed]-> mfbsf : uses
+mfbsf -[dashed]-> mainframebsys : uses [XML/HTTPS]
+resetctl -[dashed]-> emailcp : uses
+resetctl -[dashed]-> apisecurity : uses
+emailcp -[dashed]-> emailsys : sends email using [SMTP]
+
+@enduml
+```
 
 ### Level 4 Code Diagram
 

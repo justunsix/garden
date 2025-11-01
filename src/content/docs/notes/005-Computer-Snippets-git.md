@@ -98,9 +98,7 @@ git log --show-signature -1
 ## Like manually git cloning a repo to a separate directory and changing the working branch of that repo
 ## Easier to keep track of separate branches
 
-# Create a new branch whose name is the final part of the path
-git worktree add my_path_and_branch
-# Add a new worktree with a feature branch
+# Create a new branch whose name is the final part of the command; add a new worktree with a feature branch
 git worktree add ../myrepo-newfeature new-feature
 ## Example
 ## /bubbles is [master]
@@ -160,6 +158,40 @@ git clone myrepo.git # main
 cd myrepo
 git worktree add ../myrepo-feature feature_branch
 git worktree add ../myrepo-pr pull_request_numbered_branch
+
+# Get only one commit or range of commits for a branch
+git cherry-pick <commit-hash>
+## Get range or commits
+git cherry-pick <start-hash>^..<end-hash>
+
+# Stash the changes in a dirty working directory away with git stash
+# Temporarily saves your local changes away and reverts the working directory to match the HEAD commit, save changes using stash
+git stash --include-untracked
+git stash push -u -m "work in progress on feature Y"
+## Complete work in other branch, then open changes again
+git stash pop
+
+# See stashed changes
+git stash list
+
+# Use binary search to find the commit that introduced a bug with git bisect
+## Use the hash of the commit that is known to have the bug and a hash of a commit with a good commit
+## that does not have a bug. For example, HEAD has a the bug and goodcommithash has the working code
+git bisect start
+git bisect bad HEAD
+git bisect good goodcommithash
+## Have git guide on the commit with the issue
+
+# Manage reference logs (reflog) information with git reflog, useful for referencing tips of branches, undoing changes
+# Show log to find a previous commit or deleted commit, branches
+git reflog show
+git log -g --abbrev-commit --pretty=oneline
+# See refog of branch
+git reflog show test_branch
+# Return to a previous hash in case to "travel back in time" in a separate branch
+git checkout -b recovery-branch <hash>
+# Return to commit one previous to HEAD in a separate branch
+git checkout -b example-branch HEAD@{1}
 
 ```
 
@@ -251,6 +283,7 @@ using the [BFG tool](https://rtyley.github.io/bfg-repo-cleaner/)
 Example, remove passwords or sensitive information
 
 ``` bash
+
 # Get BFG jar and make sure Java is installed
 
 # Remove passwords and sensitivte information from the repository and commit it
@@ -267,6 +300,7 @@ java -jar bfg-1.14.0.jar --replace-text passwords.txt myrepo
 # Push changes
 git reflog expire --expire=now --all && git gc --prune=now --aggressive
 git push --all --force
+
 ```
 
 ## Import an existing git project into a new repository on GitHub

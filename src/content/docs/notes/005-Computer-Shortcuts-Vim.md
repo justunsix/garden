@@ -71,6 +71,7 @@ is at the right and moves right. j The j key looks like a down arrow. v
 | Earlier, go back in time of file, 2 number of times | :earlier 2 |
 | Earlier, go back in time of file, {N} minutes before | :earlier {N}m |
 | Make, run make by default or makeprg defined command | :make |
+| Make, set makeprg (make program) | :set makeprg make |
 | Messages, Vim logs View | :messages |
 | Lines, copy given line range, see :h cmdline-ranges | :copy or :t |
 | Lines, move given line range | :norm |
@@ -101,19 +102,26 @@ Usage:
 - 'j' option specifies that Vim will not jump to the first match
   automatically.
 
-### Quickfix List
+### Quickfix List, Compilation
 
 Supports with Vim's edit-compile-edit cycle to edit code, compile for
-errors and fix them.
+errors and fix them. Similar to Emacs `compile` function when combined
+with Vim's `:make` and `:copen`. See `:h quickfix`.
 
-| Description     | Shortcut |
-|-----------------|----------|
-| Quickfix, Open  | :copen   |
-| Quickfix, Close | :cclose  |
-| Next item       | :cnext   |
-| Previous item   | :cprev   |
+| Description                                 | Shortcut             |
+|---------------------------------------------|----------------------|
+| Quickfix, Open                              | :copen               |
+| Quickfix, Close                             | :cclose              |
+| Next item                                   | :cnext or \]q or :cn |
+| Previous item                               | :cprev or \[q or :cp |
+| First, last item                            | :cfirst :clast       |
+| Open item 3 or item by number               | :cc 3                |
+| Go to quickfix item                         | Enter                |
+| Run command on each quickfix item           | :cdo COMMAND         |
+| Run command on each quickfix item, per file | :cfo COMMAND         |
 
-For c, think of it as compilation
+For c, think of it as compilation. COMMAND can be a sequence of
+commands.
 
 ### :copy, :move, :norm examples
 
@@ -155,6 +163,7 @@ For c, think of it as compilation
 
     Source: [Search and replace in multiple files - Vim Tips
     Wiki](https://vim.fandom.com/wiki/Search_and_replace_in_multiple_buffers)
+    and =:h substitute
 
     - :argdo: (all files in argument list)
     - :bufdo (all buffers)
@@ -162,9 +171,48 @@ For c, think of it as compilation
     - :windo (all windows in current tab)
     - :cdo (all files/items listed in quickfix list)
 
-    Search and replace words in files in a directory using `:vimgrep` or
-    `:grep oldpattern *`, then C-q to add all items to quickfix list,
-    `:cdo s/oldpattern/new/g` on entries to make changes
+    Example in Vim command mode. grep uses external command, vimgrep
+    uses internal to vim function.
+
+    ``` shell
+
+    # Grep in current file and open results
+    grep PATTERN %
+    copen
+    # Search and replace on quickfix items
+    cdo s/OLDPATTERN/NewPATTERN/g
+
+    # Close all files appearing in quickfix list
+    cfdo bd
+
+    # Save Quickfix list results to file
+    w results.txt
+
+    ```
+
+    Example in LazyVim
+
+    ``` shell
+
+    # Grep in current file and open results
+    grep PATTERN %
+    # Grep on pattern in call files
+    vimgrep PATTERN *
+    # or
+    vim PATTERN *
+    # Grep on src directory recursively
+    grep PATTERN src/**
+    # C-q to add all items to quickfix list
+    # Open quickfix list
+    copen
+
+    # Search and replace on quickfix items
+    cdo s/OLDPATTERN/NewPATTERN/g | update
+    # Search and replace and ask for check
+    cdo s/OLDPATTERN/NewPATTERN/gc | update
+
+
+    ```
 
     Vim command mode:
 
@@ -274,6 +322,9 @@ For c, think of it as compilation
     #### Sort case insensitive
     :'<,'>!sort i
 
+    # Run current file
+    :!%
+
     ```
 
     1.  Key binding
@@ -294,6 +345,9 @@ For c, think of it as compilation
 
 ``` shell
 
+# Go to, line number in file
+:103
+
 # Copy current file name to system clipboard register @+
 :let @+ = expand('%')
 # expand('%') gets the current file name
@@ -302,6 +356,25 @@ For c, think of it as compilation
 :'<,'>w !psql $DATABASE_URL > sql.out
 # Use case is running an SQL statement in vim, piping to a database connection
 # and getting the output in a file
+
+# Set make to execute current file like a bash script
+:set makeprg=bash\ %
+# Set local variable make to execute current file like a nushell script
+:setlocal makeprg=nu\ %
+
+# Set error format used by makeprg in quickfix list, :h errorformat
+:set errorformat=%f:\ line\ %l: %m
+# Error format is one given when running shell scripts
+# %f filename
+# \  escaped space
+# %l line number
+# %m error message
+
+# View available compilers
+:compiler
+
+# Output variable
+echo &makerpg
 
 ```
 
@@ -327,6 +400,7 @@ Other table per `vimtutor` command
 | Go to, beginning of file | gg |
 | Go to, end of file | G |
 | Go to, file, url at point (open with system app) | gf , gx |
+| Go to, file with line number (like file.txt:42) | gF |
 | Go to, last insert mode | gi |
 | Go to, last selected text | gv |
 | Go to line 12, Go to line 100 | 12G, 100G or :100 |
@@ -360,6 +434,7 @@ Other table per `vimtutor` command
 | Format, auto format file | = g |
 | Join lines | J |
 | Put (paste deleted or copied text) | p |
+| Put (paste deleted or copied text) and align with surrounding text | \]p |
 | Redo | Ctrl + r |
 | Select, Start select - visual selection | v |
 | Select, visual and selected area | v i \<choose selection options\> |
@@ -481,25 +556,27 @@ Source: :h registers, <https://www.brianstorti.com/vim-registers/>
 
     | Description | Shortcut |
     |----|----|
-    | Jump \# of times using hjkl cursor | 10j / \#j |
-    | Page Up | Ctrl + b |
-    | Page Down | Ctrl + f |
-    | Half page up | Ctrl + u |
-    | Half page down | Ctrl + d |
-    | Move cursor top, middle, bottom of screen | (Shift) H, M, L |
-    | z mini mode: Move screen and leave cursor, top, bottom, middle | zt, zb, zz |
-    | Search word at point | \* |
-    | Begin/End of sentence | ( / ) |
     | Begin/End of paragraph | { / } |
+    | Begin/End of sentence | ( / ) |
     | Find mode, character, move to next match | f \<char\> |
     | Find mode, move to next match of pattern | ; |
     | Find mode (til / until), character, move to before it | t \<char\> |
-    | Navigation Previous, method start | \[m |
-    | Navigation Previous, method end | \[M |
-    | Navigation Previous, ( or { or \< | \[( or \[{ or \[\< |
+    | Half page down | Ctrl + d |
+    | Half page up | Ctrl + u |
+    | Jump \# of times using hjkl cursor | 10j / \#j |
+    | Move cursor top, middle, bottom of screen | (Shift) H, M, L |
     | Navigation Next ) | \]) |
-    | Navigation Previous, Spelling error | \[s |
+    | Navigation Next, Quickfix item | \]q |
     | Navigation Next, Spelling error | \]s |
+    | Navigation Previous, method end | \[M |
+    | Navigation Previous, method start | \[m |
+    | Navigation Previous, ( or { or \< | \[( or \[{ or \[\< |
+    | Navigation Previous, Quickfix item | \[q |
+    | Navigation Previous, Spelling error | \[s |
+    | Page Down | Ctrl + f |
+    | Page Up | Ctrl + b |
+    | Scroll screen, z mini mode: Move screen and leave cursor, top, bottom, middle | zt, zb, zz |
+    | Search word at point | \* |
 
 2.  Search and Replace
 
@@ -511,6 +588,7 @@ Source: :h registers, <https://www.brianstorti.com/vim-registers/>
     | Find matching bracket                      | %                      |
     |                                            |                        |
     | Change text in brackets                    | ci\[ or ci\] or ci{    |
+    | Change text in quotations                  | ci"                    |
     | Search x and Replace with y in entire file | :%s/x/y/g              |
 
     1.  Search and Replace Command Mode
@@ -770,3 +848,6 @@ IDEs. They preserve the window layout.
 - `vimtutor` command tutorial in terminal
 - [LazyVim for Ambitious Developers, Vim, Neovim, Lazyvim
   Guide](https://lazyvim-ambitious-devs.phillips.codes/)
+- [Compile Code The Way Vim Intended - Gavin
+  Freeborn](https://www.youtube.com/watch?v=vB3NT9QIXo8&t) - makeprg,
+  errorformat, compilation
