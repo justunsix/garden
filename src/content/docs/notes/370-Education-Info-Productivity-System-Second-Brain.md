@@ -1,7 +1,7 @@
 ---
 filetags: ":productivity:epubnote:"
 id: 81a88400-1933-47d3-92a4-7381508c342c
-title: Productivity System Second Brain
+title: Productivity System Second Brain in Emacs
 ---
 
 ## Org Roam - Build a Second Brain in Emacs

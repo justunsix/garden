@@ -11,7 +11,7 @@ from Wikipedia and [Online Computer Library Center
 OCLC Online Computer Library Center, Inc, Dublin, Ohio
 
 The below lists classes of the Dewey Decimal Classification (DDC) and
-footnotes indicate class adapted for this garden.
+last section indicates classes adapted for this garden.
 
 ``` text
 
@@ -341,7 +341,7 @@ Class 200 – Religion
         298 No longer used — formerly Mormonism
         299 Religions not provided for elsewhere
 
-Class 300 – Social sciences - [fn:3]
+Class 300 – Social sciences
 
     300 Social sciences, sociology, and anthropology
         300 Social sciences
@@ -350,7 +350,7 @@ Class 300 – Social sciences - [fn:3]
         303 Social processes
         304 Factors affecting social behavior
         305 Groups of people
-        306 Culture and institutions - [fn:5]
+        306 Culture and institutions
         307 Communities
         308 No longer used — formerly "Polygraphy"
         309 No longer used — formerly "History of sociology"
@@ -387,7 +387,7 @@ Class 300 – Social sciences - [fn:3]
         337 International economics
         338 Production
         339 Macroeconomics and related topics
-    340 Law [fn:6]
+    340 Law
         340 Law
         341 Law of nations
         342 Constitutional and administrative law
@@ -737,14 +737,14 @@ Class 600 – Technology
         647 Management of public households (Institutional housekeeping)
         648 Housekeeping
         649 Child rearing; home care of people with disabilities and illnesses
-    650 Management and public relations - [fn:1]
+    650 Management and public relations
         650 Management and auxiliary services
         651 Office services
         652 Processes of written communication
         653 Shorthand
         654–656 Not assigned or no longer used
         657 Accounting
-        658 General management - [fn:2]
+        658 General management
             658.8: Marketing, which includes works specifically related to marketing strategies, principles, and practices.
         659 Advertising and public relations
     660 Chemical engineering
@@ -792,7 +792,7 @@ Class 600 – Technology
         698 Detail finishing
         699 Not assigned or no longer used
 
-Class 700 – Arts and recreation - [fn:4]
+Class 700 – Arts and recreation
 
     700 Arts
         700 The Arts
@@ -1125,6 +1125,17 @@ Class 900 – History and geography
 
 ```
 
-## Footnotes on usage of DDC Classes in this Garden
+## Usage of DDC Classes in this Garden
 
 DDC Class name to note topics
+
+- 300 Social sciences: Inclusion, diversity
+- 306 Culture and institutions: culture institutions
+- 340 Law
+- 634 Orchards, fruits, forestry
+- 635 Garden crops (Horticulture)
+- 650 Management and public relations: Business, career notes,
+  communications, marketing
+- 658 General management practices: Possible future notes on
+  communications, marketing
+- 700 General works on art: creative

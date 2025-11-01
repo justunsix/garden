@@ -14,11 +14,13 @@ knowing which to use.
 
 Use these tips as a process to learning
 
-## Separate concepts and tools
+## Concepts before Tools, Separate concepts and tools
 
 Understand concepts first and processes, then how tools solve problems.
 
 ## Understand goals, challenges, processes, problems of concepts before tools
+
+What are common use cases - understand why is a concept required first.
 
 Examples of concepts:
 

@@ -22,7 +22,8 @@ title: Digital Marketing Profile Template
 
 ## Marketing Goals
 
-\<e.g. awareness, sales, behaviour change, specific promotion\>
+\<e.g. awareness, lead creation, sales, behaviour change, specific
+promotion\>
 
 ## Context
 
