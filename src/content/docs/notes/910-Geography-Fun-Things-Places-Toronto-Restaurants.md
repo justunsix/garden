@@ -44,12 +44,14 @@ inexpensive options and/or good price for portions.
 | Paddingtons Pump | St. Lawrence Market | Diner | Value, pork | jd |
 | Pearl Harbourfront | York-Queens Quay | Chinese | Fine |  |
 | Petit Potato | Bay-Wellesley | Chinese, Fusion | Diverse menu |  |
-| Pita Land | Jarvis-Gerrard | Shawarma |  |  |
+| Pita Way | Yonge-Carlton | Shawarma | Value | jd |
+| Pita Land | Jarvis-Gerrard | Shawarma |  | jd |
 | Pogue Mahone | Bay-College | Irish Pub |  |  |
 | Queen Mother Cafe | Queen West-University | Fusion |  |  |
 | Red Lobster | Atrium on Bay | Seafood |  |  |
 | [Sambuccas on Church](https://www.sambucas.ca/) | Church-Wellesley | Italian | Service | jd |
 | Senator | Yonge-Dundas | Diner |  |  |
+| [Somtum Jinda](https://somtumjinda.ca/) | Church-Gerrard | Thai | Michelin | jd |
 | St. Lawrence Market Lower Level | Jarvis-Front | Various | Value=portions | jd |
 | [Stout Irish Pub](https://www.stoutirishpub.ca/) | Parliament-Carlton | Irish Pub | Trivia nights | jd |
 | Subway, A&W, Harvey's, Tim's | Various | Fast food | Value |  |
@@ -69,20 +71,24 @@ Yonge-Finch and Yonge-Shepperd areas
 | Buk Chang Dong Soon Tofu | Yonge-Finch | Korean | Value |
 | Joyous | Leslie-Finch | Chinese |  |
 | [Nak Won](https://www.nakwon.ca/finch/) | Yonge-Finch | Korean |  |
-| Trio Restaurant | North York Centre | Western style | Service, Fine dining |
+| Trio Restaurant | North York Centre | Western style | Service, Fine |
 
 ## Other Locations
 
 | Name | Location | Style | Special |
 |----|----|----|----|
 | [Café Polonez](https://cafepolonez.ca/) | 195 Roncesvalles Avenue | Polish |  |
+| [Carmelina](https://carmelinasrestaurant.com) | Woodbine-John St. | Italian |  |
 | [Casa Barcelona](https://www.casabarcelona.ca/) | Royal York-Bloor | Spanish | tapas |
 | Centennial College Restaurant | Markham Road-401 | Various | Value, Student |
 | Congee Queen | Various, Yonge-Steeles | Chinese, Cantonese | Value shared |
 | Good Catch Cafe | Don Mills-Sheppard, Fairview Mall | Chinese | Value=specials |
+| Joy Noodle Cafe | Woodbine-407, Markham | Chinese, Hong Kong |  |
 | Mt Everest Restaurant |  | Nepalese/Indian |  |
 | [Orient Bistro](https://www.yelp.ca/biz/orient-bistro-fine-chinese-dining-and-bar-richmond-hill) | 404-16th Ave | Chinese | Fine |
 | Providential 9 | Woodbine-407, Markham | Chinese |  |
+| [Somtum Jinda](https://somtumjinda.ca/) | Don Mills-Sheppard, Fairview Mall | Thai | Michelin |
+| The Queen | Don Mills-Eglinton | Chinese | Fine |
 | Yan's Kitchen | West Pearce-Leslie | Chinese, Shanghai |  |
 
 ## Restaurants in Downtown Core
@@ -136,13 +142,11 @@ ordered by discussion popularity and personal experience
 
 ## Other
 
-- Carmelita near Woodbine and John in Markham
 - Penelope Greek Restaurant - 225 King St. W.
 - Yin Ji Chang Fen, 369 Spadina - rice noodle, congee specialties
 - Baldwin Street restaurants
 - [Tata hot sauce emporium](https://www.tatahotse.com/) - jerk chicken
   sandwich with beef patty
-- <http://www.joynoodlecafe.ca/> - Markham, Hong Kong Style cafe
 
 ## See Also
 
@@ -151,8 +155,8 @@ ordered by discussion popularity and personal experience
 
 ## Archive (Closed Restaurants)
 
-- Ho Jan (Carlon)
+- Ho Jan (Carlton)
 - Hosu (Queen and John)
-- Ten Ren's Tea Time near Empress, North York Centre
-- Papillion - Front - French
 - Lisbon by Night - Dundas West
+- Papillion - Front - French
+- Ten Ren's Tea Time near Empress, North York Centre
