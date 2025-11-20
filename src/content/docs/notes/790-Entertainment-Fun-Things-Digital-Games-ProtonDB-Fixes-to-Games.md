@@ -1,6 +1,6 @@
 ---
 date: 2025-09-15
-filetags: ":game:epubnote:"
+filetags: ":game:epubnote:steam:proton:"
 id: ae9f8a55-bb7e-4844-95c9-09e3d9cb2bb0
 title: ProtonDB Fixes to Games
 ---
@@ -26,6 +26,30 @@ and find the binary, launch the game from the binary
 
   - During Story Mode cut scenes, may need to press Enter to get
     rendering to work
+
+## FIFA 20
+
+Works using installation of EA App described at [Running Windows
+Programs with Steam
+Proton](../790-entertainment-fun-things-digital-games-proton-running-windows-programs) -
+[Running Windows Programs with Steam
+Proton](id:dfa9ea92-4b56-4ded-9949-839511a987e1). Install the EA App,
+then install FIFA 20 inside the app and run the game. During first run,
+configure game settings like display resolution, then press the button
+to run. As the game's servers are turned off, the game will show a
+message the servers are down, but offline play is not affected.
+
+To make it easier to launch FIFA, add a new non-Steam game. Use the same
+prefix as the EA App like these examples and set these settings for the
+Steam app:
+
+- Compatibility: Proton Experimental
+- Target: "/path/to/EAGames/pfx/pfx/drive<sub>c</sub>/Program Files/EA
+  Games/FIFA 20/FIFA20.exe"
+- Start In: *path/to/EAGames/pfx/pfx/drive<sub>c</sub>/Program Files/EA
+  Games/FIFA 20*
+- Launch Options: STEAM<sub>COMPATDATAPATH</sub>="/path/to/EAGames/pfx"
+  %command%
 
 ## XCOM 2
 
@@ -102,6 +126,11 @@ failed](https://www.reddit.com/r/totalwar/comments/1nmlqau/warhammer_3_crashing_
 - Use Windowed mode
 - Disable shadows
 
+## Total War Rome 2
+
+Game should work out of the box. See Fix 1 and 2 regarding VC Redist
+during initial game run.
+
 ## Games that should work with no or minor changes
 
 - Cities Skylines
@@ -113,7 +142,7 @@ failed](https://www.reddit.com/r/totalwar/comments/1nmlqau/warhammer_3_crashing_
 - Mechwarrior 5 Mercenaries
 - SpellForce Conquest of Eo
 - Stellaris
-- Total War: Pharaoh, Troy, Three Kingdoms, Warhammer 3
+- Total War: Pharaoh, Troy, Three Kingdoms, Warhammer 3 (Native), Attila
 - Uncharted: Legacy of Thieves
 - Warhammer 40,000 Dawn of War II Retribution
 - Warhammer 40,000 Rogue Trader
@@ -122,27 +151,47 @@ failed](https://www.reddit.com/r/totalwar/comments/1nmlqau/warhammer_3_crashing_
 ### Games to take a while on first run, like due to install, installation scripts, or shader loading
 
 - Battletech
+- Homeworld 3
 - Marvel's Midnight Suns
 - Titanfall 2 - requires log in to EA app during launch
 - X COM Chimera Squad
 
 ### VS Redist Package Issue and Stopping during initial run
 
-See also fix for [Steam Proton games stuck on "Installing: Microsoft VC
-Redist
-Package"](https://www.reddit.com/r/SteamPlay/comments/pulnsa/steam_proton_games_stuck_on_installing_microsoft/),
-workaround from pewpewpewmoon:
+1.  Fix 1
 
-> I get this from time to time. Clear your download cache, give it a
-> minute and then try again. It will fix it most of the time
->
-> Steam \> Settings \> Downloads \> Clear Download Cache
->
-> EDIT: This also happens on windows, it's just an annoying thing that
-> has always been a part of steam for some people
+    See also fix for [Steam Proton games stuck on "Installing: Microsoft
+    VC Redist
+    Package"](https://www.reddit.com/r/SteamPlay/comments/pulnsa/steam_proton_games_stuck_on_installing_microsoft/),
+    workaround from pewpewpewmoon:
 
-Also can check integrity of game's files if there are issues under
-Game's Details \> Installed Files
+    > I get this from time to time. Clear your download cache, give it a
+    > minute and then try again. It will fix it most of the time
+    >
+    > Steam \> Settings \> Downloads \> Clear Download Cache
+    >
+    > EDIT: This also happens on windows, it's just an annoying thing
+    > that has always been a part of steam for some people
+
+    Also can check integrity of game's files if there are issues under
+    Game's Details \> Installed Files
+
+2.  Fix 2
+
+    Unmount any extra external drives. Stop the game and restart it.
+    Remount drives after the game starts
+
+    Possible cause is Wine maps USB drives as extra Windows drives.
+    Windows redistributable installers query all drives during setup. If
+    one of those drives is slow or unresponsive or has issues, the
+    installer hangs waiting for it.
+
+    If the script hangs, look for evidence of changed files with `.vdf`
+    in ~/.steam/steam
+
+## Games not found a fix yet
+
+- Homeworld 3
 
 ## See Also
 
