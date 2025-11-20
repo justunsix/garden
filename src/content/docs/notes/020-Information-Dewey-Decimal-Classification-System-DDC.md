@@ -23,8 +23,12 @@ Class 000 – Computer science, information, and general works
         002 The book (writing, libraries, and book-related topics)
         003 Systems
         004 Data processing and computer science
+        004.67 Wide area networks
         005 Computer programming, programs, and data
+        005.1 Programming
+        005.8 Data Security
         006 Special computer methods (e.g. AI, multimedia, VR)[4]
+        006.3 Artificial intelligence
         007–009 [Unassigned]
     010 Bibliographies
         010 Bibliography
@@ -571,6 +575,7 @@ Class 500 – Science
 
     500 Science
         500 Natural sciences and mathematics
+        500.8 Culture studies
         501 Philosophy and theory
         502 Miscellany
         503 Dictionaries, encyclopedias, concordances
@@ -1129,13 +1134,36 @@ Class 900 – History and geography
 
 DDC Class name to note topics
 
+- 004 Data processing and computer science
+- 004.67 Wide area networks
+- 005 Computer programming, programs, and data
+- 005.1 Programming
+- 005.8 Data Security (Cyber Security)
+- 006.3 Artificial intelligence
+- 020 Library and information sciences
+- 158 Applied Psychology
 - 300 Social sciences: Inclusion, diversity
 - 306 Culture and institutions: culture institutions
+- 332 Financial economics
 - 340 Law
+- 360 Social problems and social services
+- 370 Education
+- 380 Commerce, communications and transportation
+- 400 Language
+- 440 French and related languages
+- 550 Earth sciences
+- 600 Technology
+- 610 Medicine and health
+- 613 Personal health and safety
 - 634 Orchards, fruits, forestry
 - 635 Garden crops (Horticulture)
-- 650 Management and public relations: Business, career notes,
-  communications, marketing
-- 658 General management practices: Possible future notes on
-  communications, marketing
-- 700 General works on art: creative
+- 640 Home and family management
+- 641 Food and drink
+- 648 Housekeeping
+- 650 Management and public relations (Business, career, communications,
+  marketing)
+- 700 General works on art (Creative)
+- 770 Photography, computer art, film, video
+- 780 Music
+- 790 Sports, games and entertainment
+- 910 Geography and travel
