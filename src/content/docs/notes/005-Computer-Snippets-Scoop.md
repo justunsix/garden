@@ -11,6 +11,7 @@ scoop install git
 
 # Update all programs
 scoop update -a
+scoop update --all
 
 # Add extras bucket
 scoop bucket add extras

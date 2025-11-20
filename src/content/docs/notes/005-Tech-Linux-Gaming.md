@@ -37,3 +37,5 @@ upscale to your monitor's resolution
 - For Steam, set in launch options
 - For Heroic Launcher, enable FSR hack
 - For Lutris, set in game options
+
+## See Also

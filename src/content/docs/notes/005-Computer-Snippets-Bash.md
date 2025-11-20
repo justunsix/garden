@@ -161,4 +161,17 @@ local topgrade_flags=(--disable clam_av_db asdf vim helix uv)
 echo "Running topgrade with: ${topgrade_flags[*]}"
 topgrade "${topgrade_flags[@]}" -y
 
+# While loop with counter and file creation
+counter=1
+
+while [ $counter -le 6 ]; do
+    new_filename=$(printf "%03d-_-metadata.txt" $counter)
+    if ! [ -f "$new_filename" ]; then
+        echo "Creating $new_filename"
+        touch "$new_filename"
+
+    fi
+    counter=$((counter + 1))
+done
+
 ```

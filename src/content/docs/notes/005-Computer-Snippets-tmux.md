@@ -4,8 +4,6 @@ id: 65e276bc-3efb-403c-a0fd-7e92905daa83
 title: tmux Snippets
 ---
 
-# Snippets
-
 ``` shell
 
 # New session

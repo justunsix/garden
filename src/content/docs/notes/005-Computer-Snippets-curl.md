@@ -29,6 +29,8 @@ curl -O https://raw.githubusercontent.com/nvim-lua/kickstart.nvim/master/init.lu
 curl -O https://www.digitalocean.com/robots.txt
 # Download a file with resuming downloads
 curl -C - -O https://www.digitalocean.com/robots.txt
+# Download file to specific file name
+curl -C - https://raw.githubusercontent.com/nvim-lua/kickstart.nvim/master/init.lua -o myinit.lua
 # Download multiple files simultaneously
 curl -Z -O "https://httpbin.org/image/jpeg" -O "https://httpbin.org/image/png"
 # Download in parallel with file name globbing

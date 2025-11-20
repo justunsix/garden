@@ -2,10 +2,11 @@
 date: 2019-05-03
 filetags: ":powerbi:microsoft:epubnote:"
 id: a624927c-e3c0-4019-9a29-55fa523ec621
-title: Microsoft PowerBI
+title: Microsoft Power BI
 ---
 
-Source: Microsoft training led by Krishna Mohan
+Source: Personal notes and updates of Microsoft training led by Krishna
+Mohan
 
 ## Course Summary
 
@@ -81,10 +82,10 @@ See PowerBI licensing online
 
 ### External Users
 
-- Power BI + **Azure AD B2B** helps **seamlessly distribution** of Power
-  BI Apps and dashboard to external users
+- Power BI and Microsoft Entra ID formerly known as Azure AD B2B helps
+  sharing of Power BI Apps and dashboard to external users
 - External users **can be licensed in three ways**
-  - Premium Capacity
+  - Fabric capacity formerly called Premium Capacity
   - Assigned Power BI Pro license
   - Brings their own Pro license
   - Mobile App **is also supported**
@@ -103,3 +104,10 @@ See PowerBI licensing online
   - Can work with ExpressRoute, encrypted connections
   - Microsoft Entra ID (aka AzureAD) integration
   - Row level – define security on desktop = role based filters
+
+## See Also
+
+- [Microsoft Power BI
+  Visualizations](../005-tech-microsoft-powerbi-visualizations) -
+  [Microsoft Power BI
+  Visualizations](id:e7ff8bd6-bfd9-4f58-adc0-88ea56ed40d0)

@@ -6,6 +6,8 @@ title: Rust Libraries
 ---
 
 - [Clap](https://lib.rs/crates/clap) - CLI argument parsing
+- [grex](https://github.com/pemistahl/grex) - Generate a matching
+  regular expression from the test cases you provide
 - [GTK4](https://lib.rs/crates/gtk4) - GUI Rust bindings for GTK4
 - [Polars](https://pola.rs/) - Dataframes
 
@@ -33,4 +35,4 @@ Where to find trusted, recommended crates
 
 - [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
 - [Blessed.rs](https://blessed.rs/)
-- [Lib.rs](https://lib.rs/)
+- [Lib.rs — home for Rust crates](https://lib.rs/)

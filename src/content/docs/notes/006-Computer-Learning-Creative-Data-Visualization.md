@@ -1,4 +1,5 @@
 ---
+date: 2021-06-16
 filetags: ":creative:arts:data-visualization:epubnote:"
 id: 8dec4c61-b952-414c-9989-63523313e100
 title: Data Visualization
@@ -6,8 +7,7 @@ title: Data Visualization
 
 ## Data Visualization and Digital Services
 
-Source: My personal notes from 2021-06-16 session with Ontario Digital
-Service
+Source: My personal notes from session with Ontario Digital Service
 
 Why visualize data? improved analysis (insights, broad), effective
 communication (sharing, simple to understand)
@@ -60,7 +60,9 @@ Remove amount of space taken up on paper/screen:
 </figure>
 
 Note: Pie charts are *not recommended* as people find difficulty in
-seeing differences in slices, especially with more than 4 slices.
+seeing differences in slices, especially with more than 4 slices. Angles
+are harder for people to perceive, so consider other formats like text
+tables.
 
 Example:
 
@@ -101,3 +103,7 @@ Check the defaults meet the principles explained above
 
 - [Creative Arts](../700-arts-learning-creative-arts) - [Creative
   Arts](id:46d4e081-598c-4a1a-936d-7cc9c95abf7e)
+- [Microsoft Power BI
+  Visualizations](../005-tech-microsoft-powerbi-visualizations) -
+  [Microsoft Power BI
+  Visualizations](id:e7ff8bd6-bfd9-4f58-adc0-88ea56ed40d0)

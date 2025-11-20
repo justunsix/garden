@@ -193,6 +193,25 @@ git checkout -b recovery-branch <hash>
 # Return to commit one previous to HEAD in a separate branch
 git checkout -b example-branch HEAD@{1}
 
+# Git Maintenance tasks to optimize performance and efficiency of repositories like garbage collection, repacking
+## Manually start maintenance
+git maintenance run
+
+## Register current repository for daily maintenance
+git maintenance register
+### Unregister repository for maintenance
+git maintenance unregister
+
+## Start maintenance for a repository
+git maintenance start
+## Stop maintenance
+git maintenance stop
+
+# Set up signing keys
+gpg --list-secret-keys --keyid-format=long
+git config --global user.signingkey <your-key-id>
+git config --global commit.gpgsign true
+
 ```
 
 ## Create a new repository
@@ -240,6 +259,7 @@ git push origin master
 
 # "Reset repository to the latest remote
 git fetch origin
+git reset --hard origin/main
 git reset --hard origin/master
 # This example assumes that the remote repo’s name is “origin” and that
 # the branch named “master”, ​in the remote repo, matches the currently

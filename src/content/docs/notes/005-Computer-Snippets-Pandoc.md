@@ -289,6 +289,10 @@ pandoc -f html https://www.gnu.org/gnu/gnu.html https://www.gnu.org/licenses/lic
 # Convert HTML page with media/pictures to media folder to Emacs Org format
 pandoc -f html https://lazyvim-ambitious-devs.phillips.codes/course/chapter-1/ -o chapter-1.org --extract-media media
 
+# Download page, then convert
+curl -C - -O https://www.gnu.org/software/emacs/manual/html_mono/eshell.html
+pandoc -f html eshell.html -o eshell.epub
+
 ```
 
 ### Word (Docx) to markdown, including math

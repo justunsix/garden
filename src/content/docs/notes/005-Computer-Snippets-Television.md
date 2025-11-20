@@ -15,7 +15,12 @@ tv update-channels
 # List chanels
 tv list-channels
 
+# Open file
+vim (tv)
+
 # Channel specific search
+## Directories
+tv dirs
 ## Nushell history
 tv nu-history
 ## PowerShell history

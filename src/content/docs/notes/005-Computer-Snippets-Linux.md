@@ -412,6 +412,20 @@ export $(xargs <.env)
 
 ```
 
+## sed (stream editor)
+
+``` shell
+
+# Replace `apple` with `mango` on all lines using basic `regex`, print to `stdout`:
+command | sed 's/apple/mango/g'
+
+# Use extended regular expressions with -E
+sed -E 's/pattern/replacement/flags'
+## Replace dog and cat with pet
+"dog cat moose" | sed -E 's/(cat|dog)/(pet)/g'
+
+```
+
 ## ss (socket statistics)
 
 - Check open ports, connections

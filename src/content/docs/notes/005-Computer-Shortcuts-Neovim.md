@@ -112,6 +112,8 @@ See :h lsp for more commands
 | Neo tree, Help | :help neo-tree |
 | Neo tree, Move up, down, scroll up, down | j, k, C-u, C-d |
 | Neo tree, Quit | q |
+| Registers, show lists | " |
+| Marks, show lists | ' |
 | Neo tree, Seek / search | s or / |
 | Neo tree, Toggle hidden files | H |
 | Notifications | :noice |
@@ -126,7 +128,7 @@ See :h lsp for more commands
 | Search: Keymap | \<l\> s k |
 | Search: Replace, Do Replace | \<l\> s r, \<l\> R |
 | Search: Todos | \<l\> s t |
-| Search: with selection on root or cwd | \<l\> s w or s W |
+| Search: selection, selected tex on root or cwd | \<l\> s w or s W |
 | Terminal, Bring up/Hide open terminal | C-/ |
 | Terminal, Find: enter terminal | \<l\> f t |
 | Terminal, return to normal mode | ESC ESC or C-\\ C-n (default vim) |

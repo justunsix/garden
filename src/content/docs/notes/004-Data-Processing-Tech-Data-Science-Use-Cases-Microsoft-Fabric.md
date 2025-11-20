@@ -60,4 +60,4 @@ Data sources (A) –\> Prepare and transform (B) –\> Analyze (C)
 
 A. Structured and unstructured data as input B. Pipelines to transfer,
 process, use inside a data lake. Integrates with notebooks, Spark jobs
-C. Analzye using SQL analytics, Power BI
+C. Analyze using SQL analytics, Power BI

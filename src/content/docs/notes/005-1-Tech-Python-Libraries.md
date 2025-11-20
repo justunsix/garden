@@ -7,13 +7,13 @@ title: Python Libraries
 
 - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) -
   HTML, XML parser
-- [Django](https://www.djangoproject.com/): Opinionated web framework,
+- [Django](https://www.djangoproject.com/) - Opinionated web framework,
   includes database functionality, REST API in plugin
-- [Faker](https://pypi.md/project/Faker/): Test/fake data generation
-- [FastAPI](https://fastapi.tiangolo.com/): Lightweight, API-first
+- [Faker](https://pypi.md/project/Faker/) - Test/fake data generation
+- [FastAPI](https://fastapi.tiangolo.com/) - Lightweight, API-first
   development
 - [Flask](https://flask.palletsprojects.com/en/3.0.x/) /
-  [Quart](https://quart.palletsprojects.com/en/latest/): Lightweight,
+  [Quart](https://quart.palletsprojects.com/en/latest/) - Lightweight,
   flexible web framework and REST APIs
 - [Jupyter](https://jupyter.md/) - Web-based interactive development
   environment for notebooks, code, and data

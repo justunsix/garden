@@ -9,3 +9,11 @@ title: Golang Libraries
   framework
 - [Huh?](https://github.com/charmbracelet/huh) - interactive terminal
   forms and prompts
+- [http package - net/http - Go Packages](https://pkg.go.dev/net/http) -
+  HTTP client and server implementations
+
+## See Also
+
+### Resources
+
+- [Go Packages](https://pkg.go.dev/)

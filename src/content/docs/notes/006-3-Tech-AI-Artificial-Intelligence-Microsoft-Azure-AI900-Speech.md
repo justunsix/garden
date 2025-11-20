@@ -29,7 +29,7 @@ Text --------> Speech
   +---------------+
     transcription
 
-Can also do translation
+Can also do translation during synthesis and transcription
 
 ```
 

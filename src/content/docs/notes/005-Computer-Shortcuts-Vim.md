@@ -409,7 +409,7 @@ Other table per `vimtutor` command
 | Jump to end of line (eol) | \$ / End |
 | Repeat last command, repeat macro (like command, inserts, combos) | . |
 | Replace all occurrences of string<sub>old</sub> with new, new can be blank | :%s/string<sub>old</sub>/new |
-| Replace in region string<sub>old</sub> with new, new can be blank | :'\<,'\>s/string<sub>old</sub>/new/g |
+| Replace in region string<sub>old</sub> with new, new can be blank with g global | :'\<,'\>s/string<sub>old</sub>/new/g |
 | Search: command history | q: (like C-f in command mode) |
 | Undo | u |
 
@@ -602,7 +602,7 @@ Source: :h registers, <https://www.brianstorti.com/vim-registers/>
         - To ask for confirmation each time add 'c' `:%s/old/new/gc`
 
         Search and replace also takes regex like `\d` for digits, see
-        `:help pattern-search`
+        `:help pattern-search`. `g` stands for global
 
 3.  Tags
 
@@ -750,19 +750,20 @@ From :h windows-intro:
 
 | Description                          | Shortcut                            |
 |--------------------------------------|-------------------------------------|
+| Close split frame                    | C-w c                               |
+| Close window                         | :q                                  |
+| Max height                           | \_                                  |
 | Move to next window                  | Ctrl + w w                          |
 | Move window to new tab               | Ctrl + w T                          |
 | Resize, Balance windows              | Ctrl + w =                          |
 | Resize, Maximize height              | Ctrl + w \_                         |
 | Resize, Maximize width               | Ctrl + w                            |
-| Switch to windows by direction       | Ctrl + w, hjkl                      |
 | Split frame, horizontal (top, down)  | C-w, s or :sp                       |
-| Split frame, vertical (left, right)  | C-w, v or :vsp                      |
+| Split frame, open file at cursor     | C-w, f                              |
 | Split frame, open file in new window | :sp \<file\>                        |
-| Close split frame                    | C-w c                               |
-| Close window                         | :q                                  |
+| Split frame, vertical (left, right)  | C-w, v or :vsp                      |
+| Switch to windows by direction       | Ctrl + w, hjkl                      |
 | Zoom in / Zoom out                   | Ctrl + Shift + - / Ctrl + Shift + = |
-| Max height                           | \_                                  |
 
 See `:h wincmd` for more commands
 

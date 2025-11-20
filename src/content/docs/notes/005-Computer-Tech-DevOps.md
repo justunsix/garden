@@ -32,7 +32,7 @@ title: DevOps - Development and Operations
   Mindmap](../005-computer-tech-devops-automation-mindmap) - [DevOps
   Automation Mindmap](id:61db8dc3-538b-4950-9260-1b3ec8e5ca30)
 - [Secure DevOps: Security Principles and
-  Practices](../500-8-tech-security-secure-devops-principles-practices) -
+  Practices](../005-8-tech-security-secure-devops-principles-practices) -
   [Secure DevOps: Security Principles and
   Practices](id:4430aaeb-2a31-4f60-8a77-3e2bffae9eac)
 

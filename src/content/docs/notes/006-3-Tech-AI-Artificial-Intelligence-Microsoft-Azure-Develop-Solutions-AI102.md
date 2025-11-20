@@ -184,8 +184,8 @@ endpoint1 --> aiserviceregion1 : LLMs are hosted external to a user subscription
 
 ```
 
-Various tools can be used like Azure DevOps pipelines, Terraform which
-translates to Microsoft ARM deployment templates, GitLab, Jenkins. AI
+Various tools can be used like Azure DevOps, GitLab, Jenkins pipelines
+and Terraform which translates to Microsoft ARM deployment templates. AI
 Foundry resources like hub, projects, and endpoints can be created and
 managed using those DevOps tools.
 
@@ -314,6 +314,8 @@ In prompts, you could add for users to report responses.
   - [Exercises for Develop AI-powered information extraction solutions
     in
     Azure](https://microsoftlearning.github.io/mslearn-ai-information-extraction/)
+  - [Advanced Labs on Microsoft Learn for AI Engineer - Applied
+    Skills](https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills&roles=ai-engineer)
 - [Microsoft Certified: Azure AI Engineer
   Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification)
 - [Study guide for Exam AI-102: Designing and Implementing a Microsoft

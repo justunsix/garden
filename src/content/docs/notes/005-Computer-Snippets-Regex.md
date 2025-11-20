@@ -17,7 +17,7 @@ Regex syntax and explanations with examples
 # Quatifiers + * and ? can be used with matches, groups
 # Match 1 or many characters with +
 .+
-# Match 0 or more characters with *
+# Match 0 or more characters with * (wildcard)
 .*
 # Match 0 or 1 character with ?
 .?
@@ -29,7 +29,7 @@ Regex syntax and explanations with examples
 # Match digit pattern, like a phone number using quantifier
 \d{3}-\d{3}-\d{4}
 
-# Match exactly 4 word characters
+# Match exactly 4 word characters with ^ for start with and $ for end with
 ^\w{4}$
 
 # Match non digits
@@ -50,6 +50,7 @@ ab?c
 
 # Match exact word
 'jump'
+"hello"
 ## Matches jump inside jumped or jump by itself
 
 # Match word itself with \b, not surrounded by other characters

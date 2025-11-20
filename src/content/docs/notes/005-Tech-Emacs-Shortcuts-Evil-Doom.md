@@ -92,8 +92,9 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Go to, element definition | g d |
 | Go to, element Implementation | g I |
 | Go to file or url at point | g f |
+| Go to, open file in separate buffer and split | C-w f |
 | Help: Doom, Doom Modules | SPC h d m |
-| Insert, Evil Register | SPC i r |
+| Insert, Search Evil Register | SPC i r |
 | Insert, Snippet | SPC i s |
 | Leader key while in insert mode | M-SPC |
 | LSP, Restart workspace and server | lsp-workspace-restart |
@@ -112,6 +113,8 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Search - buffer | SPC s s |
 | Search - imenu | SPC s i |
 | Search - jump list | SPC s j |
+| Search - bookmark list | SPC s m |
+| Search - mark (Evil) list | SPC s r |
 | Spelling, suggest correct spelling of word | z =, ispell-word |
 | Switch Buffer | SPC , |
 | Tags: projectile find tag | C-t |
@@ -125,6 +128,9 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Z menu for folding, screen movement | z |
 | Z menu: kill current buffer | zx |
 | Z menu: org-mode toggle inline images | zi |
+
+For documentation look up `K`, good minibuffer items are language
+specific docs, devdocs.io, and web search.
 
 For completions, shortcuts are implemented similarly to completion
 section of [Vim Shortcuts](../005-computer-shortcuts-vim) - [Vim
