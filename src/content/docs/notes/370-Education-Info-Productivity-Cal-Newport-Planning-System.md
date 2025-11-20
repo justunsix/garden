@@ -48,6 +48,9 @@ summer months or vacation periods. It links back to the strategic plans.
 Use a daily plan which uses the weekly plan and time blocks for work can
 be done in the day. "What do I want to work on today?"
 
+For example, meeting in morning, admin work block before lunch, deep
+work block in afternoon.
+
 Have a work shutdown plan like time of day you stop work and start rest.
 
 - Track tasks and events you did and still need to do

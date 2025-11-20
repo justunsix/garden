@@ -445,7 +445,8 @@ results in negative body changes, learning performance, and disease.
 1.  Sleep regularly and enough
 2.  Keep a cooler bedroom temperature (around 65 F, 18 C)
 3.  Avoid stimulants and drugs (for example coffee, alcohol) at night
-4.  If staying awake in bed too long, go to other place for a while
+4.  If staying awake in bed too long, go to other place for a while and
+    read or listen to calming audio and go back to sleep.
 
 ### Find your primal posture and sit without back pain
 
