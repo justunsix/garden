@@ -31,10 +31,10 @@ repo](https://dev.azure.com/SecureDevOpsDelivery/_git/MyHealthClinicSecDevOps-Pu
 - Phishing example: 524 recipients, 220 clicked sign up (42%), 37
   clicked both emails, 11 people reported to IT security (2%)
 - Attackers have access to the same public information as we do: [OWASP
-  Top 10](https://owasp.md/www-project-top-ten/), [SANS Top
-  25](https://www.sans.md/top25-software-errors/),
-  [CVE](https://cve.mitre.md/), [NVD](https://nvd.nist.gov/),
-  [CERT](https://www.kb.cert.md/vuls/). Attackers can be organized: have
+  Top 10](https://owasp.org/www-project-top-ten/), [SANS Top
+  25](https://www.sans.org/top25-software-errors/),
+  [CVE](https://cve.mitre.org/), [NVD](https://nvd.nist.gov/),
+  [CERT](https://www.kb.cert.org/vuls/). Attackers can be organized: have
   website, addresses, business organizations.
 - Developer Workstations: common target due to administrative privileges
   and access to tools and access to the areas.

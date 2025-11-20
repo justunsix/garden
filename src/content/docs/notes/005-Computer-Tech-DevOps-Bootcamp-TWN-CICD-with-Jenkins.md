@@ -1256,7 +1256,7 @@ mvn build-helper:parse-version versions:set \
   version in output
 
 - See
-  [https://www.mojohaus.org/build-helper-maven-plugin/parse-version-mojo.html](https://www.mojohaus.md/build-helper-maven-plugin/parse-version-mojo.html)
+  [https://www.mojohaus.org/build-helper-maven-plugin/parse-version-mojo.html](https://www.mojohaus.org/build-helper-maven-plugin/parse-version-mojo.html)
   for information on build-helper:parse-version
 
 - Other package managements/tools follow a similar concept

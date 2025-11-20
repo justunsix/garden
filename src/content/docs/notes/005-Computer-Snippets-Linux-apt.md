@@ -45,6 +45,6 @@ sudo dpkg -i <package>.deb
 ### Resources
 
 - See more usage at
-  [pacman/Rosetta](https://wiki.archlinux.md/title/Pacman/Rosetta) which
+  [pacman/Rosetta](https://wiki.archlinux.org/title/Pacman/Rosetta) which
   translates common package manager commands from pacman to other
   commands

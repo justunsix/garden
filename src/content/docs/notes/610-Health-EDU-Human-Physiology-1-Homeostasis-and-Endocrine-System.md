@@ -7,7 +7,7 @@ title: Introduction to Human Physiology - 1 Homeostasis and Endocrine
 ---
 
 Source: My personal notes from [Introduction to Human Physiology \|
-Coursera](https://www.coursera.md/learn/physiology/home/info)
+Coursera](https://www.coursera.org/learn/physiology/home/info)
 
 ## Homeostasis
 

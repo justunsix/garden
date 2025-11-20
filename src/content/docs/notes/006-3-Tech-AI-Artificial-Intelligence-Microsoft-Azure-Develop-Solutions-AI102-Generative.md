@@ -359,7 +359,7 @@ expanding on it like an operational knowledge base for employees. What
 is your recommendation after this course to apply the RAG concepts we
 learned. So far going through the [Python SDK
 docs](https://learn.microsoft.com/en-us/python/api/overview/azure/ai-projects-readme?view=azure-python),
-[library docstrings](https://pypi.md/project/azure-ai-projects/) and
+[library docstrings](https://pypi.org/project/azure-ai-projects/) and
 Microsoft Learn docs for [Azure AI Search, Azure AI Foundry
 Models](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/retrieval-augmented-generation)
 were helpful

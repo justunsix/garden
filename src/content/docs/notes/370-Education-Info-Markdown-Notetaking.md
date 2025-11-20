@@ -25,7 +25,7 @@ References:
 - [GitHub -
   SjoerdV/ConvertOneNote2MarkDown](https://github.com/SjoerdV/ConvertOneNote2MarkDown)
 - [Pandoc - Installing
-  pandoc](https://pandoc.md/installing.html) / [pandoc/dockerfiles](https://github.com/pandoc/dockerfiles#available-images)
+  pandoc](https://pandoc.org/installing.html) / [pandoc/dockerfiles](https://github.com/pandoc/dockerfiles#available-images)
 - [Paste to Markdown](https://github.com/justunsix/clipboard2markdown)
   fork of [Paste to Markdown
   website](http://euangoddard.github.io/clipboard2markdown/) and Github

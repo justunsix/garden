@@ -5,7 +5,7 @@ title: Learning How to Learn Week 3 Procrastination and Memory
 ---
 
 Source: My personal notes from [Learning How to Learn Coursera
-course](https://www.coursera.md/learn/learning-how-to-learn/)
+course](https://www.coursera.org/learn/learning-how-to-learn/)
 
 ## Procrastination
 
@@ -350,4 +350,4 @@ src="../media/Learning-How-to-Learn-Week3-2024-12-26-Memory-Consolidation.png" /
 ### Resources
 
 - [Introduction to Procrastination and
-  Memory](https://www.coursera.md/learn/learning-how-to-learn/lecture/3vb3Y/introduction-to-procrastination-and-memory)
+  Memory](https://www.coursera.org/learn/learning-how-to-learn/lecture/3vb3Y/introduction-to-procrastination-and-memory)

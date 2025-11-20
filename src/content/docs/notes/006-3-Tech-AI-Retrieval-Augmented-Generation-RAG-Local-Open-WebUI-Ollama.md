@@ -31,7 +31,7 @@ models, technical knowledge, and time.
   to interact with Ollama, it also support talking to other interfaces
   - Has things like chat, model configuration, retrieval augmental
     generation (RAG), and other features
-- [Python](https://www.python.md/) - programming language
+- [Python](https://www.python.org/) - programming language
 
 ### Hardware Requirements
 

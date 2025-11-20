@@ -5,7 +5,7 @@ title: Emacs Windows Management
 ---
 
 Source: [Demystifying Emacs's Window
-Manager](https://www.masteringemacs.md/article/demystifying-emacs-window-manager) -
+Manager](https://www.masteringemacs.org/article/demystifying-emacs-window-manager) -
 as of Emacs 28
 
 ## Window Management Capabilities
@@ -203,7 +203,7 @@ Customizations to consider or use:
 
 For a list of useful `ACTIONS` and `ALIST` settings see [Demystifying
 Emacs's Window Manager - Mastering
-Emacs](https://www.masteringemacs.md/article/demystifying-emacs-window-manager),
+Emacs](https://www.masteringemacs.org/article/demystifying-emacs-window-manager),
 section "Useful ACTION Functions"
 
 ## Putting it Together and Examples

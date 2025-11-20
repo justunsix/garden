@@ -976,7 +976,7 @@ Example implementations:
 
 Read more about Transformer model based on encoder, decoder in
 [Attention is All You Need
-paper](https://en.wikipedia.md/wiki/Attention_Is_All_You_Need)
+paper](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need)
 
 Encoder Model
 

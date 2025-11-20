@@ -5,7 +5,7 @@ title: "Emacs Package: Eshell"
 ---
 
 Source: [Mastering eshell - mastering
-emacs](https://www.masteringemacs.md/article/complete-guide-mastering-eshell),
+emacs](https://www.masteringemacs.org/article/complete-guide-mastering-eshell),
 [EmacsConf 2022: Top 10 reasons why you should be using Eshell - Howard
 Abrams (he/him)](https://www.youtube.com/watch?v=9xLeqwl_7n0)
 

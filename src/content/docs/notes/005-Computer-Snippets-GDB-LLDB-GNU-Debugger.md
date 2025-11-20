@@ -5,11 +5,11 @@ id: 7fba6e8c-f671-4deb-8126-88a1208d567e
 title: GDB and LLDB Debugger Snippets
 ---
 
-Source: [GDB to LLDB command map](https://lldb.llvm.md/use/map.html),
+Source: [GDB to LLDB command map](https://lldb.llvm.org/use/map.html),
 [Debugging Rust apps with GDB - LogRocket
 Blog](https://blog.logrocket.com/debugging-rust-apps-with-gdb/),
 [Debugging with GDB (GDB
-manual)](https://sourceware.md/gdb/current/onlinedocs/gdb)
+manual)](https://sourceware.org/gdb/current/onlinedocs/gdb)
 
 Note commands/aliases like run (r), step (s), and breakpoint (b) are
 similar or same with GDB and LLDB

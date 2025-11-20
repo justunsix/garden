@@ -24,11 +24,11 @@ title: Photography
   tool is the "Auto" button. Click that button and the histogram will be
   stretched out. Your image should look better. If the photo lacked
   contrast, it can suddenly become a lot "punchier"!. Related is [levels
-  tool in Gimp docs](https://docs.gimp.md/en/gimp-tool-levels.html)
+  tool in Gimp docs](https://docs.gimp.org/en/gimp-tool-levels.html)
 - Selective blurring for backgrounds and certain objects (especially for
   high noise)
 - High pass filter for sketch effect or sharpening [from Gimp
-  docs](https://www.gimp.md/tutorials/Sketch_Effect/)
+  docs](https://www.gimp.org/tutorials/Sketch_Effect/)
 - Defocusing non essential elements
 - Cloning and retouching photo abnormalities
 
@@ -70,5 +70,5 @@ folder
 
 ### Resources
 
-- GIMP [documentation](https://www.gimp.md/docs/) and
-  [tutorials](https://www.gimp.md/tutorials/)
+- GIMP [documentation](https://www.gimp.org/docs/) and
+  [tutorials](https://www.gimp.org/tutorials/)

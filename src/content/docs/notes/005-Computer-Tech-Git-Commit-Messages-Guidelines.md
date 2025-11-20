@@ -5,7 +5,7 @@ title: Git Commit Messages Guidelines
 ---
 
 Source: [Conventional Commits - Specification for human and machine
-readable commit messages](https://www.conventionalcommits.md/)
+readable commit messages](https://www.conventionalcommits.org/)
 
 ## Use Case of using Conventional Commits
 

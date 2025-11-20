@@ -6,7 +6,7 @@ title: Neovim Debugging
 
 Source: [Debug With Neovim: A Dev's Edge in the AI
 Age](https://www.youtube.com/watch?v=fvRwG17XsaA&t=214), [LazyVim
-Extras](https://www.lazyvim.md/extras) for Neovim configuration and
+Extras](https://www.lazyvim.org/extras) for Neovim configuration and
 recommended plugins
 
 ## How to Debug in Neovim
@@ -17,7 +17,7 @@ Use the Neovim Debug Adapter Protocol (DAP)
 
 Setup with nvim-dap-ui to user interface
 
-An easy way to setup is to use [LazyVim](https://www.lazyvim.md/) DAP
+An easy way to setup is to use [LazyVim](https://www.lazyvim.org/) DAP
 Core extra and language extra for language you are using
 
 ### Usage

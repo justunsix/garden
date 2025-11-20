@@ -10,10 +10,10 @@ title: KDE
 Source:
 
 - Documentation:
-  [https://apps.kde.org/platforms/windows/](https://apps.kde.md/platforms/windows/)
+  [https://apps.kde.org/platforms/windows/](https://apps.kde.org/platforms/windows/)
 
 - Package installers:
-  [https://packages.msys2.org/groups/mingw-w64-ucrt-x86_64-kde-applications](https://packages.msys2.md/groups/mingw-w64-ucrt-x86_64-kde-applications),
+  [https://packages.msys2.org/groups/mingw-w64-ucrt-x86_64-kde-applications](https://packages.msys2.org/groups/mingw-w64-ucrt-x86_64-kde-applications),
   <https://scoop.sh/#/apps?q=kde>,
 
 - Ark - file archiver

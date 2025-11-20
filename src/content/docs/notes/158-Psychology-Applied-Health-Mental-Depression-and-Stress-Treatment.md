@@ -8,17 +8,17 @@ title: Mental Health & MH First Aid - Depression and Stress Treatment
 ## Treatments
 
 Source: [Occupational burnout -
-Wikipedia](https://en.wikipedia.md/wiki/Occupational_burnout)
+Wikipedia](https://en.wikipedia.org/wiki/Occupational_burnout)
 
 Burnout is a type of [psychological
-stress](https://en.wikipedia.md/wiki/Stress_(psychological)).
+stress](https://en.wikipedia.org/wiki/Stress_(psychological)).
 Occupational burnout or job burnout is characterized by
-[exhaustion](https://en.wikipedia.md/wiki/Exhaustion), lack
-of [enthusiasm](https://en.wikipedia.md/wiki/Enthusiasm) and [motivation](https://en.wikipedia.md/wiki/Motivation),
+[exhaustion](https://en.wikipedia.org/wiki/Exhaustion), lack
+of [enthusiasm](https://en.wikipedia.org/wiki/Enthusiasm) and [motivation](https://en.wikipedia.org/wiki/Motivation),
 feelings of ineffectiveness, and also may have the dimension
-of [frustration](https://en.wikipedia.md/wiki/Frustration) or [cynicism](https://en.wikipedia.md/wiki/Cynicism),
+of [frustration](https://en.wikipedia.org/wiki/Frustration) or [cynicism](https://en.wikipedia.org/wiki/Cynicism),
 and as a result
-reduced [efficacy](https://en.wikipedia.md/wiki/Efficacy) within the
+reduced [efficacy](https://en.wikipedia.org/wiki/Efficacy) within the
 workplace.
 
 ### Treatment

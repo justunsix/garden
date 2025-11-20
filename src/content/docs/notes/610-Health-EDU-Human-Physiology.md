@@ -23,7 +23,7 @@ Widmaier, Hershel Raff, Kevin T. Strang, 10th, 11th, or 12th edition,
 McGraw Hill Companies Inc.
 
 See more at [Introduction to Human Physiology \|
-Coursera](https://www.coursera.md/learn/physiology/home/info)
+Coursera](https://www.coursera.org/learn/physiology/home/info)
 
 ## See Also
 

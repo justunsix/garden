@@ -77,7 +77,7 @@ Use cases:
 
 - Example install
   - Download from
-    [https://www.python.org/downloads/](https://www.python.md/downloads/)
+    [https://www.python.org/downloads/](https://www.python.org/downloads/)
     for your operating system
   - Add python to your path
   - Make sure you use Python version 3+

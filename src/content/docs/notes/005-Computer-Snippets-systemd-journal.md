@@ -65,4 +65,4 @@ journalctl -p err..alert
 ### Resources
 
 - [systemd/Journal -
-  ArchWiki](https://wiki.archlinux.md/title/Systemd/Journal)
+  ArchWiki](https://wiki.archlinux.org/title/systemd/Journal)

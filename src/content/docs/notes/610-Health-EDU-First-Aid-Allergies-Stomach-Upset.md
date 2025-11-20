@@ -27,7 +27,7 @@ Source: My notes from doctor TL
 Source: My notes from doctor TL
 
 See more at [Oral rehydration therapy -
-Wikipedia](https://en.wikipedia.md/wiki/Oral_rehydration_therapy)
+Wikipedia](https://en.wikipedia.org/wiki/Oral_rehydration_therapy)
 
 ### Symptoms of Stomach Upset
 

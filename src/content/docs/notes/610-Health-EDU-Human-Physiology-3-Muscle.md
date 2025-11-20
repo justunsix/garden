@@ -6,7 +6,7 @@ title: Introduction to Human Physiology - 3 Muscle
 ---
 
 Source: My personal notes from [Introduction to Human Physiology \|
-Coursera](https://www.coursera.md/learn/physiology/home/info)
+Coursera](https://www.coursera.org/learn/physiology/home/info)
 
 In this module, we consider the effectors of the body that govern
 voluntary and involuntary movement. These effectors are specialized

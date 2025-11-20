@@ -8,7 +8,7 @@ title: GNU Privacy Guard (GPG)
 
 Sources:
 
-- [GNU Privacy Handbook](https://gnupg.md/gph/en/manual.html)
+- [GNU Privacy Handbook](https://gnupg.org/gph/en/manual.html)
 - [Practical Guide to
   GPG](https://www.linuxbabe.com/security/a-practical-guide-to-gpg-part-1-generate-your-keypair)
 - [How to create GPG key
@@ -394,7 +394,7 @@ directories.
 
         - GNOME: Seahorse
         - KDE: KGPG
-        - Windows: [gpg4win utilities](https://www.gpg4win.md/)
+        - Windows: [gpg4win utilities](https://www.gpg4win.org/)
 
         Manage keys graphically using these applications. Can work with
         keyserver like `hkps://keys.openpgp.org`.

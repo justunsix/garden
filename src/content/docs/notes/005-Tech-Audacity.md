@@ -7,7 +7,7 @@ title: Audacity
 ## Recording desktop audio
 
 Source:
-[https://support.audacityteam.org/basics/recording-desktop-audio](https://support.audacityteam.md/basics/recording-desktop-audio)
+[https://support.audacityteam.org/basics/recording-desktop-audio](https://support.audacityteam.org/basics/recording-desktop-audio)
 
 ### Windows
 

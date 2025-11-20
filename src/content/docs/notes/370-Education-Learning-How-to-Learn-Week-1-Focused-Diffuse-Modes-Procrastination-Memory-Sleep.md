@@ -6,7 +6,7 @@ title: Learning How to Learn Week 1 Focused/Diffuse Modes,
 ---
 
 Source: My personal notes from [Learning How to Learn Coursera
-course](https://www.coursera.md/learn/learning-how-to-learn/)
+course](https://www.coursera.org/learn/learning-how-to-learn/)
 
 ## Focused and Diffuse Modes
 
@@ -48,7 +48,7 @@ Salvadore Dali & Thomas Edison
 ## What is Learning?
 
 *Pasted from
-\<[https://www.coursera.org/learn/learning-how-to-learn/lecture/7iJVR/what-is-learning](https://www.coursera.md/learn/learning-how-to-learn/lecture/7iJVR/what-is-learning)\>*
+\<[https://www.coursera.org/learn/learning-how-to-learn/lecture/7iJVR/what-is-learning](https://www.coursera.org/learn/learning-how-to-learn/lecture/7iJVR/what-is-learning)\>*
 
 About the brain, new synapses (connections) are created and recede all
 the time. Creation happens over time and sleep. There are a million
@@ -57,7 +57,7 @@ billion synapses in the brain.
 ## A Procrastination Preview
 
 *Pasted from
-\<[https://www.coursera.org/learn/learning-how-to-learn/lecture/Dci3o/a-procrastination-preview](https://www.coursera.md/learn/learning-how-to-learn/lecture/Dci3o/a-procrastination-preview)\>*
+\<[https://www.coursera.org/learn/learning-how-to-learn/lecture/Dci3o/a-procrastination-preview](https://www.coursera.org/learn/learning-how-to-learn/lecture/Dci3o/a-procrastination-preview)\>*
 
 What happens during procrastination
 
@@ -86,7 +86,7 @@ change focus, then back.
 ## Practice Makes Permanent
 
 *Pasted from
-\<[https://www.coursera.org/learn/learning-how-to-learn/lecture/3YLAF/practice-makes-permanent](https://www.coursera.md/learn/learning-how-to-learn/lecture/3YLAF/practice-makes-permanent)\>*
+\<[https://www.coursera.org/learn/learning-how-to-learn/lecture/3YLAF/practice-makes-permanent](https://www.coursera.org/learn/learning-how-to-learn/lecture/3YLAF/practice-makes-permanent)\>*
 
 Difficulties in math & science? Difficulty in making analogies to
 abstract concepts without a visual/physical reference.
@@ -108,7 +108,7 @@ real
 ## Introduction to Memory
 
 *Pasted from
-\<[https://www.coursera.org/learn/learning-how-to-learn/lecture/X7E9r/introduction-to-memory](https://www.coursera.md/learn/learning-how-to-learn/lecture/X7E9r/introduction-to-memory)\>*
+\<[https://www.coursera.org/learn/learning-how-to-learn/lecture/X7E9r/introduction-to-memory](https://www.coursera.org/learn/learning-how-to-learn/lecture/X7E9r/introduction-to-memory)\>*
 
 Long term memory
 
@@ -142,7 +142,7 @@ Services to use:
 ## The Importance of Sleep in Learning
 
 *Pasted from
-\<[https://www.coursera.org/learn/learning-how-to-learn/lecture/AsWfx/the-importance-of-sleep-in-learning](https://www.coursera.md/learn/learning-how-to-learn/lecture/AsWfx/the-importance-of-sleep-in-learning)\>*
+\<[https://www.coursera.org/learn/learning-how-to-learn/lecture/AsWfx/the-importance-of-sleep-in-learning](https://www.coursera.org/learn/learning-how-to-learn/lecture/AsWfx/the-importance-of-sleep-in-learning)\>*
 
 Sleep is like unblocking a stream, allowing blood to flow in the brain
 well and wash away toxins that have accumulated during the day.
@@ -158,7 +158,7 @@ before sleeping and think about wanting to dream about it!
 ## Interview with Dr. Terrence Sejnowski
 
 *Pasted from
-\<[https://www.coursera.org/learn/learning-how-to-learn/lecture/8IUbH/interview-with-dr-terrence-sejnowski](https://www.coursera.md/learn/learning-how-to-learn/lecture/8IUbH/interview-with-dr-terrence-sejnowski)\>*
+\<[https://www.coursera.org/learn/learning-how-to-learn/lecture/8IUbH/interview-with-dr-terrence-sejnowski](https://www.coursera.org/learn/learning-how-to-learn/lecture/8IUbH/interview-with-dr-terrence-sejnowski)\>*
 
 Terry's research is in neural networks
 
@@ -201,7 +201,7 @@ How do you stay creative? And do well
 ## Optional Interview with "Benny the Irish Polyglot" about Learning Languages
 
 *Pasted from
-\<[https://www.coursera.org/learn/learning-how-to-learn/lecture/L4yKh/optional-interview-with-benny-the-irish-polyglot-about-learning-languages](https://www.coursera.md/learn/learning-how-to-learn/lecture/L4yKh/optional-interview-with-benny-the-irish-polyglot-about-learning-languages)\>*
+\<[https://www.coursera.org/learn/learning-how-to-learn/lecture/L4yKh/optional-interview-with-benny-the-irish-polyglot-about-learning-languages](https://www.coursera.org/learn/learning-how-to-learn/lecture/L4yKh/optional-interview-with-benny-the-irish-polyglot-about-learning-languages)\>*
 
 - What are the wrong reasons to learn languages?
   - To show off or pass a course.

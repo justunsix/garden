@@ -67,8 +67,8 @@ paru -Gc <target>
 ### Resources
 
 - See more usage at
-  [pacman/Rosetta](https://wiki.archlinux.md/title/Pacman/Rosetta) which
+  [pacman/Rosetta](https://wiki.archlinux.org/title/Pacman/Rosetta) which
   translates common package manager commands from pacman to other
   commands
 - [AUR Helpers - archlinux
-  wiki](https://wiki.archlinux.md/title/AUR_helpers)
+  wiki](https://wiki.archlinux.org/title/AUR_helpers)

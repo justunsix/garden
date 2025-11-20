@@ -61,7 +61,7 @@ Per:
 <https://stackoverflow.com/questions/16931770/makefile4-missing-separator-stop>
 
 Make defines a [tab is required to start each
-recipe](https://www.gnu.md/software/make/manual/make.html#Rule-Introduction).
+recipe](https://www.gnu.org/software/make/manual/make.html#Rule-Introduction).
 All actions of every rule are identified by tabs. If you prefer to
 prefix your recipes with a character other than tab, you can set the
 .RECIPEPREFIX variable to an alternate character.

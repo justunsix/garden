@@ -168,7 +168,7 @@ Resources:
 
 - [Zero to IDE with LazyVim -
   YouTube](https://www.youtube.com/watch?v=N93cTbtLCIM)
-- [LazyVim Keymaps](https://www.lazyvim.md/keymaps)
+- [LazyVim Keymaps](https://www.lazyvim.org/keymaps)
 
 ### fzf-lua
 

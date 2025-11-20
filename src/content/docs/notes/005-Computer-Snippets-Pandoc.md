@@ -6,9 +6,9 @@ title: Pandoc Snippets
 
 ## Getting Started
 
-See Pandoc [getting started](https://pandoc.md/getting-started.html) and
-[demos](https://pandoc.md/demos.html) for standard conversions for this
-[inputs and outputs](https://pandoc.md/MANUAL.html#general-options) -
+See Pandoc [getting started](https://pandoc.org/getting-started.html) and
+[demos](https://pandoc.org/demos.html) for standard conversions for this
+[inputs and outputs](https://pandoc.org/MANUAL.html#general-options) -
 e.g:
 
 ``` bash
@@ -304,7 +304,7 @@ pandoc -s example30.docx -t markdown -o example35.md
 ## Slide shows (Presentations in PDF, HTML, PowerPoint)
 
 Source: [Pandoc Manual, Slide
-Shows](https://pandoc.md/MANUAL.html#slide-shows)
+Shows](https://pandoc.org/MANUAL.html#slide-shows)
 
 ``` shell
 

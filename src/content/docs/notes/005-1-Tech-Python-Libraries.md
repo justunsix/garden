@@ -9,27 +9,27 @@ title: Python Libraries
   HTML, XML parser
 - [Django](https://www.djangoproject.com/) - Opinionated web framework,
   includes database functionality, REST API in plugin
-- [Faker](https://pypi.md/project/Faker/) - Test/fake data generation
+- [Faker](https://pypi.org/project/Faker/) - Test/fake data generation
 - [FastAPI](https://fastapi.tiangolo.com/) - Lightweight, API-first
   development
 - [Flask](https://flask.palletsprojects.com/en/3.0.x/) /
   [Quart](https://quart.palletsprojects.com/en/latest/) - Lightweight,
   flexible web framework and REST APIs
-- [Jupyter](https://jupyter.md/) - Web-based interactive development
+- [Jupyter](https://jupyter.org/) - Web-based interactive development
   environment for notebooks, code, and data
 - [Openshift-client](https://github.com/openshift/openshift-client-python) -
   Interacting with OpenShift via the OpenShift client binary
-- [Pandas](https://pandas.pydata.md/) - Data analysis
-- [python-dotenv](https://pypi.md/project/python-dotenv/) - Read
+- [Pandas](https://pandas.pydata.org/) - Data analysis
+- [python-dotenv](https://pypi.org/project/python-dotenv/) - Read
   key-value pairs from a .env file and set them as environment variables
 - [Playwright](https://playwright.dev/) - End to end, browser, web based
   testing
 - [Polars](https://pola.rs/) - Dataframes, data processing
-- [Pyperclip](https://pypi.md/project/pyperclip/) - Cross-platform
+- [Pyperclip](https://pypi.org/project/pyperclip/) - Cross-platform
   Python module for copy and paste clipboard functions
 - [Pytest-snapshot](https://github.com/joseph-roitman/pytest-snapshot) -
   plugin for snapshot (save results for compare) testing with pytest
-- [Pytest](https://docs.pytest.md/en/stable/) - testing framework
+- [Pytest](https://docs.pytest.org/en/stable/) - testing framework
 - [Requests](https://github.com/psf/requests) - Send HTTP requests
 - [Selenium](https://www.selenium.dev/) - Browser automation, testing
 - [Whisper](https://openai.com/index/whisper/) - automatic speech
@@ -40,4 +40,4 @@ title: Python Libraries
 ### Resources
 
 - [PyPI Package Statistics and Analytics](https://pepy.tech/)
-- [Python Package Index (PyPI)](https://pypi.md/)
+- [Python Package Index (PyPI)](https://pypi.org/)

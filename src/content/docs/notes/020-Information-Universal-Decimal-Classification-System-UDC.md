@@ -11,7 +11,7 @@ Multilingual Universal Decimal Classification Summary is by the UDC
 Consortium under [Creative Commons Attribution Share Alike 3.0
 license](http://creativecommons.md/licenses/by-sa/3.0/). This version
 was provided by [Universal Decimal Classification -
-Wikipedia](https://en.wikipedia.md/wiki/Universal_Decimal_Classification).
+Wikipedia](https://en.wikipedia.org/wiki/Universal_Decimal_Classification).
 
 ``` text
 

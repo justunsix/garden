@@ -233,7 +233,7 @@ documents.
 ### Storage Formats
 
 Consider existing knowledge management systems like
-[Obsidian](https://obsidian.md/) that implement these strategies for
+[Obsidian](https://obsidian.org/) that implement these strategies for
 users to follow:
 
 - Mind map note organization

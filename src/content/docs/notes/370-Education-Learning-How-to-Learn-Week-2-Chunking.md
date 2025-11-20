@@ -6,7 +6,7 @@ title: Learning How to Learn Week 2 Chunking
 ---
 
 Source: My personal notes from [Learning How to Learn Coursera
-course](https://www.coursera.md/learn/learning-how-to-learn/)
+course](https://www.coursera.org/learn/learning-how-to-learn/)
 
 Chunks are compact packages of information that your mind can easily
 access. We'll talk about how you can form chunks, how you can use them

@@ -9,7 +9,7 @@ Tips for tree care in winter or areas with cold seasons to protect them
 from frost and wildlife.
 
 Source: [Don’t Leaf Your Trees Out in the Cold: Winter Tree Care
-101](https://www.yourleaf.md/blog/joel-sloggett/sep-30-2024/dont-leaf-your-trees-out-cold-winter-tree-care-101)
+101](https://www.yourleaf.org/blog/joel-sloggett/sep-30-2024/dont-leaf-your-trees-out-cold-winter-tree-care-101)
 
 1.  Plant native - plant tree native to the area as they are adapted to
     the local soil, climate, and wildlife and help with the areas

@@ -19,7 +19,7 @@ title: i3 Window Manager
 ## SSH-Agent
 
 ssh-agent should be started and if not, follow [SSH keys -
-ArchWiki](https://wiki.archlinux.md/title/SSH_keys#SSH_agents).
+ArchWiki](https://wiki.archlinux.org/title/SSH_keys#SSH_agents).
 
 - Add SSH keys using `keychain` like
 
@@ -144,7 +144,7 @@ for_window [class="pavucontrol"] floating enable; border none
 ## Suggested Packages
 
 Based on [Fedora i3
-spin](https://docs.fedoraproject.md/en-US/i3/package-groups/)
+spin](https://docs.fedoraproject.org/en-US/i3/package-groups/)
 
 i3 (minimal)
 
@@ -250,4 +250,4 @@ lxappearance (GUI theming app)
 
 ## Resources
 
-- [i3: i3 User Guide](https://i3wm.md/docs/userguide.html)
+- [i3: i3 User Guide](https://i3wm.org/docs/userguide.html)

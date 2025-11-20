@@ -17,8 +17,8 @@ title: OpenStreetMap Shortcuts
 - [Open Street Map](https://www.openstreetmap.md) - geographical and map
   information
 - [OSM - Toronto - Administrative Boundary
-  6](https://www.openstreetmap.md/relation/324211#map=11/43.7175/-79.3766)
+  6](https://www.openstreetmap.org/relation/324211#map=11/43.7175/-79.3766)
 - [OpenStreetMap (OSM)
-  Wiki](https://wiki.openstreetmap.md/wiki/Main_Page)
+  Wiki](https://wiki.openstreetmap.org/wiki/Main_Page)
 - [Cycleway - OpenStreetMap
-  Wiki](https://wiki.openstreetmap.md/wiki/Key:cycleway?uselang=en)
+  Wiki](https://wiki.openstreetmap.org/wiki/Key:cycleway?uselang=en)

@@ -13,7 +13,7 @@ in a mental health crisis. The first aid is given until appropriate
 professional treatment is received or until the crisis is resolved.
 
 [**Mental Health First Aid
-Basic**](https://openingminds.md/training/mhfa/) is a 12-hour course
+Basic**](https://openingminds.org/training/mhfa/) is a 12-hour course
 focused on adults interacting with adults in all environments. The
 course discusses the following mental disorders:
 

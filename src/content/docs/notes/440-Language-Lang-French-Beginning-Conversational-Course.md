@@ -27,7 +27,7 @@ Create these cards
 - [French Information Center](https://www.france.fr/en) - This site has
   all sorts of information about France, especially if you're planning a
   trip.
-- [French Embassy](https://www.info-france-usa.md/) - This is the site
+- [French Embassy](https://www.info-france-usa.org/) - This is the site
   for the French Embassy in the United States. It has information about
   visiting France, specifically for Americans.
 - [An Explanation of French Accent

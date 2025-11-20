@@ -7,7 +7,7 @@ title: Mental Health Hoarding
 Sources: [Hoarding Disorder - Psychology
 Today](https://www.psychologytoday.com/ca/conditions/hoarding-disorder),
 [Hoarding Disorder - Mayo
-Clinic](https://www.mayoclinic.md/diseases-conditions/hoarding-disorder/diagnosis-treatment/drc-20356062)
+Clinic](https://www.mayoclinic.org/diseases-conditions/hoarding-disorder/diagnosis-treatment/drc-20356062)
 
 ## About
 

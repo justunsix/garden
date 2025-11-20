@@ -67,7 +67,7 @@ title: Firefox Shortcuts
 ### Resources
 
 [Keyboard shortcuts - Perform common Firefox tasks quickly \| Firefox
-Help](https://support.mozilla.md/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly)
+Help](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly)
 
 [^1]: Actions can be like clear history, open downloads, or take a
     screenshot

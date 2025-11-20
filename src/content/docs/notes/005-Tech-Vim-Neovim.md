@@ -31,11 +31,11 @@ Source: [LazyVim From Scratch To BEAST
 MODE](https://www.youtube.com/watch?v=evCmP4hH7ZU)
 
 Goal is set up Neovim with [LazyVim
-distribution](https://www.lazyvim.md/) for common editing tasks to start
+distribution](https://www.lazyvim.org/) for common editing tasks to start
 use with computer programming languages.
 
 - Follow [LazyVim Install
-  instructions](https://www.lazyvim.md/installation) and its
+  instructions](https://www.lazyvim.org/installation) and its
   documentation for description of its files and usage.
 - On first run of `nvim`, plugins and configurations will be set up
 - Recommend to look through key mappings. You can search key mappings to

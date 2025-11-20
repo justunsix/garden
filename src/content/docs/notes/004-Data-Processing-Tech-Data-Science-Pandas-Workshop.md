@@ -36,7 +36,7 @@ along](https://github.com/stefmolin/pandas-workshop/tree/main),
   - Webscraping
   - APIs
   - Other examples at [IO tools (text, CSV, HDF5 pandas 2.0.3
-    documentation](https://pandas.pydata.md/pandas-docs/stable/user_guide/io.html)
+    documentation](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html)
 
 ### Inspect Data
 

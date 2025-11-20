@@ -6,7 +6,7 @@ title: Mycroft Artificial Intelligence (AI)
 ---
 
 Original source: [Mycroft AI](https://mycroft.ai/) retrieved in 2020.
-For successors, see [Open Voice OS](https://www.openvoiceos.md/) and
+For successors, see [Open Voice OS](https://www.openvoiceos.org/) and
 [NeonCore](https://github.com/NeonGeckoCom/NeonCore) which extends
 Mycroft.
 
@@ -42,7 +42,7 @@ Possible with replacing these 3 services offered by home.mycroft.ai.
     developed by community
 - Speech Recognition, Speech to Text (STT) options:
   - [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech/releases)
-  - [Kaldi](https://kaldi-asr.md/)
+  - [Kaldi](https://kaldi-asr.org/)
   - Mycroft AI believes these are not sufficient for mainstream use yet
 - Speech-synthesis, Text to Speech (TTS) options:
   - Use the British Male Voice

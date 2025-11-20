@@ -14,7 +14,7 @@ title: Books
 
 ### Electronic Books Supplies
 
-- [Cambridge University Press](https://www.cambridge.md/universitypress)
+- [Cambridge University Press](https://www.cambridge.org/universitypress)
 
 - [Oxford University
   Press](https://global.oup.com/academic/?cc=ca&lang=en)

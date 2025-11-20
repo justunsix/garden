@@ -43,6 +43,6 @@ for more examples of usage
 
 - [org-re-reveal on GitLab](https://gitlab.com/oer.md-re-reveal/)
 - [Doom Emacs org module, see +present flag for slides
-  configuration](https://docs.doomemacs.md/latest/modules/lang.md/)
+  configuration](https://docs.doomemacs.org/latest/modules/lang.org/)
   - For a simpler slide show experience inside Emacs, use
     `org-tree-slide`

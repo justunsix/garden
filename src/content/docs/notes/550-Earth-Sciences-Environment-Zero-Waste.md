@@ -57,7 +57,7 @@ Source: My personal notes from session with Sophi Robertson
 - @[YourEcoFriend](https://www.instagram.com/yourecofriend/) on
   Instagram
 - Zero Waste Toronto Facebook Group
-- [Ecosia.org](https://www.ecosia.md/) - Search engine that plants trees
+- [Ecosia.org](https://www.ecosia.org/) - Search engine that plants trees
   every time you search
 - TOWaste App (Toronto.ca search 'Waste Wizard')
 - [Bunz.com](https://bunz.com/explore) (trading community) for NEW USERS

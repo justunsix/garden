@@ -5,7 +5,7 @@ title: Wezterm Shortcuts
 ---
 
 Source:
-[https://wezfurlong.org/wezterm/features.html](https://wezfurlong.md/wezterm/features.html)
+[https://wezfurlong.org/wezterm/features.html](https://wezfurlong.org/wezterm/features.html)
 
 ## Common
 

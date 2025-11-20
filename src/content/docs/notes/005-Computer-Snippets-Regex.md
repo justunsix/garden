@@ -6,7 +6,7 @@ title: Regex Regular Expression Snippets
 ---
 
 Source: [Regular expression syntax cheat sheet - JavaScript \|
-MDN](https://developer.mozilla.md/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet) -
+MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet) -
 Regex syntax and explanations with examples
 
 ``` shell

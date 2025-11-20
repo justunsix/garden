@@ -144,4 +144,4 @@ set colored-completion-prefix on
 ### Resources
 
 - [Keyboard Shortcuts every Command Line Hacker should know about GNU
-  Readline](https://www.masteringemacs.md/article/keyboard-shortcuts-every-command-line-hacker-should-know-about-gnu-readline)
+  Readline](https://www.masteringemacs.org/article/keyboard-shortcuts-every-command-line-hacker-should-know-about-gnu-readline)

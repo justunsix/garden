@@ -72,15 +72,15 @@ cargo packages (can use cargo binstall):
 
 ### Resources
 
-- [Rust Programming Language](https://www.rust-lang.md/)
+- [Rust Programming Language](https://www.rust-lang.org/)
 
 1.  Learning
 
     - [The Rust Programming Language
-      Book](https://doc.rust-lang.md/book/)
+      Book](https://doc.rust-lang.org/book/)
     - [Rust in Action
       (book)](https://www.manning.com/books/rust-in-action)
-    - [Rust By Example](https://doc.rust-lang.md/rust-by-example/) -
+    - [Rust By Example](https://doc.rust-lang.org/rust-by-example/) -
       [examples source
       code](https://github.com/rust-lang/rust-by-example)
     - [Rustlings](https://github.com/rust-lang/rustlings) - 🦀 Small

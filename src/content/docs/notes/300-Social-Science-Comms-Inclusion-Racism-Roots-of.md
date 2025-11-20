@@ -91,7 +91,7 @@ over another." — Ontario's Anti-Racism Data Standards, 2019
   - Indian Act
 - Historical cases:
   - [Jordan
-    Principle](https://en.wikipedia.md/wiki/Jordan%27s_Principle) -
+    Principle](https://en.wikipedia.org/wiki/Jordan%27s_Principle) -
     about Jordan, an indigenous child. The underlying Lack of access to
     in-home care due to governments arguing of who should provide him
     healthcare because of his indigenous status caused him to due in the

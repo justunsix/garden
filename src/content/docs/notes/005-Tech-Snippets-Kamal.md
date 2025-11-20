@@ -5,7 +5,7 @@ title: Kamal Snippets
 ---
 
 Source: Introduction video and documentation from [Kamal — Deploy web
-apps anywhere](https://kamal-deploy.md/)
+apps anywhere](https://kamal-deploy.org/)
 
 ``` shell
 

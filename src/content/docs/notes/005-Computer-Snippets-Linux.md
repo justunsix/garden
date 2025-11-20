@@ -460,7 +460,7 @@ ss -6
 Source:
 <https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories>,
 [Everyday Rsync - Veronica Explains](https://vkc.sh/everyday-rsync/),
-[Rsync on Archwiki](https://wiki.archlinux.md/title/Rsync)
+[Rsync on Archwiki](https://wiki.archlinux.org/title/Rsync)
 
 Synchronize directories and files across local and remote machines
 
@@ -984,4 +984,4 @@ file system structure.
 ### Resources
 
 - [List of GNU Core Utilities commands -
-  Wikipedia](https://en.wikipedia.md/wiki/List_of_GNU_Core_Utilities_commands)
+  Wikipedia](https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands)

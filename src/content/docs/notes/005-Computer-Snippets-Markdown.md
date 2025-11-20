@@ -69,6 +69,6 @@ prettier --parser markdown --prose-wrap always -w *.md
 ### Resources
 
 - [Markdown Guide - Reference style
-  links](https://www.markdownguide.md/basic-syntax#reference-style-links)
+  links](https://www.markdownguide.org/basic-syntax#reference-style-links)
 - [Supported languages, shells in
   Markdown](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md)

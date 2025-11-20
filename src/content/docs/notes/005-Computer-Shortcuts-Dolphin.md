@@ -37,4 +37,4 @@ title: Dolphin File Manager Shortcuts
 ### Resources
 
 - [File transfers - KDE UserBase
-  Wiki](https://userbase.kde.md/File_transfers)
+  Wiki](https://userbase.kde.org/File_transfers)

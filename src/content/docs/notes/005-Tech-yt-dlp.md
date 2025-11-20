@@ -52,4 +52,4 @@ Can use:
 ### Resources
 
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- [youtube-dl on ArchWiki](https://wiki.archlinux.md/title/Youtube-dl)
+- [youtube-dl on ArchWiki](https://wiki.archlinux.org/title/Youtube-dl)

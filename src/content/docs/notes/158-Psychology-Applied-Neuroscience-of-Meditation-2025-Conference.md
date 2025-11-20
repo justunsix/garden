@@ -100,7 +100,7 @@ high deconstruction of perceived reality. Sometimes it is called a quiet
 mind.
 
 See [Buddhism's The
-Jhanas](https://en.wikipedia.md/wiki/Dhyana_in_Buddhism) for different
+Jhanas](https://en.wikipedia.org/wiki/Dhyana_in_Buddhism) for different
 levels
 
 ### Application to Psychology and Life

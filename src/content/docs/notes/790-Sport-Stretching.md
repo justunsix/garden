@@ -51,7 +51,7 @@ nervous system - PubMed](https://pubmed.ncbi.nlm.nih.gov/16624497/)
 Source: My personal notes from book by Pavel Tsatsouline [Relax into
 stretch : instant flexibility through mastering muscle tension :
 Tsatsouline, Pavel : Internet
-Archive](https://archive.md/details/relaxintostretch0000tsat)
+Archive](https://archive.org/details/relaxintostretch0000tsat)
 
 ### Waiting out the Tension
 

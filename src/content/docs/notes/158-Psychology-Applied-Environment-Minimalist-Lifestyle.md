@@ -8,7 +8,7 @@ title: Minimalist, Zero Waste Lifestyle
 
 Source: [Rob Greenfield on How To Simplify Your
 Life](https://www.youtube.com/watch?v=KgcFxfL3MOc),
-[Downsize](https://www.robgreenfield.md/downsize/)
+[Downsize](https://www.robgreenfield.org/downsize/)
 
 - What was your "ah ha moment"? Rob learned from people and reading that
   lifestyle was destroying the planet. Focus on solutions that are:

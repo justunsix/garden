@@ -25,12 +25,12 @@ Apache Spark which can be used in a free trial or with a Databricks
 account.
 
 Other options is code can be run on your computer with Python and
-[Jupyter](https://pypi.md/project/jupyter/) or other Python notebook
+[Jupyter](https://pypi.org/project/jupyter/) or other Python notebook
 services like Google Colab (see [Google
 Colaboratory](../005-tech-google-colab) - [Google
 Colaboratory](id:30915df2-3cb0-4109-9151-816d6638065f))
 
-Data creation uses the Python [Faker](https://pypi.md/project/Faker/)
+Data creation uses the Python [Faker](https://pypi.org/project/Faker/)
 library to generate randomized data in the method described at
 [fake-tutorial-2025-Summer - Nicholas Chin on
 GitHub](https://github.com/nicholas-chin/faker-tutorial-2025-Summer/).
@@ -142,7 +142,7 @@ display(df)
 
 ### Other Options for Creating Synthetic Data
 
-The Python library [dbldatagen](https://pypi.md/project/dbldatagen/)
+The Python library [dbldatagen](https://pypi.org/project/dbldatagen/)
 from Databricks labs can also generate data and it works with a Spark
 dataframe and good for streaming data.
 

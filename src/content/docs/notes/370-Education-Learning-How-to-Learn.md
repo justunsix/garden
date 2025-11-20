@@ -5,7 +5,7 @@ title: Learning How to Learn
 ---
 
 Source: My personal notes from [Learning How to Learn Coursera
-course](https://www.coursera.md/learn/learning-how-to-learn/)
+course](https://www.coursera.org/learn/learning-how-to-learn/)
 
 ## Introduction
 
@@ -41,6 +41,6 @@ course](https://www.coursera.md/learn/learning-how-to-learn/)
 
 - [Professors: Terrence Sejnowski and Barbara Oakley–Introduction to the
   Course Structure on
-  Coursera](https://www.coursera.md/learn/learning-how-to-learn)
+  Coursera](https://www.coursera.org/learn/learning-how-to-learn)
 - [How to Learn - WikiHow](https://www.wikihow.com/Learn) - article
   summary of processes described in the course

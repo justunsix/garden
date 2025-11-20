@@ -59,7 +59,7 @@ Below are areas to look at for preparing yourself
     - [Titanic - Machine Learning from Disaster \| Kaggle
       Competition](https://www.kaggle.com/competitions/titanic)
     - [Search Machine Learning -
-      freeCodeCamp.org](https://www.freecodecamp.md/news/search/?query=machine%20learning)
+      freeCodeCamp.org](https://www.freecodecamp.org/news/search/?query=machine%20learning)
 
 ## AI Integration and Engineering, Multiple Disciplines
 
@@ -110,8 +110,8 @@ Below are areas to look at for preparing yourself
 
 - Courses: AI system like above with focus on design and interaction.
   See relevant courses on [Interaction Design
-  Foundation](https://www.interaction-design.md/) and
-  [Coursera](https://www.coursera.md/search?query=human%20computer%20interaction)
+  Foundation](https://www.interaction-design.org/) and
+  [Coursera](https://www.coursera.org/search?query=human%20computer%20interaction)
 - Projects: Design user interfaces for AI integrated applications like
   conversational agents and dashboards
 

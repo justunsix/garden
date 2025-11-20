@@ -69,5 +69,5 @@ louietan/anki-editor](https://github.com/louietan/anki-editor)
 ### Resources
 
 - [Power up Anki with Emacs, Org mode, anki-editor and
-  more](https://yiufung.net/post/anki.md/) - how to use Emacs package
+  more](https://yiufung.net/post/anki.org/) - how to use Emacs package
   anki-editor to create and manage cards and export them to Anki for use

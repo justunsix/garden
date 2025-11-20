@@ -29,7 +29,7 @@ For private content or local transcription:
     portable binary
 - Clean up the subtitle `srt` file. It may have incorrect numbering.
   - Correct subtitles using [GNOME / gnome-subtitles ·
-    GitLab](https://gitlab.gnome.md/GNOME/gnome-subtitles)
+    GitLab](https://gitlab.gnome.org/GNOME/gnome-subtitles)
 
 ## See Also
 

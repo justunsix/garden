@@ -72,7 +72,7 @@ title: Hiking Trails & Books
 ## International
 
 - [Hadrian's Wall
-  Path](https://en.wikipedia.md/wiki/Hadrian%27s_Wall_Path)
+  Path](https://en.wikipedia.org/wiki/Hadrian%27s_Wall_Path)
 
 ## Books
 

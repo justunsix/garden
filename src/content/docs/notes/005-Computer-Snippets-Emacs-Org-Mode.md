@@ -178,7 +178,7 @@ print(sys.executable)
 ## Run a specific program using :shebang
 
 See
-[https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-shell.html](https:/.mdmode.md/.md.md-contrib/babel/languages/ob-doc-shell.html)
+[https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-shell.html](https:/.orgmode.org/.md.md-contrib/babel/languages/ob-doc-shell.html)
 
 This method can be used to run any command, programming language and get
 its output with a specific path or in the user's PATH environment

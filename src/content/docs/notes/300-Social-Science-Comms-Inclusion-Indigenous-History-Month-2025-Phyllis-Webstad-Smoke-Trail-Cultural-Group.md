@@ -50,4 +50,4 @@ Story through pictures:
   family
 - Fish is hung in racks with some smoke at bottom to prevent flies
 - Home, no insulation and had to keep stove going to stay warm
-- Background of [Orange Shirt day](https://orangeshirtday.md/)
+- Background of [Orange Shirt day](https://orangeshirtday.org/)

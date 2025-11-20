@@ -7,7 +7,7 @@ title: Introduction to Human Physiology - 2 Nervous System, Senses,
 ---
 
 Source: My personal notes from [Introduction to Human Physiology \|
-Coursera](https://www.coursera.md/learn/physiology/home/info)
+Coursera](https://www.coursera.org/learn/physiology/home/info)
 
 > we consider the nervous system starting with how individual cells
 > (neurons) function and then how they interact as integrative system.

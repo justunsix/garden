@@ -51,7 +51,7 @@ Software:
     interactive](https://code.visualstudio.com/docs/python/jupyter-support-py)
     and others
 - Optional:
-  [https://www.freecodecamp.org/learn/data-analysis-with-python/](https://www.freecodecamp.md/learn/data-analysis-with-python/)
+  [https://www.freecodecamp.org/learn/data-analysis-with-python/](https://www.freecodecamp.org/learn/data-analysis-with-python/)
 - [x] Real use cases
   - Search and replace text - Google Ads Fawcett Tree Removal csv data
   - [x] Find string, extract rows with string - Finding row for a

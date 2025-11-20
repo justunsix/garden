@@ -21,7 +21,7 @@ issues.
 Run custom accessibility tests or assist in manual testing in your
 browser. Select from your bookmarks to run like check specific [Web
 Content Accessibility Guidelines
-(WCAG)](https://www.w3.md/WAI/standards-guidelines/wcag/) criteria or
+(WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) criteria or
 change what you see to make check easier.
 
 An example is running a bookmarklet to change the size of your cursor to
@@ -124,7 +124,7 @@ Advanced settings show element highlights, linearize page
 ### Resources
 
 - [Accessibility
-  Bookmarklets](https://accessibility-bookmarklets.md/install.html) -
+  Bookmarklets](https://accessibility-bookmarklets.org/install.html) -
   highlights and allows test of Landmarks, Headings, Lists, Images,
   Forms
 - [JavaScript Bookmarklets](http://pauljadam.com/bookmarklets/) -
@@ -137,6 +137,6 @@ Advanced settings show element highlights, linearize page
   (A, AA, AAA)
 - [Text Spacing Bookmarklet](https://s.codepen.io/stevef/debug/YLMqbo)﻿ -
   tests [WCAG 2.1 Success Criterion 1.4.12 Text
-  Spacing](https://www.w3.md/TR/WCAG21/#text-spacing)
+  Spacing](https://www.w3.org/TR/WCAG21/#text-spacing)
 - [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) -
   show what screen readers say for interactive elements

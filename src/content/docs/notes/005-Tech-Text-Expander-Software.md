@@ -8,7 +8,7 @@ Use Cases for Text Expanders
 
 - Abbreviations
 - Shorthand like [Teeline shorthand -
-  Wikipedia](https://en.wikipedia.md/wiki/Teeline_Shorthand) but digital
+  Wikipedia](https://en.wikipedia.org/wiki/Teeline_Shorthand) but digital
 - Command execution
 - Snippet (common reusable pieces of text you use) management
 - Input assistance

@@ -2315,7 +2315,7 @@ the different stages of our delivery cycle.
 For this example, we're going to deploy our pipeline which is stored in
 the same Gogs repository where we have our code. In a more real
 scenario, and in order to honor [infrastructure as
-code](https://en.wikipedia.md/wiki/Infrastructure_as_Code) principles,
+code](https://en.wikipedia.org/wiki/Infrastructure_as_Code) principles,
 we would store all the pipeline definitions along with every OpenShift
 resources definitions we would use.
 

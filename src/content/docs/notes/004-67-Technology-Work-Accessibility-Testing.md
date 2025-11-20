@@ -31,11 +31,11 @@ Tools include:
 **Manual**:
 
 Use a manual testing checklist, like based on [Web Content Accessibility
-Guidelines (WCAG)](https://www.w3.md/WAI/standards-guidelines/wcag/)
+Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/)
 
 **Assistive Technology**:
 
-[NVDA](https://www.nvaccess.md/about-nvda/), accessibility features in
+[NVDA](https://www.nvaccess.org/about-nvda/), accessibility features in
 operating systems
 
 ## See Also

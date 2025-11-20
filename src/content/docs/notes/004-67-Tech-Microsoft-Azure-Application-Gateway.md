@@ -119,7 +119,7 @@ services like:
       - Centralize protection from common exploits and vulnerabilities
         based on certain sets in [OWASP ModSecurity Core Rule Set \|
         OWASP
-        Foundation](https://owasp.md/www-project-modsecurity-core-rule-set/).
+        Foundation](https://owasp.org/www-project-modsecurity-core-rule-set/).
       - React to threats faster through centralized patching. See more
         at [Introduction to Azure Web Application Firewall \| Microsoft
         Learn](https://learn.microsoft.com/en-us/azure/web-application-firewall/overview)

@@ -12,7 +12,7 @@ GitHub](https://github.com/Magniquick/atuin-win/blob/main/.github/workflows/buil
 
 ## Installing Rust on Windows without Rustup or Visual Studio
 
-Before shell steps below, install [MSYS2](https://www.msys2.md/). For
+Before shell steps below, install [MSYS2](https://www.msys2.org/). For
 detailed steps, see the source video.
 
 ``` powershell

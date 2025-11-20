@@ -5,9 +5,9 @@ title: Information Dewey Decimal Classification (DDC)
 ---
 
 Source: [List of DD
-Classes](https://en.wikipedia.md/wiki/List_of_Dewey_Decimal_classes)
+Classes](https://en.wikipedia.org/wiki/List_of_Dewey_Decimal_classes)
 from Wikipedia and [Online Computer Library Center
-(OCLC)](https://www.oclc.md/) Summaries of Dewey Decimal Classification,
+(OCLC)](https://www.oclc.org/) Summaries of Dewey Decimal Classification,
 OCLC Online Computer Library Center, Inc, Dublin, Ohio
 
 The below lists classes of the Dewey Decimal Classification (DDC) and

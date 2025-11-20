@@ -251,7 +251,7 @@ mutableString = stripString(mutableString, phrasesToRemove);
 
 Source: [What are Bookmarklets? How to Use JavaScript to Make a
 Bookmarklet in Chromium and
-Firefox](https://www.freecodecamp.md/news/what-are-bookmarklets/)
+Firefox](https://www.freecodecamp.org/news/what-are-bookmarklets/)
 
 Creating a bookmarklet is like creating a regular bookmark in the
 browser. Instead of the URL HTTP/HTTPS in the URL field, write

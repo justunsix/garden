@@ -42,25 +42,25 @@ plus my additions
   things from one computer to another
 - [ctags, etags](https://docs.ctags.io/en/latest/man/ctags.1.html) -
   Generate tag files for source code
-- [Data Display Debugger DDD](https://www.gnu.md/software/ddd/) -
+- [Data Display Debugger DDD](https://www.gnu.org/software/ddd/) -
   graphical front end for GDB and CUDA-GDB
-- [DB Browser for SQLite](https://sqlitebrowser.md/) - SQLite
+- [DB Browser for SQLite](https://sqlitebrowser.org/) - SQLite
   management, editing browser
 - Drupal - web content management system (CMS) written in PHP and
   distributed under the GNU General Public License
-- [Espanso](https://espanso.md/) - Privacy-first, cross-platform text
+- [Espanso](https://espanso.org/) - Privacy-first, cross-platform text
   expander
 - Fairmail - privacy oriented email app for Android
-- [Faker](https://pypi.md/project/Faker/) - Test/fake data generation,
+- [Faker](https://pypi.org/project/Faker/) - Test/fake data generation,
   also a Python package
 - F-Droid - app store and software repository for Android, serving a
   similar function to the Google Play store
-- [ImageMagick](https://imagemagick.md/) - editing and manipulating
+- [ImageMagick](https://imagemagick.org/) - editing and manipulating
   digital images. It can be used to create, edit, compose, or convert
   bitmap images, and supports a wide range of file formats, including
   JPEG, PNG, GIF, TIFF, and Ultra HDR
-- [ImageMagick](https://imagemagick.md/) -
-  [mogrify](https://imagemagick.md/script/mogrify.php) - resize an
+- [ImageMagick](https://imagemagick.org/) -
+  [mogrify](https://imagemagick.org/script/mogrify.php) - resize an
   image, blur, crop, despeckle, dither, draw on, flip, join, re-sample,
   and more
 - Firefox - web browser developed by the Mozilla Foundation, see also
@@ -74,7 +74,7 @@ plus my additions
 - GCC - GNU Compiler Collection is an optimizing compiler produced by
   the GNU Project supporting various programming languages, hardware
   architectures and operating systems
-- [GDB](https://sourceware.md/gdb/) - GNU Project Debugger for various
+- [GDB](https://sourceware.org/gdb/) - GNU Project Debugger for various
   languages
 - [gImageReader](https://github.com/manisandro/gImageReader/) - Optical
   Character Recognition (OCR), A Gtk/Qt front-end to tesseract-ocr
@@ -110,7 +110,7 @@ plus my additions
 - KDE Connect - facilitates wireless communications and data transfer
   between devices over local network
 - KDE Desktop environment for Linux/Unix like
-- [Kdenlive](https://kdenlive.md/) - Video Editor, Can also do music
+- [Kdenlive](https://kdenlive.org/) - Video Editor, Can also do music
   editing and output.
 - [kondo](https://github.com/tbillington/kondo) - Cleans dependencies
   and build artifacts from your projects
@@ -120,7 +120,7 @@ plus my additions
   and 2D animation
 - KVM - virtualization module in the Linux kernel that allows the kernel
   to function as a hypervisor
-- [Lazarus](https://www.lazarus-ide.md/) - Delphi compatible
+- [Lazarus](https://www.lazarus-ide.org/) - Delphi compatible
   cross-platform IDE for Rapid Application Development, uses Free Pascal
 - LibreOffice - office Prod software suite
 - MariaDB - community-developed, commercially supported fork of the
@@ -161,9 +161,9 @@ plus my additions
   through dynamic binary translation and provides a set of different
   hardware and device models for the machine, enabling it to run a
   variety of guest operating systems
-- [Recoll](https://www.recoll.md/) - Full-text search for desktop,
+- [Recoll](https://www.recoll.org/) - Full-text search for desktop,
   covering files, contents, messages, and other document formats
-- [Remmina](https://remmina.md/) - Remote access screen and file sharing
+- [Remmina](https://remmina.org/) - Remote access screen and file sharing
   to your desktop
 - RStudio - IDE for R
 - Session - decentralized messaging platform
@@ -193,7 +193,7 @@ plus my additions
 - Ublock Origin - Browser ad and annoyance blocker
 - Vim - text editor
 - Virtual Manager
-- [Visidata](https://www.visidata.md/) - tool for tabular data which
+- [Visidata](https://www.visidata.org/) - tool for tabular data which
   combines the clarity of a spreadsheet and efficiency of the terminal
 - VLC - portable, cross-platform media player software and streaming
   media server
@@ -210,7 +210,7 @@ plus my additions
   education
 - WordPress - content management system (CMS) written in PHP and paired
   with a MySQL or MariaDB database with supported HTTPS
-- [zotero](https://www.zotero.md/) - Manage bibliographic data and
+- [zotero](https://www.zotero.org/) - Manage bibliographic data and
   research materials by helping you collect, organize, annotate, cite,
   and share research.
 
@@ -218,9 +218,9 @@ plus my additions
 
 - [ag](https://github.com/ggreer/the_silver_searcher) - A code searching
   tool similar to ack, but faster.
-- [alacritty](https://alacritty.md/) - terminal emulator, URLs can open,
+- [alacritty](https://alacritty.org/) - terminal emulator, URLs can open,
   search, VI bindings
-- [asciinema](https://asciinema.md/) - record and share terminal
+- [asciinema](https://asciinema.org/) - record and share terminal
   sessions
 - [atuin](https://github.com/ellie/atuin) - interactive shell history
 - bacon - re-runs cargo clippy, build, test, or run
@@ -228,7 +228,7 @@ plus my additions
 - bob-nvim - nvim version manager
 - [bottom](https://github.com/ClementTsang/bottom) - like htop with
   widgets, cross platform
-- [broot](https://dystroy.md/broot/) - directory and file navigation
+- [broot](https://dystroy.org/broot/) - directory and file navigation
   with directory sizes, search
 - [btop](https://github.com/aristocratos/btop) - like top, system
   monitoring
@@ -308,7 +308,7 @@ plus my additions
 - mcfly - better history search
 - [monolith](https://github.com/y2z/monolith): CLI tool for saving
   complete web pages as a single HTML file
-- [mosh](https://mosh.md/) - remote terminal allowing roaming,
+- [mosh](https://mosh.org/) - remote terminal allowing roaming,
   intermittent connectivity, like SSH
 - [mprocs](https://github.com/pvolok/mprocs) - running multiple process,
   like tmux, but useful for long running non-interactive single
@@ -368,7 +368,7 @@ plus my additions
 - [Yazi](https://yazi-rs.github.io/) - terminal file manager with
   previews and async I/O
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - audio/video downloader
-- [zellij](https://github.com/zellij.md/zellij) - terminal multiplexer
+- [zellij](https://github.com/zellij.org/zellij) - terminal multiplexer
   like tmux and screen, no Windows implementation as of 2023-06-14
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - smart cd to jump to
   frequently used directories
@@ -405,7 +405,7 @@ Most packages above can be installed using cargo with
 `cargo install <command>`
 
 [Installation - The Cargo
-Book](https://doc.rust-lang.md/cargo/getting-started/installation.html)
+Book](https://doc.rust-lang.org/cargo/getting-started/installation.html)
 
 ## Mobile Android
 
@@ -448,9 +448,9 @@ App → Alternative
 - YouTube → [Libretube](https://github.com/libre-tube/LibreTube)
 - Email Client → [FairEmail](https://github.com/M66B/FairEmail)
 - Password Manager → [Bitwarden](https://github.com/bitwarden/mobile) /
-  [KeePassDX](https://f-droid.md/packages/com.kunzisoft.keepass.libre/)
+  [KeePassDX](https://f-droid.org/packages/com.kunzisoft.keepass.libre/)
 - Google Map → [OpenStreetMap on
-  Mobile](https://wiki.openstreetmap.md/wiki/Software#Mobile_Devices)
+  Mobile](https://wiki.openstreetmap.org/wiki/Software#Mobile_Devices)
   like OsmAnd~- Google Search →
   [Whoogle](https://github.com/benbusby/whoogle-search)
 - Google Task →

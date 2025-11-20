@@ -244,7 +244,7 @@ Tips of the Week
 ### Bookmarks and Registers
 
 Source: [GNU Emacs Manual -
-Registers](https://www.gnu.md/software/emacs/manual/html_mono/emacs.html#Registers)
+Registers](https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Registers)
 
 Register is like a bookmark/saved text, position, window/frame
 configuration, and rectangle for later use. Register names are a single
@@ -312,7 +312,7 @@ Example `.dir-locals.el` to set compile command
 - per [Emacs: store music playlists
   (Dired+Bongo)](https://youtu.be/-qo2Ai3pZRk?t=553)
 - per [Keyboard Macros are Misunderstood - Mastering
-  Emacs](https://www.masteringemacs.md/article/keyboard-macros-are-misunderstood)
+  Emacs](https://www.masteringemacs.org/article/keyboard-macros-are-misunderstood)
 
 | Name | Shortcuts |
 |----|----|
@@ -522,7 +522,7 @@ methods
 - Open new SSH connection like:
   /<ssh:user@host#port:/path/to/remote/file_or_path>
 - See troubleshooting at [Emacs Wiki -
-  Tramp](https://www.emacswiki.md/emacs/TrampMode#toc7)
+  Tramp](https://www.emacswiki.org/emacs/TrampMode#toc7)
 
 ## Themes - Emacs look
 
