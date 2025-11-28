@@ -91,7 +91,7 @@ from article with numbered pillars:
   [Learning How to Learn](id:1e2563ae-4b97-423c-a719-8e2eb9d6db03) -
   Course that describes similar processes to encourage learning and
   neuron development supported by science
-- [Minimalist
+- [Minimalist, Zero Waste
   Lifestyle](../158-psychology-applied-environment-minimalist-lifestyle) -
   [Minimalist, Zero Waste
   Lifestyle](id:df69cada-d197-4508-9ae0-12affb79dfd0) - Related to pause
