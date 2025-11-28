@@ -14,10 +14,3 @@ title: Emergency Preparedness
   Training](../613-safety-home-emergency-preparedness-management-training) -
   [Emergency Management and Preparedness
   Training](id:013c5e1a-8471-45df-a027-4d064205800b)
-
-### Personal links
-
-- [Home Emergency Preparedness Kits and Personal
-  Planning](../613-safety-home-emergency-preparedness-kits-personal) -
-  [Home Emergency Preparedness Kits and Personal
-  Planning](id:17c231c0-aba3-4052-bf20-0dd3bc05a720)
