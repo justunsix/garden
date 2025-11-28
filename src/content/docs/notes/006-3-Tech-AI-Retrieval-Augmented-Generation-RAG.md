@@ -63,13 +63,13 @@ quality is clean, governed and (2) choose appropriate LLM
 ## See Also
 
 - [AI Retrieval Augmented-Generation RAG and Large Language Model
-  LLM](../006-3-tech-ai-retrieval-augmented-generation-rag-llm) - [AI
+  LLM](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-llm) - [AI
   Retrieval Augmented-Generation RAG and Large Language Model
   LLM](id:86f6f51e-26ce-4b1f-bd3f-5451b5ae56a6)
 - [Local AI with Retrieval Augmented Generation (RAG) using Open WebUI
   and
-  Ollama](../006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama) -
+  Ollama](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama) -
   [Local AI with Retrieval Augmented Generation (RAG) using Open WebUI
   and Ollama](id:19319abe-7f4f-4eb7-a953-5f3fc197cf34)
-- [Vector Database](../006-3-tech-ai-vector-database) - [Vector
+- [Vector Database](/garden/notes/006-3-tech-ai-vector-database) - [Vector
   Database](id:67032821-f795-4059-bc63-ae4adada458a)

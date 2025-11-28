@@ -101,9 +101,9 @@ Check the defaults meet the principles explained above
 
 ## See Also
 
-- [Creative Arts](../700-arts-learning-creative-arts) - [Creative
+- [Creative Arts](/garden/notes/700-arts-learning-creative-arts) - [Creative
   Arts](id:46d4e081-598c-4a1a-936d-7cc9c95abf7e)
 - [Microsoft Power BI
-  Visualizations](../005-tech-microsoft-powerbi-visualizations) -
+  Visualizations](/garden/notes/005-tech-microsoft-powerbi-visualizations) -
   [Microsoft Power BI
   Visualizations](id:e7ff8bd6-bfd9-4f58-adc0-88ea56ed40d0)

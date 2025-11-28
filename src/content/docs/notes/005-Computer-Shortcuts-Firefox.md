@@ -60,7 +60,7 @@ title: Firefox Shortcuts
 ## See Also
 
 - [Firefox Tridactyl Add On Vim like
-  Shortcuts](../005-computer-shortcuts-firefox-tridactyl-vim) - [Firefox
+  Shortcuts](/garden/notes/005-computer-shortcuts-firefox-tridactyl-vim) - [Firefox
   Tridactyl Add On Vim like
   Shortcuts](id:3961e45c-7edc-4f94-9a50-df8f3e0113cf)
 

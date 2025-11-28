@@ -21,7 +21,7 @@ it?](https://www.reddit.com/r/devops/comments/qu8dw3/comment/hkryp0j)
   Training](https://www.youtube.com/c/NTFAQGuy) - Azure, Microsoft
   technologies, also recommended by teachers from [Introduction to AI in
   Microsoft Azure
-  AI-900](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
+  AI-900](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
   [Introduction to AI in Microsoft Azure
   AI-900](id:dd87d682-2c98-4272-acb2-eafa6ebabf78)
 - [Gaurav Sen](https://www.youtube.com/c/GauravSensei) - IT engineering

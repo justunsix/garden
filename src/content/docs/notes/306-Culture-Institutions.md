@@ -6,5 +6,5 @@ title: Culture Institutions
 
 ## See Also
 
-- [Deathcare planning](../306-culture-institutions-home-death-plan) -
+- [Deathcare planning](/garden/notes/306-culture-institutions-home-death-plan) -
   [Deathcare Planning](id:81713af1-1eba-4750-bf3a-4fcab47c2ffa)

@@ -7,7 +7,7 @@ title: Rhetoric and collections of literary texts from more than two
 
 ## See Also
 
-- [Books](../370-education-learning-books) -
+- [Books](/garden/notes/370-education-learning-books) -
   [Books](id:69af0e3e-3e81-463e-9365-ce8caa3b2cc2)
-- [Reading List](../808-literature-collections-book-reading-list) -
+- [Reading List](/garden/notes/808-literature-collections-book-reading-list) -
   [Reading List](id:5a7f9427-b19a-4798-8b38-4c8c1acd030a)

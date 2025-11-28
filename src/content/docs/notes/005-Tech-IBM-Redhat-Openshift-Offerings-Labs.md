@@ -12,17 +12,17 @@ My personal notes from a learning series from RedHat
 
 - Day 1 Features: [Red Hat Immersion 2023 Service Offerings and Labs -
   Features and
-  Services](../005-tech-ibm-redhat-openshift-offerings-labs-d1-features-services) -
+  Services](/garden/notes/005-tech-ibm-redhat-openshift-offerings-labs-d1-features-services) -
   [Red Hat Immersion 2023 Service Offerings and Labs - Features and
   Services](id:1f4500be-1d52-47cb-92c1-ff9fd8bd5b5c)
 - Day 2 Deployment and App Management: [Red Hat Immersion 2023 Service
   Offerings and Labs - Deployment and App
-  Management](../005-tech-ibm-redhat-openshift-offerings-labs-d2-deployment-app-management) -
+  Management](/garden/notes/005-tech-ibm-redhat-openshift-offerings-labs-d2-deployment-app-management) -
   [Red Hat Immersion 2023 Service Offerings and Labs - Deployment and
   App Management](id:8137c221-e247-43df-9f25-369007a1f605)
 - Day 3 App Development: [Red Hat Immersion 2023 Service Offerings and
   Labs - Application
-  Development](../005-tech-ibm-redhat-openshift-offerings-labs-d3-deployment-app-management) -
+  Development](/garden/notes/005-tech-ibm-redhat-openshift-offerings-labs-d3-deployment-app-management) -
   [Red Hat Immersion 2023 Service Offerings and Labs - Application
   Development](id:48a12cde-3cc0-4c9a-b83b-037072576ba5)
 
@@ -130,8 +130,8 @@ different other solutions.
 ## See Also
 
 - [Openshift Intro
-  Workshop](../005-tech-ibm-redhat-openshift-intro-workshop) -
+  Workshop](/garden/notes/005-tech-ibm-redhat-openshift-intro-workshop) -
   [Openshift Introduction
   Workshop](id:7258f169-0f3e-41b2-a459-cfb18f5c7dab)
-- [IBM Openshift](../005-tech-ibm-redhat-openshift) - [IBM
+- [IBM Openshift](/garden/notes/005-tech-ibm-redhat-openshift) - [IBM
   Openshift](id:626eb03d-5d7f-41aa-ba61-8a9df283cfaa)

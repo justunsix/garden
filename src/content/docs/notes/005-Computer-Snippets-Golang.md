@@ -143,6 +143,6 @@ func showTasks(writer http.ResponseWriter, request *http.Request) {
 
 ## See Also
 
-- [Golang Todolist app](../005-1-tech-golang-learn-todolist-app) -
+- [Golang Todolist app](/garden/notes/005-1-tech-golang-learn-todolist-app) -
   [Golang Todolist app](id:52c0126f-6ec3-4923-a575-a3472ef38681) -
   application using the basic snippets

@@ -79,6 +79,6 @@ until 6
 ## See Also
 
 - [GDB and LLDB
-  Snippets](../005-computer-snippets-gdb-lldb-gnu-debugger) - [GDB and
+  Snippets](/garden/notes/005-computer-snippets-gdb-lldb-gnu-debugger) - [GDB and
   LLDB Debugger Snippets](id:7fba6e8c-f671-4deb-8126-88a1208d567e) for
   similar commands

@@ -10,7 +10,7 @@ In Emacs, run code block using `C-c` and show inline images,
 `counsel-git-grep` or ripgrep on text "begin<sub>src</sub> plantuml" for
 other examples search in notes `begin_src plantuml` and see complex
 examples at [C4 model for visualising software
-architecture](../004-computer-tech-architecture-c4-model-for-software) -
+architecture](/garden/notes/004-computer-tech-architecture-c4-model-for-software) -
 [C4 model for visualising software
 architecture](id:ac2b410e-5d70-4216-88b4-51b9dc492ad6)
 

@@ -124,7 +124,7 @@ To improve VS Code CPU and RAM usage
 ## Converting from OneNote to Markdown
 
 1.  Copy note from OneNote to Docx
-2.  See [pandoc snippets](../005-computer-snippets-pandoc) section
+2.  See [pandoc snippets](/garden/notes/005-computer-snippets-pandoc) section
     "Converting docx with images to markdown"
 
 OR
@@ -136,17 +136,17 @@ script](https://github.com/SjoerdV/ConvertOneNote2MarkDown), requires:
 
 ## See Also
 
-- [Pandoc Snippets](../005-computer-snippets-pandoc) - [Pandoc
+- [Pandoc Snippets](/garden/notes/005-computer-snippets-pandoc) - [Pandoc
   Snippets](id:56030404-6d4a-453b-9763-ceb5f016124b) - how to convert
   notes to other formats and paste into notes
-- [Markdown Snippets](../005-computer-snippets-markdown) - [Markdown
+- [Markdown Snippets](/garden/notes/005-computer-snippets-markdown) - [Markdown
   Snippets](id:f2162753-fa54-47d9-bd7d-b5ead55b40ee) - pieces of notes
   for reuse
-- [VS Code Tips](../005-computer-shortcuts-vs-code) - [VS Code:
+- [VS Code Tips](/garden/notes/005-computer-shortcuts-vs-code) - [VS Code:
   Tips](id:b91168f4-673f-4580-a248-ae4b85aa3439)
 - [Information management personal knowledge
-  management](../370-education-info-personal-knowledge-management-system) -
+  management](/garden/notes/370-education-info-personal-knowledge-management-system) -
   [Personal Knowledge Management
   System](id:0d36d526-cbec-4809-85cd-b306bb0bf573)
 - [Marksman LSP Markdown and Neovim
-  Notetaking](../370-education-info-markdown-notetaking-lsp-neovim) -
+  Notetaking](/garden/notes/370-education-info-markdown-notetaking-lsp-neovim) -

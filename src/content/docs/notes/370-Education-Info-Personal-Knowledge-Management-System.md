@@ -8,7 +8,7 @@ title: Personal Knowledge Management System
 ## Concept
 
 - Create notes applying [Zettelkasten Note Taking
-  System](../370-education-info-productivity-system-zettelkasten) -
+  System](/garden/notes/370-education-info-productivity-system-zettelkasten) -
   [Zettelkasten Note Taking
   System](id:87d0d6bc-4daa-424f-ba0b-5613c285e4a7)
 
@@ -37,19 +37,19 @@ title: Personal Knowledge Management System
 
 ## See Also
 
-- [Mardown Notetaking](../370-education-info-markdown-notetaking) -
+- [Mardown Notetaking](/garden/notes/370-education-info-markdown-notetaking) -
   [Markdown Notetaking](id:92f9d2eb-ff99-46fb-911c-8d02af2179ad) -
   implementation ideas for a system based on Markdown and VS Code
 - [Productivity System Second
-  Brain](../370-education-info-productivity-system-second-brain) -
+  Brain](/garden/notes/370-education-info-productivity-system-second-brain) -
   [Productivity System Second
   Brain](id:81a88400-1933-47d3-92a4-7381508c342c) - a system for
   managing things so your brain does not have to remember
 - [Zettelkasten Note Taking
-  System](../370-education-info-productivity-system-zettelkasten) -
+  System](/garden/notes/370-education-info-productivity-system-zettelkasten) -
   [Zettelkasten Note Taking
   System](id:87d0d6bc-4daa-424f-ba0b-5613c285e4a7)
 - [Personal Information Management Conversation related to Emacs
-  org-mode](../370-education-info-personal-knowledge-management-system-conversation-emacs-mode) -
+  org-mode](/garden/notes/370-education-info-personal-knowledge-management-system-conversation-emacs-mode) -
   [Personal Information Management Conversation related to Emacs
   org-mode](id:20a98beb-547b-4dd5-822b-97a1cd5952f9)

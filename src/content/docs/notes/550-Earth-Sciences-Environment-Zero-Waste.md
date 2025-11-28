@@ -97,10 +97,10 @@ Source: My personal notes from session with Sophi Robertson
 
 ## See Also
 
-- [Forestry](../360-social-services-volunteer-forestry)
+- [Forestry](/garden/notes/360-social-services-volunteer-forestry)
 - [Environment and Nature](id:2eea361c-9f11-4440-9cb0-d7a3f5b190cc)
-  ([Environment](../550-earth-sciences))
+  ([Environment](/garden/notes/550-earth-sciences))
 - [Minimalist
-  Lifestyle](../158-psychology-applied-environment-minimalist-lifestyle) -
+  Lifestyle](/garden/notes/158-psychology-applied-environment-minimalist-lifestyle) -
   [Minimalist, Zero Waste
   Lifestyle](id:df69cada-d197-4508-9ae0-12affb79dfd0)

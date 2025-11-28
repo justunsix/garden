@@ -268,7 +268,7 @@ See also rest of series
 
 ## How to Build the Ultimate Productivity System (2022)
 
-2../022-10-01 [source](https://www.youtube.com/watch?v=t6hmdrsLQj8) Ali
+2/garden/notes/022-10-01 [source](https://www.youtube.com/watch?v=t6hmdrsLQj8) Ali
 Abdaal
 
 ### Layer 1

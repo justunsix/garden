@@ -154,7 +154,7 @@ learning (neural networks) language models. In the models are encoding
 of language tokens as vectors known as embeddings.
 
 See Tokenization section of [Microsoft Azure AI Fundamentals, Generative
-AI](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
+AI](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
 [Microsoft Azure AI Fundamentals: Generative
 AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3)
 
@@ -410,6 +410,6 @@ interface.
 ## See Also
 
 - [Introduction to AI in Microsoft Azure
-  AI-900](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
+  AI-900](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
   [Introduction to AI in Microsoft Azure
   AI-900](id:dd87d682-2c98-4272-acb2-eafa6ebabf78)

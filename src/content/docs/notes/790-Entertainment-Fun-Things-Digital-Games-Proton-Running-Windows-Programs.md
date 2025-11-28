@@ -50,7 +50,7 @@ for using the EA App in Steam.
 If having trouble launching games or find files, changes the "Target" to
 explorer and start the program. A Windows Explorer window should open
 for you to check files and run other programs described at [Wine
-Snippets](../005-computer-snippets-wine) - [Wine
+Snippets](/garden/notes/005-computer-snippets-wine) - [Wine
 Snippets](id:d74e20b9-f1b8-4d8d-8747-71366f9ab90a)
 
 ## Adding Direct Launchers for Other Programs in the Proton prefix
@@ -65,6 +65,6 @@ Snippets](id:d74e20b9-f1b8-4d8d-8747-71366f9ab90a)
 ## See Also
 
 - [How to Install Google Ads Editor on
-  Wine](../005-tech-linux-wine-install-google-ads-editor) - [How to
+  Wine](/garden/notes/005-tech-linux-wine-install-google-ads-editor) - [How to
   Install Google Ads Editor on
   Wine](id:e2427220-20d3-4fc9-8039-0c7729de49c5)

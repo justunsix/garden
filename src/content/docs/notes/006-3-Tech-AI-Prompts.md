@@ -8,7 +8,7 @@ title: AI Prompts
 
 See "Improve Prompt Results" section of [Microsoft Azure AI
 Fundamentals, Generative
-AI](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
+AI](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
 [Microsoft Azure AI Fundamentals: Generative
 AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3) sourced from [Improve
 prompt results - Training \| Microsoft
@@ -114,7 +114,7 @@ Back card content
 ```
 
 Example output: [Anki Deck for Learning Artificial
-Intelligence](../370-education-learning-anki-master-deck-artificial-intelligence) -
+Intelligence](/garden/notes/370-education-learning-anki-master-deck-artificial-intelligence) -
 [Anki Deck for Learning Artificial
 Intelligence](id:18b5d0b7-d31c-47b0-8b5d-81541a537828)
 

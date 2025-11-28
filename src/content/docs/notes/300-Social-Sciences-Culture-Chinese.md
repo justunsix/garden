@@ -46,5 +46,5 @@ The Winter Solstice Festival - Reserve day,2025-10-21,,Yes,4
 
 ## See Also
 
-- [Culture](../300-social-sciences-culture) -
+- [Culture](/garden/notes/300-social-sciences-culture) -
   [Culture](id:4d6dec07-f696-48a6-a810-ed23b84aa921)

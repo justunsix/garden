@@ -36,7 +36,7 @@ Vaccination policy?
 
 ## See Also
 
-- [Medicine and Health](../610-health) - [Medicine and
+- [Medicine and Health](/garden/notes/610-health) - [Medicine and
   Health](id:26db5e90-7c05-407b-863c-fc6f27673e7f)
 
 ### Resources

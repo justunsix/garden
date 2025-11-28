@@ -10,7 +10,7 @@ databases
 
 For a summary of PITA and why would you use it, see [Database Point in
 Time Architecture
-(PITA)](../004-computer-tech-database-point-in-time-architecture-pita) -
+(PITA)](/garden/notes/004-computer-tech-database-point-in-time-architecture-pita) -
 [Database Point in Time Architecture
 (PITA)](id:566cfa72-235f-469c-bba9-02fbce33da02)
 

@@ -256,7 +256,7 @@ Animal <|-- Dog
 ```
 
 See more examples at [PlantUML
-Snippets](../005-computer-snippets-plantuml) - [PlantUML
+Snippets](/garden/notes/005-computer-snippets-plantuml) - [PlantUML
 Snippets](id:c0360cd8-8ed4-45a4-9c5f-df8edc034cb5)
 
 ## SQL

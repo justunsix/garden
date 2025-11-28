@@ -62,5 +62,5 @@ endlegend
 
 ## See Also
 
-- [Mind Mapping](../370-education-learning-creative-mind-mapping) -
+- [Mind Mapping](/garden/notes/370-education-learning-creative-mind-mapping) -
   [Mind Mapping](id:51531d20-d826-4f34-9ba1-1816a655a24b)

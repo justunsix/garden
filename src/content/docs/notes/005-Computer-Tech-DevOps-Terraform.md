@@ -10,7 +10,7 @@ Beginners - YouTube](https://www.youtube.com/watch?v=l5k1ai_GBDE)
 ## Introduction and More Details
 
 See [Infrastructure as Code with
-Terraform](../005-computer-tech-devops-bootcamp-twn-infrastructure-as-code-with-terraform) -
+Terraform](/garden/notes/005-computer-tech-devops-bootcamp-twn-infrastructure-as-code-with-terraform) -
 [DevOps Bootcamp - Infrastructure as Code with
 Terraform](id:726c1b68-0c45-49c8-a7bc-1cc5a4bbc65e)
 
@@ -64,7 +64,7 @@ Both tools should be used together for their strengths.
 
 ## See Also
 
-- [Ansible](../005-computer-tech-devops-ansible) -
+- [Ansible](/garden/notes/005-computer-tech-devops-ansible) -
   [Ansible](id:9d393a61-59de-4540-9495-0c2122cf3d59)
-- [Terraform - Azure](../005-computer-tech-devops-terraform-azure) -
+- [Terraform - Azure](/garden/notes/005-computer-tech-devops-terraform-azure) -
   [Terraform - Azure](id:1a54acd2-4463-4917-bb08-dfcb4a0e8ced)

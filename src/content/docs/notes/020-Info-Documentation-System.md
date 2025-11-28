@@ -6,9 +6,9 @@ title: Documentation System
 
 ## See Also
 
-- [Information Management](../020-information) - [Information
+- [Information Management](/garden/notes/020-information) - [Information
   Management](id:f18ed97c-a105-4680-a0a2-3c1deafdd8e6)
 - [Info Documentation System
-  Diataxis](../020-info-documentation-system-diataxis) - [Information
+  Diataxis](/garden/notes/020-info-documentation-system-diataxis) - [Information
   Documentation System
   Diataxis](id:4bfa28b9-2233-44d7-84dc-7e612e5dd447)

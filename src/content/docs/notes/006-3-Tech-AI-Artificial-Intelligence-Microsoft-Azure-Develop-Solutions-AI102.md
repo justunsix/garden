@@ -41,11 +41,11 @@ services.
 ## Course Modules
 
 - [Develop generative AI apps in
-  Azure](../006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-generative) -
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-generative) -
   [Generative AI in Azure AI
   Solutions](id:d5571956-346d-433d-8500-0b58a819fffb)
 - [Develop AI agents on
-  Azure](../006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-agents) -
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-agents) -
   [Agents in Azure AI
   Solutions](id:eae5da2e-f013-42af-8128-cc2ae5c28b0f)
 
@@ -53,15 +53,15 @@ services.
 
 - [Develop natural language and Natural Language Processing (NLP)
   solutions in
-  Azure](../006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-natural-language-nlp) -
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-natural-language-nlp) -
   [Natural Language and Natural Language Processing (NLP) in Azure AI
   Solutions](id:97e2a0ac-74dd-40b0-bc77-5237767a4b9b)
 - [Develop computer vision solutions in
-  Azure](../006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-computer-vision) -
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-computer-vision) -
   [Computer Vision in Azure AI
   solutions](id:586c528a-cbe1-4d1d-9026-844ad393e82f)
 - [Develop AI information extraction solutions in
-  Azure](../006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-information-extraction) -
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-information-extraction) -
   [Information Extraction in Azure AI
   Solutions](id:ea3c4dff-d8c8-4fb6-ad75-82274983fc33)
 

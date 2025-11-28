@@ -94,7 +94,7 @@ Use an LLM wrapper to call model, like a web page
 
 ## See Also
 
-- [Snippets ollama](../005-computer-snippets-ollama) - [Snippets
+- [Snippets ollama](/garden/notes/005-computer-snippets-ollama) - [Snippets
   ollama](id:43ecce4a-30f7-4d84-a7fb-7b12e7bc46d0)
 
 ### Resources

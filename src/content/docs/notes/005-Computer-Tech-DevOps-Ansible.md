@@ -202,18 +202,18 @@ with storage and network.
 
 ## See Also
 
-- [Ansible Vault](../005-computer-tech-devops-ansible-vault) - [Ansible
+- [Ansible Vault](/garden/notes/005-computer-tech-devops-ansible-vault) - [Ansible
   Vault](id:c61d1c56-c7e2-4ee4-b6a1-cab8ebff5f40)
 - [DevOps Bootcamp with
-  Nana](../005-computer-tech-devops-bootcamp-twn) - [DevOps Bootcamp
+  Nana](/garden/notes/005-computer-tech-devops-bootcamp-twn) - [DevOps Bootcamp
   Series with Nana Janashia](id:47b64b3b-67a0-4cc5-9e96-2369c5877b08)
   - [DevOps Bootcamp - Configuration Management with
-    Ansible](../005-computer-tech-devops-bootcamp-twn-configuration-management-with-ansible) -
+    Ansible](/garden/notes/005-computer-tech-devops-bootcamp-twn-configuration-management-with-ansible) -
     [DevOps Bootcamp - Configuration Management with
     Ansible](id:9807996a-b116-4ad5-9e02-52e55c291e7a)
-- [DevOps](../005-computer-tech-devops) - [DevOps - Development and
+- [DevOps](/garden/notes/005-computer-tech-devops) - [DevOps - Development and
   Operations](id:1daaeec4-145b-4f3c-8579-a9d4519feae5) - Development and
   Operations
-- [Terraform](../005-computer-tech-devops-terraform) - [Terraform -
+- [Terraform](/garden/notes/005-computer-tech-devops-terraform) - [Terraform -
   infrastructure as code](id:df7e9ded-8c8b-4ede-8d31-7ad229c1b7d1) -
   infrastructure as code (IaC)

@@ -82,6 +82,6 @@ Challenges:
 ## See Also
 
 [Community Stewardship Program - City of Toronto Urban Forestry Personal
-Journal](../360-social-services-volunteer-forestry-toronto-journal) -
+Journal](/garden/notes/360-social-services-volunteer-forestry-toronto-journal) -
 [Community Stewardship Program - City of Toronto Urban Forestry Personal
 Journal](id:bcd26d1d-7c34-4d69-9017-66b59cbc3ff9)

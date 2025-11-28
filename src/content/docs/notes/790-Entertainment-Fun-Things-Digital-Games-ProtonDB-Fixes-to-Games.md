@@ -31,7 +31,7 @@ and find the binary, launch the game from the binary
 
 Works using installation of EA App described at [Running Windows
 Programs with Steam
-Proton](../790-entertainment-fun-things-digital-games-proton-running-windows-programs) -
+Proton](/garden/notes/790-entertainment-fun-things-digital-games-proton-running-windows-programs) -
 [Running Windows Programs with Steam
 Proton](id:dfa9ea92-4b56-4ded-9949-839511a987e1). Install the EA App,
 then install FIFA 20 inside the app and run the game. During first run,

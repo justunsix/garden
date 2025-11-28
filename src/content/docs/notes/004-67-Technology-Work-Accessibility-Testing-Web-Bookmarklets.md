@@ -55,7 +55,7 @@ Another way if available in a website is to drag or copy the bookmark to
 your browser.
 
 For code samples, see section on Bookmarklets in [JavaScript
-Snippets](../005-computer-snippets-javascript) - [JavaScript
+Snippets](/garden/notes/005-computer-snippets-javascript) - [JavaScript
 Snippets](id:9d66cc02-f8c7-46e0-8f92-da79b107f1c7)
 
 ## Examples of Using Bookmarklets in Manual Web Accessibility Testing

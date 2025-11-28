@@ -630,7 +630,7 @@ The files used in this project can be found here:
 
 ## See Also
 
-- [Python](../005-1-tech-python) -
+- [Python](/garden/notes/005-1-tech-python) -
   [Python](id:60afaf50-cb45-44be-b9f3-2e7c951ebc5a)
-- [Python Snippets](../005-computer-snippets-python) - [Python
+- [Python Snippets](/garden/notes/005-computer-snippets-python) - [Python
   Snippets](id:b775ff13-9b5b-4af4-9c2b-e98be0af5fdc)

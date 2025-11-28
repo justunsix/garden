@@ -6,13 +6,13 @@ title: Diagrams as Code
 
 ## See Also
 
-- [PlantUML in Emacs](../005-1-tech-plantuml-emacs) - [PlantUML in
+- [PlantUML in Emacs](/garden/notes/005-1-tech-plantuml-emacs) - [PlantUML in
   Emacs](id:0703699b-25f7-402e-abcf-37dcd8d5264c)
-- [PlantUML](../005-1-tech-plantuml) -
+- [PlantUML](/garden/notes/005-1-tech-plantuml) -
   [PlantUML](id:0a276d86-7c27-4349-b61e-9d505676ce37)
-- [Mermaid Snippets](../005-computer-snippets-mermaid) - [Mermaid
+- [Mermaid Snippets](/garden/notes/005-computer-snippets-mermaid) - [Mermaid
   Snippets](id:50c2d4f2-8613-4b6b-a6ef-12f43376e2d6)
-- [Mind Mapping](../370-education-learning-creative-mind-mapping) -
+- [Mind Mapping](/garden/notes/370-education-learning-creative-mind-mapping) -
   [Mind Mapping](id:51531d20-d826-4f34-9ba1-1816a655a24b)
 
 ### My PlantUML Examples

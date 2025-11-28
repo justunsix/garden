@@ -6,7 +6,7 @@ title: mpv - Media Player
 
 ## See Also
 
-- [mpv Snippets](../005-computer-snippets-mpv) - [mpv
+- [mpv Snippets](/garden/notes/005-computer-snippets-mpv) - [mpv
   Snippets](id:07f45cae-d59f-4fb7-b5c1-cce6c89636e8)
 
 ### Resources

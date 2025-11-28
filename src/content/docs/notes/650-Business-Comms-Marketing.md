@@ -8,13 +8,13 @@ title: Marketing
 ## See Also
 
 - [Online Funnel Coaching
-  Example](../650-business-comms-marketing-online-funnel-example-coaching) -
+  Example](/garden/notes/650-business-comms-marketing-online-funnel-example-coaching) -
   [Coaching Funnel Coaching
   Example](id:ad127e55-7f52-4425-9e12-c3881778cd5e)
 
 ### Digital Marketing and Advertising
 
 - [Digital Marketing Profile
-  Template](../650-business-comms-marketing-digital-profile-template) -
+  Template](/garden/notes/650-business-comms-marketing-digital-profile-template) -
   [Digital Marketing Profile
   Template](id:Test-client-alpha-63c67486-2692-401c-9d3d-be2034fa037c)

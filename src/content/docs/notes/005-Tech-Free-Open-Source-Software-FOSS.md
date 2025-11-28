@@ -64,7 +64,7 @@ plus my additions
   image, blur, crop, despeckle, dither, draw on, flip, join, re-sample,
   and more
 - Firefox - web browser developed by the Mozilla Foundation, see also
-  [Firefox Shortcuts](../005-computer-shortcuts-firefox) - [Firefox
+  [Firefox Shortcuts](/garden/notes/005-computer-shortcuts-firefox) - [Firefox
   Shortcuts](id:8d636d51-8333-4a2e-a9ab-b073f6ae6721)
 - Flatpak - formerly known as xdg-app is a utility for software
   deployment and package management for Linux. It is advertised as
@@ -82,7 +82,7 @@ plus my additions
   raster graphics editor\[5\] used for image manipulation (retouching)
   and image editing, free-form drawing, transcoding between different
   image file formats
-- [Git](../005-tech-git) - [Git Version Control
+- [Git](/garden/notes/005-tech-git) - [Git Version Control
   System](id:419da8ba-373b-4e83-9f3a-0d20f7804ed1) - distributed version
   control
 - Gnome - GNU Network Object Model Environment desktop environment for
@@ -487,7 +487,7 @@ App → Alternative
 ## See Also
 
 - [Free and Open source software
-  alternatives](../005-tech-foss-alternatives) - [Free and Open source
+  alternatives](/garden/notes/005-tech-foss-alternatives) - [Free and Open source
   software alternatives](id:cc3fae8b-58d7-4d82-9ee9-3fe7001dc50a)
-- [Terminal](../005-tech-terminal) -
+- [Terminal](/garden/notes/005-tech-terminal) -
   [Terminal](id:af66c501-039b-4af6-ba93-18e759546761)

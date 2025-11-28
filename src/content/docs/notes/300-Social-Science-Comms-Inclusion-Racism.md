@@ -7,8 +7,8 @@ title: Racism
 ## See Also
 
 - [Roots of
-  Racism](../300-social-science-comms-inclusion-racism-roots-of) -
+  Racism](/garden/notes/300-social-science-comms-inclusion-racism-roots-of) -
   [Roots of Racism](id:49cebe53-2c94-438a-8084-92a1c7db7218)
 - [Racism and Loved
-  Ones](../300-social-science-comms-inclusion-racism-and-loved-ones) -
+  Ones](/garden/notes/300-social-science-comms-inclusion-racism-and-loved-ones) -
   [Racism and Loved Ones](id:79c336a6-48a4-436d-8a51-16b8243385e6)

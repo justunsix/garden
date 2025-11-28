@@ -100,6 +100,6 @@ Retrospectives:
 
 ## See Also
 
-- [Markdown Note taking](../370-education-info-markdown-notetaking) -
+- [Markdown Note taking](/garden/notes/370-education-info-markdown-notetaking) -
   [Markdown Notetaking](id:92f9d2eb-ff99-46fb-911c-8d02af2179ad) and
   todo.txt for tasks

@@ -88,7 +88,7 @@ Requirements:
 ### Emergency Survival Kit
 
 See [Home Emergency Preparedness
-Kits](../613-safety-home-emergency-preparedness-kits) - [Home Emergency
+Kits](/garden/notes/613-safety-home-emergency-preparedness-kits) - [Home Emergency
 Preparedness Kits](id:5e5d2c96-0669-4e98-83d9-b1b348c57ec3)
 
 ## Emergency Volunteer Risk Management
@@ -109,7 +109,7 @@ Preparedness Kits](id:5e5d2c96-0669-4e98-83d9-b1b348c57ec3)
 <!-- -->
 
 - Aware of cold and heat health emergencies
-  - See also [First Aid](../610-health-edu-first-aid) - [First
+  - See also [First Aid](/garden/notes/610-health-edu-first-aid) - [First
     Aid](id:6cb48881-9290-43dd-945b-efaf6c5a7ecd) and [First Aid for
     Environmental Emergencies](id:17453ecc-01f5-4d66-acf6-9d61641eb9bc)
 - Body Mechanics: lifting
@@ -128,7 +128,7 @@ Preparedness Kits](id:5e5d2c96-0669-4e98-83d9-b1b348c57ec3)
   - See also [Peacemaking and
     de-escalation](id:b799171a-77c0-4d0b-bd05-0547c73f29ce) from
     [Fridays for Future Marshal
-    Training](../550-earth-sciences-environment-fridays-for-future)
+    Training](/garden/notes/550-earth-sciences-environment-fridays-for-future)
   - Identify yourself verbally (what you do or who you represent). Be
     polite, friendly and pleasant.
   - Only get voluntary compliance, anything more is a police matter
@@ -294,13 +294,13 @@ situations, victims, and senses and team members
 ## Accessibility and Human Rights
 
 See [Accessibility and Human Rights and
-AODA](../600-technology-work-accessibility-and-human-rights-aoda) -
+AODA](/garden/notes/600-technology-work-accessibility-and-human-rights-aoda) -
 [Accessibility and Human Rights and
 AODA](id:7b712cc5-2449-47ca-9dbe-33b9930c7ec3)
 
 ## Ontario Human Rights Code
 
-See [Ontario Human Rights Code](../340-law-ontario-human-rights-code) -
+See [Ontario Human Rights Code](/garden/notes/340-law-ontario-human-rights-code) -
 [Ontario Human Rights Code](id:ce203fcc-4c21-4fc9-ba98-6cbe00eb8f0f)
 
 ## The Ontario Accessibility for Ontarians with Disabilities Act (AODA) and the Ontario Human Rights Code
@@ -317,7 +317,7 @@ See [Ontario Human Rights Code](../340-law-ontario-human-rights-code) -
 ## Exploring the Roots of Racism
 
 See [Roots of
-Racism](../300-social-science-comms-inclusion-racism-roots-of) - [Roots
+Racism](/garden/notes/300-social-science-comms-inclusion-racism-roots-of) - [Roots
 of Racism](id:49cebe53-2c94-438a-8084-92a1c7db7218)
 
 ## See Also

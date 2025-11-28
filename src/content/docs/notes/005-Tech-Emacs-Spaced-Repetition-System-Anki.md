@@ -52,7 +52,7 @@ louietan/anki-editor](https://github.com/louietan/anki-editor)
   type or my "3. All Purpose Card" note type
 
   - For my examples, see [Anki Master Deck for
-    Learning](../370-education-learning-anki-master-deck) - [Anki Master
+    Learning](/garden/notes/370-education-learning-anki-master-deck) - [Anki Master
     Deck for Learning](id:0f365634-db06-451f-a0ca-3699615538a1)
 
 - After making changes to existing notes or creating new ones, push
@@ -67,5 +67,5 @@ louietan/anki-editor](https://github.com/louietan/anki-editor)
 ## See Also
 
 - [Anki Master Deck for
-  Learning](../370-education-learning-anki-master-deck) - [Anki Master
+  Learning](/garden/notes/370-education-learning-anki-master-deck) - [Anki Master
   Deck for Learning](id:0f365634-db06-451f-a0ca-3699615538a1)

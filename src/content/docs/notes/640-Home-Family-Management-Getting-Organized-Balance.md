@@ -80,6 +80,6 @@ Understand:
 ## See Also
 
 - [Minimalist, Zero Waste
-  Lifestyle](../158-psychology-applied-environment-minimalist-lifestyle) -
+  Lifestyle](/garden/notes/158-psychology-applied-environment-minimalist-lifestyle) -
   [Minimalist, Zero Waste
   Lifestyle](id:df69cada-d197-4508-9ae0-12affb79dfd0)

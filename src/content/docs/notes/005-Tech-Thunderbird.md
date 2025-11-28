@@ -6,5 +6,5 @@ title: Thunderbird
 
 ## See Also
 
-- [Thunderbird Shortcuts](../005-computer-shortcuts-thunderbird) -
+- [Thunderbird Shortcuts](/garden/notes/005-computer-shortcuts-thunderbird) -
   [Thunderbird Shortcuts](id:bd958c77-1153-426a-8001-d4abd9b68325)

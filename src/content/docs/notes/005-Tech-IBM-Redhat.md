@@ -6,7 +6,7 @@ title: IBM Redhat
 
 ## See Also
 
-- [Openshift](../005-tech-ibm-redhat-openshift) -
+- [Openshift](/garden/notes/005-tech-ibm-redhat-openshift) -
   [Openshift](id:626eb03d-5d7f-41aa-ba61-8a9df283cfaa)
-- [Technology](../600-technology) -
+- [Technology](/garden/notes/600-technology) -
   [Technology](id:9092eabf-f6f5-4775-b8aa-6e78e74880c3)

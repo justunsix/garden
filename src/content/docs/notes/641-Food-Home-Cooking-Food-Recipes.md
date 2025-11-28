@@ -145,7 +145,7 @@ How to make Chamomile Milk
 ## 4 Scrappy Fruit Tea
 
 Source: [Scrappy Fruit Tea from Sophi's
-recipe](../550-earth-sciences-environment-zero-waste) - [Zero Waste -
+recipe](/garden/notes/550-earth-sciences-environment-zero-waste) - [Zero Waste -
 Sophi's 4 Scrappy Fruit Tea](id:ad881108-9dc1-4fae-bc02-b4f0694114f0)
 
 ## Healthly Snacks

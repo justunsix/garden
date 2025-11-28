@@ -53,7 +53,7 @@ Architecture Description Method - Hitchhiker's Guide to
 PlantUML](https://crashedmind.github.io/PlantUMLHitchhikersGuide/C4/C4Stdlib.html)
 and multiple concept, logical diagrams at [C4 model for visualising
 software
-architecture](../004-computer-tech-architecture-c4-model-for-software) -
+architecture](/garden/notes/004-computer-tech-architecture-c4-model-for-software) -
 [C4 model for visualising software
 architecture](id:ac2b410e-5d70-4216-88b4-51b9dc492ad6)
 

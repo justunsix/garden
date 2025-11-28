@@ -7,10 +7,10 @@ title: Deathcare Planning
 ## See Also
 
 - [Death Care Plan
-  Concept](../306-culture-institutions-home-death-plan-concept) - [Death
+  Concept](/garden/notes/306-culture-institutions-home-death-plan-concept) - [Death
   Care Plan Concept](id:a1e203e1-c9d2-410e-a227-325584c01e8d)
 - [Death Plan in
-  Family](../306-culture-institutions-home-death-plan-in-family) -
+  Family](/garden/notes/306-culture-institutions-home-death-plan-in-family) -
   [Death Plan in Family](id:957abafd-827d-47ce-bd74-25c5ac0206f5)
 
 ### Resources

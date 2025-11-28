@@ -52,7 +52,7 @@ Super = Windows Logo key
 Combinations](https://keycombiner.com/collections/nautilus/)
 
 Shortcuts are similar to [Firefox
-Shortcuts](../005-computer-shortcuts-firefox) - [Firefox
+Shortcuts](/garden/notes/005-computer-shortcuts-firefox) - [Firefox
 Shortcuts](id:8d636d51-8333-4a2e-a9ab-b073f6ae6721)
 
 ### General
@@ -137,5 +137,5 @@ Contacts:
 
 ## See Also
 
-- [Dolphin File Manager Shortcuts](../005-computer-shortcuts-dolphin) -
+- [Dolphin File Manager Shortcuts](/garden/notes/005-computer-shortcuts-dolphin) -
   [Dolphin Shortcuts](id:87c1a54e-8b05-42fa-b62d-a40fb869eddf)

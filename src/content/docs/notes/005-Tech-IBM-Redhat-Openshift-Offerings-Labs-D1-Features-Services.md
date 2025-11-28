@@ -197,7 +197,7 @@ integration
 
 ## Automation: Ansible - Taymour E.
 
-See [Ansible](../005-computer-tech-devops-ansible) -
+See [Ansible](/garden/notes/005-computer-tech-devops-ansible) -
 [Ansible](id:9d393a61-59de-4540-9495-0c2122cf3d59)
 
 ## Red Hat Learning Subscription
@@ -211,4 +211,4 @@ See [Ansible](../005-computer-tech-devops-ansible) -
 ## See Also
 
 - [Red Hat Immersion 2023 Service Offerings and
-  Labs](../005-tech-ibm-redhat-openshift-offerings-labs)
+  Labs](/garden/notes/005-tech-ibm-redhat-openshift-offerings-labs)

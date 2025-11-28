@@ -27,7 +27,7 @@ account.
 Other options is code can be run on your computer with Python and
 [Jupyter](https://pypi.org/project/jupyter/) or other Python notebook
 services like Google Colab (see [Google
-Colaboratory](../005-tech-google-colab) - [Google
+Colaboratory](/garden/notes/005-tech-google-colab) - [Google
 Colaboratory](id:30915df2-3cb0-4109-9151-816d6638065f))
 
 Data creation uses the Python [Faker](https://pypi.org/project/Faker/)

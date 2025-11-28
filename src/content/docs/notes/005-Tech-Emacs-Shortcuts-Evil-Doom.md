@@ -26,7 +26,7 @@ package](https://github.com/emacs-evil/evil/blob/master/evil-maps.el)
 | Replace macro | F4 |
 | Window move up, down, left, right | C-w + arrow keys |
 
-See [Vim Shortcuts](../005-computer-shortcuts-vim) - [Vim
+See [Vim Shortcuts](/garden/notes/005-computer-shortcuts-vim) - [Vim
 Shortcuts](id:bdb62bfe-56b7-4c13-a1e4-9f91cf4e0bb5) which are mostly
 implemented in Evil and for explanation of terms.
 
@@ -133,7 +133,7 @@ For documentation look up `K`, good minibuffer items are language
 specific docs, devdocs.io, and web search.
 
 For completions, shortcuts are implemented similarly to completion
-section of [Vim Shortcuts](../005-computer-shortcuts-vim) - [Vim
+section of [Vim Shortcuts](/garden/notes/005-computer-shortcuts-vim) - [Vim
 Shortcuts](id:bdb62bfe-56b7-4c13-a1e4-9f91cf4e0bb5) and complete the
 same kind of items.
 

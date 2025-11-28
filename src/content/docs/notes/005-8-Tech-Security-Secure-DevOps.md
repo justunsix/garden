@@ -20,6 +20,6 @@ Reddit
 ## See Also
 
 - [Secure DevOps: Security Principles and
-  Practices](../005-8-tech-security-secure-devops-principles-practices) -
+  Practices](/garden/notes/005-8-tech-security-secure-devops-principles-practices) -
   [Secure DevOps: Security Principles and
   Practices](id:4430aaeb-2a31-4f60-8a77-3e2bffae9eac)

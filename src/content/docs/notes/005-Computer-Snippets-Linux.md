@@ -424,6 +424,9 @@ sed -E 's/pattern/replacement/flags'
 ## Replace dog and cat with pet
 "dog cat moose" | sed -E 's/(cat|dog)/(pet)/g'
 
+# Use basic `regex` to replace `apple` with `mango` and `orange` with `lime` in-place in a file (overwriting original file):
+sed [-i|--in-place] -e 's/apple/mango/g' -e 's/orange/lime/g' path/to/file
+
 ```
 
 ## ss (socket statistics)
@@ -584,7 +587,7 @@ sudo chgrp devops test.txt
 See also DevOps Bootcamp [Modifying
 Permissions](id:ec2b10e8-9f38-4b44-85be-842d5e02994d) file permissions
 section of - [DevOps Bootcamp with
-Nana](../005-computer-tech-devops-bootcamp-twn) - [DevOps Bootcamp
+Nana](/garden/notes/005-computer-tech-devops-bootcamp-twn) - [DevOps Bootcamp
 Series with Nana Janashia](id:47b64b3b-67a0-4cc5-9e96-2369c5877b08)
 
 ### df - display free disk space
@@ -629,7 +632,7 @@ rm -r /path/to/symlink-directory
 
 ### locate - find files from index
 
-See [Locate Snippets](../005-computer-snippets-locate) - [Locate
+See [Locate Snippets](/garden/notes/005-computer-snippets-locate) - [Locate
 Snippets](id:4bb55697-f217-4460-b29b-57d021a951a6)
 
 ### od (Octal Dump)
@@ -902,7 +905,7 @@ for passing output to other commands.
 ### System Administration
 
 See [DevOps Bootcamp - Operating Systems and Linux
-Basics](../005-computer-tech-devops-bootcamp-twn-operating-systems-and-linux-basics) -
+Basics](/garden/notes/005-computer-tech-devops-bootcamp-twn-operating-systems-and-linux-basics) -
 [DevOps Bootcamp - Operating Systems and Linux
 Basics](id:e37ac848-6bb2-4f18-afcf-71c6a7388961) for common commands and
 file system structure.
@@ -965,19 +968,19 @@ file system structure.
 ## See Also
 
 - [awk - text processing and pattern
-  scanning](../005-computer-snippets-awk) - [awk Snippets - text
+  scanning](/garden/notes/005-computer-snippets-awk) - [awk Snippets - text
   processing and pattern
   scanning](id:105e4b70-09da-40e7-9d7f-3798899a3b00)
 - [DevOps Bootcamp - Operating Systems and Linux
-  Basics](../005-computer-tech-devops-bootcamp-twn-operating-systems-and-linux-basics) -
+  Basics](/garden/notes/005-computer-tech-devops-bootcamp-twn-operating-systems-and-linux-basics) -
   [DevOps Bootcamp - Operating Systems and Linux
   Basics](id:e37ac848-6bb2-4f18-afcf-71c6a7388961)
-- [fzf Snippets](../005-computer-snippets-fzf) - [fzf Fuzzy Finder
+- [fzf Snippets](/garden/notes/005-computer-snippets-fzf) - [fzf Fuzzy Finder
   Snippets](id:1aa7c311-74a6-4304-86f1-4c3676ad2498)
-- [GNU Info Snippets](../005-computer-snippets-info) - [GNU Info
+- [GNU Info Snippets](/garden/notes/005-computer-snippets-info) - [GNU Info
   Snippets](id:9421a803-3ff4-4a17-87a5-322cabb371e3)
 - [Linux Terminal Shortcuts
-  Readline](../005-computer-shortcuts-linux-terminal-gnu-readline) -
+  Readline](/garden/notes/005-computer-shortcuts-linux-terminal-gnu-readline) -
   [Linux Terminal Shortcuts - GNU
   Readline](id:bf3b61d8-23cc-4959-a5c7-17041d7e43f4)
 

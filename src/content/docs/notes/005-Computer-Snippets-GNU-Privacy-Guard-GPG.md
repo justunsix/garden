@@ -83,5 +83,5 @@ gpgtar -d --directory mydir myarchive.gpg
 
 ## See Also
 
-- [GNU Privacy Guard (GPG)](../005-8-tech-security-gpg) - [GNU Privacy
+- [GNU Privacy Guard (GPG)](/garden/notes/005-8-tech-security-gpg) - [GNU Privacy
   Guard (GPG)](id:42b3dfbb-141c-4aa8-9dc0-06cefa20f62d)

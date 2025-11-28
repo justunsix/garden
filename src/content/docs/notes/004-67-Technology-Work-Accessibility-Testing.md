@@ -20,7 +20,7 @@ Tools include:
 
 - WAVE, axe DevTools, and other browser extensions, browser console,
   bookmarklets (see [Using Bookmarklets for Accessibility
-  Testing](../004-67-technology-work-accessibility-testing-web-bookmarklets) -
+  Testing](/garden/notes/004-67-technology-work-accessibility-testing-web-bookmarklets) -
   [Using Bookmarklets for Accessibility
   Testing](id:7d7f92a9-10e2-405a-aa80-407b8b3dc0c5))
 - [Accessibility Insights](https://accessibilityinsights.io/) for Web
@@ -41,7 +41,7 @@ operating systems
 ## See Also
 
 - [Using Bookmarklets for Accessibility
-  Testing](../004-67-technology-work-accessibility-testing-web-bookmarklets) -
+  Testing](/garden/notes/004-67-technology-work-accessibility-testing-web-bookmarklets) -
   [Using Bookmarklets for Accessibility
   Testing](id:7d7f92a9-10e2-405a-aa80-407b8b3dc0c5)
 

@@ -45,11 +45,11 @@ For detailed steps, see the source articles. High level steps are:
 - Install the tools
 - Set up a Python virtual environment
 - Use Ollama's online list of models to select an appropriate model.
-  Here are examples: [AI Models](../006-3-tech-ai-models) - [AI
+  Here are examples: [AI Models](/garden/notes/006-3-tech-ai-models) - [AI
   Models](id:65533479-7d6e-4726-92f8-fb66177a39c6)
   - Can start with a smaller model of 7B parameters or less
   - Run ollama models using [ollama
-    Snippets](../005-computer-snippets-ollama) - [Snippets
+    Snippets](/garden/notes/005-computer-snippets-ollama) - [Snippets
     ollama](id:43ecce4a-30f7-4d84-a7fb-7b12e7bc46d0)
 - Install open-webui in the Python virtual environment and start it,
   then access the web application user interface in your browser
@@ -93,6 +93,6 @@ models, chat controls, and settings.
 
 See [Local AI with Retrieval Augmented Generation (RAG) using Open WebUI
 and Ollama System and
-Setup](../006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama-system) -
+Setup](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama-system) -
 [Local AI with Retrieval Augmented Generation (RAG) using Open WebUI and
 Ollama System and Setup](id:137fc4d7-be88-4f53-b66c-b9b1f1106a01)

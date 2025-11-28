@@ -87,7 +87,7 @@ endpoint.
 
 QA is focused on static answers from known content. For LLMs, it is
 similar to [Retrieval Augmented Generation
-(RAG)](../006-3-tech-ai-retrieval-augmented-generation-rag) - [Retrieval
+(RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag) - [Retrieval
 Augmented Generation (RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23)
 
 NLU focuses on understanding intents and performing actions.
@@ -115,7 +115,7 @@ Speech use cases include:
 
 Azure Services are available in UI, CLI, SDKs, and REST APIs. See [AI
 Speech and in
-Azure](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-speech) -
+Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-speech) -
 [AI Speech and in Azure](id:25041740-3fbb-4df4-9637-a23ee364ac68) for
 description of capabilities.
 
@@ -187,17 +187,17 @@ requests.
 ## See Also
 
 - [AI Speech and in
-  Azure](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-speech) -
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-speech) -
   [AI Speech and in Azure](id:25041740-3fbb-4df4-9637-a23ee364ac68)
 - [Natural Language Processing (NLP) Concepts and in
-  Azure](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-natural-language-processing-nlp) -
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-natural-language-processing-nlp) -
   [Natural Language Processing (NLP) Concepts and in
   Azure](id:b71bbd44-c8d5-4221-b9c9-ec80f39e4d38)
 - [Develop AI solutions in Azure
-  AI-102](../006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102) -
+  AI-102](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102) -
   [Develop AI solutions in Azure
   AI-102](id:dc608ccd-b4bc-4820-8bfa-e522c827e6f8)
 - [Text to Speech (TTS) and Speech to Text
-  (STT)](../004-data-processing-tech-data-science-text-to-speech-tts-speech-to-text-stt) -
+  (STT)](/garden/notes/004-data-processing-tech-data-science-text-to-speech-tts-speech-to-text-stt) -
   [Text to Speech (TTS) and Speech to Text
   (STT)](id:f7d86fd7-47ba-49c0-bb56-b5e7e4ee3341)

@@ -345,7 +345,7 @@ Ordered outside to inside:
   - Table, column level security
   - See also [Microsoft
     Dataverse](id:cc998824-a24c-43fa-a060-0dbc98a7183d)
-    ([Dataverse](../005-tech-microsoft-dataverse))
+    ([Dataverse](/garden/notes/005-tech-microsoft-dataverse))
 
 ### Environment and Dataverse Security
 
@@ -531,7 +531,7 @@ creating small gaps in work.
 
 ## See Also
 
-- [Microsoft Technologies](../005-tech-microsoft) section [Microsoft
+- [Microsoft Technologies](/garden/notes/005-tech-microsoft) section [Microsoft
   Power Platform Notes](id:2acf1ed4-0099-4810-9ed4-3bba5c688490)
 
 ### Resources

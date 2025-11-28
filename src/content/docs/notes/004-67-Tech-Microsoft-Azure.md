@@ -153,7 +153,7 @@ Automation? use PowerShell or Azure CLI
 
 ## See Also
 
-- [Microsoft Technologies](../005-tech-microsoft) section: [Microsoft
+- [Microsoft Technologies](/garden/notes/005-tech-microsoft) section: [Microsoft
   Azure Technologies](id:d54649b7-e39b-4974-bab4-e32abbb37d32)
 
 ### Resources

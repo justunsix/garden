@@ -60,7 +60,7 @@ To run source in GoLand, press the run button or use terminal.
 ## Concepts and Syntax
 
 For syntax and `go` commands for building and running programs, see
-[Golang Snippets](../005-computer-snippets-golang) - [Golang
+[Golang Snippets](/garden/notes/005-computer-snippets-golang) - [Golang
 Snippets](id:68fa2f78-3752-4893-93a9-0979bee579f4)
 
 Packages are a set of source files available for reuse for application

@@ -48,5 +48,5 @@ minikube delete
 
 ## See Also
 
-- [Podman Snippets](../005-computer-snippets-podman) - [Podman
+- [Podman Snippets](/garden/notes/005-computer-snippets-podman) - [Podman
   Snippets](id:cff51a5c-156b-4f2e-a49f-17a61dd46f76)

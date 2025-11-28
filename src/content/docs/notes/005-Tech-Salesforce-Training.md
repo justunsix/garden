@@ -60,5 +60,5 @@ Daily Considerations
 
 ## See Also
 
-- [Salesforce](../005-tech-salesforce) -
+- [Salesforce](/garden/notes/005-tech-salesforce) -
   [Salesforce](id:22e04adc-1831-4bde-a105-af0bc06b5103)

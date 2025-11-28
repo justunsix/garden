@@ -10,10 +10,10 @@ learn concepts from courses below were applied to learning. Courses that
 influences these applications:
 
 - [Introduction to AI in Microsoft Azure
-  AI-900](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
+  AI-900](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
   [Introduction to AI in Microsoft Azure
   AI-900](id:dd87d682-2c98-4272-acb2-eafa6ebabf78)
-- [Learning How to Learn](../370-education-learning-how-to-learn) -
+- [Learning How to Learn](/garden/notes/370-education-learning-how-to-learn) -
   [Learning How to Learn](id:1e2563ae-4b97-423c-a719-8e2eb9d6db03) -
   Coursera course
 
@@ -24,7 +24,7 @@ influences these applications:
 - Generating captions of images and diagrams in notes - Computer vision
   and generative AI
 - Videos from [Introduction to AI in Microsoft Azure
-  AI-900](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900),
+  AI-900](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900),
   Speech - transcription of video, Natural Language Processing (NLP) on
   key entities, terms and summary
   - [AI-900: Microsoft Azure AI Fundamentals -

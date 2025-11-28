@@ -27,7 +27,7 @@ technology and accept boring activities.
 
 Concept is similar to diffuse mode in [Learning How to Learn Week 1
 Focused Diffuse Modes Procrastination Memory
-Sleep](../370-education-learning-how-to-learn-week-1-focused-diffuse-modes-procrastination-memory-sleep) -
+Sleep](/garden/notes/370-education-learning-how-to-learn-week-1-focused-diffuse-modes-procrastination-memory-sleep) -
 [Learning How to Learn Week 1 Focused/Diffuse Modes, Procrastination &
 Memory & Sleep](id:682da365-b118-412a-8089-05714475e8c7)
 
@@ -114,7 +114,7 @@ Evaluate which of these 6 time traps is eating up all your time?
 
 1.  See Also
 
-    - [Finance: Value of Time](../332-finance-time-value) - [Finance:
+    - [Finance: Value of Time](/garden/notes/332-finance-time-value) - [Finance:
       Value of Time](id:87726ed4-b680-45ca-8bc4-e36dfa8b2508)
 
 ### What Your Money Habits Reveal About You

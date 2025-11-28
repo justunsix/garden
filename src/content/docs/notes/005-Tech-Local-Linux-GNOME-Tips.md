@@ -78,5 +78,5 @@ In GNOME, use Evince (default) and use settings to choose night mode
 ## See Also
 
 - [Linux GNOME Ubuntu
-  Shortcuts](../005-computer-shortcuts-linux-gnome-ubuntu) - [Linux
+  Shortcuts](/garden/notes/005-computer-shortcuts-linux-gnome-ubuntu) - [Linux
   Ubuntu GNOME Shortcuts](id:4b892508-403a-42ad-b2f1-63eff470fb74)

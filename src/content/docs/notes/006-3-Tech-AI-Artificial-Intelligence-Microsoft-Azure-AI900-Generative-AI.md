@@ -89,7 +89,7 @@ The semantic relationship is the distance between vectors
 - For example, `bike` and `car` are used in same patterns of words and
   are used like driving, buying, or repairing them. As a result, the
   model will put the bike and car words close in vector space. See
-  [Vector Database](../006-3-tech-ai-vector-database) - [Vector
+  [Vector Database](/garden/notes/006-3-tech-ai-vector-database) - [Vector
   Database](id:67032821-f795-4059-bc63-ae4adada458a) for more on vectors
   and a simple example
 - The training can have issues like:
@@ -296,7 +296,7 @@ proprietary.
     - Orca 2
 
     More examples of models and use at [AI
-    Models](../006-3-tech-ai-models) - [AI
+    Models](/garden/notes/006-3-tech-ai-models) - [AI
     Models](id:65533479-7d6e-4726-92f8-fb66177a39c6)
 
     Models will have different context sizes, which is how much input
@@ -355,7 +355,7 @@ minimal harm like putting warning messages
 Example risks are false outputs, possible unethical use
 
 For Responsible AI frameworks, see - [Ethics in the Age of Generative
-AI](../006-3-tech-ai-artificial-intelligence-ethics-in-age-of-generative-ai) -
+AI](/garden/notes/006-3-tech-ai-artificial-intelligence-ethics-in-age-of-generative-ai) -
 [Ethics in the Age of Generative AI - Generative AI and Ethics - the
 Urgency of Now](id:5d269fc6-f581-421a-b2c9-bd4a90ad2ca1)
 
@@ -536,7 +536,7 @@ testing. Models can be configured.
     2.  Retrieval-Augmented Generation (RAG)
 
         See [Retrieval Augmented Generation
-        (RAG)](../006-3-tech-ai-retrieval-augmented-generation-rag) -
+        (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag) -
         [Retrieval Augmented Generation
         (RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23)
 
@@ -580,18 +580,18 @@ testing. Models can be configured.
 
 ## See Also
 
-- [Vector Database](../006-3-tech-ai-vector-database) - [Vector
+- [Vector Database](/garden/notes/006-3-tech-ai-vector-database) - [Vector
   Database](id:67032821-f795-4059-bc63-ae4adada458a)
 - [Local AI with Retrieval Augmented Generation (RAG) using Open WebUI
   and
-  Ollama](../006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama) -
+  Ollama](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama) -
   [Local AI with Retrieval Augmented Generation (RAG) using Open WebUI
   and Ollama](id:19319abe-7f4f-4eb7-a953-5f3fc197cf34)
 - [Retrieval Augmented Generation
-  (RAG)](../006-3-tech-ai-retrieval-augmented-generation-rag) -
+  (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag) -
   [Retrieval Augmented Generation
   (RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23)
 - [Introduction to AI in Microsoft Azure
-  AI-900](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
+  AI-900](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
   [Introduction to AI in Microsoft Azure
   AI-900](id:dd87d682-2c98-4272-acb2-eafa6ebabf78)

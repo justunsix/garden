@@ -6,5 +6,5 @@ title: General works on specific types of computers
 
 ## See Also
 
-- [Adafruit Hardware](../004-1-computers-hardware-adafruit) - [Adafruit
+- [Adafruit Hardware](/garden/notes/004-1-computers-hardware-adafruit) - [Adafruit
   Hardware](id:153695e6-34d9-4d8f-adf8-950664e5177e)

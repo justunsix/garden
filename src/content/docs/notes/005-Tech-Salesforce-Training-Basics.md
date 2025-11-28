@@ -272,4 +272,4 @@ increase in customer retention.
 
 ## See Also
 
-- [Salesforce](../005-tech-salesforce)
+- [Salesforce](/garden/notes/005-tech-salesforce)

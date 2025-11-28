@@ -224,6 +224,6 @@ activity.
 ## See Also
 
 - [Boundaries and Mental
-  Health](../158-psychology-applied-health-mental-boundaries) -
+  Health](/garden/notes/158-psychology-applied-health-mental-boundaries) -
   [Boundaries and Mental
   Health](id:0932b8cc-28c8-48c3-9fe3-ebdda0ae01f4)

@@ -13,5 +13,5 @@ KDE programs since it uses Qt.
 
 ## See Also
 
-- [KDE](../005-tech-kde) -
+- [KDE](/garden/notes/005-tech-kde) -
   [KDE](id:e9b0d465-18a0-470e-ad74-179048a24f95)

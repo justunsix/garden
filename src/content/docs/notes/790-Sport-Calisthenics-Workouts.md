@@ -47,7 +47,7 @@ Source: bodybuilding.com workout example
 - Neck, 3 sets, max reps
 - Plank / plank side to sides - 45s / 1 minute or 15 reps on each side
 - [Optional - Shoulder/back strength and
-  flexibility](../790-sport-stretching)
+  flexibility](/garden/notes/790-sport-stretching)
 
 Repeat 3 times, then move to other exercise. Aim for 12-15 repetitions
 
@@ -337,5 +337,5 @@ progressed movement. Here are some general rules for the routine.
 
 ## See Also
 
-- [Sport](../790-sport) -
+- [Sport](/garden/notes/790-sport) -
   [Sport](id:02621cc8-f94b-48e5-9d99-37213de7c7c1)

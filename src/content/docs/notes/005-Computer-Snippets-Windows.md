@@ -101,5 +101,5 @@ machine. That log in allow you to use the console on the server.
 
 ## See Also
 
-- [Powershell Snippets](../005-computer-snippets-powershell) -
+- [Powershell Snippets](/garden/notes/005-computer-snippets-powershell) -
   [Powershell Snippets](id:803df536-bf76-4fef-8bc6-775cf2e7dec6)

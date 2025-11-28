@@ -22,6 +22,6 @@ Article on this talk:
 ## See Also
 
 - [Info Documentation System
-  Diataxis](../020-info-documentation-system-diataxis) - [Information
+  Diataxis](/garden/notes/020-info-documentation-system-diataxis) - [Information
   Documentation System
   Diataxis](id:4bfa28b9-2233-44d7-84dc-7e612e5dd447)

@@ -85,5 +85,5 @@ for you.
 
 ## See Also
 
-- [Stoicism](../158-psychology-applied-health-mental-stoicism) -
+- [Stoicism](/garden/notes/158-psychology-applied-health-mental-stoicism) -
   [Stoicism](id:3615be88-f25a-4fba-98c4-42f34c59be5d)

@@ -17,5 +17,5 @@ using Firefox, turn off tracking protection on Github.dev per
 
 ## See Also
 
-- [GitHub Actions](../005-computer-tech-github-actions) - [GitHub
+- [GitHub Actions](/garden/notes/005-computer-tech-github-actions) - [GitHub
   Actions](id:d31aae40-327e-4fa0-ac61-75fe83907cf1)

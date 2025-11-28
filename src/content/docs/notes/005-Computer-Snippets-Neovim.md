@@ -55,7 +55,7 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 
 ## See Also
 
-- [Neovim Shortcuts](../005-computer-shortcuts-neovim) - [Neovim
+- [Neovim Shortcuts](/garden/notes/005-computer-shortcuts-neovim) - [Neovim
   Shortcuts](id:441cec9c-4ca1-479a-9dcc-b0b0bbe294f6)
-- [Lua Snippets](../005-computer-snippets-lua) - [Lua
+- [Lua Snippets](/garden/notes/005-computer-snippets-lua) - [Lua
   Snippets](id:2484c395-d27c-44b4-8706-7abab107d2ed)

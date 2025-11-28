@@ -64,5 +64,5 @@ Recommendations
 
 ## See Also
 
-- [Rust and Cargo Snippets](../005-computer-snippets-rust-cargo) - [Rust
+- [Rust and Cargo Snippets](/garden/notes/005-computer-snippets-rust-cargo) - [Rust
   Cargo Snippets](id:92688ec0-8523-4171-88c2-337e34693607)

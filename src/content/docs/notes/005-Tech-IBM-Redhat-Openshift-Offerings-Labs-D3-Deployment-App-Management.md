@@ -25,4 +25,4 @@ Learning goals:
 ## See Also
 
 - [Red Hat Immersion 2023 Service Offerings and
-  Labs](../005-tech-ibm-redhat-openshift-offerings-labs)
+  Labs](/garden/notes/005-tech-ibm-redhat-openshift-offerings-labs)

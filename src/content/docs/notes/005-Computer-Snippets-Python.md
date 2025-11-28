@@ -306,12 +306,12 @@ Sources:
 - [How to Write Docstrings - Real
   Python](https://realpython.com/how-to-write-docstrings-in-python/)
 - [DevOps Bootcamp - Python
-  Basics](../005-computer-tech-devops-bootcamp-twn-python-basics) -
+  Basics](/garden/notes/005-computer-tech-devops-bootcamp-twn-python-basics) -
   [DevOps Bootcamp - Python
   Basics](id:a5dd45be-10bf-4ab6-8c8f-cb4719c74f1c)
 
 \-[ DevOps Bootcamp - Python
-Automation](../005-computer-tech-devops-bootcamp-twn-python-automation) -
+Automation](/garden/notes/005-computer-tech-devops-bootcamp-twn-python-automation) -
 [DevOps Bootcamp - Python
 Automation](id:c3dc1f6f-d9c4-4d86-88bc-488e42698f7d)
 
@@ -336,7 +336,7 @@ jupytext --to ipynb my_org_file.org
 ```
 
 For Jupyter and notebook use in Emacs org-mode, see [Emacs Org Mode
-Snippets](../005-computer-snippets-emacs-org-mode) - [Emacs Org Mode
+Snippets](/garden/notes/005-computer-snippets-emacs-org-mode) - [Emacs Org Mode
 Snippets](id:4a735bbe-5abd-434a-8387-df414685c341)
 
 ### CSV file operations
@@ -438,18 +438,18 @@ def clean_string(string_to_clean):
 
 ## See Also
 
-- [Technology](../600-technology) -
+- [Technology](/garden/notes/600-technology) -
   [Technology](id:9092eabf-f6f5-4775-b8aa-6e78e74880c3)
-- [Python PyDay 2023](../005-1-tech-python-pyday2023) - [Python PyDay
+- [Python PyDay 2023](/garden/notes/005-1-tech-python-pyday2023) - [Python PyDay
   2023](id:f8bc9ba2-948f-4b44-92f8-37bcea837b6e)
 - [Python Anaconda and Conda
-  Snippets](../005-computer-snippets-python-anaconda) - [Python and
+  Snippets](/garden/notes/005-computer-snippets-python-anaconda) - [Python and
   Anaconda Snippets](id:09101af3-7da0-4433-b8b4-c1df997fcd91)
 - [DevOps Bootcamp - Python
-  Basics](../005-computer-tech-devops-bootcamp-twn-python-basics) -
+  Basics](/garden/notes/005-computer-tech-devops-bootcamp-twn-python-basics) -
   [DevOps Bootcamp - Python
   Basics](id:a5dd45be-10bf-4ab6-8c8f-cb4719c74f1c)
 - [DevOps Bootcamp - Python
-  Automation](../005-computer-tech-devops-bootcamp-twn-python-automation) -
+  Automation](/garden/notes/005-computer-tech-devops-bootcamp-twn-python-automation) -
   [DevOps Bootcamp - Python
   Automation](id:c3dc1f6f-d9c4-4d86-88bc-488e42698f7d)

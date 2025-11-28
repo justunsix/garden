@@ -7,7 +7,7 @@ title: Audio Subtitles and OpenAI Whisper
 ## Generating subtitles for a video
 
 - If getting from YouTube or platforms support subtitles, try using
-  [yt-dlp](../005-tech-yt-dlp) - [YouTube Downloader
+  [yt-dlp](/garden/notes/005-tech-yt-dlp) - [YouTube Downloader
   (yt-dlp)](id:cbdc0af2-a446-4534-a9da-286243b91f31) first like
   `yt-dlp --write-auto-sub --sub-lang en --skip-download "https://www.youtube.com/watch?v=videoid" --output subtitles.txt`
 
@@ -49,7 +49,7 @@ uv run whisper <arguments>
 
 ## See Also
 
-- [Yt-dlp Snippets](../005-computer-snippets-youtube-yt-dlp) - [yt-dlp
+- [Yt-dlp Snippets](/garden/notes/005-computer-snippets-youtube-yt-dlp) - [yt-dlp
   Snippets](id:4cc04c35-2c98-4bcf-84ef-e51148ca8e3c)
-- [Video Editing](../700-arts-comms-media-video-editing) - [Video
+- [Video Editing](/garden/notes/700-arts-comms-media-video-editing) - [Video
   Editing](id:9146341a-5d8b-43f5-a5fb-b416535ec754)

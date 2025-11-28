@@ -243,7 +243,7 @@ lxappearance (GUI theming app)
 
 ## See Also
 
-- [i3 Shortcuts](../005-computer-shortcuts-i3)
+- [i3 Shortcuts](/garden/notes/005-computer-shortcuts-i3)
 
 ## Resources
 

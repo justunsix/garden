@@ -356,11 +356,11 @@ Learn](https://learn.microsoft.com/en-us/microsoftteams/facilitator-teams).
 
 ## See Also
 
-- [Mycroft Artificial Intelligence (AI)](../006-3-tech-ai-mycroft) -
+- [Mycroft Artificial Intelligence (AI)](/garden/notes/006-3-tech-ai-mycroft) -
   [Mycroft Artificial Intelligence
   (AI)](id:f8db3814-1116-4010-9e4a-ba5828dc4c34)
 - [Develop AI solutions in Azure
-  AI-102](../006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102) -
+  AI-102](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102) -
   [Develop AI solutions in Azure
   AI-102](id:dc608ccd-b4bc-4820-8bfa-e522c827e6f8)
 

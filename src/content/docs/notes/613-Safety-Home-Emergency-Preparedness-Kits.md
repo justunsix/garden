@@ -223,6 +223,6 @@ Source: "Rate my emergency kit" article on work intranet
 ## See Also
 
 - [Emergency Management and Preparedness
-  Training](../613-safety-home-emergency-preparedness-management-training) -
+  Training](/garden/notes/613-safety-home-emergency-preparedness-management-training) -
   [Emergency Management and Preparedness
   Training](id:013c5e1a-8471-45df-a027-4d064205800b)

@@ -71,7 +71,7 @@ Indexes may be less accurate, but are more efficient for searches.
 ### Answering a user's questions with RAG and Vector Database
 
 Vector databases are applied with [Retrieval Augmented Generation
-(RAG)](../006-3-tech-ai-retrieval-augmented-generation-rag) - [Retrieval
+(RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag) - [Retrieval
 Augmented Generation (RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23) to
 store and get data to answer user questions using existing data that has
 been processed into a vector database.
@@ -82,6 +82,6 @@ given to a LLM for processing to give answers
 ## See Also
 
 - [Retrieval Augmented Generation
-  (RAG)](../006-3-tech-ai-retrieval-augmented-generation-rag) -
+  (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag) -
   [Retrieval Augmented Generation
   (RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23)

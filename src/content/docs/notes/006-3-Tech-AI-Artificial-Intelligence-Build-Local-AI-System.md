@@ -27,7 +27,7 @@ and keep your data private.
 Steps:
 
 - Install `ollama` and choose a model to run like examples from [AI
-  Models](../006-3-tech-ai-models) - [AI
+  Models](/garden/notes/006-3-tech-ai-models) - [AI
   Models](id:65533479-7d6e-4726-92f8-fb66177a39c6) which can be ollama
   models and models from Hugging Face
 - Download the model, use a quantized model, meaning a compressed model
@@ -56,12 +56,12 @@ Technologies:
 
 ## See Also
 
-- [ollama Snippets](../005-computer-snippets-ollama) - [Snippets
+- [ollama Snippets](/garden/notes/005-computer-snippets-ollama) - [Snippets
   ollama](id:43ecce4a-30f7-4d84-a7fb-7b12e7bc46d0)
-- [AI Models](../006-3-tech-ai-models) - [AI
+- [AI Models](/garden/notes/006-3-tech-ai-models) - [AI
   Models](id:65533479-7d6e-4726-92f8-fb66177a39c6)
 - [Local AI with Retrieval Augmented Generation (RAG) using Open WebUI
   and
-  Ollama](../006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama) -
+  Ollama](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama) -
   [Local AI with Retrieval Augmented Generation (RAG) using Open WebUI
   and Ollama](id:19319abe-7f4f-4eb7-a953-5f3fc197cf34)

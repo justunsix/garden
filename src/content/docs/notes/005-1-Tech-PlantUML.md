@@ -8,7 +8,7 @@ title: PlantUML
 
 ## See Also
 
-- [PlantUML in Emacs](../005-1-tech-plantuml-emacs) - [PlantUML in
+- [PlantUML in Emacs](/garden/notes/005-1-tech-plantuml-emacs) - [PlantUML in
   Emacs](id:0703699b-25f7-402e-abcf-37dcd8d5264c)
 
 ### Resources

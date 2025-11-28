@@ -11,7 +11,7 @@ rolling restarts, accessory (example databases, networking) management,
 and remote builds. It simplifies web application deployments for use
 cases that require less than complexity than Kubernetes.
 
-[Kamal Snippets](../005-tech-snippets-kamal) - [Kamal
+[Kamal Snippets](/garden/notes/005-tech-snippets-kamal) - [Kamal
 Snippets](id:b5064ecf-6e06-4975-bb8f-5c4098d7403a) shows example usage
 for a simple web application and database which will be a kamal
 accessory.

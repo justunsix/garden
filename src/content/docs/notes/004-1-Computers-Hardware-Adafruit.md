@@ -7,7 +7,7 @@ title: Adafruit Hardware
 ## See Also
 
 - [Adabox 19
-  Macropad](../004-1-computers-hardware-adafruit-adabox19-macropad)
+  Macropad](/garden/notes/004-1-computers-hardware-adafruit-adabox19-macropad)
 
 ### Resources
 

@@ -184,9 +184,9 @@ with solution exports, canvas app extraction, and other features.
 
 ## See Also
 
-- [VS Code Shortcuts](../005-computer-shortcuts-vs-code) - [VS Code
+- [VS Code Shortcuts](/garden/notes/005-computer-shortcuts-vs-code) - [VS Code
   Shortcuts](id:f1eb524d-5642-4643-b031-73d629df8785)
-- [VS Code - Local App Settings](../005-tech-vs-code-local-settings) -
+- [VS Code - Local App Settings](/garden/notes/005-tech-vs-code-local-settings) -
   [VS Code - Local App
   Settings](id:59a60588-a161-4243-8696-1e361454067a)
 

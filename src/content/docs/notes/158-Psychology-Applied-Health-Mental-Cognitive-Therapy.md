@@ -68,7 +68,7 @@ Psychological Strengths and Weakness based on Warpy Thoughts Quiz
 
 See section of [Mental Health & MH First Aid - Cognitive Therapy
 Unwarping
-Module](../158-psychology-applied-health-mental-cognitive-therapy-unwarping) -
+Module](/garden/notes/158-psychology-applied-health-mental-cognitive-therapy-unwarping) -
 [Mental Health & MH First Aid - Cognitive Therapy Unwarping
 Module](id:9259efe7-baf7-4991-89ec-4dc7c11f6175)
 
@@ -110,11 +110,11 @@ report card which is evidence of your good coaching.
 
 ## See Also
 
-- [Mental Health](../158-psychology-applied-health-mental) - [Mental
+- [Mental Health](/garden/notes/158-psychology-applied-health-mental) - [Mental
   Health](id:40ae11a4-0376-4020-a17d-f1cb3939e193)
 - [Mental Health & MH First Aid - Cognitive Therapy Unwarping
-  Module](../158-psychology-applied-health-mental-cognitive-therapy-unwarping) -
+  Module](/garden/notes/158-psychology-applied-health-mental-cognitive-therapy-unwarping) -
   [Mental Health & MH First Aid - Cognitive Therapy Unwarping
   Module](id:9259efe7-baf7-4991-89ec-4dc7c11f6175)
-- [Stoicism](../158-psychology-applied-health-mental-stoicism) -
+- [Stoicism](/garden/notes/158-psychology-applied-health-mental-stoicism) -
   [Stoicism](id:3615be88-f25a-4fba-98c4-42f34c59be5d)

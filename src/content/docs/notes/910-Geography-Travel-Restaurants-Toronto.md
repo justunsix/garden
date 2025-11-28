@@ -150,7 +150,7 @@ ordered by discussion popularity and personal experience
 
 ## See Also
 
-- [Fun Things Toronto](../790-entertainment-fun-things) - [Fun Things to
+- [Fun Things Toronto](/garden/notes/790-entertainment-fun-things) - [Fun Things to
   do Toronto](id:cea7d7ad-fb9d-404a-9d3a-b477d2202aaa)
 
 ## Archive (Closed Restaurants)

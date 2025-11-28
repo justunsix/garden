@@ -41,7 +41,7 @@ Use cases: detect and locate faces, analyze facial features.
 Using Azure AI face services requires approval due to sensitivity and
 are used for facial recognition solutions. For features, see [Computer
 Vision (CV) Concepts and in
-Azure](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-computer-vision) -
+Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-computer-vision) -
 [Computer Vision (CV) Concepts and in
 Azure](id:87af447e-094c-4839-a517-88cfd185b8e6)
 
@@ -107,10 +107,10 @@ based on prompts.
 ## See Also
 
 - [Develop AI solutions in Azure
-  AI-102](../006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102) -
+  AI-102](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102) -
   [Develop AI solutions in Azure
   AI-102](id:dc608ccd-b4bc-4820-8bfa-e522c827e6f8)
 - [Computer Vision (CV) Concepts and in
-  Azure](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-computer-vision) -
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-computer-vision) -
   [Computer Vision (CV) Concepts and in
   Azure](id:87af447e-094c-4839-a517-88cfd185b8e6)

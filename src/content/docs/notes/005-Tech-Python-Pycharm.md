@@ -19,5 +19,5 @@ title: Pycharm Python IDE
 
 ## See Also
 
-- [Pycharm Shortcuts](../005-computer-shortcuts-pycharm) - [Pycharm
+- [Pycharm Shortcuts](/garden/notes/005-computer-shortcuts-pycharm) - [Pycharm
   Shortcuts](id:df9ec4ef-423f-4e7c-9a4d-973860997ac9)

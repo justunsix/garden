@@ -41,7 +41,7 @@ Software:
 - [x] Go through all pages of - recorded to learning
   - <https://github.com/stefmolin/pandas-workshop/tree/main> learning at
     [Data Science Pandas
-    Workshop](../004-data-processing-tech-data-science-pandas-workshop) -
+    Workshop](/garden/notes/004-data-processing-tech-data-science-pandas-workshop) -
     [Introduction to Data Science with
     Pandas](id:8f735eb2-0e76-4e57-b2f0-809a14e63fc7)
 - [x] [VS Code and Data

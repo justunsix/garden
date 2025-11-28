@@ -179,6 +179,6 @@ home-manager switch -b backup
 
 ## See Also
 
-- [NixOS and Nix functional package manager](../005-tech-nix-nixos) -
+- [NixOS and Nix functional package manager](/garden/notes/005-tech-nix-nixos) -
   [NixOS and Nix functional package
   manager](id:0a783446-b951-448b-87a6-5897c26f85da)

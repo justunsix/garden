@@ -71,7 +71,8 @@ title: Community Stewardship Program Toronto - Forestry Training
 
 <figure>
 <img src="../media/Volunteer-Foresty-2021-09-02-19-11-17.png" />
-<figcaption>Air conditioner at University of Toronto</figcaption>
+<figcaption>Hawk nest on air conditioner at University of
+Toronto</figcaption>
 </figure>
 
 ### Ontario Breeding Bird Atlas
@@ -88,8 +89,15 @@ title: Community Stewardship Program Toronto - Forestry Training
 25th most common bird going to bird feeders. It goes to find prey at
 feeders.
 
-![](../media/Volunteer-Foresty-2021-09-02-19-16-11.png)
-![](../media/Volunteer-Foresty-2021-09-02-19-19-19.png)
+<figure>
+<img src="../media/Volunteer-Foresty-2021-09-02-19-16-11.png" />
+<figcaption>2 hawks</figcaption>
+</figure>
+
+<figure>
+<img src="../media/Volunteer-Foresty-2021-09-02-19-19-19.png" />
+<figcaption>hawk on tree branches</figcaption>
+</figure>
 
 In Toronto, common with red tailed hawk nesting areas
 
@@ -412,7 +420,7 @@ dry land)</figcaption>
 ### Wetlands
 
 <figure>
-<img src="../media/Volunteer-Foresty-Ricecut%20grass.png" />
+<img src="../media/Volunteer-Foresty-Ricecut-grass.png" />
 <figcaption>Ricecut grass</figcaption>
 </figure>
 

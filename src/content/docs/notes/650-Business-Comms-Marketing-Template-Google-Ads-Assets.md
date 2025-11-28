@@ -82,5 +82,5 @@ Example estimates
 
 ## See Also
 
-- [AI Prompts](../006-3-tech-ai-prompts) - [AI
+- [AI Prompts](/garden/notes/006-3-tech-ai-prompts) - [AI
   Prompts](id:0a00398f-f4d9-42ae-8830-c37fa9abdc8f)

@@ -109,9 +109,9 @@ museum](http://www.rom.on.ca/) and [art gallery](http://www.ago.net/):
 ## See Also
 
 - [Restaurants in
-  Toronto](../910-geography-travel-restaurants-toronto) - [Restaurants
+  Toronto](/garden/notes/910-geography-travel-restaurants-toronto) - [Restaurants
   in Toronto](id:a214e55f-9361-48f7-b100-14f7d75f0bde)
-- [Hiking](../796-sports-fun-hiking) -
+- [Hiking](/garden/notes/796-sports-fun-hiking) -
   [Hiking](id:839f8b96-bba6-4c5e-a909-38f34d6f0151)
 
 ### Resources

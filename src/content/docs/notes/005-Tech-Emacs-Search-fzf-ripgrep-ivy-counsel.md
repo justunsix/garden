@@ -129,7 +129,7 @@ Using `counsel-rg` or `rg` or `projectile-ripgrep`
 
 ## See Also
 
-- [fzf fuzzy finder Snippets](../005-computer-snippets-fzf) - [fzf Fuzzy
+- [fzf fuzzy finder Snippets](/garden/notes/005-computer-snippets-fzf) - [fzf Fuzzy
   Finder Snippets](id:1aa7c311-74a6-4304-86f1-4c3676ad2498)
 
 ### Resources

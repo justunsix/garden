@@ -26,13 +26,13 @@ gets deeper and covers newer, exciting science and medicine.
 ## Course modules
 
 - [1 Anatomy and Physiology - Module
-  1](../610-health-edu-mini-medschool-1-anatomy-physiology)
+  1](/garden/notes/610-health-edu-mini-medschool-1-anatomy-physiology)
 - [2 Anatomy and Physiology - Module
-  2](../610-health-edu-mini-medschool-2-anatomy-physiology)
+  2](/garden/notes/610-health-edu-mini-medschool-2-anatomy-physiology)
 - [3 Cell and Molecular
-  Biology](../610-health-edu-mini-medschool-3-cell-and-molecular-biology)
-- [4 Immunology](../610-health-edu-mini-medschool-4-immunology)
+  Biology](/garden/notes/610-health-edu-mini-medschool-3-cell-and-molecular-biology)
+- [4 Immunology](/garden/notes/610-health-edu-mini-medschool-4-immunology)
 - [5 Infectious
-  Disease](../610-health-edu-mini-medschool-5-infectious-disease)
-- [6 Neuroscience](../610-health-edu-mini-medschool-6-neuroscience)
-- [7 Cancer Biology](../610-health-edu-mini-medschool-7-cancer-biology)
+  Disease](/garden/notes/610-health-edu-mini-medschool-5-infectious-disease)
+- [6 Neuroscience](/garden/notes/610-health-edu-mini-medschool-6-neuroscience)
+- [7 Cancer Biology](/garden/notes/610-health-edu-mini-medschool-7-cancer-biology)

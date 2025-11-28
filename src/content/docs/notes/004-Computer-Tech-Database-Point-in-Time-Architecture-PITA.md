@@ -150,7 +150,7 @@ Columns to support above could be:
 - OperatorCode - unique identifier of person/system that created the row
 
 See [Database Point in Time Architecture (PITA) Enterprise
-Implementation](../004-computer-tech-database-point-in-time-architecture-pita-enterprise-implementation) -
+Implementation](/garden/notes/004-computer-tech-database-point-in-time-architecture-pita-enterprise-implementation) -
 [Database Point in Time Architecture (PITA) Enterprise
 Implementation](id:7728787c-4f8d-4fc8-b2f3-db8083b89bcc) for an
 alternate naming by certain entities and explanation of columns.
@@ -319,6 +319,6 @@ Things to consider:
 ## See also
 
 - [Database Point in Time Architecture (PITA) Enterprise
-  Implementation](../004-computer-tech-database-point-in-time-architecture-pita-enterprise-implementation) -
+  Implementation](/garden/notes/004-computer-tech-database-point-in-time-architecture-pita-enterprise-implementation) -
   [Database Point in Time Architecture (PITA) Enterprise
   Implementation](id:7728787c-4f8d-4fc8-b2f3-db8083b89bcc)

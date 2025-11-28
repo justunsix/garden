@@ -30,7 +30,7 @@ title: Linux Windows Managers
 
 ## See Also
 
-- [i3 Window Manager](../005-tech-i3) - [i3 Window
+- [i3 Window Manager](/garden/notes/005-tech-i3) - [i3 Window
   Manager](id:8fc7c224-8e81-40b7-aace-6fa36a7edcf7)
-- [Xmonad](../005-tech-xmonad) -
+- [Xmonad](/garden/notes/005-tech-xmonad) -
   [XMonad](id:28926191-026e-4011-a51e-739713d8a0cb)

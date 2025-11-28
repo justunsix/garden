@@ -10,7 +10,7 @@ Alibhai](https://drshahana.com/) to increase awareness on mental health.
 health care accessible including same day counselling.
 
 From the training, I added connections I believe to -
-[Stoicism](../158-psychology-applied-health-mental-stoicism) -
+[Stoicism](/garden/notes/158-psychology-applied-health-mental-stoicism) -
 [Stoicism](id:3615be88-f25a-4fba-98c4-42f34c59be5d) such as virtue.
 
 ## Feelings

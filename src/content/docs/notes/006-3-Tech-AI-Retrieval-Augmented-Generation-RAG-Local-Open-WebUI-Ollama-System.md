@@ -20,18 +20,18 @@ your work, for example using an existing knowledge base like books and
 sets of documents.
 
 The method uses [Retrieval Augmented Generation
-(RAG)](../006-3-tech-ai-retrieval-augmented-generation-rag) - [Retrieval
+(RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag) - [Retrieval
 Augmented Generation (RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23)
 using a local environment setup in [Local AI with Retrieval Augmented
 Generation (RAG) using Open WebUI and
-Ollama](../006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama) -
+Ollama](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama) -
 [Local AI with Retrieval Augmented Generation (RAG) using Open WebUI and
 Ollama](id:19319abe-7f4f-4eb7-a953-5f3fc197cf34). The system is used
 for:
 
 1.  Store data in way that can be easier to search through for relevant
     information in your questions. The database type for RAG is a
-    [Vector Database](../006-3-tech-ai-vector-database) - [Vector
+    [Vector Database](/garden/notes/006-3-tech-ai-vector-database) - [Vector
     Database](id:67032821-f795-4059-bc63-ae4adada458a)
 2.  The relevant data is given to an AI to read through and then provide
     a response.
@@ -141,7 +141,7 @@ manage context windows usage.
 ### Embedding Models (RAG Setting)
 
 The embedding models in as explained in [Vector
-Database](../006-3-tech-ai-vector-database) - [Vector
+Database](/garden/notes/006-3-tech-ai-vector-database) - [Vector
 Database](id:67032821-f795-4059-bc63-ae4adada458a) note take the data /
 content you provide as input and converts text into numbers. The numbers
 will be compared to find similar content.

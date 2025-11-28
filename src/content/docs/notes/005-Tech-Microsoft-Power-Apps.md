@@ -189,5 +189,5 @@ for free access, licenses, and other purchasing information
 
 ## See Also
 
-- [Microsoft Dynamics](../005-tech-microsoft-dynamics) - [Microsoft
+- [Microsoft Dynamics](/garden/notes/005-tech-microsoft-dynamics) - [Microsoft
   Dynamics](id:ffe5c447-66a0-4bf7-b566-a0c54d95e4cf)

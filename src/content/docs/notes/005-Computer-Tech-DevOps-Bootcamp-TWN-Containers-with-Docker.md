@@ -129,7 +129,7 @@ docker ps
 
 ## Main Docker Commands
 
-See [Docker Snippets](../005-computer-snippets-docker)
+See [Docker Snippets](/garden/notes/005-computer-snippets-docker)
 
 ### Container Port vs Host Port
 
@@ -140,7 +140,7 @@ See [Docker Snippets](../005-computer-snippets-docker)
 
 ## Debugging Docker Containers
 
-See [Docker Snippets](../005-computer-snippets-docker)
+See [Docker Snippets](/garden/notes/005-computer-snippets-docker)
 
 like docker logs, docker exec
 
@@ -620,5 +620,5 @@ CMD node index.js
 
 ## See Also
 
-- [Docker Snippets](../005-computer-snippets-docker) - [Docker
+- [Docker Snippets](/garden/notes/005-computer-snippets-docker) - [Docker
   Snippets](id:4a17b5a3-3c43-42d4-a17c-9c2699a9d9d0)

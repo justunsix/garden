@@ -7,5 +7,5 @@ title: Music
 ## See Also
 
 - [Singing and Karaoke
-  Songs](../780-music-fun-things-digital-media-sing-karaoke) - [Singing
+  Songs](/garden/notes/780-music-fun-things-digital-media-sing-karaoke) - [Singing
   and Karaoke Songs](id:75d622ba-281e-464e-a56f-37073759e857)

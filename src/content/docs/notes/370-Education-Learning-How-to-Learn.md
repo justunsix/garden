@@ -20,20 +20,20 @@ course](https://www.coursera.org/learn/learning-how-to-learn/)
 
 1.  [Learning How to Learn Week 1 Focused Diffuse Modes Procrastination
     Memory
-    Sleep](../370-education-learning-how-to-learn-week-1-focused-diffuse-modes-procrastination-memory-sleep) -
+    Sleep](/garden/notes/370-education-learning-how-to-learn-week-1-focused-diffuse-modes-procrastination-memory-sleep) -
     [Learning How to Learn Week 1 Focused/Diffuse Modes, Procrastination
     & Memory & Sleep](id:682da365-b118-412a-8089-05714475e8c7)
 2.  [Learning How to Learn Week 2
-    Chunking](../370-education-learning-how-to-learn-week-2-chunking) -
+    Chunking](/garden/notes/370-education-learning-how-to-learn-week-2-chunking) -
     [Learning How to Learn Week 2
     Chunking](id:bb2103a8-70a3-4990-bbc2-d686fbd7643b)
 3.  [Learning How to Learn Week 3 Introduction to Procrastination and
-    Memory](../370-education-learning-how-to-learn-week-3-procrastination-and-memory) -
+    Memory](/garden/notes/370-education-learning-how-to-learn-week-3-procrastination-and-memory) -
     [Learning How to Learn Week 3 Procrastination and
     Memory](id:cb4f7a9f-fe87-4622-8d4c-61400d4fb515)
 4.  [Learning How to Learn Week 4 Renaissance Learning and Unlocking
     Your
-    Potential](../370-education-learning-how-to-learn-week-4-renaissance-learning-potential) -
+    Potential](/garden/notes/370-education-learning-how-to-learn-week-4-renaissance-learning-potential) -
     [Learning How to Learn Week 4 Renaissance Learning and Unlocking
     Your Potential](id:ad4f77dc-1608-4d2b-9035-a737f7735867)
 

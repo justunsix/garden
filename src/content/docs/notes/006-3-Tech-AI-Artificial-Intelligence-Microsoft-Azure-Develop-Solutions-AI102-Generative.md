@@ -192,7 +192,7 @@ Grounding means giving context to the model to allow it to give accurate
 and relevant responses.
 
 It uses [Retrieval Augmented Generation
-(RAG)](../006-3-tech-ai-retrieval-augmented-generation-rag) - [Retrieval
+(RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag) - [Retrieval
 Augmented Generation (RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23)
 which gets relevant data to include with a prompt to use for grounding
 context.
@@ -200,7 +200,7 @@ context.
 Grounded approach uses an LLM with its original training data with
 access to the relevant data for prompts to the application. The
 grounding data, for example files, is put into a [Vector
-Database](../006-3-tech-ai-vector-database) - [Vector
+Database](/garden/notes/006-3-tech-ai-vector-database) - [Vector
 Database](id:67032821-f795-4059-bc63-ae4adada458a). Grouding data is
 processed and set as vectors in the vector database. During prompting,
 the LLM will use the database when creating a response to get relevant
@@ -383,14 +383,14 @@ after deployment and use with a solution.
 ## See Also
 
 - [Develop AI solutions in Azure
-  AI-102](../006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102) -
+  AI-102](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102) -
   [Develop AI solutions in Azure
   AI-102](id:dc608ccd-b4bc-4820-8bfa-e522c827e6f8)
 - [Machine Learning (ML) Concepts and in
-  Azure](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-machine-learning) -
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-machine-learning) -
   [Machine Learning (ML) Concepts and in
   Azure](id:c04c162a-85c7-4295-b9b9-5bbb71270b1b)
 - [Microsoft Azure AI Fundamentals, Generative
-  AI](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
+  AI](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
   [Microsoft Azure AI Fundamentals: Generative
   AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3)

@@ -5,7 +5,7 @@ title: Anki Deck for Learning Artificial Intelligence
 ---
 
 Anki deck cards to help with learning listed at [Artificial Intelligence
-(AI)](../006-3-tech-ai-artificial-intelligence) - [Artificial
+(AI)](/garden/notes/006-3-tech-ai-artificial-intelligence) - [Artificial
 Intelligence (AI)](id:bfe7af6c-9a91-4f3e-a98c-60ed67b8285a) Some cards
 were generated with the help of Microsoft Copilot Artificial
 Intelligence (AI) and are being updated or corrected.

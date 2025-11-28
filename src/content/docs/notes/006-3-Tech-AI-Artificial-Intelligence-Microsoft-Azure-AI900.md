@@ -186,7 +186,7 @@ AI must be created with these principles to address the risks:
   responsible AI.
 
 Related concepts in [Ethics in the Age of Generative
-AI](../006-3-tech-ai-artificial-intelligence-ethics-in-age-of-generative-ai) -
+AI](/garden/notes/006-3-tech-ai-artificial-intelligence-ethics-in-age-of-generative-ai) -
 [Ethics in the Age of Generative AI - Generative AI and Ethics - the
 Urgency of Now](id:5d269fc6-f581-421a-b2c9-bd4a90ad2ca1)
 
@@ -214,33 +214,33 @@ group and data centre location like Canada Central.
 ## Course Modules
 
 - [Machine Learning (ML) Concepts and in
-  Azure](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-machine-learning) -
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-machine-learning) -
   [Machine Learning (ML) Concepts and in
   Azure](id:c04c162a-85c7-4295-b9b9-5bbb71270b1b)
 - [Microsoft Azure AI Fundamentals, Generative
-  AI](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
+  AI](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
   [Microsoft Azure AI Fundamentals: Generative
   AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3)
 - [Natural Language Processing (NLP) Concepts and in
-  Azure](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-natural-language-processing-nlp) -
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-natural-language-processing-nlp) -
   [Natural Language Processing (NLP) Concepts and in
   Azure](id:b71bbd44-c8d5-4221-b9c9-ec80f39e4d38)
 - [AI Speech and in
-  Azure](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-speech) -
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-speech) -
   [AI Speech and in Azure](id:25041740-3fbb-4df4-9637-a23ee364ac68)
 - [Computer Vision (CV) Concepts and in
-  Azure](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-computer-vision) -
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-computer-vision) -
   [Computer Vision (CV) Concepts and in
   Azure](id:87af447e-094c-4839-a517-88cfd185b8e6)
 - [AI Information Extraction Concepts and in
-  Azure](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-information-extraction) -
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-information-extraction) -
   [AI Information Extraction Concepts and in
   Azure](id:927486ba-eab2-4f89-8813-ef846200341d)
 
 ### Exercises and Labs
 
 - [Introduction to AI in Microsoft Azure AI-900
-  Labs](../006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-introduction-labs) -
+  Labs](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-introduction-labs) -
   [Introduction to AI in Microsoft Azure AI-900
   Labs](id:dea94cad-796a-4c53-bf8a-99d0a9e88934) - Exercises from
   Microsoft Learn course modules
@@ -332,18 +332,18 @@ tier of the resource.
 
 ## See Also
 
-- [Vector Database](../006-3-tech-ai-vector-database) - [Vector
+- [Vector Database](/garden/notes/006-3-tech-ai-vector-database) - [Vector
   Database](id:67032821-f795-4059-bc63-ae4adada458a)
 - [Ethics in the Age of Generative
-  AI](../006-3-tech-ai-artificial-intelligence-ethics-in-age-of-generative-ai) -
+  AI](/garden/notes/006-3-tech-ai-artificial-intelligence-ethics-in-age-of-generative-ai) -
   [Ethics in the Age of Generative AI - Generative AI and Ethics - the
   Urgency of Now](id:5d269fc6-f581-421a-b2c9-bd4a90ad2ca1)
 - [Text to Speech (TTS) and Speech to Text
-  (STT)](../004-data-processing-tech-data-science-text-to-speech-tts-speech-to-text-stt) -
+  (STT)](/garden/notes/004-data-processing-tech-data-science-text-to-speech-tts-speech-to-text-stt) -
   [Text to Speech (TTS) and Speech to Text
   (STT)](id:f7d86fd7-47ba-49c0-bb56-b5e7e4ee3341)
 - [Applying Artificial Intelligence to
-  Learning](../006-3-tech-ai-artificial-intelligence-microsoft-azure-applied-to-learning) -
+  Learning](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-applied-to-learning) -
   [Applying Artificial Intelligence to
   Learning](id:483fb086-6a97-47ac-a086-066fd91fd4e9)
 

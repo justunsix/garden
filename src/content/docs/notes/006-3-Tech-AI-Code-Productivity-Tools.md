@@ -177,4 +177,4 @@ YouTube](https://www.youtube.com/watch?v=Ym0_W-wK9wU) - Hayls World
 ## See Also
 
 - [AI Code Editor Integration -
-  Tabby](../006-3-tech-ai-code-productivity-tools-editor-integration-tabby)
+  Tabby](/garden/notes/006-3-tech-ai-code-productivity-tools-editor-integration-tabby)

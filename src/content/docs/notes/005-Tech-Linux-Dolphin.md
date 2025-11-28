@@ -106,7 +106,7 @@ UI can be customized with `Configure Toolbars...` from context menu.
       dolphinrc](https://github.com/justunsix/dotfiles) worked out of
       box in dark mode using:
       dolphin-master-3966-windows-cl-msvc2022-x86<sub>64</sub>.7z from
-      [https://cdn.kde.org/ci-builds/system/dolphin/master/windows/dolphin-master-3../966-windows-cl-msvc2022-x86_64.7z](https://cdn.kde/ci-builds/system/dolphin/master/windows/dolphin-master-3966-windows-cl-msvc2022-x86_64.7z)
+      [https://cdn.kde.org/ci-builds/system/dolphin/master/windows/dolphin-master-3/garden/notes/966-windows-cl-msvc2022-x86_64.7z](https://cdn.kde/ci-builds/system/dolphin/master/windows/dolphin-master-3966-windows-cl-msvc2022-x86_64.7z)
       - Remove all files to replicate:
         - C:
         - "C:<sub>dolphindolphin</sub>"
@@ -184,7 +184,7 @@ Change settings like:
 
 ## See Also
 
-- [Dolphin Shortcuts](../005-computer-shortcuts-dolphin) - [Dolphin
+- [Dolphin Shortcuts](/garden/notes/005-computer-shortcuts-dolphin) - [Dolphin
   Shortcuts](id:87c1a54e-8b05-42fa-b62d-a40fb869eddf)
 
 ### Resources

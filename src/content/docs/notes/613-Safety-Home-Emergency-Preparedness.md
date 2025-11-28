@@ -8,9 +8,9 @@ title: Emergency Preparedness
 ## See Also
 
 - [Home Emergency Preparedness
-  Kits](../613-safety-home-emergency-preparedness-kits) - [Home
+  Kits](/garden/notes/613-safety-home-emergency-preparedness-kits) - [Home
   Emergency Preparedness Kits](id:5e5d2c96-0669-4e98-83d9-b1b348c57ec3)
 - [Emergency Management and Preparedness
-  Training](../613-safety-home-emergency-preparedness-management-training) -
+  Training](/garden/notes/613-safety-home-emergency-preparedness-management-training) -
   [Emergency Management and Preparedness
   Training](id:013c5e1a-8471-45df-a027-4d064205800b)

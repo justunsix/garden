@@ -6,5 +6,5 @@ title: VPN Virtual Private Network
 
 ## See Also
 
-- [VPN Tailscale Mesh Network](../005-tech-vpn-tailscale-mesh-network) -
+- [VPN Tailscale Mesh Network](/garden/notes/005-tech-vpn-tailscale-mesh-network) -
   [VPN Tailscale Mesh Network](id:6fa5caad-327b-4c5f-8929-c03929d0e4c6)

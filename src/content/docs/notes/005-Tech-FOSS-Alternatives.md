@@ -11,10 +11,10 @@ title: Free and Open source software alternatives
 For concepts and software alternatives
 
 - [FOSS Data Science Alternatives - Desktop Data
-  Management](../004-data-processing-tech-data-science-foss-alternatives) -
+  Management](/garden/notes/004-data-processing-tech-data-science-foss-alternatives) -
   [FOSS Data Science Alternatives - Desktop Data
   Management](id:8fcd0a67-39a9-442b-b350-33a05dd60d9c)
 - [Applications - Free and Open Source
-  Software](../005-tech-free-open-source-software-foss) -
+  Software](/garden/notes/005-tech-free-open-source-software-foss) -
   [Applications - Free and Open Source
   Software](id:4d3e0888-9e79-414c-a552-48c6357ad845)

@@ -128,9 +128,9 @@ Example Anki flash cards in Emacs
 ## See Also
 
 - [Anki Deck for Learning Artificial
-  Intelligence](../370-education-learning-anki-master-deck-artificial-intelligence) -
+  Intelligence](/garden/notes/370-education-learning-anki-master-deck-artificial-intelligence) -
   [Anki Deck for Learning Artificial
   Intelligence](id:18b5d0b7-d31c-47b0-8b5d-81541a537828)
 - [Emacs Spaced Repetition System with
-  Anki](../005-tech-emacs-spaced-repetition-system-anki) - [Emacs Spaced
+  Anki](/garden/notes/005-tech-emacs-spaced-repetition-system-anki) - [Emacs Spaced
   Repetition System with Anki](id:343b3f91-0b53-450e-a8a9-4286bd619535)

@@ -1,7 +1,7 @@
 ---
 date: 2019
 description: List of interesting books
-filetags: ":epubnote:literature:"
+filetags: ":literature:epubnote:"
 id: 5a7f9427-b19a-4798-8b38-4c8c1acd030a
 title: Reading List
 ---

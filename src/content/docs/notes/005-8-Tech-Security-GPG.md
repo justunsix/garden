@@ -450,8 +450,8 @@ directories.
 
 ## See Also
 
-- [GPG Local Security](../005-8-tech-security-gpg-local) - [GPG Local
+- [GPG Local Security](/garden/notes/005-8-tech-security-gpg-local) - [GPG Local
   Security](id:1e2d6314-1c66-4ee9-8127-2d85ded47e4e)
 - [GNU Privacy Guard GPG
-  Snippets](../005-computer-snippets-gnu-privacy-guard-gpg) - [GNU
+  Snippets](/garden/notes/005-computer-snippets-gnu-privacy-guard-gpg) - [GNU
   Privacy Guard GPG Snippets](id:c6e319c0-ec8d-4c94-be38-ae77ec34c683)
