@@ -1,8 +1,33 @@
 ---
 filetags: ":garden:gardening:urban:epubnote:"
 id: 76f36c79-02eb-4578-95f5-723e69a390a3
-title: Urban Gardening Tip
+title: Urban Gardening Tips
 ---
+
+## Food in Industrial and Developing Countries in 2011 - Reasons for Local Produce, Gardening
+
+From work Urban Gardeners session
+
+- Industrial countries export processed food containing large amounts of
+  salt, sugar, and fat.
+- Global south exports "whole" foods at low costs: traditional farming
+  vs. horticulture, argo culture, monoculture.
+- Kenya is a good example.
+- Climate, biofuels/energy, speculation in stocks and commodities leads
+  to volatility, food crisis, diet changes resulting in health effects
+  and prices.
+- Ontario needs insurance against these global food challenges. Ontario
+  is important many vegetables. If we grow ourselves, it will result in
+  large revenues. Need to assess plant requirements and see if they can
+  grow in Ontario and how many times during growth seasons.
+  - Assess soil, water, light, maintenance (includes pest/physical),
+    harvest
+
+## Homemade Fertilizer
+
+It's made of dried egg shells, shrimp shells and coffee grounds. They
+have to be well dried out though to avoid bad smells. Then I pulverize
+it in a food processor.
 
 ## Seedlings Care
 
