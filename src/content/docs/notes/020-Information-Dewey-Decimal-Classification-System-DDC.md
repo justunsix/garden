@@ -8,7 +8,9 @@ Source: [List of DD
 Classes](https://en.wikipedia.org/wiki/List_of_Dewey_Decimal_classes)
 from Wikipedia and [Online Computer Library Center
 (OCLC)](https://www.oclc.org/) Summaries of Dewey Decimal Classification,
-OCLC Online Computer Library Center, Inc, Dublin, Ohio
+OCLC Online Computer Library Center, Inc, Dublin, Ohio. For example
+[class 000 from OCLC
+(pdf)](https://www.oclc.org/content/dam/oclc/webdewey/help/000.pdf)
 
 The below lists classes of the Dewey Decimal Classification (DDC) and
 last section indicates classes adapted for this garden.
@@ -23,6 +25,7 @@ Class 000 – Computer science, information, and general works
         002 The book (writing, libraries, and book-related topics)
         003 Systems
         004 Data processing and computer science
+        004.1 General works on specific types of computers
         004.67 Wide area networks
         005 Computer programming, programs, and data
         005.1 Programming
@@ -1134,11 +1137,11 @@ Class 900 – History and geography
 
 DDC Class name to note topics
 
-- 004 Data processing and computer science
 - 004.67 Wide area networks
-- 005 Computer programming, programs, and data
+- 004 Data processing and computer science
 - 005.1 Programming
 - 005.8 Data Security (Cyber Security)
+- 005 Computer programming, programs, and data
 - 006.3 Artificial intelligence
 - 020 Library and information sciences
 - 158 Applied Psychology
@@ -1159,6 +1162,7 @@ DDC Class name to note topics
 - 635 Garden crops (Horticulture)
 - 640 Home and family management
 - 641 Food and drink
+- 646 Sewing, clothing, management of personal and family life
 - 648 Housekeeping
 - 650 Management and public relations (Business, career, communications,
   marketing)
@@ -1166,4 +1170,6 @@ DDC Class name to note topics
 - 770 Photography, computer art, film, video
 - 780 Music
 - 790 Sports, games and entertainment
+- 808 Rhetoric and collections of literary texts from more than two
+  literatures
 - 910 Geography and travel
