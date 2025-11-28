@@ -101,6 +101,7 @@ file, and then split the selection at .
 | Register, menu | " |
 | Register, document path | "% |
 | Register, system clipboard | "+ |
+| Search, global | SPC / |
 | Select, Collapse selection onto a single cursor | ; |
 | Select, Keep only primary selection | , |
 | Select, Remove primary selection | Alt , |
@@ -110,6 +111,15 @@ file, and then split the selection at .
 | Select, within selection, input regex | s |
 | Select, within selection, split selection up | Shift + s |
 | Version control, file picker of changes | SPC g |
+
+### Global search, restrict path of files
+
+`[search regex] %p [path regex]`
+
+Example of search for multiclass word in all files that fuzzy match to
+AI
+
+`multiclass &p AI`
 
 ### Selection, Multiple Cursors
 
@@ -127,14 +137,16 @@ file, and then split the selection at .
 
 ### Commands
 
-| Description                           | Shortcut           |
-|---------------------------------------|--------------------|
-| Buffer, close others                  | :bco               |
-| Sort selection                        | :sort              |
-| Toggle options                        | :toggle \<option\> |
-| Hard wrap text, permanently reformat  | :reflow            |
-| Version control, change, reset a diff | :reset-diff-change |
-| Language, Set for syntax highlight    | :lang \<language\> |
+| Description                           | Shortcut                       |
+|---------------------------------------|--------------------------------|
+| Buffer, close others                  | :bco                           |
+| Sort selection                        | :sort                          |
+| Toggle options                        | :toggle \<option\>             |
+| Hard wrap text, permanently reformat  | :reflow                        |
+| Version control, change, reset a diff | :reset-diff-change             |
+| Language, Set for syntax highlight    | :lang \<language\>             |
+| Echo current buffer name              | :echo %{buffer<sub>name</sub>} |
+| Go to, line 11 in file                | :11                            |
 
 Toggles can be visual elements, options. Tab completion is available for
 options.

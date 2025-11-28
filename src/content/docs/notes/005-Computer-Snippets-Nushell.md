@@ -237,11 +237,26 @@ let var = input
 # Get secret input
 let secret = input -s
 
-# Job, Bring background job back up, like fg in bash
-job unfreeze
+# Background jobs, commands
+# In Nushell they are background threads, not processes and will stop with the shell exit
+
+# Run background job
+job spawn { nautilus }
+# List jobs
+job list
+# Stop job
+job kill id_of_job
 
 # Job, Suspend, freeze foreground application
-# Press Ctrl + z on Unix targets like Linux and macOS
+job unfreeze
+job unfreeze id_of_specific_job
+## Press Ctrl + z on Unix targets like Linux and macOS
+## Bring most recent background job back up, like fg in bash, Use Ctrl + Z to freeze (suspend) job
+
+# Send data to an existing job
+job send id_of_job
+# Receive data
+job recv
 
 # If statement
 if 5 < 3 { 'yes!' } else { 'no!' }

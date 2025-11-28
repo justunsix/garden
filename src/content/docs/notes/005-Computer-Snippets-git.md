@@ -431,7 +431,7 @@ Host github.com
     - Permissions: Ensure your `~/.ssh/config file` permissions are
       restricted only to your user with `chmod 600 ~/.ssh/config`
 
-### Option: Using the GIT<sub>SSHCOMMAND</sub> Environment Variable
+### Option: Using the GIT<sub>SSHCOMMAND</sub> Environment Variable, Session Based Change
 
 This option is available in Git version 2.3.0 and later. The
 GIT<sub>SSHCOMMAND</sub> environment variable sets the SSH command that
@@ -489,7 +489,7 @@ globally.
     ``` shell
 
     # Clone using the specified key
-    git -c core.sshCommand="ssh -i /path/to/private_key -o IdentitiesOnly=yes" clone user@host:repo.git new-repo-dir
+    git clone -c core.sshCommand="ssh -i /path/to/private_key -o IdentitiesOnly=yes" user@host:repo.git new-repo-dir
 
     # Optionally, make it permanent for this repo
     cd new-repo-dir

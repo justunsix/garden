@@ -53,8 +53,3 @@ title: DevOps - Development and Operations
   Development](../005-8-tech-microsoft-devops-github-secure-development) -
   [GitHub DevOps - Secure
   Development](id:6396303d-6c14-48cc-a292-c29005511e9c)
-
-## Personal Links
-
-- [DevOps Bootcamp Techworld with Nana - Personal Notes and
-  links](../005-computer-tech-devops-bootcamp-twn-personal)

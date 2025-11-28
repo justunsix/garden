@@ -660,7 +660,7 @@ coreutils sort [OPTION] [FILE]
 
 ```
 
-### tee
+### tee - Update a file's contents and append items
 
 ``` shell
 
@@ -733,7 +733,7 @@ echo 'Call me 123 Justin 552' | tr -cd '[:digit:]'
 
 ```
 
-### uniq
+### uniq - choose unique items
 
 ``` bash
 
