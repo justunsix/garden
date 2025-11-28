@@ -8,7 +8,7 @@ export default defineConfig({
   base: "garden",
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "Justin's Digital Garden",
       social: [
         {
           icon: "github",
