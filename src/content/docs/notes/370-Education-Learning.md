@@ -1,7 +1,7 @@
 ---
 filetags: ":learning:index:epubnote:"
 id: 38c62b52-a93c-4ae4-a9a8-0126c37a5f92
-title: Learning
+title: Education, Learning
 ---
 
 ## See Also
