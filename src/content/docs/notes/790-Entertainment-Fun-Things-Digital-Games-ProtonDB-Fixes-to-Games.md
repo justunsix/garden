@@ -27,7 +27,7 @@ and find the binary, launch the game from the binary
   - During Story Mode cut scenes, may need to press Enter to get
     rendering to work
 
-## FIFA 20
+## FIFA 20, EA App installed Games
 
 Works using installation of EA App described at [Running Windows
 Programs with Steam
@@ -66,17 +66,19 @@ Game startup may take couple minutes until main menu.
 Source: [Linux Client is broken. :: XCOM 2 General
 Discussions](https://steamcommunity.com/app/268500/discussions/0/5958906231741663489/)
 
-The issue you are seeing is suspected to be related to the game not
-finding the correct libraries due to changes in modern versions of
-Linux.
+From Feral's support feedback:
 
-Right click the game in your Steam Library, and select Properties In the
-new window that appears, go to Installed Files and click Browse In the
-window, enter the 'lib' folder, then the 'x86<sub>64</sub>' folder
-Select all files in 'x86<sub>64</sub>', and Cut them using Ctrl+X Now,
-go back to the 'lib' folder and Paste the files using Ctrl+V Delete the
-remaining 'x86<sub>64</sub>' folder from the 'lib' folder Launch the
-game again
+> The issue you are seeing is suspected to be related to the game not
+> finding the correct libraries due to changes in modern versions of
+> Linux.
+>
+> Right click the game in your Steam Library, and select Properties In
+> the new window that appears, go to Installed Files and click Browse In
+> the window, enter the 'lib' folder, then the 'x86<sub>64</sub>' folder
+> Select all files in 'x86<sub>64</sub>', and Cut them using Ctrl+X Now,
+> go back to the 'lib' folder and Paste the files using Ctrl+V Delete
+> the remaining 'x86<sub>64</sub>' folder from the 'lib' folder Launch
+> the game again
 
 ## Jagged Alliance 3
 
@@ -86,17 +88,18 @@ Had to apply these fixes
 
 <https://www.protondb.com/app/1084160#vf74V81EyK>
 
-Open the game folder (right click on the game, properties -\> installed
-files -\> browse) Navigate to Packs/Maps folder. Create some folder,
-name it as you like - i.e. bak or temp Find all the files with names
-starting with "MainMenu\_" Move all those files to the folder you
-created in step 3. Launch the game. Game should launch to the menu but
-instead of the background with your mercs, it will be black. Open
-Options -\> Video and change Reflections to anything other than Medium
-or High. Off, Low and Ultra are ok. Apply the change. Don't try to play
-yet. You do not have some necessary files. Close the game. Restore the
-"MainMenu\_" files to their previous location. Restart the game. Game
-should now go to the main menu, background with mercs should be there.
+> Open the game folder (right click on the game, properties -\>
+> installed files -\> browse) Navigate to Packs/Maps folder. Create some
+> folder, name it as you like - i.e. bak or temp Find all the files with
+> names starting with "MainMenu\_" Move all those files to the folder
+> you created in step 3. Launch the game. Game should launch to the menu
+> but instead of the background with your mercs, it will be black. Open
+> Options -\> Video and change Reflections to anything other than Medium
+> or High. Off, Low and Ultra are ok. Apply the change. Don't try to
+> play yet. You do not have some necessary files. Close the game.
+> Restore the "MainMenu\_" files to their previous location. Restart the
+> game. Game should now go to the main menu, background with mercs
+> should be there.
 
 ### Fix full screen alignment
 
@@ -133,6 +136,7 @@ during initial game run.
 
 ## Games that should work with no or minor changes
 
+- Call of Duty: Infinite Warfare
 - Cities Skylines
 - Crusader Kinds 3 (see Paradox Games native workarounds)
 - CyberPunk 2077
@@ -156,9 +160,9 @@ during initial game run.
 - Titanfall 2 - requires log in to EA app during launch
 - X COM Chimera Squad
 
-### VS Redist Package Issue and Stopping during initial run
+### VS Redist Package Issue and/or Scripts Stopping during initial run, first run of game
 
-1.  Fix 1
+1.  Fix 1: Clear Steam Download Cache
 
     See also fix for [Steam Proton games stuck on "Installing: Microsoft
     VC Redist
@@ -176,24 +180,22 @@ during initial game run.
     Also can check integrity of game's files if there are issues under
     Game's Details \> Installed Files
 
-2.  Fix 2
+2.  Fix 2: Unmount all external drives
 
     Unmount any extra external drives. Stop the game and restart it.
-    Remount drives after the game starts
+    Remount drives after the game starts.
 
     Possible cause is Wine maps USB drives as extra Windows drives.
-    Windows redistributable installers query all drives during setup. If
-    one of those drives is slow or unresponsive or has issues, the
-    installer hangs waiting for it.
+    Windows redistributable installers may query all drives during
+    setup. If one of those drives is slow or unresponsive or has issues,
+    the installer hangs waiting for it.
 
     If the script hangs, look for evidence of changed files with `.vdf`
     in ~/.steam/steam
 
-## Games not found a fix yet
-
-- Homeworld 3
-
 ## See Also
+
+### Resources
 
 - [protondb](https://www.protondb.com/) - crowdsourced Linux and Steam
   Deck game compatibility reports

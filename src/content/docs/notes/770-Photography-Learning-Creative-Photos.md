@@ -63,8 +63,7 @@ Think about the background and scenes you would like.
 
 ## Taking Great Photos from the Web
 
-Ontario Cabinet Office Learning.comm - See Course notes in Training
-folder
+See my course notes in training folder
 
 ## See Also
 
