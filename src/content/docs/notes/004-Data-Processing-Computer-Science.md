@@ -1,5 +1,5 @@
 ---
-filetags: ":index:hardware:computer:epubnote:data:processing:"
+filetags: ":index:hardware:computer:data:processing:epubnote:"
 id: 84ef0411-c3ba-4b6a-aee8-b196c496584b
 title: Data Processing Computer Science
 ---
