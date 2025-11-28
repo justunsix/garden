@@ -99,7 +99,7 @@ Source: My personal notes from session with Sophi Robertson
 
 - [Forestry](../360-social-services-volunteer-forestry)
 - [Environment and Nature](id:2eea361c-9f11-4440-9cb0-d7a3f5b190cc)
-  ([Environment](../550-earth-sciences-environment))
+  ([Environment](../550-earth-sciences))
 - [Minimalist
   Lifestyle](../158-psychology-applied-environment-minimalist-lifestyle) -
   [Minimalist, Zero Waste
