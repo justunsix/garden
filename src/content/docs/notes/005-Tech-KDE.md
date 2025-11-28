@@ -50,3 +50,5 @@ Source:
   [Kdenlive](id:127d1ef5-f0e2-4538-98bc-00c0318b728a)
 - [KDE Shortcuts](../005-computer-shortcuts-linux-kde) - [KDE
   Shortcuts](id:43dac315-2f0f-4e16-bd3a-937cc1b180ca)
+- [KDE Konsole](../005-tech-konsole) - [KDE Konsole Linux
+  Terminal](id:95810aaa-ac0f-42d4-9651-cd04cf06ca5f)

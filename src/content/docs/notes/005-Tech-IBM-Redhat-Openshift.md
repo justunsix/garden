@@ -4,7 +4,7 @@ id: 626eb03d-5d7f-41aa-ba61-8a9df283cfaa
 title: IBM Openshift
 ---
 
-# See Also
+## See Also
 
 - [Openshift Intro
   Workshop](../005-tech-ibm-redhat-openshift-intro-workshop) -

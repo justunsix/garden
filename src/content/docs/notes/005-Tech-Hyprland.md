@@ -5,7 +5,7 @@ title: Hyprland
 
 \#:filetags: :hyprland:epubnote:
 
-## Distrobox Experiment
+## Using Hyprland using Distrobox Experiment
 
 ``` shell
 

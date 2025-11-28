@@ -419,8 +419,7 @@ App → Alternative
 
 - Keyboard → [OpenBoard](https://github.com/openboard-team/openboard)
   ([OpenBoard Updated Fork](https://github.com/Helium314/openboard),
-  [FlorisBoard](https://github.com/florisboard/florisboard) when the v4
-  will be released…)
+  [FlorisBoard](https://github.com/florisboard/florisboard))
 - SMS → [Simple
   SMS](https://github.com/SimpleMobileTools/Simple-SMS-Messenger)
 - Google Authentificator →
@@ -451,8 +450,9 @@ App → Alternative
   [KeePassDX](https://f-droid.org/packages/com.kunzisoft.keepass.libre/)
 - Google Map → [OpenStreetMap on
   Mobile](https://wiki.openstreetmap.org/wiki/Software#Mobile_Devices)
-  like OsmAnd~- Google Search →
-  [Whoogle](https://github.com/benbusby/whoogle-search)
+  like OsmAnd~
+- Google Search → [Whoogle](https://github.com/benbusby/whoogle-search)
+  , DuckDuckGo on Firefox
 - Google Task →
   [SimpleTask](https://github.com/mpcjanssen/simpletask-android)
 - Google Drive PDF Reader → [MJ PDF
