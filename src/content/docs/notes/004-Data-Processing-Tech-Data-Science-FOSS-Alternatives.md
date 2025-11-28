@@ -6,7 +6,7 @@ title: FOSS Data Science Alternatives - Desktop Data Management
 
 ## Desktop Data Management
 
-Problem solved: How to manage data on your desktop
+Software to help manage data on your desktop
 
 Use cases for managing data:
 
@@ -20,7 +20,7 @@ Use cases for managing data:
 
 Software:
 
-- NF: Excel
+- Not free: Excel
 - FOSS: LibreOffice Calc
 - Other open source - more different from Excel but similar or more
   powerful functionality:
