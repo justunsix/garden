@@ -39,3 +39,7 @@ upscale to your monitor's resolution
 - For Lutris, set in game options
 
 ## See Also
+
+- [ProtonDB Fixes to
+  Games](../790-entertainment-fun-things-digital-games-protondb-fixes-to-games) -
+  [ProtonDB Fixes to Games](id:ae9f8a55-bb7e-4844-95c9-09e3d9cb2bb0)
