@@ -1,10 +1,10 @@
 ---
-filetags: ":language:french:epubnote:"
-id: 1911e182-2781-4775-ac83-bf5367b75f56
-title: Language
+filetags: ":language:index:french:epubnote:"
+id: 4c1c838d-ffdd-4693-b7b0-aefb4ed8d0f9
+title: French and related languages
 ---
 
-# See Also
+## See Also
 
 - [French Language, Beginning
   Convesational](../440-language-lang-french-beginning-conversational-course) -
@@ -14,7 +14,3 @@ title: Language
   Anglophones](../440-language-lang-french-intro-anglophones) -
   [Introduction to French, OPS FrancoNoir Cours de français (Niveau
   débutant)](id:63cc4825-ff7d-4862-b7d3-dfc1020728c3)
-- [Speaking Languages:
-  Mandarin](../440-language-lang-mandarin-speaking-languages) -
-  [Speaking Languages:
-  Mandarin](id:907491ef-4d7f-42db-8d55-c01ce8847fb5)
