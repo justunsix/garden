@@ -15,7 +15,8 @@ title: Hiking Trails & Books
 - Lakeshore
 - Rosedale Valley
 - Beltline
-- South of St. Clair
+- South of St. Clair
+- Mount Pleasant
 
 ### Ontario
 

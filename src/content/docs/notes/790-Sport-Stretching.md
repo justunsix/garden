@@ -538,6 +538,9 @@ thigh. Repeat a total of three times on each leg.
 
 ## See Also
 
-- [Health](../610-health)
-- [Sport](../790-sport)
-- [Sport workout with light stretch](../790-sport-calisthenics-workouts)
+- [Medicine and Health](../610-health) - [Medicine and
+  Health](id:26db5e90-7c05-407b-863c-fc6f27673e7f)
+- [Calisthenics Workouts](../790-sport-calisthenics-workouts) -
+  [Calisthenics Workouts](id:21290686-fd73-4eec-9944-e16d4b333376)
+- [Sports, games and entertainment](../790-sport) - [Sports, games, and
+  entertainment](id:02621cc8-f94b-48e5-9d99-37213de7c7c1)
