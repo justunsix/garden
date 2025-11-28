@@ -243,11 +243,12 @@ lxappearance (GUI theming app)
 
 ## See Also
 
-- [i3 Dotfile Config](../005-tech-i3-dotfile-config)
-- [i3status.conf Dotfile](../005-tech-i3-dotfile-i3status) - [i3 Status
-  Configuration File](id:9d3ac3b7-8b8f-4472-8be5-4cd4f0e660c8)
 - [i3 Shortcuts](../005-computer-shortcuts-i3)
 
 ## Resources
 
 - [i3: i3 User Guide](https://i3wm.org/docs/userguide.html)
+- [dotfiles/.config/i3 at main · justunsix/dotfiles ·
+  GitHub](https://github.com/justunsix/dotfiles/tree/main/.config/i3),
+  [dotfiles/.config/i3status at main · justunsix/dotfiles ·
+  GitHub](https://github.com/justunsix/dotfiles/tree/main/.config/i3status)

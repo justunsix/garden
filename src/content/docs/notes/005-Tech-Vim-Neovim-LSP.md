@@ -10,6 +10,54 @@ LSP is an interface between editors (files, codes, cursor, state of
 code) and language server(s) running on the computer and the language
 server provides information on the state of the code.
 
+## Neovim LSP Setup Native and options with Plugins
+
+Source: [Neovim LSP Myth: You DON'T Need Plugins (The 5-Tier Setup) -
+smnatale - YouTube](https://www.youtube.com/watch?v=yI9R13h9IEE)
+
+Video covers setting up LSP in Neovim with default functionality and no
+plugins. It then goes through options that add more automation with
+plugins 1. `nvim-lspconfig`, 2. `mason.nvim`, 3. `mason-lspconfig`, 4.
+`mason-tool-installer` and when to use the automation those plugins help
+with.
+
+### Option 1: Native Set up, No Plugins
+
+Example using Lua LSP
+
+1.  Install Lua language server on your system
+2.  Copy `lua_ls.lua` from `nvim-lspconfig` repository to the Neovim
+    configuration directory
+3.  In `init.lua` add `vim.lsp.enable({"lua_ls"})`
+4.  Repeat for other languages as needed
+
+### Option 2: with LSP configuration plugin
+
+1.  Reuse LSP configurations maintained by the community using the
+    `nvim-lspconfig` plugin. Add plugin to Neovim configuration.
+2.  Optionally, override any settings.
+3.  Install language servers you want to use on your system
+4.  In `init.lua` add `vim.lsp.enable({"lua_ls", "ts_ls"})` for Lua and
+    Typescript or choose appropriate LSP for the language.
+
+### Option 3: with LSP installer and LSP configuration plugins
+
+1.  Set up Option 2. Use `mason.nvim` to install relevant language
+    servers and in Neovim use `:Mason`
+2.  Use `mason-lspconfig` to set which LSPs to install and enable LSPs.
+3.  Update Neovim configuration to set which LSPs to install and enable:
+
+``` lua
+
+require("mason-lspconfig").setup({
+    ensure_installed = {"lua_ls", "ts_ls"}
+})
+
+```
+
+1.  Use `mason-tool-installer` to set which should be installed and not
+    installed (for example, you manage the install yourself).
+
 ## Rust Setup for Neovim
 
 Source: [Rust Setup For Neovim (ft BashBunni) \#bash2basics - YouTube
