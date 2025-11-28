@@ -5,7 +5,11 @@ id: 343b3f91-0b53-450e-a8a9-4286bd619535
 title: Emacs Spaced Repetition System with Anki
 ---
 
-## From Article Above: Power up Anki with Emacs, Org mode, anki-editor and more
+Source: [Power up Anki with Emacs, Org mode, anki-editor and
+more](https://yiufung.net/post/anki.org/) - how to use Emacs package
+anki-editor to create and manage cards and export them to Anki for use
+
+## Power up Anki with Emacs, Org mode, anki-editor and more
 
 ### Org-mode as Editor to Anki
 
@@ -65,9 +69,3 @@ louietan/anki-editor](https://github.com/louietan/anki-editor)
 - [Anki Master Deck for
   Learning](../370-education-learning-anki-master-deck) - [Anki Master
   Deck for Learning](id:0f365634-db06-451f-a0ca-3699615538a1)
-
-### Resources
-
-- [Power up Anki with Emacs, Org mode, anki-editor and
-  more](https://yiufung.net/post/anki.org/) - how to use Emacs package
-  anki-editor to create and manage cards and export them to Anki for use
