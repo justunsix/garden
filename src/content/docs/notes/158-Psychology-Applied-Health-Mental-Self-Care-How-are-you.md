@@ -45,7 +45,7 @@ doing to regulate feelings, like addictions and media consumption.
 
 ## Fear and Shame
 
-Be aware of your fears like fear of judgement, not being good enough,
+Be aware of your fears like fear of judgment, not being good enough,
 rejection.
 
 Opposites of your values can be fears like:

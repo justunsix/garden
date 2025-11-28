@@ -1,7 +1,7 @@
 ---
 filetags: ":mental:health:challenge:epubnote:"
 id: 06982eda-25d4-43b2-9a84-96c3706eb07d
-title: 158 Psychology Applied Health Mental Self Care Challenge
+title: Mental Health Self Care Challenge
 ---
 
 Challenge adapted from workplace mental health awareness
@@ -9,7 +9,7 @@ Challenge adapted from workplace mental health awareness
 Goal is to focus on specific areas during May - June, starting in the
 Mental Health Week in early May
 
-# Self Care Challenges
+## Self Care Challenges
 
 Taken from 2022 themes
 

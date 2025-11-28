@@ -13,6 +13,8 @@ title: Applied Psychology
 - [Imagination - Applied
   Psychology](../158-psychology-applied-imagination) - [Imagination -
   Applied Pscyhology](id:1d24ebff-9d02-4038-9285-6d6ede889b02)
+- [Mental Health](../158-psychology-applied-health-mental) - [Mental
+  Health](id:40ae11a4-0376-4020-a17d-f1cb3939e193)
 - [Minimalism](../158-psychology-applied-minimalism) -
   [Minimalism](id:2b798889-d02b-4917-80ee-53b63b169032)
 - [Neuroscience of Meditation Summit
