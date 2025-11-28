@@ -113,6 +113,9 @@ title: Artificial Intelligence (AI)
 - [Microsoft Power Platform and
   AI](../005-tech-microsoft-power-platform-ai) - [Microsoft Power
   Platform and AI](id:d85c6b3c-b675-46bd-8399-7919d2a3a6b3)
+- [Microsoft GitHub
+  Copilot](../006-3-tech-ai-microsoft-github-copilot) - [Microsoft
+  GitHub Copilot](id:871c6593-9b29-489e-ab0d-3a999bc1531a)
 
 ## Resources
 
