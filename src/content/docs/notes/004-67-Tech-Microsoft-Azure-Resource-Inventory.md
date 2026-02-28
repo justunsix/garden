@@ -1,6 +1,6 @@
 ---
 date: 2025-09-23
-filetags: ":microsoft:tech:azure:devops:epubnote:"
+filetags: ":microsoft:tech:azure:devops:powershell:epubnote:"
 id: 83fd5c28-14e6-4f7b-b9db-6baaeb64f3bb
 title: Azure Resource Inventory
 ---
@@ -9,7 +9,7 @@ Source: [GitHub - microsoft/ARI: Azure Resource Inventory - It's a
 Powerful tool to create EXCEL inventory from Azure Resources with low
 effort](https://github.com/microsoft/ARI)
 
-Use case: Track resources to help manage them.
+Use case: Track resources to help manage them using a PowerShell module.
 
 ## Example usage
 

@@ -11,6 +11,9 @@ title: Golang Libraries
   forms and prompts
 - [http package - net/http - Go Packages](https://pkg.go.dev/net/http) -
   HTTP client and server implementations
+- [Decrypt](https://pkg.go.dev/github.com/getsops/sops/v3/decrypt) -
+  external API other Go programs can use to decrypt Secret Operations
+  (SOPS) files
 
 ## See Also
 

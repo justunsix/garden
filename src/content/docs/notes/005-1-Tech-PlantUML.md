@@ -10,6 +10,10 @@ title: PlantUML
 
 - [PlantUML in Emacs](/garden/notes/005-1-tech-plantuml-emacs) - [PlantUML in
   Emacs](id:0703699b-25f7-402e-abcf-37dcd8d5264c)
+- [Case Study: Visualize Complex Microservice Data Using
+  Python](/garden/notes/005-1-tech-python-case-study-visualize-microservice-data) -
+  [Case Study: Visualize Complex Microservice Data Using
+  Python](id:dca34cac-cbe6-4e98-839a-baa2aee3089c)
 
 ### Resources
 

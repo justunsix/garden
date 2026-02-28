@@ -13,6 +13,10 @@ title: Rust Language
   - Large technology company usage and support
   - Linux kernel
 - Programmer preference and productivity
+- Advanced programming
+  - Meta programming
+  - Foreign function interfaces (FFI) to call code written in other
+    programming languages
 
 ### Use Cases
 

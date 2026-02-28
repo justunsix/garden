@@ -4,7 +4,12 @@ id: 4362bcb6-a6df-4d9d-989f-e43319da753e
 title: Azure SQL Database
 ---
 
-Source: My personal notes from Microsoft Learn articles
+Source: My personal notes from Microsoft Learn articles: [Back up and
+restore databases - Training \| Microsoft
+Learn](https://learn.microsoft.com/en-us/training/modules/backup-restore-databases/?source=learn)
+(course), [Restore a Database from a Backup - Azure SQL Database \|
+Microsoft
+Learn](https://learn.microsoft.com/en-us/azure/azure-sql/database/recovery-using-backups?view=azuresql&tabs=azure-portal)
 
 ## Back Up and Restore Databases
 
@@ -12,9 +17,7 @@ Source: My personal notes from Microsoft Learn articles
   errors occur
 - See options for how and where to back up and restore databases.
 
-This course [Back up and restore databases - Training \| Microsoft
-Learn](https://learn.microsoft.com/en-us/training/modules/backup-restore-databases/?source=learn),
-teaches:
+Source:
 
 - Database backup and restore options for IaaS
 - Virtual machine backup and restore options for IaaS

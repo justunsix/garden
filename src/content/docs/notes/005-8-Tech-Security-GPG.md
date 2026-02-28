@@ -452,6 +452,7 @@ directories.
 
 - [GPG Local Security](/garden/notes/005-8-tech-security-gpg-local) - [GPG Local
   Security](id:1e2d6314-1c66-4ee9-8127-2d85ded47e4e)
-- [GNU Privacy Guard GPG
-  Snippets](/garden/notes/005-computer-snippets-gnu-privacy-guard-gpg) - [GNU
-  Privacy Guard GPG Snippets](id:c6e319c0-ec8d-4c94-be38-ae77ec34c683)
+- [GNU Privacy Guard GPG Pretty Good Privacy (PGP)
+  Snippets](/garden/notes/005-computer-snippets-gnu-privacy-guard-gpg-pgp) - [GNU
+  Privacy Guard GPG Pretty Good Privacy (PGP)
+  Snippets](id:c6e319c0-ec8d-4c94-be38-ae77ec34c683)

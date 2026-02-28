@@ -23,3 +23,6 @@ Reddit
   Practices](/garden/notes/005-8-tech-security-secure-devops-principles-practices) -
   [Secure DevOps: Security Principles and
   Practices](id:4430aaeb-2a31-4f60-8a77-3e2bffae9eac)
+- [Securing Git Secrets, SOPS: Secrets
+  OPerations](/garden/notes/005-computer-tech-git-security-sops-secrets-operations) -
+  [Securing Git Secrets](id:563d5df1-87e1-4fec-9783-509f18c0112f)

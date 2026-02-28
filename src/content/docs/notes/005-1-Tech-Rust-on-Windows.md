@@ -32,7 +32,7 @@ pacman --noconfirm -Syu mingw-w64-ucrt-x86_64-rust
 # --noconfirm - do not prompt for confirmation
 # mingw-w64-ucrt-x86_64-rust - installs rust compiler rustc, cargo
 
-# Optionally, install rust-analyzer, a compilar frontend useful for development
+# Optionally, install rust-analyzer, a compiler frontend useful for development
 pacman --noconfirm -Syu mingw-w64-ucrt-x86_64-rust-analyzer
 
 ```
@@ -68,8 +68,8 @@ instead of the full Visual Studio suite.
 - Go to [Download Visual Studio Tools - Install Free for Windows, Mac,
   Linux](https://visualstudio.microsoft.com/downloads/)
 - Scroll down and make sure Windows and C++ are clicked
-- Scroll down to Build Tools for Visual Studio 2022 and Download and
-  install it
+- Scroll down to Build Tools for Visual Studio 2026 or current year and
+  Download and install it
 - Start the installation, and choose Desktop C++ for the install tools
 
 ### Install with Rustup
