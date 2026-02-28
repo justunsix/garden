@@ -55,3 +55,34 @@ message via Advanced Find.
 
 Via Advanced Find, you can determine the exact folder path of an opened
 message.
+
+## Adding Calendar Dates to Micrsoft Outlook using CSV
+
+You can import the holiday dates into your Outlook calendar (individual
+all-day events showing out of office) by downloading a file with dates
+in a csv format. Example CSV files are given below for different years.
+
+Following the instructions to import into Outlook:
+
+- Open Microsoft Outlook
+- Click File in the upper left corner of the application window
+- Find the Open & Export menu, and select Import and Export menu
+- Follow the steps of the Import wizard:
+  - Import from another program or file (next)
+  - Comma Separated Values (next)
+  - Browse for wherever you saved the above file (next). Choose the
+    option that best fits your needs, are you okay with duplicates?
+  - Choose the calendar you want to add dates to. If you were already in
+    your calendar, it will already be selected. (next)
+  - You should not need to map any custom fields, click on the Finish
+    button.
+- If you want to customize the ‘Show Time As’ column, save it again as a
+  .csv file using these numbers:
+  - 1- Tentative
+  - 2- Busy
+  - 3- Free
+  - 4- Out of Office
+
+See [Calendar Dates](/garden/notes/300-social-sciences-culture-calendar-dates) -
+[Calendar Dates](id:f7d544fd-2701-4cc2-b694-e048d4a9571f) examples of
+dates defined in a CSV format that can be imported with Outlook.

@@ -43,6 +43,10 @@ title: Software Snippets
   environments](id:d8941d1f-7212-482e-9a28-3a6e6fbb3398)
 - [Docker Snippets](/garden/notes/005-computer-snippets-docker) - [Docker
   Snippets](id:4a17b5a3-3c43-42d4-a17c-9c2699a9d9d0)
+- [dotnet .NET Snippets](/garden/notes/005-computer-snippets-dotnet) - [dotnet .NET
+  Snippets](id:fcce2f6d-6d6e-4919-8303-f1a59f125457)
+- [Editorconfig Snippets](/garden/notes/005-computer-snippets-editorconfig) -
+  [Editorconfig Snippets](id:0f1c1552-c742-412f-8008-ae602020e576)
 - [Emacs eshell Snippets](/garden/notes/005-computer-snippets-emacs-eshell) -
   [Emacs eshell Snippets](id:b9c15120-7b17-427c-9f08-e12e2678e0b7)
 - [Emacs Org Mode Snippets](/garden/notes/005-computer-snippets-emacs-org-mode) -
@@ -70,15 +74,20 @@ title: Software Snippets
 - [GDB and LLDB
   Snippets](/garden/notes/005-computer-snippets-gdb-lldb-gnu-debugger) - [GDB and
   LLDB Debugger Snippets](id:7fba6e8c-f671-4deb-8126-88a1208d567e)
-- [GitHub CLI Snippets](/garden/notes/005-computer-snippets-github-cli) - [GitHub
-  CLI Snippets](id:a3c30671-2f49-4952-9cb4-a5b4087bf8b3)
 - [Git Snippets](/garden/notes/005-computer-snippets-git) - [Git
   Snippets](id:95f66412-2bb4-49f7-aed1-c05f0057798c)
+- [GitHub CLI Snippets](/garden/notes/005-computer-snippets-github-cli) - [GitHub
+  CLI Snippets](id:a3c30671-2f49-4952-9cb4-a5b4087bf8b3)
+- [GNU Coreutils Snippets](/garden/notes/005-computer-snippets-gnu-coreutils) -
+  [GNU Coreutils Snippets](id:60d1c07a-22b6-40bb-99ee-274feab9cd20)
+- [GNU Findutils Snippets](/garden/notes/005-computer-snippets-gnu-findutils) -
+  [GNU Findutils Snippets](id:86eb6f90-622f-4d0d-b37d-eb55d6b6cf45)
 - [GNU Info Snippets](/garden/notes/005-computer-snippets-info) - [GNU Info
   Snippets](id:9421a803-3ff4-4a17-87a5-322cabb371e3)
-- [GNU Privacy Guard GPG
-  Snippets](/garden/notes/005-computer-snippets-gnu-privacy-guard-gpg) - [GNU
-  Privacy Guard GPG Snippets](id:c6e319c0-ec8d-4c94-be38-ae77ec34c683)
+- [GNU Privacy Guard GPG Pretty Good Privacy (PGP)
+  Snippets](/garden/notes/005-computer-snippets-gnu-privacy-guard-gpg-pgp) - [GNU
+  Privacy Guard GPG Pretty Good Privacy (PGP)
+  Snippets](id:c6e319c0-ec8d-4c94-be38-ae77ec34c683)
 - [Golang Snippets](/garden/notes/005-computer-snippets-golang) - [Golang
   Snippets](id:68fa2f78-3752-4893-93a9-0979bee579f4)
 - [Grep, ripgrep rg
@@ -90,10 +99,10 @@ title: Software Snippets
   Snippets](id:0ad986a2-9bec-4d2c-8687-f91af216c662)
 - [Helm Snippets](/garden/notes/005-computer-snippets-helm) - [Helm
   Snippets](id:7ed92686-1a85-46cc-8483-6fa1fc0587a2)
-- [JavaScript Snippets](/garden/notes/005-computer-snippets-javascript) -
-  [JavaScript Snippets](id:9d66cc02-f8c7-46e0-8f92-da79b107f1c7)
 - [Java Snippets](/garden/notes/005-computer-snippets-java) - [Java
   Snippets](id:169b12b1-ff8d-4a9a-8adc-d6e1e9452cda)
+- [JavaScript Snippets](/garden/notes/005-computer-snippets-javascript) -
+  [JavaScript Snippets](id:9d66cc02-f8c7-46e0-8f92-da79b107f1c7)
 - [Kamal Snippets](/garden/notes/005-tech-snippets-kamal) - [Kamal
   Snippets](id:b5064ecf-6e06-4975-bb8f-5c4098d7403a)
 - [KQL Snippets](/garden/notes/005-tech-snippets-kql) - [KQL
@@ -153,6 +162,9 @@ title: Software Snippets
   Snippets](id:c6748d15-4042-4d28-9b3d-a0acbfbc4ce6)
 - [Powershell Snippets](/garden/notes/005-computer-snippets-powershell) -
   [Powershell Snippets](id:803df536-bf76-4fef-8bc6-775cf2e7dec6)
+- [Pulseaudio-pactl
+  Snippets](/garden/notes/005-computer-snippets-pulseaudio-pactl) -
+  [Pulseaudio-pactl Snippets](id:43f11284-372d-42fe-aaaa-9f9dea5093b4)
 - [Python Anaconda and
   Conda](/garden/notes/005-computer-snippets-python-anaconda) - [Python and
   Anaconda Snippets](id:09101af3-7da0-4433-b8b4-c1df997fcd91)
@@ -172,6 +184,9 @@ title: Software Snippets
   Snippets](id:fed06507-bb32-40a4-90c3-a490d2f0302f)
 - [sha256sum Snippet](/garden/notes/005-computer-snippets-sha256sum) - [sha256sum
   Snippet](id:d478f1a2-d9a2-4d97-b69b-1fdaea0a09ae)
+- [SOPS Secrets OPerations Snippets](/garden/notes/005-computer-snippets-sops) -
+  [SOPS Secrets OPerations
+  Snippets](id:b00b9f8a-3711-4864-8878-4f908f590874)
 - [SQL Snippets](/garden/notes/005-computer-snippets-sql) - [SQL
   Snippets](id:7aacccab-4571-4fbe-a61a-67236aaf2d60)
 - [SSH Snippets](/garden/notes/005-computer-snippets-ssh) - [SSH
@@ -190,8 +205,12 @@ title: Software Snippets
   Snippets](id:f6eac044-2ed3-4bbb-8578-61d95ba6ba22)
 - [Veracrypt Snippets](/garden/notes/005-computer-snippets-veracrypt) - [Veracrypt
   Snippets](id:15f6ccb4-c2c4-492f-bbed-5baef9050f30)
+- [Video2X Snippets](/garden/notes/005-computer-snippets-video2x) - [Video2X
+  Snippets](id:44f6c7e6-c406-4076-8b68-75fde4b6eee3)
 - [Vim Snippets](/garden/notes/005-computer-snippets-vim) - [Vim
   Snippets](id:0615a025-93dc-4dbf-b835-dbedc5fadbc7)
+- [VS Code Snippets](/garden/notes/005-computer-snippets-vs-code) - [VS Code
+  Snippets](id:65e43a77-f440-4420-a2a8-fdda6dd05d4f)
 - [Windows cmd Snippets](/garden/notes/005-computer-snippets-cmd) - [windows cmd
   Snippets](id:5823f5a9-3c82-453a-bad3-e659009dee7a)
 - [Windows Snippets](/garden/notes/005-computer-snippets-windows) - [Windows

@@ -1,5 +1,5 @@
 ---
-filetags: ":kdenlive:epubnote:"
+filetags: ":kdenlive:epubnote:kde:"
 id: 127d1ef5-f0e2-4538-98bc-00c0318b728a
 title: Kdenlive
 ---

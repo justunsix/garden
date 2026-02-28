@@ -189,6 +189,10 @@ with solution exports, canvas app extraction, and other features.
 - [VS Code - Local App Settings](/garden/notes/005-tech-vs-code-local-settings) -
   [VS Code - Local App
   Settings](id:59a60588-a161-4243-8696-1e361454067a)
+- [GitHub Copilot Workspace Index and Retrieval Augmented Generation
+  (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-github-copilot-workspace-index) -
+  [GitHub Copilot Workspace Index and Retrieval Augmented Generation
+  (RAG)](id:1ae880da-6df5-4bcb-9463-27955b9f1654)
 
 Tips are taken from reading tutorials and reading [monthly
 updates](https://code.visualstudio.com/updates).

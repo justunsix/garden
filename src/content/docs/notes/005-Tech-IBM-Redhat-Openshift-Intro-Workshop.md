@@ -4,7 +4,8 @@ id: 7258f169-0f3e-41b2-a459-cfb18f5c7dab
 title: Openshift Introduction Workshop
 ---
 
-My personal notes from training session with RedHat taught by Evan Z
+Source: My personal notes from training session with RedHat taught by
+Evan Z
 
 ## Introduction
 
@@ -3004,10 +3005,10 @@ If you have finished this workshop early and want to experiment some
 more, we have additional exercises you can try out using our online
 interactive learning environment.
 
-- **[OpenShift Interactive Learning
-  Portal](https://learn.openshift.com/)** - An online interactive
-  learning environment where you can run through various scenarios
-  related to using OpenShift.
+- [OpenShift Interactive Learning
+  Portal](https://learn.openshift.com/) - An online interactive learning
+  environment where you can run through various scenarios related to
+  using OpenShift.
 
 The online interactive learning environment is always available so you
 can continue to work on those exercises even after the workshop is over.
@@ -3016,43 +3017,33 @@ Below you will find further resources for learning about OpenShift and
 running OpenShift on your own computer, as well as details about
 OpenShift Online or other OpenShift related products and services.
 
-- **[OpenShift Documentation](https://docs.openshift.com)** - The
-  landing page for OpenShift documentation.
-
-- **[OpenShift Resources on
-  developers.redhat.com](https://developers.redhat.com/openshift/)** - A
+- [OpenShift Documentation](https://docs.openshift.com) - The landing
+  page for OpenShift documentation.
+- [OpenShift Resources on
+  developers.redhat.com](https://developers.redhat.com/openshift/) - A
   collection of resources for developers who are building and deploying
   applications on OpenShift.
-
-- **[CodeReady
-  Containers](https://developers.redhat.com/products/codeready-containers/overview)** -
+- [CodeReady
+  Containers](https://developers.redhat.com/products/codeready-containers/overview) -
   A tool which can be used to install a local OpenShift cluster on your
   own computer, running in a virtual machine.
-
-- **[OpenShift Online](https://manage.openshift.com/)** - A shared
-  public hosting environment for running your applications using
-  OpenShift.
-
-- **[OpenShift Dedicated](https://www.openshift.com/dedicated)** - A
+- [OpenShift Online](https://manage.openshift.com/) - A shared public
+  hosting environment for running your applications using OpenShift.
+- [OpenShift Dedicated](https://www.openshift.com/dedicated) - A
   dedicated hosting environment for running your applications, managed
   and supported for you by Red Hat.
-
-- **[OpenShift Container Platform](https://www.openshift.com/)** - The
-  Red Hat supported OpenShift product for installation on premise or in
+- [OpenShift Container Platform](https://www.openshift.com/) - The Red
+  Hat supported OpenShift product for installation on premise or in
   hosted cloud environments.
-
-- **[OpenShift Commons](https://commons.openshift.md)** - A community
-  for users, partners, customers, and contributors to come together to
+- [OpenShift Commons](https://commons.openshift.md) - A community for
+  users, partners, customers, and contributors to come together to
   collaborate and work together on OpenShift.
 
 The following free online eBooks are also available for download related
 to OpenShift.
 
-- **[OpenShift for
-  Developers](https://www.openshift.com/for-developers/)**
-
-- **[DevOps with
-  OpenShift](https://www.openshift.com/devops-with-openshift/)**
-
-- **[Deploying with
-  OpenShift](https://www.openshift.com/deploying-to-openshift/)**
+- [OpenShift for Developers](https://www.openshift.com/for-developers/)
+- [DevOps with
+  OpenShift](https://www.openshift.com/devops-with-openshift/)
+- [Deploying with
+  OpenShift](https://www.openshift.com/deploying-to-openshift/)

@@ -11,10 +11,13 @@ programs control
 you](https://www.reddit.com/r/StallmanWasRight/comments/xepajh/comment/ioj2e8z/?context=3)
 plus my additions
 
-- 7zip - file archiver, a utility used to place groups of files within
-  compressed containers known as "archives"
+- [7zip](https://www.7-zip.org/) - file archiver, a utility used to place
+  groups of files within compressed containers known as "archives"
 - [Aegis](https://github.com/beemdevelopment/Aegis) - free, secure and
   open source app for Android to manage your 2-step verification tokens
+- <span class="spurious-link" target="age">*age*</span> - secure
+  encryption tool and Go library with small explicit keys, no config
+  options, and UNIX-style composability
 - Ansible - software tools that enables infrastructure as code
 - Ardour - digital audio workstation
 - Audacity - digital audio editor and recording application software
@@ -22,7 +25,7 @@ plus my additions
   framework for agentic AI
 - Bash - Unix shell and command language written by Brian Fox for the
   GNU Project as a free software replacement for the Bourne shell
-- Bitwarden - password management service
+- [Bitwarden](https://bitwarden.com/) - password management service
 - Blender - Blender 3D computer graphics software tool set
 - [Bruno](https://github.com/usebruno/bruno) - Opensource IDE For
   Exploring and Testing API's (lightweight alternative to
@@ -53,24 +56,19 @@ plus my additions
 - Fairmail - privacy oriented email app for Android
 - [Faker](https://pypi.org/project/Faker/) - Test/fake data generation,
   also a Python package
-- F-Droid - app store and software repository for Android, serving a
-  similar function to the Google Play store
-- [ImageMagick](https://imagemagick.org/) - editing and manipulating
-  digital images. It can be used to create, edit, compose, or convert
-  bitmap images, and supports a wide range of file formats, including
-  JPEG, PNG, GIF, TIFF, and Ultra HDR
-- [ImageMagick](https://imagemagick.org/) -
-  [mogrify](https://imagemagick.org/script/mogrify.php) - resize an
-  image, blur, crop, despeckle, dither, draw on, flip, join, re-sample,
-  and more
-- Firefox - web browser developed by the Mozilla Foundation, see also
-  [Firefox Shortcuts](/garden/notes/005-computer-shortcuts-firefox) - [Firefox
+- [F-Droid](https://f-droid.org/) - app store and software repository for
+  Android, serving a similar function to the Google Play store
+- [Firefox](https://www.firefox.com/) - web browser developed by the
+  Mozilla Foundation, see also [Firefox
+  Shortcuts](/garden/notes/005-computer-shortcuts-firefox) - [Firefox
   Shortcuts](id:8d636d51-8333-4a2e-a9ab-b073f6ae6721)
-- Flatpak - formerly known as xdg-app is a utility for software
-  deployment and package management for Linux. It is advertised as
-  offering a sandbox environment in which users can run application
+- [Flatpak](https://flatpak.org/) - formerly known as xdg-app is a
+  utility for software deployment and package management for Linux.
+  Offers a sandbox environment in which users can run application
   software in isolation
 - FreeTube - private YouTube viewer
+- [frp](https://github.com/fatedier/frp) - Fast reverse proxy to help
+  you expose a local server behind a NAT or firewall to the internet
 - GCC - GNU Compiler Collection is an optimizing compiler produced by
   the GNU Project supporting various programming languages, hardware
   architectures and operating systems
@@ -90,6 +88,8 @@ plus my additions
 - GNU Boxes - virtualization
 - GNU - "GNU is Not Unix" core software to GNU/Linux systems
 - GNU/Linux - operating system
+- [Gopeed](https://gopeed.com/https://gopeed.com/) - Lightweight
+  download manager (HTTP, BitTorrent, Magnet, others)
 - GRASS GIS - Geographical Information System software used for
   geospatial data management and analysis, image processing,
   graphics/map production, spatial modelling, and visualization
@@ -101,12 +101,21 @@ plus my additions
 - [headlamp](https://github.com/kubernetes-sigs/headlamp) - Kubernetes
   web UI for local or in cluster use
 - htop - interactive system-monitor process-viewer and process-manager
-- Infinity
+- [ImageMagick](https://imagemagick.org/) - editing and manipulating
+  digital images. It can be used to create, edit, compose, or convert
+  bitmap images, and supports a wide range of file formats, including
+  JPEG, PNG, GIF, TIFF, and Ultra HDR
+- [ImageMagick](https://imagemagick.org/) -
+  [mogrify](https://imagemagick.org/script/mogrify.php) - resize an
+  image, blur, crop, despeckle, dither, draw on, flip, join, re-sample,
+  and more
 - Jellyfin - suite of multimedia applications designed to organize,
   manage, and share digital media files to networked devices
 - [Kamal](https://github.com/basecamp/kamal) - Application deployment
   anywhere from bare metal, VMs, to cloud, will work with any type of
   web app that can be containerized
+- [Kanata](https://github.com/jtroo/kanata) - cross-platform software
+  keyboard remapper
 - KDE Connect - facilitates wireless communications and data transfer
   between devices over local network
 - KDE Desktop environment for Linux/Unix like
@@ -116,13 +125,15 @@ plus my additions
   and build artifacts from your projects
 - [Kottster](https://github.com/kottster/kottster) - Instant Node.js
   admin panel. Secure, self-hosted, and easy to set up
-- Krita - raster graphics editor designed primarily for digital painting
-  and 2D animation
+- [Krita](https://krita.org/) - raster graphics editor designed primarily
+  for digital painting and 2D animation
 - KVM - virtualization module in the Linux kernel that allows the kernel
   to function as a hypervisor
 - [Lazarus](https://www.lazarus-ide.org/) - Delphi compatible
   cross-platform IDE for Rapid Application Development, uses Free Pascal
 - LibreOffice - office Prod software suite
+- [Mailvelope](https://mailvelope.com/en/help/anywhere) - OpenPGP
+  encryption for web email
 - MariaDB - community-developed, commercially supported fork of the
   MySQL relational database management system (RDBMS), intended to
   remain free and open-source software under the GNU General Public
@@ -131,8 +142,11 @@ plus my additions
   microblogging features similar to the Twitter service
 - MicroG - Implementation of proprietary Google libraries that serves as
   a replacement for Google Play Services on the Android operating system
-- mpv - media player software based on MPlayer, mplayer2 and FFmpeg
+- [mpv](https://mpv.io/) - media player software based on MPlayer,
+  mplayer2 and FFmpeg
 - [Neovim](https://neovim.io/) - hyperextensible Vim-based text editor
+- [Netbox](https://github.com/netbox-community/netbox) - platform for
+  network and infrastructure management and automation
 - [Newsboat](https://github.com/newsboat/newsboat) - RSS/Atom feed
   reader for text terminals
 - Nextcloud - suite of client-server software for creating and using
@@ -143,11 +157,19 @@ plus my additions
 - Openshot - video editor
 - [Open Street Map](https://www.openstreetmap.md) - geographical and map
   information
+- [Pangolin](https://github.com/fosrl/pangolin) - Identity-based VPN and
+  proxy for remote access to anything anywhere
+- [Pass](https://www.passwordstore.org/) - the standard unix password
+  manager, stores, retrieves, generates, and synchronizes passwords
+  securely. Git and GPG with it can be a shared password manager.
 - [PeaZip](https://github.com/peazip/PeaZip) - cross platform file
   manager and file archiver
 - PeerTube - decentralized, ActivityPub federated video platform powered
   by WebTorrent, that uses peer-to-peer technology to reduce load on
   individual servers when viewing videos
+- [Persepolis Download
+  Manager](https://github.com/persepolisdm/persepolis) - Download
+  manager in Python
 - Pihole - Linux network-level advertisement and Internet tracker
   blocking application which acts as a DNS sinkhole and optionally a
   DHCP server, intended for use on a private network
@@ -167,52 +189,90 @@ plus my additions
   to your desktop
 - RStudio - IDE for R
 - Session - decentralized messaging platform
-- Shotcut - Non-linear video editor similar to Adobe Premiere Elements
+- [Shotcut](https://www.shotcut.org/) - Non-linear video editor
 - Signal - cross-platform centralized encrypted instant messaging
   service developed by the non-profit Signal Foundation
+- [Smallstep CLI](https://github.com/smallstep/cli) - general purpose
+  for working with PKI systems and workflows with X509, OAuth, JWT, OATH
+  OTP, etc.
 - Spyder - IDE for scientific programming in the Python language
-- [Kanata](https://github.com/jtroo/kanata) - cross-platform software
-  keyboard remapper
-- [superfile](https://github.com/yorukot/superfile) - terminal file
-  manager cross platform
 - [sqlc](https://sqlc.dev/) - generates fully type-safe idiomatic code
   from SQL in various programming language
+- [superfile](https://github.com/yorukot/superfile) - terminal file
+  manager cross platform
 - systemd - provides an array of system components for Linux operating
   systems - aim is to unify service configuration and behavior across
   Linux distributions
-- Termux - terminal emulator for Android
-- Terraform - infrastructure as code build and maintenance (Mozzila
-  Public License 2.0, weak copyleft)
-- Thunderbird - cross-platform email client, personal information
-  manager, news client, RSS and chat client
+- [Termux](https://termux.dev) - terminal emulator for Android
+- [Terraform](https://developer.hashicorp.com/terraform) -
+  infrastructure as code build and maintenance (Mozzila Public License
+  2.0, weak copyleft)
+- [Thunderbird](https://www.thunderbird.net) - cross-platform email
+  client, personal information manager, news client, RSS and chat client
 - Tor Browser
 - Transmission - BitTorrent client which features a variety of user
   interfaces on top of a cross-platform back-end
 - [ttyd](https://github.com/tsl0922/ttyd) - Share your terminal over the
   web
 - Ublock Origin - Browser ad and annoyance blocker
-- Vim - text editor
-- Virtual Manager
+- [Varia](https://github.com/giantpinkrobots/varia) - Download manager
+  that supports regular downloads, torrents and videos
+- [video2x](https://github.com/k4yt3x/video2x) - machine learning-based
+  video super resolution and frame interpolation framework, upscaling
+  tool
+- [Vim](https://www.vim.org/) - text editor
+- [Virtman](https://virt-manager.org/) - Virtual Machine manager
 - [Visidata](https://www.visidata.org/) - tool for tabular data which
   combines the clarity of a spreadsheet and efficiency of the terminal
-- VLC - portable, cross-platform media player software and streaming
-  media server
-- Wine - Wine Is Not an Emulator, now just "Wine" is a free and
-  open-source compatibility layer that aims to allow application
-  software and computer games developed for Microsoft Windows to run on
-  Unix-like operating systems
+- [VLC](https://www.videolan.org/) - portable, cross-platform media
+  player software and streaming media server
+- [Wine](https://www.winehq.org/) - Wine Is Not an Emulator, now just
+  "Wine" is a free and open-source compatibility layer that aims to
+  allow application software and computer games developed for Microsoft
+  Windows to run on Unix-like operating systems
 - Wireguard - communication protocol and free and open-source software
   that implements encrypted virtual private networks (VPNs), and was
   designed with the goals of ease of use, high speed performance, and
   low attack surface
-- WireShark - packet analyzer. It is used for network troubleshooting,
-  analysis, software and communications protocol development, and
-  education
+- [Wireshark](https://www.wireshark.org/) - packet analyzer. It is used
+  for network troubleshooting, analysis, software and communications
+  protocol development, and education
 - WordPress - content management system (CMS) written in PHP and paired
   with a MySQL or MariaDB database with supported HTTPS
 - [zotero](https://www.zotero.org/) - Manage bibliographic data and
   research materials by helping you collect, organize, annotate, cite,
   and share research.
+
+### KDE Applications
+
+Source: Documentation: [Windows - KDE
+Applications](https://apps.kde.org/platforms/windows/) and personal
+experience.
+
+KDE Applications on Windows and Unix/Linux platforms:
+
+- Ark - file archiver
+- [Dolphin](https://apps.kde.org/en-gb/dolphin/) - file manager
+- Elisa - music player
+- Kate - text editor
+- KCachegrind - profile data visualization tool
+- KDE Connect - data transfer between devices on local networks
+- [Kdenlive](https://apps.kde.org/en-gb/kdenlive/) - video editor
+- KDiff3 - file and folder diff and merge tool
+- [Kleopatra](https://apps.kde.org/en-gb/kleopatra/) - certificate
+  manager and GUI for GnuPG, handle encryption, decryption, and
+  verification of text and files
+- [Konsole](https://apps.kde.org/en-gb/konsole/) - terminal
+- Konversation - IRC chat client
+- [Krita](https://apps.kde.org/en-gb/krita/) - painter
+- KTouch - typing tutor
+- Lokalize - locational tool, translation
+- [Okular](https://apps.kde.org/en-gb/okular/) - document viewer
+  supporting PDF, images, books, epub, and more
+
+Install KDE applications on Windows with Package installers:
+[MSYS2](https://packages.msys2.org/groups/mingw-w64-ucrt-x86_64-kde-applications)
+and [Scoop](https://scoop.sh/#/apps?q=kde).
 
 ## Modern Terminal Commands and Programs
 
@@ -331,8 +391,8 @@ plus my additions
   accessible output, search
 - [ripgrep-all](https://github.com/phiresky/ripgrep-all) - ripgrep but
   also search in compressed files, PDF, ebooks, office docs
-- [ripgrep](https://github.com/BurntSushi/ripgrep) - faster grep, grep
-  with default recursive search, filters
+- [ripgrep (rg)](https://github.com/BurntSushi/ripgrep) - faster grep,
+  grep with default recursive search, filters
 - rtx-cli - version manager of programming languages like python, node,
   ruby, like program `asdf`
 - [sccache](https://github.com/mozilla/sccache) - cache for compiler
@@ -376,33 +436,38 @@ plus my additions
 nix package manager on Linux, MacOS and scoop on Windows covers most of
 these programs
 
-### Support Summary as of 2025-02-13
+### Support Summary as of 2026-02-25
+
+Source: [pkgs.org](https://pkgs.org/) and [MSYS2
+Packages](https://packages.msys2.org/queue)
 
 Key commands I use regularly and packaging support:
 
-| Program        | Arch    | Debian | Fedora | FreeBSD | Ubuntu | Void | MSYS2 | scoop |
-|----------------|---------|--------|--------|---------|--------|------|-------|-------|
-| atuin          | x       | x      |        | x       |        | x    |       |       |
-| bat            | x       | x      | x      | x       | x      | x    | x     | x     |
-| broot          | x       | x      |        | x       |        | x    |       | x     |
-| carapace       | x (AUR) | x      |        | x       | x      | x    |       | x     |
-| fd             | x       | x      | x      | x       | x      | x    | x     | x     |
-| fzf            | x       | x      | x      | x       | x      | x    | x     | x     |
-| helix          | x       |        | x      | x       |        | x    | x     | x     |
-| lazygit        | x       |        | x      | x       |        | x    |       | x     |
-| mprocs         | x (AUR) |        |        | x       |        |      |       | x     |
-| nushell        | x       |        | x      | x       |        | x    |       | x     |
-| ripgrep        | x       | x      | x      | x       | x      | x    | x     | x     |
-| starship       | x       | x      | x      | x       | x      | x    | x     | x     |
-| topgrade       | x       |        |        | x       |        | x    |       | x     |
-| vcstool (pipx) | x       | x      | x      | x       | x      | x    | x     | x     |
-| yazi           | x       |        |        | x       |        | x    | x     | x     |
-| zoxide         | x       | x      | x      | x       | x      | x    | x     | x     |
+| Program        | Arch    | Debian | Fedora | FreeBSD | Ubuntu | Void | MSYS2 | scoop | openSUSE |
+|----------------|---------|--------|--------|---------|--------|------|-------|-------|----------|
+| atuin          | x       | x      | x      | x       | x      | x    | x     | x     | x        |
+| bat            | x       | x      | x      | x       | x      | x    | x     | x     | x        |
+| broot          | x       | x      |        | x       | x      | x    |       | x     | x        |
+| carapace       | x (AUR) | x      | x      | x       | x      | x    |       | x     |          |
+| fd             | x       | x      | x      | x       | x      | x    | x     | x     | x        |
+| fzf            | x       | x      | x      | x       | x      | x    | x     | x     | x        |
+| helix          | x       |        | x      | x       |        | x    | x     | x     | x        |
+| lazygit        | x       | x      | x      | x       | x      | x    |       | x     | x        |
+| mprocs         | x (AUR) |        |        | x       |        |      |       | x     |          |
+| nushell        | x       |        |        | x       |        | x    |       | x     | x        |
+| ripgrep        | x       | x      | x      | x       | x      | x    | x     | x     | x        |
+| starship       | x       | x      | x      | x       | x      | x    | x     | x     | x        |
+| topgrade       | x       |        | x      | x       |        | x    |       | x     | x        |
+| vcstool (pipx) | x       | x      | x      | x       | x      | x    | x     | x     | x        |
+| yazi           | x       |        | x      | x       |        | x    | x     | x     | x        |
+| zoxide         | x       | x      | x      | x       | x      | x    | x     | x     | x        |
+
+- Ubuntu - might be latest version
 
 ### Installation
 
 Most packages above can be installed using cargo with
-`cargo install <command>`
+`cargo install <command>` and using Nix.
 
 [Installation - The Cargo
 Book](https://doc.rust-lang.org/cargo/getting-started/installation.html)
@@ -463,10 +528,10 @@ App → Alternative
   [TranslateYou](https://github.com/Bnyro/TranslateYou)
 - Reddit →
   [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit)
-- Weather/Meteo → [Geometric
-  Weather](https://github.com/WangDaYeeeeee/GeometricWeather), [Breezy
+- Weather/Meteo → [Breezy
   Weather](https://github.com/breezy-weather/breezy-weather) (an updated
-  fork of Geometric Weather)
+  fork of [Geometric
+  Weather](https://github.com/WangDaYeeeeee/GeometricWeather))
 - Media Player → [VLC](https://github.com/videolan/vlc-android)
 - Yuka → [OpenFoodFacts](https://github.com/openfoodfacts/smooth-app)
 - Citymapper → [Transportr](https://github.com/grote/Transportr)
@@ -491,3 +556,5 @@ App → Alternative
   software alternatives](id:cc3fae8b-58d7-4d82-9ee9-3fe7001dc50a)
 - [Terminal](/garden/notes/005-tech-terminal) -
   [Terminal](id:af66c501-039b-4af6-ba93-18e759546761)
+- [KDE](/garden/notes/005-tech-kde) -
+  [KDE](id:e9b0d465-18a0-470e-ad74-179048a24f95)

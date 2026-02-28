@@ -16,25 +16,29 @@ title: DevOps - Development and Operations
     Bicep](/garden/notes/005-computer-tech-devops-azure-resources-manager-arm-bicep) -
     [Azure Resource Management (ARM) and
     Bicep](id:5011a880-eca6-4b02-85a6-52a465d0dbd1)
-- [Terraform](/garden/notes/005-computer-tech-devops-terraform) - [Terraform -
-  infrastructure as code](id:df7e9ded-8c8b-4ede-8d31-7ad229c1b7d1) -
-  infrastructure as code (IaC)
-- [Secure Git Secrets](/garden/notes/005-computer-tech-git-security) - [Securing
-  Git Secrets](id:563d5df1-87e1-4fec-9783-509f18c0112f)
-- [DevOps IT Career Paths
-  2023](/garden/notes/005-computer-tech-devops-twn-it-career-paths-2023) - [IT
-  Career Paths 2023](id:3f6fb017-48ee-4e3a-b55b-9a16ffdabe30)
+- [DevOps Automation
+  Mindmap](/garden/notes/005-computer-tech-devops-automation-mindmap) - [DevOps
+  Automation Mindmap](id:61db8dc3-538b-4950-9260-1b3ec8e5ca30)
 - [DevOps Concepts and
   Tools](/garden/notes/005-computer-tech-devops-concepts-and-tools) - [DevOps
   Concepts (Use cases) and
   Tools](id:ca820a8c-ca67-49e4-b296-38e9c2f08094)
-- [DevOps Automation
-  Mindmap](/garden/notes/005-computer-tech-devops-automation-mindmap) - [DevOps
-  Automation Mindmap](id:61db8dc3-538b-4950-9260-1b3ec8e5ca30)
+- [DevOps IT Career Paths
+  2023](/garden/notes/005-computer-tech-devops-twn-it-career-paths-2023) - [IT
+  Career Paths 2023](id:3f6fb017-48ee-4e3a-b55b-9a16ffdabe30)
+- [Microsoft GitHub
+  Copilot](/garden/notes/006-3-tech-ai-microsoft-github-copilot) - [Microsoft
+  GitHub Copilot](id:871c6593-9b29-489e-ab0d-3a999bc1531a)
 - [Secure DevOps: Security Principles and
   Practices](/garden/notes/005-8-tech-security-secure-devops-principles-practices) -
   [Secure DevOps: Security Principles and
   Practices](id:4430aaeb-2a31-4f60-8a77-3e2bffae9eac)
+- [Securing Git Secrets, SOPS: Secrets
+  OPerations](/garden/notes/005-computer-tech-git-security-sops-secrets-operations) -
+  [Securing Git Secrets](id:563d5df1-87e1-4fec-9783-509f18c0112f)
+- [Terraform](/garden/notes/005-computer-tech-devops-terraform) - [Terraform -
+  infrastructure as code](id:df7e9ded-8c8b-4ede-8d31-7ad229c1b7d1) -
+  infrastructure as code (IaC)
 
 ### Learning
 

@@ -82,9 +82,9 @@ crate used by the tree-sitter cli build commands.
     crate](https://github.com/rust-lang/rust/blob/master/INSTALL.md#building-on-windows)
     which uses msys2 and the mingw gcc package.
 2.  Set shell environment variable of \`CC\` to \`gcc\`. The environment
-    variable setting is from the
-    \[\[<https://docs.rs/cc/latest/cc/>\]\[cc Rust crate documentation\]
-    on setting the compiler used.
+    variable setting is from the [cc Rust crate
+    documentation](https://docs.rs/cc/latest/cc/) on setting the
+    compiler used.
 3.  Run nvim and compilation should work now
 
 Example workaround assuming nvim, tree-sitter CLI, and msys2 are

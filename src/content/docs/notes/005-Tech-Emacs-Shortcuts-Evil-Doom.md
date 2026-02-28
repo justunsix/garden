@@ -46,14 +46,15 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 
 | Name | Shortcut |
 |----|----|
+| Action, context aware [^1] | SPC a, embark-act, embark-dwim |
 | Back, error | \[ e |
 | Back, section | \[\[ |
 | Bookmarks | SPC Enter |
 | Browse url of file, open in browser | SPC o b |
 | Buffer, delete buffer | SPC b d |
 | Buffer, open scratch buffer | SPC x |
-| Code actions, Jump to definition | SPC c d |
-| Code actions, Jump to reference | SPC c D |
+| Code actions, Jump to definition (like Vim gd) | SPC c d or gd |
+| Code actions, Jump to reference (like Vim gr) | SPC c D |
 | Code actions / LSP | SPC c a |
 | Code actions, quickfix, list errors, problems, flycheck | SPC c x |
 | Command, M-x | SPC : |
@@ -86,6 +87,10 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | eww, Z menu: text decrease, increase | zj, zk |
 | Exit insert mode | Esc or jk |
 | Format, region or buffer | +format/region or +format/buffer |
+| Git Time Machine, mode | SPC t g |
+| Git Time Machine, mode, leader prefix | g t |
+| Git Time Machine, mode, show commit | SPC t c |
+| Git Time Machine, previous and next revision | C-j, C-k |
 | Go to, Avy : go to char2 | g s s |
 | Go to, Avy : go to timer | g s / |
 | Go to, element Declaration | g D |
@@ -100,31 +105,36 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | LSP, Restart workspace and server | lsp-workspace-restart |
 | LSP, Update all servers installed | lsp-update-servers |
 | Magit | SPC g g |
+| Magit, Log, see commit log of file (like VS Code git history) | SPC g L or magit-log-buffer-file |
 | Next buffer | C-x right arrow |
 | Next, error | \] e |
-| Next, section | \]\] |
 | Org: Insert subheading (org-insert-subheading) | C-m Enter |
 | Org: Link insert (org-insert-link) | SPC m l l |
 | Org: Link store (org-store-link) | SPC n l |
+| proced: sort leader key | o |
 | Project: Search | SPC / |
 | Project - switch and open new workspace | SPC p p |
 | Search - 2 char, next match or go into avy | ; or C-; |
 | Search - 2 char, normal mode | s |
+| Search - bookmark list | SPC s m |
 | Search - buffer | SPC s s |
 | Search - imenu | SPC s i |
 | Search - jump list | SPC s j |
-| Search - bookmark list | SPC s m |
 | Search - mark (Evil) list | SPC s r |
+| Section or heading, previous or next | double \[ or \]\] |
 | Spelling, suggest correct spelling of word | z =, ispell-word |
 | Switch Buffer | SPC , |
 | Tags: projectile find tag | C-t |
+| Terminal, Open in cwd full screen (vterm) terminal | SPC o T |
+| Terminal, Toggle (vterm) terminal popup (bottom screen) | SPC o t |
 | Toggle: line numbers: absolute, relative, none | SPC t l or doom/toggle-line-numbers |
-| Workspace (tab): Select workspace number | M-\<number\> like M-1 |
+| Toggle: pop up like help, terminal | C-\` |
 | Workspace (tab): Close | SPC tab d |
 | Workspace (tab): Close session, work spaces, buffers | SPC tab x |
 | Workspace (tab): List tabs | SPC Tab Tab |
 | Workspace (tab): New | C-t |
 | Workspace (tab): Next | gt |
+| Workspace (tab): Select workspace number | M-\<number\> like M-1 |
 | Z menu for folding, screen movement | z |
 | Z menu: kill current buffer | zx |
 | Z menu: org-mode toggle inline images | zi |
@@ -151,3 +161,9 @@ same kind of items.
 | Name | Shortcut |
 |----|----|
 | GBrowse, Opens local file in browser in upstream like GitHub/Lab for local file | :gbrowse |
+
+[^1]: Common actions are:
+
+    - Jump to definition in code
+    - Evaluate expressions
+    - Mark org headings as done or other

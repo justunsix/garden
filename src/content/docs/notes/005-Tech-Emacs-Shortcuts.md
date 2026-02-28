@@ -47,6 +47,9 @@ title: Emacs Shortcuts
 | proced: Mark | m |
 | proced: sort, select sorting | s |
 | proced: sort, by memory | s m |
+| proced: kill | k |
+| proced: quit | k |
+| proced: help | proced-help |
 | Restart Emacs | restart-emacs |
 
 ### Updates of Packages
@@ -79,12 +82,14 @@ title: Emacs Shortcuts
 
 ### General Editing
 
-| Name                    | Shortcuts                                   |
-|-------------------------|---------------------------------------------|
-| Indent region `fn1`     | C-M-\\ or indent-region                     |
-| Indent region right     | Ctrl + right arrow                          |
-| Indent region left      | Ctrl + left arrow                           |
+| Name | Shortcuts |
+|----|----|
+| Indent region `fn1` | C-M-\\ or indent-region |
+| Indent region right | Ctrl + right arrow |
+| Indent region left | Ctrl + left arrow |
 | Indent region with keys | Select region, C-x TAB, use arrows, ESC x 3 |
+| Sort text lines, numeric, alpha, other | sort-lines or org-sort |
+| Increase, add numbers in selected/marked rectangle region | rectangle-number-lines |
 
 - `fn1` Indent region can be used to indent region to same column or
   "delete" an indent by reset the first item in the region to the
@@ -225,6 +230,7 @@ lowercase or capitalize all words
 | Center current line in buffer | C-l |
 | Center current line in buffer, then top | C-l C-l |
 | Clone, duplicate buffer | clone-buffer |
+| Time, view clock, time of day | M-x display-time-mode |
 
 ### Justification, Margins, Fixed Width of Columns, Guide lines
 

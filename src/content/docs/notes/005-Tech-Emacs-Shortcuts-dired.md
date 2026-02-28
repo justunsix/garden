@@ -8,6 +8,7 @@ title: Emacs Shortcuts for dired
 
 | Description | Shortcut |
 |----|----|
+| Fuzzy find file with fd, (Doom Emacs) | `+vertico/consult-fd-or-find` |
 | Find a file with pattern, case sensitive (like ***Linux***) | `find-name-dired <pattern like *string*>` |
 | Find a file with pattern, case insensitive or other flags | `find-dired` and set flags as needed |
 | Grep in directory, by default does not include hidden | `consult-rg` or `counsel-rg` |
@@ -17,6 +18,8 @@ title: Emacs Shortcuts for dired
 
 - Use `find-name-dired` to search for files recursively in a directory
   - Use `*` as a wild card, the search is case sensitive
+- or use `find-dired` and use flag `-iname` to search case insensitive
+  and/or other find flags
 - Use `wdired-change-to-wdired-mode` or `C-c C-e` to edit the results in
   dired and apply with `C-c`
 - Use `browse-url-of-dired-file` to open the file in the browser or
@@ -78,19 +81,19 @@ YouTube](https://youtu.be/-qo2Ai3pZRk?t=504) \|
 
 | Name | Shortcuts |
 |----|----|
-| Copy file | C |
+| Compress file | c |
+| Copy file | S-c |
 | Copy filename at point or marked | C-0 w |
-| Delete - D |  |
+| Delete - delete file at point with confirmation | S-d |
 | Delete - Execute deletion of marks | x |
-| Delete - Mark for deletion d |  |
+| Delete - Mark for deletion | d |
 | Execute program on file (e.g. cat) | ! or & |
-| Move/rename file | R |
+| Move/rename file | S-r |
 | Open, Edit file | RET |
-| Open file | RET |
 | Open file in other window | o |
-| Open file in other window without focusing on it | Alt-o/RET |
-| Open with External Program | dired-do-open |
-| Open with local browser | browse-url-of-dired-file, W |
+| Open file in other window without focusing on it | M-o/RET |
+| Open with External Program | dired-do-open or S-w |
+| Open with local browser | browse-url-of-dired-file, S-w |
 | Preview file | g o and close with q |
 | Rename based on RegExp | % R |
 | Wdired dired, make dired buffer editable | C-c C-e |

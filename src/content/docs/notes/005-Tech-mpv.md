@@ -6,6 +6,8 @@ title: mpv - Media Player
 
 ## See Also
 
+- [mpv media player Shortcuts](/garden/notes/005-computer-shortcuts-mpv) - [mpv
+  media player Shortcuts](id:8f9bcf9d-3d4f-4c51-8d37-8ad0a84e826e)
 - [mpv Snippets](/garden/notes/005-computer-snippets-mpv) - [mpv
   Snippets](id:07f45cae-d59f-4fb7-b5c1-cce6c89636e8)
 

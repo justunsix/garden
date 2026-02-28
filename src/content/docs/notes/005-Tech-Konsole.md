@@ -1,7 +1,7 @@
 ---
 filetags: ":konsole:terminal:epubnote:"
 id: 95810aaa-ac0f-42d4-9651-cd04cf06ca5f
-title: KDE Konsole Linux Terminal
+title: KDE Konsole Terminal
 ---
 
 Konsole is a free and open-source terminal emulator graphical

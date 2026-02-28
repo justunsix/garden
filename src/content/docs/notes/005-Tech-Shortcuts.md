@@ -15,6 +15,8 @@ title: Software Shortcuts
 - [Dolphin File Manager Shortcuts](/garden/notes/005-computer-shortcuts-dolphin) -
   [Dolphin File Manager
   Shortcuts](id:87c1a54e-8b05-42fa-b62d-a40fb869eddf)
+- [duckduckgo Shortcuts](/garden/notes/005-computer-shortcuts-duckduckgo) -
+  [duckduckgo Shortcuts](id:889bac6b-0631-45f2-9176-89c9056b5e78)
 - [Emacs Shortcuts](/garden/notes/005-tech-emacs-shortcuts) - [Emacs
   Shortcuts](id:daea5d06-6895-4073-a5c7-64e8f21bf085)
 - [Figma Shortcuts](/garden/notes/005-computer-shortcuts-figma) - [Figma
@@ -45,6 +47,8 @@ title: Software Shortcuts
   Shortcuts](id:56e801c9-5f3f-4417-a9c5-c6a556885f5a)
 - [Lazygit Shortcuts](/garden/notes/005-computer-shortcuts-lazygit) - [Shortcuts
   Lazygit](id:e37dc2a2-7eff-44f7-b8dd-a21b07eba1af)
+- [Lenovo Laptop Shortcuts](/garden/notes/005-computer-shortcuts-lenovo-laptop) -
+  [Lenovo Laptop Shortcuts](id:ae117719-1fba-46e6-9195-fc675ddc903f)
 - [lf list file manager
   Shortcuts](/garden/notes/005-computer-shortcuts-lf-list-file-manager) - [lf list
   file manager Shortcuts](id:cc43793b-b283-46f7-b078-d4596f83cd62)
