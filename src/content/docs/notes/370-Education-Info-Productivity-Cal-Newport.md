@@ -79,6 +79,65 @@ paper:
 - Copy to new paper / sheet or remove it if not needed anymore
 - Move to the calendar or put note in future date
 
+## Why Smart People Are Abandoning Social Media
+
+Source: [Why Smart People Are Abandoning Social
+Media](https://youtu.be/X-Lb81yUph4)
+
+Curated social media platforms uses algorithms to keep users on the
+platform which results in distraction, demoderation, and disassociation.
+The result is wasting the user's time and inaccurate perceptions with
+reinforced unhealthy habits. The result is harmful in that it wastes
+people's time which could be used more productively like real life
+interactions and better entertainment and educational content.
+
+Examples of curated social media platforms: Twitter, Bluesky, Facebook,
+certain uses of YouTube and content platforms. Non curated platform
+include messaging platforms applications if use is only interpersonal
+messaging.
+
+Recommendation: Stop using social media where the platform curates
+(manages) content for you.
+
+## Read These Books To Start 2026
+
+Source: [Read These Books To Start 2026 Right \| Cal Newport -
+YouTube](https://youtu.be/dSNT4mtYR7o)
+
+List of books and concepts explored by them
+
+Walden by Henry David Thoreau
+
+- Invent your own life, enough-ism
+
+Lincoln’s Virtues by William Lee Miller (biography)
+
+- Moral intelligence development, using your brain
+
+The Case for God - Karen Armstrong
+
+- Spirituality history, non evidence based mindset (before
+  enlightenment) is required to appreciate religion and faith
+
+You Are Not a Gadget by Jaron Lanier
+
+- Personalized web is good for human flourishing
+
+The Shallows by Nicholas Carr
+
+- Technology is changing our brains and its scientific evidence
+
+Falling Upward by Richard Rohr
+
+- Early adult progression to mid life hardships with people and
+  connections, dealing with hardship
+
+Q: How to control device use in a family with young children?
+
+Phones, tablets - treat them as tools. They must only live in a place at
+home like kitchen. They are allowed for late teens (16) but not before
+as it is never required.
+
 ## See Also
 
 - [Cal Newport's Planning System - Core Documents, Productivity,

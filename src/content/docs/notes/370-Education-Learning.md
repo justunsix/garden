@@ -40,8 +40,3 @@ title: Education, Learning
   Engineer](/garden/notes/370-education-learning-how-to-learn-new-technologies-devops-engineer) -
   [How I learn new technologies as a DevOps Engineer (without being
   overwhelmed)](id:066aa3a4-b95c-4068-9e5e-660060bf7ed3)
-
-### My Personal Links
-
-- [Learning Interests and TODOs](/garden/notes/370-education-learning-interests) -
-  [Learning Interests](id:d72cec10-98b0-4a76-a92d-822ddcd46911)

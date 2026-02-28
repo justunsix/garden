@@ -8,7 +8,7 @@ Anki deck cards to help with learning listed at [Artificial Intelligence
 (AI)](/garden/notes/006-3-tech-ai-artificial-intelligence) - [Artificial
 Intelligence (AI)](id:bfe7af6c-9a91-4f3e-a98c-60ed67b8285a) Some cards
 were generated with the help of Microsoft Copilot Artificial
-Intelligence (AI) and are being updated or corrected.
+Intelligence (AI)
 
 # Artificial intelligence
 
@@ -1276,3 +1276,5 @@ whether it is an orange or type of oranges.
 
     Transparency so users understand how an AI came up with its
     predictions and limits of the model.
+
+# Developing AI solutions in Microsoft Azure AI-102
