@@ -1,5 +1,5 @@
 ---
-filetags: ":karaoke:fun:epubnote:"
+filetags: ":karaoke:fun:epubnote:music:"
 id: 75d622ba-281e-464e-a56f-37073759e857
 title: Singing and Karaoke Songs
 ---
