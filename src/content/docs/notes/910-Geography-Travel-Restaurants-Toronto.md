@@ -1,5 +1,5 @@
 ---
-filetags: ":fun:epubnote:restaurants:"
+filetags: ":fun:epubnote:restaurants:geography:places:"
 id: a214e55f-9361-48f7-b100-14f7d75f0bde
 title: Restaurants in Toronto
 ---
@@ -9,7 +9,7 @@ title: Restaurants in Toronto
 Within radius of 20-30 minute walk or 15 minute car/transit/other ride
 of Yonge and Dundas, mostly south of Bloor Street.
 
-Locations are approximate or large intersection. Value indicates
+Locations are approximate or large intersection nearby. Value indicates
 inexpensive options and/or good price for portions.
 
 | Name | Location | Style | Special | Tag |
@@ -19,33 +19,38 @@ inexpensive options and/or good price for portions.
 | Amsterdam Brewhouse | Simcoe-Queens Quay |  |  |  |
 | Asian Legend | Beverly-Dundas | Chinese |  |  |
 | [Bangkok garden](https://bangkokgarden.ca/) |  | Thai |  | jd |
+| [Bao House](https://www.bao-house.ca/) | Various Dundas, Yonge-Wellesley | Chinese |  | jd |
 | Chew Chews | Sherbourne-Carlton | Diner |  | jd |
 | Congee Queen | Yonge-Gerard | Chinese, Cantonese | Value shared | jd |
 | Denny's | Bay-Dundas | Diner |  |  |
 | Dynasty | Yorkville | Chinese | Fine |  |
 | Eaton Centre Food Court | Yonge-Dundas | Various | Value=specials \> 5pm |  |
 | Frans | Yonge-College/Shuter | Diner |  | jd |
+| [Chelsea Inn food hall](https://www.chelseatoronto.com) | Yonge-Gerrard |  |  | jd |
 | Freshii | Yonge-College | Healthy | Value | jd |
 | George Street Diner | Jarvis/George-Richmond | Diner |  | jd |
 | Golden Diner | Church-Carlton | Diner | Value | jd |
 | Golden Eggs | Simcoe-Queens Quay | Breakfast |  |  |
-| [Harvest Green](https://harvestgreen.ca/) | John-Wellington | Healthy | ~Value=portions |  |
+| [Ginger](http://gingercuisine.ca/) |  | Vietnamese | Value=portions | jd |
+| [Le Lert](https://lelert.ca/) | Yonge-Carlton | Thai |  | jd |
+| [Harvest Green](https://harvestgreen.ca/) | John-Wellington | Healthy | Value=portions |  |
 | Helena’s Magic Kitchen | McCaul-Dundas | Various | Value=portions |  |
 | Hot House Café |  |  | Sunday brunch |  |
 | House of Gourmet | Spadina-Dunas | Chinese | Value=lunch specials |  |
-| IKEA Cafeteria | Yonge-Gerrard |  | Value | jd |
+| IKEA Cafeteria | Yonge-Gerrard, Various |  | Value | jd |
 | [Karine's](https://www.karines.ca/) | McCaul-Dundas | Various, Healthy | Value=portions |  |
 | Kyoto Katsugyu | Church-Dundas | Japanese | Beef | jd |
 | Le Petit Déjeuner (LDP) | Jarvis/George-King |  | Breakfast | jd |
 | [Le Sélect Bistro](https://www.leselectbistro.com/) | Spadina-Wellington | French |  |  |
 | Mercatto | Bay-College | Italian |  |  |
-| Moon Palace | Atrium on Bay | Chinese | Fine |  |
+| [Moon Palace](https://moon-palace.ca/) | Atrium on Bay | Chinese | Fine | jd |
+| Oakham Cafe (TMU) | Church-Gould | Cafe | Value | jd |
 | [Old Spaghetti Factory](http://www.oldspaghettifactory.ca/locations/ontario/toronto/) | Esplanade |  | Value=groups |  |
 | Paddingtons Pump | St. Lawrence Market | Diner | Value, pork | jd |
 | Pearl Harbourfront | York-Queens Quay | Chinese | Fine |  |
 | Petit Potato | Bay-Wellesley | Chinese, Fusion | Diverse menu |  |
-| Pita Way | Yonge-Carlton | Shawarma | Value | jd |
 | Pita Land | Jarvis-Gerrard | Shawarma |  | jd |
+| Pita Way | Yonge-Carlton | Shawarma | Value | jd |
 | Pogue Mahone | Bay-College | Irish Pub |  |  |
 | Queen Mother Cafe | Queen West-University | Fusion |  |  |
 | Red Lobster | Atrium on Bay | Seafood |  |  |
@@ -82,7 +87,7 @@ Yonge-Finch and Yonge-Shepperd areas
 | [Casa Barcelona](https://www.casabarcelona.ca/) | Royal York-Bloor | Spanish | tapas |
 | Centennial College Restaurant | Markham Road-401 | Various | Value, Student |
 | Congee Queen | Various, Yonge-Steeles | Chinese, Cantonese | Value shared |
-| Good Catch Cafe | Don Mills-Sheppard, Fairview Mall | Chinese | Value=specials |
+| [Good Catch Cafe](https://goodcatchbarcafe.com/good-catch-cafe/) | Don Mills-Sheppard, Fairview Mall | Chinese | Value=specials |
 | Joy Noodle Cafe | Woodbine-407, Markham | Chinese, Hong Kong |  |
 | Mt Everest Restaurant |  | Nepalese/Indian |  |
 | [Orient Bistro](https://www.yelp.ca/biz/orient-bistro-fine-chinese-dining-and-bar-richmond-hill) | 404-16th Ave | Chinese | Fine |

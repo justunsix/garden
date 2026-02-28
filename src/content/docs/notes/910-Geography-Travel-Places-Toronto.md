@@ -111,6 +111,8 @@ museum](http://www.rom.on.ca/) and [art gallery](http://www.ago.net/):
 - [Restaurants in
   Toronto](/garden/notes/910-geography-travel-restaurants-toronto) - [Restaurants
   in Toronto](id:a214e55f-9361-48f7-b100-14f7d75f0bde)
+- [Markets in Toronto](/garden/notes/910-geography-travel-markets-toronto) -
+  [Markets in Toronto](id:f76808fb-74f1-4dbe-a14d-6eecf29863f0)
 - [Hiking](/garden/notes/796-sports-fun-hiking) -
   [Hiking](id:839f8b96-bba6-4c5e-a909-38f34d6f0151)
 
