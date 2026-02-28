@@ -6,50 +6,54 @@ title: Artificial Intelligence (AI)
 
 ## See Also
 
-- [Text to Speech (TTS) and Speech to Text
-  (STT)](/garden/notes/004-data-processing-tech-data-science-text-to-speech-tts-speech-to-text-stt) -
-  [Text to Speech (TTS) and Speech to Text
-  (STT)](id:f7d86fd7-47ba-49c0-bb56-b5e7e4ee3341)
+- [AI Code and Productivity
+  Tools](/garden/notes/006-3-tech-ai-code-productivity-tools) - [AI Code and
+  Productivity Tools](id:52d77f6e-17bc-4913-9255-4fc7398b9708)
+- [AI Code Editor
+  Integratation](/garden/notes/006-3-tech-ai-code-productivity-tools-editor-integration) -
+  [AI Code Editor Integration](id:c64ff73a-080d-483f-90db-243c87ab0a6e)
+- [AI Models](/garden/notes/006-3-tech-ai-models) - [AI
+  Models](id:65533479-7d6e-4726-92f8-fb66177a39c6)
+- [AI Prompts](/garden/notes/006-3-tech-ai-prompts) - [AI
+  Prompts](id:0a00398f-f4d9-42ae-8830-c37fa9abdc8f)
+- [Audio Subtitles and OpenAI
+  Whisper](/garden/notes/006-3-tech-ai-audio-subtitles-whisper) - [Audio Subtitles
+  and OpenAI Whisper](id:2ba9f6d2-10f2-4c27-b781-ee754d1423b4)
 - [Build a Local Artificial Intelligence
   System](/garden/notes/006-3-tech-ai-artificial-intelligence-build-local-ai-system) -
   [Build a Local Artificial Intelligence
   System](id:6974a978-1e00-41ac-9a25-83b728abf9d2)
-- [Audio Subtitles and OpenAI
-  Whisper](/garden/notes/006-3-tech-ai-audio-subtitles-whisper) - [Audio Subtitles
-  and OpenAI Whisper](id:2ba9f6d2-10f2-4c27-b781-ee754d1423b4)
-- [AI Code Editor
-  Integratation](/garden/notes/006-3-tech-ai-code-productivity-tools-editor-integration) -
-  [AI Code Editor Integration](id:c64ff73a-080d-483f-90db-243c87ab0a6e)
-- [AI Code and Productivity
-  Tools](/garden/notes/006-3-tech-ai-code-productivity-tools) - [AI Code and
-  Productivity Tools](id:52d77f6e-17bc-4913-9255-4fc7398b9708)
-- [AI Models](/garden/notes/006-3-tech-ai-models) - [AI
-  Models](id:65533479-7d6e-4726-92f8-fb66177a39c6)
+- [Cognitive Computing](/garden/notes/006-3-tech-cognitive-computing) - [Cognitive
+  Computing](id:2be7387d-6da4-44bb-a55c-8331376b9e6f)
 - [LangChain and AI
   Development](/garden/notes/006-3-tech-ai-artificial-intelligence-langchain) -
   [LangChain and AI
   Development](id:10e5d76f-89ae-435f-8965-c06d7205db5f)
-- [My AI Use Cases](/garden/notes/006-3-tech-ai-my-use-cases) - [My Use Cases for
-  AI](id:180e6223-6f26-44bc-956d-a1df14bc4ee4)
-- [AI Prompts](/garden/notes/006-3-tech-ai-prompts) - [AI
-  Prompts](id:0a00398f-f4d9-42ae-8830-c37fa9abdc8f)
 - [Local AI with Retrieval Augmented Generation (RAG) using Open WebUI
   and
   Ollama](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama) -
   [Local AI with Retrieval Augmented Generation (RAG) using Open WebUI
   and Ollama](id:19319abe-7f4f-4eb7-a953-5f3fc197cf34)
+- [My AI Use Cases](/garden/notes/006-3-tech-ai-my-use-cases) - [My Use Cases for
+  AI](id:180e6223-6f26-44bc-956d-a1df14bc4ee4)
 - [Retrieval Augmented Generation
   (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag) -
   [Retrieval Augmented Generation
   (RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23)
-- [Vector Database](/garden/notes/006-3-tech-ai-vector-database) - [Vector
-  Database](id:67032821-f795-4059-bc63-ae4adada458a)
-- [Cognitive Computing](/garden/notes/006-3-tech-cognitive-computing) - [Cognitive
-  Computing](id:2be7387d-6da4-44bb-a55c-8331376b9e6f)
+- [GitHub Copilot Workspace Index and Retrieval Augmented Generation
+  (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-github-copilot-workspace-index) -
+  [GitHub Copilot Workspace Index and Retrieval Augmented Generation
+  (RAG)](id:1ae880da-6df5-4bcb-9463-27955b9f1654)
 - [Stoicism and
   AI](/garden/notes/158-psychology-applied-health-mental-stoicism-ai) - [Stoicism
   and Artificial Intelligence
   (AI)](id:4e3d5808-d482-44a1-903e-471c845d7e84)
+- [Text to Speech (TTS) and Speech to Text
+  (STT)](/garden/notes/004-data-processing-tech-data-science-text-to-speech-tts-speech-to-text-stt) -
+  [Text to Speech (TTS) and Speech to Text
+  (STT)](id:f7d86fd7-47ba-49c0-bb56-b5e7e4ee3341)
+- [Vector Database](/garden/notes/006-3-tech-ai-vector-database) - [Vector
+  Database](id:67032821-f795-4059-bc63-ae4adada458a)
 
 ## Learning
 
@@ -61,6 +65,10 @@ title: Artificial Intelligence (AI)
   AGI](/garden/notes/006-3-tech-ai-artificial-intelligence-learning-engineering-career-agi) -
   [Learning Skills for Engineering Career in
   AGI](id:1403756e-8640-481a-9f4c-215070a04576)
+- [Careers in Artificial Intelligence, Industry Insights
+  2026](/garden/notes/006-3-tech-ai-artificial-intelligence-learning-career-insights-2026) -
+  [Careers in Artificial Intelligence, Industry Insights
+  2026](id:7ce0c885-3a91-47fb-afa1-b375d581b151)
 - [Frontiers of AI: Insights with Geoffrey Hinton, Toronto Tech Week
   2025](/garden/notes/006-3-tech-ai-artificial-intelligence-insights-toronto-tech-week-2025) -
   [Frontiers of AI: Insights with Geoffrey Hinton, Toronto Tech Week

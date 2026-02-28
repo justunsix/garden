@@ -21,70 +21,74 @@ Good prompts provide the AI with:
     below
 3.  Information sources to use (attachments, documents, links, meetings)
 4.  Expectation on what you want (tone, type of output, format, response
-    length and details like sources)
+    length and details like sources, examples of results you want like
+    few shot method)
 5.  Iterate on the previous prompt
 
 Other tips:
 
 - Use positive instructions, tell model what to do instead of what not
   to do
+- Be specific and detailed and avoid "what does this do" where "this" is
+  unclear or prompts with a large scope of possible results
+- Use terms likely to appear in the context or expected results
 
-### Tasks and Jobs for Prompts
+## Tasks and Jobs for Prompts
 
 Example Tasks and Job Types for Prompts from [Microsoft Copilot Prompts
 Gallery](https://copilot.cloud.microsoft/en-GB/prompts) with tips,
 examples with my additions
 
-1.  Tasks
+### Tasks
 
-    - Catch up
-    - Create
-    - Ask
-    - Understand
-    - Learn
-    - Schedule
-    - Edit
-    - Prepare
-    - Analyse
-    - Code
-    - Find
-    - Design
-    - Execute
-    - Ideate
+- Catch up
+- Create
+- Ask
+- Understand
+- Learn
+- Schedule
+- Edit
+- Prepare
+- Analyse
+- Code
+- Find
+- Design
+- Execute
+- Ideate
 
-2.  Job Types
+### Job Types
 
-    1.  Department
+1.  Department
 
-        - Accessibility
-        - Frontline Management
-        - Executive
-        - Human Resources
-        - Marketing
-        - Sales
-        - Communications
-        - Marketing
-        - Operations
-        - Finance
-        - Project Management
-        - Information Technology
-        - Customer Service
-        - Legal
+    - Accessibility
+    - Frontline Management
+    - Executive
+    - Human Resources
+    - Marketing
+    - Sales
+    - Communications
+    - Marketing
+    - Operations
+    - Finance
+    - Project Management
+    - Information Technology
+    - Customer Service
+    - Legal
 
-    2.  Industry
+2.  Industry
 
-        - Manufacturing
-        - Retail
-        - Sustainability
-        - Financial Services
-        - Energy
-        - Consumer Goods
-        - Mobility
-        - Nonprofit
-        - Government
-        - Healthcare
-        - Media and Entertainment
-        - Education - Student / Faculty
+    - Manufacturing
+    - Retail
+    - Sustainability
+    - Financial Services
+    - Energy
+    - Consumer Goods
+    - Mobility
+    - Nonprofit
+    - Government
+    - Healthcare
+    - Media and Entertainment
+    - Education - Student / Faculty
 
 ## Learning
 

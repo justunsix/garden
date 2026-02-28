@@ -39,6 +39,14 @@ Needs work on 2 parts:
   user prompts
 - Generation - structuring responses and best responses
 
+## Search Strategies
+
+See different search approaches with RAG in article [GitHub Copilot
+Workspace Index and Retrieval Augmented Generation
+(RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-github-copilot-workspace-index) -
+[GitHub Copilot Workspace Index and Retrieval Augmented Generation
+(RAG)](id:1ae880da-6df5-4bcb-9463-27955b9f1654).
+
 ## RAG Explained
 
 Source: [RAG Explained](https://www.youtube.com/watch?v=qppV3n3YlF8) -
@@ -66,6 +74,10 @@ quality is clean, governed and (2) choose appropriate LLM
   LLM](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-llm) - [AI
   Retrieval Augmented-Generation RAG and Large Language Model
   LLM](id:86f6f51e-26ce-4b1f-bd3f-5451b5ae56a6)
+- [GitHub Copilot Workspace Index and Retrieval Augmented Generation
+  (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-github-copilot-workspace-index) -
+  [GitHub Copilot Workspace Index and Retrieval Augmented Generation
+  (RAG)](id:1ae880da-6df5-4bcb-9463-27955b9f1654)
 - [Local AI with Retrieval Augmented Generation (RAG) using Open WebUI
   and
   Ollama](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama) -

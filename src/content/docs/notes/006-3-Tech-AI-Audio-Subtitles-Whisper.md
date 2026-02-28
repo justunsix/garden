@@ -45,6 +45,9 @@ uv add openai-whisper
 ## Run whisper
 uv run whisper <arguments>
 
+# Run whisper and use large model with source file in Italian and translate to English subtitle srt file
+uv run whisper audio.wav --model large --language Italian --task translate --output_format srt
+
 ```
 
 ## See Also

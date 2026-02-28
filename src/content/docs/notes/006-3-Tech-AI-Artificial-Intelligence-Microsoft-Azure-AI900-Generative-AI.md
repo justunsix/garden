@@ -324,9 +324,11 @@ Example: summarize the key considerations for using AI (1) described in
 this document (2) for a corporate executive (3). For the summary as no
 more than six bullet points with professional tone (4).
 
-For context (2), optional examples can be used with these methods:
+For context (2), optional examples can be used with these
+methods/instructions:
 
 - Zero shot - provide examples of what you want
+- One shot - provide one example of what you want
 - Few shot - provide a couple examples of what you want
 
 Information sources (3) provide grounding for the model like documents,
@@ -338,7 +340,7 @@ Prompts can be added with:
   helpful assistant that responds in a cheerful, friendly manner."
 - Previous conversation history for the session, including past prompts
   and responses. The history enables you to refine the response
-  iteratively while maintaining the context of the conversation.
+  repeatedly while maintaining the context of the conversation.
 - The current prompt – potentially optimized by the agent to reword it
   appropriately for the model or to add more grounding data to scope the
   response.
