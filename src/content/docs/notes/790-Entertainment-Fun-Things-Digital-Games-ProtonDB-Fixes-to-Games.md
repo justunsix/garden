@@ -51,6 +51,13 @@ Steam app:
 - Launch Options: STEAM<sub>COMPATDATAPATH</sub>="/path/to/EAGames/pfx"
   %command%
 
+## Mass Effect Legendary Edition
+
+- Apply installations fixes like Unmount all external drives
+- Start game, log into EA App
+- If EA app game run fails first time, exit from EA app. Restart game
+  from Steam. Start game again from EA app.
+
 ## XCOM 2
 
 Enable Compatibility: Force the use of a specific Steam Play
@@ -82,7 +89,8 @@ From Feral's support feedback:
 
 ## Jagged Alliance 3
 
-Had to apply these fixes
+Had to apply these fixes or check [ProtonDB for updated
+fixes](https://www.protondb.com/app/1084160)
 
 ### Initial game launch
 
@@ -136,7 +144,9 @@ during initial game run.
 
 ## Games that should work with no or minor changes
 
+- Baldur's Gate 3
 - Call of Duty: Infinite Warfare
+  - Switch to fullscreen borderless to remove some stutter
 - Cities Skylines
 - Crusader Kinds 3 (see Paradox Games native workarounds)
 - CyberPunk 2077
@@ -148,11 +158,13 @@ during initial game run.
 - Stellaris
 - Total War: Pharaoh, Troy, Three Kingdoms, Warhammer 3 (Native), Attila
 - Uncharted: Legacy of Thieves
+- Warhammer 40,000 Darktide
+  - Multiplayer works best with VPN turned off
 - Warhammer 40,000 Dawn of War II Retribution
 - Warhammer 40,000 Rogue Trader
 - WWE 2K25
 
-### Games to take a while on first run, like due to install, installation scripts, or shader loading
+### Games that take a while on first run, like due to install, installation scripts, or shader loading
 
 - Battletech
 - Homeworld 3
