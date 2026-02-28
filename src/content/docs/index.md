@@ -51,7 +51,10 @@ Appleton](https://maggieappleton.com/)
   diversity](/garden/notes/300-social-science-comms-inclusion)
 - [306 Culture and institutions](/garden/notes/306-culture-institutions)
 - [332 Financial economics](/garden/notes/332-finance)
+- [332 Public Finance](/garden/notes/336-public-finance)
 - [340 Law](/garden/notes/340-law)
+- [350 Public administration and military
+  science](/garden/notes/350-public-administration-military-science)
 - [360 Social problems and social services](/garden/notes/360-social-services)
 - [370 Education](/garden/notes/370-education-learning)
 - [380 Commerce, communications and transportation](/garden/notes/380-transport)
@@ -63,6 +66,7 @@ Appleton](https://maggieappleton.com/)
 
 ## 500 – Science
 
+- [510 Mathematics](/garden/notes/510-mathematics)
 - [550 Earth sciences](/garden/notes/550-earth-sciences)
 
 ## 600 – Technology
@@ -70,6 +74,7 @@ Appleton](https://maggieappleton.com/)
 - [600 Technology](/garden/notes/600-technology)
 - [610 Medicine and health](/garden/notes/610-health)
 - [613 Personal health and safety](/garden/notes/613-safety)
+- [615 Pharmacology and therapeutics](/garden/notes/615-pharmacology-therapeutics)
 - [634 Orchards, fruits, forestry](/garden/notes/634-forestry)
 - 635 Garden crops (Horticulture)
 - 640 Home and family management

@@ -1148,6 +1148,7 @@ DDC Class name to note topics
 - 300 Social sciences: Inclusion, diversity
 - 306 Culture and institutions: culture institutions
 - 332 Financial economics
+- 336 Public finance
 - 340 Law
 - 360 Social problems and social services
 - 370 Education
@@ -1158,6 +1159,7 @@ DDC Class name to note topics
 - 600 Technology
 - 610 Medicine and health
 - 613 Personal health and safety
+- 615 Pharmacology and therapeutics
 - 634 Orchards, fruits, forestry
 - 635 Garden crops (Horticulture)
 - 640 Home and family management
