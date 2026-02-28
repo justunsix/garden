@@ -40,11 +40,16 @@ title: Digital Marketing Report Template for Google Ads
 - In Overview \> Searches
   - Download the card data `.csv` reports
 - Use reports to for analysis
-- Optional, extract data from `.csv` reports using [Google Ads Report
+- Optionally, extract data from `.csv` reports using [Google Ads Report
   Python
   script](https://github.com/justunsix/automatetheboringstuff-py-tests/tree/main/src/project/spreadsheet/google-ads-report)
+  which extracts data for this report from Google Ads standard reports
+  you can download from the Google ads site
 - If using Emacs org mode template, use `org-export-dispatch` and chose
   HTML for best formatting results
+- If the account includes performance max and other types of campaigns
+  not usually covered in canned reports, include them from the Google
+  ads site
 
 ## Context
 
@@ -70,6 +75,10 @@ Summary insights and recommendations section
 - Conversions - tracked interactions like website contacts, business
   profile interactions, calls
 - Phone Calls from Ads - phone calls directly from ads
+- Performance Max campaign type - Uses asset groups instead of ad
+  groups. This campaign type expands ads to more places like YouTube,
+  email, and other websites and is assisted with artificial
+  intelligence.
 
 ### Campaigns
 

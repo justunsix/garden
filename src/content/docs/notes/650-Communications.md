@@ -41,7 +41,7 @@ title: Management and public relations (Business, career,
   Ones](/garden/notes/300-social-science-comms-inclusion-racism-and-loved-ones) -
   [Racism and Loved Ones](id:79c336a6-48a4-436d-8a51-16b8243385e6)
 
-### Marketing
+### Marketing Communications
 
 - [Marketing](/garden/notes/650-business-comms-marketing) -
   [Marketing](id:1af38f49-81c3-410f-837f-aa053acd5605) - Marketing
