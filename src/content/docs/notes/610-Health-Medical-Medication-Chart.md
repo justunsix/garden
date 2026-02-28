@@ -15,3 +15,9 @@ Chart template to help track taking medication
 |  | 12:00:00 AM |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | Drug 2 | Morning |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |  | Evening |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+## See Also
+
+- [Pharmacology and therapeutics](/garden/notes/615-pharmacology-therapeutics) -
+  [Pharmacology and
+  therapeutics](id:adb71a8b-61f5-4af0-a75e-1451282d5341)

@@ -11,6 +11,8 @@ title: Medicine and health
   exercises, workouts
 - [COVID 19 Pandemic Information](/garden/notes/610-health-covid19) - [COVID 19
   Pandemic Information](id:ba10802f-f857-4db2-8782-59beac4a2f5f)
+- [Dental Health](/garden/notes/610-health-dental) - [Dental
+  Health](id:73433513-b45f-47c8-996e-f416c20373ef)
 - [Growing Young](/garden/notes/610-health-growing-young) - [Growing
   Young](id:521e6a48-ccec-443c-b826-1d69e3d807e0) - book on longevity
   practices
@@ -22,6 +24,9 @@ title: Medicine and health
   Care](/garden/notes/650-business-health-personalised-communication) -
   [Personalised Communication in Health
   Care](id:33bf0af7-6ed5-4bf2-9618-90c341164ff8)
+- [Pharmacology and therapeutics](/garden/notes/615-pharmacology-therapeutics) -
+  [Pharmacology and
+  therapeutics](id:adb71a8b-61f5-4af0-a75e-1451282d5341)
 - [Physiotherapy Shoulder, Back Strength,
   Flexibility](/garden/notes/610-health-physiotherapy-shoulder-back-flexibility) -
   [Physiotherapy Shoulder, Back Strength and

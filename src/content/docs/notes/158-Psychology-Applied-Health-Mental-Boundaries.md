@@ -6,18 +6,38 @@ id: 0932b8cc-28c8-48c3-9fe3-ebdda0ae01f4
 title: Boundaries and Mental Health
 ---
 
-Source: notes from reading about mental health boundaries such as book
-Unf\*ck Your Boundaries by Faith G. Harper
+Source: My personal notes from:
+
+- Book Unf\*ck Your Boundaries by Faith G. Harper
+- Telus Health educational session
+- Talk from [Dr. Susan Biali - Stress Resilience, Performance
+  Expert](https://susanbiali.com/) regarding Deep Rest in 2026-01
+
+## Benefits of Boundary Setting
+
+Boundaries will give you energy to support others. Through rest, it
+preserves your life and work ability and protect against burn out.
+
+"Deep Rest" supports
+
+- Restorative biology
+- Cellular and energy restoration
+- DNA repair
+- Mitochondrial function increased, ATP production increase
+- Cell waste cleaned out
+
+Source: Elissa Epel, PhD, “How psychological stress can speed or slow
+cellular aging processes”, Herbert Benson MD Course in Mind-Body
+Medicine, November 2022, Harvard Medical School.
 
 ## Setting Boundaries in Personal and Work Life
 
-Source: mainly my notes from a Telus Health educational session
+### Your brain has limits
 
-- Consider your brain has limits:
-  - 3: average number of hours per day of mental focus
-    - Deep Word by Cal Newport
-  - 150: number of relationships that brain can handle tracking
-    - Social by Matthew Lieberming
+- 3: average number of hours per day of mental focus
+  - Deep Work by Cal Newport
+- 150: number of relationships that brain can handle tracking
+  - Social by Matthew Lieberming
 
 ### Questions to Ask Yourself
 
@@ -90,3 +110,8 @@ What are good to delegate tasks?
   Lifestyle](/garden/notes/158-psychology-applied-environment-minimalist-lifestyle) -
   [Minimalist, Zero Waste
   Lifestyle](id:df69cada-d197-4508-9ae0-12affb79dfd0)
+- [Productivity and Work with Cal
+  Newport](/garden/notes/370-education-info-productivity-cal-newport) -
+  [Productivity and Work with Cal
+  Newport](id:0044bdc0-c260-457a-8a2e-2bb025cb8888) - work, life, focus
+  time systems
