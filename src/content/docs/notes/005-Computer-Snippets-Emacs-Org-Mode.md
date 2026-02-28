@@ -22,7 +22,7 @@ title: Emacs Org Mode Snippets Emacs org mode like Jupyter
 #+attr_org:  :width 1000
 [[~/images/examples.jpg]]
 
-# Link to a specific section in an org mode document called Golang Tutorial
+# Link to a specific section/heading of any level in an org mode document called Golang Tutorial
 [[file:005-Golang.org::*Golang Tutorial][Golang Tutorial]]
 
 # Footnotes

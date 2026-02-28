@@ -8,23 +8,8 @@ title: Linux Snippets
 
 <link rel="stylesheet" type="text/css" href="basic-org.css"/>
 
-Commands includes GNU coreutils, findutils in other operating systems
-and other common commands on Linux
-
-## &\> pipes
-
-``` bash
-
-# pipe output of command to file
-start_server &> filename.log
-
-# >> redirection operator will append lines to the end of the specified file
-start_server >> filename.log
-
-# > empty and overwrite file
-start_server > filename.log
-
-```
+Commands include Linux commands and commands also commonly found on Unix
+or Unix like operating systems or cross platform shells like Nushell
 
 ## Apropos - Search commands for functions
 
@@ -49,7 +34,7 @@ apropos "list files"
 - Awk can be enclosed in ' ' or from a file
 
 ``` bash
-# Emulate cat - Print contents of a file 
+# Emulate cat - Print contents of a file
 mawk '{print}' file.txt
 
 # Get contents of a file where line contains name, split line on = and print name / value pair
@@ -72,62 +57,17 @@ prevd
 
 ```
 
-## ImageMagick, Image PDF Conversions, Combining, PDF Optical Character Recognition (OCR)
-
-For image to PDF conversions and OCR, recommend use img2pdf and ocrmypdf
+## cpumonitor cpupower to set CPU Governance
 
 ``` shell
 
-img2pdf "$file" | ocrmypdf - "$file.pdf" --rotate-pages
+# https://documentation.ubuntu.com/server/explanation/performance/perf-tune-cpupower/
 
-ocrmypdf path/to/pdf output.pdf
+# List all available cpupower monitors available on the system
+sudo cpupower monitor -l
 
-```
-
-``` shell
-
-# Join / Merge / combine several PDFs to new file output.pdf
-# https://www.omglinux.com/merge-pdf-files-on-linux/
-pdfunite file1.pdf file2.pdf output.pdf
-
-# per https://itsfoss.com/merge-pdf-linux/
-# Deprecated:
-convert -append file1.pdf file2.pdf file3.pdf output.pdf
-# If error with above command convert-im6.q16: attempt to perform an operation not allowed by the security policy `PDF' @ error/constitute.c/IsCoderAuthorized/421
-# do:
-sudo nano /etc/ImageMagick-6/policy.xml
-# Usually at bottom of file, you have to change the rights="none" to rights=read|write:
-# <policy domain="coder" rights="read|write" pattern="PDF" />
-
-# You can use the convert command in bash to convert multiple images to a single PDF file. Here’s an example command that you can use to convert 3 images to a single PDF file:
-# This command will convert image1.jpg, image2.jpg, and image3.jpg to a single PDF file named output.pdf.
-# Replace names of your images and the output file name with the desired name of your PDF file.
-convert image1.jpg image2.jpg image3.jpg output.pdf
-
-# Make images ready for web - Scale files in a directory to a width in pixels
-#!/bin/bash
-# for each file in current directory
-for file in *; do
-    # Use ImageMagick to scale the file's width as pixels in variable "resolution"
-    # and rename the new image with the same name as the original file plus "resolution" variable
-    resolution = "720"
-    convert "$file" -resize "$resolution" "$file-$resolution.jpg"
-done
-
-```
-
-## ncdu - ncurses disk usage, see disk usage by directories and navigate them
-
-``` shell
-
-# See cwd
-ncdu
-
-# See root
-ncdu -x /
-
-# Scan with SSH with
-ssh -C user@system ncdu -o- / | ./ncdu -f-
+# Set the CPU governor to performance mode on all CPUs
+cpupower frequency-set -g performance
 
 ```
 
@@ -261,6 +201,50 @@ htop [-s|--sort] sort_item
 
 ```
 
+## ImageMagick, Image PDF Conversions, Combining, PDF Optical Character Recognition (OCR)
+
+For image to PDF conversions and OCR, recommend use img2pdf and ocrmypdf
+
+``` shell
+
+img2pdf "$file" | ocrmypdf - "$file.pdf" --rotate-pages
+
+ocrmypdf path/to/pdf output.pdf
+
+```
+
+``` shell
+
+# Join / Merge / combine several PDFs to new file output.pdf
+# https://www.omglinux.com/merge-pdf-files-on-linux/
+pdfunite file1.pdf file2.pdf output.pdf
+
+# per https://itsfoss.com/merge-pdf-linux/
+# Deprecated:
+convert -append file1.pdf file2.pdf file3.pdf output.pdf
+# If error with above command convert-im6.q16: attempt to perform an operation not allowed by the security policy `PDF' @ error/constitute.c/IsCoderAuthorized/421
+# do:
+sudo nano /etc/ImageMagick-6/policy.xml
+# Usually at bottom of file, you have to change the rights="none" to rights=read|write:
+# <policy domain="coder" rights="read|write" pattern="PDF" />
+
+# You can use the convert command in bash to convert multiple images to a single PDF file. Here’s an example command that you can use to convert 3 images to a single PDF file:
+# This command will convert image1.jpg, image2.jpg, and image3.jpg to a single PDF file named output.pdf.
+# Replace names of your images and the output file name with the desired name of your PDF file.
+convert image1.jpg image2.jpg image3.jpg output.pdf
+
+# Make images ready for web - Scale files in a directory to a width in pixels
+#!/bin/bash
+# for each file in current directory
+for file in *; do
+    # Use ImageMagick to scale the file's width as pixels in variable "resolution"
+    # and rename the new image with the same name as the original file plus "resolution" variable
+    resolution = "720"
+    convert "$file" -resize "$resolution" "$file-$resolution.jpg"
+done
+
+```
+
 ## lsblk - list block devices
 
 List information on available devices, drives, disks
@@ -269,6 +253,9 @@ List information on available devices, drives, disks
 
 # List all block devices
 lsblk
+
+# List block devices with colourized output bat -l conf for config language and -p for plain
+lsblk | bat -l conf -p
 
 # List all block devices with size
 lsblk -s
@@ -325,511 +312,65 @@ Man Pages in Linux](https://itsfoss.com/linux-man-page-guide/)
 - Section 8 : System administration and maintenance commands
 - Section 9 : Obscure kernel specs and interfaces
 
-## Redirects and Truncate
+## mount, umount - attach / mount file systems
 
 ``` shell
 
-# Clear all contents of a specified file
+#  Show all mounted filesystems:
+mount
 
-# Non root method is
-# https://superuser.com/questions/90008/how-to-clear-the-contents-of-a-file-from-the-command-line
-> file-to-clear.txt
+#  Mount a device to a directory:
+mount path/to/device_file path/to/target_directory
 
-# Clear file that requires root permissions
-# https://superuser.com/questions/90008/how-to-clear-the-contents-of-a-file-from-the-command-line/634217#634217
-sudo truncate -s 0 /etc/environment
+#  Create a specific directory if it does not exist and mount a device to it:
+mount [-m|--mkdir] path/to/device_file path/to/target_directory
+
+#  Mount a device to a directory for a specific user:
+mount [-o|--options] uid=user_id,gid=group_id path/to/device_file path/to/target_directory
+
+#  Mount a CD-ROM device (with the filetype ISO9660) to `/cdrom` (readonly):
+mount [-t|--types] iso9660 [-o|--options] ro /dev/cdrom /cdrom
+
+#  Mount all the filesystems defined in `/etc/fstab`:
+mount [-a|--all]
+
+#  Mount a specific filesystem described in `/etc/fstab` (e.g. `/dev/sda1 /path/to/mount_point ext2 defaults 0 2`):
+mount path/to/mount_point
+
+#  Mount a directory to another directory:
+mount [-B|--bind] path/to/old_directory path/to/new_directory
+
+# Unmount a filesystem, by passing the path to the source it is mounted from:
+sudo umount path/to/device_file
+
+#  Unmount a filesystem, by passing the path to the target where it is mounted:
+sudo umount path/to/mounted_directory
+
+#  When an unmount fails, try to remount the filesystem read-only:
+sudo umount [-r|--read-only] path/to/mounted_directory
+
+#  Recursively unmount each specified directory:
+sudo umount [-R|--recursive] path/to/mounted_directory
+
+#  Unmount all mounted filesystems (except the `proc` filesystem):
+sudo umount [-a|--all]
 
 ```
 
-## Rename
-
-``` bash
-# Find all file names in current directory containing string searchString
-# and replace in filename the string foo with string bar
-# -n is test first, then run
-find . -name "*foo*" -exec rename -n 's/foo/bar/' {} \;
-find . -name "*foo*" -exec rename 's/foo/bar/' {} \;
-```
-
-## pkill, kill, killall - stop process also known as kill
+## ncdu - ncurses disk usage, see disk usage by directories and navigate them
 
 ``` shell
 
-# Kill all processes with name firefox inside process name
-pkill -f firefox
+# See cwd
+ncdu
 
-# Send signals to process
-kill (-HUP) process_id
-# kills a process with pid specified
-kill -9 pid
+# See root
+ncdu -x /
 
-# kill all processes by a name, for example firefox browser
-killall firefox
+# Scan with SSH with
+ssh -C user@system ncdu -o- / | ./ncdu -f-
 
 ```
-
-## ps - process status
-
-``` shell
-
-# List all processes
-ps -A
-
-# List all processes with user name
-ps -ef
-
-# Search for a process that matches a string
-ps aux | grep string
-
-# in bash, show pid of current shell
-echo $$
-
-```
-
-## source, environment variables
-
-``` shell
-
-# Source temporary environment variables
-# using an .env file
-# from https://stackoverflow.com/questions/43267413/how-to-set-environment-variables-from-env-file
-
-## Option 1
-### This requires appropriate shell quoting. It's thus appropriate
-### if you would have a line like foo='bar baz', but not if that same line would be written foo=bar baz
-set -a # automatically export all variables
-source .env
-set +a
-
-## Option 2
-### if .env is a valid shell execution file like export foo=bar
-### then simple source will work
-source .env
-
-## Option 3
-### Assuming no whitespace in environment values
-export $(xargs <.env)
-
-```
-
-## sed (stream editor)
-
-``` shell
-
-# Replace `apple` with `mango` on all lines using basic `regex`, print to `stdout`:
-command | sed 's/apple/mango/g'
-
-# Use extended regular expressions with -E
-sed -E 's/pattern/replacement/flags'
-## Replace dog and cat with pet
-"dog cat moose" | sed -E 's/(cat|dog)/(pet)/g'
-
-# Use basic `regex` to replace `apple` with `mango` and `orange` with `lime` in-place in a file (overwriting original file):
-sed [-i|--in-place] -e 's/apple/mango/g' -e 's/orange/lime/g' path/to/file
-
-```
-
-## ss (socket statistics)
-
-- Check open ports, connections
-
-``` shell
-
-# Show all connections
-ss
-
-# Network statistics
-ss -s
-# Real time report, Ctrl + c to exit
-watch ss -s
-
-# List ports and processes
-# -t TCP sessions
-# -u UDP sessions
-# -l Listening TCP connections
-# -n numeric, human readable
-# -p show process at socket
-ss -lntup
-
-# IPv4 connections
-ss -4
-# IPv6 connections
-ss -6
-
-```
-
-## rsync
-
-Source:
-<https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories>,
-[Everyday Rsync - Veronica Explains](https://vkc.sh/everyday-rsync/),
-[Rsync on Archwiki](https://wiki.archlinux.org/title/Rsync)
-
-Synchronize directories and files across local and remote machines
-
-``` bash
-
-# Test Synchronize a source and destination --dry-run
-rsync --dry-run -anv source destination
-
-# Synchronize with ssh destination
-rsync -av ~/records username@destination.server:~/record-archives
-## Best practice is destination is remote in case remote directory is not mounted properly
-
-# Recurvisely copy first directory/file to destination file and exclude folder/files called Archive and include only 7z files
-rsync -aPvh --delete "${LIBRARYDIR}/${array[$i]}/" "${LOCALDIR}/${array[$i]}/" --exclude "Archive" --include="*.7z"
-# -a archive mode (recursively copy directories, copy symlinks without resolving, and preserve permissions, ownership and modification times)
-# -P show progress, partial transfer of files
-# -v verbose
-# -h use human readable numbers
-# --delete delete files in destination directories if not existing in source
-#   Can also use --delete-before or --delete-after to have deletes occur at a certain time in job
-# --exclude PATTERN do not copy files with PATTERN
-# --include PATTERN only include files with PATTERN
-
-# Copy exmaple.txt from local to remote server
-rsync -avz -e ssh /path/to/example.txt user@remote-host:/path/to/destination/
-
-# Copy from local to remote
-# --progress : Show progress during a transfer using
-# -a Archive for recursive and preserver file attributes
-# -v verbose
-# -z compress data to reduce network use, required processing power
-rsync -avz --progress /local/destination/ -e ssh user@remote-host:/path/to/remote-file.txt
-
-```
-
--a option is a combination flag. It stands for "archive" and syncs
-recursively and preserves symbolic links, special and device files,
-modification times, group, owner, and permissions. It is more commonly
-used than -r and is usually what you want to use. n or –dry-run options
-(no changes made) -v verbose The -P flag is very helpful. It combines
-the flags –progress and –partial. The first of these gives you a
-progress bar for the transfers and the second allows you to resume
-interrupted transfers –exclude is used to ignore files and can have a
-recursive flag
-
-## tar - archiving utility
-
-``` bash
-
-# Untar a file todo.txt_cli-2.12.0.tar.gz
-tar -xvf todo.txt_cli-2.12.0.tar.gz
-
-```
-
-## wget
-
-``` shell
-
-# Mirror site - if you have a website, you can make a complete backup using this one simple command
-wget -m www.everydaylinuxuser.com
-# -m is a combination of all the -r, -l, -k commands below. Output will log to the screen.
-
-# Download site, and do not go to links below the current URL
-wget -m www.everydaylinuxuser.com/context/2 --no-parent
-# --no-parent can be used to prevent it from navigating to links below the current URL
-
-# Download site recursively
-wget -r -k -l10 www.everydaylinuxuser.com
-# -r Download a site recursively and create directories as needed (-x forces creation of directories)
-# -l Up to 10 levels deep, by default the command only downloads 5 levels deep
-# -k Turns links into relative local links
-
-# Download links from file, infinite levels down
-wget -r -k -l0 --no-parent -i artemislinks
-# -i download using URLs from a file called artemislinks
-# -l0 infinite levels
-
-```
-
-## which, where as, also use newer command type
-
-`which <command>` - find the location of a command
-
-`type <command>`
-
-Similar to:
-
-`whereis <command>` - find the location of command and its manual page
-
-## GNU Coreutils
-
-### cat - concatenate
-
-``` shell
-
-# Send multiline text to a file
-cat <<EOF > test.md
-The quick brown fox jumped over the lazy dog
-EOF
-
-```
-
-### chown, chmod - Change file permission
-
-``` bash
-
-# Give current user read write execute on all files in currect directory and files and folder below it
-chmod -R u=rwx ./
-
-# Change ownership to user tom, group admin of text.txt file
-sudo chown tom:admin test.txt
-
-# Chage just owner
-sudo chown admin test.txt
-
-# Change just group
-sudo chgrp devops test.txt
-
-```
-
-See also DevOps Bootcamp [Modifying
-Permissions](id:ec2b10e8-9f38-4b44-85be-842d5e02994d) file permissions
-section of - [DevOps Bootcamp with
-Nana](/garden/notes/005-computer-tech-devops-bootcamp-twn) - [DevOps Bootcamp
-Series with Nana Janashia](id:47b64b3b-67a0-4cc5-9e96-2369c5877b08)
-
-### df - display free disk space
-
-Reports on disk space on mounted and mounted file systems
-
-``` shell
-
-# display in human readable format
-df -h
-df -ahk
-# -a all mount points
-# -h human readable
-# -k Use 1024 byte (1-Kbyte) blocks
-
-```
-
-### du - disk usage
-
-``` shell
-
-# Check disk usage of current directory up to 1 directory level
-du -h --max-depth=1
-
-```
-
-### ln - link files
-
-``` shell
-
-# Create a symbolic link to a file
-ln -s /path/to/file /path/to/symlink
-
-# Create a symbolic link to a directory
-ln -s /path/to/directory /path/to/symlink
-
-# Remove a symbolic link
-rm /path/to/symlink
-rm -r /path/to/symlink-directory
-
-```
-
-### locate - find files from index
-
-See [Locate Snippets](/garden/notes/005-computer-snippets-locate) - [Locate
-Snippets](id:4bb55697-f217-4460-b29b-57d021a951a6)
-
-### od (Octal Dump)
-
-Displays a file in octal (base 8) format by default. Used for seeing
-data that isn't in a human readable format that control characters in
-files.
-
-``` shell
-
-# Display file in character format and show control characters
-od -c input.txt
-
-```
-
-### sort
-
-``` shell
-
-# Sort output of a command or text files, output to standard out
-sort file.txt
-
-# Sort file and save back to new file or can be same file
-sort file.txt -o new_file.txt
-
-# Call sort from uutil
-coreutils sort [OPTION] [FILE]
-
-```
-
-### tee - Update a file's contents and append items
-
-``` shell
-
-# Update a file's contents and append items
-# Update /etc/environment for all users
-echo "http_proxy=http://2.3.4.5:3128" | sudo tee -a /etc/environment
-echo "https_proxy=http://2.3.4.5:3128" | sudo tee -a /etc/environment
-echo "export no_proxy=localhost, 127.0.0.1" | sudo tee -a /etc/environment
-
-```
-
-### tr - translate/delete
-
-Use also `sed` command if use of `tr` becomes complex
-
-``` shell
-
-# Replace Characters J for Z
-echo 'Call me Justin' | tr 'J' 'Z'
-
-# Replace delimiters
-echo 'FirstName LastName Comment Age' | tr ' ' ','
-
-# Replace character with newlines
-# Easier way to see a path
-echo $PATH | tr ":" "\n"
-
-# Combine techniques below to clean up text
-echo "Mangled FiLE-nAMe.txt" | tr -d '-' | tr -s ' ' | tr ' ' '_' | tr '[:upper:]' '[:lower:]'
-# and pipe output to tr repeatedly like a bad filename
-
-# Replace lower case with upper case
-echo 'Call me Justin' | tr '[:lower:]' '[:upper:]'
-# or
-echo 'Call me Justin' | tr 'a-z' 'A-Z'
-# Other tokens that can be used for matching and replacing
-# [:alnum:]: Letters and digits.
-# [:alpha:]: Letters only.
-# [:digit:]: Digits only.
-# [:blank:]: Tabs and spaces.
-# [:space:]: All whitespace, including newline characters.
-# [:graph:]: All characters including symbols, but not spaces.
-# [:print:]: All characters including symbols, including spaces.
-# [:punct:]: All punctuation characters.
-# [:lower:]: Lowercase letters.
-# [:upper:]: Uppercase letters.
-
-# Invert matches with -c (complement)
-# Convert all spaces to dashes '-'
-echo 'A long file name nice to have as dashed name' | tr ' ' '-'
-
-# Delete characters -d
-# Delete all spaces and letter i
-echo 'Characters and 12354 numbers' | tr -d ' i'
-
-# Reduce repeated characters -s (squeeze repeats)
-# Reduce repeated spaces to a single space
-echo 'A  spaced  out  sentence' | tr -s ' '
-
-# Delete all blank characters
-echo 'Call  me  Just  in' | tr -d '[:blank:]'
-
-# Delete all whitespace (tabs, newlines, spaces)
-echo 'bunch of words to merge' | tr -d '[:space:]'
-
-# Delete everything except digits from a string
-# Deletion will include space, whitespace, newlines
-# -c and -d to complete (reverse match) and delete others
-echo 'Call me 123 Justin 552' | tr -cd '[:digit:]'
-
-```
-
-### uniq - choose unique items
-
-``` bash
-
-# Show only uniq lines in a file
-cat file.txt | uniq
-
-```
-
-### yes - repeat string or y
-
-Useful for scripts requiring prompts
-
-
-    # Output Hello world repeatedly
-    yes "Hello World"
-
-    # Automatically confirm a prompt, for example in apt, alternative to apt -y
-    yes | sudo apt install vim-nox
-
-    # Automatically decline a prompt by outputting n repeatedly
-    yes n | sudo apt install vim-nox
-    # Note yes piping will only work when there is a prompt
-    # In this example, if all vim-nox dependencies are installed, there won't be a prompt
-    # and the package will be installed anyways
-
-    # Limit output of string output to first 5 lines using head limit of 5
-    yes | head -n 5
-
-## GNU Findutils
-
-### find
-
-``` bash
-
-# Find files in current directory and subdirectories with .html extension
-find . -name "*.html" -type f
-
-# files with foo in the title
-find . -name "*foo*" -type f
-
-# Like above, except find all .html files and delete them
-find . -name "*.html" -type f -delete
-
-# Find files given filename and other parameters.
-# Some usage patterns are below.
-# -exec is powerful since it defines what to do with the file(s) found by the find command. For example, you can use grep to look for information inside those files (see below)
-find (./ -name or expression 'in quotes') -print
-
-# Find files containing a string called "string_here"
-find / -type f -exec grep -l "string_here" {} ;
-
-# Find files containing a string called "string_here" and output the lines from those files that contain that string. -print will show which files were found
-find / -type f -print -exec grep -l "string_here" {} ;
-
-# To see which files within the current directory and its subdirectories that end in s
-find . -name '*s' -print
-
-# Find files with dolphin in the file name, case insensitive and is a pdf
-find . -iname '*dolphin*' -iname '*.pdf' -print
-
-# Find largest files in current directory, sort
-find ./ -type f -size +2G -exec du -h {} + | sort -rh | head -30
-# -type f - is a file
-# -size +2G - is 2 gigabytes or larger
-# du -h - print out file information
-# head -30 - first 30 files
-
-```
-
-### xargs
-
-``` bash
-# xargs is a command that takes the output of a command and uses it as arguments to another command. It is useful for passing the output of one command to another command. For example, you can use it to pass the output of find to rm to delete files.
-# xargs can also read from file instead of standart input using -a file
-
-# Common examples of xargs usage:
-# - delete files found by find where files end in 's'
-find . -name '*s' -print | xargs rm
-
-# Find files named core in or below the directory /tmp and delete them, processing  filenames  in
-# such a way that file or directory names containing spaces or newlines are correctly handled.
-find /tmp -name core -type f -print0 | xargs -0 /bin/rm -f
-
-# Generates a compact listing of all the users on the system
-cut -d: -f1 < /etc/passwd | sort | xargs echo
-
-# Find a specific file and open its directory in Dolphin
-find . -name 'file_name' -exec dirname {} \; | xargs dolphin
-find . -iname 'filename' -printf %h\0 | xargs -0t dolphin
-```
-
-This post lists common commands used in Windows and Linux/Unix system
-administration, server support, and troubleshooting.
 
 ## Networking
 
@@ -965,6 +506,271 @@ file system structure.
 
     ```
 
+## &\> pipes
+
+``` bash
+
+# pipe output of command to file
+start_server &> filename.log
+
+# >> redirection operator will append lines to the end of the specified file
+start_server >> filename.log
+
+# > empty and overwrite file
+start_server > filename.log
+
+```
+
+## pkill, kill, killall - stop process also known as kill
+
+``` shell
+
+# Kill all processes with name firefox inside process name
+pkill -f firefox
+
+# Send signals to process
+kill (-HUP) process_id
+# kills a process with pid specified
+kill -9 pid
+
+# kill all processes by a name, for example firefox browser
+killall firefox
+
+```
+
+## ps - process status
+
+``` shell
+
+# List all processes
+ps -A
+
+# List all processes with user name
+ps -ef
+
+# Search for a process that matches a string
+ps aux | grep string
+
+# in bash, show pid of current shell
+echo $$
+
+```
+
+## Redirects (\>) and truncate to clear files
+
+``` shell
+
+# Clear all contents of a specified file
+
+# Non root method is
+# https://superuser.com/questions/90008/how-to-clear-the-contents-of-a-file-from-the-command-line
+> file-to-clear.txt
+
+# Clear file that requires root permissions
+# https://superuser.com/questions/90008/how-to-clear-the-contents-of-a-file-from-the-command-line/634217#634217
+sudo truncate -s 0 /etc/environment
+
+```
+
+## Rename
+
+``` bash
+# Find all file names in current directory containing string searchString
+# and replace in filename the string foo with string bar
+# -n is test first, then run
+find . -name "*foo*" -exec rename -n 's/foo/bar/' {} \;
+find . -name "*foo*" -exec rename 's/foo/bar/' {} \;
+```
+
+## rsync
+
+Source:
+<https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories>,
+[Everyday Rsync - Veronica Explains](https://vkc.sh/everyday-rsync/),
+[Rsync on Archwiki](https://wiki.archlinux.org/title/Rsync)
+
+Synchronize directories and files across local and remote machines
+
+``` bash
+
+# Test Synchronize a source and destination --dry-run
+rsync --dry-run -anv source destination
+
+# Synchronize with ssh destination
+rsync -av ~/records username@destination.server:~/record-archives
+## Best practice is destination is remote in case remote directory is not mounted properly
+
+# Recurvisely copy first directory/file to destination file and exclude folder/files called Archive and include only 7z files
+rsync -aPvh --delete "${LIBRARYDIR}/${array[$i]}/" "${LOCALDIR}/${array[$i]}/" --exclude "Archive" --include="*.7z"
+# -a archive mode (recursively copy directories, copy symlinks without resolving, and preserve permissions, ownership and modification times)
+# -P show progress, partial transfer of files
+# -v verbose
+# -h use human readable numbers
+# --delete delete files in destination directories if not existing in source
+#   Can also use --delete-before or --delete-after to have deletes occur at a certain time in job
+# --exclude PATTERN do not copy files with PATTERN
+# --include PATTERN only include files with PATTERN
+
+# Copy exmaple.txt from local to remote server
+rsync -avz -e ssh /path/to/example.txt user@remote-host:/path/to/destination/
+
+# Copy from local to remote
+# --progress : Show progress during a transfer using
+# -a Archive for recursive and preserver file attributes
+# -v verbose
+# -z compress data to reduce network use, required processing power
+rsync -avz --progress /local/destination/ -e ssh user@remote-host:/path/to/remote-file.txt
+
+```
+
+-a option is a combination flag. It stands for "archive" and syncs
+recursively and preserves symbolic links, special and device files,
+modification times, group, owner, and permissions. It is more commonly
+used than -r and is usually what you want to use. n or –dry-run options
+(no changes made) -v verbose The -P flag is very helpful. It combines
+the flags –progress and –partial. The first of these gives you a
+progress bar for the transfers and the second allows you to resume
+interrupted transfers –exclude is used to ignore files and can have a
+recursive flag
+
+## sed (stream editor)
+
+``` shell
+
+# [s]ubstitute all occurrences of "apple" with "mango" on all lines, print to stdout, use basic regex
+command | sed 's/apple/mango/g'
+
+# Use extended regular expressions with -E
+sed -E 's/pattern/replacement/flags'
+## Replace dog and cat with pet
+"dog cat moose" | sed -E 's/(cat|dog)/(pet)/g'
+
+# Replace "apple" with "mango" in-place in a file (overwriting original file), use basic regex
+sed [-i|--in-place] 's/apple/mango/g' path/to/file
+sed -i 's/apple/mange/g' fruits.txt
+
+# Run multiple substitutions in one command
+command | sed -e 's/apple/mango/g' -e 's/orange/lime/g'
+
+# Use a custom delimiter (useful when the pattern contains slashes)
+command | sed 's#////#____#g'
+
+# [d]elete lines 1 to 5 of a file and back up the original file with a .orig extension
+sed [-i|--in-place=].orig '1,5d' path/to/file
+
+# [p]rint only the first line to stdout
+command | sed [-n|--quiet] '1p'
+
+# [i]nsert a new line at the beginning of a file, overwriting the original file
+sed [-i|--in-place] '1i\your new line text\' path/to/file
+
+# Delete blank lines (with or without spaces/tabs) from a file, overwriting the original file:
+sed [-i|--in-place] '/^[[:space:]]*$/d' path/to/file
+
+# Delete lines containing a string
+sed -i '/lang.sql/d' lazyvim.json
+
+```
+
+## source, environment variables
+
+``` shell
+
+# Source temporary environment variables
+# using an .env file
+# from https://stackoverflow.com/questions/43267413/how-to-set-environment-variables-from-env-file
+
+## Option 1
+### This requires appropriate shell quoting. It's thus appropriate
+### if you would have a line like foo='bar baz', but not if that same line would be written foo=bar baz
+set -a # automatically export all variables
+source .env
+set +a
+
+## Option 2
+### if .env is a valid shell execution file like export foo=bar
+### then simple source will work
+source .env
+
+## Option 3
+### Assuming no whitespace in environment values
+export $(xargs <.env)
+
+```
+
+## ss (socket statistics)
+
+- Check open ports, connections
+
+``` shell
+
+# Show all connections
+ss
+
+# Network statistics
+ss -s
+# Real time report, Ctrl + c to exit
+watch ss -s
+
+# List ports and processes
+# -t TCP sessions
+# -u UDP sessions
+# -l Listening TCP connections
+# -n numeric, human readable
+# -p show process at socket
+ss -lntup
+
+# IPv4 connections
+ss -4
+# IPv6 connections
+ss -6
+
+```
+
+## tar - archiving utility
+
+``` bash
+
+# Untar a file todo.txt_cli-2.12.0.tar.gz
+tar -xvf todo.txt_cli-2.12.0.tar.gz
+
+```
+
+## wget
+
+``` shell
+
+# Mirror site - if you have a website, you can make a complete backup using this one simple command
+wget -m www.everydaylinuxuser.com
+# -m is a combination of all the -r, -l, -k commands below. Output will log to the screen.
+
+# Download site, and do not go to links below the current URL
+wget -m www.everydaylinuxuser.com/context/2 --no-parent
+# --no-parent can be used to prevent it from navigating to links below the current URL
+
+# Download site recursively
+wget -r -k -l10 www.everydaylinuxuser.com
+# -r Download a site recursively and create directories as needed (-x forces creation of directories)
+# -l Up to 10 levels deep, by default the command only downloads 5 levels deep
+# -k Turns links into relative local links
+
+# Download links from file, infinite levels down
+wget -r -k -l0 --no-parent -i artemislinks
+# -i download using URLs from a file called artemislinks
+# -l0 infinite levels
+
+```
+
+## which, where as, also use newer command type
+
+`which <command>` - find the location of a command
+
+`type <command>`
+
+Similar to:
+
+`whereis <command>` - find the location of command and its manual page
+
 ## See Also
 
 - [awk - text processing and pattern
@@ -983,6 +789,8 @@ file system structure.
   Readline](/garden/notes/005-computer-shortcuts-linux-terminal-gnu-readline) -
   [Linux Terminal Shortcuts - GNU
   Readline](id:bf3b61d8-23cc-4959-a5c7-17041d7e43f4)
+- [Nushell Snippets](/garden/notes/005-computer-snippets-nushell) - [Nushell
+  Snippets](id:8f076960-3e23-4f1c-a53e-239ec3a61cb4)
 
 ### Resources
 

@@ -11,11 +11,12 @@ Some snippets are bash shell specific
 # Search all files in current directory (default)
 fzf
 
-# Search and only multiple select
+# Search and only multiple select with --multi or -m
 fzf --multi
 fzf -m
 
 # Search files using find and selections to file
+# Run interactive finder, read the list from STDIN, and write the selected item to STDOUT.
 find * -type f | fzf > selected
 
 # Search only directories, change directory into them
@@ -49,6 +50,8 @@ vim ** <TAB>
 ssh ** <TAB>
 unset ** <TAB>
 kill -9 ** <TAB>
+unalias ** <TAB>
+export ** <TAB>
 # Command will give a pop up for search on:
 # - files
 # - known hosts
@@ -65,6 +68,9 @@ source /usr/share/fzf/shell/key-bindings.bash
 # Nushell: Open fzf selected file with a helix
 hx (fzf)
 
+# With --height HEIGHT[%], fzf will start below the cursor with the given height.
+fzf --height 40%
+
 ```
 
 ## Search and Filters
@@ -74,10 +80,10 @@ hx (fzf)
 # fzf extended search - default setting
 # https://github.com/junegunn/fzf#search-syntax
 
-# fuzzy-match   Items that match sbtrkt
+# fuzzy-match, Items that match sbtrkt
 fzf sbtrkt
 
-# exact-match   Items that match wild (uses ')
+# exact-match, Items that match wild (uses ')
 fzf \'wild
 fzf -e
 
@@ -102,13 +108,13 @@ fzf +i
 fzf \'wild \'world
 # prefix-exact-match - items that start with music
 fzf ^music
-# suffix-exact-match    Items that end with .mp3
+# suffix-exact-match, Items that end with .mp3
 fzf .mp3$
-# inverse-exact-match   Items that do not include fire
+# inverse-exact-match, Items that do not include fire
 fzf !fire
-# inverse-prefix-exact-match    Items that do not start with music
+# inverse-prefix-exact-match, Items that do not start with music
 fzf !^music
-# inverse-suffix-exact-match    Items that do not end with .mp3
+# inverse-suffix-exact-match, Items that do not end with .mp3
 !.mp3$
 
 ```
@@ -128,6 +134,9 @@ Sources:
 # fe - Starts an editor for the selected files in the fuzzy finder
 fzf | xargs $EDITOR
 fzf | xargs nvim
+# Search for a string 'var' in files and open in edtior
+rg var | fzf | cut -d':' -f 1 | xargs -n 1 nvim
+nvim (rg var | fzf | cut -d':' -f 1)
 
 # fkill - Stops process selected by the user in fzf.
 ps -ef | fzf | awk '{print $2}' | xargs kill -9
@@ -148,6 +157,8 @@ Get-ChildItem . -Recurse -Attributes !Directory | Invoke-Fzf | % { notepad $_ }
 
 ### Resources
 
+- [FZF Will CHANGE How You Work - DevOps Toolbox -
+  YouTube](https://www.youtube.com/watch?v=MvLQor1Ck3M)
 - [Linux Fuzzy
   Finder](https://www.redhat.com/sysadmin/fzf-linux-fuzzy-finder)
 - [Practical Guide to fzf

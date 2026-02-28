@@ -9,6 +9,11 @@ title: Systemd, journal Snippets
 # Show all running services
 systemctl status
 
+# List all services
+systemctl --type=service
+# List all running services with --state=running
+systemctl --type=service --state=running
+
 # Show status of a unit
 systemctl status unit
 systemctl status portmaster

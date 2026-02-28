@@ -18,16 +18,24 @@ asdf list all name
 # List install packages with name
 asdf list name
 
-# Install a specific version of a package:
-asdf install name version
+# Install a specific version of a package
+asdf install packagename version
 
-# Set global version for a package:
-asdf set -u name version
+# Uninstall a specific version of a package
+asdf uninstall packagename version
+
+# Set global version for a package
+asdf set -u packagename version
+
+# Set global version for a package, for example ProtonGE, to the latest
+asdf set -u protonge latest
 
 # Example: Install Proton Glorious Eggroll (GE) with unofficial plugin
 asdf plugin add protonge
 # Or install a version from a tag (Eg.: GE-Proton8-25)
 asdf install protonge latest
+# and set protonge at latest version
+asdf set -u protonge latest
 
 # Update all plugins to latest commit on default branch
 asdf plugin update --all

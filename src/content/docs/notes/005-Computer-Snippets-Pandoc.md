@@ -125,6 +125,17 @@ pandoc -s (fzf) --css=basic-org.css --standalone -o output.html; firefox output.
 
 ```
 
+## HTML to Org
+
+Recommend download the page using `curl` or using a browser and reader
+mode to extract just the content for the page.
+
+``` shell
+
+pandoc -s input.html -f html -t org -o output.org
+
+```
+
 ## Docx to Org
 
 ``` bash

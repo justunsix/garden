@@ -10,6 +10,9 @@ title: Locate Snippets
 # Update Locate index database
 sudo updatedb
 
+# Find specific file with name
+locate myfile
+
 # Use a specific database called db_file for indexing the source_directory
 updatedb -l 0 -o db_file -U source_directory
 

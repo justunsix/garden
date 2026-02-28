@@ -122,6 +122,9 @@ def cast_spell(wand, incantation, target=None):
 # String
 "string3"
 print("string1")
+# Cast value as String
+str(1)
+str("hello")
 
 # Numbers as:
 ## Float

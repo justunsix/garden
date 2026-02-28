@@ -10,6 +10,10 @@ Source: TDLR pages for Flatpak
 
 # Run an installed application
 flatpak run com.example.app
+# Run an install application with a selection
+flatpak run (flatpak list --columns=application --app | fzf)
+# --columns - only shown application column
+# --app - only show applications (not runtimes)
 
 # Install an application from a remote source
 flatpak install remote_name com.example.app
@@ -18,7 +22,7 @@ flatpak install remote_name com.example.app
 flatpak list --app
 
 # Update all installed applications and runtimes
-flatpak update
+flatpak update -y
 
 # Add a remote source
 flatpak remote-add --if-not-exists remote_name remote_url

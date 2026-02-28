@@ -24,4 +24,11 @@ bat -H 10:20 my_log_file.log
 # Diff - Check for differences in file with respect to git index
 bat --diff file_that_changed.md
 
+# See output of system commands with colour
+lsblk | bat -l conf -p
+ps au | bat -l conf
+lsmod | bat -l conf
+lscpu | bat -l cpuinfo
+sensors | bat -l cpuinfo
+
 ```

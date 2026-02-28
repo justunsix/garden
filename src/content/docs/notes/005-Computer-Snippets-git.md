@@ -8,6 +8,10 @@ Source: [Git - Documentation](https://git-scm.com/doc)
 
 ``` bash
 
+# Stage (add) a file for commit and commit change
+git add path/to/file/in/repository
+git commit -m"my message"
+
 # Clone (download) a repository
 git clone url
 # Clone only a branch
@@ -164,11 +168,19 @@ git cherry-pick <commit-hash>
 ## Get range or commits
 git cherry-pick <start-hash>^..<end-hash>
 
+# Stash changes temporarily and retrieve them (pop) after a pull from remote
+git stash
+git pull
+git pop
+
 # Stash the changes in a dirty working directory away with git stash
 # Temporarily saves your local changes away and reverts the working directory to match the HEAD commit, save changes using stash
 git stash --include-untracked
 git stash push -u -m "work in progress on feature Y"
-## Complete work in other branch, then open changes again
+## push - creates a new stash entry for popping later to describe changes
+## -u or --include-untracked - includes all change and untracked files
+## -m or --message - provide a message describing changes
+## Complete work in other branch, then pop changes again
 git stash pop
 
 # See stashed changes
@@ -212,6 +224,17 @@ gpg --list-secret-keys --keyid-format=long
 git config --global user.signingkey <your-key-id>
 git config --global commit.gpgsign true
 
+# Change git commits information
+## Start interactive rebase (-i) with optional commit hash for range to target
+## Choose commits to edit
+git rebase -i hash002
+## Make changes
+git commit --amend <amend information>
+## Example: change commit author
+git commit --amend --author="John Smith <John.Smith@email.com>"
+## Continue rebase until all selected commits are changed
+git rebase --contiue
+
 ```
 
 ## Create a new repository
@@ -249,7 +272,8 @@ Source:
 git init --bare ~/repos/myproject.git
 cd /path/to/existing/repo
 git remote add origin ~/repos/myproject.git
-git push origin master
+# Push main to origin
+git push origin main
 
 ```
 

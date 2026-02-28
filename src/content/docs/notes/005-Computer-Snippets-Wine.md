@@ -6,6 +6,11 @@ title: Wine Snippets
 
 ``` shell
 
+# Set Wine prefix location and 64-bit architecture environment variables
+export WINEPREFIX="/path/to/WinApps/myprogram/pfx"
+# Set Wine to 64-bit
+export WINEARCH="win64"
+
 # Run a specific program inside the `wine` environment:
 wine command
 
@@ -17,6 +22,7 @@ wine start mycommand.exe
 
 # Install/uninstall an MSI package
 wine msiexec /i|x path/to/package.msi
+wine msiexec /i ~/Downloads/program.msi
 
 # Run `File Explorer`, `Notepad`, or `WordPad`
 wine explorer|notepad|write
@@ -29,6 +35,13 @@ wine winecfg
 
 # Run Wine Configuration with a specific prefix
 WINEPREFIX=~/.newprefix winecfg
+
+# Run a specific program
+cd "/path/to/WinApps/myprogram/pfx/drive_c/users/yourusername/programdirectory"
+wine start program.exe
+
+# Open uninstaller
+wine uninstaller
 
 ```
 

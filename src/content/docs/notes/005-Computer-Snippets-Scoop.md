@@ -13,6 +13,9 @@ scoop install git
 scoop update -a
 scoop update --all
 
+# Hold updates on program
+scoop hold msys2
+
 # Add extras bucket
 scoop bucket add extras
 

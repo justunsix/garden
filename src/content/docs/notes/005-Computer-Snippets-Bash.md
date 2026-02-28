@@ -153,8 +153,11 @@ fg
 # Job, move application to background
 # Press Ctrl + z
 
-# Formatting printing, like with new lines
+# Formatting printing, like echo with new lines
 printf "\nCopied data to $folder"
+# Printing echo with colour
+echo -e "\033[0;32mYour text here\033[0m"
+# where \033[0;32m sets the text color to green and \033[0m resets it back to default.
 
 # Passing array of strings as arugments to a command
 local topgrade_flags=(--disable clam_av_db asdf vim helix uv)
@@ -173,5 +176,27 @@ while [ $counter -le 6 ]; do
     fi
     counter=$((counter + 1))
 done
+
+# Loop through files in a directory called mydir
+cd mydir
+for file in *.mp3 *.pdf; do
+    if [[ -e $file ]]; then
+        echo "Looping on file $file"
+     else
+        echo "No files with that extension found in the current directory."
+     fi
+done
+
+# Process Substitution
+# Allows a process’s input or output to be referred to using a filename
+# which is a like a temporary file in procs folder
+# Process substituion: Output program output to less and errors to an error.txt file
+myapprun > >(less) 2> >(tee errors.txt)
+
+# Process substituion: tar folder/file called target, send it to other servers with ssh and extract
+tar cf - target | tee >(ssh myserver2 tar xf -) >(ssh myserver2 tar xf -)
+
+# Process substituion: open in vim a temporary output of a command concatenate of 2 files
+v <(file1 file2)
 
 ```

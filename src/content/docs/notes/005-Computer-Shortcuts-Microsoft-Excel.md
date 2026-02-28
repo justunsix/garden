@@ -9,3 +9,4 @@ title: Microsoft Office Excel Shortcuts
 | Select region | Select with mouse or Shift + Arrow keys |
 | Move, Selected region | Hold mouse on edge of region, move |
 | Move, Selected region and insert | Shift + Hold mouse on edge of region, move |
+| Go to range, example A450, column A, line 450 | Ctrl + g |

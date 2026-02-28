@@ -62,6 +62,7 @@ is at the right and moves right. j The j key looks like a down arrow. v
 | File, Open, Edit \<file\> | :e \<file\> or :edit \<file |
 | File, Save as | :f |
 | File, set file encoding | set fileencoding=utf8 |
+| File, set autowrite (aw), write on certain changes | set aw |
 | Show list of commands / autocomplete | : \<…\> Ctrl + D or tab |
 | Autocomplete, chose choices | Tab |
 | Autocomplete, accept choice, keep in command mode | Ctrl + y |
@@ -81,6 +82,8 @@ is at the right and moves right. j The j key looks like a down arrow. v
 | Digraphs, show call digraph codes | :diagraphs |
 
 For `:make`, output will go to quickfix list for easy fixes on items
+
+For `:set` commands, see `:help options.txt`
 
 ### Search for patterns with :grep, :lgrep, :vimgrep, :lvimgrep
 
@@ -210,7 +213,6 @@ commands.
     cdo s/OLDPATTERN/NewPATTERN/g | update
     # Search and replace and ask for check
     cdo s/OLDPATTERN/NewPATTERN/gc | update
-
 
     ```
 
@@ -389,6 +391,8 @@ Other table per `vimtutor` command
 
 | Description | Shortcut |
 |----|----|
+| Command-line window, buffer for commands, Edit line, hit Enter to run | q: (like C-f in command mode) |
+| Command-line window, search history, Edit line, hit Enter to run | q/ or q? |
 | Delete 10 lines | d10, d |
 | Delete all lines | :%d |
 | Delete character at point | x |
@@ -410,7 +414,6 @@ Other table per `vimtutor` command
 | Repeat last command, repeat macro (like command, inserts, combos) | . |
 | Replace all occurrences of string<sub>old</sub> with new, new can be blank | :%s/string<sub>old</sub>/new |
 | Replace in region string<sub>old</sub> with new, new can be blank with g global | :'\<,'\>s/string<sub>old</sub>/new/g |
-| Search: command history | q: (like C-f in command mode) |
 | Undo | u |
 
 ## Other Shortcuts
@@ -440,6 +443,7 @@ Other table per `vimtutor` command
 | Select, visual and selected area | v i \<choose selection options\> |
 | Select, visual and text inside selected symbol, like bracket | v i \], v i ', v i " |
 | Select, visual block mode (rectangle mark, multiple cursor select) | C-v |
+| Select, visual block mode, insert | C-v i |
 | Select, visual line mode | V |
 
 - `p` can be combined with `dd` to delete and then paste the deleted
@@ -752,12 +756,11 @@ From :h windows-intro:
 |--------------------------------------|-------------------------------------|
 | Close split frame                    | C-w c                               |
 | Close window                         | :q                                  |
-| Max height                           | \_                                  |
-| Move to next window                  | Ctrl + w w                          |
-| Move window to new tab               | Ctrl + w T                          |
-| Resize, Balance windows              | Ctrl + w =                          |
-| Resize, Maximize height              | Ctrl + w \_                         |
-| Resize, Maximize width               | Ctrl + w                            |
+| Move to next window                  | C-w w                               |
+| Move window to new tab               | C-w T                               |
+| Resize, Balance windows              | C-w =                               |
+| Resize, Maximize height              | C-w \_                              |
+| Resize, Maximize width               | C-w S-\\                            |
 | Split frame, horizontal (top, down)  | C-w, s or :sp                       |
 | Split frame, open file at cursor     | C-w, f                              |
 | Split frame, open file in new window | :sp \<file\>                        |
@@ -799,19 +802,20 @@ IDEs. They preserve the window layout.
 
 ## Help
 
-| Description                               | Shortcut                    |
-|-------------------------------------------|-----------------------------|
-| Help                                      | :help or :h                 |
-| Help key                                  | F1                          |
-| Help on command                           | :help \<command\>           |
-| Help on a key in normal mode              | :help \<key\>               |
-| Help on a key in insert mode              | :help i\_\<key\>            |
-| Help on a key in command mode             | :help c\_\<key\>            |
-| Help, search for a word                   | :helpgrep \<word\>          |
-| Help, go to documentation/link at point   | K                           |
-| Documentation at point                    | K                           |
+| Description | Shortcut |
+|----|----|
+| Help | :help or :h |
+| Help, quick reference, summarized help by topic | :help or :h quickref |
+| Help key | F1 |
+| Help on command | :help \<command\> |
+| Help on a key in normal mode | :help \<key\> |
+| Help on a key in insert mode | :help i\_\<key\> |
+| Help on a key in command mode | :help c\_\<key\> |
+| Help, search for a word | :helpgrep \<word\> |
+| Help, go to documentation/link at point | K |
+| Documentation at point | K |
 | Documentation at point, enter docs buffer | K K or K Ctrl + w, Ctrl + w |
-| Documentation at point, exit docs buffer  | q                           |
+| Documentation at point, exit docs buffer | q |
 
 ## Terminal
 

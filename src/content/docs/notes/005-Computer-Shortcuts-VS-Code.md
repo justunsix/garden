@@ -12,6 +12,23 @@ title: VS Code Shortcuts
 | Toggle Zen Mode   | View, Toggle zen mode  |
 | Split editor 1, 2 | Ctrl + 1, 2, etc.      |
 
+## Command Palette
+
+Commands for different functions
+
+### PlantUML Extension
+
+| Description | Shortcut |
+|----|----|
+| Diagram, Preview current diagram on side | PlantUML: Preview Current Diagram |
+
+### GitHub Copilot Extension
+
+| Description                         | Shortcut                          |
+|-------------------------------------|-----------------------------------|
+| Chat, Index files for use with chat | Chat: Build Local Workspace Index |
+| Chat, Export chat history           | Chat: Export Session              |
+
 ## Tabs
 
 | Description                                        | Shortcut   |

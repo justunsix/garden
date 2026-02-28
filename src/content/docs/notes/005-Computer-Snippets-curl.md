@@ -83,6 +83,9 @@ curl wttr.in/toronto?m
 # Get dictionary definition of curl
 curl "dict://dict.org/d:curl"
 
+# Get cheat sheet information for commands, languages
+curl cheat.sh/bash
+
 # Access AWS API with AWS authentication
 curl --request GET "https://aws-id.s3.us-eastnaws.com" --user myuser --aws-sigv4 "aws:amz:us-east-1:s3"
 

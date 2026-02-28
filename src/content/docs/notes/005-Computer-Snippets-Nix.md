@@ -132,25 +132,25 @@ nix-shell
 ``` nix
 
 let
-  nixpkgs = fetchTarball "https://github.com/NixOS/nixpkgs/tarball/nixos-23.11";
-  pkgs = import nixpkgs { config = {}; overlays = []; };
+nixpkgs = fetchTarball "https://github.com/NixOS/nixpkgs/tarball/nixos-23.11";
+pkgs = import nixpkgs { config = {}; overlays = []; };
 in
 
 pkgs.mkShell {
-  packages = with pkgs; [
+packages = with pkgs; [
     cargo
     rustc
     rust-analyzer
     rustfmt
     clippy
     vim
-  ];
+];
 
-  GIT_EDITOR = "${pkgs.neovim}/bin/vim";
+GIT_EDITOR = "${pkgs.neovim}/bin/vim";
 
-  shellHook = ''
+shellHook = ''
     git status
-  '';
+'';
 }
 
 ```
@@ -158,15 +158,15 @@ pkgs.mkShell {
 - To pin a version of nixpkgs, use `fetchTarball` to get a specific
   version of nixpkgs:
 
-  ``` nix
+``` nix
 
-  { pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/06278c77b5d162e62df170fec307e83f1812d94b.tar.gz") {}
+{ pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/06278c77b5d162e62df170fec307e83f1812d94b.tar.gz") {}
 
-  }:
+}:
 
-  ...
+# ...
 
-  ```
+```
 
 ## Home Manager
 

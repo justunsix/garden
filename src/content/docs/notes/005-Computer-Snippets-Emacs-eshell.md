@@ -33,7 +33,7 @@ echo hello && echo world
 ;; Grep all files in directory, open in Emacs grep mode
 grep PATTERN *
 
-;; Evalute subshell
+;; Evalute subshell commands
 echo $(+ 1 2 3)
 
 ;; Parse agrument string into elisp notation
@@ -42,16 +42,23 @@ listify 1 2 3
 ;; Add path to $PATH environment variable or print existing paths if no argumment
 addpath PATH
 
+;; Unset, remove environment variable
+unset ENV-VAR
+
 ;; magit status of directory
 magit
 
+;; Convert string to upper or lowercase
+upcase STRING
+downcase STRING
+
 ;; Status of version controlled directory
-vc-dir
+vc-dir DIRECTORY
 
 ;; Diff two files
 ediff-files FILE1 FILE2
 
-;; Alias
+;; Alias Setting
 alias ff 'find-file $1'
 
 ;; Run command in background if external to Emacs
@@ -66,4 +73,22 @@ curl hello.org &
 ;; Run eshell commands in a batch file with eshell-batch-file
 #!/usr/bin/env -S emacs --batch -f eshell-batch-file
 
+;; List recent directories
+cd =
+;; Go to listed directory by number
+cd -0
+
+;; SSH, cd into Docker containers
+ssh server
+
+;; Common Commands re-implemented by eshell
+cat, cp, ls, cd, export, dirs, du, echo, env, kill, ln, mkdir, mv, alias, popd, pushd, pwd, rm, rmdir, time, umask
+
 ```
+
+## See Also
+
+### Resources
+
+- [Mastering Eshell - Mastering
+  Emacs](https://www.masteringemacs.org/article/complete-guide-mastering-eshell)

@@ -19,7 +19,7 @@ title: Linux Terminal Shortcuts - GNU Readline
 | Cursor: line - move to end | C-e, End |
 | Cursor: move to beginning of word | M-b / C-left arrow |
 | Cursor: move to end of word | M-f / C-right arrow |
-| Search history reverse isearch | C-r |
+| Search command history reverse isearch | C-r |
 | Transpose character / word | C-t / M-t |
 
 ## Macros

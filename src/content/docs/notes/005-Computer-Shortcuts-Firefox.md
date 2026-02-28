@@ -6,22 +6,24 @@ title: Firefox Shortcuts
 
 | Description | Shortcut |
 |----|----|
-| Select tab | Alt + 1, 2, 3, 4, 5, 6, 7, 8, 9 |
-| Go to location bar | Ctrl + l, F6 |
-| Move tabs | Alt-Page up/Page Down |
-| Location bar, search engine | Ctrl + k |
-| Location bar, search engine select | Ctrl + k or search and Alt + arrow keys |
-| Location bar, search bookmarks | \* \<search\> , @bookmarks |
-| Location bar, search history | ^ \<search\> , @history |
-| Location bar, search tabs | % \<search tabs\> , @tabs |
-| Location bar, search actions [^1] | @actions |
-| Manage Bookmarks | Ctrl + Shift + o |
-| Reopen closed tab | Ctrl + Shift + T |
 | Caret mode (cursor on page) | F7 |
 | Chat box | Ctrl + Alt + x |
-| Search, start or quick find | Ctrl + f or / |
+| Downloads, show | Ctrl + Shift + y |
+| Go to location bar | Ctrl + l, F6 |
+| Location bar, search actions [^1] | @actions |
+| Location bar, search bookmarks | \* \<search\> , @bookmarks |
+| Location bar, search engine | Ctrl + k |
+| Location bar, search engine select | Ctrl + k or search and Alt + arrow keys |
+| Location bar, search history | ^ \<search\> , @history |
+| Location bar, search tabs | % \<search tabs\> , @tabs |
+| Manage Bookmarks | Ctrl + Shift + o |
 | Search, find again | F3 or Ctrl + g |
 | Search, find previous | Shift + F3, Ctrl + Shift + g |
+| Search, start or quick find | Ctrl + f or / |
+| Tab, Move tabs | Alt-Page up/Page Down |
+| Tab, new split tab | Right click existing tab, Add split view |
+| Tab, Reopen closed tab | Ctrl + Shift + T |
+| Tab, Select tab | Alt + 1, 2, 3, 4, 5, 6, 7, 8, 9 |
 
 ## Navigation
 

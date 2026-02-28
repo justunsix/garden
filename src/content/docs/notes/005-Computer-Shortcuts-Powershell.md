@@ -1,5 +1,5 @@
 ---
-filetags: ":shortcuts:epubnote:"
+filetags: ":shortcuts:powershell:epubnote:"
 id: 95c7a21b-9498-46ac-a81a-6184ebf6a884
 title: PowerShell Shortcuts
 ---

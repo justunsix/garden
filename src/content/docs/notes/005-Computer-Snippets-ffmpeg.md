@@ -25,6 +25,9 @@ ffmpeg -i input.mp4 -q:a 0 -map a output.mp3
 # -map a maps only the audio stream.
 # See script below for batch conversions
 
+# Create audio from existing video
+ffmpeg -i input_video.mp4 -q:a 0 -map a audio.wav
+
 # Compress video files, reduce file fize with slight reduction in quality
 ffmpeg -i input.mp4 -vcodec libx264 -crf 23 output.mp4
 # -vcodec libx264 specifies the H.264 codec for encoding.
@@ -73,8 +76,8 @@ ffmpeg -i input.mp4 -vf "fps=10,scale=320:-1" -ss 00:00:10 -t 00:00:20 output.gi
 
 # Other option - convert video to gif
 ffmpeg -i input.mp4 \
-  -vf "fps=10,scale=400:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" \
-  -loop 0 output.gif
+-vf "fps=10,scale=400:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" \
+-loop 0 output.gif
 
 # Other Options
 ffmpeg -i input.mp4 -vf fps=20,scale=320 output.gif

@@ -25,7 +25,7 @@ See :h lsp for more commands
 
 | Description                                       | Shortcut    |
 |---------------------------------------------------|-------------|
-| Go to, lsp definition, variable/function creation | C-\]        |
+| Go to, lsp definition, variable/function creation | C-\] , gd   |
 | Go to, lsp tag, variable/function use             | C-t         |
 | Go to, lsp reference of item at point             | g r         |
 | Go to, lsp references                             | g r r       |
@@ -93,17 +93,18 @@ See :h lsp for more commands
 | Go to, Toggle comment line | g c c |
 | Go to, Toggle comment on selection | g c |
 | Help: search | \<l\> s h |
+| Marks, show lists | ' |
 | Navigation, buffer to left, right of current | H, L |
 | Navigation, Next, buffer | \]b |
 | Navigation, Previous, buffer | \[b |
 | Navigation, previous/next paragraph/section | {, } |
 | Navigation, previous/next sentence | (, ) |
+| Neo tree, File explorer | \<l\> e |
+| Neo tree, File explorer open in cwd | \<l\> E |
 | Neo tree, File, Add file, add folder | a, A |
 | Neo tree, File, Copy | y |
 | Neo tree, File, Cut | x |
 | Neo tree, File, Delete | d |
-| Neo tree, File explorer | \<l\> e |
-| Neo tree, File explorer open in cwd | \<l\> E |
 | Neo tree, File, Open file/folder | Enter |
 | Neo tree, File, Open file/folder |  |
 | Neo tree, File, Paste | p |
@@ -112,11 +113,12 @@ See :h lsp for more commands
 | Neo tree, Help | :help neo-tree |
 | Neo tree, Move up, down, scroll up, down | j, k, C-u, C-d |
 | Neo tree, Quit | q |
-| Registers, show lists | " |
-| Marks, show lists | ' |
 | Neo tree, Seek / search | s or / |
 | Neo tree, Toggle hidden files | H |
 | Notifications | :noice |
+| Notifications, history | \<l\> n |
+| Notifications, see all | \<l\> sna |
+| Registers, show lists | " |
 | Screen: Adjust height and width | C-arrow keys |
 | Screen: Navigate to screen in direction | C-h,j,k,l |
 | Search: Buffer | \<l\> s b |
@@ -127,8 +129,8 @@ See :h lsp for more commands
 | Search: Help | \<l\> s h |
 | Search: Keymap | \<l\> s k |
 | Search: Replace, Do Replace | \<l\> s r, \<l\> R |
-| Search: Todos | \<l\> s t |
 | Search: selection, selected tex on root or cwd | \<l\> s w or s W |
+| Search: Todos | \<l\> s t |
 | Terminal, Bring up/Hide open terminal | C-/ |
 | Terminal, Find: enter terminal | \<l\> f t |
 | Terminal, return to normal mode | ESC ESC or C-\\ C-n (default vim) |

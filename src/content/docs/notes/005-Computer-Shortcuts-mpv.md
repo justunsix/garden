@@ -16,8 +16,23 @@ Source: [mpv.io](https://mpv.io/manual/master/)
 | Speed Down (slower)          | \[              |
 | Speed Up (faster)            | \]              |
 | Subtitle, toggle             | v               |
+| Play, look current file      | L               |
 | Zoom in                      | Alt + (shift) = |
 | Zoom out                     | Alt + -         |
+| Console, open                | \`              |
+
+## Console commands
+
+``` txt
+
+# Go to time position
+set time-pos 1:30
+seek 1:30 absolute
+
+# Got to time from now
+seek 1:30
+
+```
 
 ## Other
 

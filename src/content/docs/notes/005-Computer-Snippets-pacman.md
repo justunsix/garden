@@ -7,13 +7,13 @@ title: pacman Snippets
 ``` shell
 
 # Search a package
-pacman -Ss <package>
+pacman -Ss package
 
 # Install a package if it is not already installed
-pacman -S --needed <package>
+pacman -S --needed package
 
 # Remove a package(s) and all dependencies and configuration files
-pacman -Rns <package>
+pacman -Rns package
 
 # Upgrade Packages, install packages which have an older version already installed
 sudo pacman -Syu --noconfirm

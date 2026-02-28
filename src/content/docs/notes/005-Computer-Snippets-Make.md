@@ -46,6 +46,10 @@ all:
 print_my_variable: ## Print my variable
     echo "$$MY_VARIABLE"
 
+.PHONY: clean
+clean: ## Clean up project
+    rm -rf ./temp_build_files
+
 ```
 
 ``` shell
@@ -57,8 +61,8 @@ make -C /path/to/working/directory
 
 ## Check Makefile syntax
 
-Per:
-<https://stackoverflow.com/questions/16931770/makefile4-missing-separator-stop>
+Per: [makefile:4: **\*** missing separator.
+Stop](https://stackoverflow.com/questions/16931770/makefile4-missing-separator-stop)
 
 Make defines a [tab is required to start each
 recipe](https://www.gnu.org/software/make/manual/make.html#Rule-Introduction).
@@ -68,12 +72,17 @@ prefix your recipes with a character other than tab, you can set the
 
 ``` shell
 
+# Find characters or lines with projects
+cat -A Makefile
+# -A or --show-all is same as the following flows -vET
 # To check, the command:
-# -e shows non-printing characters
-# -t shows tabs
-# -v shows lines
-cat -e -t -v makefile_name
+# -v shows non-printing characters, use ^ and M- notation, except for LFD and TAB
+# -T shows tabs as ^M
+# -E shows lines ends as $
 cat -e -t -v Makefile
+
+# Run jobs concurrently instead of sequentially with --jobs=2 or -j=2
+make -j=2 mytask
 
 ```
 

@@ -5,7 +5,8 @@ id: 4cc04c35-2c98-4bcf-84ef-e51148ca8e3c
 title: yt-dlp Snippets
 ---
 
-``` bash
+``` shell
+
 # General usage
 yt-dlp [OPTIONS] [--] URL [URL...]
 
@@ -50,27 +51,27 @@ yt-dlp -f format URL
 # id of files yt-dlp has downloaded, one per line
 # By default, yt-dlp uses best video format available
 yt-dlp --external-downloader aria2c \
-       --external-downloader-args aria2c:'-c -j 16 -x 16 -s 16 -k 1M' \
-       --verbose -U \
-       -N 10 \
-       --cookies-from-browser 'firefox:/home/user1/.var/app/org.mozilla.firefox/.mozilla/firefox/222333.default-release/::none' \
-       -a todownload.txt \
-       --download-archive archive.txt \
+        --external-downloader-args aria2c:'-c -j 16 -x 16 -s 16 -k 1M' \
+        --verbose -U \
+        -N 10 \
+        --cookies-from-browser 'firefox:/home/user1/.var/app/org.mozilla.firefox/.mozilla/firefox/222333.default-release/::none' \
+        -a todownload.txt \
+        --download-archive archive.txt \
 
-       # Like above but with authentication for extractors
-       # https://github.com/yt-dlp/yt-dlp#authentication-with-netrc-file
-       # where the .netrc file is in the current directory command is being run
-       # with format machine <extractor> login <username> password <password>
-       # ex. machine youtube login johnsmith password 3422
-       # aria2c -j set to 3 to prevent login issues with multiple concurrent downloads
-       yt-dlp --external-downloader aria2c \
-           --external-downloader-args aria2c:'-c -j 16 -x 16 -s 16 -k 1M' \
-           --verbose -U \
-           -N 10 \
-           --cookies-from-browser 'firefox:/home/user1/.var/app/org.mozilla.firefox/.mozilla/firefox/222333.default-release/::none' \
-           -a todownload.txt \
-           --download-archive archive.txt \
-           --netrc --netrc-location .
+        # Like above but with authentication for extractors
+        # https://github.com/yt-dlp/yt-dlp#authentication-with-netrc-file
+        # where the .netrc file is in the current directory command is being run
+        # with format machine <extractor> login <username> password <password>
+        # ex. machine youtube login johnsmith password 3422
+        # aria2c -j set to 3 to prevent login issues with multiple concurrent downloads
+        yt-dlp --external-downloader aria2c \
+            --external-downloader-args aria2c:'-c -j 16 -x 16 -s 16 -k 1M' \
+            --verbose -U \
+            -N 10 \
+            --cookies-from-browser 'firefox:/home/user1/.var/app/org.mozilla.firefox/.mozilla/firefox/222333.default-release/::none' \
+            -a todownload.txt \
+            --download-archive archive.txt \
+            --netrc --netrc-location .
 
 # Using youtube-dl for a playlist usually:
 yt-dlp --ignore-errors --continue --no-overwrites --download-archive progress.txt *usual options* *URL*

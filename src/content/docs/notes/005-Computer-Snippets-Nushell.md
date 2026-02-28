@@ -4,7 +4,7 @@ id: 8f076960-3e23-4f1c-a53e-239ec3a61cb4
 title: Nushell Snippets
 ---
 
-``` bash
+``` nu
 
 # Get help
 help
@@ -128,6 +128,9 @@ $env | explore
 # Display current directory
 pwd
 $env.PWD
+# System environment setting variables like home directories, start up time, system
+$nu
+$nu.home-dir
 
 # Detect columns in output and output in table
 podman top mycontainer | detect columns
@@ -267,11 +270,20 @@ no!
 value | is-empty
 value | is-not-empty
 
+# Shell History
+history
+
+# Shell history clear with --clear or -c
+history -c
+
+# Shell history last 5 entries
+history | last 5
+
 ```
 
 ## Data
 
-``` shell
+``` nu
 
 # String to Integer conversion
 "12" | into int
@@ -286,7 +298,7 @@ date now | date to-timezone "America/Toronto"
 
 ## Variables
 
-``` shell
+``` nu
 
 # Set immutable variable
 let name = 'John'
@@ -305,7 +317,7 @@ ls | sort-by size | first | get name | cp $in ~
 
 ## Operators
 
-``` shell
+``` nu
 
 # Help on operators
 help operators
@@ -322,7 +334,7 @@ Nushell blocks control their own environment. Changes to environment
 like working directories or environment variables will not persist
 outside a block.
 
-``` shell
+``` nu
 
 # For each statement from a table
 ls | each { |row|
@@ -337,9 +349,43 @@ let processes = ps | select pid name | each {|it| $'($it.pid) ($in.name)'}
 
 ```
 
+## Custom Commands (Functions)
+
+``` nu
+
+# Define a function with arguments using def {flags} (def_name) (params) (block)
+def fkill [
+    process = "": string   # Process to kill
+    ] {
+    if ($process | is-empty) {
+        echo "Kill a process with fkill <process name> or fkill to select a process"
+
+        # Get process and multi select with fzf
+        let processes = ps | select pid name | each {|it| $'($it.pid) ($in.name)'}
+        let selected = ($processes | to text | fzf -m --height 40% --reverse --inline-info --prompt "Select process(es) to kill: ")
+
+        if ($selected | is-empty) {
+            print "No process selected."
+            # Return (exit function) with return
+            return
+        } else {
+           print "Killing processes" $selected
+           # Extract PIDs from selected lines and kill them
+            $selected
+            | lines
+            | each {|line| ($line | split column " " | get 0 | get column1) }
+            | each {|pid|
+                ^kill $pid}
+        }
+    } else {
+        ps | where name =~ $process | first | kill $in.pid -f
+    }
+}
+```
+
 ## Development
 
-``` shell
+``` nu
 
 # Python - activate virtual environment with overlay use
 overlay use .venv/bin/activate.nu
