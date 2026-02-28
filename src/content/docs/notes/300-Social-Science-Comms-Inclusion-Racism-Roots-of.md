@@ -7,6 +7,8 @@ id: 49cebe53-2c94-438a-8084-92a1c7db7218
 title: Roots of Racism
 ---
 
+Source: Racism training from Ontario Emergency Preparedness
+
 ## Exploring Roots of Racism
 
 Learning about racism helps our:

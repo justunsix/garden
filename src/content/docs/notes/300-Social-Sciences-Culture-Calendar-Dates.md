@@ -4,32 +4,30 @@ id: f7d544fd-2701-4cc2-b694-e048d4a9571f
 title: Calendar Dates
 ---
 
-## Adding Calendar Dates to Outlook using CSV
+## Western Holidays in Ontario, Canada by Year in CSV Format
 
-You can import the holiday dates into your Outlook calendar (individual
-all-day events showing out of office) by downloading a file with dates
-in a csv format. Example CSV files are given below for different years.
+### 2026
 
-Following the instructions to import into Outlook:
+``` csv
 
-- Open Microsoft Outlook
-- Click File in the upper left corner of the application window
-- Find the Open & Export menu, and select Import and Export menu
-- Follow the steps of the Import wizard:
-  - Import from another program or file (next)
-  - Comma Separated Values (next)
-  - Browse for wherever you saved the above file (next). Choose the
-    option that best fits your needs, are you okay with duplicates?
-  - Choose the calendar you want to add dates to. If you were already in
-    your calendar, it will already be selected. (next)
-  - You should not need to map any custom fields, click on the Finish
-    button.
-- If you want to customize the ‘Show Time As’ column, save it again as a
-  .csv file using these numbers:
-  - 1- Tentative
-  - 2- Busy
-  - 3- Free
-  - 4- Out of Office
+Subject,Start Date,End Date,All Day Event,Show Time As
+New Year's Day,2026-01-01,,Yes,4
+Family Day,2026-02-16,,Yes,4
+Good Friday,2026-04-03,,Yes,4
+Easter Monday,2026-04-06,,Yes,4
+Victoria Day,2026-05-18,,Yes,4
+Canada Day,2026-07-01,,Yes,4
+Civic Holiday,2026-08-03,,Yes,4
+Labour Day,2026-09-07,,Yes,4
+Truth and Reconciliation,2026-09-30,,Yes,4
+Thanksgiving Day,2026-10-12,,Yes,4
+Remembrance Day,2026-11-11,,Yes,4
+Christmas Day,2026-12-25,,Yes,4
+Boxing Day,2026-12-26,,Yes,4
+Boxing Day (in lieu of),2026-12-28,,Yes,4
+New Year's Day,2027-01-01,,Yes,4
+
+```
 
 ### CSV with Western Holidays in Ontario, Canada for 2025
 

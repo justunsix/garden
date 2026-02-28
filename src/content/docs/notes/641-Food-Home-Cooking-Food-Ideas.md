@@ -17,10 +17,12 @@ title: Home Cooking Food Ideas
 - Pork chop, sweet potato and brown rice, cauliflower
 - Dim sum: BBQ pork bun, bean curd rolls, boiled vegetables, BBQ pork
   rice noodle, Beef stomach (tripe), Chicken feet
+- Pork chops, fried eggs, bread, vegetables
 
 ## Chicken
 
-- Flattened chicken, cauliflower with mushroom soup sauce
+- Flattened chicken, cauliflower with mushroom soup sauce or
+  broccoli(ni), rice
 - Chicken Parmesean with pasta and mushrooms
 - Pad Thai
 - Pineapple Fried Rice with chicken and other ingredients
@@ -40,12 +42,23 @@ title: Home Cooking Food Ideas
   - Gravy
   - Chicken broth
 
-## Vegetarian
+## Vegetarian / Vegetables
 
 - Macaroni and cheese with vegetables (Brussels sprouts, cauliflower,
   broccoli), avocado
 - Pasta / ravioli / perogies / dumplings with vegetables
+- Boiled cabbage / lettuces / greens
 
 ## Seafood
 
 - Eel friend rice
+
+## Fruit
+
+### Smoothie
+
+- Banana, strawberry, orange juice - Classic
+- Inspired by low sugar Booster Juices
+  - "Tropi-Kale": kale, mango, banana, apple, pineapple
+  - "Wildberry Rush": strawberry, blueberries, apples, coconut water -
+    lowest sugars

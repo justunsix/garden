@@ -13,6 +13,8 @@ title: Reading List
     bad ones through small, consistent changes.
 - Better in Every Sense, How the New Science of Sensation Can Help You
   Reclaim Your Life by Norman Farb, PhD & Zindel Segal, PhD
+- Deep Work, Slow Productivity books by Cal Newport
+  - Life strategy, productivity, attention management
 - I Don’t Want to Talk About It: Overcoming the Secret Legacy of Male
   Depression by Terrence Real
   - Category: Mental Health / Psychology / Gender Studies
