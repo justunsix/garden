@@ -317,8 +317,8 @@ information and Azure identity and AI libraries in Python, call the
 model with prompts to receive responses.
 
 For this exercise and others, see completed lab code at [GitHub -
-justunsix/automatetheboringstuff-py-tests: Testing
-Python](https://github.com/justunsix/automatetheboringstuff-py-tests)
+justunsix/pyt: Testing
+Python](https://github.com/justunsix/pyt)
 
 ## Exercise: Create an generative AI using your own data
 

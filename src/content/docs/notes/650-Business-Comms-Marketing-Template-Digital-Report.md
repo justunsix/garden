@@ -42,7 +42,7 @@ title: Digital Marketing Report Template for Google Ads
 - Use reports to for analysis
 - Optionally, extract data from `.csv` reports using [Google Ads Report
   Python
-  script](https://github.com/justunsix/automatetheboringstuff-py-tests/tree/main/src/project/spreadsheet/google-ads-report)
+  script](https://github.com/justunsix/pyt/tree/main/src/project/spreadsheet/google-ads-report)
   which extracts data for this report from Google Ads standard reports
   you can download from the Google ads site
 - If using Emacs org mode template, use `org-export-dispatch` and chose
