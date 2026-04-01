@@ -12,39 +12,71 @@ title: Digital Marketing Report Template for Google Ads
 ## How to use this template
 
 - Include Business Name and Date in title when using the template
-- In Google ads, Select time range
-- In Campaigns \> Campaigns, create report for campaign(s), select these
-  columns:
-  - Campaign type
-  - Bid strategy type
-  - Clicks
-  - Impressions
-  - Cost
-  - Average cost
-  - Average Cost per click (CPC)
-  - Conversions
-  - Phone calls
-  - Conversion rate
-  - Cost / conversion
-  - Interactions
-  - Interaction Rate
-  - Search impression share
-  - Search lost impression share (IS) budget
-- In Campaigns, ads, created report for ads, select similar columns to
-  campaigns report
-- In Audiences, keywords, and content \> Locations, create Locations
-  report with these columns:
-  - Clicks
-  - Impressions
-  - Other columns if needed
-- In Overview \> Searches
-  - Download the card data `.csv` reports
+- In Google ads web interface, select a time range
+
+### Download Reports
+
+Download reports for the following areas and look at columns in template
+for useful columns to use during report. The recommended reports to
+download will include more columns than shown in this template to make
+it easier to find insights.
+
+1.  Campaigns
+
+    In Campaigns \> Main Screen, create report for campaign(s), select
+    these columns:
+
+    - Campaign type
+    - Bid strategy type
+    - Clicks
+    - Impressions
+    - Cost
+    - Average cost
+    - Average Cost per click (CPC)
+    - Conversions
+    - Phone calls
+    - Conversion rate
+    - Cost / conversion
+    - Interactions
+    - Interaction Rate
+    - Search impression share
+    - Search lost impression share (IS) budget
+
+2.  Ad Groups
+
+    In Campaigns \> Ad groups, create report for ads, select similar
+    columns to campaigns report
+
+3.  Asset Groups (Performance Max)
+
+    In Asset groups (Campaigns \> Asset groups), select similar columns
+    to campaigns report
+
+4.  Ads
+
+    In Campaigns \> Ads \> Main Screen, create report for ads, select
+    similar columns to campaigns report
+
+5.  Locations
+
+    In Locations (Assets \> Locations), create Locations report with
+    these columns:
+
+    - Clicks
+    - Impressions
+    - Other columns if needed
+
+6.  Word Searches
+
+    In Overview \> Searches, download the card data `.csv` reports
+
+### Analyze Reports
+
 - Use reports to for analysis
 - Optionally, extract data from `.csv` reports using [Google Ads Report
   Python
   script](https://github.com/justunsix/pyt/tree/main/src/project/spreadsheet/google-ads-report)
   which extracts data for this report from Google Ads standard reports
-  you can download from the Google ads site
 - If using Emacs org mode template, use `org-export-dispatch` and chose
   HTML for best formatting results
 - If the account includes performance max and other types of campaigns
@@ -56,11 +88,11 @@ title: Digital Marketing Report Template for Google Ads
 Report covers Jan to March 2023
 
 - Goals
-- What was done
+- What was done in the Google ads account
 
-## Report Summary
+## Summary of Results, Insights and Recommendations
 
-Summary insights and recommendations section
+Summary of results below and recommendations based on insights
 
 ## Results
 
@@ -77,8 +109,8 @@ Summary insights and recommendations section
 - Phone Calls from Ads - phone calls directly from ads
 - Performance Max campaign type - Uses asset groups instead of ad
   groups. This campaign type expands ads to more places like YouTube,
-  email, and other websites and is assisted with artificial
-  intelligence.
+  Display (other websites), Search, Discover, Gmail, and Maps, and other
+  websites and is assisted with artificial intelligence.
 
 ### Campaigns
 
@@ -91,6 +123,12 @@ Summary insights and recommendations section
 | Campaign          | Ad group | Clicks | Interaction Rate | Conversions |
 |-------------------|----------|--------|------------------|-------------|
 | Digital Marketing | Reports  | 300    | 1.55%            | 30          |
+
+### Asset Groups (Performance Max)
+
+| Asset Group       | Clicks | Cost (\$) | Impressions | Interaction rate | Conversions |
+|-------------------|--------|-----------|-------------|------------------|-------------|
+| Group of Services | 1000   | 2000.00   | 45000       | 5.00%            | 50.63       |
 
 ### Top Locations by Clicks
 
