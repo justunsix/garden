@@ -23,12 +23,12 @@ title: Deathcare Planning
         (EAT)](https://www.ontario.ca/page/estate-administration-tax)
       - [Apply for probate of an
         estate](https://www.ontario.ca/page/apply-probate-estate)
-    - [Notify Canada Federal
-      Governent](https://www.canada.ca/en/services/benefits/notify-government-death.html)
-      - [CRA: What to do following a
-        death](https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4111/canada-revenue-agency-what-following-a-death.html)
-    - [Toronto Death
-      Registration](https://www.toronto.ca/311/knowledgebase/kb/docs/articles/city-clerks-office/secretariat/death-registration-statement-of-death-cause-of-death.html)
+    - [What to do when someone dies: Prepare for end of life -
+      Canada.ca](https://www.canada.ca/en/services/life-events/death/prepare.html)
+    - [What to do when someone dies -
+      Canada.ca](https://www.canada.ca/en/services/life-events/death.html)
+    - [Death Registration - statement of death - cause of
+      death](https://www.toronto.ca/home/311-toronto-at-your-service/find-service-information/article/?kb=kA06g000001cwFTCAY&searchTerm=death%20care)
 
 2.  Death Care Industry
 
@@ -38,10 +38,8 @@ title: Deathcare Planning
       Canada](http://www.qeepr.com/blog/talkdeath-canadian-law-recap/)
     - [Order of the Good Death - Funeral and End of Life
       Planning](http://www.orderofthegooddeath.com/resources/funeral-end-life-planning)
-    - [Death and Dying
-      Planning](https://www.getsmarteraboutmoney.ca/life-events/death-dying/)
-      - [Personal Inventory for
-        Executor](https://www.getsmarteraboutmoney.ca/wp-content/uploads/2019/06/GSAM_Personal-Information-Inventory.pdf)
+    - [Personal Inventory for
+      Executor](https://www.getsmarteraboutmoney.ca/wp-content/uploads/2019/06/GSAM_Personal-Information-Inventory.pdf)
 
 3.  Estates
 
