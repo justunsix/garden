@@ -60,44 +60,12 @@ Tools
 
 ### Microsoft Copilot
 
-Another example of an agent is Microsoft Copilot
+Main article: [Microsoft M365
+Copilot](/garden/notes/006-3-tech-ai-microsoft-m365-copilot) - [Microsoft M365
+Copilot](id:68647160-81d6-4a03-a1c0-cd91cc529eed)
 
-``` text
-
-                     +-------------------------------+
-User --> Copilot --> |   Large Language Model (LLM)  |
-           |         +-------------------------------+
-           |              modified prompts
-           |
-           |--> Microsoft Graph for messages, context, files
-           |        |
-           |        |--> Dataverse, Power Platform services
-           |        |--> Indexed vector databases related to LLM model version chosen
-           |
-           |--> Plugins, Bing search
-           |<-- Organization controls, constraints
-
-```
-
-See [Microsoft Copilot
-Architecture](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-architecture)
-and for Microsoft Graph functions see [Graph Explorer for example
-functionality](https://developer.microsoft.com/en-us/graph/graph-explorer)
-
-Q: Related to agents, cognitive services: Saw M365 Copilot can do NLP,
-vision, and information extraction, for example, OCR of written notes
-and heading and list recognition. As an agent, does Copilot call the
-formerly named cognitive services behind the scenes for users and
-process results? What model is Copilot using? Was thinking in the
-context of agent design, it will be helpful to use the services like
-tools specific to language, vision, documents tasks. For example, at
-work there is a sequential process with OCR of forms and field
-extraction using text parsing currently.
-
-Copilot is like a complex agent and has access to many tools. As of
-2025-10, Copilot uses OpenAI models hosted in Azure. Priorities in
-choosing the model is safety (low vulnerability to jail breaking) and
-accuracy.
+Example of an agent is Microsoft Copilot that has access to Microsoft
+365 data, models, and other services.
 
 ## Options for Agent Development
 
@@ -206,9 +174,9 @@ Create an agent and use the `gpt-4o` model.
 
 ## Connected Agents
 
-Connected agents are a feature in Azure AI Foundry Agent service to help
-break up large work into smaller tasks. For example, an "Ask HR" service
-that coordinates between specialized HR agents coordination.
+Azure AI Foundry Agent service has Connected agents to help break up
+large work into smaller tasks. For example, an "Ask HR" service that
+coordinates between specialized HR agents coordination.
 
 ### Considerations
 
@@ -311,7 +279,7 @@ directly to tools.
 
 ## Develop AI Agents with Microsoft Agent Framework
 
-Microsoft Agent Framework is a platform for generative AI development
+The Microsoft Agent Framework platform for generative AI development
 with service connectors, memory (data) connectors, prompt templates,
 functions, and filters like pre and post actions.
 

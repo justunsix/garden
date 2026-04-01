@@ -74,9 +74,9 @@ Models can be trained with custom classifications.
 
 ## Generative AI and Vision
 
-### Multimodel generative AI
+### Multimodel generative AI with mixed media
 
-Multimodel generative AI model respond to prompts and return created
+A Multimodel generative AI model responds to prompts and returns created
 content. Prompts can include text, speech, and images and typically
 include a text part and media part.
 

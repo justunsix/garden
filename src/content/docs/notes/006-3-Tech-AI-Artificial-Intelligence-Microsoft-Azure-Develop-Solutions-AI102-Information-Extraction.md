@@ -21,24 +21,23 @@ information out of documents. Models can trained for different forms to
 recognize content in them and find fields in the media like names,
 identifiers, and addresses.
 
-Azure AI Content Understanding can analyze multiple input mediums.
-
-Recognition can be in images and video like graphs, charts, and other
-structured data. For example, in a video, speakers, transcription, and
-summary of activity will be detected.
+- Azure AI Content Understanding can analyze multiple input mediums
+- Recognition can be in images and video like graphs, charts, and other
+  structured data. For example, in a video, speakers, transcription, and
+  summary of activity will be detected.
 
 Q: What are differences between document intelligence and other vision
 services?
 
 Document intelligence and content understanding uses an existing schema
-like invoice to extract information.
+like an invoice to extract information.
 
 ### Azure AI Content Understanding
 
 In an Azure AI Foundry project, define a Content Understanding schema
 for information to be extracted using a content sample and analyzer
 template. An analyzer is built on the schema and can be used to analyze
-further documents.
+further documents of similar type.
 
 ## Using AI Content Understanding in a Solution
 
@@ -69,7 +68,7 @@ Training methods:
     documents; longer training time
 
 After training, custom model in response gives accuracy score (how
-accurate the model things the prediction is for each predicted label).
+accurate the model thinks the prediction is for each predicted label).
 
 ### Deployment and Use
 
@@ -93,7 +92,7 @@ cards, and other common documents.
 
 Use case: find information and search for relevant information in
 knowledge bases like web, document, and other data. Implementations are
-organizational search and supporting retrieval augemented generation
+organizational search and supporting retrieval augmented generation
 (RAG).
 
 Concept: *Indexer* gets data from data sources. *Document cracking*
@@ -141,7 +140,7 @@ the document. Things like permissions and sensitivity can be included in
 index so when search is done, the search can determine if a user has
 access to a result.
 
-### Stored Extracted Information in a Knowledge Store
+### Stored Extracted Information in a Knowledge Store for Search and Processing
 
 Store projections in storage:
 

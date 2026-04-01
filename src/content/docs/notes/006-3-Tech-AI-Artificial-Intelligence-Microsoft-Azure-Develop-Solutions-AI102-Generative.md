@@ -38,7 +38,7 @@ GenAI creates content by a language model:
     - y = f(x) where x are parameters. Example is machine learning uses
       vectors to represent concepts in multiple dimensional space like
       dogs and cats.
-2.  An input from a prompt. Promts can be:
+2.  An input from a prompt. Prompts can be:
     - System prompt: guidelines for model behaviour
     - User prompt: specific question
     - Created content
@@ -53,13 +53,18 @@ Some of AI Foundry functions were formerly called Azure AI studio.
 2 project types:
 
 - Azure AI Foundry project
-- Azure AI hub project
+- Azure AI hub project (see also [Explore and configure the Azure
+  Machine Learning
+  workspace](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-design-implement-data-science-dp-100-machine-learning) -
+  [Explore and configure the Azure Machine Learning
+  workspace](id:e2ac631f-68af-42d2-af70-6297a9f575e6))
 
 ### Models
 
 Advantages is using Azure AI Foundry Models to combine use of different
-models like OpenAI, Microsoft, X, Meta, HuggingFace models. When
-choosing models, think about:
+models like OpenAI, Microsoft, X, Meta, HuggingFace models.
+
+When choosing models, think about:
 
 - Vendor, license
 - Size and cost
@@ -71,7 +76,7 @@ choosing models, think about:
 - Deployment options:
   - Managed compute: Virtual Machines (VM) are required, only cost is
     Azure hosted VMs
-  - Serverless APIa
+  - Serverless API
 - Region availability
 - Capabilities: agent/reasoning/streaming/assistant/other, industry,
   inference tasks like coding/math, fine tuning
@@ -155,7 +160,9 @@ Choosing a good model depends on the requirements and usage.
 Copilot takes a user's prompt and sits in front of AI services like
 LLMs, Microsoft Graph to get information for grounding, and compliance
 and controls. Prompts and responses can be screened for controls. It is
-an agent.
+an agent as described in [Develop AI agents on
+Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-agents) -
+[Agents in Azure AI Solutions](id:eae5da2e-f013-42af-8128-cc2ae5c28b0f)
 
 ``` text
 
@@ -201,7 +208,7 @@ Grounded approach uses an LLM with its original training data with
 access to the relevant data for prompts to the application. The
 grounding data, for example files, is put into a [Vector
 Database](/garden/notes/006-3-tech-ai-vector-database) - [Vector
-Database](id:67032821-f795-4059-bc63-ae4adada458a). Grouding data is
+Database](id:67032821-f795-4059-bc63-ae4adada458a). Grounding data is
 processed and set as vectors in the vector database. During prompting,
 the LLM will use the database when creating a response to get relevant
 ground content.
@@ -222,14 +229,30 @@ grounding, and fine-tuning a model.
 
 ### What is fine-tuning?
 
+Source: [To Fine Tune or Not Fine Tune? That is the question - Microsoft
+Developer with Alicia Frame -
+YouTube](https://www.youtube.com/watch?v=0Jo-z-MFxJs)
+
 It is additional training for a foundation model resulting in a
-fine-tuned model. It is separate from grounding.
+fine-tuned model. It is separate from grounding in that you are adding
+data to the model, though not significant re-training.
+
+When to fine tune? may be after doing prompt engineering and grounding
+and requirement is a specific skill, such as using a small generalist
+model to do a specific skill. Frequent used system prompt or grounding
+data are also good use cases to add it to the model instead.
 
 Neural networks in the foundation model process information in the
 layers and has weights. Fine tuning shifts the model weights with
 example prompts and responses. Like "re-wiring the model's brain" and
 similar human brain by strengthening neural pathways through practice.
 Examples include formatting preferences, using professional tone.
+Fine-tuned models are private and new weights in model is available for
+inferencing.
+
+Supervised fine-tuning is providing the model with many examples on
+input and desired results. There are other types of fine -tuning like
+Direct Preference Optimization and Reinforcement.
 
 ### Preparing data for fine-tuning a model
 
@@ -267,6 +290,7 @@ and related lab at [Fine-tune a language
 model](https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/05-Finetune-model.html)
 
 Select a model, your training data, and optionally your validation data.
+Model selection depends on use case like completion and chat models.
 Advanced options can be set:
 
 | Name | Description |
@@ -276,7 +300,7 @@ Advanced options can be set:
 | n<sub>epochs</sub> | The number of epochs to train the model for |
 | seed | Random seed used to control the reproducibility of the job |
 
-An epoch refers to one full cycle through the training dataset
+An epoch refers to one full cycle through the training dataset.
 
 ## Responsible Generative AI, Responsible AI (RAI)
 
@@ -317,8 +341,24 @@ information and Azure identity and AI libraries in Python, call the
 model with prompts to receive responses.
 
 For this exercise and others, see completed lab code at [GitHub -
-justunsix/pyt: Testing
-Python](https://github.com/justunsix/pyt)
+justunsix/pyt: Testing Python](https://github.com/justunsix/pyt)
+
+## Exercise: Create a generative AI chat app (Foundry)
+
+Deploy a `gpt4.1` model in foundry and using the endpoint information
+and Azure identity and AI libraries in Python.
+
+Exercise used the OpenAI SDK and the ChatCompletions and Responses APIs
+to create a client application for a generative AI model that you
+deployed in a Microsoft Foundry project. It customized the model's
+behaviour by tracking conversational context and implemented streaming
+to deliver a responsive chat experience.
+
+## Exercise: Create a generative AI app that uses tools
+
+Use the Microsoft Foundry portal and the Responses API to build an AI
+chat application. Then integrate knowledge into your application by
+using the `web_search` and `file_search` tools
 
 ## Exercise: Create an generative AI using your own data
 
@@ -326,17 +366,22 @@ Create new AI hub resource and create an ada-002 embedding model and
 gpt-4o model. Add data in the form of PDF documents with travel
 brochures for cities and index them with Azure AI Search.
 
-Set up the GPT chat with the indexed data in the chat playground and
-give it a prompt and observe usage and citing of the indexed data.
+Set up the chat with the indexed data in the chat playground and give it
+a prompt and observe usage and citing of the indexed data.
 
 Using code, call the chat model with the Azure AI Search index and
 vectorize the query. Give it a prompt and observe usage and citing of
 the indexed data.
 
-## Exercise: Apply Content Filters to prevent output of harmful content
+## Exercise: Apply Content Filters to prevent output of harmful content, Set Guardrails
 
-Create an AI Foundry gpt-4o model. Set up content filters and see
+Create an AI Foundry `gpt-4o` model. Set up content filters and see
 changes in responses to high offensive or worrisome prompts.
+
+For guardrails, explored content filters and the ways in which they can
+help safeguard against potentially harmful or offensive content like
+sexual, violence, self-harm, and hate content. Content filters are only
+one element of a comprehensive responsible AI solution.
 
 ## Exercise: Evaluate generative AI model performance
 
@@ -346,7 +391,7 @@ to evaluate answers. Use automated evaluation of gpt-4o-mini using
 gpt-4o as an evaluator based on various methods like semantic
 comparison.
 
-## Exploration Questions
+## Exploration Questions - Authentication, RAG, Model changes
 
 Q: What are ways for an application to authenticate for using the API?
 

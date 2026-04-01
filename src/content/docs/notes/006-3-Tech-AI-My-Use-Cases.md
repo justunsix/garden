@@ -13,6 +13,8 @@ How to identify AI use cases:
 
 - Automation opportunities: find repetitive tasks, data heavy
   operations, tasks with high error rates
+  - These tasks can be delegated to AI and/or automation to increase
+    productivity
 - Ask users how they could be more satisfied
 - Assess organization and industry with survey to find challenges and
   inefficiencies

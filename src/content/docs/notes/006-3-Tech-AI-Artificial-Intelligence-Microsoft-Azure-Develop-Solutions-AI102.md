@@ -244,7 +244,7 @@ Microsoft Defender for Cloud: look at vulnerabilities and resources with
 potential cyber security improvements. There is a data and AI security
 blade.
 
-### Application Insights
+### Application Insights and Logs
 
 Application Insights can capture logs for application solutions.
 
@@ -310,6 +310,9 @@ In prompts, you could add for users to report responses.
 - Labs:
   - [Exercises for Develop generative AI solutions in
     Azure](https://microsoftlearning.github.io/mslearn-ai-studio/)
+    - [AI Toolkit for Visual Studio Code
+      Extension](https://code.visualstudio.com/docs/intelligentapps/overview)
+      helps when using AI Studio
   - [Exercises for Develop AI Agents in
     Azure](https://microsoftlearning.github.io/mslearn-ai-agents/)
   - [Exercises for Azure AI Language
@@ -321,6 +324,7 @@ In prompts, you could add for users to report responses.
     Azure](https://microsoftlearning.github.io/mslearn-ai-information-extraction/)
   - [Advanced Labs on Microsoft Learn for AI Engineer - Applied
     Skills](https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills&roles=ai-engineer)
+    (applied skill credentials)
 - [Microsoft Certified: Azure AI Engineer
   Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification)
 - [Study guide for Exam AI-102: Designing and Implementing a Microsoft
@@ -332,8 +336,8 @@ In prompts, you could add for users to report responses.
 
 1.  Videos
 
-    - [Microsoft Instructor led training for
-      AI-102](https://learn.microsoft.com/en-gb/shows/on-demand-instructor-led-training-series/?terms=AI-102) -
+    - [Microsoft Instructor led training for AI-102
+      (discontinued)](https://learn.microsoft.com/en-gb/shows/on-demand-instructor-led-training-series/?terms=AI-102) -
       note for more recent content, see Microsoft Learn content material
     - [AI-102 Study Cram - Azure AI Engineer Associate Certification -
       John Savill on
@@ -356,6 +360,7 @@ In prompts, you could add for users to report responses.
     - [GitHub - MicrosoftLearning/mslearn-ai-studio: Practical exercises
       for Azure AI Foundry
       training](https://github.com/MicrosoftLearning/mslearn-ai-studio)
+      (Generative AI)
     - [GitHub - MicrosoftLearning/mslearn-ai-vision: Lab files for Azure
       AI Vision
       modules](https://github.com/MicrosoftLearning/mslearn-ai-vision)

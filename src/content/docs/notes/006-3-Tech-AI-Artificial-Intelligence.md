@@ -16,6 +16,9 @@ title: Artificial Intelligence (AI)
   Models](id:65533479-7d6e-4726-92f8-fb66177a39c6)
 - [AI Prompts](/garden/notes/006-3-tech-ai-prompts) - [AI
   Prompts](id:0a00398f-f4d9-42ae-8830-c37fa9abdc8f)
+- [Artificial Intelligence (AI) Agents](/garden/notes/006-3-tech-ai-agents) -
+  [Artificial Intelligence (AI)
+  Agents](id:a33f8c71-f312-43a0-8e1b-1023e2fd020c)
 - [Audio Subtitles and OpenAI
   Whisper](/garden/notes/006-3-tech-ai-audio-subtitles-whisper) - [Audio Subtitles
   and OpenAI Whisper](id:2ba9f6d2-10f2-4c27-b781-ee754d1423b4)
@@ -40,10 +43,6 @@ title: Artificial Intelligence (AI)
   (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag) -
   [Retrieval Augmented Generation
   (RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23)
-- [GitHub Copilot Workspace Index and Retrieval Augmented Generation
-  (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-github-copilot-workspace-index) -
-  [GitHub Copilot Workspace Index and Retrieval Augmented Generation
-  (RAG)](id:1ae880da-6df5-4bcb-9463-27955b9f1654)
 - [Stoicism and
   AI](/garden/notes/158-psychology-applied-health-mental-stoicism-ai) - [Stoicism
   and Artificial Intelligence
@@ -55,7 +54,7 @@ title: Artificial Intelligence (AI)
 - [Vector Database](/garden/notes/006-3-tech-ai-vector-database) - [Vector
   Database](id:67032821-f795-4059-bc63-ae4adada458a)
 
-## Learning
+### Learning
 
 - [Learning for Data Science and Artificial
   Intelligence](/garden/notes/004-data-processing-learning-data-science-artificial-intelligence) -
@@ -81,8 +80,14 @@ title: Artificial Intelligence (AI)
   Learning](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-applied-to-learning) -
   [Applying Artificial Intelligence to
   Learning](id:483fb086-6a97-47ac-a086-066fd91fd4e9)
+- [Microsoft Developer Day 2026 at
+  Work](/garden/notes/005-tech-microsoft-developer-day-at-work-2026) - [Microsoft
+  Developer Day 2026 at Work](id:21ab993d-0a72-465f-b2d7-3c5a10f7db16)
+- [AI Job Trends](/garden/notes/650-career-job-trends) - [Job
+  Trends](id:a93223e8-37ff-48aa-8305-93fad054067c) (search for
+  artificial intelligence)
 
-### Microsoft Training
+### Microsoft Training and Services
 
 - [AI Builder and Power Platform Apps and
   Automate](/garden/notes/006-3-tech-microsoft-ai-builder-and-power-platform) - [AI
@@ -100,6 +105,10 @@ title: Artificial Intelligence (AI)
   AI-102](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102) -
   [Develop AI solutions in Azure
   AI-102](id:dc608ccd-b4bc-4820-8bfa-e522c827e6f8)
+- [GitHub Copilot Workspace Index and Retrieval Augmented Generation
+  (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-github-copilot-workspace-index) -
+  [GitHub Copilot Workspace Index and Retrieval Augmented Generation
+  (RAG)](id:1ae880da-6df5-4bcb-9463-27955b9f1654)
 - [Introduction to AI in Microsoft Azure
   AI-900](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
   [Introduction to AI in Microsoft Azure
@@ -118,21 +127,21 @@ title: Artificial Intelligence (AI)
   AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3)
 - [Microsoft Azure OpenAI](/garden/notes/006-3-tech-ai-openai-azure) - [Microsoft
   Azure OpenAI](id:5f3fb72d-cc33-4c99-b553-5962dc6909e7)
-- [Microsoft Power Platform and
-  AI](/garden/notes/005-tech-microsoft-power-platform-ai) - [Microsoft Power
-  Platform and AI](id:d85c6b3c-b675-46bd-8399-7919d2a3a6b3)
+- [Microsoft Developer Day 2026 at
+  Work](/garden/notes/005-tech-microsoft-developer-day-at-work-2026) - [Microsoft
+  Developer Day 2026 at Work](id:21ab993d-0a72-465f-b2d7-3c5a10f7db16) -
+  Data science flows and artificial intelligence platforms and AI
+  building full stack application
 - [Microsoft GitHub
   Copilot](/garden/notes/006-3-tech-ai-microsoft-github-copilot) - [Microsoft
   GitHub Copilot](id:871c6593-9b29-489e-ab0d-3a999bc1531a)
+- [Microsoft M365 Copilot](/garden/notes/006-3-tech-ai-microsoft-m365-copilot) -
+  [Microsoft M365 Copilot](id:68647160-81d6-4a03-a1c0-cd91cc529eed)
+- [Microsoft Power Platform and
+  AI](/garden/notes/005-tech-microsoft-power-platform-ai) - [Microsoft Power
+  Platform and AI](id:d85c6b3c-b675-46bd-8399-7919d2a3a6b3)
 
-## Resources
-
-- [Hugging Face – AI community, models, data, and
-  applications](https://huggingface.co/)
-- [Mendeley Data](https://data.mendeley.com/) - sample research data for
-  use with data science
-
-## Services
+### Services
 
 - [Open AI](/garden/notes/006-3-tech-ai-openai) - [Open
   AI](id:db7175d9-6a78-432d-888c-222e40787201)
@@ -140,8 +149,9 @@ title: Artificial Intelligence (AI)
   [Mycroft Artificial Intelligence
   (AI)](id:f8db3814-1116-4010-9e4a-ba5828dc4c34)
 
-## Training
+### Resources
 
-- [AI Job Trends](/garden/notes/650-career-job-trends) - [Job
-  Trends](id:a93223e8-37ff-48aa-8305-93fad054067c) (search for
-  artificial intelligence)
+- [Hugging Face – AI community, models, data, and
+  applications](https://huggingface.co/)
+- [Mendeley Data](https://data.mendeley.com/) - sample research data for
+  use with data science
