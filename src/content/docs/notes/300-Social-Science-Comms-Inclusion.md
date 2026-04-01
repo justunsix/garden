@@ -31,3 +31,7 @@ title: "Social sciences: Inclusion, diversity"
   [Canadian National Indigenous History Month Event with Phyllis Webstad
   and Smoke Trail Cultural
   Group](id:5f423cd0-8f5b-43df-9b42-9275f0deedd0)
+- [Indigenous Cultural Sensitivity & Safety
+  Training](/garden/notes/300-social-science-comms-inclusion-indigenous-cultural-sensitivity-safety-training) -
+  [Indigenous Cultural Sensitivity & Safety
+  Training](id:c92b74ec-d26a-469e-8c3d-4babacac44ab)

@@ -92,4 +92,5 @@ The City of Toronto has been acknowledging the traditional territory
 since March 2014. Due to conversations with Indigenous leaders,
 including the Aboriginal Advisory Committee as part of the 2018 Toronto
 for All Campaign, the language the City of Toronto uses has evolved.
-Land Acknowledgment Guidance
+
+Land Acknowledgement Guidance
