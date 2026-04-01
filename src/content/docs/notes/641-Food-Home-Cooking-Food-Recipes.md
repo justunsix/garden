@@ -195,3 +195,28 @@ This Mediterranean snack platter is not only healthy but also offers a
 variety of textures and flavors. It's a crowd-pleaser and can be made in
 advance or assembled quickly if you're short on time. Plus, it's a great
 way to enjoy snacks from Mediterranean cuisine.
+
+## Fruit Berry Bowl
+
+Combine small pieces of fruit with optional ingredients.
+
+Core fruits (choose 3–6):
+
+- Strawberries (sliced)
+- Blueberries
+- Raspberries
+- Blackberries
+- Red or black grapes (halved)
+- Kiwi (diced)
+- Mandarin oranges or clementines (segments)
+- Pineapple (optional, small cubes)
+
+Optional other ingredients
+
+- Tiny drizzle of honey (½–1 tsp per serving)
+- Squeeze of lemon (½ tsp per serving)
+- Fresh mint leaves (a few small pieces)
+
+1.  Wash everything and cut into small, bite‑friendly pieces.
+2.  Combine fruits in a bowl gently.
+3.  Add optional ingredients or your choice
