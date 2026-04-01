@@ -1,6 +1,6 @@
 ---
 date: 2026-01-07
-filetags: ":snippets:epubnote:gnu findutilsfind:findutils:gnu:"
+filetags: ":snippets:epubnote:gnu:find:findutils:gnu:"
 id: 86eb6f90-622f-4d0d-b37d-eb55d6b6cf45
 title: GNU Findutils Snippets
 ---
@@ -9,14 +9,33 @@ title: GNU Findutils Snippets
 
 ``` bash
 
+# Find a pattern
+find -name '*my*pattern*'
+
+# Find a pattern, case insensitive using -iname
+find -iname '*pattern*'
+# Find pattern case insensitive and only return filename without path
+find . -type f -iname '*jupiter planet*' -exec basename {} \;
+
 # Find files in current directory and subdirectories with .html extension
 find . -name "*.html" -type f
 
 # files with foo in the title
 find . -name "*foo*" -type f
 
+# files with foo and boo in the title in any order using OR -o
+find . -name "*foo*bar*" -o - -name "*bar*foo*" -type f
+# Files with foo and boo in the title in any order using OR -o and case insensitive regex -iregex and word bar
+find . -iregex ".*foo.* bar .*" -o - -iregex ".* bar .*foo.*" -type f
+
 # Like above, except find all .html files and delete them
 find . -name "*.html" -type f -delete
+
+# Use regex -regex to find files
+find . -regex "hello.*"
+
+# Use regex with case insensitive -iregex to find files
+find . -regex "hello.*"
 
 # Find files given filename and other parameters.
 # Some usage patterns are below.

@@ -1,6 +1,6 @@
 ---
 date: 2026-01-07
-filetags: ":snippets:epubnote:gnu coreutilsgnu:coreutils:"
+filetags: ":snippets:epubnote:gnu:coreutils:"
 id: 60d1c07a-22b6-40bb-99ee-274feab9cd20
 title: GNU Coreutils Snippets
 ---

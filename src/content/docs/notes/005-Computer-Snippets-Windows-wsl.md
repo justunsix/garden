@@ -6,6 +6,9 @@ title: Windows WSL Snippets
 
 ``` powershell
 
+# Start
+wsl
+
 # List all installed distros
 wsl --list --verbose
 wsl -l -v

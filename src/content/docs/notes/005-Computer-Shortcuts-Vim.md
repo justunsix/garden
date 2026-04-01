@@ -300,6 +300,9 @@ commands.
     # Send current buffer as input to a command
     :w !{cmd}
 
+    # Send current selection as input to a command
+    :'<,'>!command
+
     ## Practical Examples
 
     ### Backup a file

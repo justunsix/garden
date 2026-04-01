@@ -9,8 +9,8 @@ title: KDE
 
 - [KDE
   Applications](/garden/notes/005-tech-free-open-source-software-foss::*KDE Applications) -
-  [Applications - Free and/or Open Source
-  Software](id:4d3e0888-9e79-414c-a552-48c6357ad845) - KDE Applications
+  [Free and/or Open Source Software
+  (FOSS)](id:4d3e0888-9e79-414c-a552-48c6357ad845) - KDE Applications
   also on Windows
 - [Kdenlive](/garden/notes/005-tech-kdenlive) -
   [Kdenlive](id:127d1ef5-f0e2-4538-98bc-00c0318b728a)

@@ -36,4 +36,7 @@ flatpak remove --unused -y
 # Show information about an installed application
 flatpak info com.example.app
 
+# Repair flatpak installations, maybe required if installs corrupted
+sudo flatpak repair
+
 ```

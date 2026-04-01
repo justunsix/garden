@@ -82,6 +82,7 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | eww, jump to visible link | SPC s l |
 | eww, list eww buffers | gt |
 | eww, open URL | o |
+| eww, open URL, in other buffer | C-Enter |
 | eww, quit | q |
 | eww, URL, copy current URL | yy |
 | eww, Z menu: text decrease, increase | zj, zk |
@@ -121,6 +122,7 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Search - imenu | SPC s i |
 | Search - jump list | SPC s j |
 | Search - mark (Evil) list | SPC s r |
+| Search - minibuffer orderless fuzzy search with ~ | ~lspform |
 | Section or heading, previous or next | double \[ or \]\] |
 | Spelling, suggest correct spelling of word | z =, ispell-word |
 | Switch Buffer | SPC , |

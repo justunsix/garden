@@ -33,6 +33,11 @@ podman pull docker.io/nixos/nix
 # List images
 podman images
 
+# Remove one or more locally stored images by ID
+podman rmi c0ed59d05ff7
+# Remove all images
+podman rmi -a
+
 # Run container
 podman run -dt -p 8080:80/tcp docker.io/library/httpd
 ## -d detached mode
@@ -110,6 +115,19 @@ podman run -d --name webapp -v mydata:/usr/share/nginx/html nginx
 # Volume - clean up unused volumes
 podman volume prune
 
+# Build image using Containerfile or Dockerfile with content from current directory
+podman build .
+
+# Build image with tag (-t)
+podman build -t podman-node-server:latest .
+
+# Push image to container registry
+podman login quay.io
+podman push quay.io/podman/stable
+
+# Push to a container registry with another tag
+podman push myimage quay.io/username/myimage
+
 ```
 
 ## Podman Machines
@@ -119,7 +137,7 @@ podman volume prune
 # Podman machine host for Windows, macOS start
 podman machine start
 
-# Podman machine stop
+# Stop machine
 podman machine stop
 
 # Podman machine rootful mode, stop and start after for use
@@ -182,7 +200,7 @@ minikube kubectl get po -A
 kubectl config current-context
 kubectl get pod
 
-# Open minikube dashboard
+# Open minikube's dashboard
 minikube dashboard
 
 # Stop cluster

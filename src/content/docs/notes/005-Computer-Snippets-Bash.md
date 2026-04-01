@@ -42,6 +42,12 @@ if ! [ condition ]; then
   #Code to execute if the condition is false
 fi
 
+# Check if substring inside a string
+[ input_string = "*my_substring*"]
+
+# Check if a process is running with pgrep
+[ "$(pgrep my-app)" ]
+
 # Boolean and conditional evaluation
 dry_run=true
 if [ "$dry_run" = true ] ; then
@@ -182,9 +188,9 @@ cd mydir
 for file in *.mp3 *.pdf; do
     if [[ -e $file ]]; then
         echo "Looping on file $file"
-     else
+    else
         echo "No files with that extension found in the current directory."
-     fi
+    fi
 done
 
 # Process Substitution

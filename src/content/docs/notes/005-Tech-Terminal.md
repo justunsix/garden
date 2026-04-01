@@ -5,10 +5,9 @@ title: Terminal
 ---
 
 For [Modern Terminal Commands](id:01ebceb0-f23c-4918-b70a-201408f2a62f),
-see the terminal section of [Applications - Free and/or Open Source
-Software](/garden/notes/005-tech-free-open-source-software-foss) - [Applications -
-Free and/or Open Source
-Software](id:4d3e0888-9e79-414c-a552-48c6357ad845).
+see the terminal section of [Free and/or Open Source Software
+(FOSS)](/garden/notes/005-tech-free-open-source-software-foss) - [Free and/or Open
+Source Software (FOSS)](id:4d3e0888-9e79-414c-a552-48c6357ad845).
 
 ## See Also
 

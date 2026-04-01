@@ -18,6 +18,10 @@ az login --use-device-code
 
 # Change subscriptions
 az account set <subscription>
+az account set 34342sdd-353-2428-cc453432ref3
+
+# Show account information
+az account show
 
 ```
 

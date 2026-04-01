@@ -13,12 +13,16 @@ title: Emacs Shortcuts for elfeed
 
 ## evil-collection-elfeed
 
-| Description                            | Shortcut                     |
-|----------------------------------------|------------------------------|
-| Feeds, update all                      | g R or elfeed-search-fetch   |
-| Feed, post, visit link                 | g o                          |
-| Feed, post, next, previous item        | gk, gj, or double\[ double\] |
-| Filter, clear                          | c                            |
-| Filter, Set like @2-week-ago feed name | S                            |
-| Filter, Live filter                    | s                            |
-| Quit, buffer                           | q or elfeed-kill-buffer      |
+| Description                               | Shortcut                     |
+|-------------------------------------------|------------------------------|
+| Feeds, update all                         | g R or elfeed-search-fetch   |
+| Feed, post, visit link                    | g o                          |
+| Feed, post, copy link                     | g c                          |
+| Feed, post, next, previous item           | gk, gj, or double\[ double\] |
+| Feed, post, open                          | Enter                        |
+| Feed, post, open in browser               | Enter                        |
+| Filter, clear                             | c                            |
+| Filter, Set like @3-week-ago feed name    | S                            |
+| Filter, Live filter                       | s                            |
+| Mark, read / unread, works with selection | u / U                        |
+| Quit, buffer                              | q or elfeed-kill-buffer      |

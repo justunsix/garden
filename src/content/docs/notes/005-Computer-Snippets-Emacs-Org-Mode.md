@@ -7,7 +7,8 @@ PROPERTY: "header-args:python :python
   /home/user/Code/myproject/.venv/bin/python :session One :results
   output :exports both"
 STARTUP: inlineimages
-title: Emacs Org Mode Snippets Emacs org mode like Jupyter
+title: Emacs Org Mode Snippets Emacs org mode like Jupyter Notebook
+  execution
 ---
 
 ``` org
@@ -37,21 +38,30 @@ The Org website [fn:50] now looks a lot better than it used to.
 # https://orgmode.org/manual/In_002dbuffer-Settings.html
 ,,#+STARTUP: inlineimages
 
+```
+
+## Other Languages with org-babel like Python, Nu, SQL
+
+``` org
+
 # Run a specific program using :shebang
 # https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-shell.html
-#+begin_src sh :shebang #!/home/user/.nix-profile/bin/nu :results output
+# For example nushell
+,,#+begin_src sh :shebang #!/home/user/.nix-profile/bin/nu :results output
 ls
+#+end_src
+
+# Run a specific program using :shebang
+# See https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-shell.html
+#+begin_src sh :shebang #!/home/user/.nix-profile/bin/nu :results output raw
+sys host
 #+end_src
 
 # Python session like Jupyter Note books
 # Source: https://rgoswami.me/posts/jupyter-orgmode/
-# Set the environment Python binary in the properties for the file
-# Specific at section heading
-#+PROPERTY: header-args:python :python /home/user/Code/myproject/.venv/bin/python :session One :results output :exports both
-#+title: Emacs org mode like Jupyter
-* Python Session
 
-# or properties block in a section heading
+# or properties block in a section heading (Preferred)
+* My Python Notebook
 ,:PROPERTIES:
 ,:header-args:    :python /home/user/Code/myproject/.venv/bin/python :session One :results output file :exports both
 ,:END:
@@ -71,6 +81,33 @@ plt.savefig('output.png')
 print('output.png')
 #+end_src
 
+# or Set the environment Python binary in the properties for the file
+#+PROPERTY: header-args:python :python /home/user/Code/myproject/.venv/bin/python :session One :results output :exports both
+#+title: Emacs org mode like Jupyter Notebook execution
+* Python Session
+
+# Run Python code with uv
+# https://alexguerard.com/blog/org-and-uv
+#+begin_src python :results output :python uv run --env-file .env -
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "anthropic",
+# ]
+# ///
+import anthropic
+
+client = anthropic.Anthropic()
+models = client.models.list()
+
+print('\n'.join([x.id for x in models]))
+#+end_src
+
+# Run Python code with uv with env file
+#+begin_src python python uv run --env-file .env -
+# Code
+#+end_src
+
 # Set Python command, such as a virtual environment to use
 , #+begin_src emacs-lisp
 (setq org-babel-python-command "/usr/bin/python3")
@@ -88,12 +125,6 @@ print("Hello World")
 curl https://jsonplaceholder.typicode.com/todos/1
 #+end_src
 
-# Run a specific program using :shebang
-# See https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-shell.html
-#+begin_src sh :shebang #!/home/user/.nix-profile/bin/nu :results output raw
-sys host
-#+end_src
-
 # Run SQL
 # https://orgmode.org/worg//org-contrib/babel/languages/ob-doc-sql.html
 #+begin_src sql :engine mysql
@@ -106,18 +137,25 @@ The following sections shows babel examples and results in org-mode
 
 ## Python execution
 
-### Python session like Jupyter Note books
+### Python session like Jupyter Notebooks
 
 Source:
 [https://rgoswami.me/posts/jupyter-orgmode/](https://rgoswami.me/posts/jupyter.mdmode/)
 
-Set the environment Python binary in the properties for the file
-
-Specific at section heading
+Set the environment Python binary in the properties of the heading
 
 or properties block in a section heading
 
-,\* Python Session with Virtual Environment Set
+,\* Python Session with Virtual Environment Set (Preferred)
+
+,\* Python Session with Virtual Environment Set with directory
+
+or specific at document
+
+After those org-mode property settings, run Python blocks like normal.
+
+Alternative for simple blocks, `M-x add-file-local-variable` to set the
+local varible `org-babel-python-command`
 
 ### Running commands
 
@@ -154,7 +192,11 @@ print("Hello World")
 
 Run Python code with virtual environment
 
+Set the Python executable as the virtual environment one inside the
+`.venv` folder.
+
 ``` python
+
 import sys
 print("Hello from venv")
 print(sys.executable)
@@ -182,7 +224,7 @@ See
 
 This method can be used to run any command, programming language and get
 its output with a specific path or in the user's PATH environment
-variable
+variable. For example running nushell commands.
 
 ``` bash
 sys host

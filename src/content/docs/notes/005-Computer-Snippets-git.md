@@ -39,6 +39,9 @@ git branch -a
 # Check differences between local "main" branch and remote
 git diff main remotes/origin/HEAD
 
+# Check differences in file from current edits and main
+git diff note/my-note.md
+
 # List branches
 git branch -a -v
 
@@ -76,6 +79,10 @@ git grep -n "string pattern"
 git rebase -i HEAD~5
 # rebase -i : interactive rebase using editor
 # HEAD~5 : include last 5 commits from HEAD
+# Can be used to reorder, pick, reword, edit, squash, fix, drop, and other actions
+
+# Abort a rebase in progress
+git rebase --abort
 
 # Windows git bash
 ## Graphical User Interfaces
@@ -96,31 +103,6 @@ git commit -a -S -m 'Signed commit'
 
 # See and verify a signature on a commit
 git log --show-signature -1
-
-# Git worktrees - manage multiple working trees
-## Like managing a git branch as a separate directory
-## Like manually git cloning a repo to a separate directory and changing the working branch of that repo
-## Easier to keep track of separate branches
-
-# Create a new branch whose name is the final part of the command; add a new worktree with a feature branch
-git worktree add ../myrepo-newfeature new-feature
-## Example
-## /bubbles is [master]
-## /bubbles-table is branch [use-lipgloss-table]
-
-# Create new worktree with existing branch main
-git worktree add ../repo-main main
-
-# If you want to make experimental changes or do testing without disturbing development,
-# it is often convenient to create a throwaway worktree not associated with any branch.
-# Creates a new worktree with a detached HEAD at the same commit as the current branch example
-git worktree add -d ../repo-experimental
-
-# List work trees, their location, and checked out branches
-git worktree list
-
-# Remove a worktree
-git worktree remove worktree-name
 
 # Tagging
 git tag -a v1.0 -m "pre digital garden"
@@ -237,7 +219,7 @@ git rebase --contiue
 
 ```
 
-## Create a new repository
+## Create a new repository - git init, add
 
 ``` shell
 
@@ -277,7 +259,7 @@ git push origin main
 
 ```
 
-## Reset, Revert Changes
+## Reset, Revert Changes - git reset
 
 ``` shell
 
@@ -300,6 +282,9 @@ git restore .
 ### of your unpushed commits to master
 git reset
 
+### Reset last commit, changed files will be staged but not committed
+git reset --soft HEAD~1
+
 ### To revert a change that you have committed:
 git revert <commit 1> <commit 2>
 
@@ -314,6 +299,74 @@ git rm -r files
 
 # Remove git tracking from root of repository
 rm -rf .git
+
+```
+
+## Branching and Merging
+
+Source: [Git - Basic Branching and
+Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+
+``` shell
+
+# Run visual tool to help with merges
+git mergetool
+
+```
+
+## Worktrees - git worktree
+
+Git worktrees help with manage multiple working trees and it is easier
+to keep track of separate branches.
+
+They are like managing a git branch as a separate directory or manually
+git cloning a repository to a separate directory and changing the
+working branch of that repository.
+
+``` shell
+
+# Create a new branch whose name is the final part of the command; add a new worktree with a feature branch
+git worktree add ../myrepo-newfeature new-feature
+## Example
+## /bubbles is [master]
+## /bubbles-table is branch [use-lipgloss-table]
+
+# Create new worktree with existing branch main
+git worktree add ../repo-main main
+
+# If you want to make experimental changes or do testing without disturbing development,
+# it is often convenient to create a throwaway worktree not associated with any branch.
+# Creates a new worktree with a detached HEAD at the same commit as the current branch example
+git worktree add -d ../repo-experimental
+
+# List work trees, their location, and checked out branches
+git worktree list
+
+# Remove a worktree
+git worktree remove worktree-name
+
+```
+
+Example worktree workflow from [Stop Using Git Worktrees - DevOps
+Toolbox, YouTube](https://www.youtube.com/watch?v=WBQiqr6LevQ)
+
+``` shell
+
+# Create a folder to contain worktrees of a repository
+git clone --bare https://my.repository/repo2 repo2
+## Add main branch as a subfolder in repo2
+git worktree add main
+# Create a new branch
+git checkout -b feature1
+## Add feature1 branch as a subfolder in repo2
+git worktree add ../feature1
+## List worktrees
+git worktree list
+## Do work in feature1 and then merge it to main and remove it
+cd main
+git merge feature1
+git worktree remove feature1
+git branch -d feature1
 
 ```
 
@@ -364,7 +417,7 @@ git remote -v
 git push main2 main
 ```
 
-## Reset and Set Git Proxy
+## Reset and Set Git Proxy - git config
 
 For information from proxy
 
@@ -381,6 +434,7 @@ git config --global http.proxy http://1.1.1.1:3128
 git config --global --unset https.proxy
 git config --global --unset http.proxy
 git config --unset https.proxy
+
 ```
 
 ## Using Multiple SSH Private Keys
@@ -533,7 +587,7 @@ globally.
 
     `git config core.sshCommand "ssh -i /path/to/private_key -F /dev/null -o IdentitiesOnly=yes"`
 
-## Only checkout or clone specific files
+## Only checkout or clone specific files - git sparse-checkout
 
 Use case: reduce amount of files tracked or you are only interested in a
 subset of files in a repository

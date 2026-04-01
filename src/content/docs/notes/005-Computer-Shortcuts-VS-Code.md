@@ -6,89 +6,50 @@ title: VS Code Shortcuts
 
 ## Commands
 
-| Description       | Shortcut               |
-|-------------------|------------------------|
-| Command Palette   | F1 or Ctrl + Shift + P |
-| Toggle Zen Mode   | View, Toggle zen mode  |
-| Split editor 1, 2 | Ctrl + 1, 2, etc.      |
-
-## Command Palette
-
-Commands for different functions
-
-### PlantUML Extension
-
-| Description | Shortcut |
-|----|----|
-| Diagram, Preview current diagram on side | PlantUML: Preview Current Diagram |
-
-### GitHub Copilot Extension
-
-| Description                         | Shortcut                          |
-|-------------------------------------|-----------------------------------|
-| Chat, Index files for use with chat | Chat: Build Local Workspace Index |
-| Chat, Export chat history           | Chat: Export Session              |
-
-## Tabs
-
-| Description                                        | Shortcut   |
-|----------------------------------------------------|------------|
-| Change open editor (like Edge, Firefox tab change) | Ctrl + Tab |
+| Description             | Shortcut               |
+|-------------------------|------------------------|
+| Command Palette         | F1 or Ctrl + Shift + p |
+| Toggle Zen Mode         | View, Toggle zen mode  |
+| Split editor 1, 2       | Ctrl + 1, 2, etc.      |
+| Tab, Change open editor | Ctrl + Tab             |
+| Tab, Close              | Ctrl + w               |
+| Markdown: Open Preview  | Ctrl + Shift + v       |
 
 ## Editing / Viewing
 
 | Description                    | Shortcut           |
 |--------------------------------|--------------------|
-| Toggle word wrap               | Alt + z            |
-| Select - Box multi line        | Ctrl + Alt + Shift |
-| Select - Multi line            | Ctrl + Alt         |
+| Comment, Set                   | Ctrl + /           |
 | Indent - line, selected region | Tab                |
 | Indent - reduce indent         | Shift + Tab        |
+| ord wrap, Toggle               | Alt + z            |
+| Select - Box multi line        | Ctrl + Alt + Shift |
+| Select - Multi line            | Ctrl + Alt         |
 
-## Search
+## Panels: Search, Chat
 
-| Description            | Shortcut             |
-|------------------------|----------------------|
-| Go to/search for files | Ctrl + p             |
-| Find in current file   | Ctrl + f             |
-| Find and Replace       | Ctrl + h             |
-| Clear file cache       | Clear editor history |
-
-### Left Panel
-
-| Description              | Shortcut         |
-|--------------------------|------------------|
-| Search text in files     | Ctrl + Shift + F |
-| Open/Go to File Explorer | Ctrl + Shift + e |
-| Close primary left panel | Ctrl + B         |
-
-## Bottom Panel
-
-### Terminal
-
-| Description | Shortcut |
-|----|----|
-| Go to Recent Directory | Ctrl + G (use Ctrl + Alt + G to send Ctrl + G to term) |
-| Run Recent Command | Ctrl + Alt + G (like term Ctrl + R) |
-| Open Detected Links | Ctrl + Shift + O |
-| Send SIGINT | Ctrl + C, Ctrl + C (Second one used in case there is a selection activated) |
-| Toggle Terminal | Ctrl + \` |
-
-### Problems
-
-| Description     | Shortcut         |
-|-----------------|------------------|
-| Toggle Problems | Ctrl + Shift + m |
+| Description                    | Shortcut             |
+|--------------------------------|----------------------|
+| Close primary left panel       | Ctrl + b             |
+| Close secondary right panel    | Ctrl + Alt + b       |
+| Open/Go to File Explorer       | Ctrl + Shift + e     |
+| Problems/Quickfix, Toggle      | Ctrl + Shift + m     |
+| Search, Clear file cache       | Clear editor history |
+| Search, Find and Replace       | Ctrl + h             |
+| Search, Find in current file   | Ctrl + f             |
+| Search, Go to/search for files | Ctrl + p             |
+| Search text in files           | Ctrl + Shift + F     |
 
 ## Jupyter Notebook
 
-Similar to vim keybindings
+Similar to [Vim Shortcuts](/garden/notes/005-computer-shortcuts-vim) - [Vim
+Shortcuts](id:bdb62bfe-56b7-4c13-a1e4-9f91cf4e0bb5)
 
-| Description                         | Shortcut      |
-|-------------------------------------|---------------|
-| Run current cell                    | Ctrl + Enter  |
-| Run current cell and go to next     | Shift + Enter |
-| Enter command mode from insert mode | Esc           |
+| Description                                | Shortcut      |
+|--------------------------------------------|---------------|
+| Run current cell                           | Ctrl + Enter  |
+| Run current cell and go to next            | Shift + Enter |
+| Enter command mode from insert (edit) mode | Esc           |
 
 ### Command Mode
 
@@ -103,11 +64,30 @@ Similar to vim keybindings
 | Switch cell type for Code            | y             |
 | Mode selected cell up or down        | Alt + arrows  |
 
-## Extension: PlantUML
+## Terminal
 
 | Description | Shortcut |
-|-------------|----------|
-| See preview | Alt + d  |
+|----|----|
+| Go to Recent Directory | Ctrl + G (use Ctrl + Alt + G to send Ctrl + G to term) |
+| Run Recent Command | Ctrl + Alt + G (like term Ctrl + R) |
+| Open Detected Links | Ctrl + Shift + O |
+| Send SIGINT | Ctrl + C, Ctrl + C (Second one used in case there is a selection activated) |
+| Toggle Terminal | Ctrl + \` |
+
+## Extensions
+
+### PlantUML Extension
+
+| Description | Shortcut |
+|----|----|
+| Diagram, Preview current diagram on side | PlantUML: Preview Current Diagram |
+| Preview, see | Alt + d |
+
+### GitHub Copilot Extension
+
+| Description | Shortcut        |
+|-------------|-----------------|
+| Chat, Open  | Chat: Open Chat |
 
 ## See Also
 

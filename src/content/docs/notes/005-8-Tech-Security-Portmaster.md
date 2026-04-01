@@ -29,15 +29,16 @@ configurations if needed.
   - Connections and their details
 - Settings
 
-## Example Set up
+## Example Set up and Configuration of Portmaster
 
-- Install
-- See documentation on [Portmaster DNS
-  Configuration](https://docs.safing.io/portmaster/guides/dns-configuration)
-  and [CIRA DNS Encryption with DNS over TLS (DoT)
-  help](https://www.cira.ca/en/canadian-shield/configure/dns-tls/)
-- Set up DNS server using CIRA below or using "Quick Settings" for
-  cloudflare with malware protection
+Install Portmaster and read documentation on [Portmaster DNS
+Configuration](https://docs.safing.io/portmaster/guides/dns-configuration)
+and [CIRA DNS Encryption with DNS over TLS (DoT)
+help](https://www.cira.ca/en/canadian-shield/configure/dns-tls/)
+
+Set up the DNS server using CIRA below or using "Quick Settings" for
+Cloudflare with malware protection. If using Portmaster and Secure DNS
+with an application like Firefox, you can disable it in the application.
 
 ``` shell
 
@@ -51,14 +52,14 @@ dot://cloudflare-dns.com?ip=1.0.0.2&name=Cloudflare&blockedif=zeroip
 
 ```
 
-- Choose most filter lists:
-  - \[x\] Ads & Trackers
-  - \[x\] Malware
-  - \[x\] Deception
-  - \[x\] Mixed Ads/Trackers/Malware
-  - [x] Big Tech as needed
-  - Experimental
-    - [x] Windows Spy Blocker
-  - \[x\] Unbreak Popular Websites
-- If using Portmaster and Secure DNS with an application like Firefox,
-  you can disable it in the application
+Choose most filter lists:
+
+- [x] Ads & Trackers
+- [x] Malware
+- [x] Deception
+- [x] Mixed Ads/Trackers/Malware
+- [x] NSFW
+- [x] Big Tech as needed
+- Experimental
+  - [x] Windows Spy Blocker
+- [x] Unbreak Popular Websites

@@ -65,7 +65,7 @@ print "Hello World"
 # Print is not the same as echo "Hello World" as
 # echo just returns the value
 
-# Read a file as structured data and output
+# Read a file as structured data and output, similar to cat
 open <file>
 
 # Display contents of file
@@ -137,6 +137,7 @@ podman top mycontainer | detect columns
 
 # Convert to other format like csv, md, json, yaml, html, text
 cat mytable.md | detect columns | to csv
+cat jsonlog.log | from json
 
 # Find a program file, alias, or command
 which <command>
@@ -389,5 +390,28 @@ def fkill [
 
 # Python - activate virtual environment with overlay use
 overlay use .venv/bin/activate.nu
+
+```
+
+## Plugins
+
+``` nu
+
+# Add plugin that is downloaded
+## Unix/Linux
+plugin add /home/user1/.nix-profile/bin/nu_plugin_polars
+## Windows
+plugin add c:\Users\user1\scoop\apps\nu\current\nu_plugin_polars.exe
+plugin use nu_plugin_polars
+
+# List plugins
+plugin list
+
+# Polars: view dataframe lazily, like CSV, JSON, JSONL, NDJSON, arrow, avro, parquet
+let df = polars open data.jsonl
+$df | polars collect
+# or
+polars open data.csv | polars collect
+polars open data.csv | polars first 5 | polars collect
 
 ```

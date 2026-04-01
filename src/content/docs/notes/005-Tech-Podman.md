@@ -67,3 +67,8 @@ Stack on YouTube](https://www.youtube.com/watch?v=SIvoAOpXZPg)
   - Volumes
   - K8s dashboard - linked to kubectl
     - Nodes, deployments, volumes
+
+## See Also
+
+- [Podman Snippets](/garden/notes/005-computer-snippets-podman) - [Podman
+  Snippets](id:cff51a5c-156b-4f2e-a49f-17a61dd46f76)

@@ -9,7 +9,9 @@ title: Pulseaudio-pactl Snippets
 # List available audio output devices (sinks)
 pactl list short sinks
 
-# List all audio output devices, for example sound players, browers
+# List all audio outputs, for example sound players, browers
+pactl list sink-inputs
+## Summary only of audio outputs
 pactl list short sink-inputs
 
 # Set sink for a given output id

@@ -41,7 +41,7 @@ ollama serve
 ollama show
 
 # Set context window
-OLLAMA_CONTEXT_LENGTH=8192 ollama serve
+OLLAMA_CONTEXT_LENGTH=16384 ollama serve
 # By default, Ollama uses a context window size of 2048 tokens.
 # This can be overridden with the OLLAMA_CONTEXT_LENGTH environment variable
 # Example above sets the default context window to 8K

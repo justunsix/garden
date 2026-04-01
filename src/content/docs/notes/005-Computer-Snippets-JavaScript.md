@@ -222,6 +222,8 @@ for (let i = 0; i < myArray.length; i++) {
 
 ``` javascript
 
+string1.replace("oldstring", "newstring");
+
 /**
  * Cleans a given string by removing specified phrases and special characters.
  *
@@ -244,6 +246,18 @@ let mutableString = "Hello, this is a sample string! Let's strip some phrases.";
 const phrasesToRemove = ["sample", "strip", "some", "!", "my name"];
 
 mutableString = stripString(mutableString, phrasesToRemove);
+
+---
+
+function removeStrings(input, phrasesToStrip) {
+    phrasesToStrip.forEach((phrase) => {
+        const regex = new RegExp(phrase, "gi");
+        input = input.replace(regex, "");
+    });
+
+    return input.trim();
+}
+
 
 ```
 

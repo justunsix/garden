@@ -19,6 +19,8 @@ title: Software Shortcuts
   [duckduckgo Shortcuts](id:889bac6b-0631-45f2-9176-89c9056b5e78)
 - [Emacs Shortcuts](/garden/notes/005-tech-emacs-shortcuts) - [Emacs
   Shortcuts](id:daea5d06-6895-4073-a5c7-64e8f21bf085)
+- [Espanso Shortcuts](/garden/notes/005-computer-shortcuts-espanso) - [Espanso
+  Shortcuts](id:0e8aa619-3fec-4b52-8222-df1f03cbd065)
 - [Figma Shortcuts](/garden/notes/005-computer-shortcuts-figma) - [Figma
   Shortcuts](id:4b771076-db95-4902-bea6-9e5a88f34b9c)
 - [Firefox Shortcuts](/garden/notes/005-computer-shortcuts-firefox) - [Firefox
@@ -37,6 +39,8 @@ title: Software Shortcuts
   Shortcuts](id:bc213b79-60c0-4e31-acf7-97ecfe5dd98b)
 - [i3 Window Manager Shortcuts](/garden/notes/005-computer-shortcuts-i3) - [i3
   Shortcuts](id:0e83a81d-957d-48d2-9c05-fc56c36bc230)
+- [Jupyter Shortcuts](/garden/notes/005-computer-shortcuts-jupyter) - [Jupyter
+  Shortcuts](id:3983fb96-601d-428f-bf2c-670a561751b3)
 - [k9s Shorcuts](/garden/notes/005-computer-shortcuts-k9s) - [k9s
   Shortcuts](id:971ee066-613f-4c4c-ad47-faa03a592665)
 - [Kate Editor Shortcuts](/garden/notes/005-computer-shortcuts-kate) - [Kate Editor
@@ -92,6 +96,8 @@ title: Software Shortcuts
   Shortcuts](id:441cec9c-4ca1-479a-9dcc-b0b0bbe294f6)
 - [Nushell Shortcuts](/garden/notes/005-computer-shortcuts-nushell) - [Nushell
   Shortcuts](id:fc547d1c-d991-4e67-b6be-1b8cc5d4fc17)
+- [OpenCode Shortcuts](/garden/notes/005-computer-shortcuts-opencode) - [OpenCode
+  Shortcuts](id:fffca480-55d7-435a-abe9-c4f4fb1433b6)
 - [OpenStreetMap Shortcuts](/garden/notes/005-computer-shortcuts-openstreetmap) -
   [OpenStreetMap Shortcuts](id:26136107-fbb2-4749-b793-5f6d911b81c6)
 - [Personal OS Shortcuts](/garden/notes/005-computer-shortcuts-personal) -

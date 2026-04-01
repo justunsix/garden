@@ -14,21 +14,24 @@ title: Visidata
 ## Install Visidata on Windows
 
 - Use Python interpreter with a supported version of windows-curses
-  - Create a virtual environment like in conda if needed like 3.11
-- If the current Python interpreter supports windows-curses, recommend
-  use pipx instead
+  - Create a virtual environment like in conda if needed like 3.12 or uv
+    init
 
 ``` shell
 
-# uv install option
-## uv will include windows-curses
-## openpyxl for Excel support
-uv tool install visidata
+# Init virtual environment
+uv init
+# openpyxl for Excel files support
+uv add visidata openpyxl
+source .venv/Scripts/activate
+visidata book.csv
 
 # pip install option
+# Create new virtual env
+python -m venv ./venv
+./venv/Scripts/Activate
 # Install visidata requirements
 pip install visidata windows-curses
-
 # For Excel files support
 pip install openpyxl
 

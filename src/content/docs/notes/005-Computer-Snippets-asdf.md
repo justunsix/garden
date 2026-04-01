@@ -12,11 +12,11 @@ asdf plugin list all
 # Install a plugin:
 asdf plugin add name
 
-# List all available versions for a package
-asdf list all name
+# List all available versions for a package with packagename
+asdf list all packagename
 
-# List install packages with name
-asdf list name
+# List install packages with packagename
+asdf list packagename
 
 # Install a specific version of a package
 asdf install packagename version

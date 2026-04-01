@@ -244,12 +244,12 @@ grep -r 'f[io]x'
 
 ### Resources
 
-- [RegExr: Learn, Build, & Test RegEx](https://regexr.com/) - test regex
-  on text and explanations of syntax
 - [Debuggex: Online visual regex tester. JavaScript, Python, and
   PCRE](https://www.debuggex.com/) - visual representation of regex
 - [RegexOne - Learn Regular Expressions - Lesson 1: An Introduction, and
   the ABCs](https://www.regexone.com/) - test yourself with sample text
+- [RegExr: Learn, Build, & Test RegEx](https://regexr.com/) - test regex
+  on text and explanations of syntax
 - [Regular Expressions Exercises at Sketch
   Engine](https://regex.sketchengine.eu/index.html) - exercises and
   tutorial

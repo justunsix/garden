@@ -134,3 +134,6 @@ resource "azurerm_resource_group" "rg" {
 - [Build Infrastructure - Terraform Azure Example \| Terraform \|
   HashiCorp
   Developer](https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-build)
+- [foundry-samples/infrastructure/infrastructure-setup-terraform/00-basic-azurerm/README.md
+  at main · microsoft-foundry/foundry-samples ·
+  GitHub](https://github.com/microsoft-foundry/foundry-samples/blob/main/infrastructure/infrastructure-setup-terraform/00-basic-azurerm/README.md)

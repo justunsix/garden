@@ -8,9 +8,25 @@ Source for many examples: [Learning Awk Is Essential For Linux Users -
 YouTube](https://www.youtube.com/watch?v=9YOZmI-zWok)
 
 - AWK language as defined in Aho, Kernighan and Weinberger
+
 - Scan and help replace strings
 
+- Pattern scanning and text processing language. Mawk interprets the AWK
+  programming language
+
+- List of pattern action pairs and function definitions
+
+- Input can be list of files and standard input
+
+- Awk can be enclosed in ' ' or from a file
+
 ``` shell
+
+# Emulate cat - Print contents of a file
+mawk '{print}' file.txt
+
+# Get contents of a file where line contains name, split line on = and print name / value pair
+mawk '/name/ {split($0,a,"="); print a[1], a[2]}' .gitconfig
 
 # * Print columns in a structure output or file
 
@@ -55,7 +71,7 @@ awk 'END{print NR}' /etc/shells /etc/passwd
 # '/\dev\/ / {print $1}' = if line contains /dev/ (only process those lines), print first field
 df | awk '/\/dev/ {print $1}'
 # similarly, subtract column 3 from column 2
-df | awk '/\/dev/ {print $1 " " $2 -$3 }'  
+df | awk '/\/dev/ {print $1 " " $2 -$3 }'
 # print line numbers 7 through 11
 df | awk 'NR==7, NR==11 {print NR, $0}'
 

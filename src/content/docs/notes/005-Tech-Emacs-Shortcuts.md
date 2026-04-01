@@ -25,19 +25,19 @@ title: Emacs Shortcuts
 
 | Name | Shortcuts |
 |----|----|
+| Exit emacs | C-x C-c |
+| Find / Open file | find-file, C-x C-f |
+| Help | C-h C-h |
+| Personal and common major mode leader key | C-c |
+| Quit partial command | C-g |
+| Quit read only buffer | q |
+| Reload screen, mode (many modes like magit, dashboard) | g |
 | Run any command | M-x |
 | Run commands relevant to buffer modes | M-S-X (M-X) |
-| Find / Open file | find-file |
 | Save buffer | C-x C-s |
-| Help | C-h C-h |
-| Quit partial command | C-g |
-| Exit emacs | C-x C-c |
 | Switch buffers | C-x b |
-| Switch buffers: List Buffers | C-x C-b |
 | Switch buffers: Cycle through buffers | C-x right , C-x left |
-| Quit read only buffer | q |
-| Personal and common major mode leader key | C-c |
-| Reload screen, mode (many modes like magit, dashboard) | g |
+| Switch buffers: List Buffers | C-x C-b |
 
 ## System
 
@@ -50,6 +50,7 @@ title: Emacs Shortcuts
 | proced: kill | k |
 | proced: quit | k |
 | proced: help | proced-help |
+| Location of save, history, kill ring and other file variable | savehist-file |
 | Restart Emacs | restart-emacs |
 
 ### Updates of Packages

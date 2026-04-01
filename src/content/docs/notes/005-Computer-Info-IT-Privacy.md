@@ -90,9 +90,9 @@ They are in Canadian privacy laws
     dealing with inquiries, challenges, or complaints. Organization
     needs to investigate all compliance and act/change accordingly.
 
-## Legislation
+## Legislation in Ontario, Canada
 
-### Personal Health Information Protection Act (PHIPA)
+### Personal Health Information Protection Act (PHIPA) - Ontario legislation
 
 Use 10 privacy principles
 
@@ -152,7 +152,7 @@ Roles:
     - Bind third parties providers to the same obligations
     - Enter into written contract with the HIC that define the services
       and measures to protect privacy and security
-- Prescribed Organization — Ontario Health
+- Prescribed Organization, example of Ontario Health
   - As the prescribed organization, Ontario Health is mandated by PHlPA
     to perform the following functions:
     - Manage and integrate the PHI from HICs.
@@ -211,7 +211,7 @@ Identifying information in DHIR includes, but is not limited to:
 
 ## Privacy Responsibilities
 
-Example, Ministry of Health is HINP
+Example, Ontario Ministry of Health is HINP
 
 - HINPs may come in contact with PHI in performing their duties such as
   help desk, systems maintenance, etc. Such contact with PHI must always

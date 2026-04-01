@@ -74,6 +74,8 @@ to save time and improve efficiency.
         Google services
     - Most development can be done in a web browser, no additional tools
       required
+    - Reuse existing governance and security of tenant like Microsoft
+      Entra ID and Power Platform configurations.
 
 ### Business Value of Power Platform
 

@@ -1,5 +1,5 @@
 ---
-filetags: ":microsoft:tech:azure:container:power-platform:epubnote:"
+filetags: ":microsoft:tech:azure:container:power-platform:index:epubnote:"
 id: fd8af895-8c3f-483c-80a9-e082b1e62581
 tags: ":artificial-intelligence:ai:microsoft:"
 title: Microsoft Technology Microsoft Power Platform Notes Microsoft
@@ -15,22 +15,24 @@ title: Microsoft Technology Microsoft Power Platform Notes Microsoft
 
 - [Microsoft Dynamics](/garden/notes/005-tech-microsoft-dynamics) - [Microsoft
   Dynamics](id:ffe5c447-66a0-4bf7-b566-a0c54d95e4cf)
-- [Microsoft Outlook](/garden/notes/005-tech-microsoft-outlook) - [Microsoft
-  Outlook](id:7b63aaa4-93d8-4cc6-8d41-215f67d2776e)
-- [Microsoft Windows Desktop](/garden/notes/005-tech-microsoft-windows-desktop) -
-  [Microsoft Windows Desktop](id:ca2bc826-3f62-471e-a244-480df7ea8f18)
-- [Microsoft Word](/garden/notes/005-tech-microsoft-word) - [Microsoft
-  Word](id:91ef78d2-8bac-4b47-9761-a27ad35e1ed3)
-- [Microsoft SharePoint](/garden/notes/005-tech-microsoft-sharepoint) - [Microsoft
-  SharePoint](id:2c70e832-90ff-4a59-ace1-59c5879a755a)
 - [Microsoft Fabric](/garden/notes/005-tech-microsoft-fabric) - [Microsoft
   Fabric](id:74adb143-2282-4633-a6ec-ae28df638881)
 - [Microsoft Fabric Real Time
   Intelligence](/garden/notes/005-tech-microsoft-fabric-real-time-intelligence) -
   [Microsoft Fabric Real Time
   Intelligence](id:10be9d68-3b92-4257-a19f-b97c44d1b454)
+- [Microsoft M365 Copilot](/garden/notes/006-3-tech-ai-microsoft-m365-copilot) -
+  [Microsoft M365 Copilot](id:68647160-81d6-4a03-a1c0-cd91cc529eed)
+- [Microsoft Outlook](/garden/notes/005-tech-microsoft-outlook) - [Microsoft
+  Outlook](id:7b63aaa4-93d8-4cc6-8d41-215f67d2776e)
+- [Microsoft SharePoint](/garden/notes/005-tech-microsoft-sharepoint) - [Microsoft
+  SharePoint](id:2c70e832-90ff-4a59-ace1-59c5879a755a)
+- [Microsoft Windows Desktop](/garden/notes/005-tech-microsoft-windows-desktop) -
+  [Microsoft Windows Desktop](id:ca2bc826-3f62-471e-a244-480df7ea8f18)
+- [Microsoft Word](/garden/notes/005-tech-microsoft-word) - [Microsoft
+  Word](id:91ef78d2-8bac-4b47-9761-a27ad35e1ed3)
 
-### Courses
+### Courses and Training
 
 - [AI
   Fundamentals](/garden/notes/006-3-tech-microsoft-ai-artificial-intelligence-fundamentals) -
@@ -44,10 +46,15 @@ title: Microsoft Technology Microsoft Power Platform Notes Microsoft
 - [DevOps with GitHub - Secure
   Development](/garden/notes/005-8-tech-microsoft-devops-github-secure-development) -
   How to develop securely in the cloud
-- [Service Connections for Microsoft
-  DevOps](/garden/notes/005-8-tech-microsoft-devops-service-connections) - [Service
-  Connections for Microsoft
-  DevOps](id:583e4050-964c-4a68-b736-6ae27cb5aaff)
+- [Microsoft Build 2023](/garden/notes/005-tech-microsoft-build-2023) - [Microsoft
+  Build 2023](id:43e6a78d-fb35-4f7d-865b-9756d1954950)
+- [Microsoft Developer Day 2026 at
+  Work](/garden/notes/005-tech-microsoft-developer-day-at-work-2026) - [Microsoft
+  Developer Day 2026 at Work](id:21ab993d-0a72-465f-b2d7-3c5a10f7db16) -
+  Data science flows and artificial intelligence platforms and AI
+  building full stack application
+- [Microsoft Java Apps](/garden/notes/005-tech-microsoft-java-apps) - [Microsoft
+  Java Apps](id:956282c1-6520-452d-a693-350ddf4e75fa)
 - [Microsoft Power BI](/garden/notes/005-tech-microsoft-powerbi) - [Microsoft Power
   BI](id:a624927c-e3c0-4019-9a29-55fa523ec621)
 - [Microsoft Power BI
@@ -56,8 +63,10 @@ title: Microsoft Technology Microsoft Power Platform Notes Microsoft
   Visualizations](id:e7ff8bd6-bfd9-4f58-adc0-88ea56ed40d0)
 - [Secure DevOps](/garden/notes/005-8-tech-security-secure-devops) - [Secure
   DevOps](id:9329dbfe-ee56-4bda-93d7-6bf7a8816b1d)
-- [Microsoft Java Apps](/garden/notes/005-tech-microsoft-java-apps) - [Microsoft
-  Java Apps](id:956282c1-6520-452d-a693-350ddf4e75fa)
+- [Service Connections for Microsoft
+  DevOps](/garden/notes/005-8-tech-microsoft-devops-service-connections) - [Service
+  Connections for Microsoft
+  DevOps](id:583e4050-964c-4a68-b736-6ae27cb5aaff)
 
 ### Microsoft Power Platform Notes
 

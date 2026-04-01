@@ -6,8 +6,6 @@ title: Software Snippets
 
 ## See Also
 
-- [7-Zip Snippets](/garden/notes/005-computer-snippets-7-zip) - [7-Zip
-  Snippets](id:3432e62b-4989-4e1d-8441-4369599139ba)
 - [asdf Snippets](/garden/notes/005-computer-snippets-asdf) - [asdf
   Snippets](id:45f7089c-d0e6-4383-8aa1-66c10a02101f)
 - [Astro Snippets](/garden/notes/005-computer-snippets-astro) - [Astro
@@ -49,6 +47,8 @@ title: Software Snippets
   [Editorconfig Snippets](id:0f1c1552-c742-412f-8008-ae602020e576)
 - [Emacs eshell Snippets](/garden/notes/005-computer-snippets-emacs-eshell) -
   [Emacs eshell Snippets](id:b9c15120-7b17-427c-9f08-e12e2678e0b7)
+- [Emacs Lisp Snippets](/garden/notes/005-computer-snippets-emacs-lisp) - [Emacs
+  Lisp Snippets](id:00798efe-be1c-4450-8aaf-2b1d288d8422)
 - [Emacs Org Mode Snippets](/garden/notes/005-computer-snippets-emacs-org-mode) -
   [Emacs Org Mode Snippets](id:4a735bbe-5abd-434a-8387-df414685c341)
 - [Emacs Snippets](/garden/notes/005-computer-snippets-emacs) - [Emacs
@@ -74,10 +74,10 @@ title: Software Snippets
 - [GDB and LLDB
   Snippets](/garden/notes/005-computer-snippets-gdb-lldb-gnu-debugger) - [GDB and
   LLDB Debugger Snippets](id:7fba6e8c-f671-4deb-8126-88a1208d567e)
-- [Git Snippets](/garden/notes/005-computer-snippets-git) - [Git
-  Snippets](id:95f66412-2bb4-49f7-aed1-c05f0057798c)
 - [GitHub CLI Snippets](/garden/notes/005-computer-snippets-github-cli) - [GitHub
   CLI Snippets](id:a3c30671-2f49-4952-9cb4-a5b4087bf8b3)
+- [Git Snippets](/garden/notes/005-computer-snippets-git) - [Git
+  Snippets](id:95f66412-2bb4-49f7-aed1-c05f0057798c)
 - [GNU Coreutils Snippets](/garden/notes/005-computer-snippets-gnu-coreutils) -
   [GNU Coreutils Snippets](id:60d1c07a-22b6-40bb-99ee-274feab9cd20)
 - [GNU Findutils Snippets](/garden/notes/005-computer-snippets-gnu-findutils) -
@@ -99,10 +99,10 @@ title: Software Snippets
   Snippets](id:0ad986a2-9bec-4d2c-8687-f91af216c662)
 - [Helm Snippets](/garden/notes/005-computer-snippets-helm) - [Helm
   Snippets](id:7ed92686-1a85-46cc-8483-6fa1fc0587a2)
-- [Java Snippets](/garden/notes/005-computer-snippets-java) - [Java
-  Snippets](id:169b12b1-ff8d-4a9a-8adc-d6e1e9452cda)
 - [JavaScript Snippets](/garden/notes/005-computer-snippets-javascript) -
   [JavaScript Snippets](id:9d66cc02-f8c7-46e0-8f92-da79b107f1c7)
+- [Java Snippets](/garden/notes/005-computer-snippets-java) - [Java
+  Snippets](id:169b12b1-ff8d-4a9a-8adc-d6e1e9452cda)
 - [Kamal Snippets](/garden/notes/005-tech-snippets-kamal) - [Kamal
   Snippets](id:b5064ecf-6e06-4975-bb8f-5c4098d7403a)
 - [KQL Snippets](/garden/notes/005-tech-snippets-kql) - [KQL
@@ -134,6 +134,8 @@ title: Software Snippets
   Snippets](id:21dcf766-554f-4be9-a2d4-5116673f75be)
 - [Minikube Snippets](/garden/notes/005-computer-snippets-minikube) - [Minikube
   Snippets](id:c430e255-a071-45a5-873c-da3104149bdc)
+- [mise-en-place Snippets](/garden/notes/005-computer-snippets-mise-en-place) -
+  [mise-en-place Snippets](id:4126d6c6-3402-40de-95d9-e28e97cbb617)
 - [mpocs Snippets](/garden/notes/005-computer-snippets-mprocs) - [mprocs
   Snippets](id:5681583f-e894-4777-aeab-930ba556443d)
 - [mpv Snippets](/garden/notes/005-computer-snippets-mpv) - [mpv
@@ -152,6 +154,8 @@ title: Software Snippets
   Version Manager nvm Snippets](id:884866a7-16e2-4c18-a7b5-62844e5fcc4f)
 - [ollama Snippets](/garden/notes/005-computer-snippets-ollama) - [Snippets
   ollama](id:43ecce4a-30f7-4d84-a7fb-7b12e7bc46d0)
+- [OpenCode Snippets](/garden/notes/005-computer-snippets-opencode) - [OpenCode
+  Snippets](id:b4a90465-b044-47c1-8c6c-a93124d9dfbe)
 - [Pandoc Snippets](/garden/notes/005-computer-snippets-pandoc) - [Pandoc
   Snippets](id:56030404-6d4a-453b-9763-ceb5f016124b)
 - [PlantUML Snippets](/garden/notes/005-computer-snippets-plantuml) - [PlantUML
@@ -182,8 +186,13 @@ title: Software Snippets
 - [Scoop Windows Package Manager](/garden/notes/005-computer-snippets-scoop) -
   [Scoop Windows Package Manager
   Snippets](id:fed06507-bb32-40a4-90c3-a490d2f0302f)
+- [sed Snippets](/garden/notes/005-computer-snippets-sed) - [sed
+  Snippets](id:dfacdd4d-a4e5-4f51-b672-0b7a8a873468)
 - [sha256sum Snippet](/garden/notes/005-computer-snippets-sha256sum) - [sha256sum
   Snippet](id:d478f1a2-d9a2-4d97-b69b-1fdaea0a09ae)
+- [skills.sh for AI Agents
+  Snippets](/garden/notes/005-computer-snippets-skills-sh-for-ai) - [skills.sh for
+  AI Agents Snippets](id:d4526779-fd2e-4503-a672-69a1cc3581e0)
 - [SOPS Secrets OPerations Snippets](/garden/notes/005-computer-snippets-sops) -
   [SOPS Secrets OPerations
   Snippets](id:b00b9f8a-3711-4864-8878-4f908f590874)
@@ -197,6 +206,8 @@ title: Software Snippets
   [systemd-journal Snippets](id:bd625f38-5dee-464e-bf0f-da6b57b0c52b)
 - [Television Snippets](/garden/notes/005-computer-snippets-television) -
   [Television Snippets](id:464e217b-0754-456e-9b6b-d3d954917af5)
+- [Terraform Snippets](/garden/notes/005-computer-snippets-terraform) - [Terraform
+  Snippets](id:fcf890d9-149a-4c8c-80c8-ab2e2417fad8)
 - [tmux Snippets](/garden/notes/005-computer-snippets-tmux) - [tmux
   Snippets](id:65e276bc-3efb-403c-a0fd-7e92905daa83)
 - [Topgrade Snippets](/garden/notes/005-computer-snippets-topgrade) - [Topgrade
@@ -211,6 +222,8 @@ title: Software Snippets
   Snippets](id:0615a025-93dc-4dbf-b835-dbedc5fadbc7)
 - [VS Code Snippets](/garden/notes/005-computer-snippets-vs-code) - [VS Code
   Snippets](id:65e43a77-f440-4420-a2a8-fdda6dd05d4f)
+- [Wezterm Snippets](/garden/notes/005-computer-snippets-wezterm) - [Wezterm
+  Snippets](id:ef09d57e-83e7-44c3-b7ed-91c628a609bf)
 - [Windows cmd Snippets](/garden/notes/005-computer-snippets-cmd) - [windows cmd
   Snippets](id:5823f5a9-3c82-453a-bad3-e659009dee7a)
 - [Windows Snippets](/garden/notes/005-computer-snippets-windows) - [Windows

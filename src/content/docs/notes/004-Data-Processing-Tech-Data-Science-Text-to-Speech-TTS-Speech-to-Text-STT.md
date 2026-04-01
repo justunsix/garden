@@ -8,9 +8,13 @@ title: Text to Speech (TTS) and Speech to Text (STT)
 
 ### Open Source
 
+- See [Free and/or Open Source Software
+  (FOSS)](/garden/notes/005-tech-free-open-source-software-foss) - [Free and/or
+  Open Source Software (FOSS)](id:4d3e0888-9e79-414c-a552-48c6357ad845)
+  and search for TTS options
 - Free and accessible, built into browsers: Firefox
-- Open Source TTS from
-  <https://www.datacamp.com/blog/best-open-source-text-to-speech-tts-engines>
+- Open Source TTS from [Open Source Text to Speech TTS Engines -
+  datacamp](https://www.datacamp.com/blog/best-open-source-text-to-speech-tts-engines)
   - [MaryTTS (Multimodal Interaction
     Architecture)](https://github.com/marytts/marytts)
   - [eSpeak NG Text-to-Speech](https://github.com/espeak-ng/espeak-ng)
@@ -41,12 +45,12 @@ title: Text to Speech (TTS) and Speech to Text (STT)
 
 ### Open Source
 
-- [Speech Note](https://github.com/mkiol/dsnote) app
+- 2025-01: VLC upcoming feature for translations and speech to text
+  subtitles
 - See [Audio Subtitles and OpenAI
   Whisper](/garden/notes/006-3-tech-ai-audio-subtitles-whisper) - [Audio Subtitles
   and OpenAI Whisper](id:2ba9f6d2-10f2-4c27-b781-ee754d1423b4)
-- 2025-01: VLC upcoming feature for translations and speech to text
-  subtitles
+- [Speech Note](https://github.com/mkiol/dsnote) app
 
 ### Free Options
 

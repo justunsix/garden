@@ -21,6 +21,12 @@ title: Python Libraries
   environment for notebooks, code, and data
 - [Keyboard](https://pypi.org/project/keyboard/) - Hook and simulate
   keyboard events on Windows and Linux
+- [Matplotlib](https://pypi.org/project/matplotlib/) - library for
+  creating static, animated, and interactive visualizations in Python
+- [NumPy](https://pypi.org/project/numpy/) - scientific computing
+  including N-dimensional array object, sophisticated (broadcasting)
+  functions, tools for integrating C/C++ and Fortran code, linear
+  algebra, Fourier transform, and random number capabilities
 - [OpenCV](https://github.com/opencv/opencv) - Open Source Computer
   Vision Library
 - [Openshift-client](https://github.com/openshift/openshift-client-python) -
@@ -28,7 +34,8 @@ title: Python Libraries
 - [Pandas](https://pandas.pydata.org/) - Data analysis
 - [Playwright](https://playwright.dev/) - End to end, browser, web based
   testing
-- [Polars](https://pola.rs/) - Dataframes, data processing
+- [Polars](https://pola.rs/) - Dataframes, data processing, similar to
+  Pandas
 - [PyAutoGUI](https://pypi.org/project/PyAutoGUI/) - Lets Python control
   the mouse and keyboard, and other GUI automation tasks
 - [Pyinstaller](https://pypi.org/project/pyinstaller/) - Bundles Python
@@ -38,17 +45,18 @@ title: Python Libraries
   Python module for copy and paste clipboard functions
 - [Pystray](https://pypi.org/project/pystray/) - Systray integration for
   Linux, Mac OSX and Windows
-- [Pytest](https://docs.pytest.org/en/stable/) - testing framework
 - [Pytest-snapshot](https://github.com/joseph-roitman/pytest-snapshot) -
   plugin for snapshot (save results for compare) testing with pytest
+- [Pytest](https://docs.pytest.org/en/stable/) - testing framework
 - [python-dotenv](https://pypi.org/project/python-dotenv/) - Read
   key-value pairs from a .env file and set them as environment variables
 - [Requests](https://github.com/psf/requests) - Send HTTP requests
 - [Robot Framework](https://robotframework.org/) - Open source automation
   framework for test automation and robotic process automation (RPA)
+- [scikit-learn](https://scikit-learn.org/) - Machine Learning
 - [Selenium](https://www.selenium.dev/) - Browser automation, testing
 - [Whisper](https://openai.com/index/whisper/) - automatic speech
-  recognition (ASR), text to speechless
+  recognition (ASR), text to speech (TTS)
 
 ## See Also
 
