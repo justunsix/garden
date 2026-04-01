@@ -65,7 +65,7 @@ inexpensive options and/or good price for portions.
 | [The Chefs' House](https://www.thechefshouse.com/) | Sherbourne-King |  | Value, Student |  |
 | Village by the Grange Food Court | McCaul-Dundas | Various | Value |  |
 
-jd = near TMU
+jd = near Yonge and Dundas in Toronto
 
 ## Near North York Centre
 
@@ -80,21 +80,26 @@ Yonge-Finch and Yonge-Shepperd areas
 
 ## Other Locations
 
-| Name | Location | Style | Special |
-|----|----|----|----|
-| [Café Polonez](https://cafepolonez.ca/) | 195 Roncesvalles Avenue | Polish |  |
-| [Carmelina](https://carmelinasrestaurant.com) | Woodbine-John St. | Italian |  |
-| [Casa Barcelona](https://www.casabarcelona.ca/) | Royal York-Bloor | Spanish | tapas |
-| Centennial College Restaurant | Markham Road-401 | Various | Value, Student |
-| Congee Queen | Various, Yonge-Steeles | Chinese, Cantonese | Value shared |
-| [Good Catch Cafe](https://goodcatchbarcafe.com/good-catch-cafe/) | Don Mills-Sheppard, Fairview Mall | Chinese | Value=specials |
-| Joy Noodle Cafe | Woodbine-407, Markham | Chinese, Hong Kong |  |
-| Mt Everest Restaurant |  | Nepalese/Indian |  |
-| [Orient Bistro](https://www.yelp.ca/biz/orient-bistro-fine-chinese-dining-and-bar-richmond-hill) | 404-16th Ave | Chinese | Fine |
-| Providential 9 | Woodbine-407, Markham | Chinese |  |
-| [Somtum Jinda](https://somtumjinda.ca/) | Don Mills-Sheppard, Fairview Mall | Thai | Michelin |
-| The Queen | Don Mills-Eglinton | Chinese | Fine |
-| Yan's Kitchen | West Pearce-Leslie | Chinese, Shanghai |  |
+| Name | Location | Style | Special | Tag |
+|----|----|----|----|----|
+| [Bistro Five61 (561)](https://bistrofive61.com/) | Avenue Road-St. Clair |  | Fine | up |
+| [Café Polonez](https://cafepolonez.ca/) | 195 Roncesvalles Avenue | Polish |  |  |
+| [Carmelina](https://carmelinasrestaurant.com) | Woodbine-John St. | Italian |  |  |
+| [Casa Barcelona](https://www.casabarcelona.ca/) | Royal York-Bloor | Spanish | tapas |  |
+| Centennial College Restaurant | Markham Road-401 | Various | Value, Student |  |
+| Congee Queen | Various, Yonge-Steeles | Chinese, Cantonese | Value shared |  |
+| [Good Catch Cafe](https://goodcatchbarcafe.com/good-catch-cafe/) | Don Mills-Sheppard, Fairview Mall | Chinese | Value=specials |  |
+| [Granma Loves You](https://grandmalovesyou.ca/) | Avenue Road-St. Clair | Sandwich |  | up |
+| Joy Noodle Cafe | Woodbine-407, Markham | Chinese, Hong Kong |  |  |
+| [Mary Be Kitchen](https://www.marybekitchen.com/) | Avenue Road-St. Clair | Local |  | up |
+| [Orient Bistro](https://www.yelp.ca/biz/orient-bistro-fine-chinese-dining-and-bar-richmond-hill) | 404-16th Ave | Chinese | Fine |  |
+| Providential 9 | Woodbine-407, Markham | Chinese |  |  |
+| [Somtum Jinda](https://somtumjinda.ca/) | Don Mills-Sheppard, Fairview Mall | Thai | Michelin |  |
+| Sushi Rock | Yonge-St. Clair | Japenese |  | up |
+| The Queen | Don Mills-Eglinton | Chinese | Fine |  |
+| Yan's Kitchen | West Pearce-Leslie | Chinese, Shanghai |  |  |
+
+up = uptown
 
 ## Restaurants in Downtown Core
 

@@ -4,26 +4,7 @@ id: cea7d7ad-fb9d-404a-9d3a-b477d2202aaa
 title: Fun Things to do Toronto
 ---
 
-## Maps / Geography
-
-- Art map of Toronto
-- City of Toronto Recreation Map / Parks and trails map
-
-### Downtown Events Spaces
-
-- Choose a beautiful public space such as the Bram and Bluma Appel Salon
-  in Toronto Reference Library, the MaRS Centre, the Design Exchange;
-  the Toronto Board of Trade.
-- Venue ideas at [Bizbash](https://www.bizbash.com/)
-
-## Fun things in Toronto
-
-- [Geocaching](http://en.wikipedia.md/wiki/Geocaching)
-- Restaurants of different cultures: e.g. various Asian, North African,
-  Indian, European (e.g. Polish, Spanish, French, Portuguese, Korean)
-- Various entertainment areas (e.g. karaoke).
-
-### Tours of places and attractions
+## Tours of places and attractions
 
 - Beaches, parks (outdoor activities like volleyball, soccer, etc.)
 - Centre Island and Lakefront/Ferry
@@ -34,7 +15,7 @@ title: Fun Things to do Toronto
 - Hockey Hall of Fame
 - [Lake Ontario Islands near
   Toronto](http://www.toronto.ca/parks/island/)– ferry rides, parks,
-  amusement, sports. Centre island is one of my favourites.
+  amusement, sports. Centre island is a favourites.
 - [Niagara Falls](http://www.niagarafallstourism.com/)
 - Riverdale Farm
 - Sports venues
@@ -45,16 +26,15 @@ title: Fun Things to do Toronto
   Toronto](https://www.toronto.ca/explore-enjoy/festivals-events/festivals-events-calendar/)
 - Trip to [Niagara Falls](http://www.niagarafallstourism.com/)
 
-Various museums (history, art, ceramics, etc.). The [history
-museum](http://www.rom.on.ca/) and [art gallery](http://www.ago.net/):
+## Museums (history, art, ceramics, other)
 
-- AGO
-- ROM
+- [Art Gallery of Ontario (AGO)](https://ago.ca/)
+- [Royal Ontario Museum (ROM)](https://www.rom.on.ca/)
 - Gardiner Ceramic Art
 - Textile Museum
 - Bata Shoe Museum
 
-### Performances
+## Performances
 
 - [Roy Thompson Hall](http://www.roythomson.com/) and associated venues
   – generally classical music, but also from jazz to world music, rock
@@ -65,7 +45,7 @@ museum](http://www.rom.on.ca/) and [art gallery](http://www.ago.net/):
   movies](http://tiff.net/tiffbelllightbox)
 - Comedy Clubs (Second City, Yuks Yuks, Absolute Comedy, etc.)
 
-### Indoor
+## Indoor
 
 - [Castle Loma](http://www.casaloma.md/)
 - [CN Tower](http://www.cntower.ca/) (was the tallest free standing
@@ -85,7 +65,7 @@ museum](http://www.rom.on.ca/) and [art gallery](http://www.ago.net/):
 - St. Lawrence Market
 - Theatres
 
-### Specific Fun Things
+## Specific Fun Things
 
 - AGO, ROM, Gardiner, Art museums
 - Ashbridges Bay / Cherry St. beach
@@ -96,6 +76,7 @@ museum](http://www.rom.on.ca/) and [art gallery](http://www.ago.net/):
 - CN Tower
 - Distillery District
 - Don Valley (including Taylor Creek), Humber River Valley trails
+- [Geocaching](http://en.wikipedia.md/wiki/Geocaching)
 - Golf, bowling, skiing
 - High Park
 - Lake Ontario tour leaving from Queen's Quay
@@ -104,7 +85,24 @@ museum](http://www.rom.on.ca/) and [art gallery](http://www.ago.net/):
   dinner and Salsa lesson and dancing package.
 - Musicals
 - Queen's Park and University/College
+- Restaurants of different cultures: e.g. various Asian, North African,
+  Indian, European (e.g. Polish, Spanish, French, Portuguese, Korean)
+- Rouge National Park
 - Scarborough Bluffs
+- Various entertainment areas (e.g. karaoke).
+
+## Maps / Geography
+
+- [Public Art map of
+  Toronto](https://www.toronto.ca/explore-enjoy/history-art-culture/public-art/public-art-map/)
+- City of Toronto Recreation Map / Parks and trails map
+
+### Downtown Events Spaces
+
+- Choose a beautiful public space such as the Bram and Bluma Appel Salon
+  in Toronto Reference Library, the MaRS Centre, the Design Exchange;
+  the Toronto Board of Trade.
+- Venue ideas at [Bizbash](https://www.bizbash.com/)
 
 ## See Also
 
