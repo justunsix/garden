@@ -64,10 +64,9 @@ title: Technology
 
 ## Tools, Programs, Software
 
-- [Applications - Free and/or Open Source
-  Software](/garden/notes/005-tech-free-open-source-software-foss) -
-  [Applications - Free and/or Open Source
-  Software](id:4d3e0888-9e79-414c-a552-48c6357ad845)
+- [Free and/or Open Source Software
+  (FOSS)](/garden/notes/005-tech-free-open-source-software-foss) - [Free and/or
+  Open Source Software (FOSS)](id:4d3e0888-9e79-414c-a552-48c6357ad845)
 - [Astro web framework](/garden/notes/005-tech-astro-web) - [Astro web
   framework](id:858f939a-cb45-4dcd-a097-9d4a28e15dc2)
 - [Audacity](/garden/notes/005-tech-audacity) -

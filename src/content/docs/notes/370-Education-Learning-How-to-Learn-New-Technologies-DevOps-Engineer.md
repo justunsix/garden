@@ -22,7 +22,7 @@ Understand concepts first and processes, then how tools solve problems.
 
 What are common use cases - understand why is a concept required first.
 
-Examples of concepts:
+Examples of concepts and use cases in DevOps:
 
 - Source code management
 - Package management
