@@ -4,7 +4,7 @@ id: 73d19c1d-cda6-4073-a456-2600eba18eb2
 title: Personal Goals Meditation Manifestation
 ---
 
-## Envision Your Best Possible Self
+## Envision Your Best Possible Self, Goal Visualization
 
 Source: [Workplace Strategies for Mental
 Health](https://www.workplacestrategiesformentalhealth.com/)

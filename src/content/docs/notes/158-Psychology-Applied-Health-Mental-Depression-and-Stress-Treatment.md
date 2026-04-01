@@ -141,50 +141,50 @@ Use metaphors try to see things differently. For example:
 
 ### IMPROVE the moment
 
-\*I\*  [\* Imagery\*](https://www.getselfhelp.co.uk/imagery.htm) –
+**I** [\* Imagery\*](https://www.getselfhelp.co.uk/imagery.htm) –
 e.g. safe place visualisation
 
-\*M\*  find [**Meaning**](https://www.getselfhelp.co.uk/meaning.htm) in
+**M** find [**Meaning**](https://www.getselfhelp.co.uk/meaning.htm) in
 the situation
 
-\*P\*  Prayer –
+**P** Prayer –
 [**meditation**](https://www.getselfhelp.co.uk/meditation.htm),
 spirituality, affirmations
 
-\*R\*   [**Relaxation**](https://www.getselfhelp.co.uk/relax.htm)
+**R** [**Relaxation**](https://www.getselfhelp.co.uk/relax.htm)
 
-\*O\*  One thing at a time
+**O** One thing at a time
 
-\*V\*  Vacation – take some time out of the situation, 'me' time, or
+**V** Vacation – take some time out of the situation, 'me' time, or
 [**imagining**](https://www.getselfhelp.co.uk/imagery.htm) yourself on
 an idyllic beautiful holiday
 
-\*E\*   Encouragement – [**positive and calming self
+**E** Encouragement – [**positive and calming self
 talk**](https://www.getselfhelp.co.uk/positive.htm)
 
 **[Wise Mind](https://www.getselfhelp.co.uk/wisemind.htm) ACCEPTS**
 
-\*A\*       [**Activities**](https://www.getselfhelp.co.uk/ace.htm) (see
+**A** [**Activities**](https://www.getselfhelp.co.uk/ace.htm) (see
 distraction ideas below)
 
-\*C\*       Contributing – helping others
+**C** Contributing – helping others
 
-\*C\*       Comparisons – comparing self with (better) self
+**C** Comparisons – comparing self with (better) self
 
-\*E\*       Emotions – generate different emotions by watching movie/tv,
+**E** Emotions – generate different emotions by watching movie/tv,
 listening to music etc
 
-\*P\*       Pushing away – thinking about or putting our attention onto
+**P** Pushing away – thinking about or putting our attention onto
 something else
 
-\*T\*        [**Thoughts**](https://www.getselfhelp.co.uk/thoughts.htm) -
-new thoughts. E.g. counting, playing 10 (10 colours in room, 10 fruits,
-10 Bond films etc), or 54321 (5 things I can see, 4 things I can hear, 3
+**T** [**Thoughts**](https://www.getselfhelp.co.uk/thoughts.htm) - new
+thoughts. E.g. counting, playing 10 (10 colours in room, 10 fruits, 10
+Bond films etc), or 54321 (5 things I can see, 4 things I can hear, 3
 things I can touch, 2 things I can smell or like the smell of, 1 slow
 deep breath)
 
-\*S\*        [**Sensations**](https://www.getselfhelp.co.uk/links3.htm)
-– use seeing, hearing, smelling, tasting and touching senses
+**S** [**Sensations**](https://www.getselfhelp.co.uk/links3.htm) – use
+seeing, hearing, smelling, tasting and touching senses
 
 [**DISTRACTION**](https://www.getselfhelp.co.uk/distract.htm) IDEAS
 
@@ -227,3 +227,10 @@ activity.
   Health](/garden/notes/158-psychology-applied-health-mental-boundaries) -
   [Boundaries and Mental
   Health](id:0932b8cc-28c8-48c3-9fe3-ebdda0ae01f4)
+
+### Resources
+
+- [Coping with stress and anxiety \|
+  CAMH](https://www.camh.ca/en/health-info/mental-health-and-covid-19/coping-with-stress-and-anxiety)
+- [Mental Health - Coping With Stress -
+  Canada.ca](https://www.canada.ca/en/health-canada/services/healthy-living/your-health/lifestyles/your-health-mental-health-coping-stress-health-canada-2008.html)

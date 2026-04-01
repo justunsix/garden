@@ -9,11 +9,9 @@ title: Mental Health First Aid in Workplace
 
 ### From Invictus Games Radio
 
-IG-Radio-Rakesh-Jetly
-
-- Therapy - principle: **connect emotions to trauma - mind and body in
-  one.** Explore the trauma in a structured way (still mindfulness or
-  walking "to traumatic experience"
+Therapy principle: **connect emotions to trauma - mind and body in
+one.** Explore the trauma in a structured way (still mindfulness or
+walking "to traumatic experience"
 
 ## Mental Health Helpline
 
@@ -62,7 +60,7 @@ The information in this e-Learning is intended to provide an
 introduction to mental health in the workplace.
 
 Please do not attempt to diagnose yourself or others. If you suspect a
-problem, please consult with a qualified doctor.
+problem, please consult a qualified doctor.
 
 **Module 1 – Stigma**
 
@@ -101,18 +99,17 @@ issues each year? Is it:
 - 25%
 - 50%
 
-If you guessed 20% you are correct!
+20% is the correct answer or 1 in 5 people.
 
-The answers may startle you. But 1 in 5 Canadians will experience some
-type of mental health issue each year.  An equally startling statistic,
-of that 20% of Canadians, only 6% seek or receive treatment. (source –
-CMHA (Ont.) 2012)
+1 in 5 Canadians will experience some type of mental health issue each
+year. An equally startling statistic, of that 20% of Canadians, only 6%
+seek or receive treatment. (source – CMHA (Ont.) 2012)
 
 **The global perspective**
 
-The World Health Organization predicts that by 2020, depression alone
-will be the second-leading cause of disability worldwide, second only to
-heart disease.
+The World Health Organization (WHO) predicts that by 2020, depression
+alone will be the second-leading cause of disability worldwide, second
+only to heart disease.
 
 You might also be surprised to know that:
 
@@ -138,38 +135,30 @@ short-term and long-term disability claims.
 Antidepressants are the number two most claimed drug category by
 employees and their families, with the top 5 stress-related conditions.
 Stress is the number one reason for Employee Assistance Program (EAP)
-counseling.
+counselling.
 
 **Why not seek treatment?**
 
 You may be asking yourself, "why don't people seek or receive
 treatment?" In many cases, the problem is related to stigma.
 
-Let's look at the different types of stigma. Roll your mouse over each
-type below or press the corresponding letter (A, B, and C) on your
-keyboard to learn more.
+Let's look at the different types of stigma:
 
-Societal Stigma is the type of stigma that speaks to how people view a
-person with a mental disorder. Society feels uncomfortable about mental
-disorders as it is not often seen like other illnesses such as heart
-disease or cancer.
-
-Through stereotypes, people believe that an individual with a mental
-disorder has a weak character or is inevitably dangerous.
-
-Self Stigma is a type of stigma that a person with a mental disorder
-experiences internally.
-
-People with mental disorders report that there is a real barrier in
-their progress to getting mentally healthy since they worry how people
-perceive them or how others will judge them.
-
-Associative stigma is a type of stigma that is discriminatory or
-harassing behaviour resulting in inequitable and unfair treatment of
-people with a mental disorder and their family members.
-
-This often manifests in forms of rejection encountered by someone with a
-mental disorder and their family.
+- Societal Stigma is the type of stigma that speaks to how people view a
+  person with a mental disorder. Society feels uncomfortable about
+  mental disorders as it is not often seen like other illnesses such as
+  heart disease or cancer. Through stereotypes, people believe that an
+  individual with a mental disorder has a weak character or is
+  inevitably dangerous.
+- Self Stigma is a type of stigma that a person with a mental disorder
+  experiences internally. People with mental disorders report that there
+  is a real barrier in their progress to getting mentally healthy since
+  they worry how people perceive them or how others will judge them.
+- Associative stigma is a type of stigma that is discriminatory or
+  harassing behaviour resulting in inequitable and unfair treatment of
+  people with a mental disorder and their family members. This often
+  manifests in forms of rejection encountered by someone with a mental
+  disorder and their family.
 
 **Stigma in the workplace**
 
@@ -182,7 +171,7 @@ workplace. Examples can include:
 - making assumptions that a colleague recovering from depression is
   incapable of doing their job or is unreliable,
 - spreading rumours that a colleague's mental disorder is "all in their
-  head,"
+  head,
 - assuming they are lazy and using mental disorder as an excuse to get
   out of doing their job, and
 - telling inappropriate jokes about someone's mental disorder.
@@ -225,16 +214,12 @@ points:
 
 - People do not know what to say or how to act towards someone with a
   mental health issue.
-
 - It is hard to understand mental health issues and often we are afraid
   of what we do not know.
-
 - They may be worried that Gustav might behave in an unpredictable
   manner.
-
 - The team does not realize that mental health issues can be temporary,
   managed, and sometimes treated, or
-
 - They have heard stories about people with mental health issues
   becoming violent in the workplace.
 
@@ -467,10 +452,11 @@ calm, cool, and collected frame of mind. You need to say internally,
 **IS** a significant problem and I need to solve it, but I'll do a
 better job if I'm focused and rational.
 
-Let me reframe this and do a "take two". You can also say, "Yes, this is
-a problem, but I'm a good problem solver, I've got a smart team around
-me, and we'll get through this. How should I begin?" Then, you can
-approach the problem in a constructive way because you are more aware.
+Let me re-frame this and do a "take two". You can also say, "Yes, this
+is a problem, but I'm a good problem solver, I've got a smart team
+around me, and we'll get through this. How should I begin?" Then, you
+can approach the problem in a constructive way because you are more
+aware.
 
 Another common way you think is by visualizing, running a movie or
 picture in your mind's eye. You remember a past event to assess it, you
@@ -542,7 +528,7 @@ unavoidable. However, when it takes over your life, it can be
 problematic. And while stress is unavoidable, the way you perceive or
 react to it is not. Let's take a look.
 
-**Stress vs. distress**
+**Stress vs. distress**
 
 - Most personal, social and work related events by themselves are not
   stressful.
@@ -703,18 +689,18 @@ Employee Family Assistance Program in a moment.
 reason to get up in the morning. If that wanes over time, our life can
 turn negative quite quickly.
 
-\*Intellectually:  W\*e've discussed the expression "don't sweat the
-small stuff". If you are functioning optimally, you are able to perceive
-an event appropriately as "just small stuff" and we manage it. But, if
-you are not in a good mindset, you might perceive that same event as a
-big deal and become somewhat distressed because you feel unable to
-handle the level of stress you feel.
+\*Intellectually: We discussed the expression "don't sweat the small
+stuff". If you are functioning optimally, you are able to perceive an
+event appropriately as "just small stuff" and we manage it. But, if you
+are not in a good mindset, you might perceive that same event as a big
+deal and become somewhat distressed because you feel unable to handle
+the level of stress you feel.
 
 **Rita's story**
 
 Imagine that Rita works near you, although you don't really know her
-well. Lately it seems that Rita has changed. She used to be very
-participative at team meetings and now she doesn't seem to care.
+well. Lately it seems that Rita has changed. She used to be active at
+team meetings and now she doesn't seem to care.
 
 Also, Rita used to be impeccably dressed, but these days her hair isn't
 quite combed and her overall grooming isn't what it used to be. She
@@ -727,20 +713,20 @@ her desk and either stares into space or puts her head into her hands.
 
 So what do you think of Rita's mental health?
 
-You might be tempted to think about her behavior in light of the Mental
-Health Continuum, and begin to wonder whether she is dealing with a
-serious mental disorder.
+You might be tempted to think about her behaviour in the Mental Health
+Continuum, and begin to wonder whether she is dealing with a serious
+mental disorder.
 
-But you'd be off course in that interpretation - there are important
-facts that you don't know. Rita's mother is extremely ill and has
-recently entered hospice care. Rita spends most of her off-work hours at
-the hospice centre with her mother, which accounts for the deterioration
-in Rita's grooming and for her tired, less engaged demeanor.
+There are important facts that you don't know. Rita's mother is
+extremely ill and has recently entered hospice care. Rita spends most of
+her off-work hours at the hospice centre with her mother, which accounts
+for the deterioration in Rita's grooming and for her tired, less engaged
+demeanour.
 
 **Continued**
 
 The point of this example is that diagnosing from a few observed
-symptoms can be very inaccurate.
+symptoms can be inaccurate.
 
 That is why it is so important to leave diagnosis to the health care
 professionals. As a friend, you can potentially help build a bridge to
@@ -1832,3 +1818,19 @@ and adversity.
 **When you are ready, continue reading to get the correct answer.**
 
 The correct answer is A).
+
+## See Also
+
+- [Mental Health & MH First Aid - Depression and Stress
+  Treatment](/garden/notes/158-psychology-applied-health-mental-depression-and-stress-treatment) -
+  [Mental Health & MH First Aid - Depression and Stress
+  Treatment](id:aecbe8af-0291-48ee-a4fe-e1575f0cee3f)
+- [Mental Health & MH First Aid - Mental Health First
+  Aid](/garden/notes/158-psychology-applied-health-mental-first-aid-basic) -
+  [Mental Health & MH First Aid - Mental Health First
+  Aid](id:92af0c3b-7c18-4709-9aea-5e9d42b451c4)
+- [Mental Health & MH First Aid - Protecting the Psychological Health
+  and Safety of
+  Volunteers](/garden/notes/158-psychology-applied-health-mental-protecting-psychological-health-and-safety-of-volunteers) -
+  [Mental Health & MH First Aid - Protecting the Psychological Health
+  and Safety of Volunteers](id:bd395ab3-9cde-4ac0-8db6-85d2caa54335)
