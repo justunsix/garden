@@ -7,6 +7,10 @@ title: ProtonDB Fixes to Games
 
 Fixes applied to games running on Ubuntu GNU Linux operating system.
 
+## Act of Aggression
+
+- Compatibility: GE Proton 10-32 or higher
+
 ## Paradox Games Native
 
 To bypass launcher issues on Native installations, go to the games local
@@ -155,13 +159,17 @@ during initial game run.
 - Injustice 2
 - Mechwarrior 5 Mercenaries
 - SpellForce Conquest of Eo
+- Sins of a Solar Empire 1, 2
 - Stellaris
+- Tempest Rising
 - Total War: Pharaoh, Troy, Three Kingdoms, Warhammer 3 (Native), Attila
 - Uncharted: Legacy of Thieves
 - Warhammer 40,000 Darktide
   - Multiplayer works best with VPN turned off
 - Warhammer 40,000 Dawn of War II Retribution
 - Warhammer 40,000 Rogue Trader
+- Warhammer 40,000 Space Marine 2
+  - Long initial Vulkan shaders install
 - WWE 2K25
 
 ### Games that take a while on first run, like due to install, installation scripts, or shader loading
