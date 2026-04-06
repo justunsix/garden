@@ -18,6 +18,9 @@ run-dev: build ## Build and run Astro development site
 check-eslint: ## Check project files with ESLint
 	npx eslint ./*.js
 
+check-astro: ## Running type checking and diagnostics in Astro projects
+	npx astro check
+	
 update: ## Update dependencies
 	npm update
 
