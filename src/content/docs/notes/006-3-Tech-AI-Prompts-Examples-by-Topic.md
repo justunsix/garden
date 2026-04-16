@@ -32,7 +32,7 @@ Back card content
 ```
 
 Example output: [Anki Deck for Learning Artificial
-Intelligence](/garden/notes/370-education-learning-anki-master-deck-artificial-intelligence) -
+Intelligence](/garden/notes/370-education-learning-anki-deck-artificial-intelligence) -
 [Anki Deck for Learning Artificial
 Intelligence](id:18b5d0b7-d31c-47b0-8b5d-81541a537828)
 

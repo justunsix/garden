@@ -292,101 +292,101 @@ New-AzResourceGroupDeployment -TemplateFile main.bicep -environmentType nonprod
 
 ```
 
-1.  Good practices for Modules
+#### Good practices for Modules
 
-    - Module has a clean purpose like part of a solution
-    - Module can combine resources or separate it out for a complex
-      resource definition
-    - Self contained - include variables in a module if they define part
-      of a module
-    - Have clear parameters and outputs and not output secrets
+- Module has a clean purpose like part of a solution
+- Module can combine resources or separate it out for a complex resource
+  definition
+- Self contained - include variables in a module if they define part of
+  a module
+- Have clear parameters and outputs and not output secrets
 
-2.  Module approach of previous main.bicep
+#### Module approach of previous main.bicep
 
-    `main.bicep`
+`main.bicep`
 
-    ``` bicep
+``` bicep
 
-    param location string = 'eastus'
-    param storageAccountName string = 'toylaunch${uniqueString(resourceGroup().id)}'
-    param appServiceAppName string = 'toylaunch${uniqueString(resourceGroup().id)}'
+param location string = 'eastus'
+param storageAccountName string = 'toylaunch${uniqueString(resourceGroup().id)}'
+param appServiceAppName string = 'toylaunch${uniqueString(resourceGroup().id)}'
 
-    @allowed([
-      'nonprod'
-      'prod'
-    ])
-    param environmentType string
+@allowed([
+  'nonprod'
+  'prod'
+])
+param environmentType string
 
-    var storageAccountSkuName = (environmentType == 'prod') ? 'Standard_GRS' : 'Standard_LRS'
+var storageAccountSkuName = (environmentType == 'prod') ? 'Standard_GRS' : 'Standard_LRS'
 
-    resource storageAccount 'Microsoft.Storage/storageAccounts@2023-05-01' = {
-      name: storageAccountName
-      location: location
-      sku: {
-        name: storageAccountSkuName
-      }
-      kind: 'StorageV2'
-      properties: {
-        accessTier: 'Hot'
-      }
-    }
+resource storageAccount 'Microsoft.Storage/storageAccounts@2023-05-01' = {
+  name: storageAccountName
+  location: location
+  sku: {
+    name: storageAccountSkuName
+  }
+  kind: 'StorageV2'
+  properties: {
+    accessTier: 'Hot'
+  }
+}
 
-    module appService 'modules/appService.bicep' = {
-      name: 'appService'
-      params: {
-        location: location
-        appServiceAppName: appServiceAppName
-        environmentType: environmentType
-      }
-    }
+module appService 'modules/appService.bicep' = {
+  name: 'appService'
+  params: {
+    location: location
+    appServiceAppName: appServiceAppName
+    environmentType: environmentType
+  }
+}
 
-    output appServiceAppHostName string = appService.outputs.appServiceAppHostName
+output appServiceAppHostName string = appService.outputs.appServiceAppHostName
 
-    ```
+```
 
-    `appService.bicep`
+`appService.bicep`
 
-    ``` bicep
+``` bicep
 
-    param location string
-    param appServiceAppName string
+param location string
+param appServiceAppName string
 
-    @allowed([
-      'nonprod'
-      'prod'
-    ])
-    param environmentType string
+@allowed([
+  'nonprod'
+  'prod'
+])
+param environmentType string
 
-    var appServicePlanName = 'toy-product-launch-plan'
-    var appServicePlanSkuName = (environmentType == 'prod') ? 'P2v3' : 'F1'
+var appServicePlanName = 'toy-product-launch-plan'
+var appServicePlanSkuName = (environmentType == 'prod') ? 'P2v3' : 'F1'
 
-    resource appServicePlan 'Microsoft.Web/serverfarms@2023-12-01' = {
-      name: appServicePlanName
-      location: location
-      sku: {
-        name: appServicePlanSkuName
-      }
-    }
+resource appServicePlan 'Microsoft.Web/serverfarms@2023-12-01' = {
+  name: appServicePlanName
+  location: location
+  sku: {
+    name: appServicePlanSkuName
+  }
+}
 
-    resource appServiceApp 'Microsoft.Web/sites@2023-12-01' = {
-      name: appServiceAppName
-      location: location
-      properties: {
-        serverFarmId: appServicePlan.id
-        httpsOnly: true
-      }
-    }
+resource appServiceApp 'Microsoft.Web/sites@2023-12-01' = {
+  name: appServiceAppName
+  location: location
+  properties: {
+    serverFarmId: appServicePlan.id
+    httpsOnly: true
+  }
+}
 
-    output appServiceAppHostName string = appServiceApp.properties.defaultHostName
+output appServiceAppHostName string = appServiceApp.properties.defaultHostName
 
-    ```
+```
 
-    Deployment is similar to previous steps
+Deployment is similar to previous steps
 
-    ``` powershell
+``` powershell
 
-    New-AzResourceGroupDeployment `
-      -TemplateFile main.bicep `
-      -environmentType nonprod
+New-AzResourceGroupDeployment `
+  -TemplateFile main.bicep `
+  -environmentType nonprod
 
-    ```
+```

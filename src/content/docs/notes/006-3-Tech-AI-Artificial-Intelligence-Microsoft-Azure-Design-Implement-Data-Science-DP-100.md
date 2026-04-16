@@ -72,21 +72,21 @@ containers.
 
 ### Deploy and Use Model
 
-1.  Endpoints
+#### Endpoints
 
-    Deploy to an endpoint for real time or batch predictions.
+Deploy to an endpoint for real time or batch predictions.
 
-    Endpoints are encrypted and could be deployed on public network or
-    private endpoint in a private network. Access can be controlled
-    using Managed Identity (no password, managed with ML resource).
+Endpoints are encrypted and could be deployed on public network or
+private endpoint in a private network. Access can be controlled using
+Managed Identity (no password, managed with ML resource).
 
-    After creating a ML workspace, access it on the web Azure ML studio.
+After creating a ML workspace, access it on the web Azure ML studio.
 
-2.  Monitoring
+#### Monitoring
 
-    Monitor the model for performance, data drift (changes in input or
-    target distributions), and adjust training with new data and
-    schedule it.
+Monitor the model for performance, data drift (changes in input or
+target distributions), and adjust training with new data and schedule
+it.
 
 ## Managing Azure Resources in the Labs
 

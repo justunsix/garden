@@ -167,8 +167,6 @@ cat /boot/grub/grub.cfg | grep menuentry
 awk -F\' '/menuentry / {print $2}' /boot/grub/grub.cfg
 # With numbers for use with grub-set-default, grub-reboot
 awk -F\' '/^menuentry / {print $2}' /boot/grub/grub.cfg|cat -n|awk '{print $1-1,$1="",$0}'
-# List all entries
-awk -F\' '/(^|| )nuentry / {print $2}' /boot/grub/grub.cfg|cat -n|awk '{print $1-1,$1="",$0}'
 
 # Boot into a specific grub entry with number or name
 sudo grub-reboot "Windows Boot Manager (on /dev/nvme0n1p1)" # Reboot into Windows next time
@@ -416,23 +414,23 @@ for passing output to other commands.
 | mount, unmount | Mount or unmounts file systems |
 | date | Date/time on system |
 
-1.  runmqsc - (WebSphere Messaging Queue MQ)
+#### runmqsc - (WebSphere Messaging Queue MQ)
 
-    ex. runmqsc
+ex. runmqsc
 
-    DISPLAY CHSTATUS(\*)
+DISPLAY CHSTATUS(\*)
 
-    display all channels info
+display all channels info
 
-    DISPLAY CHSTATUS('')
+DISPLAY CHSTATUS('')
 
-    STOP CHANNEL('')
+STOP CHANNEL('')
 
-    RESET CHANNEL('')
+RESET CHANNEL('')
 
-    START CHANNEL('')
+START CHANNEL('')
 
-    DISPLAY CHANNEL('')
+DISPLAY CHANNEL('')
 
 ### System Administration
 
@@ -444,58 +442,57 @@ file system structure.
 
 ### Useful Concepts for Linux/Unix
 
-1.  Directory Structure
+#### Directory Structure
 
-    **Logs, spools, and file resources (mail, logs, temp, etc.)** :/var
+**Logs, spools, and file resources (mail, logs, temp, etc.)** :/var
 
-    **Configuration Files** :/etc, /etc/rc.init (startup scripts).
-    /etc/sendmail.cf
+**Configuration Files** :/etc, /etc/rc.init (startup scripts).
+/etc/sendmail.cf
 
-    **Unix "blackhole"** :/dev/null
+**Unix "blackhole"** :/dev/null
 
-    **Core Command locations if not in path** :/usr/(s)bin,
-    /usr/local/(s)bin, *usr/sfw/bin* \| Solaris: /usr/openwin
+**Core Command locations if not in path** :/usr/(s)bin,
+/usr/local/(s)bin, *usr/sfw/bin* \| Solaris: /usr/openwin
 
-    **Devices (I/O)** :/dev
+**Devices (I/O)** :/dev
 
-    **Mounted Systems** :/mnt, /media
+**Mounted Systems** :/mnt, /media
 
-    **Code Libraries/Modules** :/usr/lib, /usr/local/lib
+**Code Libraries/Modules** :/usr/lib, /usr/local/lib
 
-    **Stored source** :/usr/src
+**Stored source** :/usr/src
 
-    **Services** :/etc/services - example of entries in services file
-    (ports and protocols associated with the ports.
+**Services** :/etc/services - example of entries in services file (ports
+and protocols associated with the ports.
 
-    netstat 15/tcp
+netstat 15/tcp
 
-    ftp 21/tcp \# File Transfer
+ftp 21/tcp \# File Transfer
 
-    ssh 22/tcp \# Secure Shell
+ssh 22/tcp \# Secure Shell
 
-    telnet 23/tcp
+telnet 23/tcp
 
-2.  Platform Specific
+#### Platform Specific
 
-    User settings ~/.\<user setting folder\>
+User settings ~/.\<user setting folder\>
 
-    e.g.~/.kde/share/apps stores KDE desktop settings and
-    configurations.
+e.g.~/.kde/share/apps stores KDE desktop settings and configurations.
 
-3.  Checking Memory
+#### Checking Memory
 
-    ``` shell
+``` shell
 
-    # Check Free physical Memory
-    top
-    sar -r
-    vmstat
+# Check Free physical Memory
+top
+sar -r
+vmstat
 
-    # For swap:
-    swap -s
-    swap --l
+# For swap:
+swap -s
+swap --l
 
-    ```
+```
 
 ## &\> pipes
 
@@ -575,8 +572,8 @@ find . -name "*foo*" -exec rename 's/foo/bar/' {} \;
 
 ## rsync
 
-Source:
-<https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories>,
+Source: [How To Use Rsync to Sync Local and Remote Directories \|
+DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories),
 [Everyday Rsync - Veronica Explains](https://vkc.sh/everyday-rsync/),
 [Rsync on Archwiki](https://wiki.archlinux.org/title/Rsync)
 
@@ -592,7 +589,7 @@ rsync -av ~/records username@destination.server:~/record-archives
 ## Best practice is destination is remote in case remote directory is not mounted properly
 
 # Recurvisely copy first directory/file to destination file and exclude folder/files called Archive and include only 7z files
-rsync -aPvh --delete "${LIBRARYDIR}/${array[$i]}/" "${LOCALDIR}/${array[$i]}/" --exclude "Archive" --include="*.7z"
+rsync -aPvh --delete "$SOURCE" "$DESTINATION" --exclude "Archive" --include="*.7z"
 # -a archive mode (recursively copy directories, copy symlinks without resolving, and preserve permissions, ownership and modification times)
 # -P show progress, partial transfer of files
 # -v verbose
@@ -688,8 +685,18 @@ ss -6
 
 ``` bash
 
+# [c]reate an archive and write it to a [f]ile
+tar -cf path/to/target.tar path/to/file1 path/to/file2 ...
+
+# [c]reate a g[z]ipped archive and write it to a [f]ile
+tar -czf path/to/target.tar.gz path/to/file1 path/to/file2 ...
+
 # Untar a file todo.txt_cli-2.12.0.tar.gz
 tar -xvf todo.txt_cli-2.12.0.tar.gz
+
+# E[x]tract a (compressed) archive [f]ile into the target directory:
+
+tar -xf path/to/source.tar[.gz|.bz2|.xz] [-C|--directory] path/to/directory
 
 ```
 

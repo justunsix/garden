@@ -122,118 +122,118 @@ Recommend learning through Coursera, Udemy
   - React
   - JavaScript
 
-1.  Cloud Computing Skills
+#### Cloud Computing Skills
 
-    Public cloud spending is predicted to exceed 45% of all enterprise
-    IT spending by 2026 (up from less than 17% in 2021), and 60% of the
-    world’s corporate data is stored in the cloud.
+Public cloud spending is predicted to exceed 45% of all enterprise IT
+spending by 2026 (up from less than 17% in 2021), and 60% of the world’s
+corporate data is stored in the cloud.
 
-    - AWS
-      - CodePipeline
-      - S3
-      - Lambda
-    - Microsoft Azure
-      - Data Factory
-    - Google Cloud
-    - General cloud computing
-    - Spring cloud
+- AWS
+  - CodePipeline
+  - S3
+  - Lambda
+- Microsoft Azure
+  - Data Factory
+- Google Cloud
+- General cloud computing
+- Spring cloud
 
-2.  Data science
+#### Data science
 
-    - Microsoft Power BI
+- Microsoft Power BI
 
-    - Data science
+- Data science
 
-    - Machine learning
+- Machine learning
 
-    - Data modelling
+- Data modelling
 
-    - Statistics
+- Statistics
 
-    - Apache Spark
+- Apache Spark
 
-    - Artificial intelligence
+- Artificial intelligence
 
-    - Big data
+- Big data
 
-    - Surging skills
+- Surging skills
 
-      - Math
-      - Informatica
-      - GOogle BigQuery
-      - Grafana
-      - DAX
-      - IBM Cognos
-      - Tableau
-      - Data Cleaning
-      - MLOps
-      - Kibana
+  - Math
+  - Informatica
+  - GOogle BigQuery
+  - Grafana
+  - DAX
+  - IBM Cognos
+  - Tableau
+  - Data Cleaning
+  - MLOps
+  - Kibana
 
-3.  Design
+#### Design
 
-    - Web accessibility
-    - Web design
-    - Figma (collaborative design tool)
-    - Mobile app design
-    - 3D animation
-    - Product design
-    - Blender
-    - Graphic design
-      - Photoshop
-      - Illustrator
-    - User experience (UX)
+- Web accessibility
+- Web design
+- Figma (collaborative design tool)
+- Mobile app design
+- 3D animation
+- Product design
+- Blender
+- Graphic design
+  - Photoshop
+  - Illustrator
+- User experience (UX)
 
-4.  Development
+#### Development
 
-    - Python
-    - Java
-    - React (note higher than Angular)
-    - JavaScript
-      - Next.js, React
-    - SQL
-    - Angular
-    - Selenium
-    - Kubernetes
-      - Helm
-    - CSS
-    - Web Development
-      - Eclipse
+- Python
+- Java
+- React (note higher than Angular)
+- JavaScript
+  - Next.js, React
+- SQL
+- Angular
+- Selenium
+- Kubernetes
+  - Helm
+- CSS
+- Web Development
+  - Eclipse
 
-5.  IT operations
+#### IT operations
 
-    - Linux
-    - Kubernetes
-    - Cybersecurity
-    - Oracle cloud
-    - Palo Alto Networks
-    - IT Fundamentals
+- Linux
+- Kubernetes
+- Cybersecurity
+- Oracle cloud
+- Palo Alto Networks
+- IT Fundamentals
 
-6.  Office Productivity
+#### Office Productivity
 
-    - Microsoft Office
-    - Google workspace (suite)
-    - SharePoint
-    - Excel, VBA
+- Microsoft Office
+- Google workspace (suite)
+- SharePoint
+- Excel, VBA
 
-7.  Personal Skills
+#### Personal Skills
 
-    - Personal productivity
-    - Time management
-    - English
-    - Confidence
-    - Spanish
-    - Meditation
-    - Personal development
+- Personal productivity
+- Time management
+- English
+- Confidence
+- Spanish
+- Meditation
+- Personal development
 
-    1.  Surging skills
+1.  Surging skills
 
-        - Consciousness
-        - Job search
-        - Korean
-        - Study skills
-        - Self-esteem
-        - Psychology
-        - Growth mindset
+    - Consciousness
+    - Job search
+    - Korean
+    - Study skills
+    - Self-esteem
+    - Psychology
+    - Growth mindset
 
 ## LinkedIn Emerging Jobs Report 2020 Canada
 
@@ -358,7 +358,7 @@ Growth and need areas:
 - Digital transformation
 - Remote work
 
-Medical
+#### Medical
 
 - 230k open medical professional roles
 - Need for frontline workers:

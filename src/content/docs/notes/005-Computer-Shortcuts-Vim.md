@@ -139,123 +139,122 @@ commands.
   - For each of those lines, go to the preceding line.
   - Append \\ to that line.
 
-1.  Global :g examples - act on range, pattern and Ex execute command
+#### Global :g examples - act on range, pattern and Ex execute command
 
-    Source: [Power of g - Vim
-    Tips](https://vim.fandom.com/wiki/Power_of_g)
+Source: [Power of g - Vim Tips](https://vim.fandom.com/wiki/Power_of_g)
 
-    | Description | Shortcut |
-    |----|----|
-    | Global, act on range, pattern and execute command | :\[range\]g/pattern/cmd |
-    | Global, Display context (5 lines) for all occurrences of a pattern | :g/pattern/z#.5 |
-    | Global, Delete all lines matching a pattern | :g/pattern/d |
-    | Global, Delete all lines not matching a pattern | :g!/pattern/d or :g!/pattern/d |
-    | Global, Delete all blank lines | :g/^$`/d                     |
-    | Global, Copy all lines matching pattern to end of file             | :g/pattern/t`$ |
-    | Global, Copy all lines matching a pattern to register 'a' | qaq:g/pattern/y A |
-    | Global, Fast Delete (do not copy) all lines matching a pattern | :g/pattern/d \_ |
+| Description | Shortcut |
+|----|----|
+| Global, act on range, pattern and execute command | :\[range\]g/pattern/cmd |
+| Global, Display context (5 lines) for all occurrences of a pattern | :g/pattern/z#.5 |
+| Global, Delete all lines matching a pattern | :g/pattern/d |
+| Global, Delete all lines not matching a pattern | :g!/pattern/d or :g!/pattern/d |
+| Global, Delete all blank lines | :g/^$`/d                     |
+| Global, Copy all lines matching pattern to end of file             | :g/pattern/t`$ |
+| Global, Copy all lines matching a pattern to register 'a' | qaq:g/pattern/y A |
+| Global, Fast Delete (do not copy) all lines matching a pattern | :g/pattern/d \_ |
 
-    See more with
+See more with
 
-    - :help ex-cmd-index provides a list of Ex commands.
-    - :help 10.4 is the section of the user manual discussing the
-      :global command.
-    - :help multi-repeat talks about both the :g and :v commands.
+- :help ex-cmd-index provides a list of Ex commands.
+- :help 10.4 is the section of the user manual discussing the :global
+  command.
+- :help multi-repeat talks about both the :g and :v commands.
 
-2.  Using do commands to search and replace
+#### Using do commands to search and replace
 
-    Source: [Search and replace in multiple files - Vim Tips
-    Wiki](https://vim.fandom.com/wiki/Search_and_replace_in_multiple_buffers)
-    and =:h substitute
+Source: [Search and replace in multiple files - Vim Tips
+Wiki](https://vim.fandom.com/wiki/Search_and_replace_in_multiple_buffers)
+and =:h substitute
 
-    - :argdo: (all files in argument list)
-    - :bufdo (all buffers)
-    - :tabdo (all tabs)
-    - :windo (all windows in current tab)
-    - :cdo (all files/items listed in quickfix list)
+- :argdo: (all files in argument list)
+- :bufdo (all buffers)
+- :tabdo (all tabs)
+- :windo (all windows in current tab)
+- :cdo (all files/items listed in quickfix list)
 
-    Example in Vim command mode. grep uses external command, vimgrep
-    uses internal to vim function.
+Example in Vim command mode. grep uses external command, vimgrep uses
+internal to vim function.
 
-    ``` shell
+``` shell
 
-    # Grep in current file and open results
-    grep PATTERN %
-    copen
-    # Search and replace on quickfix items
-    cdo s/OLDPATTERN/NewPATTERN/g
+# Grep in current file and open results
+grep PATTERN %
+copen
+# Search and replace on quickfix items
+cdo s/OLDPATTERN/NewPATTERN/g
 
-    # Close all files appearing in quickfix list
-    cfdo bd
+# Close all files appearing in quickfix list
+cfdo bd
 
-    # Save Quickfix list results to file
-    w results.txt
+# Save Quickfix list results to file
+w results.txt
 
-    ```
+```
 
-    Example in LazyVim
+Example in LazyVim
 
-    ``` shell
+``` shell
 
-    # Grep in current file and open results
-    grep PATTERN %
-    # Grep on pattern in call files
-    vimgrep PATTERN *
-    # or
-    vim PATTERN *
-    # Grep on src directory recursively
-    grep PATTERN src/**
-    # C-q to add all items to quickfix list
-    # Open quickfix list
-    copen
+# Grep in current file and open results
+grep PATTERN %
+# Grep on pattern in call files
+vimgrep PATTERN *
+# or
+vim PATTERN *
+# Grep on src directory recursively
+grep PATTERN src/**
+# C-q to add all items to quickfix list
+# Open quickfix list
+copen
 
-    # Search and replace on quickfix items
-    cdo s/OLDPATTERN/NewPATTERN/g | update
-    # Search and replace and ask for check
-    cdo s/OLDPATTERN/NewPATTERN/gc | update
+# Search and replace on quickfix items
+cdo s/OLDPATTERN/NewPATTERN/g | update
+# Search and replace and ask for check
+cdo s/OLDPATTERN/NewPATTERN/gc | update
 
-    ```
+```
 
-    Vim command mode:
+Vim command mode:
 
-    ``` bash
+``` bash
 
-    # Search and replace in all open buffers from :ls
-    :bufdo %s/pattern/replace/ge | update
+# Search and replace in all open buffers from :ls
+:bufdo %s/pattern/replace/ge | update
 
-    # Explanation
-    # bufdo     Apply the following commands to all buffers.
-    # %s    Search and replace all lines in the buffer.
-    # pattern   Search pattern.
-    # replace   Replacement text.
-    # g     Change all occurrences in each line (global).
-    # e     No error if the pattern is not found.
-    # |     Separator between commands.
-    # update    Save (write file only if changes were made).
+# Explanation
+# bufdo     Apply the following commands to all buffers.
+# %s    Search and replace all lines in the buffer.
+# pattern   Search pattern.
+# replace   Replacement text.
+# g     Change all occurrences in each line (global).
+# e     No error if the pattern is not found.
+# |     Separator between commands.
+# update    Save (write file only if changes were made).
 
-    # Suppose all *.cpp and *.h files in the current directory need to be changed (not subdirectories)
-    # use the argument list (arglist):
-    :arg *.cpp  All *.cpp files in current directory.
-    :argadd *.h     And all *.h files.
-    :arg    Optional: Display the current arglist.
-    :argdo %s/pattern/replace/ge | update   Search and replace in all files in arglist.
+# Suppose all *.cpp and *.h files in the current directory need to be changed (not subdirectories)
+# use the argument list (arglist):
+:arg *.cpp  All *.cpp files in current directory.
+:argadd *.h     And all *.h files.
+:arg    Optional: Display the current arglist.
+:argdo %s/pattern/replace/ge | update   Search and replace in all files in arglist.
 
-    # Search and replace, change, with all files
-    :arg **/*.cpp   All *.cpp files in and below current directory.
-    :argadd **/*.h  And all *.h files.
-    ...     As above, use :arg to list files, or :argdo to change.
+# Search and replace, change, with all files
+:arg **/*.cpp   All *.cpp files in and below current directory.
+:argadd **/*.h  And all *.h files.
+...     As above, use :arg to list files, or :argdo to change.
 
-    # Replace current word
-    :arg **/*.cpp   All *.cpp files in and below current directory.
-    :argadd **/*.h  And all *.h files.
-    ...     As above, use :arg to list files, or :argdo to change.
+# Replace current word
+:arg **/*.cpp   All *.cpp files in and below current directory.
+:argadd **/*.h  And all *.h files.
+...     As above, use :arg to list files, or :argdo to change.
 
-    # Replace items in quickfix list
-    :cdo s/variable_old_name/variable_new_name/g
-    # Replace items in quickfix list with prompt
-    :cdo s/variable_old_name/variable_new_name/gc
+# Replace items in quickfix list
+:cdo s/variable_old_name/variable_new_name/g
+# Replace items in quickfix list with prompt
+:cdo s/variable_old_name/variable_new_name/gc
 
-    ```
+```
 
 ### Status, Spell Commands
 
@@ -271,80 +270,120 @@ commands.
 |-----------------------|---------------|
 | Execute shell command | :!\<command\> |
 
-1.  External Command Examples
+External Command Examples
 
-    ``` shell
+``` shell
 
-    # Execute shell command to list directory, then press enter to return to vim
-    !ls
+# Execute shell command to list directory, then press enter to return to vim
+!ls
 
-    # Get command output of {cmd} and place in buffer
-    :r !{cmd}
-    # Place date in buffer
-    :r !date
+# Get command output of {cmd} and place in buffer
+:r !{cmd}
+# Place date in buffer
+:r !date
 
-    # Get file and place in buffer
-    :r {file}
+# Get file and place in buffer
+:r {file}
 
-    # Replace current line with output of shell
-    # Example use: decoding strings, formatting text like json, using . for the current line
-    :.!{cmd}
-    # Replace entire buffer with command output, using % for entire
-    :%!{cmd}
-    # Replace a selection with the output of a shell command
-    # Example use: sorting, complex text changes
-    :'<,'>!{cmd}
-    #### Sort entire buffer
-    :% !sort
+# Replace current line with output of shell
+# Example use: decoding strings, formatting text like json, using . for the current line
+:.!{cmd}
+# Replace entire buffer with command output, using % for entire
+:%!{cmd}
+# Replace a selection with the output of a shell command
+# Example use: sorting, complex text changes
+:'<,'>!{cmd}
+#### Sort entire buffer
+:% !sort
 
-    # Send current buffer as input to a command
-    :w !{cmd}
+# Send current buffer as input to a command
+:w !{cmd}
 
-    # Send current selection as input to a command
-    :'<,'>!command
+# Send current selection as input to a command
+:'<,'>!command
 
-    ## Practical Examples
+## Practical Examples
 
-    ### Backup a file
-    :!cp % %.bak
+### Backup a file
+:!cp % %.bak
 
-    ### Insert External Data
-    #### Date
-    :r !date
+### Insert External Data
+#### Date
+:r !date
 
-    ### Buffer as command input
-    #### Create files listed in the buffer
-    :w !xargs touch
+### Buffer as command input
+#### Create files listed in the buffer
+:w !xargs touch
 
-    #### Decode base64 string on current line and replace the line in buffer
-    :.!base64 -d
-    #### Format current line json
-    :.!jq .
+#### Decode base64 string on current line and replace the line in buffer
+:.!base64 -d
+#### Format current line json
+:.!jq .
 
-    #### Sort selection
-    :'<,'>!sort
+#### Sort selection
+:'<,'>!sort
 
-    #### Sort case insensitive
-    :'<,'>!sort i
+#### Sort case insensitive
+:'<,'>!sort i
 
-    # Run current file
-    :!%
+# Run current file
+:!%
 
-    ```
+```
 
-    1.  Key binding
+1.  Key binding
 
-        Execute current line and output the result to the command line.
-        Execute in bash and see result in Vim
+    Execute current line and output the result to the command line.
+    Execute in bash and see result in Vim
 
-        vim.keymap.set("n", "\<leader\>ex", ":.w !bash -e\<cr\>", opts)
+    vim.keymap.set("n", "\<leader\>ex", ":.w !bash -e\<cr\>", opts)
 
-        Execute file and see results in Vim
+    Execute file and see results in Vim
 
-        vim.keymap.set("n", "\<leader\>eX", ":%w !bash -e\<cr\>", opts)
+    vim.keymap.set("n", "\<leader\>eX", ":%w !bash -e\<cr\>", opts)
 
-        [6 Practical External Command Tricks: Level Up Your Neo(vim)
-        Skills](https://itnext.io/6-practical-external-command-tricks-level-up-your-neo-vim-skills-ed656abf38b1)
+    [6 Practical External Command Tricks: Level Up Your Neo(vim)
+    Skills](https://itnext.io/6-practical-external-command-tricks-level-up-your-neo-vim-skills-ed656abf38b1)
+
+### File History viminfo or shada (Neovim shared data)
+
+Vim also saves information automatically into a file when you close the
+editor
+
+``` shell
+
+# Help
+## Vim
+:help viminfo
+## Neovim
+:help shada
+
+# Save global variables,
+# a maximum of 100 files marked
+# a maximum of 50 lines per register
+# and a maximum of 100Kib for each item
+:set shada=!,'100,<50,s100
+
+# The equivalent for vim would be
+:set viminfo=!,'100,<50,s100.
+
+# For Vim:
+# Display all marked files stored in the viminfo file
+:oldfiles or :ol
+# Read the viminfo file
+:rviminfo or :rv
+# Write the viminfo file
+:wviminfo or :wv
+
+# For Neovim:
+# Display all files with a mark stored in the shada file
+:oldfiles or :o
+# Display all files with a mark stored in the shada file
+:rshada or :rs
+# Write the shada file
+:wshada or :ws
+
+```
 
 ### Additional Commands
 
@@ -467,157 +506,155 @@ Source: :h registers, <https://www.brianstorti.com/vim-registers/>
 | Registers - List, last 0-9 registers are last yanked (copied) text | :reg |
 | Registers - List | :reg a b c |
 
-1.  4 read only Registers
+#### 4 read only Registers
 
-    | Description                                       | Shortcut |
-    |---------------------------------------------------|----------|
-    | Register: Last inserted text                      | ".       |
-    | Register: Current file path                       | "%       |
-    | Register: Last executed command                   | ":       |
-    | Register: Alternative file, like last edited file | "#       |
+| Description                                       | Shortcut |
+|---------------------------------------------------|----------|
+| Register: Last inserted text                      | ".       |
+| Register: Current file path                       | "%       |
+| Register: Last executed command                   | ":       |
+| Register: Alternative file, like last edited file | "#       |
 
-2.  Expression and Search Registers
+#### Expression and Search Registers
 
-    | Description           | Shortcut |
-    |-----------------------|----------|
-    | Register: Expressions | "=       |
-    | Register: Search      | "/       |
+| Description           | Shortcut |
+|-----------------------|----------|
+| Register: Expressions | "=       |
+| Register: Search      | "/       |
 
-    1.  Example use
+1.  Example use
 
-        - ". to write same text twice
-        - "% enter current file name in commands
-        - ": to re run the last command like :w
-        - "# is the file used with Ctrl + ^
-        - \#= used with results of expression, like in insert mode, do
-          Ctrl+r = and do `2+2 <enter>`, then 4 is printed. Or do Ctrl+r
-          = and in the command do `system('ls') <enter>` and the output
-          of the `ls` command is pasted in the buffer
-        - "/ to reuse the last searched word for another search and
-          search and replace
+    - ". to write same text twice
+    - "% enter current file name in commands
+    - ": to re run the last command like :w
+    - "# is the file used with Ctrl + ^
+    - \#= used with results of expression, like in insert mode, do
+      Ctrl+r = and do `2+2 <enter>`, then 4 is printed. Or do Ctrl+r =
+      and in the command do `system('ls') <enter>` and the output of the
+      `ls` command is pasted in the buffer
+    - "/ to reuse the last searched word for another search and search
+      and replace
 
-3.  Moving by Words ("web and WEB") and Lines, Go to words, line
-    positions
+#### Moving by Words ("web and WEB") and Lines, Go to words, line positions
 
-    | Description                               | Shortcut |
-    |-------------------------------------------|----------|
-    | Move one word forward / after whitespace  | w / W    |
-    | Move one word backward / after whitespace | b / B    |
-    | Move to end of word / after whitespace    | e / E    |
-    | Move to word after next whitespace        | W        |
-    | Move to end of line                       | \$       |
-    | Move to beginning of line                 | 0        |
-    | Move to first non blank character         | ^        |
+| Description                               | Shortcut |
+|-------------------------------------------|----------|
+| Move one word forward / after whitespace  | w / W    |
+| Move one word backward / after whitespace | b / B    |
+| Move to end of word / after whitespace    | e / E    |
+| Move to word after next whitespace        | W        |
+| Move to end of line                       | \$       |
+| Move to beginning of line                 | 0        |
+| Move to first non blank character         | ^        |
 
-    - Specifically, a capital W will move to just after the next
-      whitespace character, where a lowercase w will use other forms of
-      punctuation to delimit a word.
+- Specifically, a capital W will move to just after the next whitespace
+  character, where a lowercase w will use other forms of punctuation to
+  delimit a word.
 
-    1.  Listing 9. Example Method Call and usage of web and WEB
+1.  Listing 9. Example Method Call and usage of web and WEB
 
-        Source: [Chapter 3: Getting Around - LazyVim for Ambitious
-        Developers](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-3/#_moving_by_words_only_bigger)
+    Source: [Chapter 3: Getting Around - LazyVim for Ambitious
+    Developers](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-3/#_moving_by_words_only_bigger)
 
-        ``` txt
+    ``` txt
 
-        myObj.methodName("foo", "bar", "baz")
-        -----ww---------w-w--w--ww--w--ww--w---->
-        ------------------------W------W-------->
+    myObj.methodName("foo", "bar", "baz")
+    -----ww---------w-w--w--ww--w--ww--w---->
+    ------------------------W------W-------->
 
-        ```
-
-        | Description | Shortcut |
-        |----|----|
-        | Replace character at point | r + \<character to replace\> |
-        | Replace mode (like Insert mode, delete replaced characters) | R |
-
-        `v` visual selection can be combined with commands `d` for
-        delete, `y` for copy, `c` for change
-
-4.  Open lines
-
-    | Description                         | Shortcut |
-    |-------------------------------------|----------|
-    | Open line below cursor, insert mode | o        |
-    | Open line above cursor              | O        |
-
-5.  Files
-
-    | Description                          | Shortcut    |
-    |--------------------------------------|-------------|
-    | Save selected lines to file FILENAME | :w FILENAME |
-
-6.  Combination Commands
+    ```
 
     | Description | Shortcut |
     |----|----|
-    | Replace content between symbols | di + \<symbol\> like di" |
-    | Cut content between symbols | ci + \<symbol\> like ci( |
-    | Swap lines up and down (delete line, paste it) | ddp |
-    | Delete entire document - G from first line, gg from last line | dG or dgg |
-    | Auto indent entire document | gg=G |
+    | Replace character at point | r + \<character to replace\> |
+    | Replace mode (like Insert mode, delete replaced characters) | R |
+
+    `v` visual selection can be combined with commands `d` for delete,
+    `y` for copy, `c` for change
+
+#### Open lines
+
+| Description                         | Shortcut |
+|-------------------------------------|----------|
+| Open line below cursor, insert mode | o        |
+| Open line above cursor              | O        |
+
+#### Files
+
+| Description                          | Shortcut    |
+|--------------------------------------|-------------|
+| Save selected lines to file FILENAME | :w FILENAME |
+
+#### Combination Commands
+
+| Description | Shortcut |
+|----|----|
+| Replace content between symbols | di + \<symbol\> like di" |
+| Cut content between symbols | ci + \<symbol\> like ci( |
+| Swap lines up and down (delete line, paste it) | ddp |
+| Delete entire document - G from first line, gg from last line | dG or dgg |
+| Auto indent entire document | gg=G |
 
 ### Movement and Search
 
-1.  Movement
+#### Movement
 
-    | Description | Shortcut |
-    |----|----|
-    | Begin/End of paragraph | { / } |
-    | Begin/End of sentence | ( / ) |
-    | Find mode, character, move to next match | f \<char\> |
-    | Find mode, move to next match of pattern | ; |
-    | Find mode (til / until), character, move to before it | t \<char\> |
-    | Half page down | Ctrl + d |
-    | Half page up | Ctrl + u |
-    | Jump \# of times using hjkl cursor | 10j / \#j |
-    | Move cursor top, middle, bottom of screen | (Shift) H, M, L |
-    | Navigation Next ) | \]) |
-    | Navigation Next, Quickfix item | \]q |
-    | Navigation Next, Spelling error | \]s |
-    | Navigation Previous, method end | \[M |
-    | Navigation Previous, method start | \[m |
-    | Navigation Previous, ( or { or \< | \[( or \[{ or \[\< |
-    | Navigation Previous, Quickfix item | \[q |
-    | Navigation Previous, Spelling error | \[s |
-    | Page Down | Ctrl + f |
-    | Page Up | Ctrl + b |
-    | Scroll screen, z mini mode: Move screen and leave cursor, top, bottom, middle | zt, zb, zz |
-    | Search word at point | \* |
+| Description | Shortcut |
+|----|----|
+| Begin/End of paragraph | { / } |
+| Begin/End of sentence | ( / ) |
+| Find mode, character, move to next match | f \<char\> |
+| Find mode, move to next match of pattern | ; |
+| Find mode (til / until), character, move to before it | t \<char\> |
+| Half page down | Ctrl + d |
+| Half page up | Ctrl + u |
+| Jump \# of times using hjkl cursor | 10j / \#j |
+| Move cursor top, middle, bottom of screen | Shift + H, M, L |
+| Navigation Next ) | \]) |
+| Navigation Next, Quickfix item | \]q |
+| Navigation Next, Spelling error | \]s |
+| Navigation Previous, method end | \[M |
+| Navigation Previous, method start | \[m |
+| Navigation Previous, ( or { or \< | \[( or \[{ or \[\< |
+| Navigation Previous, Quickfix item | \[q |
+| Navigation Previous, Spelling error | \[s |
+| Page Down | Ctrl + f |
+| Page Up | Ctrl + b |
+| Scroll screen, z mini mode: Move screen and leave cursor, top, bottom, middle | zt, zb, zz |
+| Scroll screen, centre page view on current line | zz |
+| Search word at point | \* |
 
-2.  Search and Replace
+#### Search and Replace
 
-    | Description                                | Shortcut               |
-    |--------------------------------------------|------------------------|
-    | Search text in file forwards               | / + \<phrase\> + Enter |
-    | Search next / previous                     | n / N                  |
-    | Search text in file backwards              | ? + \<phrase\> + Enter |
-    | Find matching bracket                      | %                      |
-    |                                            |                        |
-    | Change text in brackets                    | ci\[ or ci\] or ci{    |
-    | Change text in quotations                  | ci"                    |
-    | Search x and Replace with y in entire file | :%s/x/y/g              |
+| Description                                | Shortcut               |
+|--------------------------------------------|------------------------|
+| Search text in file forwards               | / + \<phrase\> + Enter |
+| Search next / previous                     | n / N                  |
+| Search text in file backwards              | ? + \<phrase\> + Enter |
+| Find matching bracket                      | %                      |
+|                                            |                        |
+| Change text in brackets                    | ci\[ or ci\] or ci{    |
+| Change text in quotations                  | ci"                    |
+| Search x and Replace with y in entire file | :%s/x/y/g              |
 
-    1.  Search and Replace Command Mode
+1.  Search and Replace Command Mode
 
-        - To substitute new for the first old in a line type
-          `:s/old/new`
-        - To substitute new for all 'old's on a line type `:s/old/new/g`
-        - To substitute phrases between two line \#'s type
-          `:#,#s/old/new/g`
-        - To substitute all occurrences in the file type `:%s/old/new/g`
-        - To ask for confirmation each time add 'c' `:%s/old/new/gc`
+    - To substitute new for the first old in a line type `:s/old/new`
+    - To substitute new for all 'old's on a line type `:s/old/new/g`
+    - To substitute phrases between two line \#'s type `:#,#s/old/new/g`
+    - To substitute all occurrences in the file type `:%s/old/new/g`
+    - To ask for confirmation each time add 'c' `:%s/old/new/gc`
 
-        Search and replace also takes regex like `\d` for digits, see
-        `:help pattern-search`. `g` stands for global
+    Search and replace also takes regex like `\d` for digits, see
+    `:help pattern-search`. `g` stands for global
 
-3.  Tags
+#### Tags
 
-    | Description                 | Shortcut |
-    |-----------------------------|----------|
-    | Find tag                    | C-\]     |
-    | Find ambiguous tag          | g C-\]   |
-    | Jump back in tag jump stack | C-t      |
+| Description                 | Shortcut |
+|-----------------------------|----------|
+| Find tag                    | C-\]     |
+| Find ambiguous tag          | g C-\]   |
+| Jump back in tag jump stack | C-t      |
 
 ### Deletions
 
@@ -629,22 +666,22 @@ Using `d` delete operator and a motion that the operator will operate on
 | Delete to end of line                     | d\$      |
 | Delete to end of current word             | de       |
 
-1.  Delete with Counts
+#### Delete with Counts
 
-    | Description               | Shortcut   |
-    |---------------------------|------------|
-    | Delete 2 words from point | d2w / d#w  |
-    | Delete 2 / \# of lines    | 2dd / \#dd |
+| Description               | Shortcut   |
+|---------------------------|------------|
+| Delete 2 words from point | d2w / d#w  |
+| Delete 2 / \# of lines    | 2dd / \#dd |
 
-2.  Change Operator
+#### Change Operator
 
-    Delete and make changes
+Delete and make changes
 
-    | Description                              | Shortcut |
-    |------------------------------------------|----------|
-    | Delete to end of word and insert mode    | ce       |
-    | Delete line and insert mode              | cc       |
-    | Delete line to end from point and insert | c\$      |
+| Description                              | Shortcut |
+|------------------------------------------|----------|
+| Delete to end of word and insert mode    | ce       |
+| Delete line and insert mode              | cc       |
+| Delete line to end from point and insert | c\$      |
 
 ### Counts for a motion
 
@@ -675,29 +712,28 @@ and <https://www.brianstorti.com/vim-registers/>
 - Example to store macro in register a, go down and delete line and then
   stop macro recording: `qajddq`
 
-1.  Macros are just text and can be edited, examples
+#### Macros are just text and can be edited, examples
 
-    - Add a semicolon to end of the `w` macro :let @W='i;'
-      - W in uppercase means append value to the register
-    - Edit the register :let @w '\<Ctrl-r w\> and change what you want
-      and close the quotes
-    - Copy `ivim is awesome` into the clipboard register "+ and execute
-      @"+
+- Add a semicolon to end of the `w` macro :let @W='i;'
+  - W in uppercase means append value to the register
+- Edit the register :let @w '\<Ctrl-r w\> and change what you want and
+  close the quotes
+- Copy `ivim is awesome` into the clipboard register "+ and execute @"+
 
-2.  Sample Key Combinations
+#### Sample Key Combinations
 
-    Delete lines containing a string in a file
+Delete lines containing a string in a file
 
-    :g/\<your<sub>string</sub>\>/d
+:g/\<your<sub>string</sub>\>/d
 
-    - :g Prepare to execute a command globally (on all lines that match
-      a certain pattern).
-    - /\<your<sub>string</sub>\> Start specifying the pattern to match
-      \<your<sub>string</sub>\>. Replace this with the string you want
-      to delete lines based on.
-    - / End specifying the pattern to match.
-    - d The command to execute on all lines that match the pattern. In
-      this case, delete those lines.
+- :g Prepare to execute a command globally (on all lines that match a
+  certain pattern).
+- /\<your<sub>string</sub>\> Start specifying the pattern to match
+  \<your<sub>string</sub>\>. Replace this with the string you want to
+  delete lines based on.
+- / End specifying the pattern to match.
+- d The command to execute on all lines that match the pattern. In this
+  case, delete those lines.
 
 ### Marks (Bookmarks)
 

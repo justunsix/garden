@@ -88,7 +88,7 @@ YouTube](https://youtu.be/-qo2Ai3pZRk?t=504) \|
 | Delete - Execute deletion of marks | x |
 | Delete - Mark for deletion | d |
 | Execute program on file (e.g. cat) | ! or & |
-| Move/rename file | S-r |
+| Move/rename file, respect VCS like git mv (move) | S-r , dired-do-rename |
 | Open, Edit file | RET |
 | Open file in other window | o |
 | Open file in other window without focusing on it | M-o/RET |

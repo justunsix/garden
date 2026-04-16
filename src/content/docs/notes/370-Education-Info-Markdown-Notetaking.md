@@ -38,17 +38,17 @@ References:
 - [Paste
   Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)
 
-1.  Not Used
+#### Not Used
 
-    - [Markdown
-      paste](https://marketplace.visualstudio.com/items?itemName=telesoho.vscode-markdown-paste-image) -
-      paste text, rich text, html, images
-    - [PicGo](https://marketplace.visualstudio.com/items?itemName=Spades.vs-picgo)
-      (image uploader, useful but for now - N/R)
-    - [Turndown
-      extension](https://marketplace.visualstudio.com/items?itemName=kurre.turndown-vscode)
-      paste HTML to Markdown based on [Turndown at
-      Github](https://github.com/domchristie/turndown)
+- [Markdown
+  paste](https://marketplace.visualstudio.com/items?itemName=telesoho.vscode-markdown-paste-image) -
+  paste text, rich text, html, images
+- [PicGo](https://marketplace.visualstudio.com/items?itemName=Spades.vs-picgo)
+  (image uploader, useful but for now - N/R)
+- [Turndown
+  extension](https://marketplace.visualstudio.com/items?itemName=kurre.turndown-vscode)
+  paste HTML to Markdown based on [Turndown at
+  Github](https://github.com/domchristie/turndown)
 
 ### Minimal Extensions
 
@@ -58,68 +58,67 @@ To improve VS Code CPU and RAM usage
 - Markdownlint (optional)
 - Nested tags (optional)
 
-1.  Installed
+#### Installed
 
-    - [Nested Tags - Visual Studio
-      Marketplace](https://marketplace.visualstudio.com/items?itemName=vscode-nested-tags.vscode-nested-tags)
-    - [Markdown All in One - Visual Studio
-      Marketplace](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-    - [Spell Right - Visual Studio
-      Marketplace](https://marketplace.visualstudio.com/items?itemName=ban.spellright)
-      - [markdownlint - Visual Studio
-      Marketplace](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
-    - [Markdown Extended - Visual Studio
-      Marketplace](https://marketplace.visualstudio.com/items?itemName=jebbs.markdown-extended)
-      for occasional use; with kbd option disabled, kbd turns wiki-links
-      into non-clickable buttons, useful for tables)
-    - [Markdown Notes - Visual Studio
-      Marketplace](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes)
-    - [Markdown Table - Visual Studio
-      Marketplace](https://marketplace.visualstudio.com/items?itemName=TakumiI.markdowntable)
+- [Nested Tags - Visual Studio
+  Marketplace](https://marketplace.visualstudio.com/items?itemName=vscode-nested-tags.vscode-nested-tags)
+- [Markdown All in One - Visual Studio
+  Marketplace](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+- [Spell Right - Visual Studio
+  Marketplace](https://marketplace.visualstudio.com/items?itemName=ban.spellright)
+  - [markdownlint - Visual Studio
+  Marketplace](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [Markdown Extended - Visual Studio
+  Marketplace](https://marketplace.visualstudio.com/items?itemName=jebbs.markdown-extended)
+  for occasional use; with kbd option disabled, kbd turns wiki-links
+  into non-clickable buttons, useful for tables)
+- [Markdown Notes - Visual Studio
+  Marketplace](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes)
+- [Markdown Table - Visual Studio
+  Marketplace](https://marketplace.visualstudio.com/items?itemName=TakumiI.markdowntable)
 
-    1.  Diagrams
+1.  Diagrams
 
-        - [Draw.io](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
-          recommended from [Foam
-          diagrams](https://foambubble.github.io/foam/recipes/diagrams-in-markdown)
-        - [Mermaid Support for
-          Preview](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
-        - [Mermaid Markdown Syntax
-          Highlighting](https://marketplace.visualstudio.com/items?itemName=bpruitt-goddard.mermaid-markdown-syntax-highlighting)
+    - [Draw.io](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
+      recommended from [Foam
+      diagrams](https://foambubble.github.io/foam/recipes/diagrams-in-markdown)
+    - [Mermaid Support for
+      Preview](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
+    - [Mermaid Markdown Syntax
+      Highlighting](https://marketplace.visualstudio.com/items?itemName=bpruitt-goddard.mermaid-markdown-syntax-highlighting)
 
-    2.  Not Required
+2.  Not Required
 
-        - [All Autocomplete - Visual Studio
-          Marketplace](https://marketplace.visualstudio.com/items?itemName=Atishay-Jain.All-Autocomplete)
-        - [Peacock - Visual Studio
-          Marketplace](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) (multi
-          colour workspaces)
-        - [Markdown Preview Enhanced - Visual Studio
-          Marketplace](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
-        - [Mermaid Support for
-          Preview](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) (N/R
-          for later)
-        - [Mermaid Markdown Syntax
-          Highlighting](https://marketplace.visualstudio.com/items?itemName=bpruitt-goddard.mermaid-markdown-syntax-highlighting) (N/R
-          for later)
-        - [Web
-          Clipper](https://marketplace.visualstudio.com/items?itemName=jsartelle.web-clipper) This
-          is a Web Clipper as a VS Code extension, takes a webpage URL
-          and outputs Markdown.
-          Uses [mercury](https://github.com/postlight/mercury-parser)
-        - [Markdown Clipper](https://github.com/deathau/markdownload)A
-          Firefox and Google Chrome extension to clip websites and
-          download them into a readable markdown file
-        - [markdown-link-expander - Visual Studio
-          Marketplace](https://marketplace.visualstudio.com/items?itemName=skn0tt.markdown-link-expander)
-        - [git
-          auto-push](https://github.com/loftkun/git-auto-push) (shell
-          script) (existing [GitDoc - Visual Studio
-          Marketplace](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc) extension
-          could do it on save without error)
-        - [Markdown
-          Links](https://marketplace.visualstudio.com/items?itemName=tchayen.markdown-links)
-          graph of markdown files and links between them for visualizing
+    - [All Autocomplete - Visual Studio
+      Marketplace](https://marketplace.visualstudio.com/items?itemName=Atishay-Jain.All-Autocomplete)
+    - [Peacock - Visual Studio
+      Marketplace](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) (multi
+      colour workspaces)
+    - [Markdown Preview Enhanced - Visual Studio
+      Marketplace](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+    - [Mermaid Support for
+      Preview](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) (N/R
+      for later)
+    - [Mermaid Markdown Syntax
+      Highlighting](https://marketplace.visualstudio.com/items?itemName=bpruitt-goddard.mermaid-markdown-syntax-highlighting) (N/R
+      for later)
+    - [Web
+      Clipper](https://marketplace.visualstudio.com/items?itemName=jsartelle.web-clipper) This
+      is a Web Clipper as a VS Code extension, takes a webpage URL and
+      outputs Markdown.
+      Uses [mercury](https://github.com/postlight/mercury-parser)
+    - [Markdown Clipper](https://github.com/deathau/markdownload)A
+      Firefox and Google Chrome extension to clip websites and download
+      them into a readable markdown file
+    - [markdown-link-expander - Visual Studio
+      Marketplace](https://marketplace.visualstudio.com/items?itemName=skn0tt.markdown-link-expander)
+    - [git auto-push](https://github.com/loftkun/git-auto-push) (shell
+      script) (existing [GitDoc - Visual Studio
+      Marketplace](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc) extension
+      could do it on save without error)
+    - [Markdown
+      Links](https://marketplace.visualstudio.com/items?itemName=tchayen.markdown-links)
+      graph of markdown files and links between them for visualizing
 
 ## Converting from OneNote to Markdown
 

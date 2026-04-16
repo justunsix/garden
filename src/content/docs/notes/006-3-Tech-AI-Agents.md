@@ -4,14 +4,36 @@ id: a33f8c71-f312-43a0-8e1b-1023e2fd020c
 title: Artificial Intelligence (AI) Agents
 ---
 
+## About Agents
+
+Source: [What Are AI Agents? \|
+IBM](https://www.ibm.com/think/topics/ai-agents)
+
+Agents using artificial intelligence combined with sets of goals
+(instructions), tools, and external functions like API, web search, data
+access, and other agents. An agentic system can take a task and divide
+it into sub taskes for itself and other agent and reason on the outputs
+to give results to the user. The tasks can be complex and involve the
+agent correcting itself and finding gaps in its knowledge.
+
+Benefits of the approach are task automation, performance, and response
+quality. Risks are dependencies on external system, reasoning issues,
+compute resources which can be supported with human supervision.
+
 ## See Also
 
+- [Agent Operations, Checking and Monitoring
+  Them](/garden/notes/006-3-tech-ai-agents-operations-checking-monitoring) - [Agent
+  Operations, Checking and Monitoring
+  Them](id:1c7b17d9-89dd-4068-9ec0-fefef15912e5) - evaluating AI systems
 - [AI Prompts](/garden/notes/006-3-tech-ai-prompts) - [AI
   Prompts](id:0a00398f-f4d9-42ae-8830-c37fa9abdc8f)
 - [Develop AI agents on
   Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-agents) -
   [Agents in Azure AI
   Solutions](id:eae5da2e-f013-42af-8128-cc2ae5c28b0f)
+- [Skills to Build AI Agents](/garden/notes/006-3-tech-ai-agents-career-skills) -
+  [Skills to Build AI Agents](id:be537cbf-7949-4d1d-8a69-910e72464b34)
 
 ### Resources
 

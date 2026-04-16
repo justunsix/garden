@@ -66,6 +66,8 @@ models like OpenAI, Microsoft, X, Meta, HuggingFace models.
 
 When choosing models, think about:
 
+- Use case and capabilities: agent/reasoning/streaming/assistant/multi
+  modal/other, industry, inference tasks like coding/math, fine tuning
 - Vendor, license
 - Size and cost
 - Performance metrics: quality, accuracy, fluency, groundness, latency,
@@ -78,69 +80,64 @@ When choosing models, think about:
     Azure hosted VMs
   - Serverless API
 - Region availability
-- Capabilities: agent/reasoning/streaming/assistant/other, industry,
-  inference tasks like coding/math, fine tuning
 
 Choosing a good model depends on the requirements and usage.
 
-1.  Model Optimization
+#### Model Optimization
 
-    Depends on use case:
+Depends on use case:
 
-    - Optimize for context like with contextual knowledge to maximize
-      response accuracy, example: RAG
-    - Optimize the model to improve response format, style, or speech to
-      maximize consistency of behaviour, example: model fine-tuning
+- Optimize for context like with contextual knowledge to maximize
+  response accuracy, example: RAG
+- Optimize the model to improve response format, style, or speech to
+  maximize consistency of behaviour, example: model fine-tuning
 
-    These strategies can be combined to improve both accuracy and
-    consistency.
+These strategies can be combined to improve both accuracy and
+consistency.
 
-    Look at other settings like temperature which determines have
-    chaotic the responses can be. Higher temperature can result in more
-    hallucinations and creative response while low temperature will be
-    more factual.
+Look at other settings like temperature which determines have chaotic
+the responses can be. Higher temperature can result in more
+hallucinations and creative response while low temperature will be more
+factual.
 
-2.  Model Questions and Answers on Context Use and Azure AI Foundry
-    Model Hosting
+#### Model Questions and Answers on Context Use and Azure AI Foundry Model Hosting
 
-    1.  Does the system prompt and things like current conversation
-        history take up space in the context window during LLM
-        interactions? the question comes from considering size of
-        context windows when selecting models for different use cases
+1.  Does the system prompt and things like current conversation history
+    take up space in the context window during LLM interactions? the
+    question comes from considering size of context windows when
+    selecting models for different use cases
 
-    Yes, system prompt and history do take up context window tokens.
-    During chat in Azure AI foundry, see that tokens are used. For
-    example, most models include history with the user's prompt and use
-    tokens. However, applications can choose what they pass to the model
-    like changing amount of history, no history and adjusting prompts.
+Yes, system prompt and history do take up context window tokens. During
+chat in Azure AI foundry, see that tokens are used. For example, most
+models include history with the user's prompt and use tokens. However,
+applications can choose what they pass to the model like changing amount
+of history, no history and adjusting prompts.
 
-    1.  In Azure AI Foundry, when using proprietary models like ones
-        from Meta, Grok, do they run in a Microsoft data centre or
-        depends?
+1.  In Azure AI Foundry, when using proprietary models like ones from
+    Meta, Grok, do they run in a Microsoft data centre or depends?
 
-    It depends on the model and is indicated during deployment. GenAI
-    use compute which interface with the LLM. API calls are through
-    Azure and logged by Microsoft. No customer data is used for model
-    training.
+It depends on the model and is indicated during deployment. GenAI use
+compute which interface with the LLM. API calls are through Azure and
+logged by Microsoft. No customer data is used for model training.
 
-    If there are externally hosted models, external organization will
-    not do logging.
+If there are externally hosted models, external organization will not do
+logging.
 
-    1.  How does Azure AI deployment options like Global Standard or
-        other options affect Data residency?
+1.  How does Azure AI deployment options like Global Standard or other
+    options affect Data residency?
 
-    Azure AI Foundry Models are hosted in different regions across the
-    world, for example GPT 5 in East US.
+Azure AI Foundry Models are hosted in different regions across the
+world, for example GPT 5 in East US.
 
-    In an example, you want to use GPT 5 in the AI Foundry, the model is
-    actually hosted in a certain region and shared. With "Global
-    Standard", it will choose the closest or most available region. No
-    data is kept where the model hosting is and processing occurs.
-    Grounding data is kept in its original location. During processing,
-    grounding data is sent by the solution to the model.
+In an example, you want to use GPT 5 in the AI Foundry, the model is
+actually hosted in a certain region and shared. With "Global Standard",
+it will choose the closest or most available region. No data is kept
+where the model hosting is and processing occurs. Grounding data is kept
+in its original location. During processing, grounding data is sent by
+the solution to the model.
 
-    During deployment, you can set the preferred region if global is not
-    desired.
+During deployment, you can set the preferred region if global is not
+desired.
 
 ### Foundry Resource Organization
 
@@ -333,6 +330,12 @@ evaluated on different criteria like:
 - Quality of answers like accessibility, tone
 - Quality using specific scores
 - Risk and safety measuring violent, sexual, self-harm content
+
+See also [Agent Operations, Checking and Monitoring
+Them](/garden/notes/006-3-tech-ai-agents-operations-checking-monitoring) - [Agent
+Operations, Checking and Monitoring
+Them](id:1c7b17d9-89dd-4068-9ec0-fefef15912e5) - on metrics and
+approaches to evaluating AI systems
 
 ## Exercise: Create a chat app
 

@@ -216,92 +216,90 @@ Transformers use an attention function where a new positional encoded
 word is represented as a query. The output of an encoded word is a key
 with an associated value.
 
-1.  Example with query, keys and values
+#### Example with query, keys and values
 
-    Encoding "Vincent van Gogh is a painter, known for his stunning and
-    emotionally expressive artworks".
+Encoding "Vincent van Gogh is a painter, known for his stunning and
+emotionally expressive artworks".
 
-    When encoding the query "Vincent van Gogh", the output may be
-    "Vincent van Gogh" as the key with "painter" as the associated
-    value. The architecture stores keys and values in a table, which it
-    can then use for future decoding:
+When encoding the query "Vincent van Gogh", the output may be "Vincent
+van Gogh" as the key with "painter" as the associated value. The
+architecture stores keys and values in a table, which it can then use
+for future decoding:
 
-    Example encoded queries:
+Example encoded queries:
 
-    | Keys                | Values     |
-    |---------------------|------------|
-    | Vincent Van Gogh    | Painter    |
-    | William Shakespeare | Playwright |
-    | Charles Dickens     | Writer     |
+| Keys                | Values     |
+|---------------------|------------|
+| Vincent Van Gogh    | Painter    |
+| William Shakespeare | Playwright |
+| Charles Dickens     | Writer     |
 
-    With a new query like "Shakespeare's work has influenced many
-    movies, mostly thanks to his work as a", the model can complete the
-    sentence by taking "Shakespeare" as the query and finding it in the
-    table of keys and values with "Shakespeare" query closest "William
-    Shakespeare" the key and associated value "playwright".
+With a new query like "Shakespeare's work has influenced many movies,
+mostly thanks to his work as a", the model can complete the sentence by
+taking "Shakespeare" as the query and finding it in the table of keys
+and values with "Shakespeare" query closest "William Shakespeare" the
+key and associated value "playwright".
 
-2.  Attention Function and use of Query, Keys and Values
+#### Attention Function and use of Query, Keys and Values
 
-    For the attention function, the query, keys and values are all
-    encoded to vectors. The attention function then computes the scaled
-    dot-product between the query vector and the keys vectors. The
-    dot-product calculates the angle between vectors representing
-    tokens, with the product being larger when the vectors are more
-    aligned.
+For the attention function, the query, keys and values are all encoded
+to vectors. The attention function then computes the scaled dot-product
+between the query vector and the keys vectors. The dot-product
+calculates the angle between vectors representing tokens, with the
+product being larger when the vectors are more aligned.
 
-    The softmax function is used in the attention function. The softmax
-    function is applied over the scaled dot-product of the vectors to
-    create a probability distribution with possible outcomes. In other
-    words, the softmax function's output includes which keys are closest
-    to the query. The key with the highest probability is then selected,
-    and the associated value is the output of the attention function.
+The softmax function is used in the attention function. The softmax
+function is applied over the scaled dot-product of the vectors to create
+a probability distribution with possible outcomes. In other words, the
+softmax function's output includes which keys are closest to the query.
+The key with the highest probability is then selected, and the
+associated value is the output of the attention function.
 
-    The Transformer architecture uses multi-head attention where tokens
-    are processed by the attention function several times in parallel.
-    So, a word or sentence can be processed multiple times, in various
-    ways, to extract different kinds of information from the sentence.
+The Transformer architecture uses multi-head attention where tokens are
+processed by the attention function several times in parallel. So, a
+word or sentence can be processed multiple times, in various ways, to
+extract different kinds of information from the sentence.
 
-    The Transformer architecture allows more efficient training of
-    models. Instead of processing each token in a sentence or sequence,
-    attention allows a model to process tokens in parallel in various
-    ways.
+The Transformer architecture allows more efficient training of models.
+Instead of processing each token in a sentence or sequence, attention
+allows a model to process tokens in parallel in various ways.
 
 ### Differences in language models
 
 Users can chose from existing models that are open source and public or
 proprietary.
 
-1.  Large Language Models (LLM) vs Small Language Models (SLM)
+#### Large Language Models (LLM) vs Small Language Models (SLM)
 
-    | Feature | LLM (Large) | SLM (Small) |
-    |----|----|----|
-    | Training Data | General | Focused training |
-    | Parameters | Billions or more | Fewer |
-    | Specialization | General, variety of conversations | More specialized |
-    | Speed and Deployment | Slower, difficult for local use | Fast |
-    | Training and Fine tuning | Long, Expensive | Faster to fine-tune |
+| Feature | LLM (Large) | SLM (Small) |
+|----|----|----|
+| Training Data | General | Focused training |
+| Parameters | Billions or more | Fewer |
+| Specialization | General, variety of conversations | More specialized |
+| Speed and Deployment | Slower, difficult for local use | Fast |
+| Training and Fine tuning | Long, Expensive | Faster to fine-tune |
 
-    Model Examples
+Model Examples
 
-    LLM:
+LLM:
 
-    - GPT-4, Generative Pre-trained Transformer (GPT)
-    - Mistral 7B
-    - Llama 3
+- GPT-4, Generative Pre-trained Transformer (GPT)
+- Mistral 7B
+- Llama 3
 
-    SLM:
+SLM:
 
-    - Phi-3
-    - HuggingFace GPT Neo
-    - Orca 2
+- Phi-3
+- HuggingFace GPT Neo
+- Orca 2
 
-    More examples of models and use at [AI
-    Models](/garden/notes/006-3-tech-ai-models) - [AI
-    Models](id:65533479-7d6e-4726-92f8-fb66177a39c6)
+More examples of models and use at [AI
+Models](/garden/notes/006-3-tech-ai-models) - [AI
+Models](id:65533479-7d6e-4726-92f8-fb66177a39c6)
 
-    Models will have different context sizes, which is how much input
-    they can take in prompts and output windows. For example, GPT 4
-    Turbo has 128k context window and 4k output.
+Models will have different context sizes, which is how much input they
+can take in prompts and output windows. For example, GPT 4 Turbo has
+128k context window and 4k output.
 
 ## Improve Prompt Results
 
@@ -361,36 +359,34 @@ AI](/garden/notes/006-3-tech-ai-artificial-intelligence-ethics-in-age-of-generat
 [Ethics in the Age of Generative AI - Generative AI and Ethics - the
 Urgency of Now](id:5d269fc6-f581-421a-b2c9-bd4a90ad2ca1)
 
-1.  Principles for responsible AI at Microsoft
+#### Principles for responsible AI at Microsoft
 
-    - Fairness - treat all people fairly. Example: models make
-      predictions without incorporating bias
-    - Reliability and safety - Example: an autonomous vehicle or patient
-      diagnoses must be safe to use related to human life
-    - Privacy and security - training data may have personal details and
-      must be kept private, even after model deployment, sensitive data
-      must be protected
-    - Inclusiveness - AI must empower everyone and benefit all parts of
-      society, regardless of physical ability, gender, sexual
-      orientation, ethnicity, or other factors. Example: have a diverse
-      group of people test applications
-    - Transparency - systems are understandable and users know the
-      purpose of the system, how it works, and what limitations may be
-      expected. Example: a system communicates to users about its
-      accuracy, training data, and features that affect predictions.
-      When personal data like faces are use in a system, the system
-      makes clear how the personal data is handled, retained, and
-      accessed.
-    - Accountability - although many AI systems seem to operate
-      autonomously, it is the responsibility of the developers who
-      trained and validated the models they use, and defined the logic
-      that bases decisions on model predictions to ensure that the
-      system meets requirements. Example: solutions use a framework of
-      governance and principles to meet responsible and legal standards
-      that are defined.
+- Fairness - treat all people fairly. Example: models make predictions
+  without incorporating bias
+- Reliability and safety - Example: an autonomous vehicle or patient
+  diagnoses must be safe to use related to human life
+- Privacy and security - training data may have personal details and
+  must be kept private, even after model deployment, sensitive data must
+  be protected
+- Inclusiveness - AI must empower everyone and benefit all parts of
+  society, regardless of physical ability, gender, sexual orientation,
+  ethnicity, or other factors. Example: have a diverse group of people
+  test applications
+- Transparency - systems are understandable and users know the purpose
+  of the system, how it works, and what limitations may be expected.
+  Example: a system communicates to users about its accuracy, training
+  data, and features that affect predictions. When personal data like
+  faces are use in a system, the system makes clear how the personal
+  data is handled, retained, and accessed.
+- Accountability - although many AI systems seem to operate
+  autonomously, it is the responsibility of the developers who trained
+  and validated the models they use, and defined the logic that bases
+  decisions on model predictions to ensure that the system meets
+  requirements. Example: solutions use a framework of governance and
+  principles to meet responsible and legal standards that are defined.
 
-    Details at [Empowering responsible AI practices \| Microsoft
-    AI](https://microsoft.com/ai/responsible-ai)
+Details at [Empowering responsible AI practices \| Microsoft
+AI](https://microsoft.com/ai/responsible-ai)
 
 ## Generative AI in Azure
 
@@ -439,30 +435,30 @@ AI capabilities:
 Solutions can combine these capabilities and others like other AI
 components to work together which is known as orchestration.
 
-1.  Orchestrator, Generative AI as a Service
+#### Orchestrator, Generative AI as a Service
 
-    Microsoft Copilot is an example of a generative AI solution and
-    orchestrator that calls generative AI models, gets data from sources
-    like web or grounding data, and other executes other resources to
-    complete user requests. It is multi-modal can both take media as
-    input and also make media output.
+Microsoft Copilot is an example of a generative AI solution and
+orchestrator that calls generative AI models, gets data from sources
+like web or grounding data, and other executes other resources to
+complete user requests. It is multi-modal can both take media as input
+and also make media output.
 
-    For example, Copilot can call GPT for NLP and generative text
-    content and DALL-E for image generation.
+For example, Copilot can call GPT for NLP and generative text content
+and DALL-E for image generation.
 
-2.  Framework for understanding generative AI applications
+#### Framework for understanding generative AI applications
 
-    Generative AI applications may be categorized like:
+Generative AI applications may be categorized like:
 
-    - Ready-to-use: They do not require any programming and can be used
-      by providing user input
-    - Extendable: They can be ready to use and extended using your data.
-      Customizations give better support to the specific business
-      processes or tasks. Microsoft Copilot is an example of
-      ready-to-use and extendable.
-    - Applications you build from the foundation: Build your own
-      assistants and assistants with agentic capabilities starting from
-      a language model.
+- Ready-to-use: They do not require any programming and can be used by
+  providing user input
+- Extendable: They can be ready to use and extended using your data.
+  Customizations give better support to the specific business processes
+  or tasks. Microsoft Copilot is an example of ready-to-use and
+  extendable.
+- Applications you build from the foundation: Build your own assistants
+  and assistants with agentic capabilities starting from a language
+  model.
 
 ### Tools to develop generative AI
 
@@ -520,65 +516,63 @@ can govern projects.
 You can see model details, deploy, and use the chat playground for
 testing. Models can be configured.
 
-1.  Customizing Models
+#### Customizing Models
 
-    Ways to customize models:
+Ways to customize models:
 
-    1.  Using grounding data
+1.  Using grounding data
 
-        Goal: anchor model's responses to data sources, enhancing trust
-        and relevance
+    Goal: anchor model's responses to data sources, enhancing trust and
+    relevance
 
-        It ensures the system's outputs are aligned with factual,
-        contextual, or reliable data sources. Grounding might involve
-        linking the model to a database, using search engines to
-        retrieve real-time information, or incorporating domain-specific
-        knowledge bases.
+    It ensures the system's outputs are aligned with factual,
+    contextual, or reliable data sources. Grounding might involve
+    linking the model to a database, using search engines to retrieve
+    real-time information, or incorporating domain-specific knowledge
+    bases.
 
-    2.  Retrieval-Augmented Generation (RAG)
+2.  Retrieval-Augmented Generation (RAG)
 
-        See [Retrieval Augmented Generation
-        (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag) -
-        [Retrieval Augmented Generation
-        (RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23)
+    See [Retrieval Augmented Generation
+    (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag) -
+    [Retrieval Augmented Generation
+    (RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23)
 
-        RAG allows grounding in existing data sources like documents.
+    RAG allows grounding in existing data sources like documents.
 
-    3.  Fine-tuning
+3.  Fine-tuning
 
-        Takes an existing mode and further training on smaller task
-        specific data. It will specialize the model for the task and
-        domain knowledge, improve model accuracy and relevance.
+    Takes an existing mode and further training on smaller task specific
+    data. It will specialize the model for the task and domain
+    knowledge, improve model accuracy and relevance.
 
-    4.  Managing security and governance controls
+4.  Managing security and governance controls
 
-        Security and governance controls manage access, authentication,
-        and data and prevent unauthorized and incorrect access of
-        information.
+    Security and governance controls manage access, authentication, and
+    data and prevent unauthorized and incorrect access of information.
 
-2.  Observability
+#### Observability
 
-    Ways to evaluate and monitor generative AI:
+Ways to evaluate and monitor generative AI:
 
-    > - Performance and quality evaluators: assess the accuracy,
-    >   groundedness, and relevance of generated content.
-    > - Risk and safety evaluators: assess potential risks associated
-    >   with AI-generated content to safeguard against content risks.
-    >   This includes evaluating an AI system's predisposition towards
-    >   generating harmful or inappropriate content.
-    > - Custom evaluators: industry-specific metrics to meet specific
-    >   needs and goals.
-    >
-    > Some evaluators include:
-    >
-    > - Groundedness: measures how consistent the response is with
-    >   respect to the retrieved context.
-    > - Relevance: measures how relevant the response is with respect to
-    >   the query.
-    > - Fluency: measures natural language quality and readability.
-    > - Coherence: measures logical consistency and flow of responses.
-    > - Content safety: comprehensive assessment of various safety
-    >   concerns.
+> - Performance and quality evaluators: assess the accuracy,
+>   groundedness, and relevance of generated content.
+> - Risk and safety evaluators: assess potential risks associated with
+>   AI-generated content to safeguard against content risks. This
+>   includes evaluating an AI system's predisposition towards generating
+>   harmful or inappropriate content.
+> - Custom evaluators: industry-specific metrics to meet specific needs
+>   and goals.
+>
+> Some evaluators include:
+>
+> - Groundedness: measures how consistent the response is with respect
+>   to the retrieved context.
+> - Relevance: measures how relevant the response is with respect to the
+>   query.
+> - Fluency: measures natural language quality and readability.
+> - Coherence: measures logical consistency and flow of responses.
+> - Content safety: comprehensive assessment of various safety concerns.
 
 ## See Also
 

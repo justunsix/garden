@@ -38,10 +38,14 @@ python -m pipx install ansible
 ## Upgrade all pipx packages
 pipx upgrade-all
 
+# Help
 # See Docstrings of module using pydoc
 python -m pydoc math
 # See as HTML
 python -m pydoc -w math
+
+# Help - Download official documentation
+# Go to https://docs.python.org/3/download.html
 
 ```
 
@@ -119,7 +123,7 @@ def cast_spell(wand, incantation, target=None):
 # Data Types #
 ##############
 
-# String
+# String value
 "string3"
 print("string1")
 # Cast value as String
@@ -131,6 +135,11 @@ str("hello")
 3.5
 ## Integers
 2
+
+## Type annotation for string with : str
+def greeting(name: str) -> str:
+    return 'Hello ' + name
+
 
 ############################
 # Print and with f strings #
@@ -420,50 +429,50 @@ def clean_string(string_to_clean):
 
 ### HTTP Requests
 
-1.  REST API Endpoint operations GET, POST, PUT, PATCH, DELETE
+#### REST API Endpoint operations GET, POST, PUT, PATCH, DELETE
 
-    ``` python
+``` python
 
-    # Make a get to an API, retrieve data
-    import requests
-    api_url = "https://jsonplaceholder.typicode.com/todos/1"
-    response = requests.get(api_url)
-    response.json()
-    # {'userId': 1, 'id': 1, 'title': 'delectus aut autem', 'completed': False}
-    ## Check status code and content type
-    response.status_code
-    response.headers["Content-Type"]
+# Make a get to an API, retrieve data
+import requests
+api_url = "https://jsonplaceholder.typicode.com/todos/1"
+response = requests.get(api_url)
+response.json()
+# {'userId': 1, 'id': 1, 'title': 'delectus aut autem', 'completed': False}
+## Check status code and content type
+response.status_code
+response.headers["Content-Type"]
 
-    # Make a post, use json input and set headers, set data
-    import requests
-    api_url = "https://jsonplaceholder.typicode.com/todos"
-    todo = {"userId": 1, "title": "Buy milk", "completed": False}
-    headers =  {"Content-Type":"application/json"}
-    # Serialize the todo json with json.dumps()
-    response = requests.post(api_url, data=json.dumps(todo), headers=headers)
+# Make a post, use json input and set headers, set data
+import requests
+api_url = "https://jsonplaceholder.typicode.com/todos"
+todo = {"userId": 1, "title": "Buy milk", "completed": False}
+headers =  {"Content-Type":"application/json"}
+# Serialize the todo json with json.dumps()
+response = requests.post(api_url, data=json.dumps(todo), headers=headers)
 
-    # Make a put, update data
-    import requests
-    api_url = "https://jsonplaceholder.typicode.com/todos/10"
-    response = requests.get(api_url)
-    response.json()
+# Make a put, update data
+import requests
+api_url = "https://jsonplaceholder.typicode.com/todos/10"
+response = requests.get(api_url)
+response.json()
 
-    todo = {"userId": 1, "title": "Wash car", "completed": True}
-    response = requests.put(api_url, json=todo)
-    response.json()
+todo = {"userId": 1, "title": "Wash car", "completed": True}
+response = requests.put(api_url, json=todo)
+response.json()
 
-    # Do a delete
-    import requests
-    # Include ID of item being deleted
-    api_url = "https://jsonplaceholder.typicode.com/todos/10"
-    response = requests.delete(api_url)
-    response.json()
-    response.status_code
+# Do a delete
+import requests
+# Include ID of item being deleted
+api_url = "https://jsonplaceholder.typicode.com/todos/10"
+response = requests.delete(api_url)
+response.json()
+response.status_code
 
-    ```
+```
 
-    Sources: [API Integration in Python - Real
-    Python](https://realpython.com/api-integration-in-python/)
+Sources: [API Integration in Python - Real
+Python](https://realpython.com/api-integration-in-python/)
 
 ## See Also
 

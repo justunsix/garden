@@ -78,17 +78,15 @@ cargo packages (can use cargo binstall):
 
 - [Rust Programming Language](https://www.rust-lang.org/)
 
-1.  Learning
+#### Learning
 
-    - [The Rust Programming Language
-      Book](https://doc.rust-lang.org/book/)
-    - [Rust in Action
-      (book)](https://www.manning.com/books/rust-in-action)
-    - [Rust By Example](https://doc.rust-lang.org/rust-by-example/) -
-      [examples source
-      code](https://github.com/rust-lang/rust-by-example)
-    - [Rustlings](https://github.com/rust-lang/rustlings) - 🦀 Small
-      exercises to get you used to reading and writing Rust code!
-    - [GitHub - ctjhoa/rust-learning: A bunch of links to blog posts,
-      articles, videos, etc for learning
-      Rust](https://github.com/ctjhoa/rust-learning)
+- [GitHub - ctjhoa/rust-learning: A bunch of links to blog posts,
+  articles, videos, etc for learning
+  Rust](https://github.com/ctjhoa/rust-learning)
+- [Rust By Example](https://doc.rust-lang.org/rust-by-example/) -
+  [examples source code](https://github.com/rust-lang/rust-by-example)
+- [Rust in Action (book)](https://www.manning.com/books/rust-in-action)
+- [Rustlings](https://github.com/rust-lang/rustlings) - 🦀 Small
+  exercises to get you used to reading and writing Rust code!
+- [Rust on Exercism](https://exercism.org/tracks/rust)
+- [The Rust Programming Language Book](https://doc.rust-lang.org/book/)

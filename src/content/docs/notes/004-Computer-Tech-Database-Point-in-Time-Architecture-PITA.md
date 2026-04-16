@@ -39,79 +39,77 @@ PITA captures:
 - Any entity would only have one state for any point in time which is
   active and effective at the same time
 
-1.  Design
+#### Design
 
-    - A database's implementation may limit the granularity of the time
-      increments in the period, for example at minimum 3 seconds for
-      some SQL servers
-    - Database tables design would check:
-      - Time regions cannot start at the same time (primary key
-        constraint)
-      - Effective period start and end date matches permitted
-        granularity (constraint)
-      - Time regions cannot overlap (constraint with function)
+- A database's implementation may limit the granularity of the time
+  increments in the period, for example at minimum 3 seconds for some
+  SQL servers
+- Database tables design would check:
+  - Time regions cannot start at the same time (primary key constraint)
+  - Effective period start and end date matches permitted granularity
+    (constraint)
+  - Time regions cannot overlap (constraint with function)
 
-2.  Table Type Options
+#### Table Type Options
 
-    1.  Dictionary / Code Table
+1.  Dictionary / Code Table
 
-        - Used to find the current version of the value for an object
-        - Table can include:
-          - Data: Effective period, creation date, last update date,
-            user who did the last change
-            - Effective period is period start and end attributes
-            - Effective period must be considered in business meaning of
-              it, for example effective date of someone's birth country.
-              For that person, the valid countries on those in existence
-              when the person was born
-        - Operations: Create, read, update,
-          - No deletion of data
+    - Used to find the current version of the value for an object
+    - Table can include:
+      - Data: Effective period, creation date, last update date, user
+        who did the last change
+        - Effective period is period start and end attributes
+        - Effective period must be considered in business meaning of it,
+          for example effective date of someone's birth country. For
+          that person, the valid countries on those in existence when
+          the person was born
+    - Operations: Create, read, update,
+      - No deletion of data
 
-    2.  Header
+2.  Header
 
-        - Unchanging parts of objects
-        - Data like:
-          - Identifier
-          - Other attributes that do not change
-          - Creation data - system assigned for tracking
-        - Operations: create, read
-          - No delete, if updates needed, use details type tables
+    - Unchanging parts of objects
+    - Data like:
+      - Identifier
+      - Other attributes that do not change
+      - Creation data - system assigned for tracking
+    - Operations: create, read
+      - No delete, if updates needed, use details type tables
 
-    3.  Details / Full Table
+3.  Details / Full Table
 
-        - Change history of object related to a header table or primary
-          key of table which has business meaning
-        - Data like:
-          - Business attributes
-          - Effective period start and end
-          - Creation and replacement timestamps
-          - Identifier
-        - Operations: create, read, update, delete (no physical
-          deletion, though records can be logically replaced)
-          - Update/delete operations should make sure changes are
-            separated in time by at least the smallest precision the
-            database implementation can do. For example, during a bulk
-            upload in SQL server, ensure each change has at least a 3
-            milisecond interval
-        - Partitioning options:
-          - Can be partitioned on active records using the effecitive
-            period end point
-          - Another partition with records with replaced timestamp in
-            the past
+    - Change history of object related to a header table or primary key
+      of table which has business meaning
+    - Data like:
+      - Business attributes
+      - Effective period start and end
+      - Creation and replacement timestamps
+      - Identifier
+    - Operations: create, read, update, delete (no physical deletion,
+      though records can be logically replaced)
+      - Update/delete operations should make sure changes are separated
+        in time by at least the smallest precision the database
+        implementation can do. For example, during a bulk upload in SQL
+        server, ensure each change has at least a 3 milisecond interval
+    - Partitioning options:
+      - Can be partitioned on active records using the effecitive period
+        end point
+      - Another partition with records with replaced timestamp in the
+        past
 
-    4.  Log
+4.  Log
 
-        - Log of events
-        - Data and operations similar to header table but it is just
-          event data
-        - Operations: create, read
+    - Log of events
+    - Data and operations similar to header table but it is just event
+      data
+    - Operations: create, read
 
-3.  Implementation
+#### Implementation
 
-    - Identify requirements that require implementing a particular PITA
-      type table
-    - Choose the PITA type table for data
-    - Do not mix types
+- Identify requirements that require implementing a particular PITA type
+  table
+- Choose the PITA type table for data
+- Do not mix types
 
 ## Database Design: A Point in Time Architecture
 

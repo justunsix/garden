@@ -22,12 +22,12 @@ title: mpv - Media Player
   setup](https://www.reddit.com/r/GenkiLab/comments/tcyucp/fsr_has_been_ported_to_mpv_try_it_on_your/) -
   configurations
 
-1.  Shaders
+#### Shaders
 
-    - [FSRCNN](https://github.com/igv/FSRCNN-TensorFlow/releases)
-    - [AMD FidelityFX Super Resolution
-      (FSR)](https://gist.github.com/agyild/82219c545228d70c5604f865ce0b0ce5)
-    - [AMD Contrast Adaptive Sharpening
-      (CAS)](https://gist.github.com/agyild/bbb4e58298b2f86aa24da3032a0d2ee6)
-    - [NVidia Image Scaling
-      (NVS)](https://gist.github.com/agyild/7e8951915b2bf24526a9343d951db214)
+- [FSRCNN](https://github.com/igv/FSRCNN-TensorFlow/releases)
+- [AMD FidelityFX Super Resolution
+  (FSR)](https://gist.github.com/agyild/82219c545228d70c5604f865ce0b0ce5)
+- [AMD Contrast Adaptive Sharpening
+  (CAS)](https://gist.github.com/agyild/bbb4e58298b2f86aa24da3032a0d2ee6)
+- [NVidia Image Scaling
+  (NVS)](https://gist.github.com/agyild/7e8951915b2bf24526a9343d951db214)

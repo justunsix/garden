@@ -94,29 +94,29 @@ Getting Started with OpenShift for Developers
 
 ### OpenShift Features
 
-1.  Serverless
+#### Serverless
 
-    - Based on KNative, Allows deployment functions
+- Based on KNative, Allows deployment functions
 
-2.  Service Mesh
+#### Service Mesh
 
-    - Use case: Increased troubleshooting complexity with many
-      containers. Need to trace requests, external services.
-    - Service Mesh handles a common infrastructure layer with common
-      policies and code for security, metrics, tracing, failure
-      handling, traffic management - code as a service
-      - Mesh can be configured
-      - Function actions: secure, observe, connect, control
-        - Tools: Jaegar, Kiali, Prometheus, Grafana
+- Use case: Increased troubleshooting complexity with many containers.
+  Need to trace requests, external services.
+- Service Mesh handles a common infrastructure layer with common
+  policies and code for security, metrics, tracing, failure handling,
+  traffic management - code as a service
+  - Mesh can be configured
+  - Function actions: secure, observe, connect, control
+    - Tools: Jaegar, Kiali, Prometheus, Grafana
 
-3.  Platform Management and Development
+#### Platform Management and Development
 
-    - Console
-    - Helm charts to package, install, and update
-    - OpenShift CLI
-    - IDE plugins - ex. VS Code, IntelliJ
-    - OpenShift Local - cluster for developer machines
-    - DevSpaces - collaborative k8s web based IDE and developer stacks
+- Console
+- Helm charts to package, install, and update
+- OpenShift CLI
+- IDE plugins - ex. VS Code, IntelliJ
+- OpenShift Local - cluster for developer machines
+- DevSpaces - collaborative k8s web based IDE and developer stacks
 
 ### Questions
 

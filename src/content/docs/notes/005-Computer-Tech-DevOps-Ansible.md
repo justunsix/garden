@@ -84,92 +84,90 @@ Ansible uses YAML, making it easier to understand and human readable.
   - Task: rename table, set owner of table, and truncase table.
   - Task: create directory, install nginx, start nginx
 
-1.  Tasks Configuration
+#### Tasks Configuration
 
-    - Hosts: where to run
-    - Vars: variables
-    - remote<sub>user</sub>: user to run as
-    - Module name: what to run
-    - Arguments: what to do
+- Hosts: where to run
+- Vars: variables
+- remote<sub>user</sub>: user to run as
+- Module name: what to run
+- Arguments: what to do
 
-    Indentation is used in YAML to show hierarchy and is strict.
+Indentation is used in YAML to show hierarchy and is strict.
 
-2.  Plays and Playbooks
+#### Plays and Playbooks
 
-    Play = combination of above: hosts, vars, remote<sub>user</sub>,
-    tasks with modules and arguments. Should be named after the
-    sequential tasks
+Play = combination of above: hosts, vars, remote<sub>user</sub>, tasks
+with modules and arguments. Should be named after the sequential tasks
 
-    Playbook = 1 or more plays
+Playbook = 1 or more plays
 
-    - How and in which order
-    - At what time and where (which hosts)
-    - What modules should be executed
+- How and in which order
+- At what time and where (which hosts)
+- What modules should be executed
 
-    Example Playbook:
+Example Playbook:
 
-    ``` yaml
+``` yaml
 
-    hosts: webservers
-    remote_user: root
+hosts: webservers
+remote_user: root
 
-    # Play for Webservers
-    tasks:
-        - name: create directory for nginx
-          file:
-            path: /etc/nginx
-            state: directory
-        - name: install nginx latest version
-          apt:
+# Play for Webservers
+tasks:
+    - name: create directory for nginx
+      file:
+        path: /etc/nginx
+        state: directory
+    - name: install nginx latest version
+      apt:
+        name: nginx
+        state: latest
+    - name: start nginx
+        service:
             name: nginx
-            state: latest
-        - name: start nginx
-            service:
-                name: nginx
-                state: started
+            state: started
 
-    # Play for Database
-    - hosts: databases
-      remote_user: root
+# Play for Database
+- hosts: databases
+  remote_user: root
 
-      tasks:
-            - name: rename table
-            mysql_db:
-                name: old_table
-                rename: new_table
-            - name: set owner of table
-            mysql_user:
-                name: new_table
-                priv: '*.*:ALL'
-            - name: truncate table
-            mysql_db:
-                name: new_table
-                state: import
-                target: /tmp/new_table.sql
-    ```
+  tasks:
+        - name: rename table
+        mysql_db:
+            name: old_table
+            rename: new_table
+        - name: set owner of table
+        mysql_user:
+            name: new_table
+            priv: '*.*:ALL'
+        - name: truncate table
+        mysql_db:
+            name: new_table
+            state: import
+            target: /tmp/new_table.sql
+```
 
-3.  Host Definition
+#### Host Definition
 
-    Set in Hosts File or Inventory = all machines involed in task
-    executions
+Set in Hosts File or Inventory = all machines involed in task executions
 
-    - Includes IPs or hostnames
-    - Can be grouped like webservers, databases
-    - Can be any type of server (cloud, virtual, bare metal)
+- Includes IPs or hostnames
+- Can be grouped like webservers, databases
+- Can be any type of server (cloud, virtual, bare metal)
 
-    For example:
+For example:
 
-    ``` txt
-    10.24.0.100
+``` txt
+10.24.0.100
 
-    [webservers]
-    10.24.0.1
-    web1.myserver.com
+[webservers]
+10.24.0.1
+web1.myserver.com
 
-    [databases]
-    10.24.1.4
-    db1.myserver.com
-    ```
+[databases]
+10.24.1.4
+db1.myserver.com
+```
 
 ### Ansible with Docker and Other Environments
 

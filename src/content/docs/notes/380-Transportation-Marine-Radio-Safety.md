@@ -231,19 +231,19 @@ Central and Artic Region (including Ontario):
 
 ### Medical Advice
 
-1.  Medical Advice Messages
+#### Medical Advice Messages
 
-    Masters of ships may obtain medical advice by addressing a
-    radiotelegram to "Radiomedical" and routing it via the MCTS Centre
-    which will refer the message to the nearest medial authority and
-    transmit the reply to the ship.
+Masters of ships may obtain medical advice by addressing a radiotelegram
+to "Radiomedical" and routing it via the MCTS Centre which will refer
+the message to the nearest medial authority and transmit the reply to
+the ship.
 
-2.  Radiomedical Marine Telephone Service
+#### Radiomedical Marine Telephone Service
 
-    Masters of ships may obtain medical advice by calling a MCTS Centre
-    and request to be connected to a medical doctor. The MCTS Centre
-    will connect the vessel to the appropriate medical authority via the
-    Marine Telephone System. The cost of this service is absorbed by the
-    MCTS Centre.
+Masters of ships may obtain medical advice by calling a MCTS Centre and
+request to be connected to a medical doctor. The MCTS Centre will
+connect the vessel to the appropriate medical authority via the Marine
+Telephone System. The cost of this service is absorbed by the MCTS
+Centre.
 
-    from \<<http://www.ccg-gcc.gc.ca/eng/MCTS/Medical>\>
+from \<<http://www.ccg-gcc.gc.ca/eng/MCTS/Medical>\>

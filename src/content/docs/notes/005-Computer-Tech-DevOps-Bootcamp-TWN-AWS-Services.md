@@ -526,16 +526,16 @@ pipeline {
 
 ### See Also
 
-1.  Resources
+#### Resources
 
-    - [AWS CLI - Getting
-      Started](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+- [AWS CLI - Getting
+  Started](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
-    1.  CLI Commands
+1.  CLI Commands
 
-        - [AWS CLI Commands used in this chapter - CLI Command
-          twn-devops-bootcamp on
-          GitLab](https://gitlab.com/twn-devops-bootcamp/latest/09-aws/cli-commands/-/blob/main/aws-cli-commands.md?ref_type=heads)
+    - [AWS CLI Commands used in this chapter - CLI Command
+      twn-devops-bootcamp on
+      GitLab](https://gitlab.com/twn-devops-bootcamp/latest/09-aws/cli-commands/-/blob/main/aws-cli-commands.md?ref_type=heads)
 
 ### Introduction
 

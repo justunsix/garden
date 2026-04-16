@@ -21,54 +21,54 @@ for useful columns to use during report. The recommended reports to
 download will include more columns than shown in this template to make
 it easier to find insights.
 
-1.  Campaigns
+#### Campaigns
 
-    In Campaigns \> Main Screen, create report for campaign(s), select
-    these columns:
+In Campaigns \> Main Screen, create report for campaign(s), select these
+columns:
 
-    - Campaign type
-    - Bid strategy type
-    - Clicks
-    - Impressions
-    - Cost
-    - Average cost
-    - Average Cost per click (CPC)
-    - Conversions
-    - Phone calls
-    - Conversion rate
-    - Cost / conversion
-    - Interactions
-    - Interaction Rate
-    - Search impression share
-    - Search lost impression share (IS) budget
+- Campaign type
+- Bid strategy type
+- Clicks
+- Impressions
+- Cost
+- Average cost
+- Average Cost per click (CPC)
+- Conversions
+- Phone calls
+- Conversion rate
+- Cost / conversion
+- Interactions
+- Interaction Rate
+- Search impression share
+- Search lost impression share (IS) budget
 
-2.  Ad Groups
+#### Ad Groups
 
-    In Campaigns \> Ad groups, create report for ads, select similar
-    columns to campaigns report
+In Campaigns \> Ad groups, create report for ads, select similar columns
+to campaigns report
 
-3.  Asset Groups (Performance Max)
+#### Asset Groups (Performance Max)
 
-    In Asset groups (Campaigns \> Asset groups), select similar columns
-    to campaigns report
+In Asset groups (Campaigns \> Asset groups), select similar columns to
+campaigns report
 
-4.  Ads
+#### Ads
 
-    In Campaigns \> Ads \> Main Screen, create report for ads, select
-    similar columns to campaigns report
+In Campaigns \> Ads \> Main Screen, create report for ads, select
+similar columns to campaigns report
 
-5.  Locations
+#### Locations
 
-    In Locations (Assets \> Locations), create Locations report with
-    these columns:
+In Locations (Assets \> Locations), create Locations report with these
+columns:
 
-    - Clicks
-    - Impressions
-    - Other columns if needed
+- Clicks
+- Impressions
+- Other columns if needed
 
-6.  Word Searches
+#### Word Searches
 
-    In Overview \> Searches, download the card data `.csv` reports
+In Overview \> Searches, download the card data `.csv` reports
 
 ### Analyze Reports
 

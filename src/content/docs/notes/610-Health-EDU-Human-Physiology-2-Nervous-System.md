@@ -420,9 +420,7 @@ Coursera](https://www.coursera.org/learn/physiology/home/info)
   that consists of the nerves and ganglia outside of the brain and
   spinal cord.
 
-###  
-
-### PNS Sensory Input
+### **\*** PNS Sensory Input
 
 > Sensory systems: vision, hearing, taste, equilibrium, olfaction,
 > somatosensation (inside the body)
@@ -560,39 +558,38 @@ Coursera](https://www.coursera.org/learn/physiology/home/info)
 
 ### Somatosensations
 
-1.  Touch and Pressure
+#### Touch and Pressure
 
-    - Afferent neurons have mechanoreceptors that sense touch and
-      pressure.
+- Afferent neurons have mechanoreceptors that sense touch and pressure.
 
-    - Mechanoreceptors are encapsulated and are free nerve endings
-      (e.g. end of axon).
+- Mechanoreceptors are encapsulated and are free nerve endings (e.g. end
+  of axon).
 
-    - An example, encapsulated receptors sense a certain vibration.
+- An example, encapsulated receptors sense a certain vibration.
 
-2.  Proprioception
+#### Proprioception
 
-    - Muscle stretch receptors, mechanoreceptors in skin, joints,
-      tendons, ligaments, vision, vestibular system
+- Muscle stretch receptors, mechanoreceptors in skin, joints, tendons,
+  ligaments, vision, vestibular system
 
-3.  Temperature
+#### Temperature
 
-    > Different types of thermoreceptors (ion channel activated at
-    > certain temperatures). They also respond to chemicals
+> Different types of thermoreceptors (ion channel activated at certain
+> temperatures). They also respond to chemicals
 
-    - Cold thermoreceptors respond (bind) to menthol
+- Cold thermoreceptors respond (bind) to menthol
 
-    - Hot thermoreceptors respond to capsaicin and ethanol
+- Hot thermoreceptors respond to capsaicin and ethanol
 
-    >  
+>  
 
-4.  Pain
+#### Pain
 
-    > Free nerve endings expressing nociceptors that sense mechanical
-    > deformation, chemicals released by damaged cells or immune cells
-    > responding to damaged cells.
-    >
-    >  
+> Free nerve endings expressing nociceptors that sense mechanical
+> deformation, chemicals released by damaged cells or immune cells
+> responding to damaged cells.
+>
+>  
 
 ### Visual system
 
@@ -750,34 +747,34 @@ Coursera](https://www.coursera.org/learn/physiology/home/info)
 
 - Scala tympani = the lower fluid path
 
-1.  Organ of Corti (zoomed in)
+#### Organ of Corti (zoomed in)
 
-    > Stereocilia of hair cells are embedded in the tectorial membrane.
-    > As the basilar membrane bounces up and down the stereocilia bend.
-    > Bending in one direction depolarizes the cell; in the other
-    > direction hyperpolarizes the cell.
-    >
-    > Fluid flows around the Organ of Corti (u shaped)
-    >
-    >  
-    >
-    >  
+> Stereocilia of hair cells are embedded in the tectorial membrane. As
+> the basilar membrane bounces up and down the stereocilia bend. Bending
+> in one direction depolarizes the cell; in the other direction
+> hyperpolarizes the cell.
+>
+> Fluid flows around the Organ of Corti (u shaped)
+>
+>  
+>
+>  
 
-2.  Sound transduction
+#### Sound transduction
 
-    > After a hair cell (=receptor) activates the afferent neuron, axons
-    > from the these neurons join to form the cochlear nerve.
-    >
-    > Cochlear nerve is made of these afferent neurons.
-    >
-    >  
-    >
-    > The region of the basilar membrane that vibrates the most
-    > correlates with the frequency of the sound. The louder the sound,
-    > the more vibration and the greater the frequency of action
-    > potentials produced in the afferent neurons.
-    >
-    >  
+> After a hair cell (=receptor) activates the afferent neuron, axons
+> from the these neurons join to form the cochlear nerve.
+>
+> Cochlear nerve is made of these afferent neurons.
+>
+>  
+>
+> The region of the basilar membrane that vibrates the most correlates
+> with the frequency of the sound. The louder the sound, the more
+> vibration and the greater the frequency of action potentials produced
+> in the afferent neurons.
+>
+>  
 
 ### Sense of Balance: Vestibular System
 
@@ -801,9 +798,9 @@ Coursera](https://www.coursera.org/learn/physiology/home/info)
 >
 >  
 
-1.  Semicircular Canals
+#### Semicircular Canals
 
-    > Fluid is stationary, hair cells moves to detect movement
+> Fluid is stationary, hair cells moves to detect movement
 
 ### Demonstration of Semicircular canal
 
@@ -811,20 +808,20 @@ Coursera](https://www.coursera.org/learn/physiology/home/info)
 >
 >  
 
-1.  Otolith Organs
+#### Otolith Organs
 
-    > Involve hair cells
-    >
-    >  
-    >
-    > In this animation, green crystals represent otoliths that pull on
-    > hair cells
-    >
-    >  
-    >
-    > Otoliths (green) are heavier and have more inertia.
-    >
-    >  
+> Involve hair cells
+>
+>  
+>
+> In this animation, green crystals represent otoliths that pull on hair
+> cells
+>
+>  
+>
+> Otoliths (green) are heavier and have more inertia.
+>
+>  
 
 ### Key Concepts
 
@@ -912,9 +909,7 @@ Coursera](https://www.coursera.org/learn/physiology/home/info)
 - Different neurons can bind to a single molecule. Binding and nature of
   bind allows detection of many smells.
 
-###  
-
-### Key Concepts
+### **\*** Key Concepts
 
 > Taste receptor cells in the tongue detect chemicals associated with
 > the five basic taste qualities: umami (meaty, broth flavour), salt,
@@ -968,13 +963,13 @@ Coursera](https://www.coursera.org/learn/physiology/home/info)
 >
 >  
 
-1.  How do muscles get innervated? See below
+#### How do muscles get innervated? See below
 
-    > Neuron fires \> action potential \> release of Ca++ due to voltage
-    > gated ion channels \> action potential in muscle due to voltage
-    > gated ion channels in the post-synaptic cell (the muscle).
-    >
-    >  
+> Neuron fires \> action potential \> release of Ca++ due to voltage
+> gated ion channels \> action potential in muscle due to voltage gated
+> ion channels in the post-synaptic cell (the muscle).
+>
+>  
 
 ### Key Concepts
 

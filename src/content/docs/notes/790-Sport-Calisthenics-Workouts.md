@@ -9,9 +9,52 @@ title: Calisthenics Workouts
 Useful for warming up before stretching and adapt workout by removing or
 increasing repetitions to spend more or less time in the workout.
 
-Stretch warmup x 2 / dancing
+### Warm up (2 mins)
 
-### Flexibility
+Aerobics like dancing, jump rope, jumping jacks or joint rotations for
+lighter warm up
+
+### Main (23 mins)
+
+Rotate through the follow exercises, Source: bodybuilding.com workout
+example
+
+- Push ups, 3 sets, 8-15 reps
+- Chin-ups, 3 sets, 3-10 reps
+- Triceps dips x 10
+- Ham-Glute Raises, 10-15 reps
+- Split jumps 15 or lunges 15
+- Squats cross fit style 40
+- Single Leg Squats, 3 sets, 6-12 reps
+- Bench Dips, 10-20 reps
+- Calf Raises, 10-20 reps
+
+**Choose special workouts from additional exercises below:**
+
+- Upside-down Shoulder Press, 2-4 reps
+- Crunches / v ups / tuck ups, 25 reps / around the worlds - 20 reps
+- Handstand hold max time - 30-60+ seconds
+- Neck, 3 sets, max reps
+- Plank / plank side to sides - 45s / 1 minute or 15 reps on each side
+- [Optional - Shoulder/back strength and
+  flexibility](/garden/notes/790-sport-stretching)
+
+Run through the exercises in a circuit style. Adjust difficulty as
+needed like increase with weighted vest, clothing or decrease with
+smaller range of motion and repetitions.
+
+Shoulder opener exercises per physiotherapy guidance
+
+#### One Additional Exercise
+
+- Superman
+- Banana rocks
+- Hip rises
+- Uggs - straddle / pike leg lifts x 25
+- See below: Ab exercises below, any of the "tough" workout exercises
+  below.
+
+### Flexibility and Range of Movement - Stretches and Joint Rotations - (5 mins)
 
 - Neck: U, D, L, R
 - Shoulders: triceps, bicep
@@ -21,46 +64,6 @@ Stretch warmup x 2 / dancing
   - Side splits
   - Feet circles
 - 2 bridges
-
-### Minimal workout
-
-- Push ups, 3 sets, max reps - 15
-- Chin-ups, 3 sets
-- Crunches / v ups / tuck ups, 5 sets, 25 reps
-
-### Stretch Warmup
-
-Source: bodybuilding.com workout example
-
-- Push ups, 3 sets, max reps - 15
-- Ham-Glute Raises, 3 sets, max reps - 15 / split jumps 15 / lunges 15
-- Squats cross fit style 40
-- Chin-ups, 3 sets, max reps - 3 / triceps dips x 10
-- Single Leg Squats, 3 sets, max reps - 12
-- Bench Dips, 2 sets, max reps - 15
-- Calf Raises, 3 sets, max reps - 20
-- **Choose special workouts from additional exercise below**
-- Upside-down Shoulder Press, 3 sets, max reps - 4
-- Crunches / v ups / tuck ups, 5 sets, 25 reps / around the worlds x 20
-  reps
-- Handstand hold max time - 30s - 45s
-- Neck, 3 sets, max reps
-- Plank / plank side to sides - 45s / 1 minute or 15 reps on each side
-- [Optional - Shoulder/back strength and
-  flexibility](/garden/notes/790-sport-stretching)
-
-Repeat 3 times, then move to other exercise. Aim for 12-15 repetitions
-
-Shoulder opener exercises - see physiotherapy
-
-1.  One Additional Exercise
-
-    - Superman
-    - Banana rocks
-    - Hip rises
-    - Uggs - straddle / pike leg lifts x 25
-    - See below: Ab exercises below, any of the "tough" workout
-      exercises below.
 
 ## Example challenges
 

@@ -60,42 +60,42 @@ From Ollama README Guidance [^18]
 Source: [Choosing the right model in GitHub Copilot - Microsoft Tech
 Community](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/choosing-the-right-model-in-github-copilot-a-practical-guide-for-developers/4491623)
 
-1.  General Development Tasks
+#### General Development Tasks
 
-    New functions, creating tests/documentation, improving code
+New functions, creating tests/documentation, improving code
 
-    - GPT-4.1
-    - GPT-5-mini
-    - Claude Sonnet
-    - Big Pickle (OpenCode Zen)
+- GPT-4.1
+- GPT-5-mini
+- Claude Sonnet
+- Big Pickle (OpenCode Zen)
 
-2.  Light Tasks
+#### Light Tasks
 
-    Quick explanations, JSON/YAML transformations, small refactors,
-    regex creation, short Q&A
+Quick explanations, JSON/YAML transformations, small refactors, regex
+creation, short Q&A
 
-    - Claude Haiku 4.5
-    - MiMo V2 Omni (multi-modal)
-    - Nemotron 3 Super Free (text only)
+- Claude Haiku 4.5
+- MiMo V2 Omni (multi-modal)
+- Nemotron 3 Super Free (text only)
 
-3.  Complex Debugging, Deep Reasoning
+#### Complex Debugging, Deep Reasoning
 
-    Analyzing code, debugging hard issues, architecture decisions,
-    multi-step reasoning, performance analysis
+Analyzing code, debugging hard issues, architecture decisions,
+multi-step reasoning, performance analysis
 
-    - GPT-5-MINI
-    - GPT-5.1
-    - GPT-5.2
-    - Claude Opus
+- GPT-5-MINI
+- GPT-5.1
+- GPT-5.2
+- Claude Opus
 
-4.  Multi-step Agentic Development
+#### Multi-step Agentic Development
 
-    Entire repository changes, migrations, creating features, multiple
-    file planning, automated workflows (plan \> run \> change)
+Entire repository changes, migrations, creating features, multiple file
+planning, automated workflows (plan \> run \> change)
 
-    - GPT-5.1-Codex-Max
-    - GPT-5.2-Codex
-    - MiMo V2 Pro
+- GPT-5.1-Codex-Max
+- GPT-5.2-Codex
+- MiMo V2 Pro
 
 ### Specific Use Cases
 

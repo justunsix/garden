@@ -33,61 +33,59 @@ Common scenarios and capabilities of Power Automate:
 - Automating desktop based and website processes with robotic process
   automation (RPA) capabilities
 
-1.  Example: Purchase order approval
+#### Example: Purchase order approval
 
-    - User uses a Power App to create a purchase order request
-    - Flow evaluates requests and routes it based on criteria like
-      approval from user's manager in AAD
-    - Conditional logic for further approvals is done
+- User uses a Power App to create a purchase order request
+- Flow evaluates requests and routes it based on criteria like approval
+  from user's manager in AAD
+- Conditional logic for further approvals is done
 
-2.  Work with Data Where it Lives
+#### Work with Data Where it Lives
 
-    Use connectors to connect to one or many existing data and services
-    like:
+Use connectors to connect to one or many existing data and services
+like:
 
-    - Microsoft Dataverse
-    - Salesforce
-    - Dynamics 365
-    - Google Drive
-    - Office 365
-    - Custom data source provided in a custom connector
+- Microsoft Dataverse
+- Salesforce
+- Dynamics 365
+- Google Drive
+- Office 365
+- Custom data source provided in a custom connector
 
-3.  Types of Flows
+#### Types of Flows
 
-    - Cloud flows
-      - Runs on a trigger and then one or many actions like emails or
-        mentions
-      - Team flows are owned by a group while "my flows" are owned by
-        you
-    - Business process flows
-      - Used with Model-driven apps and Microsoft Dataverse to create a
-        guided experience
-    - Desktop flows
-      - These robotic process automation (RPA) flows allow you to record
-        yourself performing actions on your desktop or within a web
-        browser.
-      - You can trigger flow to perform that process for you.
-      - You can also pass data in or get data out of the process,
-        letting you automate "manual" business processes
+- Cloud flows
+  - Runs on a trigger and then one or many actions like emails or
+    mentions
+  - Team flows are owned by a group while "my flows" are owned by you
+- Business process flows
+  - Used with Model-driven apps and Microsoft Dataverse to create a
+    guided experience
+- Desktop flows
+  - These robotic process automation (RPA) flows allow you to record
+    yourself performing actions on your desktop or within a web browser.
+  - You can trigger flow to perform that process for you.
+  - You can also pass data in or get data out of the process, letting
+    you automate "manual" business processes
 
-4.  Add Artificial Intelligence (AI) to your Flows without Code
+#### Add Artificial Intelligence (AI) to your Flows without Code
 
-    - A wizard based interface at <https://make.PowerApps.com> allows
-      building and training a model and using Azure Machine Learning and
-      Cognitive services
+- A wizard based interface at <https://make.PowerApps.com> allows
+  building and training a model and using Azure Machine Learning and
+  Cognitive services
 
-5.  Security and Administration
+#### Security and Administration
 
-    - Manage security at the Power Platform admin centre to manage
-      environments, policies, data integrations, licenses, and quotas
-    - Power Automate also offers PowerShell cmdlets
-    - Power Automate has flows to help manage itself like a scheduled
-      job to discover all flows and apps daily and add co-owners
+- Manage security at the Power Platform admin centre to manage
+  environments, policies, data integrations, licenses, and quotas
+- Power Automate also offers PowerShell cmdlets
+- Power Automate has flows to help manage itself like a scheduled job to
+  discover all flows and apps daily and add co-owners
 
-6.  Driving Value
+#### Driving Value
 
-    - Users can only use flows to do things they already have access to
-    - Automation can be driven from the business instead of IT
+- Users can only use flows to do things they already have access to
+- Automation can be driven from the business instead of IT
 
 ### Customer Case Study - TruGreen
 
@@ -134,78 +132,78 @@ Processes](id:e54cbe89-e3f0-4aa2-adb3-305b83d9e698)
 
 ### Demo
 
-1.  Build FLow
+#### Build FLow
 
-    - Access <https://make.powerautomate.com/>
+- Access <https://make.powerautomate.com/>
 
-    - Use environment where your items are built
+- Use environment where your items are built
 
-    - Pinned all visible items
+- Pinned all visible items
 
-    - Create from trigger type or desktop flow
+- Create from trigger type or desktop flow
 
-    - Search templates for type of flow you are building
+- Search templates for type of flow you are building
 
-    - Link to solutions across PP
+- Link to solutions across PP
 
-    - Build cloud flow
+- Build cloud flow
 
-      - Build on inventory management app, model driven app with a
-        Dataverse table
-      - Canvas app with gallery of items
-        - Can submit new requests
-      - Using a SharePoint list with approvers, and a flow to allow
-        approvers to approve items
+  - Build on inventory management app, model driven app with a Dataverse
+    table
+  - Canvas app with gallery of items
+    - Can submit new requests
+  - Using a SharePoint list with approvers, and a flow to allow
+    approvers to approve items
 
-    - Create instant flow, triggers can be changed later
+- Create instant flow, triggers can be changed later
 
-    - Add inputs:
+- Add inputs:
 
-      - itemID
-      - itemType
+  - itemID
+  - itemType
 
-    - Add operation
+- Add operation
 
-    - Save and reopen to edit in "New Designer"
+- Save and reopen to edit in "New Designer"
 
-    - Add an action, approver
+- Add an action, approver
 
-      - Search SharePoint and choose "Get items"
-      - Choose site and list name
-      - Filter query using inputs, using ODATA filter
-        - `Title eq "itemType"`
+  - Search SharePoint and choose "Get items"
+  - Choose site and list name
+  - Filter query using inputs, using ODATA filter
+    - `Title eq "itemType"`
 
-    - Add an action, approval
+- Add an action, approval
 
-      - Start and wait for an approval
-      - Choose "Approve or reject" option
-      - For approver, get from previous step's approver data
+  - Start and wait for an approval
+  - Choose "Approve or reject" option
+  - For approver, get from previous step's approver data
 
-    - Add condition
+- Add condition
 
-      - If response is equal to approve - update Dataverse row
-        - Use Dataverse connector
-        - Use itemID in input
-        - Update approval status to "Approved"
+  - If response is equal to approve - update Dataverse row
+    - Use Dataverse connector
+    - Use itemID in input
+    - Update approval status to "Approved"
 
-    - Replace manual trigger with PowerApps(V2) trigger
+- Replace manual trigger with PowerApps(V2) trigger
 
-    - Add inputs:
+- Add inputs:
 
-      - itemID
-      - itemType
+  - itemID
+  - itemType
 
-    - In Canvas app, add a button to trigger flow
+- In Canvas app, add a button to trigger flow
 
-      - On submit button, on select, add "Power Automate" flow, add the
-        flow we created
+  - On submit button, on select, add "Power Automate" flow, add the flow
+    we created
 
-2.  Test flow
+#### Test flow
 
-    - Use "Test" button
-    - Input itemID and itemType
-    - Approval can be email or in Teams
-    - View approvals in Power Automate portal
+- Use "Test" button
+- Input itemID and itemType
+- Approval can be email or in Teams
+- View approvals in Power Automate portal
 
 ## See Also
 

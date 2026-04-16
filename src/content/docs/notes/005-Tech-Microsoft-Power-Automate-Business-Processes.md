@@ -42,58 +42,57 @@ processes using:
 
 ### Making Flows
 
-1.  Flows
+#### Flows
 
-    1.  Types
+1.  Types
 
-        - Cloud
-          - Good for automated, scheduled, process automation
-          - Build on website
-        - Desktop
-          - Automation of tasks on desktop, like recorded flows, robotic
-            process automation
-          - Good for legacy applications, desktop only services without
-            APIs
-          - Build using Power Automate Desktop application
-        - Business process
-          - Good for case management, staged processes
-          - Guide for people to get work done flowing a business process
+    - Cloud
+      - Good for automated, scheduled, process automation
+      - Build on website
+    - Desktop
+      - Automation of tasks on desktop, like recorded flows, robotic
+        process automation
+      - Good for legacy applications, desktop only services without APIs
+      - Build using Power Automate Desktop application
+    - Business process
+      - Good for case management, staged processes
+      - Guide for people to get work done flowing a business process
 
-        Flows can be build on web, desktop, mobile app, and in Teams.
+    Flows can be build on web, desktop, mobile app, and in Teams.
 
-    2.  Components
+2.  Components
 
-        - Trigger - When to start a flow? event that starts the flow
-          - Automated - when something happens
-          - Schedule - always on a certain regular time
-          - Instant
-          - Notifications
-          - Approvals
-          - Mobile
-        - Actions - 1 or more steps that are run
-        - Connectors - connect cloud flows to apps, services, data
-          - Standard - ex. Office365 licensed, SharePoint
-          - Premium - expanded set like Dataverse, SQL, Azure services
-          - Custom - good for APIs, other data sources
+    - Trigger - When to start a flow? event that starts the flow
+      - Automated - when something happens
+      - Schedule - always on a certain regular time
+      - Instant
+      - Notifications
+      - Approvals
+      - Mobile
+    - Actions - 1 or more steps that are run
+    - Connectors - connect cloud flows to apps, services, data
+      - Standard - ex. Office365 licensed, SharePoint
+      - Premium - expanded set like Dataverse, SQL, Azure services
+      - Custom - good for APIs, other data sources
 
-2.  Desktop Interface
+#### Desktop Interface
 
-    Install with:
-    <https://learn.microsoft.com/en-us/power-automate/desktop-flows/install>
+Install with:
+<https://learn.microsoft.com/en-us/power-automate/desktop-flows/install>
 
-    - Drag and drop steps
+- Drag and drop steps
 
-3.  Web Interface
+#### Web Interface
 
-    Access <https://make.powerautomate.com/>
+Access <https://make.powerautomate.com/>
 
-    - Action items for you
-    - Create flows, for example from templates
-    - Connectors - Manage connectors, find new ones
-    - Data - data sources
-    - Other options
-      - AI Builder
-      - Learning
+- Action items for you
+- Create flows, for example from templates
+- Connectors - Manage connectors, find new ones
+- Data - data sources
+- Other options
+  - AI Builder
+  - Learning
 
 ### Demo: Create flow from Template
 
@@ -111,14 +110,14 @@ processes using:
 - Test by sending an email to yourself with an attachment
 - Check flow status under "My flows" to see if steps ran and they did
 
-1.  Create from Mobile
+#### Create from Mobile
 
-    - Install Power Automated app on Android
-    - Use button flow
-    - Create a flow "Send myself a reminder in 10 minutes"
-    - Manually trigger flow, time delay, send push notification
-    - Can invite others to own flow and share
-    - Can see flows and history
+- Install Power Automated app on Android
+- Use button flow
+- Create a flow "Send myself a reminder in 10 minutes"
+- Manually trigger flow, time delay, send push notification
+- Can invite others to own flow and share
+- Can see flows and history
 
 ### Dynamic Content in Power Automate
 
@@ -142,23 +141,23 @@ May need to evaluate, calculate using the data (dynamic content) in the
 flow. Use with open **Dynamic Content** menu and then select
 **Expression**
 
-1.  Demo: Manually Trigger a Flow
+#### Demo: Manually Trigger a Flow
 
-    - Create new flow on manual trigger
-    - Add inputs:
-      - Square Footage: Number
-      - Cost: Number
-    - Add "compose" data operation, called "Compose"
-      - For inputs, use Expression: multiply with the dynamic content,
-        square footage and cost:
-        `mul(triggerBody()?['SquareFootage'], triggerBody()?['Cost'])`
-    - Add "compose" data operation, called "Compose 2"
-      - As input, use output from earlier compose operation
-      - As output, use format number:
-        `formatNumber(outputs('Compose'), 'C2')`
-        - C2 = currency format
-    - Save and test where you enter 2 inputs and get a formatted
-      currency result
+- Create new flow on manual trigger
+- Add inputs:
+  - Square Footage: Number
+  - Cost: Number
+- Add "compose" data operation, called "Compose"
+  - For inputs, use Expression: multiply with the dynamic content,
+    square footage and cost:
+    `mul(triggerBody()?['SquareFootage'], triggerBody()?['Cost'])`
+- Add "compose" data operation, called "Compose 2"
+  - As input, use output from earlier compose operation
+  - As output, use format number:
+    `formatNumber(outputs('Compose'), 'C2')`
+    - C2 = currency format
+- Save and test where you enter 2 inputs and get a formatted currency
+  result
 
 ## Introduction to Business Process Flows - Module 2
 
@@ -190,37 +189,37 @@ flow. Use with open **Dynamic Content** menu and then select
 
 ### When to Use Business Process Flows
 
-1.  Differences from Business Process Flows and Power Automate Flows
+#### Differences from Business Process Flows and Power Automate Flows
 
-    | Business Processes              | Power Automate                           |
-    |---------------------------------|------------------------------------------|
-    | Visual Guide                    | No visual guide                          |
-    | Dataverse only                  | Not restricted to Dataverse              |
-    | No time limit                   | Steps based on data and user interaction |
-    | Standardized, logical branching | Complex logic, call other flows          |
+| Business Processes              | Power Automate                           |
+|---------------------------------|------------------------------------------|
+| Visual Guide                    | No visual guide                          |
+| Dataverse only                  | Not restricted to Dataverse              |
+| No time limit                   | Steps based on data and user interaction |
+| Standardized, logical branching | Complex logic, call other flows          |
 
-2.  Benefits of Business Process Flows
+#### Benefits of Business Process Flows
 
-    - Consistent stage and work steps
-    - Data collection and reporting
-    - Better time and results due to standardization, guidance
+- Consistent stage and work steps
+- Data collection and reporting
+- Better time and results due to standardization, guidance
 
 ### Why Use Each Flow
 
-1.  Business Process Flow
+#### Business Process Flow
 
-    - Automated business processes with Dataverse
-    - Need a visual guide
-    - Want to use out of box business process flows
-    - Have Dynamics 365 license and use Dataverse and Dynamics 365
+- Automated business processes with Dataverse
+- Need a visual guide
+- Want to use out of box business process flows
+- Have Dynamics 365 license and use Dataverse and Dynamics 365
 
-2.  Power Automate Flow
+#### Power Automate Flow
 
-    - Need scheduled or triggered flows
-    - Need trigger or flow outside of Dataverse or other connectors
-    - Need push notifications outside of Outlook like SMS and other
-      connectors
-    - Only have an Office 365 license and want to use flows
+- Need scheduled or triggered flows
+- Need trigger or flow outside of Dataverse or other connectors
+- Need push notifications outside of Outlook like SMS and other
+  connectors
+- Only have an Office 365 license and want to use flows
 
 ### Demo: Creating Business Process Flows
 
@@ -327,13 +326,13 @@ Benefits:
   license
   - Free trials are available
 
-1.  Set up an Environment
+#### Set up an Environment
 
-    - Set up an environment in Power Platform admin center
-    - Add a database to the environment
-    - Install Power Automate Desktop on your computer - under My flows -
-      install button
-    - Install an extension on your preferred browser and run it
+- Set up an environment in Power Platform admin center
+- Add a database to the environment
+- Install Power Automate Desktop on your computer - under My flows -
+  install button
+- Install an extension on your preferred browser and run it
 
 ### Demo: Create a Power Automate Desktop Flow
 
@@ -350,15 +349,14 @@ Benefits:
   - Go back into designer to see auto generated steps
     - You can edit the recorded steps like text input
 
-1.  Define Input and Output Parameters
+#### Define Input and Output Parameters
 
-    - In variables, add input variables "Amount", "Contact Email",
-      "Account"
-    - In the auto generated steps from before, set up inputs in the
-      relevant steps
-    - Add output variable "InvoiceID"
-    - Add step "Get details of UI element", using tracker, select the
-      element to read
+- In variables, add input variables "Amount", "Contact Email", "Account"
+- In the auto generated steps from before, set up inputs in the relevant
+  steps
+- Add output variable "InvoiceID"
+- Add step "Get details of UI element", using tracker, select the
+  element to read
 
 ### Optimize Business Process with Process Advisor
 
@@ -368,25 +366,23 @@ Benefits:
   - You need access and license and must see "Process Advisor" in the
     Power Automate menu, otherwise contact your admin
 
-1.  Demo: Using Process Advisor
+#### Demo: Using Process Advisor
 
-    - Access <https://make.powerautomate.com/>
-    - Use Process advisor menu item
-    - Create a new process
-      - Add a recording, using Power Automate Desktop
-      - Record the business process you go through
-    - View the process that was just recorded on the Process Advisor
-      page
-    - Wait for it to be processed
-    - Add activities using "Add activity" that describe steps of the
-      process
-    - Note each step has a screenshot, the screenshot can be deleted if
-      needed without impacting the automation
-    - Save the process, wait for it to be ready to analyzed, when ready,
-      click "Analyze" in the process advisor
-    - See the analysis of the process using "Analytics", shows:
-      - Steps and how long they take
-      - Variations and information across different recordings
-      - Data can be filtered by variation
-      - Data like application(s) used, time spent in applications
-      - Advisor will make recommendations
+- Access <https://make.powerautomate.com/>
+- Use Process advisor menu item
+- Create a new process
+  - Add a recording, using Power Automate Desktop
+  - Record the business process you go through
+- View the process that was just recorded on the Process Advisor page
+- Wait for it to be processed
+- Add activities using "Add activity" that describe steps of the process
+- Note each step has a screenshot, the screenshot can be deleted if
+  needed without impacting the automation
+- Save the process, wait for it to be ready to analyzed, when ready,
+  click "Analyze" in the process advisor
+- See the analysis of the process using "Analytics", shows:
+  - Steps and how long they take
+  - Variations and information across different recordings
+  - Data can be filtered by variation
+  - Data like application(s) used, time spent in applications
+  - Advisor will make recommendations

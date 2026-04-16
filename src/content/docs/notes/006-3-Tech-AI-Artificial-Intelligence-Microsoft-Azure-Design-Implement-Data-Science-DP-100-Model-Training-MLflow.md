@@ -60,32 +60,31 @@ job and there are different methods:
   optimization algorithm, which tries to select parameter combinations
   that will result in improved performance from the previous selection.
 
-1.  Termination policies to Stop Trials
+#### Termination policies to Stop Trials
 
-    Termination policies are set to stop a trial based on metrics. An
-    early termination policy may depend on the search space and sampling
-    method.
+Termination policies are set to stop a trial based on metrics. An early
+termination policy may depend on the search space and sampling method.
 
-    There are two main parameters when you choose to use an early
-    termination policy:
+There are two main parameters when you choose to use an early
+termination policy:
 
-    - `evaluation_interval`: Specifies at which interval you want the
-      policy to be evaluated. Every time the primary metric is logged
-      for a trial counts as an interval.
-    - `delay_evaluation`: Specifies when to start evaluating the policy.
-      This parameter allows for at least a minimum of trials to complete
-      without an early termination policy affecting them.
+- `evaluation_interval`: Specifies at which interval you want the policy
+  to be evaluated. Every time the primary metric is logged for a trial
+  counts as an interval.
+- `delay_evaluation`: Specifies when to start evaluating the policy.
+  This parameter allows for at least a minimum of trials to complete
+  without an early termination policy affecting them.
 
-    Policies:
+Policies:
 
-    - Bandit policy: stop a trial if the target performance metric
-      underperforms the best trial so far by a specified margin.
-    - Median stopping policy: abandons trials where the target
-      performance metric is worse than the median of the running
-      averages for all trials.
-    - Truncation selection policy: cancels the lowest performing X% of
-      trials at each evaluation interval based on the
-      truncation<sub>percentage</sub> value you specify for X.
+- Bandit policy: stop a trial if the target performance metric
+  underperforms the best trial so far by a specified margin.
+- Median stopping policy: abandons trials where the target performance
+  metric is worse than the median of the running averages for all
+  trials.
+- Truncation selection policy: cancels the lowest performing X% of
+  trials at each evaluation interval based on the
+  truncation<sub>percentage</sub> value you specify for X.
 
 ### Compute management
 

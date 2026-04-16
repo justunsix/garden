@@ -136,15 +136,6 @@ git commit -m "Updated submodule to latest main branch"
 # Submodules - clone, initialize all submodules and update each submodule in the repository
 git clone --recurse-submodules https://github.com/chaconinc/MainProject
 
-# Example workflow with these branches:
-# - main / master
-# - pull request review
-# - feature development
-git clone myrepo.git # main
-cd myrepo
-git worktree add ../myrepo-feature feature_branch
-git worktree add ../myrepo-pr pull_request_numbered_branch
-
 # Get only one commit or range of commits for a branch
 git cherry-pick <commit-hash>
 ## Get range or commits
@@ -224,23 +215,26 @@ git rebase --contiue
 ``` shell
 
 #1: Create a folder for this project on your local hard drive
-$ mkdir my-project
+mkdir my-project
 
 #2: change into this folder
-$ cd my-project
+cd my-project
 
 #3: initialize a new, empty Git repository here
-$ git init
+git init
 
-...after having written some code + created some files...
+# after having written some code + created some files
 #4: add all changes to the next (= first) commit
-$ git add .
+git add .
 
 #5: create this first commit
-$ git commit -m "Initial commit"
+git commit -m "Initial commit"
 
 # git command and add files
 git commit -am"message"
+
+# Add all todo.txt files
+git add *todo*.txt
 
 ```
 
@@ -317,7 +311,10 @@ git mergetool
 ## Worktrees - git worktree
 
 Git worktrees help with manage multiple working trees and it is easier
-to keep track of separate branches.
+to keep track of separate branches. See [Worktrunk
+Snippets](/garden/notes/005-computer-snippets-worktrunk) - [Worktrunk
+Snippets](id:85f7620e-184b-4c79-8157-d1146f0fbfbd) for command to
+simplify management of worktrees.
 
 They are like managing a git branch as a separate directory or manually
 git cloning a repository to a separate directory and changing the
@@ -334,6 +331,15 @@ git worktree add ../myrepo-newfeature new-feature
 # Create new worktree with existing branch main
 git worktree add ../repo-main main
 
+# Example workflow with these branches:
+# - main
+# - pull request review
+# - feature development
+git clone myrepo.git # main
+cd myrepo
+git worktree add ../myrepo-feature feature_branch
+git worktree add ../myrepo-pr pull_request_numbered_branch
+
 # If you want to make experimental changes or do testing without disturbing development,
 # it is often convenient to create a throwaway worktree not associated with any branch.
 # Creates a new worktree with a detached HEAD at the same commit as the current branch example
@@ -344,6 +350,11 @@ git worktree list
 
 # Remove a worktree
 git worktree remove worktree-name
+
+# Merge a worktree changes to main branch
+git checkout main
+git merge worktree-branch
+git worktree remove worktree-branch
 
 ```
 
@@ -462,52 +473,51 @@ Host github.com
 
 ```
 
-1.  Option is using host aliases for multiple identity
+#### Option is using host aliases for multiple identity
 
-    ``` shell
+``` shell
 
-    # ~/.ssh/config
+# ~/.ssh/config
 
-    # Personal GitHub account
-    Host github-personal
-      HostName github.com
-      User git
-      IdentityFile ~/.ssh/personal_key
-      IdentitiesOnly yes
-      AddKeysToAgent yes # Optional: Add key to agent on first use
+# Personal GitHub account
+Host github-personal
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/personal_key
+  IdentitiesOnly yes
+  AddKeysToAgent yes # Optional: Add key to agent on first use
 
-    # Work GitHub account
-    Host github-work
-      HostName github.com
-      User git
-      IdentityFile ~/.ssh/work_key
-      IdentitiesOnly yes
+# Work GitHub account
+Host github-work
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/work_key
+  IdentitiesOnly yes
 
-    # Then use on command line like:
-    # Clone using the 'github-work' alias and associated key
-    git clone git@github-work:MyCompany/ProjectRepo.git
+# Then use on command line like:
+# Clone using the 'github-work' alias and associated key
+git clone git@github-work:MyCompany/ProjectRepo.git
 
-    # Or, update an existing remote's URL
-    git remote set-url origin git@github-work:MyCompany/ProjectRepo.git
+# Or, update an existing remote's URL
+git remote set-url origin git@github-work:MyCompany/ProjectRepo.git
 
-    ```
+```
 
-2.  Explanation of configuration
+#### Explanation of configuration
 
-    - Host: The alias or pattern to match for where git repository is at
-    - HostName: Real hostname or IP address to connect to.
-    - User: The remote username (`git` is used for services like
-      GitHub/GitLab)
-    - IdentityFile: The path to the specific private key file to use
-    - IdentitiesOnly yes: Tells SSH to try the key specified in
-      IdentityFile and keys in the agent, preventing it from trying
-      default key files (like \`~/.ssh/id<sub>rsa</sub>\`) which could
-      be the wrong identity.
-    - AddKeysToAgent yes: If the key has a passphrase, this attempts to
-      add it to a running SSH agent after the first successful
-      authentication, avoiding repeated passphrase prompts.
-    - Permissions: Ensure your `~/.ssh/config file` permissions are
-      restricted only to your user with `chmod 600 ~/.ssh/config`
+- Host: The alias or pattern to match for where git repository is at
+- HostName: Real hostname or IP address to connect to.
+- User: The remote username (`git` is used for services like
+  GitHub/GitLab)
+- IdentityFile: The path to the specific private key file to use
+- IdentitiesOnly yes: Tells SSH to try the key specified in IdentityFile
+  and keys in the agent, preventing it from trying default key files
+  (like \`~/.ssh/id<sub>rsa</sub>\`) which could be the wrong identity.
+- AddKeysToAgent yes: If the key has a passphrase, this attempts to add
+  it to a running SSH agent after the first successful authentication,
+  avoiding repeated passphrase prompts.
+- Permissions: Ensure your `~/.ssh/config file` permissions are
+  restricted only to your user with `chmod 600 ~/.ssh/config`
 
 ### Option: Using the GIT<sub>SSHCOMMAND</sub> Environment Variable, Session Based Change
 
@@ -546,46 +556,45 @@ This option is available in Git 2.10.0 and later. It is like setting the
 GIT<sub>SSHCOMMAND</sub> in the git configuration for a repository or
 globally.
 
-1.  Per-Repository Configuration
+#### Per-Repository Configuration
 
-    ``` shell
+``` shell
 
-    cd /path/to/your/repo
-    git config core.sshCommand 'ssh -i /path/to/private_key -o IdentitiesOnly=yes'
-    # git commands in this repo use the specified key
+cd /path/to/your/repo
+git config core.sshCommand 'ssh -i /path/to/private_key -o IdentitiesOnly=yes'
+# git commands in this repo use the specified key
 
-    ```
+```
 
-    This adds the setting to the repository’s .git/config file.
+This adds the setting to the repository’s .git/config file.
 
-2.  Configuration During Clone
+#### Configuration During Clone
 
-    You can set the configuration temporarily for the \`clone\` command
-    using the \`-c\` flag, and then optionally make it permanent within
-    the newly cloned repository:
+You can set the configuration temporarily for the \`clone\` command
+using the \`-c\` flag, and then optionally make it permanent within the
+newly cloned repository:
 
-    ``` shell
+``` shell
 
-    # Clone using the specified key
-    git clone -c core.sshCommand="ssh -i /path/to/private_key -o IdentitiesOnly=yes" user@host:repo.git new-repo-dir
+# Clone using the specified key
+git clone -c core.sshCommand="ssh -i /path/to/private_key -o IdentitiesOnly=yes" user@host:repo.git new-repo-dir
 
-    # Optionally, make it permanent for this repo
-    cd new-repo-dir
-    git config core.sshCommand 'ssh -i /path/to/private_key -o IdentitiesOnly=yes'
+# Optionally, make it permanent for this repo
+cd new-repo-dir
+git config core.sshCommand 'ssh -i /path/to/private_key -o IdentitiesOnly=yes'
 
-    # Cloning and setting the core.sshCommand configuration permanently in one command
-    git clone -c "core.sshCommand=ssh -i /path/to/private_key -o IdentitiesOnly=yes" user@host:repo.git
+# Cloning and setting the core.sshCommand configuration permanently in one command
+git clone -c "core.sshCommand=ssh -i /path/to/private_key -o IdentitiesOnly=yes" user@host:repo.git
 
-    ```
+```
 
-3.  Ignoring User SSH Config
+#### Ignoring User SSH Config
 
-    Sometimes, you might want Git to use the specified command and key
-    while completely ignoring the user’s \`~/.ssh/config\`. The \`-F
-    /dev/null\` option (or equivalent on non-Unix systems) can achieve
-    this:
+Sometimes, you might want Git to use the specified command and key while
+completely ignoring the user’s \`~/.ssh/config\`. The \`-F /dev/null\`
+option (or equivalent on non-Unix systems) can achieve this:
 
-    `git config core.sshCommand "ssh -i /path/to/private_key -F /dev/null -o IdentitiesOnly=yes"`
+`git config core.sshCommand "ssh -i /path/to/private_key -F /dev/null -o IdentitiesOnly=yes"`
 
 ## Only checkout or clone specific files - git sparse-checkout
 
@@ -620,7 +629,7 @@ git clone --depth 1 --filter=blob:none <repository-url>
 git sparse-checkout init
 # Set sparse-checkout pattern
 git sparse-checkout set directory/i/want
-# or with cone
+# or with --cone
 git sparse-checkout set --cone file1.ext file2.ext dir1 sub/dir2
 git checkout branch_name
 

@@ -61,31 +61,30 @@ YouTube](https://www.youtube.com/watch?v=aMq5aTKUFQc)
   product of your being
 - Highest version of yourself = person that has everything you desire
 
-1.  Journaling
+#### Journaling
 
-    - Reflect on your patterns, what you want and become
+- Reflect on your patterns, what you want and become
 
-    Questions to ask yourself to help with journaling:
+Questions to ask yourself to help with journaling:
 
-    - What am I manifesting into my life right now?
-    - What would the highest version of myself do every morning? What is
-      their routine?
-    - What habits would I stop doing? What makes me feel negative? What
-      makes me feel positive?
-    - How would the highest version of myself think, feel & act?
-    - How can \| embody these thoughts, feelings, actions & habits now?
-    - Is there anything holding me back?
-    - If so, how would the highest version of myself handle this
-      situation?
-    - How did this week go? What went well? What do I want to change?
-    - How can I embody my highest self throughout the upcoming week?
+- What am I manifesting into my life right now?
+- What would the highest version of myself do every morning? What is
+  their routine?
+- What habits would I stop doing? What makes me feel negative? What
+  makes me feel positive?
+- How would the highest version of myself think, feel & act?
+- How can \| embody these thoughts, feelings, actions & habits now?
+- Is there anything holding me back?
+- If so, how would the highest version of myself handle this situation?
+- How did this week go? What went well? What do I want to change?
+- How can I embody my highest self throughout the upcoming week?
 
-2.  Meditation
+#### Meditation
 
-    - Meditate and visualize yourself in that desired reality until you
-      are that to go through your day
+- Meditate and visualize yourself in that desired reality until you are
+  that to go through your day
 
-3.  Self Care
+#### Self Care
 
-    - Food
-    - Body care, self looks
+- Food
+- Body care, self looks

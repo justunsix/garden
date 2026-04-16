@@ -21,6 +21,8 @@ cd -
 cd .. # or ..
 # Go up two levels
 cd ... # or ...
+# Got up 3 level
+cd .... # or ....
 
 # Move file
 mv
@@ -246,6 +248,9 @@ let secret = input -s
 
 # Run background job
 job spawn { nautilus }
+# Run background and tag a description for seeing in job list
+job spawn -t files { nautilus }
+
 # List jobs
 job list
 # Stop job
@@ -388,7 +393,7 @@ def fkill [
 
 ``` nu
 
-# Python - activate virtual environment with overlay use
+# Python overlay use to activate virtual environment
 overlay use .venv/bin/activate.nu
 
 ```

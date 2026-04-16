@@ -398,74 +398,74 @@ prevents Emacs from reusing the selected window if it’s a vterm window
 - Recommend customize `tab-bar-format` and change so you show formatted
   groups
 
-1.  Grouping Buffers into a named tab
+#### Grouping Buffers into a named tab
 
-    1.  Tab for just org files
+1.  Tab for just org files
 
-        ``` elisp
+    ``` elisp
 
-        (add-to-list 'display-buffer-alist
-                  `(,(make-display-buffer-matcher-function '(org-mode org-agenda-mode))
-                    (display-buffer-in-tab display-buffer-in-direction)
-                    (ignore-current-tab . t)
-                    (direction . bottom)
-                    (window-height . .2)
-                    (tab-name . "🚀 My ORG Mode Files")
-                    ;; Optional
-                    (tab-group . "Org")))
+    (add-to-list 'display-buffer-alist
+              `(,(make-display-buffer-matcher-function '(org-mode org-agenda-mode))
+                (display-buffer-in-tab display-buffer-in-direction)
+                (ignore-current-tab . t)
+                (direction . bottom)
+                (window-height . .2)
+                (tab-name . "🚀 My ORG Mode Files")
+                ;; Optional
+                (tab-group . "Org")))
 
-        ```
+    ```
 
-        - A tab called 🚀 My Org Mode Files. If the tab does not exist,
-          it is first created.
-        - If you leave out tab-name Emacs will instead auto-generate it.
-          That’ll generate lots of new tabs
-        - The tab-group Org is also set up if it does not exist. The
-          group is optional and is not a requirement.
-        - If the buffer Emacs is displaying is already visible in a
-          window in that tab bar, then Emacs stops the search. However,
-          if it is not, Emacs will continue with the search and apply
-          display-buffer-in-direction in that tab.
-        - The new window is given a height of 20%.
+    - A tab called 🚀 My Org Mode Files. If the tab does not exist, it
+      is first created.
+    - If you leave out tab-name Emacs will instead auto-generate it.
+      That’ll generate lots of new tabs
+    - The tab-group Org is also set up if it does not exist. The group
+      is optional and is not a requirement.
+    - If the buffer Emacs is displaying is already visible in a window
+      in that tab bar, then Emacs stops the search. However, if it is
+      not, Emacs will continue with the search and apply
+      display-buffer-in-direction in that tab.
+    - The new window is given a height of 20%.
 
-    2.  Tabs for Projects
+2.  Tabs for Projects
 
-        - Tab group for each project – as defined by `C-x p p` and
-          Emacs’s project management implementation and with each buffer
-          getting its own tab. Buffers without projects are ignored.
-        - Requires changes to work for your workflow
+    - Tab group for each project – as defined by `C-x p p` and Emacs’s
+      project management implementation and with each buffer getting its
+      own tab. Buffers without projects are ignored.
+    - Requires changes to work for your workflow
 
-        ``` elisp
+    ``` elisp
 
-        (defun mp-buffer-has-project-p (buffer action)
-          (with-current-buffer buffer (project-current nil)))
+    (defun mp-buffer-has-project-p (buffer action)
+      (with-current-buffer buffer (project-current nil)))
 
-        (defun mp-tab-group-name (buffer alist)
-          (with-current-buffer buffer (concat "🗃 " (or (cdr (project-current nil)) "🛡 Ungrouped"))))
+    (defun mp-tab-group-name (buffer alist)
+      (with-current-buffer buffer (concat "🗃 " (or (cdr (project-current nil)) "🛡 Ungrouped"))))
 
-        (defun mp-tab-tab-name (buffer alist)
-          (with-current-buffer buffer
-            (buffer-name)))
+    (defun mp-tab-tab-name (buffer alist)
+      (with-current-buffer buffer
+        (buffer-name)))
 
-        (add-to-list 'display-buffer-alist
-                     '(mp-buffer-has-project-p
-                       (display-buffer-in-tab display-buffer-reuse-window)
-                       (tab-name . mp-tab-tab-name)
-                       (tab-group . mp-tab-group-name)))
+    (add-to-list 'display-buffer-alist
+                 '(mp-buffer-has-project-p
+                   (display-buffer-in-tab display-buffer-reuse-window)
+                   (tab-name . mp-tab-tab-name)
+                   (tab-group . mp-tab-group-name)))
 
-        ;;; OPTIONAL, but probably required for everything to work 100%
-        (defun tab-bar-tabs-set (tabs &optional frame)
-          "Set a list of TABS on the FRAME."
-          (set-frame-parameter frame 'tabs (seq-sort-by (lambda (el) (alist-get 'group el nil))
-                                                        #'string-lessp
-                                                        tabs)))
+    ;;; OPTIONAL, but probably required for everything to work 100%
+    (defun tab-bar-tabs-set (tabs &optional frame)
+      "Set a list of TABS on the FRAME."
+      (set-frame-parameter frame 'tabs (seq-sort-by (lambda (el) (alist-get 'group el nil))
+                                                    #'string-lessp
+                                                    tabs)))
 
-        (defun mp-reload-tab-bars (&optional dummy)
-          "Reload the tab bars... because they're buggy."
-          (interactive)
-          (tab-bar-tabs-set (frame-parameter nil 'tabs)))
+    (defun mp-reload-tab-bars (&optional dummy)
+      "Reload the tab bars... because they're buggy."
+      (interactive)
+      (tab-bar-tabs-set (frame-parameter nil 'tabs)))
 
-        (add-hook 'kill-buffer-hook #'mp-reload-tab-bars)
-        (add-hook 'window-selection-change-functions #'mp-reload-tab-bars)
+    (add-hook 'kill-buffer-hook #'mp-reload-tab-bars)
+    (add-hook 'window-selection-change-functions #'mp-reload-tab-bars)
 
-        ```
+    ```

@@ -54,12 +54,12 @@ kit and family plan.
 Tips: water (2L / person /day, e.g. 6 L for 72 hours / person), extra
 clothes, Bottled water replaced every 6 months
 
-1.  Extra in Evacuation
+#### Extra in Evacuation
 
-    - Blankets or sleeping bags
-    - Clothes, shoes
-    - Personal: soap, toothpaste, shampoo, toiletries
-    - Games, activities for others and children
+- Blankets or sleeping bags
+- Clothes, shoes
+- Personal: soap, toothpaste, shampoo, toiletries
+- Games, activities for others and children
 
 ## Preparedness Example Kits
 

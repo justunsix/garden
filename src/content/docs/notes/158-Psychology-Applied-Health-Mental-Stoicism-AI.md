@@ -4,7 +4,7 @@ id: 4e3d5808-d482-44a1-903e-471c845d7e84
 title: Stoicism and Artificial Intelligence (AI)
 ---
 
-# Inspiration
+## Inspiration
 
 Inspired by this post [Marcus Aurelius AI Bot on
 Happiness](https://www.reddit.com/r/Stoicism/comments/vq7uh8/marcus_aurelius_ai_bot_on_happiness/)
@@ -12,7 +12,7 @@ Happiness](https://www.reddit.com/r/Stoicism/comments/vq7uh8/marcus_aurelius_ai_
 Collection of Marcus Aurelius's quotations and asking GitHub Co-pilot
 questions on it.
 
-# Quotations
+## Quotations
 
 "You have power over your mind - not outside events. Realize this, and
 you will find strength." ― Marcus Aurelius, Meditations tags: ataraxy,
@@ -112,7 +112,7 @@ look to see what his neighbour says or does or thinks, but only at what
 he does himself, to make it just and holy." ― Marcus Aurelius,
 Meditations
 
-## Questions
+### Questions
 
 Based on the text above, what was Marcus Aurelius' attitude towards
 life? A) Open-mindedness B) Self-confidence C) Self-contentment D)
@@ -122,7 +122,7 @@ Based on the text above, what was Marcus Aurelius' attitude toward daily
 routines? A) Goodness B) Integrity C) Morality D) Moral-duty E)
 Open-mindedness F) Self-confidence
 
-## Translations
+### Translations
 
 > en: The happiness of your life depends upon the quality of your
 > thoughts. fr: La bonne humeur de votre vie dépend de la qualité de vos

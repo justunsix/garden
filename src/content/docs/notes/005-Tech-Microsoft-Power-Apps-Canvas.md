@@ -66,69 +66,68 @@ The following are the most common elements.
   plan](https://powerapps.microsoft.com/en-gb/developerplan/) which
   allows exploration in your own environment
 
-1.  Use case
+#### Use case
 
-    - Excel workbook has a table of buildings owned by Contoso
-      Manufacturing
-    - Today, the workbook is emailed to different people as they travel
-      to make updates to locations
-    - App will allow uses to see buildings in their phone and edit
-      information and add new buildings
+- Excel workbook has a table of buildings owned by Contoso Manufacturing
+- Today, the workbook is emailed to different people as they travel to
+  make updates to locations
+- App will allow uses to see buildings in their phone and edit
+  information and add new buildings
 
-2.  Development Approach
+#### Development Approach
 
-    - Identify a business need that fits with a Power App
-    - Connect data to Power Platform
-    - Design app interface to allow users to interact with data
-    - Save and publish the app and test
-    - Share app with users to improve business process
+- Identify a business need that fits with a Power App
+- Connect data to Power Platform
+- Design app interface to allow users to interact with data
+- Save and publish the app and test
+- Share app with users to improve business process
 
-3.  Connect to a Data Source
+#### Connect to a Data Source
 
-    - Get and see [Build a canvas app - Training \| Microsoft
-      Learn](https://learn.microsoft.com/en-us/training/modules/build-app-solution/3-build-canvas-app)
-      for lab files
+- Get and see [Build a canvas app - Training \| Microsoft
+  Learn](https://learn.microsoft.com/en-us/training/modules/build-app-solution/3-build-canvas-app)
+  for lab files
 
-    - Sign into <https://make.powerapps.com/>
+- Sign into <https://make.powerapps.com/>
 
-    - Select Create
+- Select Create
 
-    - Start from data section \> Excel
+- Start from data section \> Excel
 
-    - Connections \> OneDrive for Business
+- Connections \> OneDrive for Business
 
-    - Choose an Excel file \> `Contoso Site Tracking.xlsx`
+- Choose an Excel file \> `Contoso Site Tracking.xlsx`
 
-    - Chose a table \> SiteInspector
+- Chose a table \> SiteInspector
 
-    - Click Connect
+- Click Connect
 
-    - For my Power App, I manually:
+- For my Power App, I manually:
 
-      - Create a new table in Dataverse mapping to the existing Excel
-        table fields
-      - Imported the Excel data into the Dataverse table
-      - Followed the steps in the connection, except connected to the
-        Dataverse table
-      - If you get errors like "LocalStorage is being blocked" or an
-        "unexpected error occurred", turn off the browser's strict
-        tracking settings like in Firefox or Edge. That will enable
-        logins to sign into the browser for files
+  - Create a new table in Dataverse mapping to the existing Excel table
+    fields
+  - Imported the Excel data into the Dataverse table
+  - Followed the steps in the connection, except connected to the
+    Dataverse table
+  - If you get errors like "LocalStorage is being blocked" or an
+    "unexpected error occurred", turn off the browser's strict tracking
+    settings like in Firefox or Edge. That will enable logins to sign
+    into the browser for files
 
-    - Explore the browse (gallery), detail, and edit screens
+- Explore the browse (gallery), detail, and edit screens
 
-    - Can submit form using a button and `OnSelect` with [Power
-      fx](https://github.com/microsoft/Power-Fx/tree/main)
-      `SubmitForm(DetailForm)`
+- Can submit form using a button and `OnSelect` with [Power
+  fx](https://github.com/microsoft/Power-Fx/tree/main)
+  `SubmitForm(DetailForm)`
 
-    - Look at different page templates
+- Look at different page templates
 
-    - Play the app and run the app in the edit screen using `alt` key to
-      navigate it
+- Play the app and run the app in the edit screen using `alt` key to
+  navigate it
 
-    - Configuration displayed items on gallery, detail, and edit
-      components using `Fields > Edit` in the component like
-      `Detail Form > Fields > Edit fields`
+- Configuration displayed items on gallery, detail, and edit components
+  using `Fields > Edit` in the component like
+  `Detail Form > Fields > Edit fields`
 
 ### Get started with functions in Power Apps
 
@@ -174,22 +173,21 @@ Learn](https://learn.microsoft.com/en-us/training/paths/use-basic-formulas-power
 - Sharing allows other users to use the app and provide feedback to you
   as a creator
 
-1.  Prepare to Share
+#### Prepare to Share
 
-    - Save the app
-    - Use the Share tab and specific users and groups. Use
-      `Everyone in <Company Name>` to share with everyone
-      - Best practice when sharing with groups of people is to use an
-        AAD security group
-      - Permissions
-        - `co-owner` to give others edit permissions
-        - `user` can view and use the app, but not change it
-        - All users in a security group get the same permissions from
-          that group. Additional permissions can be granted to
-          individual userss.
-      - Users can be notified by email
-    - Click share
-    - Create a notification plan to users of updates
+- Save the app
+- Use the Share tab and specific users and groups. Use
+  `Everyone in <Company Name>` to share with everyone
+  - Best practice when sharing with groups of people is to use an AAD
+    security group
+  - Permissions
+    - `co-owner` to give others edit permissions
+    - `user` can view and use the app, but not change it
+    - All users in a security group get the same permissions from that
+      group. Additional permissions can be granted to individual userss.
+  - Users can be notified by email
+- Click share
+- Create a notification plan to users of updates
 
 ## Modern Controls
 

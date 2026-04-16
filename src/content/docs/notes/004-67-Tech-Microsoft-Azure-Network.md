@@ -58,32 +58,32 @@ title: Microsoft Azure Network
 From [Azure Virtual Network - Concepts and best practices \| Microsoft
 Learn](https://learn.microsoft.com/en-us/azure/virtual-network/concepts-and-best-practices)
 
-1.  Concepts
+#### Concepts
 
-    - Address space: Needed when creating VNet with a custom private IP
-      address using public and private addresses
-      - Example: Create VNet with address space `10.0.0.0/16` and VM can
-        be given IP `10.0.0.4`
-        - Per [Classless Inter-Domain Routing -
-          Wikipedia](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing),
-          this address space is `10.0.0.0` to `10.0.255.255` with
-          2<sup>16</sup> addresses
-    - Subnets: Allow to segment the VNet into sub-networks and deploy
-      resources in subnets.
-      - Subnets can be secured with network security groups
-    - Regions: A VNet is scoped to a single region. Multiple VNets from
-      different regions can be connected using Virtual Network Peering
-    - Subscription: A VNet is scoped to a single subscription. Multiple
-      VNets can be within a subscription.
+- Address space: Needed when creating VNet with a custom private IP
+  address using public and private addresses
+  - Example: Create VNet with address space `10.0.0.0/16` and VM can be
+    given IP `10.0.0.4`
+    - Per [Classless Inter-Domain Routing -
+      Wikipedia](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing),
+      this address space is `10.0.0.0` to `10.0.255.255` with
+      2<sup>16</sup> addresses
+- Subnets: Allow to segment the VNet into sub-networks and deploy
+  resources in subnets.
+  - Subnets can be secured with network security groups
+- Regions: A VNet is scoped to a single region. Multiple VNets from
+  different regions can be connected using Virtual Network Peering
+- Subscription: A VNet is scoped to a single subscription. Multiple
+  VNets can be within a subscription.
 
-2.  Best Practices
+#### Best Practices
 
-    - Check the VNet address space (CIDR block) does not overlap with
-      your organization's other network ranges.
-    - Subnets should only cover part of the VNet to reserve future space
-    - Recommendation is having fewer large VNets rather than many small
-      ones to reduce administration.
-    - Secure VNets with network security groups (NSG) to subnets.
+- Check the VNet address space (CIDR block) does not overlap with your
+  organization's other network ranges.
+- Subnets should only cover part of the VNet to reserve future space
+- Recommendation is having fewer large VNets rather than many small ones
+  to reduce administration.
+- Secure VNets with network security groups (NSG) to subnets.
 
 ## See Also
 

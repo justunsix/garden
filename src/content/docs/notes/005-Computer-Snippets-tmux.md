@@ -15,6 +15,9 @@ tmux new
 # List active sessions
 tmux ls
 
+# Kill, stop all sessions
+tmux kill-session -a
+
 # Attach to session, attaches to most recent one
 tmux attach
 

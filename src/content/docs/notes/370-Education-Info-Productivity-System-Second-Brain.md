@@ -104,157 +104,155 @@ Org Roam has its own capture templates for new notes. It is a separate
 capture system from org capture. During node creation, org roam can
 prompt you to select your own custom capture templates.
 
-1.  Default Org-Roam Capture Template
+#### Default Org-Roam Capture Template
 
-    To build custom templates, we will set the
-    `org-roam-capture-templates` variable which will overwrite the
-    default, so the default one needs to be copied over. The default is:
+To build custom templates, we will set the `org-roam-capture-templates`
+variable which will overwrite the default, so the default one needs to
+be copied over. The default is:
 
-    ``` elisp
+``` elisp
 
-    '(("d" "default" plain
-     "%?"
-     :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n")
-     :unnarrowed t))
+'(("d" "default" plain
+ "%?"
+ :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n")
+ :unnarrowed t))
 
-    ```
+```
 
-    - "d" is the key to trigger the template
-    - "default" is the name of the template
-    - "plain" is the type of text to insert, others with subheadings in
-      notes are available, plain is most common
-    - "%?" is the actual text being inserted, from org mode
-    - ":if-new …" is the file name and the header - recommend not
-      changing to allow unique note names, title of document is set
-      based on title you give
-    - ":unnarrowed t" org setting so full file is visible on creation
+- "d" is the key to trigger the template
+- "default" is the name of the template
+- "plain" is the type of text to insert, others with subheadings in
+  notes are available, plain is most common
+- "%?" is the actual text being inserted, from org mode
+- ":if-new …" is the file name and the header - recommend not changing
+  to allow unique note names, title of document is set based on title
+  you give
+- ":unnarrowed t" org setting so full file is visible on creation
 
-    Opportunities to Configure:
+Opportunities to Configure:
 
-    - File name
-    - Text to insert in note
-      - Prompt yourself to fill in information
+- File name
+- Text to insert in note
+  - Prompt yourself to fill in information
 
-    [Org Roam Manual: The Templating
-    System](https://www.mdroam.com/manual.html#The-Templating-System)
+[Org Roam Manual: The Templating
+System](https://www.mdroam.com/manual.html#The-Templating-System)
 
-2.  Topic Specific Template
+#### Topic Specific Template
 
-    Example, new template on programming languages
+Example, new template on programming languages
 
-    ``` elisp
+``` elisp
 
-    ("l" "programming language" plain
-     "* Characteristics\n\n- Family: %?\n- Inspired by: \n\n* Reference:\n\n"
-     :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n")
-     :unnarrowed t)
+("l" "programming language" plain
+ "* Characteristics\n\n- Family: %?\n- Inspired by: \n\n* Reference:\n\n"
+ :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n")
+ :unnarrowed t)
 
-    ```
+```
 
-    - "\* Characteristics" is the first heading
-    - "- Family: …" bullet points to insert initially
-    - "%?" where cursor will start
-    - "if-new…" unchanged from default template
+- "\* Characteristics" is the first heading
+- "- Family: …" bullet points to insert initially
+- "%?" where cursor will start
+- "if-new…" unchanged from default template
 
-    Try it out with `org-roam-node-insert` and it will ask you for the
-    template to use. Fill out note, then `C-c C-c` to save.
+Try it out with `org-roam-node-insert` and it will ask you for the
+template to use. Fill out note, then `C-c C-c` to save.
 
-3.  Creating a literature reference template
+#### Creating a literature reference template
 
-    Notes for books, articles, etc.
+Notes for books, articles, etc.
 
-    ``` elisp
+``` elisp
 
-    ("b" "book notes" plain
-     "\n* Source\n\nAuthor: %^{Author}\nTitle: ${title}\nYear: %^{Year}\n\n* Summary\n\n%?"
-     :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n")
-     :unnarrowed t)
+("b" "book notes" plain
+ "\n* Source\n\nAuthor: %^{Author}\nTitle: ${title}\nYear: %^{Year}\n\n* Summary\n\n%?"
+ :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n")
+ :unnarrowed t)
 
-    ```
+```
 
-    - "%<sup>Author</sup>" is a prompt to fill in author
-    - "%<sup>Year</sup>" is a prompt to fill in year
-    - "\${title} insert title of new note as literature name
-    - "\* Summary" first heading of note
+- "%<sup>Author</sup>" is a prompt to fill in author
+- "%<sup>Year</sup>" is a prompt to fill in year
+- "\${title} insert title of new note as literature name
+- "\* Summary" first heading of note
 
-    [Org Mode Manual: Template
-    Expansion](https:/.mdmode.md/manual/Template-expansion.html#Template-expansion)
+[Org Mode Manual: Template
+Expansion](https:/.mdmode.md/manual/Template-expansion.html#Template-expansion)
 
-4.  Project template
+#### Project template
 
-    ``` elisp
+``` elisp
 
-    ("p" "project" plain "* Goals\n\n%?\n\n* Tasks\n\n** TODO Add initial tasks\n\n* Dates\n\n"
-     :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n#+filetags: Project")
-     :unnarrowed t)
+("p" "project" plain "* Goals\n\n%?\n\n* Tasks\n\n** TODO Add initial tasks\n\n* Dates\n\n"
+ :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n#+filetags: Project")
+ :unnarrowed t)
 
-    ```
+```
 
-    - Entries for name, status, dates, tasks (with org TODO), references
-    - Notice in `if-new` has a `filetags:` section and file is tagged as
-      project
-      - Later you can use org-roam database to query project files like
-        to use with org-agenda
-      - Using selectrum/vertico with marginalia, can see tags in file
-        list
+- Entries for name, status, dates, tasks (with org TODO), references
+- Notice in `if-new` has a `filetags:` section and file is tagged as
+  project
+  - Later you can use org-roam database to query project files like to
+    use with org-agenda
+  - Using selectrum/vertico with marginalia, can see tags in file list
 
-5.  Store Templates in Org Files
+#### Store Templates in Org Files
 
-    Instead of editing in elisp, can store the templates in org files
+Instead of editing in elisp, can store the templates in org files
 
-    - Create a new node after the name of your template, like
-      "Note-Template-Book.org"
+- Create a new node after the name of your template, like
+  "Note-Template-Book.org"
 
-    ``` org
+``` org
 
-    * Source
+* Source
 
-    Author: %^{Author}
-    Title: ${title}
-    Year: %^{Year}
+Author: %^{Author}
+Title: ${title}
+Year: %^{Year}
 
-    * Summary
+* Summary
 
-    %?
+%?
 
-    ```
+```
 
-    - In actual template, remove the , in front of the \*
-    - Save the file and replace the init.el entry like following:
+- In actual template, remove the , in front of the \*
+- Save the file and replace the init.el entry like following:
 
-    ``` elisp
+``` elisp
 
-    (org-roam-capture-templates
-     '(("d" "default" plain
-        "%?"
-        :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n")
-        :unnarrowed t))
-     ("b" "book notes" plain (file "~/RoamNotes/Templates/Note-Template-Book.org")
-      :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n")
-      :unnarrowed t)
-     )
-    ```
+(org-roam-capture-templates
+ '(("d" "default" plain
+    "%?"
+    :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n")
+    :unnarrowed t))
+ ("b" "book notes" plain (file "~/RoamNotes/Templates/Note-Template-Book.org")
+  :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n")
+  :unnarrowed t)
+ )
+```
 
-6.  Customizing the Default Template
+#### Customizing the Default Template
 
-    ``` elisp
+``` elisp
 
-    ("d" "default" plain "%?"
-     :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n#+date: %U\n")
-     :unnarrowed t)
+("d" "default" plain "%?"
+ :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n#+date: %U\n")
+ :unnarrowed t)
 
-    ```
+```
 
-    - "+date: %u" adds a date to meta of note
-    - You can customize the file name, like remove the timestamp, though
-      beware of filename collisions
+- "+date: %u" adds a date to meta of note
+- You can customize the file name, like remove the timestamp, though
+  beware of filename collisions
 
-    See further examples of possible inserts in [Org Mode Manual:
-    Template
-    Expansion](https:/.mdmode.md/manual/Template-expansion.html#Template-expansion)
+See further examples of possible inserts in [Org Mode Manual: Template
+Expansion](https:/.mdmode.md/manual/Template-expansion.html#Template-expansion)
 
-    If you change the template, keep in mind you'll need to update older
-    files using the template to match your new format.
+If you change the template, keep in mind you'll need to update older
+files using the template to match your new format.
 
 ## Org Roam: The Best Way to Keep a Journal in Emacs
 

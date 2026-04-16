@@ -58,36 +58,34 @@ Body and Soul. Alive, 2008. Vegetarian, Vegan foods
 The secret to its sweet creaminess is blending part of the cooked soup
 with raw cashews.
 
-1.  Ingredients
+#### Ingredients
 
-    - 6 cups water
-    - 1.5 cups of chopped leeks or onions
-    - 2 celery stalks with leaves
-    - 3 cups diced potatoes
-    - 4 cups corn (fresh off the cob or frozen)
-    - 1 cup fresh parsley, minced, or 2 Tbs. dried parsley
-    - 1 tsp. dill weed
-    - 1/2 tsp. tarragon
-    - 1/2 cup raw cashews
-    - 1 tsp. sea salt
+- 6 cups water
+- 1.5 cups of chopped leeks or onions
+- 2 celery stalks with leaves
+- 3 cups diced potatoes
+- 4 cups corn (fresh off the cob or frozen)
+- 1 cup fresh parsley, minced, or 2 Tbs. dried parsley
+- 1 tsp. dill weed
+- 1/2 tsp. tarragon
+- 1/2 cup raw cashews
+- 1 tsp. sea salt
 
-    1.  In a large soup pot bring water to boil.
-    2.  Add the leeks or onions, celery, and the potatoes, return to a
-        boil and then turn down heat to simmer until vegetables are
-        soft, about 15 minutes.
-    3.  Add the corn, parsley, and herbs. Continue cooking for 10
-        minutes.
-    4.  Remove approximately 3 cups of this mixture and blend with
-        cashews for approximately 1 minute until very smooth. Make sure
-        there are no cashew pieces left.
-    5.  Add cashew corn milk to remaining soup. Season with salt and
-        pepper.
+1.  In a large soup pot bring water to boil.
+2.  Add the leeks or onions, celery, and the potatoes, return to a boil
+    and then turn down heat to simmer until vegetables are soft, about
+    15 minutes.
+3.  Add the corn, parsley, and herbs. Continue cooking for 10 minutes.
+4.  Remove approximately 3 cups of this mixture and blend with cashews
+    for approximately 1 minute until very smooth. Make sure there are no
+    cashew pieces left.
+5.  Add cashew corn milk to remaining soup. Season with salt and pepper.
 
-    Serves 6
+Serves 6
 
-2.  My modifications
+#### My modifications
 
-    - Add 2 cups of carrots In step 2, add carrots
+- Add 2 cups of carrots In step 2, add carrots
 
 ## Beef Brisket
 

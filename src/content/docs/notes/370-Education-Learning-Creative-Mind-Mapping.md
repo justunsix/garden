@@ -14,12 +14,12 @@ title: Mind Mapping
 
 ### Resources
 
-1.  Mindmaps from Diagrams as Code
+#### Mindmaps from Diagrams as Code
 
-    - [MindMap syntax and
-      features](https://plantuml.com/mindmap-diagram) in PlantUML
-      - [Use of Openiconic](https://plantuml.com/openiconic) - icons in
-        PlantUML
-    - [Blog - Create a mindmap from text with
-      PlantUML](https://www.drawio.com/blog/plantuml-mindmaps-from-text)
-      from Drawio
+- [MindMap syntax and features](https://plantuml.com/mindmap-diagram) in
+  PlantUML
+  - [Use of Openiconic](https://plantuml.com/openiconic) - icons in
+    PlantUML
+- [Blog - Create a mindmap from text with
+  PlantUML](https://www.drawio.com/blog/plantuml-mindmaps-from-text)
+  from Drawio

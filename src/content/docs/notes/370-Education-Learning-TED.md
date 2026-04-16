@@ -112,10 +112,10 @@ Platform co-op advantages:
 
 Evaluate which of these 6 time traps is eating up all your time?
 
-1.  See Also
+#### See Also
 
-    - [Finance: Value of Time](/garden/notes/332-finance-time-value) - [Finance:
-      Value of Time](id:87726ed4-b680-45ca-8bc4-e36dfa8b2508)
+- [Finance: Value of Time](/garden/notes/332-finance-time-value) - [Finance: Value
+  of Time](id:87726ed4-b680-45ca-8bc4-e36dfa8b2508)
 
 ### What Your Money Habits Reveal About You
 
@@ -169,21 +169,21 @@ struggle and face whatever may come head-on with fortitude and grace.
   disaster - you are at higher risk of bad things (mental,
   relationships)
 
-1.  3 Strategies - Resilient people
+3 Strategies - Resilient people
 
-    1.  1\. Know suffering and "shit" happens
+1.  1\. Know suffering and "shit" happens
 
-    2.  2\. Tune into what is good
+2.  2\. Tune into what is good
 
-        1.  Know what we can change and what is dangerous. Know what is
-            not dangerous and is good
-        2.  Saber tooth tiger vs a rainbow. Appreciate the rainbow
-        3.  Example, every day think 3 good things very day
-        4.  Ask what is helping me and what is harming me when you are
-            doing it?
-            1.  If harming, let it go
-            2.  If helping, do it
-            3.  Gives you control
+    1.  Know what we can change and what is dangerous. Know what is not
+        dangerous and is good
+    2.  Saber tooth tiger vs a rainbow. Appreciate the rainbow
+    3.  Example, every day think 3 good things very day
+    4.  Ask what is helping me and what is harming me when you are doing
+        it?
+        1.  If harming, let it go
+        2.  If helping, do it
+        3.  Gives you control
 
 ### How to make stress your friend
 
@@ -233,23 +233,23 @@ Principles to live by
 - Gratitude
 - We're enough
 
-1.  Listening to Shame
+#### Listening to Shame
 
-    - Vulnerability is:
+- Vulnerability is:
 
-      - Emotional risk
-      - Measurement of courage
-      - Uncertainty which leads to creativity, innovation, and change
-      - Birth place of joy, faith, love, belonging
-      - **Embrace it with gratitude**
+  - Emotional risk
+  - Measurement of courage
+  - Uncertainty which leads to creativity, innovation, and change
+  - Birth place of joy, faith, love, belonging
+  - **Embrace it with gratitude**
 
-    - Shame: "I'm sorry, I'm bad" - negative self talk
+- Shame: "I'm sorry, I'm bad" - negative self talk
 
-    - Empathy cures shame. Remove secrecy, silence, and judgement to
-      cure shame
+- Empathy cures shame. Remove secrecy, silence, and judgement to cure
+  shame
 
-    - We are becoming intolerant to vulnerability due to perception of
-      scarcity and using numbing like addictions and distractions
+- We are becoming intolerant to vulnerability due to perception of
+  scarcity and using numbing like addictions and distractions
 
 ### Self Care TED talks
 
@@ -393,42 +393,42 @@ Bavelier](https://www.youtube.com/watch?v=FktsFcooIG8)
 Games can have positive effects, as tested in lab. Same with wine
 research - manageable amounts can be helpful (Binging is never good).
 
-1.  Lab findings
+Lab findings
 
-    1.  Vision is better
+1.  Vision is better
 
-        - Action gamers can determine small details in clutter better.
-          \> E.g. reading fine print, colour differentiation
+    - Action gamers can determine small details in clutter better. \>
+      E.g. reading fine print, colour differentiation
 
-        <figure>
-        <img src="../media/Learning-TED-image3.png" />
-        <figcaption>Text Description automatically generated</figcaption>
-        </figure>
+    <figure>
+    <img src="../media/Learning-TED-image3.png" />
+    <figcaption>Text Description automatically generated</figcaption>
+    </figure>
 
-    2.  Attention, awareness
+2.  Attention, awareness
 
-        - Colour/meaning conflicts are resolved faster by action gamers
-        - Ability to track objects and remember - e.g. environmental
-          scan while driving
+    - Colour/meaning conflicts are resolved faster by action gamers
+    - Ability to track objects and remember - e.g. environmental scan
+      while driving
 
-        <figure>
-        <img src="../media/Learning-TED-image4.png" />
-        <figcaption>A picture containing diagram Description automatically
-        generated</figcaption>
-        </figure>
+    <figure>
+    <img src="../media/Learning-TED-image4.png" />
+    <figcaption>A picture containing diagram Description automatically
+    generated</figcaption>
+    </figure>
 
-        - Areas that affect attention are more efficient for action game
-          players
+    - Areas that affect attention are more efficient for action game
+      players
 
-    3.  Multi-tasking
+3.  Multi-tasking
 
-        - Action game players are better at changing focus
-        - High multi../media taskers (listening to music, searching) are
-          actually not effective at multitasking
+    - Action game players are better at changing focus
+    - High multi../media taskers (listening to music, searching) are
+      actually not effective at multitasking
 
-        Lab research: pretest, have people play action games, have them
-        tested again, test again after couple month. We discovered
-        positive effects last.
+    Lab research: pretest, have people play action games, have them
+    tested again, test again after couple month. We discovered positive
+    effects last.
 
 ## Physical Health
 

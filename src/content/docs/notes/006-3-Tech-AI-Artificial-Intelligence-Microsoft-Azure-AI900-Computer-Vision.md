@@ -126,56 +126,53 @@ Using filters to apply effects to image can be used for image processing
 tasks like in image editors. Computer vision tasks are more likely to be
 extracting meaning where ML models recognize features in many images.
 
-1.  Convolutional neural networks (CNNs)
+#### Convolutional neural networks (CNNs)
 
-    CNN is a type of deep learning architecture and uses filters to get
-    numeric feature maps from images and input the feature values to a
-    deep learning model for label prediction.
+CNN is a type of deep learning architecture and uses filters to get
+numeric feature maps from images and input the feature values to a deep
+learning model for label prediction.
 
-    An example is image classification and the label prediction answers
-    what is the subject of the image. CNN models could be used to
-    identify kinds of fruit.
+An example is image classification and the label prediction answers what
+is the subject of the image. CNN models could be used to identify kinds
+of fruit.
 
-    1.  CNN for an Image Classification Model
+1.  CNN for an Image Classification Model
 
-        <figure>
-        <img
-        src="https://learn.microsoft.com/en-us/training/wwl-data-ai/introduction-computer-vision/media/convolutional-neural-network.png" />
-        <figcaption>image classification model where pictures of fruit are input
-        and predictions are made</figcaption>
-        </figure>
+    <figure>
+    <img
+    src="https://learn.microsoft.com/en-us/training/wwl-data-ai/introduction-computer-vision/media/convolutional-neural-network.png" />
+    <figcaption>image classification model where pictures of fruit are input
+    and predictions are made</figcaption>
+    </figure>
 
-        1.  Images with known labels are input into the network for
-            training
-        2.  1 or more layers of filters are used to get features from
-            each image in the network. Filter kernels have random
-            weights to start and create arrays of numeric values called
-            feature maps
-        3.  Feature maps are flattened to single dimension arrays of
-            feature values
-        4.  Feature values are input into the neural network
-        5.  Neural network's output layer uses a softmax or similar
-            function the output a probability values for each possible
-            class
+    1.  Images with known labels are input into the network for training
+    2.  1 or more layers of filters are used to get features from each
+        image in the network. Filter kernels have random weights to
+        start and create arrays of numeric values called feature maps
+    3.  Feature maps are flattened to single dimension arrays of feature
+        values
+    4.  Feature values are input into the neural network
+    5.  Neural network's output layer uses a softmax or similar function
+        the output a probability values for each possible class
 
-        Model evaluation and iteration:
+    Model evaluation and iteration:
 
-        > During training the output probabilities are compared to the
-        > actual class label - for example, an image of a banana
-        > (class 1) should have the value \[0.0, 1.0, 0.0\]. The
-        > difference between the predicted and actual class scores is
-        > used to calculate the loss in the model, and the weights in
-        > the fully connected neural network and the filter kernels in
-        > the feature extraction layers are modified to reduce the loss.
-        >
-        > The training process repeats over multiple epochs until an
-        > optimal set of weights has been learned. Then, the weights are
-        > saved and the model can be used to predict labels for new
-        > images for which the label is unknown.
+    > During training the output probabilities are compared to the
+    > actual class label - for example, an image of a banana (class 1)
+    > should have the value \[0.0, 1.0, 0.0\]. The difference between
+    > the predicted and actual class scores is used to calculate the
+    > loss in the model, and the weights in the fully connected neural
+    > network and the filter kernels in the feature extraction layers
+    > are modified to reduce the loss.
+    >
+    > The training process repeats over multiple epochs until an optimal
+    > set of weights has been learned. Then, the weights are saved and
+    > the model can be used to predict labels for new images for which
+    > the label is unknown.
 
-        This explanation is a simplification. CNN architecture in
-        reality includes multiple convolutional filter layers to reduce
-        the size of feature maps and constrain/control feature values.
+    This explanation is a simplification. CNN architecture in reality
+    includes multiple convolutional filter layers to reduce the size of
+    feature maps and constrain/control feature values.
 
 ### Vision models
 
@@ -184,46 +181,45 @@ example is object detection models combine CNN feature extraction layers
 with identification of regions of interest in images to find multiple
 classes of entities in the image.
 
-1.  Transformers
+#### Transformers
 
-    See Transformers section of these notes:
+See Transformers section of these notes:
 
-    - [Microsoft Azure AI Fundamentals, Generative
-      AI](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
-      [Microsoft Azure AI Fundamentals: Generative
-      AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3)
-    - [Machine Learning (ML) Concepts and in
-      Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-machine-learning) -
-      [Machine Learning (ML) Concepts and in
-      Azure](id:c04c162a-85c7-4295-b9b9-5bbb71270b1b)
+- [Microsoft Azure AI Fundamentals, Generative
+  AI](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
+  [Microsoft Azure AI Fundamentals: Generative
+  AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3)
+- [Machine Learning (ML) Concepts and in
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-machine-learning) -
+  [Machine Learning (ML) Concepts and in
+  Azure](id:c04c162a-85c7-4295-b9b9-5bbb71270b1b)
 
-2.  Multi-modal models
+#### Multi-modal models
 
-    Multi-modal means the model can process text, language, images, and
-    other media.
+Multi-modal means the model can process text, language, images, and
+other media.
 
-    AI researchers use the transformers approach to build language
-    models and considered it for image data resulting in multi-modal
-    models. These multi-modal models train on captioned images with no
-    labels.
+AI researchers use the transformers approach to build language models
+and considered it for image data resulting in multi-modal models. These
+multi-modal models train on captioned images with no labels.
 
-    <figure id="fig:multi-modal-model">
-    <img
-    src="https://learn.microsoft.com/en-us/training/wwl-data-ai/introduction-computer-vision/media/multi-modal-model.png" />
-    <figcaption>An image encoder extracts features from images based on
-    pixel values and combines them with text embeddings created by a
-    language encoder. The overall model encapsulates relationships between
-    natural language token embeddings and image features</figcaption>
-    </figure>
+<figure id="fig:multi-modal-model">
+<img
+src="https://learn.microsoft.com/en-us/training/wwl-data-ai/introduction-computer-vision/media/multi-modal-model.png" />
+<figcaption>An image encoder extracts features from images based on
+pixel values and combines them with text embeddings created by a
+language encoder. The overall model encapsulates relationships between
+natural language token embeddings and image features</figcaption>
+</figure>
 
-    Foundation models are pre-trained general models with language
-    encoder and image encoder that can be used to build adaptive models
-    for specialized tasks like:
+Foundation models are pre-trained general models with language encoder
+and image encoder that can be used to build adaptive models for
+specialized tasks like:
 
-    - Image classification: get image category
-    - Object detection: find objects in image
-    - Captioning: descriptions of images
-    - Tagging: list of relevant text tags for image
+- Image classification: get image category
+- Object detection: find objects in image
+- Captioning: descriptions of images
+- Tagging: list of relevant text tags for image
 
 ## Computer Vision in Azure
 
@@ -334,61 +330,60 @@ eyes, brows, lips, mouth, and others including positions,
 shapes</figcaption>
 </figure>
 
-1.  Facial recognition
+#### Facial recognition
 
-    Facial analysis allows identifying specific people from their facial
-    features which is known as facial recognition.
+Facial analysis allows identifying specific people from their facial
+features which is known as facial recognition.
 
-2.  Azure AI Face service capabilities
+#### Azure AI Face service capabilities
 
-    Azure AI Face can locate human faces as well as:
+Azure AI Face can locate human faces as well as:
 
-    > - Accessories: indicates whether the given face has accessories.
-    >   This attribute returns possible accessories including hats,
-    >   glasses, and mask, with confidence score between zero and one
-    >   for each accessory.
-    > - Blur: how blurred the face is, which can be an indication of how
-    >   likely the face is to be the main focus of the image.
-    > - Exposure: such as whether the image is underexposed or over
-    >   exposed. This applies to the face in the image and not the
-    >   overall image exposure.
-    > - Glasses: whether or not the person is wearing glasses.
-    > - Head pose: the face's orientation in a 3D space.
-    > - Mask: indicates whether the face is wearing a mask.
-    > - Noise: refers to visual noise in the image. If you have taken a
-    >   photo with a high ISO setting for darker settings, you would
-    >   notice this noise in the image. The image looks grainy or full
-    >   of tiny dots that make the image less clear.
-    > - Occlusion: determines if there might be objects blocking the
-    >   face in the image.
-    > - Quality For Recognition: a rating of high, medium, or low that
-    >   reflects if the image is of sufficient quality to attempt face
-    >   recognition on.
+> - Accessories: indicates whether the given face has accessories. This
+>   attribute returns possible accessories including hats, glasses, and
+>   mask, with confidence score between zero and one for each accessory.
+> - Blur: how blurred the face is, which can be an indication of how
+>   likely the face is to be the main focus of the image.
+> - Exposure: such as whether the image is underexposed or over exposed.
+>   This applies to the face in the image and not the overall image
+>   exposure.
+> - Glasses: whether or not the person is wearing glasses.
+> - Head pose: the face's orientation in a 3D space.
+> - Mask: indicates whether the face is wearing a mask.
+> - Noise: refers to visual noise in the image. If you have taken a
+>   photo with a high ISO setting for darker settings, you would notice
+>   this noise in the image. The image looks grainy or full of tiny dots
+>   that make the image less clear.
+> - Occlusion: determines if there might be objects blocking the face in
+>   the image.
+> - Quality For Recognition: a rating of high, medium, or low that
+>   reflects if the image is of sufficient quality to attempt face
+>   recognition on.
 
-3.  Responsible AI use
+#### Responsible AI use
 
-    Azure AI Face and Azure AI Vision have a [Limited Access
-    policy](https://aka.ms/AAh91ff) which restricts use of face
-    verification, identification, and liveness on customer request to
-    Microsoft.
+Azure AI Face and Azure AI Vision have a [Limited Access
+policy](https://aka.ms/AAh91ff) which restricts use of face
+verification, identification, and liveness on customer request to
+Microsoft.
 
-4.  Get started in Azure AI Foundry portal
+#### Get started in Azure AI Foundry portal
 
-    Azure AI vision can be accessed with the Azure AI Foundry portal or
-    SDK or REST API.
+Azure AI vision can be accessed with the Azure AI Foundry portal or SDK
+or REST API.
 
-    Azure resources are required:
+Azure resources are required:
 
-    - Azure AI Vision: good if you don't intend to use any other Azure
-      AI services or if tracking and costs for your Azure AI Vision
-      resource separately.
-    - Azure AI services: general resource that includes Azure AI Vision
-      along with many other Azure AI services; good if you plan to use
-      multiple AI services
+- Azure AI Vision: good if you don't intend to use any other Azure AI
+  services or if tracking and costs for your Azure AI Vision resource
+  separately.
+- Azure AI services: general resource that includes Azure AI Vision
+  along with many other Azure AI services; good if you plan to use
+  multiple AI services
 
-    The Azure AI Foundry portal has a user interface to hubs and
-    projects. Hubs manage resources while projects hold datasets,
-    models, and other resources for solutions.
+The Azure AI Foundry portal has a user interface to hubs and projects.
+Hubs manage resources while projects hold datasets, models, and other
+resources for solutions.
 
 ## See Also
 

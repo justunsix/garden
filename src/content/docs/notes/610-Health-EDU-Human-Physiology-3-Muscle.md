@@ -710,9 +710,7 @@ tetanus = tension is phasic
 
 - Spontaneous pacemaker potentials
 
-###  
-
-### Pacemaker Activity
+### **\*** Pacemaker Activity
 
 Packemakers have an unstable resting potential for their uniqueness.
 

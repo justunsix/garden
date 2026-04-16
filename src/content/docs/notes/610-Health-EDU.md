@@ -30,12 +30,12 @@ title: Health Education
   Physiology](/garden/notes/610-health-edu-human-physiology) - [Introduction to
   Human Physiology](id:8a8b161a-d9db-4f9c-a96b-8ccbd26aaddd)
 
-1.  Mini Medical School
+#### Mini Medical School
 
-    Archived, some sources are not openly available, though some are
+Archived, some sources are not openly available, though some are
 
-    - [Mini Medical School](/garden/notes/610-health-edu-mini-medschool) - [Mini
-      Medical School](id:57797965-c1ab-4632-8f3a-9822a14256e7)
+- [Mini Medical School](/garden/notes/610-health-edu-mini-medschool) - [Mini
+  Medical School](id:57797965-c1ab-4632-8f3a-9822a14256e7)
 
 ### First Aid
 

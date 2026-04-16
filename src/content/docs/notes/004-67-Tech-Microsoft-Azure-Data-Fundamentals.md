@@ -37,32 +37,31 @@ Notation JSON), unstructured way (e.g. media, visuals)
         - Databricks
         - Cognitive services
 
-1.  OLAP Stages
+#### OLAP Stages
 
-    - Ingestion can be batch or streaming
-    - Extract, Transform, Load (ETL)
-      - Can be continuous pipeline, good for low dependency of items
-      - Sensitive data can be removed
-    - Extract, Load, Transform (ELT)
-      - Data is stored first
-      - Good for complex model or processing that data depending on
-        multiple items in database
-      - Appropriate for cloud models
-    - Pipelines
-      - Azure Data Factory - pipelines to build data flows and handle
-        ETL / ELT
-    - Data Visualization
-      - Should raise questions for business, support decision making,
-        see history/trends
-      - Implemented in PowerBI
-    - Analytics, using statistics
-      - Descriptive - what is happening
-      - Diagnostic - root cause, anomalies
-      - Predictive - what is likely to happen based on trends and
-        patterns
-      - Prescriptive - actions to take for a goal
-      - Cognitive - self-learning, get conclusions based on existing
-        analytics
+- Ingestion can be batch or streaming
+- Extract, Transform, Load (ETL)
+  - Can be continuous pipeline, good for low dependency of items
+  - Sensitive data can be removed
+- Extract, Load, Transform (ELT)
+  - Data is stored first
+  - Good for complex model or processing that data depending on multiple
+    items in database
+  - Appropriate for cloud models
+- Pipelines
+  - Azure Data Factory - pipelines to build data flows and handle ETL /
+    ELT
+- Data Visualization
+  - Should raise questions for business, support decision making, see
+    history/trends
+  - Implemented in PowerBI
+- Analytics, using statistics
+  - Descriptive - what is happening
+  - Diagnostic - root cause, anomalies
+  - Predictive - what is likely to happen based on trends and patterns
+  - Prescriptive - actions to take for a goal
+  - Cognitive - self-learning, get conclusions based on existing
+    analytics
 
 ### Roles of People
 
@@ -189,164 +188,163 @@ Notation JSON), unstructured way (e.g. media, visuals)
 
 ### Azure Data Services
 
-1.  Microsoft SQL
+#### Microsoft SQL
 
-    - SQL Server on Azure VMs - IaaS
-      - OS level access
-      - Higher administration time and dedicated hosting costs
-      - Features:
-        - SQL, OS versions, Windows, Linux, SSRS and SQL server services
-        - Lift and shift to Azure
-        - Licensing and edition flexibility
-        - Memory, storage optimization
-        - VNET integration with on premise, Advanced data security
-        - High availability and Disaster Recovery (HADR) services
-    - Azure SQL Managed Instance (MI) - PaaS
-      - Compatibility with SQL server and VNET support
-      - Control of SQL instance, multiple databases
-      - Automates monitoring, backup
-    - Azure SQL Database - PaaS
-      - Good for latest SQL versions, variable loads, scalable loads
-      - Features:
-        - Elastic compute, storage
-        - Private link supported
-        - High availability 99.995% and 5 second RPO and 30 second RTO
-        - Point in time restore
-        - Most cost efficient
-        - Integrates with Azure security services
-    - Azure database for MySQL, Maria DB - PaaS
-    - PaaS is lower cost and administration, but less control and
-      customization (scripts, modules). If customization needs, use IaaS
+- SQL Server on Azure VMs - IaaS
+  - OS level access
+  - Higher administration time and dedicated hosting costs
+  - Features:
+    - SQL, OS versions, Windows, Linux, SSRS and SQL server services
+    - Lift and shift to Azure
+    - Licensing and edition flexibility
+    - Memory, storage optimization
+    - VNET integration with on premise, Advanced data security
+    - High availability and Disaster Recovery (HADR) services
+- Azure SQL Managed Instance (MI) - PaaS
+  - Compatibility with SQL server and VNET support
+  - Control of SQL instance, multiple databases
+  - Automates monitoring, backup
+- Azure SQL Database - PaaS
+  - Good for latest SQL versions, variable loads, scalable loads
+  - Features:
+    - Elastic compute, storage
+    - Private link supported
+    - High availability 99.995% and 5 second RPO and 30 second RTO
+    - Point in time restore
+    - Most cost efficient
+    - Integrates with Azure security services
+- Azure database for MySQL, Maria DB - PaaS
+- PaaS is lower cost and administration, but less control and
+  customization (scripts, modules). If customization needs, use IaaS
 
-2.  PostgreSQL, MariaDB, MySQL
+#### PostgreSQL, MariaDB, MySQL
 
-    - PostgreSQL is the popular database for modern apps
-      - Good for geometric data
-      - Query language: pgSQL
-      - Community version
-      - Deployment options: single server, hyperscale (HA and scalable)
-      - Compatible with PostgreSQL admin tool
-    - MySQL for LAMP stack
-      - Free community edition
-      - Standard and Enterprise editions give performance, security
-        improvements
-    - MariaDB is community fork of MySQL with focus on user community
-      - Re-written MySQL
-      - Compatible with Oracle DB
-      - Supports temporal data (history)
+- PostgreSQL is the popular database for modern apps
+  - Good for geometric data
+  - Query language: pgSQL
+  - Community version
+  - Deployment options: single server, hyperscale (HA and scalable)
+  - Compatible with PostgreSQL admin tool
+- MySQL for LAMP stack
+  - Free community edition
+  - Standard and Enterprise editions give performance, security
+    improvements
+- MariaDB is community fork of MySQL with focus on user community
+  - Re-written MySQL
+  - Compatible with Oracle DB
+  - Supports temporal data (history)
 
-3.  Benefits
+#### Benefits
 
-    - Fully managed services, integration with Azure services
-    - High availability and low total cost of ownership
-    - Configurable and automated performance, scaling, security, and
-      compliance
+- Fully managed services, integration with Azure services
+- High availability and low total cost of ownership
+- Configurable and automated performance, scaling, security, and
+  compliance
 
-4.  Provisioning of relational resources
+#### Provisioning of relational resources
 
-    In Azure Portal:
+In Azure Portal:
 
-    - Basics \> network connectivity \> additional settings (data
-      source, collation, time zone, advanced security and threat
-      protection ) \> tags \> review and create
-      - Basics = subscription, resource group, service config, name,
-        admin credentials, region, pools, compute & storage, pricing
-      - Network connectivity = publie/private, VNET, firewall,
-        connection type
-        - Azure SQL uses 1433
-        - Need to add IP addresses of database clients
-          - 0.0.0.0 allows all Azure services
-          - Range 0.0.0.0 to 255.255.255.255 opens to all internet
-          - Connection policy modes:
-            - Redirect
-              - Service tags can allow connectivity from certain Azure
-                services
-              - Recommended with policy restriction on connectors
-            - Proxy
-              - Connections proxies via Azure proxy gateway
-              - All packets flows via gateway
-            - Default:
-              - Redirect all client connections in Azure (low latency)
-              - Proxy all external connections
+- Basics \> network connectivity \> additional settings (data source,
+  collation, time zone, advanced security and threat protection ) \>
+  tags \> review and create
+  - Basics = subscription, resource group, service config, name, admin
+    credentials, region, pools, compute & storage, pricing
+  - Network connectivity = publie/private, VNET, firewall, connection
+    type
+    - Azure SQL uses 1433
+    - Need to add IP addresses of database clients
+      - 0.0.0.0 allows all Azure services
+      - Range 0.0.0.0 to 255.255.255.255 opens to all internet
+      - Connection policy modes:
+        - Redirect
+          - Service tags can allow connectivity from certain Azure
+            services
+          - Recommended with policy restriction on connectors
+        - Proxy
+          - Connections proxies via Azure proxy gateway
+          - All packets flows via gateway
+        - Default:
+          - Redirect all client connections in Azure (low latency)
+          - Proxy all external connections
 
-5.  Security
+#### Security
 
-    - Network
-      - Firewall rules
-      - Virtual Network Rules
-      - Private Link, private endpoint - Private IP from VNET
-      - Can use Azure Gateway or ExpressRoute
-      - VNET pairing to group VNETs and their resources
-    - Authentication and Access Control
-      - Integration with Azure AD
-      - Server-level principle for logical server for DB
-      - Support SSO, token based authentication, MFA
-    - Role Based Access Control
-      - Control Azure operations through Azure RBAC
-      - Scoping in subscription, resource group, resource
-      - Security principle - service user with role
-    - Azure DB read replicas
-      - Supports replication from master server to up to 5 replicas
-      - Use cases: replica for analytics, DR in different region, good
-        for read only workloads not CRUD, not optimized for write
-      - Billed for storage
+- Network
+  - Firewall rules
+  - Virtual Network Rules
+  - Private Link, private endpoint - Private IP from VNET
+  - Can use Azure Gateway or ExpressRoute
+  - VNET pairing to group VNETs and their resources
+- Authentication and Access Control
+  - Integration with Azure AD
+  - Server-level principle for logical server for DB
+  - Support SSO, token based authentication, MFA
+- Role Based Access Control
+  - Control Azure operations through Azure RBAC
+  - Scoping in subscription, resource group, resource
+  - Security principle - service user with role
+- Azure DB read replicas
+  - Supports replication from master server to up to 5 replicas
+  - Use cases: replica for analytics, DR in different region, good for
+    read only workloads not CRUD, not optimized for write
+  - Billed for storage
 
 ### Querying Relational Data
 
-1.  About SQL
+#### About SQL
 
-    - SQL is a standard language for use with relational databases
+- SQL is a standard language for use with relational databases
 
-    - SQL standards are maintained by ANSI and ISO
+- SQL standards are maintained by ANSI and ISO
 
-    - Proprietary RDBMS systems have their own extensions/variants of
-      SQL such as T—SQL (Microsoft), PL/SQL (Oracle), pgSQL (PostgreSQL)
+- Proprietary RDBMS systems have their own extensions/variants of SQL
+  such as T—SQL (Microsoft), PL/SQL (Oracle), pgSQL (PostgreSQL)
 
-    - [SQL Statement
-      Types](https://www.w3schools.in/dbms/database-languages/)
+- [SQL Statement
+  Types](https://www.w3schools.in/dbms/database-languages/)
 
-      - Data Manipulation Language - Used to query and manipulate data
-        - SELECT - It retrieves data from a database
-        - INSERT - It inserts data into a table
-        - UPDATE - It updates existing data within a table
-        - DELETE - It deletes all records from a table, the space for
-          the records remain
-        - MERGE - UPSERT operation (insert or update)
-        - CALL - It calls a PL/SQL or Java subprogram
-        - EXPLAIN PLAN - It explains the access path to data
-        - LOCK TABLE - It controls concurrency
-      - Data Definition Language - Used to define database objects
-        - CREATE - used to create objects in the database
-        - ALTER - used to alters the structure of the database
-        - DROP - used to delete objects from the database
-        - TRUNCATE - used to remove all records from a table, including
-          all spaces allocated for the records are removed
-        - COMMENT - used to add comments to the data dictionary
-        - RENAME - used to rename an object
-      - Data Control Language - used to control privilege in databases.
-        - SYSTEM - creating a session, table, etc. are all types of
-          system privilege.
-        - OBJECT - any command or query to work on tables comes under
-          object privilege. DCL is used to define two commands. These
-          are:
-        - GRANT - It gives user access privileges to a database.
-        - REVOKE - It takes back permissions from the user.
+  - Data Manipulation Language - Used to query and manipulate data
+    - SELECT - It retrieves data from a database
+    - INSERT - It inserts data into a table
+    - UPDATE - It updates existing data within a table
+    - DELETE - It deletes all records from a table, the space for the
+      records remain
+    - MERGE - UPSERT operation (insert or update)
+    - CALL - It calls a PL/SQL or Java subprogram
+    - EXPLAIN PLAN - It explains the access path to data
+    - LOCK TABLE - It controls concurrency
+  - Data Definition Language - Used to define database objects
+    - CREATE - used to create objects in the database
+    - ALTER - used to alters the structure of the database
+    - DROP - used to delete objects from the database
+    - TRUNCATE - used to remove all records from a table, including all
+      spaces allocated for the records are removed
+    - COMMENT - used to add comments to the data dictionary
+    - RENAME - used to rename an object
+  - Data Control Language - used to control privilege in databases.
+    - SYSTEM - creating a session, table, etc. are all types of system
+      privilege.
+    - OBJECT - any command or query to work on tables comes under object
+      privilege. DCL is used to define two commands. These are:
+    - GRANT - It gives user access privileges to a database.
+    - REVOKE - It takes back permissions from the user.
 
-2.  Query Tools
+#### Query Tools
 
-    - Microsoft SQL
-      - Azure Portal: On Azure SQL resource page, use query editor to
-        execute queries in the web interface
-      - SSMS
-      - SQL Server Data Tools
-      - Azure Data Studio
-      - SQL CMD
-      - Azure CLI/cloud shell
-    - PostgreSQL
-      - PG admin
-    - MySQL
-      - Azure cloud shell
-      - MySQL workbench
+- Microsoft SQL
+  - Azure Portal: On Azure SQL resource page, use query editor to
+    execute queries in the web interface
+  - SSMS
+  - SQL Server Data Tools
+  - Azure Data Studio
+  - SQL CMD
+  - Azure CLI/cloud shell
+- PostgreSQL
+  - PG admin
+- MySQL
+  - Azure cloud shell
+  - MySQL workbench
 
 ## Module 3: Non-relational data in Azure
 
@@ -398,30 +396,30 @@ Notation JSON), unstructured way (e.g. media, visuals)
   - Allows switching between Cosmos features and other DB
     functionalities
 
-1.  Use cases
+#### Use cases
 
-    - Web, retail, marketing. Less than 10ms response time
-    - Gaming - cloud storage of in-game stats, social media, leader
-      boards = millisecond response times
-    - Internet of Things (IoT) - ingest sensor real time data
+- Web, retail, marketing. Less than 10ms response time
+- Gaming - cloud storage of in-game stats, social media, leader boards =
+  millisecond response times
+- Internet of Things (IoT) - ingest sensor real time data
 
 ### Provisioning for Non-relational resources
 
-1.  Cosmos DB
+#### Cosmos DB
 
-    - Azure Portal
-      - Provisioned throughput = dedicated resources, serverless = on
-        demand and good for development
-      - Multi-region writes = multiple master database around world
-      - Data encryption = Microsoft manager or bring you own key
-    - Azure Command Line Interface (CLI)
-    - PowerShell
-    - ARM templates (JSON code)
+- Azure Portal
+  - Provisioned throughput = dedicated resources, serverless = on demand
+    and good for development
+  - Multi-region writes = multiple master database around world
+  - Data encryption = Microsoft manager or bring you own key
+- Azure Command Line Interface (CLI)
+- PowerShell
+- ARM templates (JSON code)
 
-2.  Storage account (SA)
+#### Storage account (SA)
 
-    - Access tiers hot/cool can be selected
-    - Data lake storage gen2 - allows SA to be a data lake
+- Access tiers hot/cool can be selected
+- Data lake storage gen2 - allows SA to be a data lake
 
 ### Data Migration Tool
 
@@ -443,71 +441,71 @@ Import data to Azure Cosmos DB from sources like:
 
 ### Data in Cosmos DB
 
-1.  Consistency
+#### Consistency
 
-    - Updates are asynchronous
+- Updates are asynchronous
 
-    Within a single region, Cosmos DB uses a cluster of servers. This
-    approach helps to improve scalability and availability.
+Within a single region, Cosmos DB uses a cluster of servers. This
+approach helps to improve scalability and availability.
 
-    1.  Eventual
-    2.  Consistent Prefix - changes in order
-    3.  Session - changes in order
-    4.  Bounded Staleness - lag in read and write
-    5.  Strong - high latency, best consistency
+1.  Eventual
+2.  Consistent Prefix - changes in order
+3.  Session - changes in order
+4.  Bounded Staleness - lag in read and write
+5.  Strong - high latency, best consistency
 
-    - Choose consistency to match requirements of application
+- Choose consistency to match requirements of application
 
-2.  Query
+#### Query
 
-    - Core SQL API allows dialect of SQL, like SELECT statements
+- Core SQL API allows dialect of SQL, like SELECT statements
 
-    ``` sql
-    SELECT <select_list>
-    [FROM <optional_from_specification)]
-    [WHERE <optional_filter_condition>]
-    [ORDER BY <optional_sort_specification>]
-    [JOIN <optional_join_specification>]
+``` sql
+SELECT <select_list>
+[FROM <optional_from_specification)]
+[WHERE <optional_filter_condition>]
+[ORDER BY <optional_sort_specification>]
+[JOIN <optional_join_specification>]
 
-    -- Example where c is a container
-    SELECT * FROM c
-    -- Display JSON data from container
+-- Example where c is a container
+SELECT * FROM c
+-- Display JSON data from container
 
-    SELECT * FROM c
-    WHERE c.Country == "Japan"
-    -- Dislay JSON data from records where field has Japan
+SELECT * FROM c
+WHERE c.Country == "Japan"
+-- Dislay JSON data from records where field has Japan
 
-    -- Aggregation functions such as SUM, Average, Min, Max
-    SELECT COUNT(*) FROM Products p
+-- Aggregation functions such as SUM, Average, Min, Max
+SELECT COUNT(*) FROM Products p
 
-    SELECT SUM(p.quantity) FROM Products p
-    WHERE p.expired = 9
+SELECT SUM(p.quantity) FROM Products p
+WHERE p.expired = 9
 
-    SELECT AVG(p.price) AS ‘Average Price’
+SELECT AVG(p.price) AS ‘Average Price’
 
-    FROM Products p
+FROM Products p
 
-    SELECT p1.ID, p.Name, p1.Description,
-    p1.Price FROM Products p1
+SELECT p1.ID, p.Name, p1.Description,
+p1.Price FROM Products p1
 
-    WHERE p1.Price = (SELECT MIN(p2.Price) FROM
-    Product p2)
-    ```
+WHERE p1.Price = (SELECT MIN(p2.Price) FROM
+Product p2)
+```
 
-3.  Containers
+#### Containers
 
-    - Manage BLOBs into containers, for example images container
-    - Configure access: anonymous, public, authenticated, SAS token
-      (with expiry dates)
-    - SAS tokens can be configured for files
+- Manage BLOBs into containers, for example images container
+- Configure access: anonymous, public, authenticated, SAS token (with
+  expiry dates)
+- SAS tokens can be configured for files
 
-4.  File Share
+#### File Share
 
-    - Create with access tier, storage quota
-    - Manage files:
-      - Desktop
-      - `az copy` CLI command - specific source file, destination
-        container/file
+- Create with access tier, storage quota
+- Manage files:
+  - Desktop
+  - `az copy` CLI command - specific source file, destination
+    container/file
 
 ## Module 4: Datawarehouse Analytics
 
@@ -546,10 +544,10 @@ Store:
   - Support POSIX and RBAC permissions
   - Compatible with Hadoop distributed file system
 
-1.  Azure HDInsight
+#### Azure HDInsight
 
-    - Distributed processing compute Spark processing engine
-    - Apache Kafka (messages), Hadoop (storage), Hive (query) supported
+- Distributed processing compute Spark processing engine
+- Apache Kafka (messages), Hadoop (storage), Hive (query) supported
 
 ### Data Ingestion in Azure
 

@@ -182,36 +182,36 @@ during initial game run.
 
 ### VS Redist Package Issue and/or Scripts Stopping during initial run, first run of game
 
-1.  Fix 1: Clear Steam Download Cache
+#### Fix 1: Clear Steam Download Cache
 
-    See also fix for [Steam Proton games stuck on "Installing: Microsoft
-    VC Redist
-    Package"](https://www.reddit.com/r/SteamPlay/comments/pulnsa/steam_proton_games_stuck_on_installing_microsoft/),
-    workaround from pewpewpewmoon:
+See also fix for [Steam Proton games stuck on "Installing: Microsoft VC
+Redist
+Package"](https://www.reddit.com/r/SteamPlay/comments/pulnsa/steam_proton_games_stuck_on_installing_microsoft/),
+workaround from pewpewpewmoon:
 
-    > I get this from time to time. Clear your download cache, give it a
-    > minute and then try again. It will fix it most of the time
-    >
-    > Steam \> Settings \> Downloads \> Clear Download Cache
-    >
-    > EDIT: This also happens on windows, it's just an annoying thing
-    > that has always been a part of steam for some people
+> I get this from time to time. Clear your download cache, give it a
+> minute and then try again. It will fix it most of the time
+>
+> Steam \> Settings \> Downloads \> Clear Download Cache
+>
+> EDIT: This also happens on windows, it's just an annoying thing that
+> has always been a part of steam for some people
 
-    Also can check integrity of game's files if there are issues under
-    Game's Details \> Installed Files
+Also can check integrity of game's files if there are issues under
+Game's Details \> Installed Files
 
-2.  Fix 2: Unmount all external drives
+#### Fix 2: Unmount all external drives
 
-    Unmount any extra external drives. Stop the game and restart it.
-    Remount drives after the game starts.
+Unmount any extra external drives. Stop the game and restart it. Remount
+drives after the game starts.
 
-    Possible cause is Wine maps USB drives as extra Windows drives.
-    Windows redistributable installers may query all drives during
-    setup. If one of those drives is slow or unresponsive or has issues,
-    the installer hangs waiting for it.
+Possible cause is Wine maps USB drives as extra Windows drives. Windows
+redistributable installers may query all drives during setup. If one of
+those drives is slow or unresponsive or has issues, the installer hangs
+waiting for it.
 
-    If the script hangs, look for evidence of changed files with `.vdf`
-    in ~/.steam/steam
+If the script hangs, look for evidence of changed files with `.vdf` in
+~/.steam/steam
 
 ## See Also
 

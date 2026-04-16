@@ -103,61 +103,61 @@ Treatment
 
 ### Heat
 
-1.  Heat Cramps
+#### Heat Cramps
 
-    Signs:
+Signs:
 
-    - Inadequate consumption of fluids or electrolytes
-    - Strenuous physical activity
-    - Hot environment
-    - Cramping muscles
+- Inadequate consumption of fluids or electrolytes
+- Strenuous physical activity
+- Hot environment
+- Cramping muscles
 
-    Treatment:
+Treatment:
 
-    - Stop what you are doing and move somewhere cool
-    - Hydrate with fluids such as water, juice or sports drinks.
-    - Stretch or massage muscles of the affected areas.
+- Stop what you are doing and move somewhere cool
+- Hydrate with fluids such as water, juice or sports drinks.
+- Stretch or massage muscles of the affected areas.
 
-2.  Heat Exhaustion
+#### Heat Exhaustion
 
-    Signs:
+Signs:
 
-    - Heavy sweating
-    - Weakness
-    - Paleness
-    - Cramps
-    - Tiredness
-    - Nausea or vomiting
-    - Dizziness
-    - Headache
+- Heavy sweating
+- Weakness
+- Paleness
+- Cramps
+- Tiredness
+- Nausea or vomiting
+- Dizziness
+- Headache
 
-    Treatment:
+Treatment:
 
-    - Alert people to help
-    - Stop what you are doing and lie down in a cool location.
-    - Remove any extra clothing and cool down with cold water, a bath,
-      spray or fan.
-    - Hydrate
+- Alert people to help
+- Stop what you are doing and lie down in a cool location.
+- Remove any extra clothing and cool down with cold water, a bath, spray
+  or fan.
+- Hydrate
 
-3.  Heat Stroke
+#### Heat Stroke
 
-    Life threatening
+Life threatening
 
-    Signs:
+Signs:
 
-    - An absence of sweating with hot red or flushed dry skin
-    - Strange or erratic behaviour
-    - High body temperature
-    - Disorientation
-    - Rapid pulse
-    - Seizure or coma
-    - Difficulty breathing
+- An absence of sweating with hot red or flushed dry skin
+- Strange or erratic behaviour
+- High body temperature
+- Disorientation
+- Rapid pulse
+- Seizure or coma
+- Difficulty breathing
 
-    Treatment:
+Treatment:
 
-    - Call 9-1-1 immediately
-    - Cool yourself or the affected person by immersing in water.
-    - Place ice against the groin, arm-pits, and sides of the neck.
+- Call 9-1-1 immediately
+- Cool yourself or the affected person by immersing in water.
+- Place ice against the groin, arm-pits, and sides of the neck.
 
 ## Opoid Overdose
 
@@ -229,13 +229,13 @@ What are the requirements for disease transmission?
 
 ### Health Care Provider CPR
 
-1.  Infant
+#### Infant
 
-    - Check, call, care
-    - Brachial pulse
-    - CPR: 30 compressions / 2 breaths
-    - 2 rescuer: thumbs only CPR: 15 comp. / 2 breaths
-    - Rescue breathing: 1 breath / 3 seconds, check circulation/pulse
+- Check, call, care
+- Brachial pulse
+- CPR: 30 compressions / 2 breaths
+- 2 rescuer: thumbs only CPR: 15 comp. / 2 breaths
+- Rescue breathing: 1 breath / 3 seconds, check circulation/pulse
 
 ### Bleeding
 

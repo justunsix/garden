@@ -41,95 +41,94 @@ Get started at: <https://make.powerapps.com/>
 - Can be used by people with little Computer Science background and
   offers advanced functionality for developers
 
-1.  Work with Data Where it Lives
+#### Work with Data Where it Lives
 
-    Use existing data sources or the Power Platform data services.
-    Common data sources:
+Use existing data sources or the Power Platform data services. Common
+data sources:
 
-    - Dataverse
-    - SharePoint
-    - Excel
-    - Microsoft 365
+- Dataverse
+- SharePoint
+- Excel
+- Microsoft 365
 
-    Additional licensing
+Additional licensing
 
-    - Dynamics 365
-    - SQL Server, Azure SQL
-    - Office 365
-    - Third party apps using connectors
+- Dynamics 365
+- SQL Server, Azure SQL
+- Office 365
+- Third party apps using connectors
 
-    Multiple data connections can be used in a single app.
+Multiple data connections can be used in a single app.
 
-2.  Different types of Power Apps for different scenarios
+#### Different types of Power Apps for different scenarios
 
-    - Canvas apps
-      - Build an app from a blank canvas
-      - Choose screen size like tablet or mobile
-      - Add data sources
-      - Drag and drop controls and functionality by writing Excel style
-        formulas
-      - Flexible
-    - Model-driven apps
-      - Build from data in Microsoft Dataverse
-      - Rapid development, standard UI
-      - Used to interact with data
-      - Responsive and works on mobile or tablets natively
-      - You can define relationships, forms, views, business rules and
-        more in data layer, Dataverse
-      - Good to edit key information in tables and ask questions using
-        built in copilot
-    - Cards
-      - Small apps with lighter weight user interface elements
-      - Do not require coding or IT expertise
-    - Portals
-      - User facing websites
-      - Anonymous or authenticated website
-      - Users can interact with data in Dataverse
-      - Drag and drop experience like with apps is available
+- Canvas apps
+  - Build an app from a blank canvas
+  - Choose screen size like tablet or mobile
+  - Add data sources
+  - Drag and drop controls and functionality by writing Excel style
+    formulas
+  - Flexible
+- Model-driven apps
+  - Build from data in Microsoft Dataverse
+  - Rapid development, standard UI
+  - Used to interact with data
+  - Responsive and works on mobile or tablets natively
+  - You can define relationships, forms, views, business rules and more
+    in data layer, Dataverse
+  - Good to edit key information in tables and ask questions using built
+    in copilot
+- Cards
+  - Small apps with lighter weight user interface elements
+  - Do not require coding or IT expertise
+- Portals
+  - User facing websites
+  - Anonymous or authenticated website
+  - Users can interact with data in Dataverse
+  - Drag and drop experience like with apps is available
 
-    Start developing at
-    [make.powerapps.com](https://make.powerapps.com/) inside a browser.
-    Building an app feels like building a slide deck in Microsoft
-    PowerPoint.
+Start developing at [make.powerapps.com](https://make.powerapps.com/)
+inside a browser. Building an app feels like building a slide deck in
+Microsoft PowerPoint.
 
-3.  Add artificial intelligence to your app with no code
+#### Add artificial intelligence to your app with no code
 
-    - Power Apps provides a wizard interface to building and training a
-      model
-      - Provides Azure Machine Learning and Cognitive services without
-        writing code or creating ML models
-    - An example AI component is a business card reader which detects a
-      business card and extracts its information without configuration
-      needed
-    - The Make [Power Apps](https://make.powerapps.com/) site has a
-      wizard to guide you through building and training the model.
-      Currently, there are 4 AI models in Power Apps:
-      - Prediction - Model predicts whether something will happen or not
-        based on previous data history
-        - Allows you to create a model that can predict yes or no
-          outcomes based on historical data. You train the model by
-          providing historical data that includes the yes/no outcome
-        - You can build prediction models to solve business problems
-          such as:
-          - Will a lead become a customer?
-          - Will a project be profitable?
-          - Will a customer churn based on activity?
-        - Model can help with decision support
-      - Form processor - This model extracts text from an image like the
-        business card reader.
-      - Object detector - This model identifies objects from an uploaded
-        image or taken photo and then provides a count of the number of
-        objects present.
-      - Text classification - This model categorizes text by its
-        meaning, making it is easier to analyze.
+- Power Apps provides a wizard interface to building and training a
+  model
+  - Provides Azure Machine Learning and Cognitive services without
+    writing code or creating ML models
+- An example AI component is a business card reader which detects a
+  business card and extracts its information without configuration
+  needed
+- The Make [Power Apps](https://make.powerapps.com/) site has a wizard
+  to guide you through building and training the model. Currently, there
+  are 4 AI models in Power Apps:
+  - Prediction - Model predicts whether something will happen or not
+    based on previous data history
+    - Allows you to create a model that can predict yes or no outcomes
+      based on historical data. You train the model by providing
+      historical data that includes the yes/no outcome
+    - You can build prediction models to solve business problems such
+      as:
+      - Will a lead become a customer?
+      - Will a project be profitable?
+      - Will a customer churn based on activity?
+    - Model can help with decision support
+  - Form processor - This model extracts text from an image like the
+    business card reader.
+  - Object detector - This model identifies objects from an uploaded
+    image or taken photo and then provides a count of the number of
+    objects present.
+  - Text classification - This model categorizes text by its meaning,
+    making it is easier to analyze.
 
-4.  Business Value
+#### Business Value
 
-    - Power Apps allows apps to come from business users, like finance
-      teams can use Excel today
-    - Apps can reduce paperwork, improve efficiency and ensure a source
-      of truth through data source combinations
-    - Apps remain secured and administered by IT
+- Power Apps allows apps to come from business users, like finance teams
+  can use Excel today
+- Apps can reduce paperwork, improve efficiency and ensure a source of
+  truth through data source combinations
+- Apps remain secured and administered by IT
 
 ### Administration and Security
 

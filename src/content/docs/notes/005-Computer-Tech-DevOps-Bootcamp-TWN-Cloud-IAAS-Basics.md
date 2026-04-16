@@ -50,16 +50,16 @@ Source: My personal notes from DevOps course by TechWorld with Nana
     - Outbound: default allow all
     - Apply to Droplet(s)
 
-1.  Server Work after SSH
+#### Server Work after SSH
 
-    ``` shell
+``` shell
 
-    # As root
-    apt update
-    ## JRE 8 for Nexus later
-    apt install openjdk-8-jre-headless
+# As root
+apt update
+## JRE 8 for Nexus later
+apt install openjdk-8-jre-headless
 
-    ```
+```
 
 ## Deploy and Run Application Artifact on Server
 

@@ -130,44 +130,44 @@ See also:
   Search with fzf, ripgrep, ivy, counsel, consult,
   vertico](id:026ff642-5c97-4465-a4c2-e71fa8e2b63a)
 
-1.  Default isearch, occur
+#### Default isearch, occur
 
-    Only matches characters, not regex unless using isearch-…-regex
+Only matches characters, not regex unless using isearch-…-regex
 
-    | Name | Shortcuts |
-    |----|----|
-    | Search in file isearch | C-s or isearch-forward, C-s or isearch-backward |
-    | Search in file isearch, cancel | C-g |
-    | Search in file isearch, enter at point | Enter |
-    | Search in file isearch, enter beginning of search word | C-b |
-    | Search in file isearch, repeat last search | C-s C-s or C-r C-r |
-    | Search in file isearch regex | C-M-s or isearch-forward-regex, C-M-r or isearch-backward-regex |
-    | Search with search results occur | M-s-o or occur |
-    | Search in file isearch with occur for buffer with results | C-s \<search-text\> M-s-o (while in isearch) |
-    | Search and highlight in file | M-s h l or hi-lock-face-buffer |
-    | Search and highlight in file, cancel | M-s h u or hi-lock-unface-buffer aka unhighlight-regexp |
+| Name | Shortcuts |
+|----|----|
+| Search in file isearch | C-s or isearch-forward, C-s or isearch-backward |
+| Search in file isearch, cancel | C-g |
+| Search in file isearch, enter at point | Enter |
+| Search in file isearch, enter beginning of search word | C-b |
+| Search in file isearch, repeat last search | C-s C-s or C-r C-r |
+| Search in file isearch regex | C-M-s or isearch-forward-regex, C-M-r or isearch-backward-regex |
+| Search with search results occur | M-s-o or occur |
+| Search in file isearch with occur for buffer with results | C-s \<search-text\> M-s-o (while in isearch) |
+| Search and highlight in file | M-s h l or hi-lock-face-buffer |
+| Search and highlight in file, cancel | M-s h u or hi-lock-unface-buffer aka unhighlight-regexp |
 
-2.  Find/Search and Replace
+#### Find/Search and Replace
 
-    | Name | Shortcuts |
-    |----|----|
-    | Search all files with \* | M-x grep , grep \<options\> PATTERN \* |
-    | Search and replace with extra functionality | M-Shift-% or query replace or replace-string |
-    | Find and replace search query | M-% or query-replace |
-    | Find and replace search query from isearch | C-s \<search-text\> M-% (while in isearch, can also work with isearch regex commands) |
-    | Find and replace search query, previous queries | M-p |
+| Name | Shortcuts |
+|----|----|
+| Search all files with \* | M-x grep , grep \<options\> PATTERN \* |
+| Search and replace with extra functionality | M-Shift-% or query replace or replace-string |
+| Find and replace search query | M-% or query-replace |
+| Find and replace search query from isearch | C-s \<search-text\> M-% (while in isearch, can also work with isearch regex commands) |
+| Find and replace search query, previous queries | M-p |
 
-3.  Other packages
+#### Other packages
 
-    Find and replace works for whole buffer or selected region
+Find and replace works for whole buffer or selected region
 
-    | Name | Shortcuts |
-    |----|----|
-    | Search in file | M-x swiper or helm-swoop |
-    | Find and replace - Close all file buffers | projectile-replace |
-    | Find and replace - Close all file buffers | `dired-do-find-regexp-and-replace` (Q) in dired in a directory or with marked files |
-    | Find word -Search (backward) | C-r or Backspace (aka DEL) |
-    | Regexp "helper" | M-x re-builder |
+| Name | Shortcuts |
+|----|----|
+| Search in file | M-x swiper or helm-swoop |
+| Find and replace - Close all file buffers | projectile-replace |
+| Find and replace - Close all file buffers | `dired-do-find-regexp-and-replace` (Q) in dired in a directory or with marked files |
+| Find word -Search (backward) | C-r or Backspace (aka DEL) |
+| Regexp "helper" | M-x re-builder |
 
 ### Delete
 
@@ -355,30 +355,30 @@ Example `.dir-locals.el` to set compile command
 For Emacs manuals, `info-emacs-manual` and press `h` to view info mode
 manual
 
-| Name                                      | Shortcuts        |
-|-------------------------------------------|------------------|
-| Cross references                          | f                |
-| Directory, list of manuals                | d                |
-| Help for info mode                        | S-H or ?         |
-| Link, go back                             | l                |
-| Link, history of nodes visited            | L                |
-| Link, return to previous node             | r                |
-| Menu, up                                  | u                |
-| Node, go to node by name                  | g                |
-| Node, menu                                | m                |
-| Node, menu selections (if available)      | 1, 2, 3, - , 9   |
-| Node, next                                | n, Enter, \]     |
-| Node, previous                            | p, \[            |
-| Node, top node of current manual          | t                |
-| Node, top of info manuals directory       | d                |
-| Page, Backward                            | Del or Backspace |
-| Page, Forward or next node at end of page | Space            |
-| Page, Reset                               | C-l              |
-| Quit                                      | q                |
-| Search, all info manuals installed        | M-x info-apropos |
-| Searc, with autocomplete                  | m                |
-| Search, index                             | i                |
-| Search, manual                            | s                |
+| Name                                          | Shortcuts        |
+|-----------------------------------------------|------------------|
+| Cross references                              | f                |
+| Directory, list of manuals (e.g. emacs, calc) | d                |
+| Help for info mode                            | S-H or ?         |
+| Link, go back                                 | l                |
+| Link, history of nodes visited                | L                |
+| Link, return to previous node                 | r                |
+| Menu, up                                      | u                |
+| Node, go to node by name                      | g                |
+| Node, menu                                    | m                |
+| Node, menu selections (if available)          | 1, 2, 3, - , 9   |
+| Node, next                                    | n, Enter, \]     |
+| Node, previous                                | p, \[            |
+| Node, top node of current manual              | t                |
+| Node, top of info manuals directory           | d                |
+| Page, Backward                                | Del or Backspace |
+| Page, Forward or next node at end of page     | Space            |
+| Page, Reset                                   | C-l              |
+| Quit                                          | q                |
+| Search, all info manuals installed            | M-x info-apropos |
+| Search, index                                 | i                |
+| Search, manual                                | s                |
+| Search, with autocomplete                     | m                |
 
 g command examples
 
@@ -530,6 +530,12 @@ methods
   /<ssh:user@host#port:/path/to/remote/file_or_path>
 - See troubleshooting at [Emacs Wiki -
   Tramp](https://www.emacswiki.org/emacs/TrampMode#toc7)
+
+## Calendar
+
+| Name                 | Shortcuts |
+|----------------------|-----------|
+| Month, previous/next | \<, \>    |
 
 ## Themes - Emacs look
 

@@ -188,93 +188,91 @@ Source:
 
 Common metrics used to evaluate the regression model
 
-1.  Mean Absolute Error (MAE)
+#### Mean Absolute Error (MAE)
 
-    Checks size of errors in predictions. It doesn't matter if the
-    prediction was over or under (for example, -3 and +3 both indicate a
-    variance of 3). The metric is known as the absolute error for each
-    prediction, and can be summarized for the whole validation set as
-    the mean absolute error (MAE).
+Checks size of errors in predictions. It doesn't matter if the
+prediction was over or under (for example, -3 and +3 both indicate a
+variance of 3). The metric is known as the absolute error for each
+prediction, and can be summarized for the whole validation set as the
+mean absolute error (MAE).
 
-    In the ice cream example, the mean (average) of the absolute errors
-    (2, 3, 3, 1, 2, and 3) is (2 + 3 + 3 + 1 + 2 + 3)/6 = 2.33 which is
-    sum of values / number of the values
+In the ice cream example, the mean (average) of the absolute errors (2,
+3, 3, 1, 2, and 3) is (2 + 3 + 3 + 1 + 2 + 3)/6 = 2.33 which is sum of
+values / number of the values
 
-2.  Mean Squared Error (MSE)
+#### Mean Squared Error (MSE)
 
-    Takes all discrepancies between predicted and actual labels into
-    account equally. It can be desirable to have a model that is
-    consistently wrong by a small amount than one that makes fewer, but
-    larger errors.
+Takes all discrepancies between predicted and actual labels into account
+equally. It can be desirable to have a model that is consistently wrong
+by a small amount than one that makes fewer, but larger errors.
 
-    A method to create a metric that "amplifies" larger errors is by
-    squaring the individual errors and calculating the mean of the
-    squared values.
+A method to create a metric that "amplifies" larger errors is by
+squaring the individual errors and calculating the mean of the squared
+values.
 
-    In our ice cream example, the mean of the squared absolute values
-    (which are 4, 9, 9, 1, 4, and 9) is 6. It similar the MAE except all
-    error variances are squared (multiplied by itself) before
-    calculating the mean.
+In our ice cream example, the mean of the squared absolute values (which
+are 4, 9, 9, 1, 4, and 9) is 6. It similar the MAE except all error
+variances are squared (multiplied by itself) before calculating the
+mean.
 
-3.  Root Mean Squared Error (RMSE)
+#### Root Mean Squared Error (RMSE)
 
-    Mean squared error helps take how large the errors are into account,
-    but because it squares the error values, the metric does not
-    represents the quantity measured by the label.
+Mean squared error helps take how large the errors are into account, but
+because it squares the error values, the metric does not represents the
+quantity measured by the label.
 
-    In the example, 6 is just a numeric score that indicates the level
-    of error in the validation predictions.
+In the example, 6 is just a numeric score that indicates the level of
+error in the validation predictions.
 
-    To measure the error in terms of the number of ice creams and not
-    just a score, we need to calculate the square root of the MSE,
-    creating a metric called Root Mean Squared Error. In this case √6 is
-    2.45 (ice creams).
+To measure the error in terms of the number of ice creams and not just a
+score, we need to calculate the square root of the MSE, creating a
+metric called Root Mean Squared Error. In this case √6 is 2.45 (ice
+creams).
 
-4.  Coefficient of determination (R<sup>2</sup>)
+#### Coefficient of determination (R<sup>2</sup>)
 
-    All of metrics so far compare the variance between the predicted and
-    actual values. In reality, there is natural random variance in daily
-    sales of ice cream that the model takes into account.
+All of metrics so far compare the variance between the predicted and
+actual values. In reality, there is natural random variance in daily
+sales of ice cream that the model takes into account.
 
-    In a linear regression model, the training algorithm fits a straight
-    line that minimizes the mean variance between the function and the
-    known label values.
+In a linear regression model, the training algorithm fits a straight
+line that minimizes the mean variance between the function and the known
+label values.
 
-    The coefficient of determination (more commonly referred to as
-    R<sup>2</sup> or R-Squared) is a metric that measures the proportion
-    of variance in the validation results that can be explained by the
-    model, as opposed to some odd aspect of the validation data (for
-    example, a day with a highly unusual number of ice creams sales
-    because of a local festival).
+The coefficient of determination (more commonly referred to as
+R<sup>2</sup> or R-Squared) is a metric that measures the proportion of
+variance in the validation results that can be explained by the model,
+as opposed to some odd aspect of the validation data (for example, a day
+with a highly unusual number of ice creams sales because of a local
+festival).
 
-    R2 is more complex then previous options and compares the sum of
-    squared differences between predicted and actual labels with the sum
-    of squared differences between the actual label values and the mean
-    of actual label values, like this:
+R2 is more complex then previous options and compares the sum of squared
+differences between predicted and actual labels with the sum of squared
+differences between the actual label values and the mean of actual label
+values, like this:
 
-    R2 = 1- ∑(y-ŷ)<sup>2</sup> ÷ ∑(y-ȳ)<sup>2</sup>
+R2 = 1- ∑(y-ŷ)<sup>2</sup> ÷ ∑(y-ȳ)<sup>2</sup>
 
-    The result is a value between 0 and 1 that describes the proportion
-    of variance explained by the model:
+The result is a value between 0 and 1 that describes the proportion of
+variance explained by the model:
 
-    - Closer to 1 this value is, means the better the model fits
-      validation data
-    - In example ice cream regression model, the R2 calculated from the
-      validation data is 0.95.
+- Closer to 1 this value is, means the better the model fits validation
+  data
+- In example ice cream regression model, the R2 calculated from the
+  validation data is 0.95.
 
-5.  Iterative Training
+#### Iterative Training
 
-    In most situations, data scientists need to iterate and repeatedly
-    train and evaluate a model by changing:
+In most situations, data scientists need to iterate and repeatedly train
+and evaluate a model by changing:
 
-    - Training data used, which features, preparing data
-    - Algorithm selection, for example linear or other types of
-      regression
-    - Algorithm parameters, accurately called hyperparameters that are
-      separate from x and y
+- Training data used, which features, preparing data
+- Algorithm selection, for example linear or other types of regression
+- Algorithm parameters, accurately called hyperparameters that are
+  separate from x and y
 
-    Iterations will use an evaluation metric and choose an acceptable
-    model for the use case.
+Iterations will use an evaluation metric and choose an acceptable model
+for the use case.
 
 ## Binary Classification
 
@@ -369,105 +367,104 @@ top left to bottom right.
 - ŷ=0 and y=1: False negatives (FN)
 - ŷ=1 and y=1: True positives (TP)
 
-1.  Accuracy
+#### Accuracy
 
-    Using the confusion matrix, accuracy checks the proportion of
-    predictions that the model got right.
+Using the confusion matrix, accuracy checks the proportion of
+predictions that the model got right.
 
-    ``` text
+``` text
 
-    = (TN + TP) / (TN + FN + FP + TP)
-    = (2+3) / (2+1+0+3)
-    = 5 / 6
-    = 0.83
+= (TN + TP) / (TN + FN + FP + TP)
+= (2+3) / (2+1+0+3)
+= 5 / 6
+= 0.83
 
-    ```
+```
 
-    An issue with just accuracy is an example if 11% of the population
-    has diabetes and a model always predicts 0, it would have 89%
-    accuracy even though it doesn't really evaluate patient features.
+An issue with just accuracy is an example if 11% of the population has
+diabetes and a model always predicts 0, it would have 89% accuracy even
+though it doesn't really evaluate patient features.
 
-2.  Recall, also called true positive rate (TPR)
+#### Recall, also called true positive rate (TPR)
 
-    The metric recall measure the portion of positive cases that the
-    model identified correctly. So, compared to the number of patient
-    who were observed to have diabetes, how many did the model predict
-    to have diabetes.
+The metric recall measure the portion of positive cases that the model
+identified correctly. So, compared to the number of patient who were
+observed to have diabetes, how many did the model predict to have
+diabetes.
 
-    ``` text
+``` text
 
-    = TP / (TP + FN)
-    = 3 / (3 + 1)
-    = 0.75
+= TP / (TP + FN)
+= 3 / (3 + 1)
+= 0.75
 
-    ```
+```
 
-    So the example model predicted 75% of the patients who have diabetes
-    correctly.
+So the example model predicted 75% of the patients who have diabetes
+correctly.
 
-3.  Precision
+#### Precision
 
-    Similar to recall, precision looks at predicted positive cases and
-    check where the true label is actually positive. In the example,
-    precision looks at portion of patients predicted by the model as
-    true and whether they actually have diabetes.
+Similar to recall, precision looks at predicted positive cases and check
+where the true label is actually positive. In the example, precision
+looks at portion of patients predicted by the model as true and whether
+they actually have diabetes.
 
-    ``` text
+``` text
 
-    = TP / (TP + FP)
-    = 3 / (3 + 0)
-    = 1
+= TP / (TP + FP)
+= 3 / (3 + 0)
+= 1
 
-    ```
+```
 
-    So 100% of the patients predicted to have diabetes by the example
-    model, have diabetes
+So 100% of the patients predicted to have diabetes by the example model,
+have diabetes
 
-4.  F1-score
+#### F1-score
 
-    Combining recall and precision is a metric called F1-score.
+Combining recall and precision is a metric called F1-score.
 
-    ``` text
+``` text
 
-    = (2 x Precision x Recall) / (Precision + Recall)
-    = (2 x 1 x 0.75) / 1 + 0.75)
-    = 0.86
+= (2 x Precision x Recall) / (Precision + Recall)
+= (2 x 1 x 0.75) / 1 + 0.75)
+= 0.86
 
-    ```
+```
 
-5.  Area Under the Curve (AUC)
+#### Area Under the Curve (AUC)
 
-    Another name for recall is the true positive rate (TPR) and an
-    equivalent metric is false positive false (FPR) calculated as:
+Another name for recall is the true positive rate (TPR) and an
+equivalent metric is false positive false (FPR) calculated as:
 
-    = FP / ( FP + TN ) = 0 / 2 = 0
+= FP / ( FP + TN ) = 0 / 2 = 0
 
-    Both TPR and FPR metrics can be used to evaluate the model by
-    plotting a received operator characteristic (ROC) curve that
-    compares the TPR and FPR for every possible threshold value between
-    0.0 and 1.0.
+Both TPR and FPR metrics can be used to evaluate the model by plotting a
+received operator characteristic (ROC) curve that compares the TPR and
+FPR for every possible threshold value between 0.0 and 1.0.
 
-    <figure id="fig:roc-chart">
-    <img
-    src="https://learn.microsoft.com/en-us/training/wwl-data-ai/fundamentals-machine-learning/media/roc-chart.png" />
-    <figcaption>Plot of FPR vs TPR with Received operator characteristic
-    (ROC) curve</figcaption>
-    </figure>
+<figure id="fig:roc-chart">
+<img
+src="https://learn.microsoft.com/en-us/training/wwl-data-ai/fundamentals-machine-learning/media/roc-chart.png" />
+<figcaption>Plot of FPR vs TPR with Received operator characteristic
+(ROC) curve</figcaption>
+</figure>
 
-    Example possible ROC curves:
+Example possible ROC curves:
 
-    - The ROC curve for a perfect model would go straight up the TPR
-      axis on the left and then across the FPR axis at the top. Since
-      the plot area for the curve measures 1x1, the area under this
-      perfect curve would be 1.0 (model is correct 100% of the time)
-    - A diagonal line from the bottom-left to the top-right represents
-      the results that would be achieved by randomly guessing a binary
-      label; producing an area under the curve of 0.5. In other words,
-      given two possible class labels, you could reasonably expect to
-      guess correctly 50% of the time.
+- The ROC curve for a perfect model would go straight up the TPR axis on
+  the left and then across the FPR axis at the top. Since the plot area
+  for the curve measures 1x1, the area under this perfect curve would be
+  1.0 (model is correct 100% of the time)
+- A diagonal line from the bottom-left to the top-right represents the
+  results that would be achieved by randomly guessing a binary label;
+  producing an area under the curve of 0.5. In other words, given two
+  possible class labels, you could reasonably expect to guess correctly
+  50% of the time.
 
-    In the example, the area under the curve (AUC) metric is 0.875
-    meaning the model performs better than random guessing (0.5).
+In the example, the area under the curve (AUC) metric is 0.875 meaning
+the model performs better than random guessing (0.5).
 
 ## Multiclass Classification
 
@@ -487,68 +484,66 @@ class.
 
 The following are kinds of algorithms.
 
-1.  One-vs-Rest (OvR) algorithms
+#### One-vs-Rest (OvR) algorithms
 
-    OvR algorithms train a function probability prediction for each
-    class
+OvR algorithms train a function probability prediction for each class
 
-    For the penguin example with 3 possible species, the algorithm
-    create three binary classification functions:
+For the penguin example with 3 possible species, the algorithm create
+three binary classification functions:
 
-    f0(x) = P(y=0 \| x) f1(x) = P(y=1 \| x) f2(x) = P(y=2 \| x)
+f0(x) = P(y=0 \| x) f1(x) = P(y=1 \| x) f2(x) = P(y=2 \| x)
 
-    Each algorithm produces a sigmoid function that calculates a
-    probability value between 0.0 and 1.0. A model trained with OvR
-    predicts the class for the function that produces the highest
-    probability.
+Each algorithm produces a sigmoid function that calculates a probability
+value between 0.0 and 1.0. A model trained with OvR predicts the class
+for the function that produces the highest probability.
 
-2.  Multinomial algorithms
+#### Multinomial algorithms
 
-    A multinomial algorithm creates a single function that returns a
-    multi-valued output. The output is a vector (array of values) that
-    contains the probability distribution for all possible classes -
-    with a probability score for each class which when added up to 1.0:
+A multinomial algorithm creates a single function that returns a
+multi-valued output. The output is a vector (array of values) that
+contains the probability distribution for all possible classes - with a
+probability score for each class which when added up to 1.0:
 
-    f(x) =\[P(y=0\|x), P(y=1\|x), P(y=2\|x)\]
+f(x) =\[P(y=0\|x), P(y=1\|x), P(y=2\|x)\]
 
-    An example of this kind of function is a softmax function with
-    example output:
+An example of this kind of function is a softmax function with example
+output:
 
-    \[0.2, 0.3, 0.5\]
+\[0.2, 0.3, 0.5\]
 
-    The elements in the vector represent the probabilities for classes
-    0, 1, and 2 respectively; so in this case, the class with the
-    highest probability is 2 at 0.5.
+The elements in the vector represent the probabilities for classes 0, 1,
+and 2 respectively; so in this case, the class with the highest
+probability is 2 at 0.5.
 
-    All algorithms will use the function outputs to determine the most
-    probably class (y) given a set of features (x).
+All algorithms will use the function outputs to determine the most
+probably class (y) given a set of features (x).
 
-3.  Evaluating a multiclass classification model
+#### Evaluating a multiclass classification model
 
-    Evaluation can be done by calculating classification metrics for
-    each class or calculate aggregrate metrics that take all classes
-    into account.
+Evaluation can be done by calculating classification metrics for each
+class or calculate aggregrate metrics that take all classes into
+account.
 
-    A confusion matrix can be used similar to binary classification,
-    except the matrix shoes the number of predictions for each
-    combination of y-hat and actual class y:
+A confusion matrix can be used similar to binary classification, except
+the matrix shoes the number of predictions for each combination of y-hat
+and actual class y:
 
-    |     |       |       |       |
-    |-----|-------|-------|-------|
-    |     | y-hat | y-hat | y-hat |
-    | y   | 0     | 1     | 2     |
-    | 0   | 2     | 0     | 0     |
-    | 1   | 1     | 2     | 0     |
-    | 2   | 0     | 1     | 2     |
+|     |       |       |       |
+|-----|-------|-------|-------|
+|     | y-hat | y-hat | y-hat |
+| y   | 0     | 1     | 2     |
+| 0   | 2     | 0     | 0     |
+| 1   | 1     | 2     | 0     |
+| 2   | 0     | 1     | 2     |
 
-    For each class, evaluation metrics used in binary classification can
-    be used like:
+For each class, evaluation metrics used in binary classification can be
+used like:
 
-    | Class | TP  | TN  | FP  | FN  | Accuracy | Recall | Precision | F1-Score |
-    |-------|-----|-----|-----|-----|----------|--------|-----------|----------|
-    | 0     | 2   | 5   | 0   | 0   | 1.0      | 1.0    | 1.0       | 1.0      |
-    | 1     | 2   | 4   | 1   | 0   | 0.86     | 1.0    | 0.67      | 0.8      |
-    | 2     | 2   | 4   | 0   | 1   | 0.86     | 0.67   | 1.0       | 0.8      |
+| Class | TP  | TN  | FP  | FN  | Accuracy | Recall | Precision | F1-Score |
+|-------|-----|-----|-----|-----|----------|--------|-----------|----------|
+| 0     | 2   | 5   | 0   | 0   | 1.0      | 1.0    | 1.0       | 1.0      |
+| 1     | 2   | 4   | 1   | 0   | 0.86     | 1.0    | 0.67      | 0.8      |
+| 2     | 2   | 4   | 0   | 1   | 0.86     | 0.67   | 1.0       | 0.8      |
 
 ## Clustering
 
@@ -566,30 +561,29 @@ results to later build a classification model.
 
 ### Training a clustering model
 
-1.  Algorithm: K-Means clustering
+#### Algorithm: K-Means clustering
 
-    - Features (x) are vectorized to n-dimensional coordinates (n is the
-      number of features). In the example, we use leaves (x1) and petals
-      (x2) and would have coordinates in 2 dimensional space \[x1, x2\]
-    - The data scientist decides on the number of clusters to group the
-      flowers - call this value k. For example, using 3 cluster, k = 3.
-      The k points are plotted at random coordinates. These points
-      become centre points for each cluster and are called centroids.
-    - Each data point (observed flower) is assign to its nearest
-      centroid
-    - The centroids are moved to the centre of the data points assigned
-      to it based on mean (average) distance between the points
-    - After the centroid moves, the data points are reassigned to
-      clusters based on the new closest centroid.
-    - The centroid movement and cluster reassignment can be repeated
-      until becoming stable or set number of iterations
+- Features (x) are vectorized to n-dimensional coordinates (n is the
+  number of features). In the example, we use leaves (x1) and petals
+  (x2) and would have coordinates in 2 dimensional space \[x1, x2\]
+- The data scientist decides on the number of clusters to group the
+  flowers - call this value k. For example, using 3 cluster, k = 3. The
+  k points are plotted at random coordinates. These points become centre
+  points for each cluster and are called centroids.
+- Each data point (observed flower) is assign to its nearest centroid
+- The centroids are moved to the centre of the data points assigned to
+  it based on mean (average) distance between the points
+- After the centroid moves, the data points are reassigned to clusters
+  based on the new closest centroid.
+- The centroid movement and cluster reassignment can be repeated until
+  becoming stable or set number of iterations
 
-    <figure id="fig:clustering">
-    <img
-    src="https://learn.microsoft.com/en-us/training/wwl-data-ai/fundamentals-machine-learning/media/clustering.gif" />
-    <figcaption>Animation of cluster creation, centroid movement, and data
-    point centroid reassignement</figcaption>
-    </figure>
+<figure id="fig:clustering">
+<img
+src="https://learn.microsoft.com/en-us/training/wwl-data-ai/fundamentals-machine-learning/media/clustering.gif" />
+<figcaption>Animation of cluster creation, centroid movement, and data
+point centroid reassignement</figcaption>
+</figure>
 
 ### Evaluating a clustering model
 
@@ -861,116 +855,110 @@ Example implementations:
 - Generative Pretrained Transformer (GPT) model by OpenAI uses only the
   decoder block
 
-1.  Tokenization and Embeddings
+#### Tokenization and Embeddings
 
-    See Tokenization and Transformers section of [Microsoft Azure AI
-    Fundamentals, Generative
-    AI](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
-    [Microsoft Azure AI Fundamentals: Generative
-    AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3)
+See Tokenization and Transformers section of [Microsoft Azure AI
+Fundamentals, Generative
+AI](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
+[Microsoft Azure AI Fundamentals: Generative
+AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3)
 
-2.  Positional Encoding
+#### Positional Encoding
 
-    Transformers use positional encoding which is the sum of word
-    embedding vectors and positional vectors. The result is encoded text
-    has information about the meaning and position of a word in a
-    sentence.
+Transformers use positional encoding which is the sum of word embedding
+vectors and positional vectors. The result is encoded text has
+information about the meaning and position of a word in a sentence.
 
-    To encode the position of a word in a sentence, a single number
-    represents the index value.
+To encode the position of a word in a sentence, a single number
+represents the index value.
 
-3.  Attention and Relationships
+#### Attention and Relationships
 
-    Attention is used to establish relationship between tokens.
-    Self-attention involves considering how other tokens around one
-    particular token influence that token's meaning
+Attention is used to establish relationship between tokens.
+Self-attention involves considering how other tokens around one
+particular token influence that token's meaning
 
-    Encoder and decoder blocks in a transformer model include many
-    layers of the neural network. One of the types of layers are
-    attention layers.
+Encoder and decoder blocks in a transformer model include many layers of
+the neural network. One of the types of layers are attention layers.
 
-    - Encoder block: each token is examined in context and encoding
-      determined for its vector embedding. Vector values are based on
-      relationship between token and other tokens it frequently appears
-      with. Context is taken so the same word may have multiple
-      embedding values depending on context. Example "the bark of a
-      tree" and "I heard a dog bark".
+- Encoder block: each token is examined in context and encoding
+  determined for its vector embedding. Vector values are based on
+  relationship between token and other tokens it frequently appears
+  with. Context is taken so the same word may have multiple embedding
+  values depending on context. Example "the bark of a tree" and "I heard
+  a dog bark".
 
-    - Decoder block: attention layers help predict the next token in
-      sequence. For each token generated, the model has an attention
-      layer taking into account the sequence of token at that time and
-      look at which tokens are most important. Example: For "I heard a
-      dog bark", the attention layer may assign higher weight to "heard"
-      and "dog" when generating the next work in sequence.
+- Decoder block: attention layers help predict the next token in
+  sequence. For each token generated, the model has an attention layer
+  taking into account the sequence of token at that time and look at
+  which tokens are most important. Example: For "I heard a dog bark",
+  the attention layer may assign higher weight to "heard" and "dog" when
+  generating the next work in sequence.
 
-    - Positional encoding layer adds a value to each embedding to
-      indicate its position in sequence:
+- Positional encoding layer adds a value to each embedding to indicate
+  its position in sequence:
 
-      ``` text
+  ``` text
 
-      [1,5,6,2] (I)
-      [2,9,3,1] (heard)
-      [3,1,1,2] (a)
-      [4,10,3,2] (dog)
+  [1,5,6,2] (I)
+  [2,9,3,1] (heard)
+  [3,1,1,2] (a)
+  [4,10,3,2] (dog)
 
-      ```
+  ```
 
-    - Attention layer: deals with vectors of tokens, not the actual
-      words. It assigns numeric weight to each token in the sequence.
-      Calculation is done on the weighted vectors to create an attention
-      score to help with prediction.
+- Attention layer: deals with vectors of tokens, not the actual words.
+  It assigns numeric weight to each token in the sequence. Calculation
+  is done on the weighted vectors to create an attention score to help
+  with prediction.
 
-      - The attention function calculations help determine the most
-        relevant output. Transformers use multi-head attention meaning
-        tokens are processing by the attention function in parallel to
-        get different kinds of information from a sentence.
-      - The neural network evaluates all possible tokens to determine
-        the most probable token. This process continues for each token
-        with each input used regressively as input for the next
-        iteration.
+  - The attention function calculations help determine the most relevant
+    output. Transformers use multi-head attention meaning tokens are
+    processing by the attention function in parallel to get different
+    kinds of information from a sentence.
+  - The neural network evaluates all possible tokens to determine the
+    most probable token. This process continues for each token with each
+    input used regressively as input for the next iteration.
 
-    Transformers use an attention function where a new word is encoded
-    using positional encoding and represented as a query. The output of
-    encoded word is a key with a related value. For example,
-    `Vincent Van Gogh` is a query and related to the key `painter`. The
-    key and values are stored in a table for decoding later.
+Transformers use an attention function where a new word is encoded using
+positional encoding and represented as a query. The output of encoded
+word is a key with a related value. For example, `Vincent Van Gogh` is a
+query and related to the key `painter`. The key and values are stored in
+a table for decoding later.
 
-4.  Simplified Representation of the Process
+#### Simplified Representation of the Process
 
-    1.  Token embeddings are fed into the attention layer
-    2.  Decoder predicts the next token in the sequence, a vector in
-        line with an embedding in the model's vocabulary.
-    3.  Attention layer evaluates the sequence so far and assigns
-        weights to each token to represent their relative influence on
-        the next token.
-    4.  Weights help compute a new vector for the next token with an
-        attention score. Multi-head attention uses different elements in
-        the embeddings to calculate multiple alternative tokens.
-    5.  Neural network uses scores in the vectors to predict the most
-        probable token from the entire vocabulary.
-    6.  The predicted output is added to the sequence and used as the
-        input for the next iteration.
+1.  Token embeddings are fed into the attention layer
+2.  Decoder predicts the next token in the sequence, a vector in line
+    with an embedding in the model's vocabulary.
+3.  Attention layer evaluates the sequence so far and assigns weights to
+    each token to represent their relative influence on the next token.
+4.  Weights help compute a new vector for the next token with an
+    attention score. Multi-head attention uses different elements in the
+    embeddings to calculate multiple alternative tokens.
+5.  Neural network uses scores in the vectors to predict the most
+    probable token from the entire vocabulary.
+6.  The predicted output is added to the sequence and used as the input
+    for the next iteration.
 
-5.  Model Training
+#### Model Training
 
-    During training, the actual sequence of tokens is known and later
-    ones are masked for validation. As in any neural network, the
-    predicted value for the token vector is compared to the actual value
-    of the next vector in the sequence, and the loss is calculated. The
-    weights are then incrementally adjusted to reduce the loss and
-    improve the model. When inferencing (predicting a new sequence of
-    tokens), the attention layer applies weights to predict the most
-    probable token in the model’s vocabulary that is semantically
-    aligned to the sequence so far.
+During training, the actual sequence of tokens is known and later ones
+are masked for validation. As in any neural network, the predicted value
+for the token vector is compared to the actual value of the next vector
+in the sequence, and the loss is calculated. The weights are then
+incrementally adjusted to reduce the loss and improve the model. When
+inferencing (predicting a new sequence of tokens), the attention layer
+applies weights to predict the most probable token in the model’s
+vocabulary that is semantically aligned to the sequence so far.
 
-    Example: a transformer model like GPT-4 (the model behind ChatGPT
-    and Bing) which stands for generative pre-trained transformer (GPT)
-    is designed to take text input (called a prompt) and generate a
-    syntactically correct output (called a completion). The model uses
-    its large vocabulary and the ability to generate meaningful
-    sequences of words. The model relies on its training of large volume
-    of data (public and licensed data from the Internet) and complexity
-    of the network.
+Example: a transformer model like GPT-4 (the model behind ChatGPT and
+Bing) which stands for generative pre-trained transformer (GPT) is
+designed to take text input (called a prompt) and generate a
+syntactically correct output (called a completion). The model uses its
+large vocabulary and the ability to generate meaningful sequences of
+words. The model relies on its training of large volume of data (public
+and licensed data from the Internet) and complexity of the network.
 
 ### More about Models, Transformer Architecture
 
@@ -994,31 +982,31 @@ Transformer Model
 - Uses encoder for understanding
 - Uses decoder for generation
 
-1.  Language Models
+#### Language Models
 
-    ``` text
+``` text
 
-    Data -> Encoder -> Transformer Model (Vector DB) uses embeddings
-                            |
-                            |-> Decoder -> Output
+Data -> Encoder -> Transformer Model (Vector DB) uses embeddings
+                        |
+                        |-> Decoder -> Output
 
-    ```
+```
 
-    Tokenisation - transforms sentence words to numbers, a mathematical
-    translation of words to tokens; 1 token is about 4 characters
+Tokenisation - transforms sentence words to numbers, a mathematical
+translation of words to tokens; 1 token is about 4 characters
 
-2.  Language Models and Attention
+#### Language Models and Attention
 
-    Captures strength of relationships between tokens using attention
-    technique
+Captures strength of relationships between tokens using attention
+technique
 
-    Example: "I heard a dog <u>\_</u>"
+Example: "I heard a dog <u>\_</u>"
 
-    - Predict word after "dog"
-    - "heard" and "dog" have more weight
-    - Most probable token added: "bark"
+- Predict word after "dog"
+- "heard" and "dog" have more weight
+- Most probable token added: "bark"
 
-    Fine-Tuning Models means customizing a model for specific tasks
+Fine-Tuning Models means customizing a model for specific tasks
 
 ## Machine Learning in Azure
 
@@ -1049,150 +1037,144 @@ Common ML tasks are:
 4.  Computer vision: Classify images or detect objects in images
 5.  Natural language processing (NLP): Extract insights from text.
 
-<!-- -->
+#### Example
 
-1.  Example
+Determining if patients have diabetes.
 
-    Determining if patients have diabetes.
+- Data: patient health
+- ML tasks: Classification with category of yes or no for diabetes
 
-    - Data: patient health
-    - ML tasks: Classification with category of yes or no for diabetes
+#### ML Steps
 
-2.  ML Steps
+- Load data: Import and inspect the dataset.
+- Preprocess data: Normalize and clean for consistency.
+- Split data: Separate into training and test sets.
+- Choose model: Select and configure an algorithm.
+- Train model: Learn patterns from the training data.
+- Score model: Generate predictions on test data.
+- Evaluate: Calculate performance metrics.
 
-    - Load data: Import and inspect the dataset.
-    - Preprocess data: Normalize and clean for consistency.
-    - Split data: Separate into training and test sets.
-    - Choose model: Select and configure an algorithm.
-    - Train model: Learn patterns from the training data.
-    - Score model: Generate predictions on test data.
-    - Evaluate: Calculate performance metrics.
+#### Get and prepare data
 
-3.  Get and prepare data
+Identify data source and formats, how to provide the data, and design
+data ingestion. Example is data source is a CRM system in a SQL database
+which uses a tabular data format that is structured.
 
-    Identify data source and formats, how to provide the data, and
-    design data ingestion. Example is data source is a CRM system in a
-    SQL database which uses a tabular data format that is structured.
+A data ingestion solution might be Extract, Transform, and Load (ETL) or
+Extract, Load, and Transform (ELT) where a service provides data for ML
+model training. A data ingestion pipeline is a set of tasks that
+processes the data for the model.
 
-    A data ingestion solution might be Extract, Transform, and Load
-    (ETL) or Extract, Load, and Transform (ELT) where a service provides
-    data for ML model training. A data ingestion pipeline is a set of
-    tasks that processes the data for the model.
+Example pipeline:
 
-    Example pipeline:
+- Get raw data from data source
+- ETL with Azure Synapse Analytics or Databricks
+- Store prepared data in Azure blob storage
+- Train model with Azure Machine Learning
 
-    - Get raw data from data source
-    - ETL with Azure Synapse Analytics or Databricks
-    - Store prepared data in Azure blob storage
-    - Train model with Azure Machine Learning
+Example implementation:
 
-    Example implementation:
+json \> table \> transform data
 
-    json \> table \> transform data
+#### Train the Model
 
-4.  Train the Model
+Considerations:
 
-    Considerations:
+- Type of model
+- Control over training
+- Time/budget available
+- Services, knowledge in organization, including preferred programming
+  languages
 
-    - Type of model
-    - Control over training
-    - Time/budget available
-    - Services, knowledge in organization, including preferred
-      programming languages
+Azure services for training ML models:
 
-    Azure services for training ML models:
+- Azure Machine Learning to train and manage your machine learning
+  models. Studio for UI or use Python SDK or CLI
+- Azure Databricks is a data analytics platform for data engineering and
+  data science. It uses Spark compute process data. Azure Databricks can
+  both train and manage models or integrate with Azure ML
+- Microsoft Fabric is an integrated analytics platform for data
+  workflows between data analysts, data engineers, and data scientists.
+  It is a tool to prepare data, train a model, use the trained model to
+  generate predictions, and visualize the data in Power BI reports.
+- Azure AI Services is a collection of prebuilt machine learning models
+  you can use for ML tasks. The models are offered as an application
+  programming interface (API). Some models can be customized with your
+  own training data
 
-    - Azure Machine Learning to train and manage your machine learning
-      models. Studio for UI or use Python SDK or CLI
-    - Azure Databricks is a data analytics platform for data engineering
-      and data science. It uses Spark compute process data. Azure
-      Databricks can both train and manage models or integrate with
-      Azure ML
-    - Microsoft Fabric is an integrated analytics platform for data
-      workflows between data analysts, data engineers, and data
-      scientists. It is a tool to prepare data, train a model, use the
-      trained model to generate predictions, and visualize the data in
-      Power BI reports.
-    - Azure AI Services is a collection of prebuilt machine learning
-      models you can use for ML tasks. The models are offered as an
-      application programming interface (API). Some models can be
-      customized with your own training data
+1.  Azure Machine Learning
 
-    1.  Azure Machine Learning
+    Supports:
 
-        Supports:
+    - Data preparation
+    - Training and evaluating machine learning models
+    - Registering and managing trained models
+    - Deploying models for use
+    - Applying responsible AI
 
-        - Data preparation
-        - Training and evaluating machine learning models
-        - Registering and managing trained models
-        - Deploying models for use
-        - Applying responsible AI
+    It takes care of:
 
-        It takes care of:
+    - Storage and management of data for model training and evaluation
+    - Automated ML (AutoML) allowing multiple training jobs (algorithms,
+      parameters) to find the best model
+    - Pipelines for training and inferencing
+    - Integration with ML frameworks like MLflow
+    - Metric visualization and evaluation, like check against
+      responsible AI fairness and others
+    - Compute needed for tasks described
 
-        - Storage and management of data for model training and
-          evaluation
-        - Automated ML (AutoML) allowing multiple training jobs
-          (algorithms, parameters) to find the best model
-        - Pipelines for training and inferencing
-        - Integration with ML frameworks like MLflow
-        - Metric visualization and evaluation, like check against
-          responsible AI fairness and others
-        - Compute needed for tasks described
+2.  Use Azure Machine Learning studio
 
-    2.  Use Azure Machine Learning studio
+    A browser portal for Azure Machine Learning studio allows using
+    Azure Machine Learning. Get started with an Azure Machine Learning
+    workspace which will work with other Azure resources like storage
+    accounts and VMs.
 
-        A browser portal for Azure Machine Learning studio allows using
-        Azure Machine Learning. Get started with an Azure Machine
-        Learning workspace which will work with other Azure resources
-        like storage accounts and VMs.
+    The studio allows data model, and compute management, notebook
+    coding, pipelines, AutoML, deployment, and importing models.
 
-        The studio allows data model, and compute management, notebook
-        coding, pipelines, AutoML, deployment, and importing models.
+    Available compute are:
 
-        Available compute are:
+    - Central Processing Unit (CPU) or a Graphics Processing Unit
+      (GPU) - For smaller tabular datasets, a CPU is sufficient and
+      cost-effective. For unstructured data like images or text, GPUs
+      are more powerful and efficient. GPUs can also be used for larger
+      tabular datasets, if CPU compute is proving to be insufficient.
+    - General purpose or memory optimized - Use general purpose to have
+      a balanced CPU-to-memory ratio, which is ideal for testing and
+      development with smaller datasets. Use memory optimized to have a
+      high memory-to-CPU ratio. Great for in-memory analytics, which is
+      ideal when you have larger datasets or when you're working in
+      notebooks.
 
-        - Central Processing Unit (CPU) or a Graphics Processing Unit
-          (GPU) - For smaller tabular datasets, a CPU is sufficient and
-          cost-effective. For unstructured data like images or text,
-          GPUs are more powerful and efficient. GPUs can also be used
-          for larger tabular datasets, if CPU compute is proving to be
-          insufficient.
-        - General purpose or memory optimized - Use general purpose to
-          have a balanced CPU-to-memory ratio, which is ideal for
-          testing and development with smaller datasets. Use memory
-          optimized to have a high memory-to-CPU ratio. Great for
-          in-memory analytics, which is ideal when you have larger
-          datasets or when you're working in notebooks.
+    Azure Automated Machine Learning will automate assignment of compute
+    and iterative tasks of model development.
 
-        Azure Automated Machine Learning will automate assignment of
-        compute and iterative tasks of model development.
+3.  Integrate a model - Deployment and Application Use
 
-    3.  Integrate a model - Deployment and Application Use
+    Models are deployed to endpoints. An endpoint is a web address
+    applications can call for responses.
 
-        Models are deployed to endpoints. An endpoint is a web address
-        applications can call for responses.
+    1.  Real time and Batch
 
-        1.  Real time and Batch
+        - Real time predictions - good for apps or websites needing
+          immediate feedback like a retail store
+        - Batch predictions - good for reports, where data can be
+          submitted for processing later
 
-            - Real time predictions - good for apps or websites needing
-              immediate feedback like a retail store
-            - Batch predictions - good for reports, where data can be
-              submitted for processing later
+        Consider requirements for frequency of predictions needs,
+        compute, and individual vs batch data input. For example, if
+        model predictions are only needed at certain times, batch
+        predictions work.
 
-            Consider requirements for frequency of predictions needs,
-            compute, and individual vs batch data input. For example, if
-            model predictions are only needed at certain times, batch
-            predictions work.
+    2.  Compute
 
-        2.  Compute
+        Real time prediction may need container services like Azure
+        container instance (ACI) and Kubernetes.
 
-            Real time prediction may need container services like Azure
-            container instance (ACI) and Kubernetes.
-
-            For batch predictions, they might be done in parallel or
-            large workload in a cluster which can be turned off after,
-            saving costs.
+        For batch predictions, they might be done in parallel or large
+        workload in a cluster which can be turned off after, saving
+        costs.
 
 ### Explore Automated Machine Learning in Azure Machine Learning - Demonstration in Azure
 

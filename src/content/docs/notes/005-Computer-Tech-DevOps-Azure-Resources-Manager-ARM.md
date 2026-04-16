@@ -16,11 +16,11 @@ infrastructure as code (IaC).
 Benefits: reuse, time efficiency, continuous deployment and integration,
 track deployments
 
-1.  Parts of an ARM Template
+#### Parts of an ARM Template
 
-    - Input: JavaScript Object Notation File (JSON)
-    - Configure a resource
-    - Declarative syntax
+- Input: JavaScript Object Notation File (JSON)
+- Configure a resource
+- Declarative syntax
 
 ### ARM Template Structure
 
@@ -165,210 +165,210 @@ else {
 - You can retrieve a template from an existing resources using export
   template in the Azure Portal from the resource
 
-1.  vm.json
+#### vm.json
 
-    - Make sure the VM name is unique
+- Make sure the VM name is unique
 
-    ``` json
+``` json
 
-    {
-        "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
-        "contentVersion": "1.0.0.0",
-        "parameters": {
-            // specific relevant parameters below
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        // specific relevant parameters below
+    },
+    "functions": [],
+    "variables": {
+        // specific relevant variables below
+    },
+    "resources": [
+        {
+            "type": "Microsoft.Storage/storageAccounts",
+            "apiVersion": "2023-04-01",
+            "name": "[variables('storageAccountName')]",
+            "location": "[parameters('location')]",
+            "sku": {
+                "name": "Standard_LRS"
+            },
+            "kind": "Storage"
         },
-        "functions": [],
-        "variables": {
-            // specific relevant variables below
+        {
+            "type": "Microsoft.Network/publicIPAddresses",
+            "apiVersion": "2023-11-01",
+            "name": "[parameters('publicIpName')]",
+            "location": "[parameters('location')]",
+            "sku": {
+                "name": "[parameters('publicIpSku')]"
+            },
+            "properties": {
+                "publicIPAllocationMethod": "[parameters('publicIPAllocationMethod')]",
+                "dnsSettings": {
+                    "domainNameLabel": "[parameters('dnsLabelPrefix')]"
+                }
+            }
         },
-        "resources": [
-            {
-                "type": "Microsoft.Storage/storageAccounts",
-                "apiVersion": "2023-04-01",
-                "name": "[variables('storageAccountName')]",
-                "location": "[parameters('location')]",
-                "sku": {
-                    "name": "Standard_LRS"
-                },
-                "kind": "Storage"
-            },
-            {
-                "type": "Microsoft.Network/publicIPAddresses",
-                "apiVersion": "2023-11-01",
-                "name": "[parameters('publicIpName')]",
-                "location": "[parameters('location')]",
-                "sku": {
-                    "name": "[parameters('publicIpSku')]"
-                },
-                "properties": {
-                    "publicIPAllocationMethod": "[parameters('publicIPAllocationMethod')]",
-                    "dnsSettings": {
-                        "domainNameLabel": "[parameters('dnsLabelPrefix')]"
-                    }
-                }
-            },
-            {
-                "type": "Microsoft.Network/networkSecurityGroups",
-                "apiVersion": "2023-11-01",
-                "name": "[variables('networkSecurityGroupName')]",
-                "location": "[parameters('location')]",
-                "properties": {
-                    "securityRules": [
-                        {
-                            "name": "default-allow-3389",
-                            "properties": {
-                                "priority": 1000,
-                                "access": "Allow",
-                                "direction": "Inbound",
-                                "destinationPortRange": "3389",
-                                "protocol": "Tcp",
-                                "sourcePortRange": "*",
-                                "sourceAddressPrefix": "*",
-                                "destinationAddressPrefix": "*"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "type": "Microsoft.Network/virtualNetworks",
-                "apiVersion": "2023-11-01",
-                "name": "[variables('virtualNetworkName')]",
-                "location": "[parameters('location')]",
-                "properties": {
-                    "addressSpace": {
-                        "addressPrefixes": [
-                            "[variables('addressPrefix')]"
-                        ]
-                    },
-                    "subnets": [
-                        {
-                            "name": "[variables('subnetName')]",
-                            "properties": {
-                                "addressPrefix": "[variables('subnetPrefix')]",
-                                "networkSecurityGroup": {
-                                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroupName'))]"
-                                }
-                            }
-                        }
-                    ]
-                },
-                "dependsOn": [
-                    "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroupName'))]"
-                ]
-            },
-            {
-                "type": "Microsoft.Network/networkInterfaces",
-                "apiVersion": "2023-11-01",
-                "name": "[variables('nicName')]",
-                "location": "[parameters('location')]",
-                "properties": {
-                    "ipConfigurations": [
-                        {
-                            "name": "ipconfig1",
-                            "properties": {
-                                "privateIPAllocationMethod": "Dynamic",
-                                "publicIPAddress": {
-                                    "id": "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIpName'))]"
-                                },
-                                "subnet": {
-                                    "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]"
-                                }
-                            }
-                        }
-                    ]
-                },
-                "dependsOn": [
-                    "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIpName'))]",
-                    "[resourceId('Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]"
-                ]
-            },
-            {
-                "type": "Microsoft.Compute/virtualMachines",
-                "apiVersion": "2023-03-01",
-                "name": "[parameters('vmName')]",
-                "location": "[parameters('location')]",
-                "properties": {
-                    "hardwareProfile": {
-                        "vmSize": "[parameters('vmSize')]"
-                    },
-                    "osProfile": {
-                        "computerName": "[parameters('vmName')]",
-                        "adminUsername": "[parameters('adminUsername')]",
-                        "adminPassword": "[parameters('adminPassword')]"
-                    },
-                    "storageProfile": {
-                        "imageReference": {
-                            "publisher": "MicrosoftWindowsServer",
-                            "offer": "WindowsServer",
-                            "sku": "[parameters('OSVersion')]",
-                            "version": "latest"
-                        },
-                        "osDisk": {
-                            "createOption": "FromImage",
-                            "managedDisk": {
-                                "storageAccountType": "StandardSSD_LRS"
-                            }
-                        },
-                        "dataDisks": [
-                            {
-                                "diskSizeGB": 1023,
-                                "lun": 0,
-                                "createOption": "Empty"
-                            }
-                        ]
-                    },
-                    "networkProfile": {
-                        "networkInterfaces": [
-                            {
-                                "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('nicName'))]"
-                            }
-                        ]
-                    },
-                    "diagnosticsProfile": {
-                        "bootDiagnostics": {
-                            "enabled": true,
-                            "storageUri": "[reference(resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName')), '2022-05-01').primaryEndpoints.blob]"
-                        }
-                    },
-                    "securityProfile": "[if(equals(parameters('securityType'), 'TrustedLaunch'), variables('securityProfileJson'), null())]"
-                },
-                "dependsOn": [
-                    "[resourceId('Microsoft.Network/networkInterfaces', variables('nicName'))]",
-                    "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]"
-                ]
-            },
-            {
-                "condition": "[and(equals(parameters('securityType'), 'TrustedLaunch'), and(equals(variables('securityProfileJson').uefiSettings.secureBootEnabled, true()), equals(variables('securityProfileJson').uefiSettings.vTpmEnabled, true())))]",
-                "type": "Microsoft.Compute/virtualMachines/extensions",
-                "apiVersion": "2023-03-01",
-                "name": "[format('{0}/{1}', parameters('vmName'), variables('extensionName'))]",
-                "location": "[parameters('location')]",
-                "properties": {
-                    "publisher": "[variables('extensionPublisher')]",
-                    "type": "[variables('extensionName')]",
-                    "typeHandlerVersion": "[variables('extensionVersion')]",
-                    "autoUpgradeMinorVersion": true,
-                    "enableAutomaticUpgrade": true,
-                    "settings": {
-                        "AttestationConfig": {
-                            "MaaSettings": {
-                                "maaEndpoint": "[variables('maaEndpoint')]",
-                                "maaTenantName": "[variables('maaTenantName')]"
-                            }
+        {
+            "type": "Microsoft.Network/networkSecurityGroups",
+            "apiVersion": "2023-11-01",
+            "name": "[variables('networkSecurityGroupName')]",
+            "location": "[parameters('location')]",
+            "properties": {
+                "securityRules": [
+                    {
+                        "name": "default-allow-3389",
+                        "properties": {
+                            "priority": 1000,
+                            "access": "Allow",
+                            "direction": "Inbound",
+                            "destinationPortRange": "3389",
+                            "protocol": "Tcp",
+                            "sourcePortRange": "*",
+                            "sourceAddressPrefix": "*",
+                            "destinationAddressPrefix": "*"
                         }
                     }
-                },
-                "dependsOn": [
-                    "[resourceId('Microsoft.Compute/virtualMachines', parameters('vmName'))]"
                 ]
             }
+        },
+        {
+            "type": "Microsoft.Network/virtualNetworks",
+            "apiVersion": "2023-11-01",
+            "name": "[variables('virtualNetworkName')]",
+            "location": "[parameters('location')]",
+            "properties": {
+                "addressSpace": {
+                    "addressPrefixes": [
+                        "[variables('addressPrefix')]"
+                    ]
+                },
+                "subnets": [
+                    {
+                        "name": "[variables('subnetName')]",
+                        "properties": {
+                            "addressPrefix": "[variables('subnetPrefix')]",
+                            "networkSecurityGroup": {
+                                "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroupName'))]"
+                            }
+                        }
+                    }
+                ]
+            },
+            "dependsOn": [
+                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroupName'))]"
+            ]
+        },
+        {
+            "type": "Microsoft.Network/networkInterfaces",
+            "apiVersion": "2023-11-01",
+            "name": "[variables('nicName')]",
+            "location": "[parameters('location')]",
+            "properties": {
+                "ipConfigurations": [
+                    {
+                        "name": "ipconfig1",
+                        "properties": {
+                            "privateIPAllocationMethod": "Dynamic",
+                            "publicIPAddress": {
+                                "id": "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIpName'))]"
+                            },
+                            "subnet": {
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]"
+                            }
+                        }
+                    }
+                ]
+            },
+            "dependsOn": [
+                "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIpName'))]",
+                "[resourceId('Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]"
+            ]
+        },
+        {
+            "type": "Microsoft.Compute/virtualMachines",
+            "apiVersion": "2023-03-01",
+            "name": "[parameters('vmName')]",
+            "location": "[parameters('location')]",
+            "properties": {
+                "hardwareProfile": {
+                    "vmSize": "[parameters('vmSize')]"
+                },
+                "osProfile": {
+                    "computerName": "[parameters('vmName')]",
+                    "adminUsername": "[parameters('adminUsername')]",
+                    "adminPassword": "[parameters('adminPassword')]"
+                },
+                "storageProfile": {
+                    "imageReference": {
+                        "publisher": "MicrosoftWindowsServer",
+                        "offer": "WindowsServer",
+                        "sku": "[parameters('OSVersion')]",
+                        "version": "latest"
+                    },
+                    "osDisk": {
+                        "createOption": "FromImage",
+                        "managedDisk": {
+                            "storageAccountType": "StandardSSD_LRS"
+                        }
+                    },
+                    "dataDisks": [
+                        {
+                            "diskSizeGB": 1023,
+                            "lun": 0,
+                            "createOption": "Empty"
+                        }
+                    ]
+                },
+                "networkProfile": {
+                    "networkInterfaces": [
+                        {
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('nicName'))]"
+                        }
+                    ]
+                },
+                "diagnosticsProfile": {
+                    "bootDiagnostics": {
+                        "enabled": true,
+                        "storageUri": "[reference(resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName')), '2022-05-01').primaryEndpoints.blob]"
+                    }
+                },
+                "securityProfile": "[if(equals(parameters('securityType'), 'TrustedLaunch'), variables('securityProfileJson'), null())]"
+            },
+            "dependsOn": [
+                "[resourceId('Microsoft.Network/networkInterfaces', variables('nicName'))]",
+                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]"
+            ]
+        },
+        {
+            "condition": "[and(equals(parameters('securityType'), 'TrustedLaunch'), and(equals(variables('securityProfileJson').uefiSettings.secureBootEnabled, true()), equals(variables('securityProfileJson').uefiSettings.vTpmEnabled, true())))]",
+            "type": "Microsoft.Compute/virtualMachines/extensions",
+            "apiVersion": "2023-03-01",
+            "name": "[format('{0}/{1}', parameters('vmName'), variables('extensionName'))]",
+            "location": "[parameters('location')]",
+            "properties": {
+                "publisher": "[variables('extensionPublisher')]",
+                "type": "[variables('extensionName')]",
+                "typeHandlerVersion": "[variables('extensionVersion')]",
+                "autoUpgradeMinorVersion": true,
+                "enableAutomaticUpgrade": true,
+                "settings": {
+                    "AttestationConfig": {
+                        "MaaSettings": {
+                            "maaEndpoint": "[variables('maaEndpoint')]",
+                            "maaTenantName": "[variables('maaTenantName')]"
+                        }
+                    }
+                }
+            },
+            "dependsOn": [
+                "[resourceId('Microsoft.Compute/virtualMachines', parameters('vmName'))]"
+            ]
+        }
 
-        ],
-        "outputs": {}
-    }
+    ],
+    "outputs": {}
+}
 
-    ```
+```
 
 ### When to choose BICEP vs ARM
 

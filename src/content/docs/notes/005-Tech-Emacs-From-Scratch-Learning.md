@@ -115,84 +115,84 @@ Task Management:
 - Refile DONE tasks using: `org-refile-targets`
   - Set up autosave after refiling so all org files are saved
 
-1.  Capture Template
+#### Capture Template
 
-    - Quickly capture something without disrupting your flow
-    - Use templates to capture tasks: with configuration
-      `org-capture-templates` and activate using `org-capture`
-    - Items like journal entries, tasks, notes, custom entries in a
-      specific org file
-    - Use `define-key` to bind `org-capture` to speed up captures
+- Quickly capture something without disrupting your flow
+- Use templates to capture tasks: with configuration
+  `org-capture-templates` and activate using `org-capture`
+- Items like journal entries, tasks, notes, custom entries in a specific
+  org file
+- Use `define-key` to bind `org-capture` to speed up captures
 
-2.  Customize agenda view
+#### Customize agenda view
 
-    [Source part of
-    video](https://youtu.be/PNE-mgkZ6HM?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ&t=1607):
+[Source part of
+video](https://youtu.be/PNE-mgkZ6HM?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ&t=1607):
 
-    - Dashboard
-    - Next actions
-    - Tags with Tasks
-      - Add tag with `counsel-org-tag`. Add multiple tags with `M-Enter`
-      - Queries based on tags
-      - In configuration, add your custom tags with `org-tag-alist`
-      - Set multiple tags with hotkeys: `org-set-tags-command`
-    - Set up a custom agenda - like a kanban board with
-      `org-agenda-custom-commands` and configurations. See example:
+- Dashboard
+- Next actions
+- Tags with Tasks
+  - Add tag with `counsel-org-tag`. Add multiple tags with `M-Enter`
+  - Queries based on tags
+  - In configuration, add your custom tags with `org-tag-alist`
+  - Set multiple tags with hotkeys: `org-set-tags-command`
+- Set up a custom agenda - like a kanban board with
+  `org-agenda-custom-commands` and configurations. See example:
 
-    ``` elisp
-    ;; Configure custom agenda views
-     (setq org-agenda-custom-commands
-      '(("d" "Dashboard"
-        ((agenda "" ((org-deadline-warning-days 7)))
-         (todo "NEXT"
-           ((org-agenda-overriding-header "Next Tasks")))
-         (tags-todo "agenda/ACTIVE" ((org-agenda-overriding-header "Active Projects")))))
+``` elisp
+;; Configure custom agenda views
+ (setq org-agenda-custom-commands
+  '(("d" "Dashboard"
+    ((agenda "" ((org-deadline-warning-days 7)))
+     (todo "NEXT"
+       ((org-agenda-overriding-header "Next Tasks")))
+     (tags-todo "agenda/ACTIVE" ((org-agenda-overriding-header "Active Projects")))))
 
-       ("n" "Next Tasks"
-        ((todo "NEXT"
-           ((org-agenda-overriding-header "Next Tasks")))))
+   ("n" "Next Tasks"
+    ((todo "NEXT"
+       ((org-agenda-overriding-header "Next Tasks")))))
 
-       ("W" "Work Tasks" tags-todo "+work-email")
+   ("W" "Work Tasks" tags-todo "+work-email")
 
-       ;; Low-effort next actions
-       ("e" tags-todo "+TODO=\"NEXT\"+Effort<15&+Effort>0"
-        ((org-agenda-overriding-header "Low Effort Tasks")
-         (org-agenda-max-todos 20)
-         (org-agenda-files org-agenda-files)))
+   ;; Low-effort next actions
+   ("e" tags-todo "+TODO=\"NEXT\"+Effort<15&+Effort>0"
+    ((org-agenda-overriding-header "Low Effort Tasks")
+     (org-agenda-max-todos 20)
+     (org-agenda-files org-agenda-files)))
 
-       ("w" "Workflow Status"
-        ((todo "WAIT"
-               ((org-agenda-overriding-header "Waiting on External")
-                (org-agenda-files org-agenda-files)))
-         (todo "REVIEW"
-               ((org-agenda-overriding-header "In Review")
-                (org-agenda-files org-agenda-files)))
-         (todo "PLAN"
-               ((org-agenda-overriding-header "In Planning")
-                (org-agenda-todo-list-sublevels nil)
-                (org-agenda-files org-agenda-files)))
-         (todo "BACKLOG"
-               ((org-agenda-overriding-header "Project Backlog")
-                (org-agenda-todo-list-sublevels nil)
-                (org-agenda-files org-agenda-files)))
-         (todo "READY"
-               ((org-agenda-overriding-header "Ready for Work")
-                (org-agenda-files org-agenda-files)))
-         (todo "ACTIVE"
-               ((org-agenda-overriding-header "Active Projects")
-                (org-agenda-files org-agenda-files)))
-         (todo "COMPLETED"
-               ((org-agenda-overriding-header "Completed Projects")
-                (org-agenda-files org-agenda-files)))
-         (todo "CANC"
-               ((org-agenda-overriding-header "Cancelled Projects")
-                (org-agenda-files org-agenda-files)))))))
-    ```
+   ("w" "Workflow Status"
+    ((todo "WAIT"
+           ((org-agenda-overriding-header "Waiting on External")
+            (org-agenda-files org-agenda-files)))
+     (todo "REVIEW"
+           ((org-agenda-overriding-header "In Review")
+            (org-agenda-files org-agenda-files)))
+     (todo "PLAN"
+           ((org-agenda-overriding-header "In Planning")
+            (org-agenda-todo-list-sublevels nil)
+            (org-agenda-files org-agenda-files)))
+     (todo "BACKLOG"
+           ((org-agenda-overriding-header "Project Backlog")
+            (org-agenda-todo-list-sublevels nil)
+            (org-agenda-files org-agenda-files)))
+     (todo "READY"
+           ((org-agenda-overriding-header "Ready for Work")
+            (org-agenda-files org-agenda-files)))
+     (todo "ACTIVE"
+           ((org-agenda-overriding-header "Active Projects")
+            (org-agenda-files org-agenda-files)))
+     (todo "COMPLETED"
+           ((org-agenda-overriding-header "Completed Projects")
+            (org-agenda-files org-agenda-files)))
+     (todo "CANC"
+           ((org-agenda-overriding-header "Cancelled Projects")
+            (org-agenda-files org-agenda-files)))))))
+```
 
-3.  Habit Tracking
+#### Habit Tracking
 
-    - Uses `org-habit`
-    - Check you are regularly doing habits by tracking it
+- Uses `org-habit`
+- Check you are regularly doing habits by tracking it
 
 ### 7 - Configure Everything with Org Babel
 
@@ -396,68 +396,63 @@ Source:
 - [How to Cut Emacs Start Up Time in Half! - Emacs From Scratch
   \#12](https://www.youtube.com/watch?v=9i_9hse_Y08&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ&index=12)
 
-1.  Pain point, slow Emacs startup
+#### Pain point, slow Emacs startup
 
-    - Emacs start up time can get slow as you configure and use more
-      packages.
+- Emacs start up time can get slow as you configure and use more
+  packages.
 
-    - It is not daemon mode related where Emacs and always running as
-      daemon
+- It is not daemon mode related where Emacs and always running as daemon
 
-    - Does Emacs actually start slow? no, try `emacs -Q` to start
-      without any configuration and see it is instant.
+- Does Emacs actually start slow? no, try `emacs -Q` to start without
+  any configuration and see it is instant.
 
-2.  Startup time
+#### Startup time
 
-    You can track start up times with dashboard package or example:
+You can track start up times with dashboard package or example:
 
-    ``` elisp
+``` elisp
 
-    ;; Track start up time and number of garbage collections
-    (defun efs/display-startup-time ()
-      (message "Emacs loaded in %s with %d garbage collections."
-               (format "%.2f seconds"
-                       (float-time
-                       (time-subtract after-init-time before-init-time)))
-               gcs-done))
+;; Track start up time and number of garbage collections
+(defun efs/display-startup-time ()
+  (message "Emacs loaded in %s with %d garbage collections."
+           (format "%.2f seconds"
+                   (float-time
+                   (time-subtract after-init-time before-init-time)))
+           gcs-done))
 
-    (add-hook 'emacs-startup-hook #'efs/display-startup-time)
-    ```
+(add-hook 'emacs-startup-hook #'efs/display-startup-time)
+```
 
-    All start up stuff can be seen in function `normal-top-level` and/or
-    read list of [Summary: Sequence of Actions at
-    Startup](https://www.gnu.org/software/emacs/manual/html_node/elisp/Startup-Summary.html).
+All start up stuff can be seen in function `normal-top-level` and/or
+read list of [Summary: Sequence of Actions at
+Startup](https://www.gnu.org/software/emacs/manual/html_node/elisp/Startup-Summary.html).
 
-3.  Advice on Startup times
+#### Advice on Startup times
 
-    [See
-    tips](https://github.com/daviwil/emacs-from-scratch/blob/master/show-notes/Emacs-Scratch-12.md#the-most-important-tip-dont-load-any-packages)
+[See
+tips](https://github.com/daviwil/emacs-from-scratch/blob/master/show-notes/Emacs-Scratch-12.md#the-most-important-tip-dont-load-any-packages)
 
-    `use-package` gives you a few different ways to defer package
-    loading:
+`use-package` gives you a few different ways to defer package loading:
 
-    - `:hook` - Package will be loaded the first time one of the hooks
-      is invoked
-    - `:bind` - Package will be loaded the first time one of the key
-      bindings is used
-    - `:commands` - Package will be loaded when one of the commands are
-      used
-    - `:mode` - Package will be loaded the first time a file with a
-      particular extension is opened
-      - Regexp pattern on file before a mode is loaded
-    - `:after` - Load this package after other specific packages are
-      loaded
-    - `:defer` - If you don't use any of the other options, this one
-      will defer loading until after startup
-      - Defer to later or number of seconds after startup
-      - Determine if packages needs to be there at startup, otherwise
-        defer
-    - `:demand t` - If you want to load a package at startup despite
-      other options, use demand
-    - Load stuff after other things using `with-eval-after-load`
-    - Adjust garbage collection. See also package
-      [gcmh](https://akrl.sdf.org/) that adjusts garbage collections
-      during run time
+- `:hook` - Package will be loaded the first time one of the hooks is
+  invoked
+- `:bind` - Package will be loaded the first time one of the key
+  bindings is used
+- `:commands` - Package will be loaded when one of the commands are used
+- `:mode` - Package will be loaded the first time a file with a
+  particular extension is opened
+  - Regexp pattern on file before a mode is loaded
+- `:after` - Load this package after other specific packages are loaded
+- `:defer` - If you don't use any of the other options, this one will
+  defer loading until after startup
+  - Defer to later or number of seconds after startup
+  - Determine if packages needs to be there at startup, otherwise defer
+- `:demand t` - If you want to load a package at startup despite other
+  options, use demand
+- Load stuff after other things using `with-eval-after-load`
+- Adjust garbage collection. See also package
+  [gcmh](https://akrl.sdf.org/) that adjusts garbage collections during
+  run time
 
 ### Emacs from Scratch Old Series - Final Init.el
 
@@ -477,56 +472,55 @@ Common use cases:
 - Set variables
 - Change features
 
-1.  Set Variables
+#### Set Variables
+
+``` elisp
+;; Do not show splash screen
+;; Flash on warnings
+(setq inhibit-startup-message t
+      visble-bell t) ;; Comment at end of line
+
+;; t = true
+;; nil = false
+```
+
+- This is a lisp expression (wrapped in parentheses) that is a "call" to
+  a function called `setq`. The function `setq` takes two arguments, the
+  first is the variable name and the second is the value to set it to.
+- Variable and function names in Emacs are usually form
+  `some-variable-name` = lower case words with hyphen characters between
+  them.
+- You can evaluate Emacs configuration as it is running.
+
+#### Change Features
+
+``` elisp
+;; Disable tool bar
+(tool-bar-mode -1)
+```
+
+- `-1` in this case means false
+
+1.  Setting Theme
 
     ``` elisp
-    ;; Do not show splash screen
-    ;; Flash on warnings
-    (setq inhibit-startup-message t
-          visble-bell t) ;; Comment at end of line
-
-    ;; t = true
-    ;; nil = false
+    ;; Set theme to Modus Vivendi (Emacs 28 and later)
+    (load-theme 'modus-vivendi t)
     ```
 
-    - This is a lisp expression (wrapped in parentheses) that is a
-      "call" to a function called `setq`. The function `setq` takes two
-      arguments, the first is the variable name and the second is the
-      value to set it to.
-    - Variable and function names in Emacs are usually form
-      `some-variable-name` = lower case words with hyphen characters
-      between them.
-    - You can evaluate Emacs configuration as it is running.
+    `'` before modus-vivendi tells lisp to not evaluate the theme's name
+    and just read it as a name
 
-2.  Change Features
+#### Getting Help
 
-    ``` elisp
-    ;; Disable tool bar
-    (tool-bar-mode -1)
-    ```
+Get documentation
 
-    - `-1` in this case means false
+- describe-symbol - documentation on any
 
-    1.  Setting Theme
+Can read from cursor:
 
-        ``` elisp
-        ;; Set theme to Modus Vivendi (Emacs 28 and later)
-        (load-theme 'modus-vivendi t)
-        ```
-
-        `'` before modus-vivendi tells lisp to not evaluate the theme's
-        name and just read it as a name
-
-3.  Getting Help
-
-    Get documentation
-
-    - describe-symbol - documentation on any
-
-    Can read from cursor:
-
-    - describe-variable - documentation on any variable
-    - describe-function - documentation on any function
+- describe-variable - documentation on any variable
+- describe-function - documentation on any function
 
 ### N2 The 6 Emacs Settings Every User Should Consider
 

@@ -7,7 +7,7 @@ title: Indigenous Land Acknowledgements
 
 My personal notes on different indigenous land Acknowledgements.
 
-# Personal Acknowledgement Consideration
+## Personal Acknowledgement Consideration
 
 From my walks near Toronto lake shore August 2021.
 
@@ -25,7 +25,7 @@ src="../media/Comms-Inclusion-Indigenous-Land-Acknowledgement-2022-10-03-12-33-0
 <figcaption>Peacemaker's Canoe</figcaption>
 </figure>
 
-# French Acknowledgements for different First Nations areas and traditional territories
+## French Acknowledgements for different First Nations areas and traditional territories
 
 Source: [Guide de reconnaissance des Premières Nations et des
 territoires traditionnels \|
@@ -46,7 +46,7 @@ Mississaugas. Nous reconnaissons que nous sommes tous visés par les
 traités et nous acceptons d'assumer notre responsabilité d'honorer
 toutes nos relations.
 
-# Niagara Regions
+## Niagara Regions
 
 Source: [Niagara Canada Games
 2022](https://www.canadagames.ca/previous-games/niagara-2022)
@@ -62,7 +62,7 @@ The Niagara 2022 Canada Summer Games stands with all Indigenous people,
 past and present, in promoting the wise stewardship of the lands on
 which we live.
 
-# Ontario general - English
+## Ontario general - English
 
 Based on [Legal Aid Ontario's Land
 Acknowledgement](https://www.legalaid.on.ca/land-acknowledgement/)
@@ -74,7 +74,7 @@ Nations, Metis and Inuit people who have cared for these territories
 since time immemorial and who continue to contribute to the strength of
 Ontario and to all communities across the province.
 
-# City of Toronto - English
+## City of Toronto - English
 
 Source: [City of Toronto
 site](https://www.toronto.ca/city-government/accessibility-human-rights/indigenous-affairs-office/land-acknowledgement/),

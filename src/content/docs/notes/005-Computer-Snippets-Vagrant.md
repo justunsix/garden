@@ -49,8 +49,11 @@ vagrant box add hashicorp/bionic64
 # Update a specific box
 vagrant box update --box archlinux/archlinux
 
-# List all environments on the system for the logged in user
+# List all virtual machines (VM), environments on the system for the logged in user
 vagrant global-status
+
+# List all virtual machines (VM), clean invalid entries
+vagrant global-status --prune
 
 # List all boxes
 vagrant box list

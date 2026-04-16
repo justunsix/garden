@@ -245,118 +245,117 @@ for demonstrations)
 - Summarization: summarizes text
 - Key phrase extraction: lists main concepts from unstructured text.
 
-1.  Entity recognition and linking
+#### Entity recognition and linking
 
-    Azure AI Language, when given unstructured text provides a list of
-    entities in the text that is recognizes.
+Azure AI Language, when given unstructured text provides a list of
+entities in the text that is recognizes.
 
-    Examples:
+Examples:
 
-    | Type                  | SubType     | Example                         |
-    |-----------------------|-------------|---------------------------------|
-    | Person                |             | "John", Marcus Aurelius         |
-    | Location              |             | "Paris", "New York"             |
-    | Organization          |             | "Microsoft"                     |
-    | Quantity              | Number      | "6" or "six"                    |
-    | Quantity              | Percentage  | "25%" or "fifty percent"        |
-    | Quantity              | Ordinal     | "1st" or "first"                |
-    | Quantity              | Age         | "90 day old" or "30 years old"  |
-    | Quantity              | Currency    | "10.99"                         |
-    | Quantity              | Dimension   | "10 miles", "40 cm"             |
-    | Quantity              | Temperature | "45 degrees"                    |
-    | DateTime              |             | "6:30PM February 4, 2012"       |
-    | DateTime              | Date        | "May 2nd, 2017" or "05/02/2017" |
-    | DateTime              | Time        | "8am" or "8:00"                 |
-    | DateTime              | DateRange   | "May 2nd to May 5th"            |
-    | DateTime              | DateRange   | last week                       |
-    | DateTime              | TimeRange   | "6pm to 7pm"                    |
-    | DateTime              | Duration    | "1 minute and 45 seconds"       |
-    | DateTime              | Set         | "every Tuesday"                 |
-    | URL                   |             | "<https://www.bing.com>"        |
-    | Email                 |             | "support@microsoft.com"         |
-    | US-based Phone Number |             | "(312) 555-0176"                |
-    | IP Address            |             | "10.0.1.125"                    |
+| Type                  | SubType     | Example                         |
+|-----------------------|-------------|---------------------------------|
+| Person                |             | "John", Marcus Aurelius         |
+| Location              |             | "Paris", "New York"             |
+| Organization          |             | "Microsoft"                     |
+| Quantity              | Number      | "6" or "six"                    |
+| Quantity              | Percentage  | "25%" or "fifty percent"        |
+| Quantity              | Ordinal     | "1st" or "first"                |
+| Quantity              | Age         | "90 day old" or "30 years old"  |
+| Quantity              | Currency    | "10.99"                         |
+| Quantity              | Dimension   | "10 miles", "40 cm"             |
+| Quantity              | Temperature | "45 degrees"                    |
+| DateTime              |             | "6:30PM February 4, 2012"       |
+| DateTime              | Date        | "May 2nd, 2017" or "05/02/2017" |
+| DateTime              | Time        | "8am" or "8:00"                 |
+| DateTime              | DateRange   | "May 2nd to May 5th"            |
+| DateTime              | DateRange   | last week                       |
+| DateTime              | TimeRange   | "6pm to 7pm"                    |
+| DateTime              | Duration    | "1 minute and 45 seconds"       |
+| DateTime              | Set         | "every Tuesday"                 |
+| URL                   |             | "<https://www.bing.com>"        |
+| Email                 |             | "support@microsoft.com"         |
+| US-based Phone Number |             | "(312) 555-0176"                |
+| IP Address            |             | "10.0.1.125"                    |
 
-2.  Language Detection
+#### Language Detection
 
-    Azure AI Language can detect language in which text is written. It
-    will detect the predominant language in mixed language text.
+Azure AI Language can detect language in which text is written. It will
+detect the predominant language in mixed language text.
 
-    Example if given a document:
+Example if given a document:
 
-    - Language name (for example "English").
-    - ISO 6391 language code (for example, "en").
-    - Score indicating a level of confidence in the language detection.
+- Language name (for example "English").
+- ISO 6391 language code (for example, "en").
+- Score indicating a level of confidence in the language detection.
 
-3.  Sentiment analysis and opinion mining
+#### Sentiment analysis and opinion mining
 
-    Evaluated text are given sentiment scores and labels for each
-    sentence.
+Evaluated text are given sentiment scores and labels for each sentence.
 
-    > Azure AI Language uses a prebuilt machine learning classification
-    > model to evaluate the text. The service returns sentiment scores
-    > in three categories: positive, neutral, and negative. In each of
-    > the categories, a score between 0 and 1 is provided.
+> Azure AI Language uses a prebuilt machine learning classification
+> model to evaluate the text. The service returns sentiment scores in
+> three categories: positive, neutral, and negative. In each of the
+> categories, a score between 0 and 1 is provided.
 
-4.  Key phrase extraction
+#### Key phrase extraction
 
-    Get main points from a text.
+Get main points from a text.
 
-    Example of a restaurant review:
+Example of a restaurant review:
 
-    > You might receive a review such as:
-    >
-    > "We had dinner here for a birthday celebration and had a fantastic
-    > experience. We were greeted by a friendly hostess and taken to our
-    > table right away. The ambiance was relaxed, the food was amazing,
-    > and service was terrific. If you like great food and attentive
-    > service, you should try this place."
-    >
-    > Key phrase extraction can provide some context to this review by
-    > extracting the following phrases:
-    >
-    > - birthday celebration
-    > - fantastic experience
-    > - friendly hostess
-    > - great food
-    > - attentive service
-    > - dinner
-    > - table
-    > - ambiance
-    > - place
+> You might receive a review such as:
+>
+> "We had dinner here for a birthday celebration and had a fantastic
+> experience. We were greeted by a friendly hostess and taken to our
+> table right away. The ambiance was relaxed, the food was amazing, and
+> service was terrific. If you like great food and attentive service,
+> you should try this place."
+>
+> Key phrase extraction can provide some context to this review by
+> extracting the following phrases:
+>
+> - birthday celebration
+> - fantastic experience
+> - friendly hostess
+> - great food
+> - attentive service
+> - dinner
+> - table
+> - ambiance
+> - place
 
 ### Azure and Conversational AI
 
-1.  Question Answering formerly QnA Maker
+#### Question Answering formerly QnA Maker
 
-    The service functions like Frequency Asked Questions (FAQ).
+The service functions like Frequency Asked Questions (FAQ).
 
-    Use case is a bot to respond to questions. Azure AI Language allows
-    creating a knowledge base of question and answer pairs that can be
-    queried using natural language input.
+Use case is a bot to respond to questions. Azure AI Language allows
+creating a knowledge base of question and answer pairs that can be
+queried using natural language input.
 
-    Bot could be exposed in chat, web, and other channels.
+Bot could be exposed in chat, web, and other channels.
 
-2.  Conversational language understanding (CLU) formerly Luis
+#### Conversational language understanding (CLU) formerly Luis
 
-    CLU builds language models that interpret meaning of phrases in a
-    conversation.
+CLU builds language models that interpret meaning of phrases in a
+conversation.
 
-    Language understanding: command with intent, entity
+Language understanding: command with intent, entity
 
-    Example utterance: commands like "turn on lights"
+Example utterance: commands like "turn on lights"
 
-    - Intent: Turn on
-    - Entity: Lights
-    - Entity recognition: action
+- Intent: Turn on
+- Entity: Lights
+- Entity recognition: action
 
-3.  Differences from Generative AI
+#### Differences from Generative AI
 
-    > Multiple AI capabilities are often working together, evolving
-    > from, or building off of one another. These conversational AI
-    > capabilities may look similar to what generative AI capabilities
-    > look like today. Generative AI uses NLP as a foundation but
-    > extends beyond it by creating new content.
+> Multiple AI capabilities are often working together, evolving from, or
+> building off of one another. These conversational AI capabilities may
+> look similar to what generative AI capabilities look like today.
+> Generative AI uses NLP as a foundation but extends beyond it by
+> creating new content.
 
 ### Azure AI Translator capabilities
 

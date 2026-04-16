@@ -70,6 +70,7 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Dired, edit with wdired, save changes | :w or C-c |
 | Dired, open marked files with external program | W, dired-do-open |
 | Dired, up directory | h |
+| Dired, Move/rename file, respect VCS like git mv (move) | R |
 | Documentation, Look up or Web search on selection | K |
 | eww, back URL | H or \[\[ |
 | eww, bookmark | m |

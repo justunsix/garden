@@ -26,7 +26,13 @@ plus my additions
 - Bash - Unix shell and command language written by Brian Fox for the
   GNU Project as a free software replacement for the Bourne shell
 - [Bitwarden](https://bitwarden.com/) - password management service
-- Blender - Blender 3D computer graphics software tool set
+- Blender - Blender 3D computer graphics software tool setA
+- [Browsh](https://www.brow.sh/) - text-based browser. It renders
+  anything that a modern browser can; HTML5, CSS3, JS, video and even
+  WebGL. Its main purpose is to be run on a remote server and accessed
+  via SSH/Mosh or the in-browser HTML service in order to significantly
+  reduce bandwidth and thus both increase browsing speeds and decrease
+  bandwidth costs. Only dependency is a recent version of Firefox.
 - [Bruno](https://github.com/usebruno/bruno) - Opensource IDE For
   Exploring and Testing API's (lightweight alternative to
   Postman/Insomnia)
@@ -51,6 +57,7 @@ plus my additions
   management, editing browser
 - Drupal - web content management system (CMS) written in PHP and
   distributed under the GNU General Public License
+- [ELinks](https://en.wikipedia.org/wiki/ELinks) - text based browser
 - [Espanso](https://espanso.org/) - Privacy-first, cross-platform text
   expander
 - [eSpeak NG Text-to-Speech](https://github.com/espeak-ng/espeak-ng) -
@@ -142,6 +149,8 @@ plus my additions
 - [Lazarus](https://www.lazarus-ide.org/) - Delphi compatible
   cross-platform IDE for Rapid Application Development, uses Free Pascal
 - LibreOffice - office Prod software suite
+- [Lynx](https://en.wikipedia.org/wiki/Lynx_(web_browser)) - text based
+  browser, oldest web browser still being maintained
 - [Mailvelope](https://mailvelope.com/en/help/anywhere) - OpenPGP
   encryption for web email
 - MariaDB - community-developed, commercially supported fork of the
@@ -162,6 +171,9 @@ plus my additions
   for data science machine learning.
 - [mpv](https://mpv.io/) - media player software based on MPlayer,
   mplayer2 and FFmpeg
+- [DevDocs](https://github.com/freeCodeCamp/devdocs/) - API
+  Documentation Browser for online and offline, including programming
+  languages, APIs and others
 - [Neovim](https://neovim.io/) - hyperextensible Vim-based text editor
 - [Netbox](https://github.com/netbox-community/netbox) - platform for
   network and infrastructure management and automation
@@ -205,6 +217,9 @@ plus my additions
   container engines from a single UI and tray
 - [Podman TUI](https://github.com/containers/podman-tui) - Podman
   terminal user interface
+- [Portainer](https://github.com/portainer/portainer) - lightweight
+  service delivery platform for containerized applications that can be
+  used to manage Docker, Swarm, Kubernetes and ACI environments
 - Proton tools - Mail, VPN, Drive open source
 - Qemu - emulator (Quick EMUlator). It emulates the machine's processor
   through dynamic binary translation and provides a set of different
@@ -253,6 +268,10 @@ plus my additions
   combines the clarity of a spreadsheet and efficiency of the terminal
 - [VLC](https://www.videolan.org/) - portable, cross-platform media
   player software and streaming media server
+- [w3m](https://en.wikipedia.org/wiki/W3m) - text based browser, web
+  pager
+- [Whisper](https://github.com/openai/whisper) - Speech Recognition via
+  Large-Scale Weak Supervision
 - [Wine](https://www.winehq.org/) - Wine Is Not an Emulator, now just
   "Wine" is a free and open-source compatibility layer that aims to
   allow application software and computer games developed for Microsoft
@@ -305,23 +324,23 @@ and [Scoop](https://scoop.sh/#/apps?q=kde).
 
 ## Modern Terminal Commands and Programs
 
-- [ag](https://github.com/ggreer/the_silver_searcher) - A code searching
-  tool similar to ack, but faster.
 - [alacritty](https://alacritty.org/) - terminal emulator, URLs can open,
   search, VI bindings
 - [asciinema](https://asciinema.org/) - record and share terminal
   sessions
 - [atuin](https://github.com/ellie/atuin) - interactive shell history
-- bacon - re-runs cargo clippy, build, test, or run
+- [bacon](https://github.com/Canop/bacon) - background code checker,
+  re-runs cargo clippy, build, test, or run
 - bat - cat with colours, line numbers, git integration, paging
-- bob-nvim - nvim version manager
+- [bob-nvim](https://github.com/MordechaiHadad/bob) - nvim version
+  manager
 - [bottom](https://github.com/ClementTsang/bottom) - like htop with
   widgets, cross platform
 - [broot](https://dystroy.org/broot/) - directory and file navigation
   with directory sizes, search
 - [btop](https://github.com/aristocratos/btop) - like top, system
   monitoring
-- cargo-info - shows info about cratesS
+- cargo-info - shows info about crates
 - cheat - cheat sheets
 - choose - human-friendly and fast alternative to cut and (sometimes)
   awk
@@ -355,8 +374,8 @@ and [Scoop](https://scoop.sh/#/apps?q=kde).
 - evcxr<sub>jupyter</sub> - rust kernel for jupyter, requires Jupyter
   framework to be installed
 - [eza](https://github.com/eza-community/eza) - ls with colours, icons
-- fd - find with shorter syntax, some limitations compared to find,
-  colours
+- [fd](https://github.com/sharkdp/fd) - find with shorter syntax, some
+  limitations compared to find, colours
 - [findutils (uutils)](https://github.com/uutils/findutils) - Rust
   implementation of GNU find, locate, xargs run commands on files
 - [fish shell](https://fishshell.com/) - command line shell
@@ -436,6 +455,8 @@ and [Scoop](https://scoop.sh/#/apps?q=kde).
   configurable prompt
 - [stern](https://github.com/stern/stern) - multi pod and container log
   tailing for Kubernetes
+- [Television](https://github.com/alexpasmantier/television) - fast,
+  portable and hackable fuzzy finder
 - tig - git log viewer
 - tldr ([tealdeer](https://github.com/dbrgn/tealdeer)) - shortened man
   pages with examples
@@ -459,7 +480,7 @@ and [Scoop](https://scoop.sh/#/apps?q=kde).
   previews and async I/O
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - audio/video downloader
 - [zellij](https://github.com/zellij.org/zellij) - terminal multiplexer
-  like tmux and screen, no Windows implementation as of 2023-06-14
+  like tmux and screen, cross platform
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - smart cd to jump to
   frequently used directories
 
@@ -473,23 +494,23 @@ Packages](https://packages.msys2.org/queue)
 
 Key commands I use regularly and packaging support:
 
-| Program  | Arch    | Debian | Fedora | FreeBSD | Ubuntu | Void | MSYS2 | scoop | openSUSE | mise |
-|----------|---------|--------|--------|---------|--------|------|-------|-------|----------|------|
-| atuin    | x       | x      | x      | x       | x      | x    | x     | x     | x        | x    |
-| bat      | x       | x      | x      | x       | x      | x    | x     | x     | x        | x    |
-| broot    | x       | x      |        | x       | x      | x    |       | x     | x        |      |
-| carapace | x (AUR) | x      | x      | x       | x      | x    |       | x     |          | x    |
-| fd       | x       | x      | x      | x       | x      | x    | x     | x     | x        | x    |
-| fzf      | x       | x      | x      | x       | x      | x    | x     | x     | x        | x    |
-| helix    | x       |        | x      | x       |        | x    | x     | x     | x        | x    |
-| lazygit  | x       | x      | x      | x       | x      | x    |       | x     | x        | x    |
-| mprocs   | x (AUR) |        |        | x       |        |      |       | x     |          | x    |
-| nushell  | x       |        |        | x       |        | x    |       | x     | x        |      |
-| ripgrep  | x       | x      | x      | x       | x      | x    | x     | x     | x        | x    |
-| starship | x       | x      | x      | x       | x      | x    | x     | x     | x        | x    |
-| topgrade | x       |        | x      | x       |        | x    |       | x     | x        | x    |
-| yazi     | x       |        | x      | x       |        | x    | x     | x     | x        | x    |
-| zoxide   | x       | x      | x      | x       | x      | x    | x     | x     | x        | x    |
+| Program | Arch | Debian | Fedora | FreeBSD | Ubuntu | Void | MSYS2 | scoop | openSUSE | mise | homebrew |
+|----|----|----|----|----|----|----|----|----|----|----|----|
+| atuin | x | x | x | x | x | x | x | x | x | x | x |
+| bat | x | x | x | x | x | x | x | x | x | x | x |
+| broot | x | x |  | x | x | x |  | x | x |  | x |
+| carapace | x (AUR) | x | x | x | x | x |  | x |  | x | x |
+| fd | x | x | x | x | x | x | x | x | x | x | x |
+| fzf | x | x | x | x | x | x | x | x | x | x | x |
+| helix | x |  | x | x |  | x | x | x | x | x | x |
+| lazygit | x | x | x | x | x | x |  | x | x | x | x |
+| mprocs | x (AUR) |  |  | x |  |  |  | x |  | x | x |
+| nushell | x |  | x | x |  | x |  | x | x |  | x |
+| ripgrep | x | x | x | x | x | x | x | x | x | x | x |
+| starship | x | x | x | x | x | x | x | x | x | x | x |
+| topgrade | x |  | x | x |  | x |  | x | x | x | x |
+| yazi | x |  | x | x |  | x | x | x | x | x | x |
+| zoxide | x | x | x | x | x | x | x | x | x | x | x |
 
 Footnotes:
 
@@ -598,3 +619,19 @@ App → Alternative
   [Terminal](id:af66c501-039b-4af6-ba93-18e759546761)
 - [KDE](/garden/notes/005-tech-kde) -
   [KDE](id:e9b0d465-18a0-470e-ad74-179048a24f95)
+
+### Resources
+
+- [Awesome Copilot /
+  GitHub](https://github.com/github/awesome-copilot) -
+  Community-contributed instructions, prompts, agent information, and
+  configurations to help you make the most of AI coding
+- [awesome-selfhosted: A list of Free Software network services and web
+  applications which can be hosted on your own servers ·
+  GitHub](https://github.com/awesome-selfhosted/awesome-selfhosted)
+- [toolleeo/awesome-cli-apps-in-a-csv: The largest Awesome Curated list
+  of command line programs (CLI/TUI) with source data organized into CSV
+  files · GitHub](https://github.com/toolleeo/awesome-cli-apps-in-a-csv)
+- [ripienaar/free-for-dev: A list of SaaS, PaaS and IaaS offerings that
+  have free tiers of interest to devops and infradev ·
+  GitHub](https://github.com/ripienaar/free-for-dev)

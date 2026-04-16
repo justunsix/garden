@@ -4,7 +4,7 @@ id: b02f078a-038d-425e-8ca9-f39fce4cff0c
 title: JavaScript
 ---
 
-# See Also
+## See Also
 
 - [JavaScript Basics
   Tutorial](/garden/notes/005-1-tech-javascript-basics-tutorial) - [JavaScript

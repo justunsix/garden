@@ -159,9 +159,20 @@ text and responses given as audio. API calls will include audio media.
 
 ## Exercise: Analyze text
 
-Create a language service and send hotel review data using the SDK for
+Create a language service to analyze hotel review data using the SDK for
 processing to return sentiment, entity and phrase analysis, and entity
 linking.
+
+## Exercise: Develop a text analysis agent
+
+Azure Language in Foundry Tools supports analysis of text, including
+language detection, entity recognition, and PII redaction.
+
+- Use the service directly in an application through its REST API with
+  an SDKs.
+- Use the service in Azure Language in Foundry Tools MCP server to
+  integrate its capabilities into an AI agent. It uses an AI Foundry
+  endpoint and key
 
 ## Exercise: Create a question answering solution
 

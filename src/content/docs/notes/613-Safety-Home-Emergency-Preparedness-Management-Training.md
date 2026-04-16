@@ -150,59 +150,59 @@ Preparedness Kits](id:5e5d2c96-0669-4e98-83d9-b1b348c57ec3)
 
 Your safety is required to help others
 
-1.  Potential hazards
+#### Potential hazards
 
-    - Terrain, victims, fire, wind, electricity, smells/gas, poison,
-      water, people, wildlife
+- Terrain, victims, fire, wind, electricity, smells/gas, poison, water,
+  people, wildlife
 
-    - First aid saying: "no fire, no wire, no gas, no glass, no bugs, no
-      thugs, no drugs, no wife, no knife"
+- First aid saying: "no fire, no wire, no gas, no glass, no bugs, no
+  thugs, no drugs, no wife, no knife"
 
-    - Assessments hazards, people first - use distance, PPE and training
-      to stay safe
+- Assessments hazards, people first - use distance, PPE and training to
+  stay safe
 
-    - Hazardous materials common storage places:
+- Hazardous materials common storage places:
 
-      - Stored in homes and sheds
-      - Gardening supply stores
-      - Dry-cleaning facilities
-      - Gas stations
-      - Hospitals
-      - Waste sites
-      - Industrial plants
-      - Highway and railroad shipments - Transport Canada requires
-        labeling of hazard symbols and shipping manifests
-      - Pipelines
+  - Stored in homes and sheds
+  - Gardening supply stores
+  - Dry-cleaning facilities
+  - Gas stations
+  - Hospitals
+  - Waste sites
+  - Industrial plants
+  - Highway and railroad shipments - Transport Canada requires labeling
+    of hazard symbols and shipping manifests
+  - Pipelines
 
-    - Workplace Hazardous Materials Information System (WHMIS) provides
-      information on labeling, Material Safety Data Sheets (MSDS) and
-      training
+- Workplace Hazardous Materials Information System (WHMIS) provides
+  information on labeling, Material Safety Data Sheets (MSDS) and
+  training
 
-    - Workers will be aware of the materials
+- Workers will be aware of the materials
 
-2.  Avoiding Exposure
+#### Avoiding Exposure
 
-    - Exposure may be direct, touching, breath, swallowing, punctures
-      - Breathing contaminated air - this exposure is the most common
-      - Making contact with hazardous materials on a surface
-      - Accidental ingestion from contaminated hands
+- Exposure may be direct, touching, breath, swallowing, punctures
+  - Breathing contaminated air - this exposure is the most common
+  - Making contact with hazardous materials on a surface
+  - Accidental ingestion from contaminated hands
 
-    Prevention:
+Prevention:
 
-    - Wear the recommended mask, gloves and other protective clothing
-    - Wash hands frequently and thoroughly
-    - Call Ontario Poison Centre at 1-800-268-9017 if you've been
-      exposed to hazardous materials
+- Wear the recommended mask, gloves and other protective clothing
+- Wash hands frequently and thoroughly
+- Call Ontario Poison Centre at 1-800-268-9017 if you've been exposed to
+  hazardous materials
 
-3.  First on Scene
+#### First on Scene
 
-    - Establish command
-    - Control area, prevent others/vehicles from entering
-      - Control zone:
-        - Hot zone: training and PPE required, direct exposure to hazard
-        - Warm zone: training and PPE may be required
-        - Cold zone: safe area
-    - Wait for responders
+- Establish command
+- Control area, prevent others/vehicles from entering
+  - Control zone:
+    - Hot zone: training and PPE required, direct exposure to hazard
+    - Warm zone: training and PPE may be required
+    - Cold zone: safe area
+- Wait for responders
 
 ### Personal Protective Equipment
 
@@ -239,57 +239,57 @@ Your safety is required to help others
 Volunteer can be exposed to stressful situations like weather,
 situations, victims, and senses and team members
 
-1.  Stress Types
+#### Stress Types
 
-    - Daily stress
-    - Worries related to home life like relationships and family
-    - Critical Incident Stress - normal reaction to abnormal events,
-      effects in order of timing they may occur in hours to weeks after
-      incident, over time they should pass
-      - Physical
-        - Pains, sleep issues, appetite
-      - Emotional
-        - Negative emotions
-      - Cognitive
-        - Difficulty concentrating, memory, making decisions
-      - Spiritual
-        - Questioning events
-    - Cumulative stress - built up over time
+- Daily stress
+- Worries related to home life like relationships and family
+- Critical Incident Stress - normal reaction to abnormal events, effects
+  in order of timing they may occur in hours to weeks after incident,
+  over time they should pass
+  - Physical
+    - Pains, sleep issues, appetite
+  - Emotional
+    - Negative emotions
+  - Cognitive
+    - Difficulty concentrating, memory, making decisions
+  - Spiritual
+    - Questioning events
+- Cumulative stress - built up over time
 
-2.  Treatment
+#### Treatment
 
-    - Allow natural feelings
-    - Monitor yourself and others
-    - Understand stress from incidents is natural
-    - Continue your routines
-      - Sleep
-      - Diet and healthy eating
-      - Relaxation
-      - Talking with others
-      - Keeping a positive attitude
-    - Do not use abuse things like drugs and alcohol
-    - Get professional help if reactions are harmful or over 8 weeks,
-      intensive, interfere with life, and/or do not improve
+- Allow natural feelings
+- Monitor yourself and others
+- Understand stress from incidents is natural
+- Continue your routines
+  - Sleep
+  - Diet and healthy eating
+  - Relaxation
+  - Talking with others
+  - Keeping a positive attitude
+- Do not use abuse things like drugs and alcohol
+- Get professional help if reactions are harmful or over 8 weeks,
+  intensive, interfere with life, and/or do not improve
 
-    Supporters of responders should:
+Supporters of responders should:
 
-    - Be flexible
-    - Be available to talk
-    - Provide time to sleep, relax, reflect
-    - Find time to enjoy
-    - Observe changes in feelings
-    - Encourage positive strategies
-    - Guide them to help if needed
-    - Learn about stress before emergencies
+- Be flexible
+- Be available to talk
+- Provide time to sleep, relax, reflect
+- Find time to enjoy
+- Observe changes in feelings
+- Encourage positive strategies
+- Guide them to help if needed
+- Learn about stress before emergencies
 
-    Support Team members with:
+Support Team members with:
 
-    - Show interest and attention
-    - Find a safe place to talk
-    - Get them something to eat or drink
-    - Ask a factual question
-    - Validate and normalize their reactions
-    - Acknowledge that it will take time
+- Show interest and attention
+- Find a safe place to talk
+- Get them something to eat or drink
+- Ask a factual question
+- Validate and normalize their reactions
+- Acknowledge that it will take time
 
 ## Accessibility and Human Rights
 

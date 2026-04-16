@@ -8,3 +8,4 @@ title: OpenCode Shortcuts
 |--------------------------|-----------|
 | Switch mode, plan, build | Tab       |
 | Command palette          | Ctrl + p  |
+| Clear prompt             | Ctrl + c  |

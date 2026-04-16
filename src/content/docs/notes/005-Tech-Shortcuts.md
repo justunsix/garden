@@ -12,6 +12,8 @@ title: Software Shortcuts
   Shortcuts](id:a677f25a-c28a-4849-872e-d4840caac0ed)
 - [Broot Shortcuts](/garden/notes/005-computer-shortcuts-broot) - [Broot
   Shortcuts](id:1761948a-dddd-40ed-8fe5-6805eb1dc5da)
+- [DevDocs Shortcuts](/garden/notes/005-computer-shortcuts-devdocs) - [DevDocs
+  Shortcuts](id:338a36b5-2b40-4f2f-8473-e3989bb62f86)
 - [Dolphin File Manager Shortcuts](/garden/notes/005-computer-shortcuts-dolphin) -
   [Dolphin File Manager
   Shortcuts](id:87c1a54e-8b05-42fa-b62d-a40fb869eddf)
@@ -117,6 +119,8 @@ title: Software Shortcuts
   Shortcuts](id:7f641c76-24e6-4027-b7b7-364b0f503926)
 - [top Shortcuts](/garden/notes/005-computer-shortcuts-top) - [top
   Shortcuts](id:0a383917-ba37-4fc8-9b88-f5dd212adc3d)
+- [Vim Packages Shortcuts](/garden/notes/005-computer-shortcuts-vim-packages) -
+  [Vim Packages Shortcuts](id:5406dafc-2c54-40ec-9efd-41b277e37284)
 - [Vim Shortcuts](/garden/notes/005-computer-shortcuts-vim) - [Vim
   Shortcuts](id:bdb62bfe-56b7-4c13-a1e4-9f91cf4e0bb5)
 - [Visidata Shortcuts](/garden/notes/005-computer-shortcuts-visidata) - [Visidata
@@ -129,3 +133,5 @@ title: Software Shortcuts
   Shortcuts](id:94f99405-bc87-4ae2-9f23-995f468ab10f)
 - [Yazi Shortcuts](/garden/notes/005-computer-shortcuts-yazi) - [Yazi
   Shortcuts](id:6e5e2e7a-210e-4f99-82a3-743109eaf120)
+- [Zellij Shortcuts](/garden/notes/005-computer-shortcuts-zellij) - [Zellij
+  Shortcuts](id:1a365f55-d4e8-4d68-a0cf-fbccb03cd1b7)

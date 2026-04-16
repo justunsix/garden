@@ -4,8 +4,10 @@ id: e286e554-accc-4af2-893f-3981f83d0c84
 title: Command Line Interface (CLI) for Complex Operations
 ---
 
-Source: [Command-line Tools can be 235x Faster than your Hadoop
+Source: All credits to [Command-line Tools can be 235x Faster than your
+Hadoop
 Cluster](https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html)
+by Adam Drake
 
 ## Problem
 

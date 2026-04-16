@@ -75,7 +75,7 @@ their needs? size of audience?\>
 
 ### Keywords
 
-1.  Negative Keywords
+#### Negative Keywords
 
 ### Approach
 
@@ -134,37 +134,37 @@ Choose the primary goal (picklist, only one choice allowed):
 - App Promotion
 - Local store visits and promotions
 
-1.  Other Possible Selections
+#### Other Possible Selections
 
-    Online Sales:
+Online Sales:
 
-    - Online purchase
-    - In-App purchase
-    - Customer Acquisition (Beta)
-    - Loyalty sign up
-    - Subscription
-    - Store sales (Coming Soon)
-    - Add to cart
-    - Begin checkout
+- Online purchase
+- In-App purchase
+- Customer Acquisition (Beta)
+- Loyalty sign up
+- Subscription
+- Store sales (Coming Soon)
+- Add to cart
+- Begin checkout
 
-    Lead Generation:
+Lead Generation:
 
-    - Request quote
-    - Signup
-    - Lead form
-    - Phone call leads
-    - Imported lead
-    - Book appointment
-    - Get directions (Coming Soon)
-    - Outbound click
-    - Contact
-    - New Customer Acquisition (Coming Soon)
+- Request quote
+- Signup
+- Lead form
+- Phone call leads
+- Imported lead
+- Book appointment
+- Get directions (Coming Soon)
+- Outbound click
+- Contact
+- New Customer Acquisition (Coming Soon)
 
-    Offline Sales:
+Offline Sales:
 
-    - Store visit
-    - Store sales (Coming Soon)
-    - Local actions (Direction and Calls)
+- Store visit
+- Store sales (Coming Soon)
+- Local actions (Direction and Calls)
 
 ### What measurable goals contribute to your advertising objective?
 

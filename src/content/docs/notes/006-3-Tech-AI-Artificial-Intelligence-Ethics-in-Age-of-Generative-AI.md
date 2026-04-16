@@ -37,25 +37,25 @@ How can we help people determine AI bias and ethical services?
 
 Use these 3 areas and ask questions.
 
-1.  Responsible data practice
+#### Responsible data practice
 
-    - Ask what is the source of the data?
-    - What has been done to reduce bias? historic bias?
-    - How do prevent future bias?
+- Ask what is the source of the data?
+- What has been done to reduce bias? historic bias?
+- How do prevent future bias?
 
-2.  Boundaries on safe and appropriate use
+#### Boundaries on safe and appropriate use
 
-    - Develop the people to be served and vision the service will do
-    - What is the target audience?
-    - What are their goals and a responsible way to have them meet the
-      goals?
+- Develop the people to be served and vision the service will do
+- What is the target audience?
+- What are their goals and a responsible way to have them meet the
+  goals?
 
-3.  Transparency
+#### Transparency
 
-    - How did the tool arrive at its output?
-    - Fairness testing
-    - Can decision makes understand analysis and output?
-    - Is the output fair and reviewed by stakeholders?
+- How did the tool arrive at its output?
+- Fairness testing
+- Can decision makes understand analysis and output?
+- Is the output fair and reviewed by stakeholders?
 
 ### Example Scenario
 
@@ -114,22 +114,22 @@ development and governance.
 Executive include corporate officers, organization board directors, and
 top organization leaders.
 
-1.  Tools
+#### Tools
 
-    Corporate officers:
+Corporate officers:
 
-    - Responsible AI Policy and Governance Framework - for example
-      policies on data, data validation, design, transparency, training,
-      audits, measurements
-    - Person or team responsible for AI development
+- Responsible AI Policy and Governance Framework - for example policies
+  on data, data validation, design, transparency, training, audits,
+  measurements
+- Person or team responsible for AI development
 
-    Board or top organization leaders:
+Board or top organization leaders:
 
-    - Organizational values
-    - Regulatory responsibilities
-    - Processes for audits and incidents
-    - Resource and people allocation
-    - Get and give advice for example an AI committee
+- Organizational values
+- Regulatory responsibilities
+- Processes for audits and incidents
+- Resource and people allocation
+- Get and give advice for example an AI committee
 
 ### Customer Communications
 

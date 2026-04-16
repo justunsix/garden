@@ -63,38 +63,36 @@ Process:
 - Buy new quality items
 - Be ok with socially not having items (e.g. cars)
 
-1.  Downsizing options
+#### Downsizing options
 
-    - Exchanges
-    - Donations
-    - Sharing
-    - Selling, auctions
-    - Collections - libraries, shared used
-    - Garage sale, free sale/giveaway party
-    - Garbage
+- Exchanges
+- Donations
+- Sharing
+- Selling, auctions
+- Collections - libraries, shared used
+- Garage sale, free sale/giveaway party
+- Garbage
 
-    Toilet paper plant: Plectranthus barbatus (common name: Blue Spur
-    Flower)
+Toilet paper plant: Plectranthus barbatus (common name: Blue Spur
+Flower)
 
-    No shoes?
+No shoes?
 
-    - We have to move slower. Move the way your body is designed to
-      move.
-    - Avoid places like restaurants and malls
-    - Avoid moving too quickly and having high shocks to our feet
-      because of shoes
+- We have to move slower. Move the way your body is designed to move.
+- Avoid places like restaurants and malls
+- Avoid moving too quickly and having high shocks to our feet because of
+  shoes
 
-    Uncomfortable to be comfortable later examples
+Uncomfortable to be comfortable later examples
 
-    - No phone - force presence
-    - Car to bike - know limitations
-    - No eating utensils - appreciate tools
-    - Carrying your trash - awareness of waste
+- No phone - force presence
+- Car to bike - know limitations
+- No eating utensils - appreciate tools
+- Carrying your trash - awareness of waste
 
-    Maintenance?
+Maintenance?
 
-    - It will be hard to maintain the lifestyle due to being against
-      society
+- It will be hard to maintain the lifestyle due to being against society
 
 ## See Also
 

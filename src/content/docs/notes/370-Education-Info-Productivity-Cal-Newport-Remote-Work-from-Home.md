@@ -13,65 +13,64 @@ enjoyable.
 
 ### Better Remote Work
 
-1.  Successful Remote / Virtual Work with Workload System and Structured
-    Communication
+#### Successful Remote / Virtual Work with Workload System and Structured Communication
 
-    1.  Clear workload system
+1.  Clear workload system
 
-        - Know what you/your team are working on
-        - Know when it's done
-        - Load is manageable
+    - Know what you/your team are working on
+    - Know when it's done
+    - Load is manageable
 
-    2.  Structured communication
+2.  Structured communication
 
-        - Information flow is known
-        - Unscheduled communications are minimal
-        - Communications are asynchronous and predictable
+    - Information flow is known
+    - Unscheduled communications are minimal
+    - Communications are asynchronous and predictable
 
-    3.  Examples
+3.  Examples
 
-        - Software development. People are assigned specific tasks in a
-          shared board meeting workload system and communications can be
-          done in board. Daily meetings at same time each day help with
-          status reports and working on problems.
-        - Claims processing. Queues of claims and their process are
-          known and assigned.
-        - Example of unsuccessful workplace. Work is assigned as needed
-          and not tracked and done in ad hoc messages.
+    - Software development. People are assigned specific tasks in a
+      shared board meeting workload system and communications can be
+      done in board. Daily meetings at same time each day help with
+      status reports and working on problems.
+    - Claims processing. Queues of claims and their process are known
+      and assigned.
+    - Example of unsuccessful workplace. Work is assigned as needed and
+      not tracked and done in ad hoc messages.
 
-2.  Small Scale Seasonality
+#### Small Scale Seasonality
 
-    Smaller scale means like in a day, week, there are variations in
-    intensity in work.
+Smaller scale means like in a day, week, there are variations in
+intensity in work.
 
-    Looks for accountability rather than accessibility. People are
-    accountable but you may not be available for all meetings, ad hoc
-    communications. It allows scheduled times for work.
+Looks for accountability rather than accessibility. People are
+accountable but you may not be available for all meetings, ad hoc
+communications. It allows scheduled times for work.
 
-    1.  Examples
+1.  Examples
 
-        - No meeting Mondays/Fridays
-        - Balance light and hard days or breaks
-        - Hybrid virtual and office schedule where you load meetings and
-          more communications on office days
-          - Helps reduce ad hoc messages
+    - No meeting Mondays/Fridays
+    - Balance light and hard days or breaks
+    - Hybrid virtual and office schedule where you load meetings and
+      more communications on office days
+      - Helps reduce ad hoc messages
 
-3.  Spaces Matter
+#### Spaces Matter
 
-    Having a physical work space reduces work distractions and improves
-    focus. Commute is a time and space separation of work and life.
+Having a physical work space reduces work distractions and improves
+focus. Commute is a time and space separation of work and life.
 
-    1.  Examples
+1.  Examples
 
-        - Work from near home, you are not working in your home and it
-          is close by
-        - Make a space at home for work, it is like equipment you need
-          for work
-        - Have a space for deep work and a space for administrative and
-          communications work
-        - Consider adventure work, where you go somewhere interesting to
-          work
-        - Simulated commute, like a walk
+    - Work from near home, you are not working in your home and it is
+      close by
+    - Make a space at home for work, it is like equipment you need for
+      work
+    - Have a space for deep work and a space for administrative and
+      communications work
+    - Consider adventure work, where you go somewhere interesting to
+      work
+    - Simulated commute, like a walk
 
 ### Focus, Energy, and Attention Management
 

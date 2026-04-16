@@ -26,12 +26,13 @@ title: VS Code Shortcuts
 | Select - Box multi line        | Ctrl + Alt + Shift |
 | Select - Multi line            | Ctrl + Alt         |
 
-## Panels: Search, Chat
+## Panels: Search, Chat, Extension
 
 | Description                    | Shortcut             |
 |--------------------------------|----------------------|
 | Close primary left panel       | Ctrl + b             |
 | Close secondary right panel    | Ctrl + Alt + b       |
+| Extension, show panel          | Ctrl + Shift + x     |
 | Open/Go to File Explorer       | Ctrl + Shift + e     |
 | Problems/Quickfix, Toggle      | Ctrl + Shift + m     |
 | Search, Clear file cache       | Clear editor history |

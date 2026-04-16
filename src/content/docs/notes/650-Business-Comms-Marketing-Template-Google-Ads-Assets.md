@@ -33,7 +33,7 @@ title: Google Ads Campaign Plan for Ad Assets Template
 
 30-xxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-1.  All / Dynamic Search
+#### All / Dynamic Search
 
 ### Descriptions
 
@@ -53,11 +53,11 @@ title: Google Ads Campaign Plan for Ad Assets Template
 
 ### Callout
 
-1.  Regular Callouts
+#### Regular Callouts
 
 ### Structured Snippet
 
-1.  Service catalog
+#### Service catalog
 
 ### Promotion
 
@@ -71,7 +71,7 @@ title: Google Ads Campaign Plan for Ad Assets Template
 
 ### Negative keywords
 
-1.  Brand
+#### Brand
 
 ### Conversion Value
 

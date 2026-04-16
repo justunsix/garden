@@ -39,7 +39,7 @@ Treatment:
 - Cognitive behavioral therapy (CBT)
 - Medication
 
-Treatment Ideas
+#### Treatment Ideas
 
 - Learn to organize and categorize possessions to help you decide what
   to discard:

@@ -38,12 +38,19 @@ Terminal User Interface (TUI) Commands
 # Manage skills
 /skills
 
+# Use skill called skill-name
+/skill-name
+/find-skills
+
 # Quit, Exit
 /exit
 /q
 
 # Reference file with @
 How is authentication handled in @packages/functions/src/api/index.ts
+
+# Include file and line numbers in prompt context
+Review @README.md#5-10
 
 ```
 

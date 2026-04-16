@@ -4,7 +4,7 @@ id: 9e8abecd-2935-450c-b8d0-d76614383138
 title: Java Updates and Versions
 ---
 
-# Updating Java at 2022-02 Session with Oracle
+## Updating Java at 2022-02 Session with Oracle
 
 Session in context of managing Java vulnerabilities
 
@@ -64,9 +64,9 @@ JDK has packaged usage tracker
 - Devices can be organized into "fleets"
 - Show runtimes, vendors
 
-## See Also
+### See Also
 
-### Resources
+#### Resources
 
 - [Which Version of JDK Should I Use? \|
   whichjdk.com](https://whichjdk.com/) - TLDR use Adoptium Eclipse

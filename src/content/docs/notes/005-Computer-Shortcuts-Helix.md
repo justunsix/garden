@@ -139,14 +139,15 @@ AI
 
 | Description                           | Shortcut                       |
 |---------------------------------------|--------------------------------|
-| Buffer, close others                  | :bco                           |
-| Sort selection                        | :sort                          |
-| Toggle options                        | :toggle \<option\>             |
-| Hard wrap text, permanently reformat  | :reflow                        |
-| Version control, change, reset a diff | :reset-diff-change             |
-| Language, Set for syntax highlight    | :lang \<language\>             |
+| Buffers, close others                 | :bco                           |
+| Buffers, reload all from disk         | :reload-all or :ra\<tab\>      |
 | Echo current buffer name              | :echo %{buffer<sub>name</sub>} |
 | Go to, line 11 in file                | :11                            |
+| Hard wrap text, permanently reformat  | :reflow                        |
+| Language, Set for syntax highlight    | :lang \<language\>             |
+| Sort selection                        | :sort                          |
+| Toggle options                        | :toggle \<option\>             |
+| Version control, change, reset a diff | :reset-diff-change             |
 
 Toggles can be visual elements, options. Tab completion is available for
 options.

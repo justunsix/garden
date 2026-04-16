@@ -24,50 +24,49 @@ and intelligent user experience.
 
 ### Get Pods
 
-1.  Basic
+#### Basic
 
-    ``` shell
+``` shell
 
-    kubectl get pods
+kubectl get pods
 
-    ```
+```
 
-    ``` example
-    NAME                          READY     STATUS    RESTARTS   AGE
-    frontend-6f567b7966-6pgzs     1/1       Running   0          3d
-    hello-node-7f5b6bd6b8-48kk4   1/1       Running   0          3d
-    redis-64896b74dc-zrw7w        1/1       Running   0          3d
-    ```
+``` example
+NAME                          READY     STATUS    RESTARTS   AGE
+frontend-6f567b7966-6pgzs     1/1       Running   0          3d
+hello-node-7f5b6bd6b8-48kk4   1/1       Running   0          3d
+redis-64896b74dc-zrw7w        1/1       Running   0          3d
+```
 
-2.  Get Pod Names
+#### Get Pod Names
 
-    ``` shell
+``` shell
 
-    # Results will only be list of pod names
-    kubectl get pods --no-headers=true | awk '{print $1}'
+# Results will only be list of pod names
+kubectl get pods --no-headers=true | awk '{print $1}'
 
-    ```
+```
 
-3.  Turn command output to string using Emacs Lisp
-    `shell-command-to-string`
+#### Turn command output to string using Emacs Lisp `shell-command-to-string`
 
-    ``` elisp
+``` elisp
 
-    (shell-command-to-string "kubectl get pods --no-headers=true | awk '{print $1}'")
+(shell-command-to-string "kubectl get pods --no-headers=true | awk '{print $1}'")
 
-    ```
+```
 
-4.  Turn that into a lisp list
+#### Turn that into a lisp list
 
-    Just split at every new line (`\n`) with `split-string` function
+Just split at every new line (`\n`) with `split-string` function
 
-    ``` elisp
-    (split-string (shell-command-to-string "kubectl get pods --no-headers=true | awk '{print $1}'") "\n")
-    ```
+``` elisp
+(split-string (shell-command-to-string "kubectl get pods --no-headers=true | awk '{print $1}'") "\n")
+```
 
-    ``` elisp
-    ("frontend-6f567b7966-6pgzs" "hello-node-7f5b6bd6b8-48kk4" "redis-64896b74dc-zrw7w" "")
-    ```
+``` elisp
+("frontend-6f567b7966-6pgzs" "hello-node-7f5b6bd6b8-48kk4" "redis-64896b74dc-zrw7w" "")
+```
 
 ### Using Tabulated List Mode
 
@@ -99,103 +98,102 @@ a row where:
        (tabulated-list-print))
 ```
 
-1.  Dump our pod lists into tabulated-list-mode
+#### Dump our pod lists into tabulated-list-mode
 
-    Set up only one column for pod name. Print list to temp buffer.
+Set up only one column for pod name. Print list to temp buffer.
 
-    ``` elisp
-              (let ((columns [("Pod" 100)])
-                    (rows (mapcar (lambda (x) `(nil [,x]))
-                                  (split-string (shell-command-to-string "kubectl get pods --no-headers=true | awk '{print $1}'") "\n"))))
-                (switch-to-buffer "*temp*")
-                (setq tabulated-list-format columns)
-                (setq tabulated-list-entries rows)
-                (tabulated-list-init-header)
-                (tabulated-list-print))
-            #+end_src
+``` elisp
+          (let ((columns [("Pod" 100)])
+                (rows (mapcar (lambda (x) `(nil [,x]))
+                              (split-string (shell-command-to-string "kubectl get pods --no-headers=true | awk '{print $1}'") "\n"))))
+            (switch-to-buffer "*temp*")
+            (setq tabulated-list-format columns)
+            (setq tabulated-list-entries rows)
+            (tabulated-list-init-header)
+            (tabulated-list-print))
+        #+end_src
 
-    **** Putting it All Together: Make a Major Mode for List
+*** Putting it All Together: Make a Major Mode for List
 
-         - Define a new major mode based on =tabulated-list-mode=, called Kubernetes
-         - When mode is triggered, do tabulated list from above
-         - Add function to call it
+     - Define a new major mode based on =tabulated-list-mode=, called Kubernetes
+     - When mode is triggered, do tabulated list from above
+     - Add function to call it
 
-          #+begin_src elisp :results output silent
-              (define-derived-mode kubernetes-mode tabulated-list-mode "Kubernetes"
-                "Kubernetes mode"
-                (let ((columns [("Pod" 100)])
-                      (rows (mapcar (lambda (x) `(nil [,x]))
-                                    (split-string (shell-command-to-string
-                                                   "kubectl get pods --no-headers=true | awk '{print $1}'") "\n"))))
-                  (setq tabulated-list-format columns)
-                  (setq tabulated-list-entries rows)
-                  (tabulated-list-init-header)
-                  (tabulated-list-print)))
+      #+begin_src elisp :results output silent
+          (define-derived-mode kubernetes-mode tabulated-list-mode "Kubernetes"
+            "Kubernetes mode"
+            (let ((columns [("Pod" 100)])
+                  (rows (mapcar (lambda (x) `(nil [,x]))
+                                (split-string (shell-command-to-string
+                                               "kubectl get pods --no-headers=true | awk '{print $1}'") "\n"))))
+              (setq tabulated-list-format columns)
+              (setq tabulated-list-entries rows)
+              (tabulated-list-init-header)
+              (tabulated-list-print)))
 
-              (defun kubernetes ()
-                (interactive)
-                (switch-to-buffer "*kubernetes*")
-                (kubernetes-mode))
-    ```
+          (defun kubernetes ()
+            (interactive)
+            (switch-to-buffer "*kubernetes*")
+            (kubernetes-mode))
+```
 
-    Run with `M-x kubernetes` or
+Run with `M-x kubernetes` or
 
-    ``` elisp
-    (kubernetes)
-    ```
+``` elisp
+(kubernetes)
+```
 
 ### Get Kubernetes Logs
 
 - async process creation to prevent blocking Emacs
 - Output goes to a buffer
 
-1.  Basic Call a process with blocking
+#### Basic Call a process with blocking
 
-    - Use the `call-process` function and direct it to a buffer. Use
-      kubectl logs and pod name.
+- Use the `call-process` function and direct it to a buffer. Use kubectl
+  logs and pod name.
 
-    - Problem is synchronous blocking and large logs will hang Emacs
+- Problem is synchronous blocking and large logs will hang Emacs
 
-      ``` elisp
-      (let ((buffer "*kubectl-logs*"))
-        (call-process "kubectl" nil buffer nil "logs" "redis-64896b74dc-zrw7w")
-        (switch-to-buffer buffer))
-      ```
+  ``` elisp
+  (let ((buffer "*kubectl-logs*"))
+    (call-process "kubectl" nil buffer nil "logs" "redis-64896b74dc-zrw7w")
+    (switch-to-buffer buffer))
+  ```
 
-2.  Async Process
+#### Async Process
 
-    - Use the `start-process` function instead which will create a
-      process for you
+- Use the `start-process` function instead which will create a process
+  for you
 
-    - Process is continuing to running logs and has not stopped until
-      you stop it
+- Process is continuing to running logs and has not stopped until you
+  stop it
 
-      ``` elisp
-      (let ((process "*kubectl*")
-            (buffer "*kubectl-logs*"))
-        (start-process process buffer "kubectl" "logs" "-f""redis-64896b74dc-zrw7w")
-        (switch-to-buffer buffer))
-      ```
+  ``` elisp
+  (let ((process "*kubectl*")
+        (buffer "*kubectl-logs*"))
+    (start-process process buffer "kubectl" "logs" "-f""redis-64896b74dc-zrw7w")
+    (switch-to-buffer buffer))
+  ```
 
-3.  Async get process logs
+#### Async get process logs
 
-    - Combine above to use the optional arg
+- Combine above to use the optional arg
 
-    - Issue is hardcoded pod name
+- Issue is hardcoded pod name
 
-      ``` elisp
-      (defun kubernetes-get-logs (&optional arg)
-        (interactive "P")
-        (let ((process "*kubectl*")
-              (buffer "*kubectl-logs*"))
-          (if arg
-              (start-process process buffer "kubectl" "logs" "-f" "redis-64896b74dc-zrw7w")
-            (call-process "kubectl" nil buffer nil "logs" "redis-64896b74dc-zrw7w"))
-          (switch-to-buffer buffer)))
-      ```
+  ``` elisp
+  (defun kubernetes-get-logs (&optional arg)
+    (interactive "P")
+    (let ((process "*kubectl*")
+          (buffer "*kubectl-logs*"))
+      (if arg
+          (start-process process buffer "kubectl" "logs" "-f" "redis-64896b74dc-zrw7w")
+        (call-process "kubectl" nil buffer nil "logs" "redis-64896b74dc-zrw7w"))
+      (switch-to-buffer buffer)))
+  ```
 
-      Try it with `M-x kubernetes-get-logs` or
-      `C-u M-x kubernetes-get-logs`
+  Try it with `M-x kubernetes-get-logs` or `C-u M-x kubernetes-get-logs`
 
 ### How to connect that function to our major mode
 
@@ -207,25 +205,24 @@ a row where:
   (aref (tabulated-list-get-entry) 0)
   ```
 
-1.  Putting it All Together: Get logs for a specific pod where argument
-    is pod name under the cursor
+#### Putting it All Together: Get logs for a specific pod where argument is pod name under the cursor
 
-    ``` elisp
-    (defun kubernetes-get-logs (&optional arg)
-      (interactive "P")
-      (let ((process "*kubectl*")
-            (buffer "*kubectl-logs*")
-            (pod (aref (tabulated-list-get-entry) 0)))
-        (if arg
-            (start-process process buffer "kubectl" "logs" "-f" pod)
-          (call-process "kubectl" nil buffer nil "logs" pod))
-        (switch-to-buffer buffer)))
-    ```
+``` elisp
+(defun kubernetes-get-logs (&optional arg)
+  (interactive "P")
+  (let ((process "*kubectl*")
+        (buffer "*kubectl-logs*")
+        (pod (aref (tabulated-list-get-entry) 0)))
+    (if arg
+        (start-process process buffer "kubectl" "logs" "-f" pod)
+      (call-process "kubectl" nil buffer nil "logs" pod))
+    (switch-to-buffer buffer)))
+```
 
-2.  Testing it out
+#### Testing it out
 
-    Call kubernetes mode with `M-x kubernetes` and then look at the logs
-    of pod under cursor with `M-x kubernetes-get-logs`
+Call kubernetes mode with `M-x kubernetes` and then look at the logs of
+pod under cursor with `M-x kubernetes-get-logs`
 
 ### Making a Modern User Experience
 
@@ -233,140 +230,140 @@ a row where:
 - Transient from magit project - can wrap CLI tools. Need to import it
   into Emacs for use.
 
-1.  A simple transient
+#### A simple transient
 
-    ``` elisp
+``` elisp
 
-    (require 'transient)
+(require 'transient)
 
-    (defun test-function ()
-      (interactive)
-      (message "Test function"))
+(defun test-function ()
+  (interactive)
+  (message "Test function"))
 
-    (define-transient-command test-transient ()
-      "Test Transient Title"
-      ["Actions"
-       ("a" "Action a" test-function)
-       ("s" "Action s" test-function)
-       ("d" "Action d" test-function)])
+(define-transient-command test-transient ()
+  "Test Transient Title"
+  ["Actions"
+   ("a" "Action a" test-function)
+   ("s" "Action s" test-function)
+   ("d" "Action d" test-function)])
 
-    (test-transient)
-    ```
+(test-transient)
+```
 
-2.  Transient with switches
+#### Transient with switches
 
-    Define command line switches in our transient interface.
+Define command line switches in our transient interface.
 
-    ``` elisp
-    (defun test-function (&optional args)
-      (interactive
-       (list (transient-args 'test-transient)))
-      (message "args: %s" args))
+``` elisp
+(defun test-function (&optional args)
+  (interactive
+   (list (transient-args 'test-transient)))
+  (message "args: %s" args))
 
-    (define-transient-command test-transient ()
-      "Test Transient Title"
-      ["Arguments"
-       ("-s" "Switch" "--switch")
-       ("-a" "Another switch" "--another")]
-      ["Actions"
-       ("d" "Action d" test-function)])
+(define-transient-command test-transient ()
+  "Test Transient Title"
+  ["Arguments"
+   ("-s" "Switch" "--switch")
+   ("-a" "Another switch" "--another")]
+  ["Actions"
+   ("d" "Action d" test-function)])
 
-    (test-transient)
-    ```
+(test-transient)
+```
 
-3.  Transient with params
+#### Transient with params
 
-    - More complex than simple switches, params let users enter a value.
+- More complex than simple switches, params let users enter a value.
 
-    - Params remember what you inputted as their value
+- Params remember what you inputted as their value
 
-      ``` elisp
-      (defun test-function (&optional args)
-        (interactive
-         (list (transient-args 'test-transient)))
-        (message "args %s" args))
+  ``` elisp
+  (defun test-function (&optional args)
+    (interactive
+     (list (transient-args 'test-transient)))
+    (message "args %s" args))
 
-      (define-infix-argument test-transient:--message ()
-        :description "Message"
-        :class 'transient-option
-        :shortarg "-m"
-        :argument "--message=")
+  (define-infix-argument test-transient:--message ()
+    :description "Message"
+    :class 'transient-option
+    :shortarg "-m"
+    :argument "--message=")
 
-      (define-transient-command test-transient ()
-        "Test Transient Title"
-        ["Arguments"
-         ("-s" "Switch" "--switch")
-         ("-a" "Another switch" "--another")
-         (test-transient:--message)]
-        ["Actions"
-         ("d" "Action d" test-function)])
+  (define-transient-command test-transient ()
+    "Test Transient Title"
+    ["Arguments"
+     ("-s" "Switch" "--switch")
+     ("-a" "Another switch" "--another")
+     (test-transient:--message)]
+    ["Actions"
+     ("d" "Action d" test-function)])
 
-      (test-transient)
-      ```
+  (test-transient)
+  ```
 
-4.  Kubernetes-transient
+#### Kubernetes-transient
 
-    - can just get logs
+- can just get logs
 
-    - can follow logs with `-f`
+- can follow logs with `-f`
 
-    - can specify tail length `--tail=100`
+- can specify tail length `--tail=100`
 
-    - can combine these options
+- can combine these options
 
-      ``` elisp
-      (define-infix-argument kubernetes-transient:--tail ()
-        :description "Tail"
-        :class 'transient-option
-        :shortarg "-t"
-        :argument "--tail=")
+  ``` elisp
+  (define-infix-argument kubernetes-transient:--tail ()
+    :description "Tail"
+    :class 'transient-option
+    :shortarg "-t"
+    :argument "--tail=")
 
-      (define-transient-command kubernetes-transient ()
-        "Test Transient Title"
-        ["Arguments"
-         ("-f" "Follow" "-f")
-         (kubernetes-transient:--tail)]
-        ["Actions"
-         ("l" "Log" kubernetes-get-logs)])
+  (define-transient-command kubernetes-transient ()
+    "Test Transient Title"
+    ["Arguments"
+     ("-f" "Follow" "-f")
+     (kubernetes-transient:--tail)]
+    ["Actions"
+     ("l" "Log" kubernetes-get-logs)])
 
-      (kubernetes-transient)
-      ```
+  (kubernetes-transient)
+  ```
 
-5.  Updating our `kubernetes-get-logs`
+#### Updating our `kubernetes-get-logs`
 
-    - read args from transient
-    - check if `-f` is in args to do async or not
-    - pass the args into the process functions
+- read args from transient
+- check if `-f` is in args to do async or not
+- pass the args into the process functions
 
-    ``` elisp
-    (defun kubernetes-get-logs (&optional args)
-      (interactive
-       (list (transient-args 'kubernetes-transient)))
-      (let ((process "*kubectl*")
-            (buffer "*kubectl-logs*")
-            (pod (aref (tabulated-list-get-entry) 0)))
-        (if (member "-f" args)
-            (apply #'start-process process buffer "kubectl" "logs" pod args)
-          (apply #'call-process "kubectl" nil buffer nil "logs" pod args))
-        (switch-to-buffer buffer)))
-    ```
+``` elisp
+(defun kubernetes-get-logs (&optional args)
+  (interactive
+   (list (transient-args 'kubernetes-transient)))
+  (let ((process "*kubectl*")
+        (buffer "*kubectl-logs*")
+        (pod (aref (tabulated-list-get-entry) 0)))
+    (if (member "-f" args)
+        (apply #'start-process process buffer "kubectl" "logs" pod args)
+      (apply #'call-process "kubectl" nil buffer nil "logs" pod args))
+    (switch-to-buffer buffer)))
+```
 
-6.  Connecting the transient to our kubernetes major mode
+#### Connecting the transient to our kubernetes major mode
 
-    Define a mode map for `kubernetes-mode`
+Define a mode map for `kubernetes-mode`
 
-    ``` elisp
-    (defvar kubernetes-mode-map
-      (let ((map (make-sparse-keymap)))
-        (define-key map (kbd "l") 'kubernetes-transient)
-       map))
-    ```
+``` elisp
+(defvar kubernetes-mode-map
+  (let ((map (make-sparse-keymap)))
+    (define-key map (kbd "l") 'kubernetes-transient)
+   map))
+```
 
-7.  Trying it out
+#### Trying it out
 
-    ``` elisp
-    (kubernetes)
-    ```
+``` elisp
+(kubernetes)
+```
 
 ## Conclusion
 

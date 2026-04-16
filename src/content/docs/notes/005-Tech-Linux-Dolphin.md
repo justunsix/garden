@@ -94,37 +94,37 @@ UI can be customized with `Configure Toolbars...` from context menu.
   [https://cdn.kde.org/ci-builds/system/dolphin/master/windows/](https://cdn.kde.org/ci-builds/system/dolphin/master/windows/)
   or use [Scoop install](https://scoop.sh/#/apps?q=dolphin+file).
 
-1.  Archived Methods
+#### Archived Methods
 
-    - Run Dolphin per <https://github.com/Bleskocvok/dolpwin-dark>
-      - <https://superuser.com/questions/1667509/dolphin-file-manager-on-windows-dark-theme>
-      - Use darkstyle.qss in dotfiles-overlay, copied from
-        <https://github.com/ColinDuquesnoy/QDarkStyleSheet/blob/master/qdarkstyle/dark/darkstyle.qss>
-        and
-        [https://discuss.kde.org/t/dark-mode-workarround-for-dolphin-on-windows/7482](https://discuss.kde.org/t/dark-mode-workarround-for-dolphin-on-windows/7482)
-    - 2024-04-16: During testing, Dolphin [with my kdeglobals and
-      dolphinrc](https://github.com/justunsix/dotfiles) worked out of
-      box in dark mode using:
-      dolphin-master-3966-windows-cl-msvc2022-x86<sub>64</sub>.7z from
-      [https://cdn.kde.org/ci-builds/system/dolphin/master/windows/dolphin-master-3/garden/notes/966-windows-cl-msvc2022-x86_64.7z](https://cdn.kde/ci-builds/system/dolphin/master/windows/dolphin-master-3966-windows-cl-msvc2022-x86_64.7z)
-      - Remove all files to replicate:
-        - C:
-        - "C:<sub>dolphindolphin</sub>"
-        - "C:"
+- Run Dolphin per <https://github.com/Bleskocvok/dolpwin-dark>
+  - <https://superuser.com/questions/1667509/dolphin-file-manager-on-windows-dark-theme>
+  - Use darkstyle.qss in dotfiles-overlay, copied from
+    <https://github.com/ColinDuquesnoy/QDarkStyleSheet/blob/master/qdarkstyle/dark/darkstyle.qss>
+    and
+    [https://discuss.kde.org/t/dark-mode-workarround-for-dolphin-on-windows/7482](https://discuss.kde.org/t/dark-mode-workarround-for-dolphin-on-windows/7482)
+- 2024-04-16: During testing, Dolphin [with my kdeglobals and
+  dolphinrc](https://github.com/justunsix/dotfiles) worked out of box in
+  dark mode using:
+  dolphin-master-3966-windows-cl-msvc2022-x86<sub>64</sub>.7z from
+  [https://cdn.kde.org/ci-builds/system/dolphin/master/windows/dolphin-master-3/garden/notes/966-windows-cl-msvc2022-x86_64.7z](https://cdn.kde/ci-builds/system/dolphin/master/windows/dolphin-master-3966-windows-cl-msvc2022-x86_64.7z)
+  - Remove all files to replicate:
+    - C:
+    - "C:<sub>dolphindolphin</sub>"
+    - "C:"
 
-    ``` powershell
+``` powershell
 
-    # Start Dolphin with Stylesheet on Windows
-    dolphin --stylesheet darkstyle.qss &
-    dolphin --stylesheet C:\Users\justi\Code\dotfiles-overlay\other\blue.qss &
+# Start Dolphin with Stylesheet on Windows
+dolphin --stylesheet darkstyle.qss &
+dolphin --stylesheet C:\Users\justi\Code\dotfiles-overlay\other\blue.qss &
 
-    # or in Windows Powershell with persistent process
-    Start-Job -ScriptBlock { dolphin --stylesheet darkstyle.qss & }
-    Start-Job -ScriptBlock { dolphin --stylesheet C:\Users\justi\Code\dotfiles-overlay\other\blue.qss }
+# or in Windows Powershell with persistent process
+Start-Job -ScriptBlock { dolphin --stylesheet darkstyle.qss & }
+Start-Job -ScriptBlock { dolphin --stylesheet C:\Users\justi\Code\dotfiles-overlay\other\blue.qss }
 
-    ```
+```
 
-    - Switch to compact mode to get rid of alternate colour lines
+- Switch to compact mode to get rid of alternate colour lines
 
 ### Dolphin Settings Example
 

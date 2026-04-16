@@ -44,11 +44,10 @@ Principles:
 - Simple core
 - Not impose complexity
 
-1.  Why not Org mode?
+#### Why not Org mode?
 
-    - You will likely continue to customize and change it to your own
-      needs
-    - Not for masses and was intended for Emacs users
+- You will likely continue to customize and change it to your own needs
+- Not for masses and was intended for Emacs users
 
 ### Features
 
@@ -110,60 +109,59 @@ your personal settings
 - Columns: Activate Org mode Columnar view: `C-c C-x C-c` and quit use
   `org-columns-quit`
 
-1.  Tables
+#### Tables
+
+``` org
+
+| Name    |        Phone | Room        |
+|---------+--------------+-------------|
+| Peter   |       463733 | 32          |
+| John    | 323-323-4242 | Upstairs 62 |
+| Sabrina |      Unknown | Flr 1 242   |
+|         |              |             |
+```
+
+- Press tab to start editing
+- Create header line with `|----` then press tab
+
+1.  Calculator
+
+    - Interface with emacs calculator and tables to do math
 
     ``` org
 
-    | Name    |        Phone | Room        |
-    |---------+--------------+-------------|
-    | Peter   |       463733 | 32          |
-    | John    | 323-323-4242 | Upstairs 62 |
-    | Sabrina |      Unknown | Flr 1 242   |
-    |         |              |             |
+    | Student  | Maths | Physics | Mean |
+    |----------+-------+---------+------|
+    | Bertrand |    13 |      09 |   11 |
+    | Henri    |    15 |      14 | 14.5 |
+    | Arnold   |    17 |      13 |   15 |
+    |----------+-------+---------+------|
+    | Means    |    15 |      12 |      |
+    #+TBLFM: $4=vmean($2..$3)::@5$2=vmean(@2$2..@4$2)::@5$3=vmean(@2$3..@4$3)
     ```
 
-    - Press tab to start editing
-    - Create header line with `|----` then press tab
+    - Mean is a column formula, access it using: `C-c =`
+    - Mean row is a row and cell formula
 
-    1.  Calculator
+2.  Radio Tables
 
-        - Interface with emacs calculator and tables to do math
+    - [Org mode manual entry: Radio
+      Tables](https:/.mdmode.md/manual/Radio-tables.html)
 
-        ``` org
+    - Embed an org-mode table in any file (e.g. Markdown, C, Javascript)
 
-        | Student  | Maths | Physics | Mean |
-        |----------+-------+---------+------|
-        | Bertrand |    13 |      09 |   11 |
-        | Henri    |    15 |      14 | 14.5 |
-        | Arnold   |    17 |      13 |   15 |
-        |----------+-------+---------+------|
-        | Means    |    15 |      12 |      |
-        #+TBLFM: $4=vmean($2..$3)::@5$2=vmean(@2$2..@4$2)::@5$3=vmean(@2$3..@4$3)
-        ```
+    - The key to finding the target location is the magic words
+      'BEGIN/END RECEIVE ORGTBL'. They have to appear as comments in the
+      current mode. Example insert into a C file:
 
-        - Mean is a column formula, access it using: `C-c =`
-        - Mean row is a row and cell formula
+    ``` c
+    // At the location of source, Org needs a special line to direct Orgtbl to translate and to find the target for inserting the translated table. For example:
 
-    2.  Radio Tables
+    #+ORGTBL: SEND table_name translation_function arguments ...
 
-        - [Org mode manual entry: Radio
-          Tables](https:/.mdmode.md/manual/Radio-tables.html)
-
-        - Embed an org-mode table in any file (e.g. Markdown, C,
-          Javascript)
-
-        - The key to finding the target location is the magic words
-          'BEGIN/END RECEIVE ORGTBL'. They have to appear as comments in
-          the current mode. Example insert into a C file:
-
-        ``` c
-        // At the location of source, Org needs a special line to direct Orgtbl to translate and to find the target for inserting the translated table. For example:
-
-        #+ORGTBL: SEND table_name translation_function arguments ...
-
-        /* BEGIN RECEIVE ORGTBL table_name */
-        /* END RECEIVE ORGTBL table_name */
-        ```
+    /* BEGIN RECEIVE ORGTBL table_name */
+    /* END RECEIVE ORGTBL table_name */
+    ```
 
 ### Timer
 

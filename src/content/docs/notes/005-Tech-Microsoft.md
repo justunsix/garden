@@ -166,31 +166,31 @@ See also AI related items in other sections
   [Microsoft AI Chatbot in Lowcode Apps and
   Websites](id:8d906108-2a1c-4768-9696-2f48560c3711)
 
-1.  Work Hackathon 2024 Learning Paths
+#### Work Hackathon 2024 Learning Paths
 
-    - [Microsoft Azure AI Fundamentals, Generative
-      AI](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
-      [Microsoft Azure AI Fundamentals: Generative
-      AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3)
-    - [Create Power Platform solutions with AI and
-      Copilot](/garden/notes/005-tech-microsoft-power-platform-ai-solutions-and-copilot) -
-      [Create Power Platform solutions with AI and
-      Copilot](id:09ea5ea0-19da-40ca-bb27-f78ed8938e2f)
-    - [AI Builder and Power Platform Apps and
-      Automate](/garden/notes/006-3-tech-microsoft-ai-builder-and-power-platform) -
-      [AI Builder and Power Platform Apps and
-      Automate](id:1412a840-ce18-41a6-b292-ce89c70562f4)
+- [Microsoft Azure AI Fundamentals, Generative
+  AI](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
+  [Microsoft Azure AI Fundamentals: Generative
+  AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3)
+- [Create Power Platform solutions with AI and
+  Copilot](/garden/notes/005-tech-microsoft-power-platform-ai-solutions-and-copilot) -
+  [Create Power Platform solutions with AI and
+  Copilot](id:09ea5ea0-19da-40ca-bb27-f78ed8938e2f)
+- [AI Builder and Power Platform Apps and
+  Automate](/garden/notes/006-3-tech-microsoft-ai-builder-and-power-platform) - [AI
+  Builder and Power Platform Apps and
+  Automate](id:1412a840-ce18-41a6-b292-ce89c70562f4)
 
-    1.  Development Resource Guides
+1.  Development Resource Guides
 
-        - [Use your own data with Azure OpenAI Service - Azure OpenAI \|
-          Microsoft
-          Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/use-your-data-quickstart?tabs=command-line%2Cpython&pivots=programming-language-studio)
-        - [Use uploaded documents as a generative answers data source
-          (preview) - Microsoft Copilot Studio \| Microsoft
-          Learn](https://learn.microsoft.com/en-us/microsoft-copilot-studio/nlu-documents)
-        - [AI Builder Azure OpenAI: Add the Power of GPT to your Power
-          Platform Solutions -
-          YouTube](https://www.youtube.com/watch?v=HU73SvwSOTI)
-        - [Azure Open AI (GPT) with Power
-          Apps](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/azure-open-ai-gpt-with-power-apps-build-a-power-app-to-create/ba-p/3730864)
+    - [Use your own data with Azure OpenAI Service - Azure OpenAI \|
+      Microsoft
+      Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/use-your-data-quickstart?tabs=command-line%2Cpython&pivots=programming-language-studio)
+    - [Use uploaded documents as a generative answers data source
+      (preview) - Microsoft Copilot Studio \| Microsoft
+      Learn](https://learn.microsoft.com/en-us/microsoft-copilot-studio/nlu-documents)
+    - [AI Builder Azure OpenAI: Add the Power of GPT to your Power
+      Platform Solutions -
+      YouTube](https://www.youtube.com/watch?v=HU73SvwSOTI)
+    - [Azure Open AI (GPT) with Power
+      Apps](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/azure-open-ai-gpt-with-power-apps-build-a-power-app-to-create/ba-p/3730864)

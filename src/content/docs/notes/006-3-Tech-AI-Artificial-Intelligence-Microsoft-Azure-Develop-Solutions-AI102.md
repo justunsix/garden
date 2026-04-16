@@ -28,15 +28,15 @@ services.
   learning content or do a web search with Azure AI plus the specific
   topic
 
-1.  Certifications
+#### Certifications
 
-    Organizations where people do training and certification first
-    before using something do best to understand good practices and know
-    what areas you can improve during training.
+Organizations where people do training and certification first before
+using something do best to understand good practices and know what areas
+you can improve during training.
 
-    - Take the practice assessment
-    - Go through the study guide. Questions will come from topics in the
-      guide.
+- Take the practice assessment
+- Go through the study guide. Questions will come from topics in the
+  guide.
 
 ## Course Modules
 
@@ -68,16 +68,18 @@ services.
 ### About Former Cognitive Services
 
 Natural language, computer vision, and information extraction existed
-before large language models. They use models from machine learning to
-process information and can be trained with custom data. Their models
-are smaller than LLMs. They are best used for specific use cases that
-they solve due to their greater accuracy and lower cost compared to
-LLMs, but costs depend on use. In Azure, they were formerly called Azure
-Cognitive AI Services.
+before large language models (LLM). They use models from machine
+learning to process information and can be trained with custom data.
+Their models are smaller than LLMs. They are best used for specific use
+cases that they solve due to their greater accuracy and lower cost
+compared to LLMs, but costs depend on use. In Azure, they were formerly
+called Azure Cognitive AI Services.
 
 Depending on the need, generative AI and agents or cognitive services
 are more suitable or combined to provide good user experience with
-possibility for extending functionality.
+possibility for extending functionality. For example, using agents and
+generative AI that access NLP, vision, and information extraction
+services.
 
 Deployment options include AI Foundry, Azure AI Services or a specific
 cognitive services resource.
@@ -334,33 +336,32 @@ In prompts, you could add for users to report responses.
   Microsoft
   Learn](https://learn.microsoft.com/en-us/azure/developer/python/sdk/azure-sdk-overview)
 
-1.  Videos
+#### Videos
 
-    - [Microsoft Instructor led training for AI-102
-      (discontinued)](https://learn.microsoft.com/en-gb/shows/on-demand-instructor-led-training-series/?terms=AI-102) -
-      note for more recent content, see Microsoft Learn content material
-    - [AI-102 Study Cram - Azure AI Engineer Associate Certification -
-      John Savill on
-      YouTube](https://www.youtube.com/watch?v=I7fdWafTcPY)
+- [Microsoft Instructor led training for AI-102
+  (discontinued)](https://learn.microsoft.com/en-gb/shows/on-demand-instructor-led-training-series/?terms=AI-102) -
+  note for more recent content, see Microsoft Learn content material
+- [AI-102 Study Cram - Azure AI Engineer Associate Certification - John
+  Savill on YouTube](https://www.youtube.com/watch?v=I7fdWafTcPY)
 
-2.  Exercise Repositories
+#### Exercise Repositories
 
-    - [GitHub - MicrosoftLearning/mslearn-ai-agents: This repo contains
-      instructions and assets for building agents on
-      Azure](https://github.com/MicrosoftLearning/mslearn-ai-agents)
-    - [GitHub - MicrosoftLearning/mslearn-ai-document-intelligence: Lab
-      files for Azure AI Document Intelligence
-      modules](https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence)
-    - [GitHub - MicrosoftLearning/mslearn-ai-information-extraction: Lab
-      exercises on AI-powered information
-      extraction](https://github.com/microsoftlearning/mslearn-ai-information-extraction)
-    - [GitHub - MicrosoftLearning/mslearn-ai-language: Lab files for
-      Azure AI Language
-      modules](https://github.com/MicrosoftLearning/mslearn-ai-language)
-    - [GitHub - MicrosoftLearning/mslearn-ai-studio: Practical exercises
-      for Azure AI Foundry
-      training](https://github.com/MicrosoftLearning/mslearn-ai-studio)
-      (Generative AI)
-    - [GitHub - MicrosoftLearning/mslearn-ai-vision: Lab files for Azure
-      AI Vision
-      modules](https://github.com/MicrosoftLearning/mslearn-ai-vision)
+- [GitHub - MicrosoftLearning/mslearn-ai-agents: This repo contains
+  instructions and assets for building agents on
+  Azure](https://github.com/MicrosoftLearning/mslearn-ai-agents)
+- [GitHub - MicrosoftLearning/mslearn-ai-document-intelligence: Lab
+  files for Azure AI Document Intelligence
+  modules](https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence)
+- [GitHub - MicrosoftLearning/mslearn-ai-information-extraction: Lab
+  exercises on AI-powered information
+  extraction](https://github.com/microsoftlearning/mslearn-ai-information-extraction)
+- [GitHub - MicrosoftLearning/mslearn-ai-language: Lab files for Azure
+  AI Language
+  modules](https://github.com/MicrosoftLearning/mslearn-ai-language)
+- [GitHub - MicrosoftLearning/mslearn-ai-studio: Practical exercises for
+  Azure AI Foundry
+  training](https://github.com/MicrosoftLearning/mslearn-ai-studio)
+  (Generative AI)
+- [GitHub - MicrosoftLearning/mslearn-ai-vision: Lab files for Azure AI
+  Vision
+  modules](https://github.com/MicrosoftLearning/mslearn-ai-vision)

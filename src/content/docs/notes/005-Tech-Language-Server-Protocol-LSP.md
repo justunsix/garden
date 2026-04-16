@@ -141,11 +141,11 @@ Debugging:
   performance
   - Since it used JSON, transition to multiple processes was smooth
 
-1.  Protocol translation
+#### Protocol translation
 
-    - Protocol allows same server to communicate with anyone/software
-    - TSServer was an inspiration for Language Server Protocol (LSP),
-      allow reuse in multiple tools
+- Protocol allows same server to communicate with anyone/software
+- TSServer was an inspiration for Language Server Protocol (LSP), allow
+  reuse in multiple tools
 
 ### Why not just use LSP?
 

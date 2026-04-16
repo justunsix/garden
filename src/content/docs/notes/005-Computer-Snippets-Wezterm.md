@@ -9,4 +9,10 @@ title: Wezterm Snippets
 # Set title of tab
 wezterm cli set-tab-title [OPTIONS] <TITLE>
 
+# Create new tab with command top using --
+wezterm cli spawn -- top
+
+# Create new tab with bash as login shell
+wezterm cli spawn -- bash -l
+
 ```

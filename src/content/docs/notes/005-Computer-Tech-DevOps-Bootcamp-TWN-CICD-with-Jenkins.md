@@ -293,42 +293,41 @@ docker push dockerhubuser/java-maven-app:1.0
 
 ### Push to Nexus Repository
 
-1.  Set up Docker to allow insecure repositories
+#### Set up Docker to allow insecure repositories
 
-    - Since Nexus is running on HTTP, need to allow insecure repository
-      protocol in Jenkins
-    - Configure `/etc/docker/daemon.json` on host of container since
-      host has the docker runtime
+- Since Nexus is running on HTTP, need to allow insecure repository
+  protocol in Jenkins
+- Configure `/etc/docker/daemon.json` on host of container since host
+  has the docker runtime
 
-    ``` json
+``` json
 
-    {
-        "insecure-registries":["nexus_ip_address:port"]
-    }
+{
+    "insecure-registries":["nexus_ip_address:port"]
+}
 
-    ```
+```
 
-    - Restart docker on host to apply config, it will stop all
-      containers
-      - `systemctl restart docker`
-    - Restart Jenkins container on host
-    - Re-apply Jenkins permissions to /var/run/docker.sock inside
-      container as root `chmod 666 /var/run/docker.sock`
+- Restart docker on host to apply config, it will stop all containers
+  - `systemctl restart docker`
+- Restart Jenkins container on host
+- Re-apply Jenkins permissions to /var/run/docker.sock inside container
+  as root `chmod 666 /var/run/docker.sock`
 
-2.  Set up Job, Push to Repository
+#### Set up Job, Push to Repository
 
-    - Add credentials for Nexus with username with password
-    - Configure java-maven-build job, choose nexus repository
-      credentials in secrets task
+- Add credentials for Nexus with username with password
+- Configure java-maven-build job, choose nexus repository credentials in
+  secrets task
 
-    ``` shell
+``` shell
 
-    # Reference Nexus
-    docker build -t nexus_ip:port/java-maven-app:1.0 .
-    echo $password | docker login -u $username --password-stdin nexus_ip:port
-    docker push nexus_ip:port/java-maven-app:1.0
+# Reference Nexus
+docker build -t nexus_ip:port/java-maven-app:1.0 .
+echo $password | docker login -u $username --password-stdin nexus_ip:port
+docker push nexus_ip:port/java-maven-app:1.0
 
-    ```
+```
 
 ## Freestyle to Pipeline Job
 
@@ -1175,25 +1174,23 @@ class docker implements serializable {
 
 - After a push to the repository, Jenkins will automatically do a build
 
-1.  Multi branch Pipeline and Triggers
+#### Multi branch Pipeline and Triggers
 
-    - The set up works for the pipeline, but the multi branch pipeline
-      requires a different set up
-    - In Jenkins, need to install Multibranch Scan Webhook trigger
-      plugin
-      - Select a multi branch pipeline \> Build Configurtion \> Scan
-        Multibranch pipeline trigger
-        - Can scan periodically or scan by webhook for pushes
-        - Choose a token name, the token can be used to notify Jenkins
-        - Note down the URL provided by the plugin information panel
-          from the ? button
-    - In GitLab repo \> Webhooks
-      - Set URL with Jenkins URL with token from the multi branch
-        pipeline
-      - Set which events to trigger, for now select push events on all
-        Branches
-    - Now push events in repo in a branch will trigger build for that
-      branch in Jenkins
+- The set up works for the pipeline, but the multi branch pipeline
+  requires a different set up
+- In Jenkins, need to install Multibranch Scan Webhook trigger plugin
+  - Select a multi branch pipeline \> Build Configurtion \> Scan
+    Multibranch pipeline trigger
+    - Can scan periodically or scan by webhook for pushes
+    - Choose a token name, the token can be used to notify Jenkins
+    - Note down the URL provided by the plugin information panel from
+      the ? button
+- In GitLab repo \> Webhooks
+  - Set URL with Jenkins URL with token from the multi branch pipeline
+  - Set which events to trigger, for now select push events on all
+    Branches
+- Now push events in repo in a branch will trigger build for that branch
+  in Jenkins
 
 ## Versioning Applications - Dynamically Increment Application version in Jenkins Pipeline - Part 1
 

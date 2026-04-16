@@ -8,7 +8,7 @@ title: Microsoft Build 2023
 
 <link rel="stylesheet" type="text/css" href="basic-org.css"/>
 
-# Inject the power of the cloud and AI into your development workflow 2023-05-23
+## Inject the power of the cloud and AI into your development workflow 2023-05-23
 
 Source: [Inject the power of the cloud and AI into your development
 workflow](https://build.microsoft.com/en-US/sessions/01f6a7ae-d371-43d5-9e6c-9ed2cf853d94?source=/favorites)
@@ -18,20 +18,20 @@ Copilot to increase developer productivity.
 
 Speakers: Amanda Silver, Shayne Boyer, Isidor Nikolic, Leslie Richardson
 
-## Introduction
+### Introduction
 
 - Combine cloud and artificial intelligence for better developer
   experience
 - Address disruptions: hybrid work, vulnerabilities, systems complexity,
   business interruptions
 
-## Better Developer Experience
+### Better Developer Experience
 
 - Visual Studio products for multi language development
 - Goals and results: faster setup, boilerplate generation, issues
   troubleshooting, happier developers
 
-### GitHub Copilot
+#### GitHub Copilot
 
 Conversional AI with context of code. Sample use cases:
 
@@ -47,7 +47,7 @@ Troubleshooting:
 - Explain what the exception means and how to fix it
 - Explain errors or incorrect values and how to test/fix them
 
-### Dev Box
+#### Dev Box
 
 - Addresses issue of setting up a new development environment
   - Ready to code
@@ -57,7 +57,7 @@ Troubleshooting:
   tools and dependencies to develop and run your application
   - Single sign on
 
-## Accelerating Teams
+### Accelerating Teams
 
 - Deploying Microsoft Dev Box
   - Shared definitions
@@ -66,13 +66,13 @@ Troubleshooting:
   - Pay for use
 - Example: Visual Studio + dependencies
 
-### GitOps and Azure Deployment Environments
+#### GitOps and Azure Deployment Environments
 
 - Deployed from git configuration
 - Deployed environments manually or CICD
 - Managed pools, network
 
-### DevSecOps - Shift Security to Development (Left)
+#### DevSecOps - Shift Security to Development (Left)
 
 Demo:
 
@@ -93,7 +93,7 @@ Products:
 - Azure Load Testing
   - Can use Apache JMeter scripts
 
-## Developing Intelligent Apps
+### Developing Intelligent Apps
 
 Demo:
 
@@ -113,11 +113,11 @@ Demo:
   <https://aka.ms/chatgpt-plugin-sample> –
   <https://github.com/binderjoe/openai-plugin>
 
-## See Also
+### See Also
 
 - [Microsoft](/garden/notes/005-tech-microsoft)
 
-### Resources
+#### Resources
 
 - [Microsoft After Ignite Training on Microsoft
   Learn](https://learn.microsoft.com/en-us/training/topics/ignite/)

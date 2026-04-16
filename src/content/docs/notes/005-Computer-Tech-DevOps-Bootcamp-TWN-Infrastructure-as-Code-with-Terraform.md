@@ -140,28 +140,27 @@ resource "“kubernetes_namespace" "example" {
   - To make changes, remove 2 servers, add firewall, add permission to
     AWS users
 
-1.  Advantages of Declarative approach
+#### Advantages of Declarative approach
 
-    - During provisioning, both approaches are similar.
-    - The advantage is in updating the infrastructure.
+- During provisioning, both approaches are similar.
+- The advantage is in updating the infrastructure.
 
-    For example, removing 2 servers:
+For example, removing 2 servers:
 
-    - Imperative config file
-      - Remove 2 servers
-      - Add firewall config
-      - Add permission
-      - …
-    - Declarative config file
-      - Down to 7 servers
-      - Use this firewall configuration
-      - Users have these permissions
+- Imperative config file
+  - Remove 2 servers
+  - Add firewall config
+  - Add permission
+  - …
+- Declarative config file
+  - Down to 7 servers
+  - Use this firewall configuration
+  - Users have these permissions
 
-    With Terraform, just adjust old configuration file and re-execute
-    it:
+With Terraform, just adjust old configuration file and re-execute it:
 
-    - Clean configuration file
-    - Known desired state
+- Clean configuration file
+- Known desired state
 
 ### Terraform Commands for Different Stages
 

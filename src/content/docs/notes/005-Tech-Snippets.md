@@ -39,6 +39,8 @@ title: Software Snippets
   environments](/garden/notes/005-computer-snippets-devpod) - [DevPod Snippets -
   reproducible developer
   environments](id:d8941d1f-7212-482e-9a28-3a6e6fbb3398)
+- [DNF-YUM Snippets](/garden/notes/005-computer-snippets-dnf-yum) - [DNF-YUM
+  Snippets](id:06be5e52-b445-4bc5-99e0-9b93993d9b5b)
 - [Docker Snippets](/garden/notes/005-computer-snippets-docker) - [Docker
   Snippets](id:4a17b5a3-3c43-42d4-a17c-9c2699a9d9d0)
 - [dotnet .NET Snippets](/garden/notes/005-computer-snippets-dotnet) - [dotnet .NET
@@ -51,6 +53,9 @@ title: Software Snippets
   Lisp Snippets](id:00798efe-be1c-4450-8aaf-2b1d288d8422)
 - [Emacs Org Mode Snippets](/garden/notes/005-computer-snippets-emacs-org-mode) -
   [Emacs Org Mode Snippets](id:4a735bbe-5abd-434a-8387-df414685c341)
+- [Emacs Org Mode Table
+  Snippets](/garden/notes/005-computer-snippets-emacs-org-mode-table) - [Emacs Org
+  Mode Table Snippets](id:43771c13-7b1a-49d0-9a25-95ea5a644844)
 - [Emacs Snippets](/garden/notes/005-computer-snippets-emacs) - [Emacs
   Snippets](id:f1e69dcf-1ee5-48c5-9efe-a05affb4236c)
 - [Email](/garden/notes/005-computer-snippets-email) - [Email
@@ -105,6 +110,8 @@ title: Software Snippets
   Snippets](id:169b12b1-ff8d-4a9a-8adc-d6e1e9452cda)
 - [Kamal Snippets](/garden/notes/005-tech-snippets-kamal) - [Kamal
   Snippets](id:b5064ecf-6e06-4975-bb8f-5c4098d7403a)
+- [Kokoro TTS Snippets](/garden/notes/005-computer-snippets-kokoro-tts) - [Kokoro
+  TTS Snippets](id:6a1e840b-917a-404e-9e3e-f5983c5e0b4c)
 - [KQL Snippets](/garden/notes/005-tech-snippets-kql) - [KQL
   Snippets](id:45cb5a49-50ec-4159-843c-34195f380ee7)
 - [kubectl, oc Openshift, Other K8s related command
@@ -234,8 +241,12 @@ title: Software Snippets
   Snippets](id:d74e20b9-f1b8-4d8d-8747-71366f9ab90a)
 - [winget Windows Package Manager](/garden/notes/005-computer-snippets-winget) -
   [Winget Snippets](id:03a386df-b8a7-43fa-9048-30ce9ea28a0e)
+- [Worktrunk Snippets](/garden/notes/005-computer-snippets-worktrunk) - [Worktrunk
+  Snippets](id:85f7620e-184b-4c79-8157-d1146f0fbfbd)
 - [Yt-dlp Snippets](/garden/notes/005-computer-snippets-youtube-yt-dlp) - [yt-dlp
   Snippets](id:4cc04c35-2c98-4bcf-84ef-e51148ca8e3c)
+- [Zellij Snippets](/garden/notes/005-computer-snippets-zellij) - [Zellij
+  Snippets](id:17e6686e-93a5-4c52-81b6-5b0a250d4331)
 - [Zoxide Snippets](/garden/notes/005-computer-snippets-zoxide) - [Zoxide
   Snippets](id:6796a6b4-fa8d-47e9-ac81-5c602c9a439d)
 

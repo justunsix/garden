@@ -4,14 +4,14 @@ id: 59a60588-a161-4243-8696-1e361454067a
 title: VS Code - Local App Settings
 ---
 
-# Extensions
+## Extensions
 
 - See [example
   dotfiles](https://github.com/justunsix/dotfiles/tree/main/.config/Code/User)
   for workspace settings
 - Sign into GitHub for easier synchronization across machines.
 
-# VS Code on Linux Spelling
+## VS Code on Linux Spelling
 
 - For
   [Spellright](https://marketplace.visualstudio.com/items?itemName=ban.spellright),

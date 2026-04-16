@@ -13,51 +13,51 @@ title: Microsoft Azure
 
 ### Learning
 
-1.  Reading
+#### Reading
 
-    - [Azure monitor
-      overview](https://docs.microsoft.com/en-us/azure/azure-monitor/overview)
-    - [Azure platform
-      logs](https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/platform-logs-overview)
-    - [Azure activity
-      log](https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/activity-log) with
-      sample queries
+- [Azure monitor
+  overview](https://docs.microsoft.com/en-us/azure/azure-monitor/overview)
+- [Azure platform
+  logs](https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/platform-logs-overview)
+- [Azure activity
+  log](https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/activity-log) with
+  sample queries
 
-2.  Tutorials
+#### Tutorials
 
-    - [Log Analytics
-      Tutorial](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-tutorial) -
-      you can do everything in your browser
-    - [Get started with log queries in Azure
-      Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/get-started-queries) -
-      you can do everything in your browser
-    - [Collect and analyze resource logs from an Azure
-      resource](https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/tutorial-resource-logs) -
-      this tutorial can be tried out using the dashboard's development
-      environment
+- [Log Analytics
+  Tutorial](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-tutorial) -
+  you can do everything in your browser
+- [Get started with log queries in Azure
+  Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/get-started-queries) -
+  you can do everything in your browser
+- [Collect and analyze resource logs from an Azure
+  resource](https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/tutorial-resource-logs) -
+  this tutorial can be tried out using the dashboard's development
+  environment
 
-3.  Implementation
+#### Implementation
 
-    - [Log analytics usage, cost, data volume
-      management](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/manage-cost-storage)
+- [Log analytics usage, cost, data volume
+  management](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/manage-cost-storage)
 
-4.  Related learning
+#### Related learning
 
-    - [Kusto Query Language
-      tutorial](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/tutorial?pivots=azuremonitor)
-    - [Kusto operator
-      reference](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/)
-    - [Microsoft Learn: Azure monitor related
-      courses](https://docs.microsoft.com/en-us/learn/browse/?roles=administrator%2Cai-engineer%2Cdata-analyst%2Cdata-engineer%2Cdata-scientist%2Cdatabase-administrator%2Cdeveloper%2Cdevops-engineer%2Csecurity-engineer%2Csolution-architect&resource_type=learning%20path&wt.mc_id=esi_lxp_webpage_wwl&expanded=azure&filter-products=monitor&products=azure-monitor)
-    - [Analyze your Azure infrastructure by using Azure Monitor
-      logs](https://docs.microsoft.com/en-us/learn/modules/analyze-infrastructure-with-azure-monitor-logs/)
-    - [Microsoft Learn: Monitor Azure Resources
-      course](https://docs.microsoft.com/en-us/learn/modules/design-monitoring-strategy-on-azure/1-introduction)
+- [Kusto Query Language
+  tutorial](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/tutorial?pivots=azuremonitor)
+- [Kusto operator
+  reference](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/)
+- [Microsoft Learn: Azure monitor related
+  courses](https://docs.microsoft.com/en-us/learn/browse/?roles=administrator%2Cai-engineer%2Cdata-analyst%2Cdata-engineer%2Cdata-scientist%2Cdatabase-administrator%2Cdeveloper%2Cdevops-engineer%2Csecurity-engineer%2Csolution-architect&resource_type=learning%20path&wt.mc_id=esi_lxp_webpage_wwl&expanded=azure&filter-products=monitor&products=azure-monitor)
+- [Analyze your Azure infrastructure by using Azure Monitor
+  logs](https://docs.microsoft.com/en-us/learn/modules/analyze-infrastructure-with-azure-monitor-logs/)
+- [Microsoft Learn: Monitor Azure Resources
+  course](https://docs.microsoft.com/en-us/learn/modules/design-monitoring-strategy-on-azure/1-introduction)
 
-5.  Architecture
+#### Architecture
 
-    - [Unified logging for microservices
-      applications](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/logging/unified-logging)
+- [Unified logging for microservices
+  applications](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/logging/unified-logging)
 
 ## Azure Open Source Day 2022-02-15
 

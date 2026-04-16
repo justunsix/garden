@@ -88,36 +88,35 @@ ANDI will scan elements on page and show a tester features like:
 
 Advanced settings show element highlights, linearize page
 
-1.  Focusable Elements
+#### Focusable Elements
 
-    - Go through order of elements
+- Go through order of elements
 
-2.  Graphics and Images
+#### Graphics and Images
 
-    - Find images
-    - See alerts
-    - Hide, find background images
+- Find images
+- See alerts
+- Hide, find background images
 
-3.  Links and Buttons
+#### Links and Buttons
 
-    Find elements
+Find elements
 
-4.  Structures
+#### Structures
 
-    Works on headings, lists, landmarks, live regions, reading order,
-    page title, page language, role attribute
+Works on headings, lists, landmarks, live regions, reading order, page
+title, page language, role attribute
 
-5.  Colour Contrast
+#### Colour Contrast
 
-    Find contrast issues like showing colours and suggestions on
-    accessible colours or warn on background images that require manual
-    checks.
+Find contrast issues like showing colours and suggestions on accessible
+colours or warn on background images that require manual checks.
 
-6.  Hidden Content
+#### Hidden Content
 
-    Reveal all hidden content for checks and determine hiding technique
-    (display, overflow, absolute positions), and find ARIA hidden true
-    elements.
+Reveal all hidden content for checks and determine hiding technique
+(display, overflow, absolute positions), and find ARIA hidden true
+elements.
 
 ## See Also
 

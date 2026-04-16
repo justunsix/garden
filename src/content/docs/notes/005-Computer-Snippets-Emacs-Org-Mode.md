@@ -336,46 +336,46 @@ WHERE id > 500
 
 ### MySQL
 
-1.  Connecting & running a basic query
+#### Connecting & running a basic query
 
-    Follow the MySQL instructions in the [org-babel
-    documentation](https:/.mdmode.md/.md/.md-contrib/babel/languages/ob-doc-sql.html).
-    This example uses source block level properties.
+Follow the MySQL instructions in the [org-babel
+documentation](https:/.mdmode.md/.md/.md-contrib/babel/languages/ob-doc-sql.html).
+This example uses source block level properties.
+
+``` sql
+SHOW TABLES;
+```
+
+#### Loading data & running queries
+
+Uses subheader properties for the configuration instead of putting the
+configuration on every block. Use the source block level for one off
+qureies.
+
+1.  Create a database
 
     ``` sql
-    SHOW TABLES;
+    create database if not exists org_test;
     ```
-
-2.  Loading data & running queries
-
-    Uses subheader properties for the configuration instead of putting
-    the configuration on every block. Use the source block level for one
-    off qureies.
-
-    1.  Create a database
-
-        ``` sql
-        create database if not exists org_test;
-        ```
 
 ### PostgreSQL
 
-1.  Connecting & running a basic query
+#### Connecting & running a basic query
 
-    Follow the PostgresQL instructions in the [org-babel
-    documentation](https:/.mdmode.md/.md/.md-contrib/babel/languages/ob-doc-sql.html)
+Follow the PostgresQL instructions in the [org-babel
+documentation](https:/.mdmode.md/.md/.md-contrib/babel/languages/ob-doc-sql.html)
+
+``` sql
+\list
+```
+
+#### Loading data & running queries using heading properties
+
+1.  Create a database
 
     ``` sql
-    \list
+    select 'CREATE DATABASE org_test' where not exists (SELECT FROM pg_database WHERE datname = 'org_test')\gexec
     ```
-
-2.  Loading data & running queries using heading properties
-
-    1.  Create a database
-
-        ``` sql
-        select 'CREATE DATABASE org_test' where not exists (SELECT FROM pg_database WHERE datname = 'org_test')\gexec
-        ```
 
 ### SQLite
 
@@ -390,14 +390,14 @@ select sqlite_version();
 select * from greeting;
 ```
 
-1.  Loading data & running queries at heading level
+#### Loading data & running queries at heading level
 
-    1.  Creating a new table & inserting some data
+1.  Creating a new table & inserting some data
 
-        ``` sql
-        CREATE TABLE IF NOT EXISTS org_resources (
-          id INT,
-          resource TEXT,
-          url TEXT
-          );
-        ```
+    ``` sql
+    CREATE TABLE IF NOT EXISTS org_resources (
+      id INT,
+      resource TEXT,
+      url TEXT
+      );
+    ```

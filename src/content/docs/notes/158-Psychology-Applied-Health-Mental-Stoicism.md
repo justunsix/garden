@@ -17,34 +17,33 @@ Pigliucci \| TEDxAthens](https://www.youtube.com/watch?v=Yhn1Fe8cT0Q)
   - Justice - what is the right thing, right way to treat people
   - Temperance - do things in right measure, not too much or too little
 
-1.  What is Up to Us?
+#### What is Up to Us?
 
-    - Dichotomy of control - some things are up to us and some are not
-      - Focus on the functions of your mind that are up to us
+- Dichotomy of control - some things are up to us and some are not
+  - Focus on the functions of your mind that are up to us
 
-    More from an article "Some things are what? …"
+More from an article "Some things are what? …"
 
-    Source: [Some things are what? What does the beginning of the
-    Enchiridion mean? – Living
-    Stoicism](https://livingstoicism.com/2023/05/10/epictetus-enchiridion-explained/)
-    by James Daltrey
+Source: [Some things are what? What does the beginning of the
+Enchiridion mean? – Living
+Stoicism](https://livingstoicism.com/2023/05/10/epictetus-enchiridion-explained/)
+by James Daltrey
 
-    Quotation from conclusion of the article about first chapter of the
-    Enchiridion:
+Quotation from conclusion of the article about first chapter of the
+Enchiridion:
 
-    > Prohairesis, our ability to rationally reflect upon our own
-    > judgments about what is to be pursued or avoided is the only thing
-    > that is ours, and the only thing of true value. What is not ours,
-    > external things, only have value if we avoid or pursue them for
-    > the right reasons, in the right way. Anything can interfere with
-    > getting or avoiding anything that is not freely ours, so to count
-    > on them will lead to disappointment. If we only count on working
-    > on what is ours, avoiding bad judgments, and pursuing good
-    > judgments about what we should do, we will be truly free from
-    > disappointment . To rationally reflect upon our own judgments
-    > about what is to be pursued or avoided alone is ours, our
-    > business, our work, our task. This is prohairesis, This is virtue.
-    > This is ours.
+> Prohairesis, our ability to rationally reflect upon our own judgments
+> about what is to be pursued or avoided is the only thing that is ours,
+> and the only thing of true value. What is not ours, external things,
+> only have value if we avoid or pursue them for the right reasons, in
+> the right way. Anything can interfere with getting or avoiding
+> anything that is not freely ours, so to count on them will lead to
+> disappointment. If we only count on working on what is ours, avoiding
+> bad judgments, and pursuing good judgments about what we should do, we
+> will be truly free from disappointment . To rationally reflect upon
+> our own judgments about what is to be pursued or avoided alone is
+> ours, our business, our work, our task. This is prohairesis, This is
+> virtue. This is ours.
 
 ### Teachings from Epictetus
 
@@ -243,68 +242,64 @@ Evening Review:
 
 ### Stoic Philosophy of Mind \| Internet Encyclopedia of Philosophy
 
-1.  Ethics, Logic, Physics
+#### Ethics, Logic, Physics
 
-    Stoicism had 3 fields:
+Stoicism had 3 fields:
 
-    - Ethics - Stoicism's goal to help people live a virtuous life
-      - "Live consistently with nature" - both universe and human
-        nature.
-      - Human nature:
-        - We naturally advance our interests and goals (health, wealth,
-          and so forth)
-        - We identify with other people's interests (initially our
-          parents, then friends, then other people)
-        - We figure out ways to practically navigate life.
-        - "The Stoics related these propensities directly to the four
-          cardinal virtues of temperance, courage, justice and practical
-          wisdom. Temperance and courage are required to pursue our
-          goals, justice is a natural extension of our concern for an
-          ever-increasing circle of people, and practical wisdom
-          (phronêsis) is what best allows us to deal with whatever
-          happens."
-    - Physics - study of the world - modern nature science and
-      metaphysics (including theology)
-      - In order to "live according to nature", Stoics needs to
-        understand nature.
-    - Logic - study of how to reason about the world (modern cognitive
-      science)
-      - Impressions are needed to form concepts, but ones perceptions
-        can be wrong such as through unconscious judgment
-    - How the 3 fields related to each other: \> what an agent ought to
-      do (Ethics) is in fact closely informed by that agent's knowledge
-      of the workings of the world (Physics) as well as her capacity to
-      reason correctly (Logic).
-    - Even though ethics is applied with knowledge of logic and physics,
-      it is not necessary to understand all logical and physics to purse
-      virtue. Stoic virtue is to be consistent with nature and nature
-      can be unknowable. Stoics can work with both "Gods or Atoms".
+- Ethics - Stoicism's goal to help people live a virtuous life
+  - "Live consistently with nature" - both universe and human nature.
+  - Human nature:
+    - We naturally advance our interests and goals (health, wealth, and
+      so forth)
+    - We identify with other people's interests (initially our parents,
+      then friends, then other people)
+    - We figure out ways to practically navigate life.
+    - "The Stoics related these propensities directly to the four
+      cardinal virtues of temperance, courage, justice and practical
+      wisdom. Temperance and courage are required to pursue our goals,
+      justice is a natural extension of our concern for an
+      ever-increasing circle of people, and practical wisdom (phronêsis)
+      is what best allows us to deal with whatever happens."
+- Physics - study of the world - modern nature science and metaphysics
+  (including theology)
+  - In order to "live according to nature", Stoics needs to understand
+    nature.
+- Logic - study of how to reason about the world (modern cognitive
+  science)
+  - Impressions are needed to form concepts, but ones perceptions can be
+    wrong such as through unconscious judgment
+- How the 3 fields related to each other: \> what an agent ought to do
+  (Ethics) is in fact closely informed by that agent's knowledge of the
+  workings of the world (Physics) as well as her capacity to reason
+  correctly (Logic).
+- Even though ethics is applied with knowledge of logic and physics, it
+  is not necessary to understand all logical and physics to purse
+  virtue. Stoic virtue is to be consistent with nature and nature can be
+  unknowable. Stoics can work with both "Gods or Atoms".
 
-2.  Apatheia and the Stoic Treatment of Emotions
+#### Apatheia and the Stoic Treatment of Emotions
 
-    - apatheia = freedom from passion, we will not be concerned with
-      things that do not matter and rejoice in things that do matter
-    - ataraxia = imperturbability, literally "without trouble,"
-      sometimes translated as "tranquility"
-    - Both apatheia and ataraxia are components of the eudaimonic
-      (virtuous) life
-    - Health passions:
-      - Caution or discretion - rational aversion of vice and harmful
-        things
-      - Wishing or willing - rational desire for virtue
-      - Joy or delight - rational elation over virtue
-    - Unhealthy passions
-      - Pain - failure to avoid something mistakenly judged as bad
-      - Fear - irrational expectation of something bad
-      - Craving - irrational striving for something mistakenly judged as
-        good
-      - Pleasure - irrational elation over something that is not worth
-        choosing
-    - Apatheia is movement towards healthy passions. Passions are the
-      result of our judgment to an impression (giving "assent" to an
-      "impression"). Stoics understand we have instinctive reactions and
-      focus on our control of judgments on the causes of instinctive
-      reactions.
+- apatheia = freedom from passion, we will not be concerned with things
+  that do not matter and rejoice in things that do matter
+- ataraxia = imperturbability, literally "without trouble," sometimes
+  translated as "tranquility"
+- Both apatheia and ataraxia are components of the eudaimonic (virtuous)
+  life
+- Health passions:
+  - Caution or discretion - rational aversion of vice and harmful things
+  - Wishing or willing - rational desire for virtue
+  - Joy or delight - rational elation over virtue
+- Unhealthy passions
+  - Pain - failure to avoid something mistakenly judged as bad
+  - Fear - irrational expectation of something bad
+  - Craving - irrational striving for something mistakenly judged as
+    good
+  - Pleasure - irrational elation over something that is not worth
+    choosing
+- Apatheia is movement towards healthy passions. Passions are the result
+  of our judgment to an impression (giving "assent" to an "impression").
+  Stoics understand we have instinctive reactions and focus on our
+  control of judgments on the causes of instinctive reactions.
 
 ## Example Stoic Philosophy Regime
 

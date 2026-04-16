@@ -25,138 +25,133 @@ Source:
 
 ### Back up and restore SQL Server running on Azure virtual machines
 
-1.  Database Types and Practices
+#### Database Types and Practices
 
-    - SQL Server has two types of databases: **system and user**.
+- SQL Server has two types of databases: **system and user**.
 
-      - System databases are the ones used by SQL Server such as master
-        and msdb.
-      - User databases are the ones created by users that store the data
-        for applications.
+  - System databases are the ones used by SQL Server such as master and
+    msdb.
+  - User databases are the ones created by users that store the data for
+    applications.
 
-    - Both types databases are important for backup and recovery plans.
+- Both types databases are important for backup and recovery plans.
 
-    - General practices:
+- General practices:
 
-      - System databases are updated less and usually not restored from
-        one SQL server to another with exceptions
-      - User databases must be backed up
+  - System databases are updated less and usually not restored from one
+    SQL server to another with exceptions
+  - User databases must be backed up
 
-    - Common backup types:
+- Common backup types:
 
-      - Full
-      - Differential
-      - Transaction log
+  - Full
+  - Differential
+  - Transaction log
 
-    - Types can be restricted by the deployment
+- Types can be restricted by the deployment
 
-2.  About Backup
+#### About Backup
 
-    - A full database backup is a backup of a single database and all
-      pages from the database are copied to the backup device.
-    - The backup can restore the database to the point the backup was
-      made which is the point when the back up finishes
-    - To achieve a specific Recovery Point Objective (RPO), differential
-      and/or transaction log backups are required
-      - A **differential backup** contains all the database pages that
-        have changed since the last time a full backup was made.
-      - A **transaction log backup** allows restore to a point in time
-        and clears the transaction logs to keep its size manageable.
-        They can be as frequent as every 30 seconds, though that is
-        impractical.
-        - Understanding the transaction log is important to understand
-          how it is backed up and how to use it for recovery
-      - Other backup options include copy-only, file, filegroup,
-        partial, and others
+- A full database backup is a backup of a single database and all pages
+  from the database are copied to the backup device.
+- The backup can restore the database to the point the backup was made
+  which is the point when the back up finishes
+- To achieve a specific Recovery Point Objective (RPO), differential
+  and/or transaction log backups are required
+  - A **differential backup** contains all the database pages that have
+    changed since the last time a full backup was made.
+  - A **transaction log backup** allows restore to a point in time and
+    clears the transaction logs to keep its size manageable. They can be
+    as frequent as every 30 seconds, though that is impractical.
+    - Understanding the transaction log is important to understand how
+      it is backed up and how to use it for recovery
+  - Other backup options include copy-only, file, filegroup, partial,
+    and others
 
-3.  Restore
+#### Restore
 
-    - A differential or a log backup can be restored after a full
-      database is restored, as long as the database `RESTORE` command
-      uses either the `WITH NORECOVERY` or the `WITH STANDBY` option. If
-      neither option is used, the database `RESTORE` will do a recovery
-      of the database, after which no extra backups can be applied.
+- A differential or a log backup can be restored after a full database
+  is restored, as long as the database `RESTORE` command uses either the
+  `WITH NORECOVERY` or the `WITH STANDBY` option. If neither option is
+  used, the database `RESTORE` will do a recovery of the database, after
+  which no extra backups can be applied.
 
-    1.  Database Recovery Models
+1.  Database Recovery Models
 
-        There are 3 models:
+    There are 3 models:
 
-        - FULL - allows all types of backups to be generated
-        - BULK<sub>LOGGED</sub>
-        - SIMPLE - does not allow transaction log backups, suitable if
-          RPO has a wide range and not suitable if RPO is small
+    - FULL - allows all types of backups to be generated
+    - BULK<sub>LOGGED</sub>
+    - SIMPLE - does not allow transaction log backups, suitable if RPO
+      has a wide range and not suitable if RPO is small
 
-        The model is set as a database option and controls the type of
-        backups and restores that can be done. Most database use FULL or
-        SIMPLE.
+    The model is set as a database option and controls the type of
+    backups and restores that can be done. Most database use FULL or
+    SIMPLE.
 
 ### Back up a SQL Server virtual machine
 
-1.  Virtual Machine Backups
+#### Virtual Machine Backups
 
-    - Azure backup can backup VMs including the SQL server databases on
-      the VM
-      - The VM backups are SQL server-aware aka application aware and
-        will ensure the VM-level backup does not break the SQL server
-      - Combining SQL server backups with snapshots can cause issues see
-        [Back up a SQL Server virtual machine - Training \| Microsoft
-        Learn](https://learn.microsoft.com/en-us/training/modules/backup-restore-databases/3-backup-sql-server-virtual-machine)
-        for possible troubleshoting.
-    - It is an option suited for VM recovery and protection against
-      ransomware
+- Azure backup can backup VMs including the SQL server databases on the
+  VM
+  - The VM backups are SQL server-aware aka application aware and will
+    ensure the VM-level backup does not break the SQL server
+  - Combining SQL server backups with snapshots can cause issues see
+    [Back up a SQL Server virtual machine - Training \| Microsoft
+    Learn](https://learn.microsoft.com/en-us/training/modules/backup-restore-databases/3-backup-sql-server-virtual-machine)
+    for possible troubleshoting.
+- It is an option suited for VM recovery and protection against
+  ransomware
 
-2.  Local Disk or Network Share Backups
+#### Local Disk or Network Share Backups
 
-    - Database can be backup up to disks attached to the VM or shares
-      like Azure files that the SQL server can access
-    - Ensure the disks are not ephemeral storage and will persist on VM
-      restarts
-    - Good practice is also copy the back to a second location to avoid
-      single point of failures
+- Database can be backup up to disks attached to the VM or shares like
+  Azure files that the SQL server can access
+- Ensure the disks are not ephemeral storage and will persist on VM
+  restarts
+- Good practice is also copy the back to a second location to avoid
+  single point of failures
 
-3.  Backup Database To and Restore from URL
+#### Backup Database To and Restore from URL
 
-    - Backup and restore from URL is a local Azure option
+- Backup and restore from URL is a local Azure option
 
-    1.  Requirements
+1.  Requirements
 
-        - Azure storage account (SA) with blob storage. The SA will have
-          a container with blobs inside.
-        - Example URL:
-          `https://ACCOUNTNAME.blob.core.windows.net/ContainerName/MyDatabase.bak`.
-          Folder names can be used to identify backups like FULL, DIFF,
-          LOG
-        - Authentication is done between SQL server and Azure. The SQL
-          server credential can be Azure SA account name and either of
-          these options:
-          - Access key authentication - backup will be stored as page
-            blob
-          - Shared Access Signature (SAS) - backup will be stored as
-            block blob - this option is recommended due to block blobs
-            being cheaper and SAS tokens offer security control
+    - Azure storage account (SA) with blob storage. The SA will have a
+      container with blobs inside.
+    - Example URL:
+      `https://ACCOUNTNAME.blob.core.windows.net/ContainerName/MyDatabase.bak`.
+      Folder names can be used to identify backups like FULL, DIFF, LOG
+    - Authentication is done between SQL server and Azure. The SQL
+      server credential can be Azure SA account name and either of these
+      options:
+      - Access key authentication - backup will be stored as page blob
+      - Shared Access Signature (SAS) - backup will be stored as block
+        blob - this option is recommended due to block blobs being
+        cheaper and SAS tokens offer security control
 
-    2.  Restore
+2.  Restore
 
-        - See [Back up a SQL Server virtual machine - Training \|
-          Microsoft
-          Learn](https://learn.microsoft.com/en-us/training/modules/backup-restore-databases/3-backup-sql-server-virtual-machine)
-          for detailed steps on restoration using SQL Server Management
-          Studio and Transact-SQL.
+    - See [Back up a SQL Server virtual machine - Training \| Microsoft
+      Learn](https://learn.microsoft.com/en-us/training/modules/backup-restore-databases/3-backup-sql-server-virtual-machine)
+      for detailed steps on restoration using SQL Server Management
+      Studio and Transact-SQL.
 
-4.  Automated backups using the SQL Server resource provider
+#### Automated backups using the SQL Server resource provider
 
-    - IaaS VMs that have an SQL server install can use the SQL server
-      resource provider. The provider has an option to configure
-      automated backups with a storage account.
+- IaaS VMs that have an SQL server install can use the SQL server
+  resource provider. The provider has an option to configure automated
+  backups with a storage account.
 
-    - Advantages is managing retention times for backups and ensuring
-      RPO
+- Advantages is managing retention times for backups and ensuring RPO
 
-    - Using this option, do not also configure backups into the VM
-      otherwise there can be log chain problems with restores
+- Using this option, do not also configure backups into the VM otherwise
+  there can be log chain problems with restores
 
-    - Restores are done manually using the URL functionality within the
-      SQL server
+- Restores are done manually using the URL functionality within the SQL
+  server
 
 ### Back up and restore a database using Azure SQL Database
 
@@ -171,35 +166,35 @@ IaaS.
     replicated to a datacenter that is paired based on Azure rules. That
     means backups are safe from an outage in a single data center.
 
-1.  Backup Retention
+#### Backup Retention
 
-    Policies can be configured for
+Policies can be configured for
 
-    - Point in Time Restoration (PITR) in days
-    - Long term retention settings:
-      - Weekly - in weeks
-      - Monthly - in week
-      - Yearly - in week
-    - If the server containing the database is deleted, all backups are
-      deleted preventing recovery. If only the database is database, the
-      database can be restored.
-    - SQL database managed instance backups cannot be restored to Azure
-      SQL database
+- Point in Time Restoration (PITR) in days
+- Long term retention settings:
+  - Weekly - in weeks
+  - Monthly - in week
+  - Yearly - in week
+- If the server containing the database is deleted, all backups are
+  deleted preventing recovery. If only the database is database, the
+  database can be restored.
+- SQL database managed instance backups cannot be restored to Azure SQL
+  database
 
-2.  Point in Time Restore
+#### Point in Time Restore
 
-    Restore can be done using Azure portal, Azure PowerShell, Azure CLI,
-    or REST API.
+Restore can be done using Azure portal, Azure PowerShell, Azure CLI, or
+REST API.
 
-    - Restore in place is not supported and need to make sure the
-      database does not exist before the restore.
+- Restore in place is not supported and need to make sure the database
+  does not exist before the restore.
 
-3.  Database backup and restore for SQL Managed Instance
+#### Database backup and restore for SQL Managed Instance
 
-    - Automatic backups
-    - Manual backups also possible and restore databases using the same
-      backup to URL/restore from URL functions found in SQL Server
-      mentioned earlier.
+- Automatic backups
+- Manual backups also possible and restore databases using the same
+  backup to URL/restore from URL functions found in SQL Server mentioned
+  earlier.
 
 ### Exercise: Backup to URL
 
@@ -347,45 +342,45 @@ Connections options:
 - A DNS label can be optionally created for the Azure VM to allow
   connections with SQL Server Management Studio (SSMS)
 
-1.  Public over the Internet
+#### Public over the Internet
 
-    Enables:
+Enables:
 
-    - TCP/IP for the server
-    - Firewall rule is open (default 1433)
-    - SQL authentication
-    - Network security group on the VM allows all TCP traffic on the SQL
-      server port
+- TCP/IP for the server
+- Firewall rule is open (default 1433)
+- SQL authentication
+- Network security group on the VM allows all TCP traffic on the SQL
+  server port
 
-    Access:
+Access:
 
-    - Allows to server's public IP or DNS, example connection:
-      `Server=sqlvmlabel.eastus.cloudapp.azure.com;Integrated Security=false;User ID=<login_name>;Password=<your_password>`
-    - The port can be changes with corresponding firewall and NSG rules
-      - Queries on the SQL VM over ther internet is subject to normal
-        pricing on outbound data transfers
+- Allows to server's public IP or DNS, example connection:
+  `Server=sqlvmlabel.eastus.cloudapp.azure.com;Integrated Security=false;User ID=<login_name>;Password=<your_password>`
+- The port can be changes with corresponding firewall and NSG rules
+  - Queries on the SQL VM over ther internet is subject to normal
+    pricing on outbound data transfers
 
-2.  Private over the Virtual Network
+#### Private over the Virtual Network
 
-    Enables:
+Enables:
 
-    - Similar to public configuration, except there is not NSG to allow
-      outside traffic to the SQL server port
+- Similar to public configuration, except there is not NSG to allow
+  outside traffic to the SQL server port
 
-    Access:
+Access:
 
-    - Allow connections between resources in same virtual network, even
-      if in different resource groups
-    - With site-to-site VPN, connects VMs with on premise network
-    - Azure VMs can be joined to a domain. This way allows Windows
-      authentication to SQL server. Other scenarios require SQL
-      authentication
-    - With DNS configured, connection can be done using VM computer name
+- Allow connections between resources in same virtual network, even if
+  in different resource groups
+- With site-to-site VPN, connects VMs with on premise network
+- Azure VMs can be joined to a domain. This way allows Windows
+  authentication to SQL server. Other scenarios require SQL
+  authentication
+- With DNS configured, connection can be done using VM computer name
 
-    Configuration:
+Configuration:
 
-    - In "SQL virtual machine" resource \> security configuration
-      - Change SQL connectivity level like private and change port
+- In "SQL virtual machine" resource \> security configuration
+  - Change SQL connectivity level like private and change port
 
 ## See Also
 

@@ -243,100 +243,98 @@ Capabilities where one or more of these services are used:
 Azure AI Vision can be applied to images, photographs, small scanned
 documents like business cards and menus.
 
-1.  Automated caption and tag generation
+#### Automated caption and tag generation
 
-    Azure AI Vision Image Analysis allows:
+Azure AI Vision Image Analysis allows:
 
-    - Creating a caption describing the image
-    - Set of suggested dense captions for objects in image
-    - Collection of tags for categorizing the image
+- Creating a caption describing the image
+- Set of suggested dense captions for objects in image
+- Collection of tags for categorizing the image
 
-    <figure>
-    <img
-    src="https://learn.microsoft.com/en-us/training/wwl-data-ai/ai-information-extraction/media/street.png" />
-    <figcaption>man walking a dog on the street</figcaption>
-    </figure>
+<figure>
+<img
+src="https://learn.microsoft.com/en-us/training/wwl-data-ai/ai-information-extraction/media/street.png" />
+<figcaption>man walking a dog on the street</figcaption>
+</figure>
 
-    With the image above, the service generates:
+With the image above, the service generates:
 
-    > Caption: A man walking a dog on a leash
-    >
-    > Dense captions:
-    >
-    > - A man walking a dog on a leash
-    > - A man walking on the street
-    > - A yellow car on the street
-    > - A yellow car on the street
-    > - A green telephone booth with a green sign
-    >
-    > Tags:
-    >
-    > - outdoor
-    > - land vehicle
-    > - vehicle
-    > - building
-    > - road
-    > - street
-    > - wheel
-    > - taxi
-    > - person
-    > - clothing
-    > - car
-    > - dog
-    > - yellow
-    > - walking
-    > - city
+> Caption: A man walking a dog on a leash
+>
+> Dense captions:
+>
+> - A man walking a dog on a leash
+> - A man walking on the street
+> - A yellow car on the street
+> - A yellow car on the street
+> - A green telephone booth with a green sign
+>
+> Tags:
+>
+> - outdoor
+> - land vehicle
+> - vehicle
+> - building
+> - road
+> - street
+> - wheel
+> - taxi
+> - person
+> - clothing
+> - car
+> - dog
+> - yellow
+> - walking
+> - city
 
-2.  Object detection
+#### Object detection
 
-    Detect common objects and people in images and provide their
-    locations as bounding box coordinates
+Detect common objects and people in images and provide their locations
+as bounding box coordinates
 
-3.  Optical character recognition (OCR)
+#### Optical character recognition (OCR)
 
-    OCR works on printed or handwritten the gets the location and
-    contents of text and individual words. For example, OCR can get text
-    on a menu and then use translation.
+OCR works on printed or handwritten the gets the location and contents
+of text and individual words. For example, OCR can get text on a menu
+and then use translation.
 
 ### Extract multimodal information with Azure AI Content Understanding
 
 Using computer vision and OCR, document intelligence with generative AI
 can do text, image, audio, and video extraction.
 
-1.  Analyzing forms and documents
+#### Analyzing forms and documents
 
-    Azure AI Content Understanding's text extraction uses OCR and
-    includes schema based extraction of fields and values. For example,
-    an invoice schema can be set up and the service will identify
-    corresponding fields even if the input has no labels or different
-    labels.
+Azure AI Content Understanding's text extraction uses OCR and includes
+schema based extraction of fields and values. For example, an invoice
+schema can be set up and the service will identify corresponding fields
+even if the input has no labels or different labels.
 
-    <figure>
-    <img
-    src="https://learn.microsoft.com/en-us/training/wwl-data-ai/ai-information-extraction/media/analyzed-invoice.png" />
-    <figcaption>an invoice with field values identified according to an
-    invoice schema for the organization</figcaption>
-    </figure>
+<figure>
+<img
+src="https://learn.microsoft.com/en-us/training/wwl-data-ai/ai-information-extraction/media/analyzed-invoice.png" />
+<figcaption>an invoice with field values identified according to an
+invoice schema for the organization</figcaption>
+</figure>
 
-    For the detected fields, values are extracted.
+For the detected fields, values are extracted.
 
-2.  Analyzing audio
+#### Analyzing audio
 
-    When provided audio fields, the Azure AI Content Understanding
-    service can give transcriptions, summaries and insights.
+When provided audio fields, the Azure AI Content Understanding service
+can give transcriptions, summaries and insights.
 
-    For example, a schema of insights can be set up for voice mails to
-    include caller, message summary, actions, callback number, and other
-    contact information.
+For example, a schema of insights can be set up for voice mails to
+include caller, message summary, actions, callback number, and other
+contact information.
 
-3.  Analyzing images and video
+#### Analyzing images and video
 
-    Azure AI Content Understanding can analyze imags and video to
-    extract information based on a custom schema. For example, analysis
-    of images of a video conference can extract attendance and location.
-    Analyzing video with a schema could include attendance counts at
-    various times, who spoke and what they said, discussion notes, and a
-    list of actions.
+Azure AI Content Understanding can analyze imags and video to extract
+information based on a custom schema. For example, analysis of images of
+a video conference can extract attendance and location. Analyzing video
+with a schema could include attendance counts at various times, who
+spoke and what they said, discussion notes, and a list of actions.
 
 ### Extract information from forms with Azure AI Document Intelligence
 
@@ -352,11 +350,11 @@ applications through a form. Using an Azure AI Document Intelligence
 prebuilt model, a solution to locate and extract fields on the form can
 be created.
 
-1.  Creating custom models
+#### Creating custom models
 
-    Custom models are training by using labelled examples of the
-    documents to be analyzed. The labelling involves using OCR to define
-    the layout of the document and identifying fields to extract.
+Custom models are training by using labelled examples of the documents
+to be analyzed. The labelling involves using OCR to define the layout of
+the document and identifying fields to extract.
 
 ### Create a knowledge mining solution with Azure AI Search
 
@@ -367,41 +365,40 @@ Azure AI Search combines AI search on your data and includes insights.
 As a service, it can index information, then do media analysis (image,
 PDF, hand writing, documents).
 
-1.  Indexers, indexes, and skills
+#### Indexers, indexes, and skills
 
-    The core of the Azure AI Search solution is an indexer which has a
-    repeatable process to:
+The core of the Azure AI Search solution is an indexer which has a
+repeatable process to:
 
-    - Ingest data from a source, like documents or database
-    - Crack (scan) documents to extract their contents - for example,
-      retrieving the text and image data in a PDF
-    - Do sequence of tasks to get information from the data and generate
-      a hierarchy of fields for the index
-      - Some fields are core attributes of the source data like document
-        file names and last saved dates. Others fields are generated by
-        using AI skills like:
-        - Using Azure AI Vision services to generate tags and captions
-          for images.
-        - Using Azure AI Language services to derive fields for
-          sentiment or named entities.
-        - Using Azure AI Document Intelligence to extract field values
-          from forms.
-    - Store extracted fields as an index like a text and vector hybrid
-      store
+- Ingest data from a source, like documents or database
+- Crack (scan) documents to extract their contents - for example,
+  retrieving the text and image data in a PDF
+- Do sequence of tasks to get information from the data and generate a
+  hierarchy of fields for the index
+  - Some fields are core attributes of the source data like document
+    file names and last saved dates. Others fields are generated by
+    using AI skills like:
+    - Using Azure AI Vision services to generate tags and captions for
+      images.
+    - Using Azure AI Language services to derive fields for sentiment or
+      named entities.
+    - Using Azure AI Document Intelligence to extract field values from
+      forms.
+- Store extracted fields as an index like a text and vector hybrid store
 
-    The resulting index can be used to enable users to search for
-    information in the extracted fields based on keywords and filters.
+The resulting index can be used to enable users to search for
+information in the extracted fields based on keywords and filters.
 
-2.  Persisting extracted data to a knowledge store
+#### Persisting extracted data to a knowledge store
 
-    Azure AI Search can persist (store) extracted data to a knowledge
-    store in Azure storage. The indexer saves these kinds of information
-    in the store:
+Azure AI Search can persist (store) extracted data to a knowledge store
+in Azure storage. The indexer saves these kinds of information in the
+store:
 
-    - Tables of field values
-    - Images extracted from documents
-    - JSON documents representing data structures, they can be
-      hierarchies of fields and values
+- Tables of field values
+- Images extracted from documents
+- JSON documents representing data structures, they can be hierarchies
+  of fields and values
 
 ## See Also
 

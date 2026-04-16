@@ -54,12 +54,12 @@ Below are areas to look at for preparing yourself
     data
   - [Kaggle Competitions](https://www.kaggle.com/competitions)
 
-1.  Examples
+#### Examples
 
-    - [Titanic - Machine Learning from Disaster \| Kaggle
-      Competition](https://www.kaggle.com/competitions/titanic)
-    - [Search Machine Learning -
-      freeCodeCamp.org](https://www.freecodecamp.org/news/search/?query=machine%20learning)
+- [Titanic - Machine Learning from Disaster \| Kaggle
+  Competition](https://www.kaggle.com/competitions/titanic)
+- [Search Machine Learning -
+  freeCodeCamp.org](https://www.freecodecamp.org/news/search/?query=machine%20learning)
 
 ## AI Integration and Engineering, Multiple Disciplines
 

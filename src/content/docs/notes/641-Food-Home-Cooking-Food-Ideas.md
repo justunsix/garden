@@ -18,6 +18,9 @@ title: Home Cooking Food Ideas
 - Dim sum: BBQ pork bun, bean curd rolls, boiled vegetables, BBQ pork
   rice noodle, Beef stomach (tripe), Chicken feet
 - Pork chops, fried eggs, bread, vegetables
+- Chili (comfort, bulk)
+- Beef Ste (comfort, bulk)
+- Shepherds Pie (comfort, bulk)
 
 ## Chicken
 

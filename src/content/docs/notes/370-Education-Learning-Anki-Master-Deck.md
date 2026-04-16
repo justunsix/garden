@@ -1,12 +1,12 @@
 ---
 filetags: ":anki-emacs:anki-deck:epubnote:"
 id: 0f365634-db06-451f-a0ca-3699615538a1
-title: Anki Master Deck for Learning
+title: Anki Deck
 ---
 
 Example Anki flash cards in Emacs
 
-## How to Use this File
+### How to Use this File
 
 - Activate `anki-editor-mode`
 
@@ -21,9 +21,11 @@ Example Anki flash cards in Emacs
     then push cards again per
     <https://github.com/louietan/anki-editor/issues/30>
 
-## Learning How to Learn <span class="tag" tag-name="learn2learn"><span class="smallcaps">learn2learn</span></span>
+## Learning
 
-### Learning how to Learn - Diffuse method
+### Learning How to Learn <span class="tag" tag-name="learn2learn"><span class="smallcaps">learn2learn</span></span>
+
+#### Learning how to Learn - Diffuse method
 
 1.  Front
 
@@ -48,7 +50,7 @@ Example Anki flash cards in Emacs
                                          landscrape orientation on paper
     ```
 
-### Learning how to learn - Chunk library
+#### Learning how to learn - Chunk library
 
 1.  Front
 
@@ -68,7 +70,7 @@ Example Anki flash cards in Emacs
     - Sequential: step by step
     - Holistic (global): intuition and diffuse thinking
 
-### Learning How to Learn - Mindset
+#### Learning How to Learn - Mindset
 
 1.  Front
 
@@ -111,7 +113,7 @@ Example Anki flash cards in Emacs
       - People used to old ways gradually leave the field, allowing
         changes
 
-### Learning How to Learn - Law of Serendipity
+#### Learning How to Learn - Law of Serendipity
 
 1.  Front
 
@@ -125,10 +127,10 @@ Example Anki flash cards in Emacs
       chunks to take it
     - Repeated effort will make things easier
 
-## See Also
+### See Also
 
 - [Anki Deck for Learning Artificial
-  Intelligence](/garden/notes/370-education-learning-anki-master-deck-artificial-intelligence) -
+  Intelligence](/garden/notes/370-education-learning-anki-deck-artificial-intelligence) -
   [Anki Deck for Learning Artificial
   Intelligence](id:18b5d0b7-d31c-47b0-8b5d-81541a537828)
 - [Emacs Spaced Repetition System with

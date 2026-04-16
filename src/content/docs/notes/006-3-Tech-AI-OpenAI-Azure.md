@@ -20,14 +20,14 @@ Service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-se
 - Detects and mitigates against malicious use
 - Protected by responsible AI and security access
 
-1.  Model Interactions
+#### Model Interactions
 
-    - "Zero shot": Text input given to AI for output. AI Model only uses
-      inputs
-    - "Few shot": Text input with examples and AI, train on the fly, and
-      AI output
-      - Provide a bit of guidance to model
-      - Seed information/words
+- "Zero shot": Text input given to AI for output. AI Model only uses
+  inputs
+- "Few shot": Text input with examples and AI, train on the fly, and AI
+  output
+  - Provide a bit of guidance to model
+  - Seed information/words
 
 ### Examples of Usage
 

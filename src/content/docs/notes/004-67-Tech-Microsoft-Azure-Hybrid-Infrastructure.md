@@ -92,28 +92,27 @@ docs](https://docs.microsoft.com/en-us/azure/architecture/hybrid/hybrid-start-he
 [Browse hybrid
 architectures](https://docs.microsoft.com/en-us/azure/architecture/browse/?azure_categories=hybrid)
 
-1.  Challenge and Solution Perimeter Security
+#### Challenge and Solution Perimeter Security
 
-    - Tailwind Traders has branch office perimeter networks that host
-      web applications in multiple countries that they wish to
-      decommission
-    - Several weeks a year during online retail campaigns, the
-      applications are overwhelmed with traffic and fail. Tailwind
-      Traders wants to ensure that in future this demand can be met
-    - TWT want to implement OWASP filtering and DDOS protection on their
-      web apps without having to manage complex perimeter network
-      firewall configuration
-    - Time is less than 5% of the year
+- Tailwind Traders has branch office perimeter networks that host web
+  applications in multiple countries that they wish to decommission
+- Several weeks a year during online retail campaigns, the applications
+  are overwhelmed with traffic and fail. Tailwind Traders wants to
+  ensure that in future this demand can be met
+- TWT want to implement OWASP filtering and DDOS protection on their web
+  apps without having to manage complex perimeter network firewall
+  configuration
+- Time is less than 5% of the year
 
-    Solution: Move perimeter network to cloud
+Solution: Move perimeter network to cloud
 
-    - Tailwind Traders can decommission their branch office perimeter
-      networks after moving all externally facing web applications
-      hosted on these networks to Azure
-    - Protecting web applications from attacks on the OWASP top 10 list
-      as well as implementing DDoS protection is straightforward.
-    - The web applications can also scale up and down as required as
-      traffic fluctuates
+- Tailwind Traders can decommission their branch office perimeter
+  networks after moving all externally facing web applications hosted on
+  these networks to Azure
+- Protecting web applications from attacks on the OWASP top 10 list as
+  well as implementing DDoS protection is straightforward.
+- The web applications can also scale up and down as required as traffic
+  fluctuates
 
 ### Elements of Hybrid Cloud
 
@@ -139,19 +138,19 @@ architectures](https://docs.microsoft.com/en-us/azure/architecture/browse/?azure
       you only manage the VMs
     - Stack edge - you manage apps like PaaS
 
-1.  Challenge and Solution Virtual Machine (VM) updates
+#### Challenge and Solution Virtual Machine (VM) updates
 
-    - Tailwind Traders needs to keep a large number of VMs on-premises,
-      but has noted that maintaining the virtualization fabric that
-      hosts those virtual machines is increasingly challenging.
+- Tailwind Traders needs to keep a large number of VMs on-premises, but
+  has noted that maintaining the virtualization fabric that hosts those
+  virtual machines is increasingly challenging.
 
-    Solution: Outsource hardware management
+Solution: Outsource hardware management
 
-    - Azure Stack HCI provides TWT with an option of a fully managed
-      virtualization infrastructure where TWT IT operations only has to
-      worry about the virtual machine workloads and doesn't have to
-      worry about managing and maintaining the infrastructure that
-      supports those workloads.
+- Azure Stack HCI provides TWT with an option of a fully managed
+  virtualization infrastructure where TWT IT operations only has to
+  worry about the virtual machine workloads and doesn't have to worry
+  about managing and maintaining the infrastructure that supports those
+  workloads.
 
 ### Benefits of Hybrid
 
@@ -164,31 +163,28 @@ architectures](https://docs.microsoft.com/en-us/azure/architecture/browse/?azure
 - Hybrids allows as little or as much cloud as your organization needs
   while preserving value add on premise resources
 
-1.  Challenge and Solution Software Updates
+#### Challenge and Solution Software Updates
 
-    - A recent Tailwind Traders audit of Windows Server and Linux
-      workloads found that 30% didn't have the most recent software
-      updates
-    - Because Tailwind Traders has a multitude of branch offices spread
-      across multiple geographies, it is difficult to ensure that server
-      operating system workloads are kept up to date
+- A recent Tailwind Traders audit of Windows Server and Linux workloads
+  found that 30% didn't have the most recent software updates
+- Because Tailwind Traders has a multitude of branch offices spread
+  across multiple geographies, it is difficult to ensure that server
+  operating system workloads are kept up to date
 
-    Solution: [Azure Automation Update
-    Management](https://docs.microsoft.com/en-us/azure/architecture/hybrid/azure-update-mgmt)
+Solution: [Azure Automation Update
+Management](https://docs.microsoft.com/en-us/azure/architecture/hybrid/azure-update-mgmt)
 
-    - Linux and Windows on premise and in cloud, one console to manage
-      updates and compliance for all servers
+- Linux and Windows on premise and in cloud, one console to manage
+  updates and compliance for all servers
 
-2.  Challenge and Solution Compliance
+#### Challenge and Solution Compliance
 
-    - In the past, Tailwind Traders spent a substantive amount of time
-      auditing the configuration of their Windows Server and Linux
-      workloads to determine if they had drifted from a baseline that
-      ensured compliance with various standards such as ISO 27001 and
-      PCI DSS 3.2.1.
+- In the past, Tailwind Traders spent a substantive amount of time
+  auditing the configuration of their Windows Server and Linux workloads
+  to determine if they had drifted from a baseline that ensured
+  compliance with various standards such as ISO 27001 and PCI DSS 3.2.1.
 
-    Solution: Cloud tools audit using Azure Arc, Policy, and Security
-    Centre
+Solution: Cloud tools audit using Azure Arc, Policy, and Security Centre
 
 ### Hybrid Cloud Management & Governance
 
@@ -200,32 +196,32 @@ architectures](https://docs.microsoft.com/en-us/azure/architecture/browse/?azure
 - Tagging can be implemented so that workloads related to specific
   projects can be identified whether they reside on-premises or in Azure
 
-1.  Challenge and Solution File Server Management
+#### Challenge and Solution File Server Management
 
-    - An ongoing challenge for Tailwind Traders is that they were
-      constantly running out of disk space on their file servers.
-    - This meant that every few months, an administrator would need to
-      make an assessment of which files could be safely removed and
-      transferred to long term storage on tape
-    - Occasionally it also meant that administrators might have to
-      retrieve a file from long term tape storage when it was required
-    - File share replication using DFS worked most of the time, but not
-      all of the time
+- An ongoing challenge for Tailwind Traders is that they were constantly
+  running out of disk space on their file servers.
+- This meant that every few months, an administrator would need to make
+  an assessment of which files could be safely removed and transferred
+  to long term storage on tape
+- Occasionally it also meant that administrators might have to retrieve
+  a file from long term tape storage when it was required
+- File share replication using DFS worked most of the time, but not all
+  of the time
 
-    Solution: Synchronize on premise files to cloud
+Solution: Synchronize on premise files to cloud
 
-    Azure File Sync replicate share information to cloud.
+Azure File Sync replicate share information to cloud.
 
-    - Tailwind Traders implemented Azure File Sync on each file server
-      and turned on cloud tiering.
-    - They configured Azure File Sync to automatically tier all files
-      that haven't been accessed in 30 days up to an Azure File Share.
-    - Tiered files appear to the user to be still present on the file
-      share. If a user accesses a tiered file, it is automatically
-      replicated down to the file share and opens normally for the user
-    - Additional file servers can be added to the sync group. These
-      additional servers can host replicas of the Azure File Share
-    - Automatic backup each day, recovered files appear back in share
+- Tailwind Traders implemented Azure File Sync on each file server and
+  turned on cloud tiering.
+- They configured Azure File Sync to automatically tier all files that
+  haven't been accessed in 30 days up to an Azure File Share.
+- Tiered files appear to the user to be still present on the file share.
+  If a user accesses a tiered file, it is automatically replicated down
+  to the file share and opens normally for the user
+- Additional file servers can be added to the sync group. These
+  additional servers can host replicas of the Azure File Share
+- Automatic backup each day, recovered files appear back in share
 
 ### Data in the Hybrid Cloud
 
@@ -314,12 +310,12 @@ Azure VPN Gateways includes the following elements:
   - Recommended that it be created as a /26, /27 or /28
   - Don't apply an NSG to the gateway subnet
 
-1.  Demo
+#### Demo
 
-    - Register Windows Admin Centre from Windows Server to Azure
-    - Add Gateway subnet to existing virtual network
-    - Add Azure Network Adapter
-      - Configures VPN and VPN on Windows server
+- Register Windows Admin Centre from Windows Server to Azure
+- Add Gateway subnet to existing virtual network
+- Add Azure Network Adapter
+  - Configures VPN and VPN on Windows server
 
 ### Considerations on Data Restrictions
 
@@ -377,19 +373,19 @@ Architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-arch
   premises VPN devices can connect to multiple
 - Azure Virtual WAN hubs
 
-1.  VWAN Demo
+#### VWAN Demo
 
-    - Set up VPN site connections to Azure. Azure is the central hub to
-      prevent dependency on site hubs.
-    - Create Virtual WAN
-    - Create new hubs in VWAN
-      - Site to Site VPN gateway
-    - Create a VPN site connection
-      - Choose closest Azure region to location of that site
-    - Repeat last step with new site
-    - Download VPN configurations from portal to use on premise
-    - Add an existing VNET connection to the hub to other sites
-      connected to hub can connect to the VNET
+- Set up VPN site connections to Azure. Azure is the central hub to
+  prevent dependency on site hubs.
+- Create Virtual WAN
+- Create new hubs in VWAN
+  - Site to Site VPN gateway
+- Create a VPN site connection
+  - Choose closest Azure region to location of that site
+- Repeat last step with new site
+- Download VPN configurations from portal to use on premise
+- Add an existing VNET connection to the hub to other sites connected to
+  hub can connect to the VNET
 
 ### Hybrid Identity Options
 
@@ -457,62 +453,61 @@ Azure AD DS
 
 ### Solution Match to Microsoft Services
 
-1.  Windows Admin Center
+#### Windows Admin Center
 
-    - Web based server manager
-      - Manage roles and features
-      - Connect and manage server
-        - Backup, monitor, DNS, Certificates, Devices
-        - RDP to server
-    - Gateway server to on premise and cloud
-    - Remote Desktop and PowerShell sessions to manage computers. Can we
-      on Windows Servers or Windows desktop
-    - Available in Azure Portal
+- Web based server manager
+  - Manage roles and features
+  - Connect and manage server
+    - Backup, monitor, DNS, Certificates, Devices
+    - RDP to server
+- Gateway server to on premise and cloud
+- Remote Desktop and PowerShell sessions to manage computers. Can we on
+  Windows Servers or Windows desktop
+- Available in Azure Portal
 
-2.  Azure Arc Enabled Servers
+#### Azure Arc Enabled Servers
 
-    - Manage servers and monitor, single place to manage them
+- Manage servers and monitor, single place to manage them
 
-3.  Azure File Sync
+#### Azure File Sync
 
-    - Cloud tiering, access, and backup
-    - Multi-site sync
-    - Server DR
-    - [Azure File Sync
-      Architecture](https://docs.microsoft.com/en-us/azure/architecture/hybrid/hybrid-file-services)
-    - Similar to OneDrive
+- Cloud tiering, access, and backup
+- Multi-site sync
+- Server DR
+- [Azure File Sync
+  Architecture](https://docs.microsoft.com/en-us/azure/architecture/hybrid/hybrid-file-services)
+- Similar to OneDrive
 
-4.  Azure Backup
+#### Azure Backup
 
-    - Backup and restore data in hybrid environments to Azure
-    - Azure Backup automatically allocates and manages backup storage
-    - Unlimited scale and highly available (LRS or GRS)
-    - No charge (by backup) for regular backup data transfer
-    - Pay-as-you-use model
-    - On-premises, data in transit is encrypted on the on-premises
-      machine using AES256
-    - For on-premises to Azure backup, data in Azure is encrypted
-      at-rest using the passphrase you provide when you set up backup
-    - For Azure VMs, data is encrypted at-reset using Storage Service
-      Encryption
-    - Back up Properties
-      - Application consistent backup
-      - No limit on amount of time data is stored in a recovery vault
-      - A limit of 9999 recovery points per protected instance
-      - Azure Backup Options:
-        - Azure Backup Agent
-        - Azure Backup Server
-          - Windows and Linux supported
-          - Back up files, folders, volumes, VMs, applications, system
-            state
-        - Azure IaaS VM Backup (including SQL on Windows IaaS VM)
-        - Azure File Share Backup
-    - [Azure Backup
-      Architecture](https://docs.microsoft.com/en-us/azure/backup/backup-architecture)
+- Backup and restore data in hybrid environments to Azure
+- Azure Backup automatically allocates and manages backup storage
+- Unlimited scale and highly available (LRS or GRS)
+- No charge (by backup) for regular backup data transfer
+- Pay-as-you-use model
+- On-premises, data in transit is encrypted on the on-premises machine
+  using AES256
+- For on-premises to Azure backup, data in Azure is encrypted at-rest
+  using the passphrase you provide when you set up backup
+- For Azure VMs, data is encrypted at-reset using Storage Service
+  Encryption
+- Back up Properties
+  - Application consistent backup
+  - No limit on amount of time data is stored in a recovery vault
+  - A limit of 9999 recovery points per protected instance
+  - Azure Backup Options:
+    - Azure Backup Agent
+    - Azure Backup Server
+      - Windows and Linux supported
+      - Back up files, folders, volumes, VMs, applications, system state
+    - Azure IaaS VM Backup (including SQL on Windows IaaS VM)
+    - Azure File Share Backup
+- [Azure Backup
+  Architecture](https://docs.microsoft.com/en-us/azure/backup/backup-architecture)
 
-5.  Azure Site Recovery
+#### Azure Site Recovery
 
-    Recover site using data stored in Azure
+Recover site using data stored in Azure
 
 ### Complex Hybrid Environment
 
@@ -616,90 +611,87 @@ Hybrid:
 
 ### Solution Match
 
-1.  Azure Relay
+#### Azure Relay
 
-    - Allows you to securely expose workloads running on internal
-      network to public cloud
-      - Runs via an on premise agent, agent goes outbound
-    - Does not require opening inbound port on perimeter network
-      firewall
-    - Allows applications to be published to internet clients without
-      configuring VPN connection
-    - Use instead of Azure AD Application Proxy when application doesn't
-      require Azure AD authentication
+- Allows you to securely expose workloads running on internal network to
+  public cloud
+  - Runs via an on premise agent, agent goes outbound
+- Does not require opening inbound port on perimeter network firewall
+- Allows applications to be published to internet clients without
+  configuring VPN connection
+- Use instead of Azure AD Application Proxy when application doesn't
+  require Azure AD authentication
 
-    Supports the following scenarios between on-premises services and
-    applications running in Azure:
+Supports the following scenarios between on-premises services and
+applications running in Azure:
 
-    - Traditional one—way, request/response, and peer-to-peer
-      communication.
+- Traditional one—way, request/response, and peer-to-peer communication.
 
-    - Event distribution to enable publish/subscribe scenarios.
+- Event distribution to enable publish/subscribe scenarios.
 
-    - Bidirectional and unbuffered socket communication across network
-      boundaries.
+- Bidirectional and unbuffered socket communication across network
+  boundaries.
 
-    - Hybrid Connections
+- Hybrid Connections
 
-      - Hybrid Connections uses the open-standard web sockets and can be
-        used in multiplatform architectures.
-      - Supports .NET Core, .NET Framework, Java script/NodeJS,
-        standards-based open protocols, and remote procedure call (RPC)
-        programming models.
+  - Hybrid Connections uses the open-standard web sockets and can be
+    used in multiplatform architectures.
+  - Supports .NET Core, .NET Framework, Java script/NodeJS,
+    standards-based open protocols, and remote procedure call (RPC)
+    programming models.
 
-    - WCF Relays
+- WCF Relays
 
-      - WCF Relays uses Windows Communication Foundation (WCF) to enable
-        remote procedure calls.
-      - This is an existing option that many customers use with their
-        WCF programs. It also supports WCF Relay and .NET Framework.
+  - WCF Relays uses Windows Communication Foundation (WCF) to enable
+    remote procedure calls.
+  - This is an existing option that many customers use with their WCF
+    programs. It also supports WCF Relay and .NET Framework.
 
-2.  Azure App Service Hybrid Connections
+#### Azure App Service Hybrid Connections
 
-    - Allows you to connect an Azure Web App to an application resource
-      on any network that is able to send outbound requests to Azure on
-      port 443
-    - Can communicate with any resource provided it can function as a
-      TCP endpoint
-    - Use a relay agent that is able to connect to internal network as
-      well as establish connection to Azure
-    - Not necessary to open inbound port on perimeter network firewall
-    - Doesn't require VPN or ExpressRoute connection
+- Allows you to connect an Azure Web App to an application resource on
+  any network that is able to send outbound requests to Azure on port
+  443
+- Can communicate with any resource provided it can function as a TCP
+  endpoint
+- Use a relay agent that is able to connect to internal network as well
+  as establish connection to Azure
+- Not necessary to open inbound port on perimeter network firewall
+- Doesn't require VPN or ExpressRoute connection
 
-3.  Azure AD Application Proxy
+#### Azure AD Application Proxy
 
-    - Provide secure remote access to web application running on
-      on-premises network through an external URL
-    - Can be used as a replacement for reverse proxies or VPNs
-    - Can be configured to allow remote access and single sign—on to:
-      - Web applications that use Integrated Windows Authentication
-      - Web applications that use header-based or form-based
-        authentication
-      - Applications hosted through Remote Desktop Gateway
+- Provide secure remote access to web application running on on-premises
+  network through an external URL
+- Can be used as a replacement for reverse proxies or VPNs
+- Can be configured to allow remote access and single sign—on to:
+  - Web applications that use Integrated Windows Authentication
+  - Web applications that use header-based or form-based authentication
+  - Applications hosted through Remote Desktop Gateway
 
-4.  Azure Arc enabled Kubernetes
+#### Azure Arc enabled Kubernetes
 
-    - Allows management of Kubernetes clusters through Azure Portal
-      Connect Kubernetes clusters outside of Azure for inventory,
-      grouping, and tagging tasks
-    - Deploy applications and apply configurations to Kubernetes
-      clusters using GitOps-based configuration management
-    - Use Azure Monitor for Containers to review and monitor hybrid
-      Kubernetes clusters
-    - Apply Azure Policy for Kubernetes Policies to hybrid Kubernetes
-      clusters
+- Allows management of Kubernetes clusters through Azure Portal Connect
+  Kubernetes clusters outside of Azure for inventory, grouping, and
+  tagging tasks
+- Deploy applications and apply configurations to Kubernetes clusters
+  using GitOps-based configuration management
+- Use Azure Monitor for Containers to review and monitor hybrid
+  Kubernetes clusters
+- Apply Azure Policy for Kubernetes Policies to hybrid Kubernetes
+  clusters
 
-5.  Azure Arc enabled data services
+#### Azure Arc enabled data services
 
-    - Allows organizations to run Azure Database for PostgreSQL Servers
-      and SQL Managed Instances on premises
-    - Managed through Azure Data Studio, Azure Portal, or Azure CLI
-      Automates the patching and update processes for these on-premises
-      database instances
-    - Applies database advanced threat protection functionality in Azure
-      Security Center for managed SQL instances on-premises
-    - Uses container and Kubernetes services to host managed database
-      instances
+- Allows organizations to run Azure Database for PostgreSQL Servers and
+  SQL Managed Instances on premises
+- Managed through Azure Data Studio, Azure Portal, or Azure CLI
+  Automates the patching and update processes for these on-premises
+  database instances
+- Applies database advanced threat protection functionality in Azure
+  Security Center for managed SQL instances on-premises
+- Uses container and Kubernetes services to host managed database
+  instances
 
 ### Module 4 Summary
 
@@ -740,67 +732,67 @@ Hybrid cloud compute workloads:
   - Joint responsibility
     - Microsoft provides built-in controls for all cloud services
 
-1.  Azure Update Management
+#### Azure Update Management
 
-    - Checks update compliance of their Windows and Linux computers,
-      both on-, multi-cloud, and Azure IaaS
-    - Can deploy and install software updates to Windows and Linux
-      computers, both on-premise and in Azure IaaS
-    - Avoids using different products depending on operating system or
-      location
-    - [Azure Update Management
-      Architecture](https://docs.microsoft.com/en-us/azure/architecture/hybrid/azure-update-mgmt)
-      - Reports available in log analytics workspace
-    - Custom approval, automate periodic deployments, single place to
-      manage all updates
+- Checks update compliance of their Windows and Linux computers, both
+  on-, multi-cloud, and Azure IaaS
+- Can deploy and install software updates to Windows and Linux
+  computers, both on-premise and in Azure IaaS
+- Avoids using different products depending on operating system or
+  location
+- [Azure Update Management
+  Architecture](https://docs.microsoft.com/en-us/azure/architecture/hybrid/azure-update-mgmt)
+  - Reports available in log analytics workspace
+- Custom approval, automate periodic deployments, single place to manage
+  all updates
 
-2.  Azure Arc Configuration Management
+#### Azure Arc Configuration Management
 
-    - Address challenge of distributed complex infrastructure
+- Address challenge of distributed complex infrastructure
 
-    - [Azure Arc configuration
-      architecture](https://docs.microsoft.com/en-us/azure/architecture/hybrid/azure-arc-hybrid-config)
+- [Azure Arc configuration
+  architecture](https://docs.microsoft.com/en-us/azure/architecture/hybrid/azure-arc-hybrid-config)
 
-    - Azure policy allows management of policies to Azure / Azure Arc
-      managed resources
+- Azure policy allows management of policies to Azure / Azure Arc
+  managed resources
 
-3.  Azure Security Center
+#### Azure Security Center
 
-    - Hybrid Windows, Linux agents gather information, can also take in
-      network and PaaS logs
-    - Apply security analytics from external threat intelligence
-      - Threat detections
-      - Recommendations
-      - Analytics store to log analytics
-    - Security dashboard
-      - Can take action such as REST APIs, Automation, Notifications
+- Hybrid Windows, Linux agents gather information, can also take in
+  network and PaaS logs
+- Apply security analytics from external threat intelligence
+  - Threat detections
+  - Recommendations
+  - Analytics store to log analytics
+- Security dashboard
+  - Can take action such as REST APIs, Automation, Notifications
 
-4.  Monitoring Hybrid Security
+#### Monitoring Hybrid Security
 
-    - Agents are deployed on hybrid operating system workloads
+- Agents are deployed on hybrid operating system workloads
 
-      - Windows Security Events Connector stream Windows security events
-        to Azure Sentinel
-      - Connector for Microsoft Defender for Identity can stream on
-        premises AD DS telemetry to Azure Sentinel
-      - Connector for Microsoft Defender for Endpoint can stream alerts
-        for Microsoft Defender for Endpoint into Azure Sentinel
-      - Connectors for Linux operating systems can forward Syslog and
-        CEF data to Azure Sentinel
+  - Windows Security Events Connector stream Windows security events to
+    Azure Sentinel
+  - Connector for Microsoft Defender for Identity can stream on premises
+    AD DS telemetry to Azure Sentinel
+  - Connector for Microsoft Defender for Endpoint can stream alerts for
+    Microsoft Defender for Endpoint into Azure Sentinel
+  - Connectors for Linux operating systems can forward Syslog and CEF
+    data to Azure Sentinel
 
-    - Azure Sentinel analyzes telemetry to detect, hunt, prevent, and
-      respond to threats against hybrid operating system workloads
+- Azure Sentinel analyzes telemetry to detect, hunt, prevent, and
+  respond to threats against hybrid operating system workloads
 
-    - [Monitoring Hybrid
-      Security](https://docs.microsoft.com/en-us/azure/architecture/hybrid/hybrid-security-monitoring)
+- [Monitoring Hybrid
+  Security](https://docs.microsoft.com/en-us/azure/architecture/hybrid/hybrid-security-monitoring)
 
-    - Demo
+- Demo
 
-      - After setting up an log analytics workspace and connecting IaaS
-        or Arc managed servers to it, go to log analytics advanced
-        settings to select which logs you want to get in the workspace
-      - Log analytics workspace can be used for further reports, create
-        alerts using queries
+  - After setting up an log analytics workspace and connecting IaaS or
+    Arc managed servers to it, go to log analytics advanced settings to
+    select which logs you want to get in the workspace
+  - Log analytics workspace can be used for further reports, create
+    alerts using queries
 
 ### Module 5 Summary
 

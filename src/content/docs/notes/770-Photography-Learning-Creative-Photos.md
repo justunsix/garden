@@ -32,15 +32,15 @@ title: Photography
 - Defocusing non essential elements
 - Cloning and retouching photo abnormalities
 
-1.  People
+#### People
 
-    - Teeth whitening - Free select, fuzzy select, colourize, adjust
-      saturation (usually negative)
-    - [Wedding photo enhancement
-      example](https://www.tutorialgeek.net/2010/12/wedding-photo-enhancement-using-gimp.html) -
-      contrast increase, hue/lightness/saturation tuning, soft glow
-    - Frequent adjustments - colour saturation (lower or higher, also
-      look at colour temperature)
+- Teeth whitening - Free select, fuzzy select, colourize, adjust
+  saturation (usually negative)
+- [Wedding photo enhancement
+  example](https://www.tutorialgeek.net/2010/12/wedding-photo-enhancement-using-gimp.html) -
+  contrast increase, hue/lightness/saturation tuning, soft glow
+- Frequent adjustments - colour saturation (lower or higher, also look
+  at colour temperature)
 
 ## Portraits
 

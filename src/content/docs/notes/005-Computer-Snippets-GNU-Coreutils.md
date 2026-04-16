@@ -186,6 +186,8 @@ echo 'Call me Justin' | tr 'a-z' 'A-Z'
 # [:alnum:]: Letters and digits.
 # [:alpha:]: Letters only.
 # [:digit:]: Digits only.
+
+
 # [:blank:]: Tabs and spaces.
 # [:space:]: All whitespace, including newline characters.
 # [:graph:]: All characters including symbols, but not spaces.

@@ -364,45 +364,45 @@ tier of the resource.
   Learn](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/strategy?ns-enrollment-type=Collection&ns-enrollment-id=p64xbztoj1kkk5#define-an-ai-technology-strategy)
 - [Tokenizer - OpenAI Platform](https://platform.openai.com/tokenizer)
 
-1.  Azure AI Free / Trial Services
+#### Azure AI Free / Trial Services
 
-    - [Azure AI Foundry](https://ai.azure.com/explore/aiservices) (demos
-      and resources)
-    - [Azure AI Foundry Language](https://ai.azure.com/explore/language)
-    - [Azure AI Foundry Vision and
-      Document](https://ai.azure.com/explore/aiservices/vision)
-    - [Azure AI Fountry
-      Speech](https://ai.azure.com/explore/models/aiservices/Azure-AI-Speech/version/1/registry/azureml-cogsvc/tryout)
-    - [Azure Language Studio](https://language.cognitive.azure.com/)
-    - [Azure Vision
-      Studio](https://portal.vision.cognitive.azure.com/gallery/featured)
-    - [Azure Speech Studio](https://speech.microsoft.com/portal)
+- [Azure AI Foundry](https://ai.azure.com/explore/aiservices) (demos and
+  resources)
+- [Azure AI Foundry Language](https://ai.azure.com/explore/language)
+- [Azure AI Foundry Vision and
+  Document](https://ai.azure.com/explore/aiservices/vision)
+- [Azure AI Fountry
+  Speech](https://ai.azure.com/explore/models/aiservices/Azure-AI-Speech/version/1/registry/azureml-cogsvc/tryout)
+- [Azure Language Studio](https://language.cognitive.azure.com/)
+- [Azure Vision
+  Studio](https://portal.vision.cognitive.azure.com/gallery/featured)
+- [Azure Speech Studio](https://speech.microsoft.com/portal)
 
-2.  Study and Certification Exam
+#### Study and Certification Exam
 
-    - [Study guide for Exam AI-900: Microsoft Azure AI Fundamentals \|
-      Microsoft
-      Learn](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900)
-    - [Microsoft Certified: Azure AI Fundamentals - Certifications \|
-      Microsoft
-      Learn](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification#two-ways-to-prepare)
-    - [AI-900 Certification Program - Instructions to
-      Certify](https://learn.microsoft.com/en-us/collections/ng06cjtrzn7rx7)
+- [Study guide for Exam AI-900: Microsoft Azure AI Fundamentals \|
+  Microsoft
+  Learn](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900)
+- [Microsoft Certified: Azure AI Fundamentals - Certifications \|
+  Microsoft
+  Learn](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification#two-ways-to-prepare)
+- [AI-900 Certification Program - Instructions to
+  Certify](https://learn.microsoft.com/en-us/collections/ng06cjtrzn7rx7)
 
-3.  Videos, Recorded Learning
+#### Videos, Recorded Learning
 
-    - [AI-900: Microsoft Azure AI Fundamentals -
-      YouTube](https://www.youtube.com/playlist?list=PLahhVEj9XNTfFP-841X_gdJ0nmjfjfCQN)
-    - [AI-900 On Demand Instructor-led Training Series \| Microsoft
-      Learn](https://learn.microsoft.com/en-gb/shows/on-demand-instructor-led-training-series/?terms=AI-900)
+- [AI-900: Microsoft Azure AI Fundamentals -
+  YouTube](https://www.youtube.com/playlist?list=PLahhVEj9XNTfFP-841X_gdJ0nmjfjfCQN)
+- [AI-900 On Demand Instructor-led Training Series \| Microsoft
+  Learn](https://learn.microsoft.com/en-gb/shows/on-demand-instructor-led-training-series/?terms=AI-900)
 
-    1.  YouTube series with John Savill
+1.  YouTube series with John Savill
 
-        - [AI-900 - Learning About Generative
-          AI](https://www.youtube.com/watch?v=Ch6KE7KxHGM&t=23s) -
-          transformers, encoding, attention, prompts, Azure services,
-          responsible AI
-        - [AI-900 Study Cram v2 (the non-Generative AI
-          bits)](https://www.youtube.com/watch?v=bTkUTkXrqOQ&t=1s) - ML,
-          training, Azure services and usage, computer vision, natural
-          language, speech, information extraction
+    - [AI-900 - Learning About Generative
+      AI](https://www.youtube.com/watch?v=Ch6KE7KxHGM&t=23s) -
+      transformers, encoding, attention, prompts, Azure services,
+      responsible AI
+    - [AI-900 Study Cram v2 (the non-Generative AI
+      bits)](https://www.youtube.com/watch?v=bTkUTkXrqOQ&t=1s) - ML,
+      training, Azure services and usage, computer vision, natural
+      language, speech, information extraction

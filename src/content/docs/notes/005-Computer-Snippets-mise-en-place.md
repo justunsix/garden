@@ -229,22 +229,22 @@ file = "https://example.com/build.sh"
 
 ```
 
-1.  mise-tasks/plan
+#### mise-tasks/plan
 
-    Make sure `plan` file is executable with `chmod +x plan` and run
-    with `mise run plan`
+Make sure `plan` file is executable with `chmod +x plan` and run with
+`mise run plan`
 
-    ``` shell
+``` shell
 
-    #MISE description="Login to Azure, Format and Validate Terraform files and Plan"
+#MISE description="Login to Azure, Format and Validate Terraform files and Plan"
 
-    # Login to Azure
-    az login
-    az account set --subscription "$(ARM_SUBSCRIPTION_ID)"
-    # Format and validate Terraform files
-    terraform fmt
-    terraform validate
-    ## Plan Terraform deployment and output plan
-    terraform plan -out=tfplan
+# Login to Azure
+az login
+az account set --subscription "$(ARM_SUBSCRIPTION_ID)"
+# Format and validate Terraform files
+terraform fmt
+terraform validate
+## Plan Terraform deployment and output plan
+terraform plan -out=tfplan
 
-    ```
+```

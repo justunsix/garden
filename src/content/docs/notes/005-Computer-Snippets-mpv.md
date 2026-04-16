@@ -9,6 +9,9 @@ title: mpv Snippets
 # Play internet video
 mpv "https://www.youtube.com/watch?v=VPMyBOqCcsw"
 
+# Play video using yt-dlp and constrain video height and use best audio
+mpv --ytdl-format="bestvideo[height<=1080]+bestaudio "https://www.youtube.com/watch?v=myvideoid"
+
 # Upscaling video
 # Edit `mpv.conf`
 # Add the following lines / uncomment gpu use

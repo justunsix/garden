@@ -105,20 +105,20 @@ Source: My personal notes from DevOps course by TechWorld with Nana
 - Copy zip/tar, package.json to server
 - Install dependencies
 
-1.  Frontend and backend
+#### Frontend and backend
 
-    - Can package front and back ends separately or combined package
-      with common package.json
-    - In example repo, my-app and api can be separated
-    - Frontend/React Code needs to be transpiled to allow browsers to
-      understand it and compress/minified to improve app loading
-      - JS, CSS files
-      - Done by build tools/bundlers (e.g. webpack with React, webpack
-        can be specified as a dependency)
-      - Example: `npm run build` can use webpack to do packaging:
-        transpiled, minified code
-    - Best practice to use same tools for front and back end, package
-      into WAR file
+- Can package front and back ends separately or combined package with
+  common package.json
+- In example repo, my-app and api can be separated
+- Frontend/React Code needs to be transpiled to allow browsers to
+  understand it and compress/minified to improve app loading
+  - JS, CSS files
+  - Done by build tools/bundlers (e.g. webpack with React, webpack can
+    be specified as a dependency)
+  - Example: `npm run build` can use webpack to do packaging:
+    transpiled, minified code
+- Best practice to use same tools for front and back end, package into
+  WAR file
 
 ## Common Concepts and Differences of Build Tools
 

@@ -33,6 +33,126 @@ Other tips:
   unclear or prompts with a large scope of possible results
 - Use terms likely to appear in the context or expected results
 
+## Example Task Template
+
+### In Markdown
+
+``` md
+
+## TASK: <Short Action Summary>
+
+**ID:** task-2026-04-14-001
+**Status:** Queued
+**AI Role:** Analyst
+**AI Model:** auto (automatically select best model)
+**Output Type:** Written Analysis
+
+---
+
+### 1. Goal
+Clearly state what you want accomplished.
+- Desired outcome
+- Definition of complete
+
+---
+
+### 2. Context
+- History
+- Audience / people involved
+- Constraints (time, politics, sensitivities, costs)
+
+---
+
+### 3. Information Sources
+- **Attachments:**
+  - doc1.pdf
+  - requirements.md
+  - python_code.py
+
+- **Links:**
+  - [1]
+
+- **Meetings / Notes:**
+  - [2]
+
+---
+
+### 4. Expectations
+- **Tone:**
+- **Output format:**
+- **Length:**
+- **Structure:**
+
+```
+
+### In Emacs Org Mode - \<Short Action Summary\>
+
+``` org
+
+,:PROPERTIES:
+,:ID: task-2026-04-14-001
+,:STATUS: draft
+,:AI_ROLE: analyst
+,:AI_MODEL: gpt-4.1
+,:OUTPUT_TYPE: written_analysis
+,:END:
+
+**** 1. Goal
+Clearly state what you want accomplished.
+- Desired outcome
+- Definition of task complete
+
+**** 2. Context
+- History
+- Audience / people involved
+- Constraints (time, politics, sensitivities, costs)
+
+**** 3. Information Sources
+- Attachments: doc1.pdf, requirements.md, python_code.py
+- Links:
+  - [1]
+- Meetings / Notes:
+  - [2]
+
+**** 4. Expectations
+- Tone:
+- Output format:
+- Length:
+- Structure:
+```
+
+### Example - Create Cloud Architecture Decision Summary
+
+#### 1. Goal
+
+Produce a concise architecture decision summary suitable for senior
+leadership.
+
+Success = clear recommendation with pros and cons.
+
+#### 2. Context
+
+- Audience: Director level
+- Decision impacts current fiscal budget
+- Prior discussion was fragmented
+
+#### 3. Information Sources
+
+- Architecture options doc (arch-options-v3.pdf)
+- Cost estimates spreadsheet
+- Meeting notes from 2026-04-14
+
+#### 4. Expectations
+
+- Tone: Neutral, professional
+- Format: 1 page memo
+- Structure:
+  - Background
+  - Options
+  - Recommendation
+- Length: ~400 words
+- Examples: AWS decision memos
+
 ## Tasks and Jobs for Prompts
 
 Example Tasks and Job Types for Prompts from [Microsoft Copilot Prompts
@@ -58,37 +178,37 @@ examples with my additions
 
 ### Job Types
 
-1.  Department
+#### Department
 
-    - Accessibility
-    - Frontline Management
-    - Executive
-    - Human Resources
-    - Marketing
-    - Sales
-    - Communications
-    - Marketing
-    - Operations
-    - Finance
-    - Project Management
-    - Information Technology
-    - Customer Service
-    - Legal
+- Accessibility
+- Frontline Management
+- Executive
+- Human Resources
+- Marketing
+- Sales
+- Communications
+- Marketing
+- Operations
+- Finance
+- Project Management
+- Information Technology
+- Customer Service
+- Legal
 
-2.  Industry
+#### Industry
 
-    - Manufacturing
-    - Retail
-    - Sustainability
-    - Financial Services
-    - Energy
-    - Consumer Goods
-    - Mobility
-    - Nonprofit
-    - Government
-    - Healthcare
-    - Media and Entertainment
-    - Education - Student / Faculty
+- Manufacturing
+- Retail
+- Sustainability
+- Financial Services
+- Energy
+- Consumer Goods
+- Mobility
+- Nonprofit
+- Government
+- Healthcare
+- Media and Entertainment
+- Education - Student / Faculty
 
 ### Agentic Prompts
 

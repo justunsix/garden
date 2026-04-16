@@ -194,11 +194,11 @@ Learn](https://learn.microsoft.com/en-us/azure/data-factory/create-self-hosted-i
   <figcaption>Copying data from on premise to cloud storage</figcaption>
   </figure>
 
-1.  Ports and Firewalls
+#### Ports and Firewalls
 
-    The IR uses port HTTP 443 for variables outbound connections
-    described at:
-    <https://learn.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory#ports-and-firewalls>
+The IR uses port HTTP 443 for variables outbound connections described
+at:
+<https://learn.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory#ports-and-firewalls>
 
 ## See Also
 

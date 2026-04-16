@@ -27,6 +27,8 @@ tools.
 Model - generative AI language model, deployed from Azure AI model
 catalog. Chat sessions with an agent is called a thread.
 
+Goal - instructions on the agent's purpose and how they help users
+
 Tools
 
 - Knowledge tools like search information, Bing, data stores
@@ -106,43 +108,43 @@ Regular use cases:
 
 ### Examples of Tools
 
-1.  Knowledge Tools
+#### Knowledge Tools
 
-    - Bing Search
-    - File search
-    - Azure AI Search
-    - Microsoft Fabric - data stores
-    - Other, OpenAPI Spec action tool
+- Bing Search
+- File search
+- Azure AI Search
+- Microsoft Fabric - data stores
+- Other, OpenAPI Spec action tool
 
-2.  Action Tools / Custom Tools or Skills
+#### Action Tools / Custom Tools or Skills
 
-    Use cases: automate repetitive tasks, provide more accurate
-    responses, specific needs and improvements
+Use cases: automate repetitive tasks, provide more accurate responses,
+specific needs and improvements
 
-    The agent knows about an API for the custom tool and works with the
-    LLM to determine use
+The agent knows about an API for the custom tool and works with the LLM
+to determine use
 
-    - Code interpreter - like Python code
-    - Function - custom developed code, like serverless functions
-    - APIs - like OpenAPI Spec
+- Code interpreter - like Python code
+- Function - custom developed code, like serverless functions
+- APIs - like OpenAPI Spec
 
-    See the [Semantic Kernel
-    SDK](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
+See the [Semantic Kernel
+SDK](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 
-    Example: A music player agent
+Example: A music player agent
 
-    - function A - List music
-    - function B - Add song
-    - function C - List artists
+- function A - List music
+- function B - Add song
+- function C - List artists
 
-    Agent tells LLM it has access to these functions and a user prompt.
-    LLM responds with what to do. In other words, functions just do the
-    tasks and logic during thread is done by the LLM. A thread could be
-    add a song and list the music.
+Agent tells LLM it has access to these functions and a user prompt. LLM
+responds with what to do. In other words, functions just do the tasks
+and logic during thread is done by the LLM. A thread could be add a song
+and list the music.
 
-    For an exercise/lab using a custom function, see [Use a custom
-    function in an AI
-    agent](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/03-agent-custom-functions.html).
+For an exercise/lab using a custom function, see [Use a custom function
+in an AI
+agent](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/03-agent-custom-functions.html).
 
 ## Agent Resource Setup in Azure
 
@@ -305,22 +307,50 @@ See [Semantic Kernel Agent Orchestration \| Microsoft Learn An overview
 on orchestrating agents in Semantic
 Kernel](https://learn.microsoft.com/semantic-kernel/frameworks/agent/agent-orchestration)
 
+## Q: What are examples of agents in use?
+
+Look at existing applications that have agent functionality. For
+example, Microsoft Teams has apps that can be AI agents like [Set up
+Facilitator in Microsoft Teams - Microsoft Teams \| Microsoft
+Learn](https://learn.microsoft.com/en-us/microsoftteams/facilitator-teams).
+
+## Exercise: Build AI agents with portal and VS Code
+
+Builds a complete AI agent solution using both the Microsoft Foundry
+portal and the AI Toolkit VS Code extension.
+
+- Agent is created with system instructions and tools:
+  - File search with an indexed policy text file
+  - Code interpretation
+- Test prompts are run to verify tool use in the portal and VS Code
+- Use the SDK with a function and interact with the agent
+
+## Exercise: Use a custom function in an AI agent
+
+Create an agent that can use custom functions as a tool to complete
+tasks.
+
+- Agent will act as an astronomy assistant that can provide information
+  about astronomical events and calculate the cost of telescope rentals
+  based on user inputs
+- Define the function tools and implement the logic to process function
+  calls made by the agent:
+  - Uses MCP server tools
+  - Access external data
+
 ## Exercise: Develop a multi-agent solution with Azure AI Foundry
 
 Create an agent and use the `gpt-4o` model, they using SDK, create
 several agents to prioritize, assign, and assess effort on tickets in a
 sequential order.
 
-## Exercise: Connect AI Agents to a remote MCP server
+## Exercise: Develop an AI agent with Model Context Protocol (MCP) tools
 
-## Agents in Production
-
-Q: What are examples of agents in use?
-
-Look at existing applications that have agent functionality. For
-example, Microsoft Teams has apps that can be AI agents like [Set up
-Facilitator in Microsoft Teams - Microsoft Teams \| Microsoft
-Learn](https://learn.microsoft.com/en-us/microsoftteams/facilitator-teams).
+- Create an agent that can use Model Context Protocol (MCP) server tools
+  to access external data sources and APIs
+- Use agent to retrieve up-to-date information and interact with custom
+  services through MCP tools
+- Create an MCP server with custom tools
 
 ## See Also
 
@@ -331,6 +361,9 @@ Learn](https://learn.microsoft.com/en-us/microsoftteams/facilitator-teams).
   AI-102](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102) -
   [Develop AI solutions in Azure
   AI-102](id:dc608ccd-b4bc-4820-8bfa-e522c827e6f8)
+- [Artificial Intelligence (AI) Agents](/garden/notes/006-3-tech-ai-agents) -
+  [Artificial Intelligence (AI)
+  Agents](id:a33f8c71-f312-43a0-8e1b-1023e2fd020c)
 
 ### Resources
 

@@ -25,42 +25,41 @@ Use cases:
 - Event driven processing
 - Background
 
-1.  Containerize Java Apps
+#### Containerize Java Apps
 
-    - Self contained Dockerfile with all Dependencies
+- Self contained Dockerfile with all Dependencies
 
-    - Avoid large base images with unneeded software
+- Avoid large base images with unneeded software
 
-    - Secure and scalable build strategy
+- Secure and scalable build strategy
 
-    - Run as non-root user
+- Run as non-root user
 
-    - JVM tuning
+- JVM tuning
 
-      - Heap memory
-      - Pod replicas
+  - Heap memory
+  - Pod replicas
 
-    Hierarchy:
+Hierarchy:
 
-    Environment:
+Environment:
 
-    - App
-      - Revision - immutable version
-        - Replica - multiple
-          - Container
-    - Integrations
-      - Pipelines
-      - Secrets management
-      - Cross app connections
+- App
+  - Revision - immutable version
+    - Replica - multiple
+      - Container
+- Integrations
+  - Pipelines
+  - Secrets management
+  - Cross app connections
 
-    1.  Demonstration
+1.  Demonstration
 
-        Deploy Spring Boot microservices using DAPR to Azure container
-        apps
+    Deploy Spring Boot microservices using DAPR to Azure container apps
 
-        using PowerShell `az` commands to create environment,
-        replica/container config and variables for dapr
+    using PowerShell `az` commands to create environment,
+    replica/container config and variables for dapr
 
-        Set shell environment variables for addresses
+    Set shell environment variables for addresses
 
-        Integration with application insights
+    Integration with application insights

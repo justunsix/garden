@@ -5,7 +5,7 @@ id: 59f08c23-93b2-4fd3-a669-30c4d79877fc
 title: AI-102 Azure AI Development Lab Environment
 ---
 
-# Lab overview
+## Lab overview
 
 Try to use free or lowest pricing tier of resources and less extra
 resources for a development period of 1-2 weeks. All resources are
@@ -20,7 +20,7 @@ Possible resources:
 Avoid APIM, private networking, fine‑tuning, and resources with fixed
 monthly hosting.
 
-# Example Terraform deployment
+## Example Terraform deployment
 
 Deployment is not tested, but captures deployment information for use
 during a first manual creation.

@@ -121,22 +121,22 @@ Token chunking is recommended since large language models (LLM) process
 tokens rather than characters. Token chunking also makes it easier to
 manage context windows usage.
 
-1.  Choosing Chunk Size
+#### Choosing Chunk Size
 
-    Default chunk size is 500 tokens (about 375 words or two paragraphs
-    depending on content) which is good for most usage. When you may
-    want to change it:
+Default chunk size is 500 tokens (about 375 words or two paragraphs
+depending on content) which is good for most usage. When you may want to
+change it:
 
-    - Smaller chunks (300 tokens or less) - Good for queries needing
-      high accuracy like legal or technical documents
-    - Large chunks (800 - 1000 tokens) - Good for structured data like
-      research paper where a full paragraph or section gives a better
-      context
+- Smaller chunks (300 tokens or less) - Good for queries needing high
+  accuracy like legal or technical documents
+- Large chunks (800 - 1000 tokens) - Good for structured data like
+  research paper where a full paragraph or section gives a better
+  context
 
-2.  Chunk Overlap
+#### Chunk Overlap
 
-    Sets when consecutive chunks can overlap some content to prevent
-    loss of meaning during text splits. 10-20% is a starting point.
+Sets when consecutive chunks can overlap some content to prevent loss of
+meaning during text splits. 10-20% is a starting point.
 
 ### Embedding Models (RAG Setting)
 
@@ -256,13 +256,13 @@ Look for these features in models:
 - Model size: small can work well since the retrieval system is giving
   the model the most relevant content
 
-1.  Recommendations
+#### Recommendations
 
-    - RAG models with 7B (billion) to 14B parameters are sufficient
-      - Complex reasoning will need larger models like 30B+, but is
-        limited by performance and hardware
-    - Prefer models with large context windows, again since the
-      retrieved content will be relevant
+- RAG models with 7B (billion) to 14B parameters are sufficient
+  - Complex reasoning will need larger models like 30B+, but is limited
+    by performance and hardware
+- Prefer models with large context windows, again since the retrieved
+  content will be relevant
 
 ### System Prompt
 

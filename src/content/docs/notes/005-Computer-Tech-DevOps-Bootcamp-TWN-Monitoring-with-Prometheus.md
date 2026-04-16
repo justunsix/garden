@@ -138,12 +138,12 @@ api_response_size_bytes{api="get_user"} 1500
       - mysql, use a side car container using an exporter container
         image
 
-1.  Monitoring Own Applications
+#### Monitoring Own Applications
 
-    - Example: want to see how many requests, exceptions, server
-      resources used
-    - Use client libraries to expose /metrics endpoint in app
-      - Infrastructure can then pull metrics
+- Example: want to see how many requests, exceptions, server resources
+  used
+- Use client libraries to expose /metrics endpoint in app
+  - Infrastructure can then pull metrics
 
 ### Monitoring Systems
 
@@ -223,11 +223,11 @@ Disadvantages:
     - Increase server capacity
     - Limit number of metrics
 
-1.  Scaling using Prometheus Federation
+#### Scaling using Prometheus Federation
 
-    - Scalable cloud apps need monitoring that also scales
-    - Federation allows Prometheus servers to scrape from other
-      Prometheus servers
+- Scalable cloud apps need monitoring that also scales
+- Federation allows Prometheus servers to scrape from other Prometheus
+  servers
 
 ### Prometheus with Docker and K8s
 
@@ -291,63 +291,61 @@ kubectl get all -n monitoring
 
 ```
 
-1.  Components of Prometheus deployed with Helm Chart, Managed by
-    Operator
+#### Components of Prometheus deployed with Helm Chart, Managed by Operator
 
-    Prometheus is setup and Worker Nodes and K8s components are being
-    monitored by default
+Prometheus is setup and Worker Nodes and K8s components are being
+monitored by default
 
-    - Deployments
-      - Operator
-      - Grafana
-      - kube-state-metrics
-        - Has its own helm chart
-        - Scrapes K8s metrics
-      - ReplicaSet of above deployment
-    - Daemonset - runs on every worker Node
-      - node-exporter
-        - Connects to server and translates Worker Node metrics to
-          Prometheus metrics
-    - Services
-    - StatefulSet
-      - Prometheus server
-      - Alertmanager
+- Deployments
+  - Operator
+  - Grafana
+  - kube-state-metrics
+    - Has its own helm chart
+    - Scrapes K8s metrics
+  - ReplicaSet of above deployment
+- Daemonset - runs on every worker Node
+  - node-exporter
+    - Connects to server and translates Worker Node metrics to
+      Prometheus metrics
+- Services
+- StatefulSet
+  - Prometheus server
+  - Alertmanager
+- ConfigMap
+  - Managed by Operator
+  - Configurations for different parts
+  - How to connect to default metrics
+  - Default rules
+- Secrets
+  - Certificates, credentials
+  - For Grafana, Prometheus, Alert Manager
+- Custom Resource Definiations (CRD)
+
+1.  Looking at Components
+
+    Use `kubectl get` and `describe -o yaml` to explore each component,
+    take away is understand how to add/adjust rules and change
+    Prometheus configuration
+
+    - Prometheus:
+      - See container and its parameters
+      - Mounts (certs, config, rules, web config)
+        - Configuration data, targets (/metrics endpoints) and intervals
+        - Rules: alert rules
+      - config-reloader - side container with parameters
+        - Reloading when configuration file changes
+        - Can access config, rules files
+        - Mounts
+          - With Secrets
+    - Alertmanager
+      - Container
+      - Mounts
+    - Operator - orchestrator of monitoring stack
+      - Container
+      - Mount (cert)
     - ConfigMap
-      - Managed by Operator
-      - Configurations for different parts
-      - How to connect to default metrics
-      - Default rules
-    - Secrets
-      - Certificates, credentials
-      - For Grafana, Prometheus, Alert Manager
-    - Custom Resource Definiations (CRD)
-
-    1.  Looking at Components
-
-        Use `kubectl get` and `describe -o yaml` to explore each
-        component, take away is understand how to add/adjust rules and
-        change Prometheus configuration
-
-        - Prometheus:
-          - See container and its parameters
-          - Mounts (certs, config, rules, web config)
-            - Configuration data, targets (/metrics endpoints) and
-              intervals
-            - Rules: alert rules
-          - config-reloader - side container with parameters
-            - Reloading when configuration file changes
-            - Can access config, rules files
-            - Mounts
-              - With Secrets
-        - Alertmanager
-          - Container
-          - Mounts
-        - Operator - orchestrator of monitoring stack
-          - Container
-          - Mount (cert)
-        - ConfigMap
-          - Comes with default rules and configurations
-          - `describe configmap` to see default rules
+      - Comes with default rules and configurations
+      - `describe configmap` to see default rules
 
 ## Data Visualization with Prometheus UI
 
@@ -1059,15 +1057,15 @@ kubectl edit deployment redis-cart
     - Verify it is using the exporter you are using and metrics present
       in your cluster
 
-1.  Import Grafana Dashboard
+#### Import Grafana Dashboard
 
-    - Go to your Grafana \> Dashboard
-    - Copy the dashboard ID from grafana.com/dashboards
-    - Name the dashboard
-    - Configure the data source
-    - The dashboard will list it is getting data from the exporter (IP
-      from `kubectl describe svc redis-exporter`)
-    - See PromQL in each panel
+- Go to your Grafana \> Dashboard
+- Copy the dashboard ID from grafana.com/dashboards
+- Name the dashboard
+- Configure the data source
+- The dashboard will list it is getting data from the exporter (IP from
+  `kubectl describe svc redis-exporter`)
+- See PromQL in each panel
 
 ## Collect & Expose Metrics with Prometheus Client Library (Monitor own App - Part 1)
 
@@ -1166,112 +1164,112 @@ app.get("/", function (req, res) {
 
 ### Deploying application
 
-1.  Build Image, Push to Repository
+#### Build Image, Push to Repository
 
-    - Build image, then push to private repo in Docker Hub
-    - Use Dockerfile
+- Build image, then push to private repo in Docker Hub
+- Use Dockerfile
 
-    ``` Dockerfile
+``` Dockerfile
 
-    FROM node:13-alpine
+FROM node:13-alpine
 
-    RUN mkdir -p /usr/app
+RUN mkdir -p /usr/app
 
-    # Copy frequently changing files first
-    COPY package*.json /usr/app/
-    COPY app /usr/app/
+# Copy frequently changing files first
+COPY package*.json /usr/app/
+COPY app /usr/app/
 
-    WORKDIR /usr/app
+WORKDIR /usr/app
 
-    EXPOSE 3000
+EXPOSE 3000
 
-    # Get dependencies
-    RUN npm install
-    CMD ["node", "server.js"]
+# Get dependencies
+RUN npm install
+CMD ["node", "server.js"]
 
-    ```
+```
 
-    Steps belows can also be automated with CICD
+Steps belows can also be automated with CICD
 
-    ``` shell
+``` shell
 
-    # Build image
-    docker build -t user/demo-app:nodeapp .
+# Build image
+docker build -t user/demo-app:nodeapp .
 
-    docker login
-    docker push user/demo-app:nodeapp
+docker login
+docker push user/demo-app:nodeapp
 
-    ```
+```
 
-2.  Deployment App into K8s Cluster
+#### Deployment App into K8s Cluster
 
-    - Set up deployment: `k8s-config.yaml`
-    - Requires Docker Hub secret set up below
+- Set up deployment: `k8s-config.yaml`
+- Requires Docker Hub secret set up below
 
-    `k8s-config.yaml`
+`k8s-config.yaml`
 
-    ``` yaml
+``` yaml
 
-    ---
-    apiVersion: apps/v1
-    kind: Deployment
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nodeapp
+  labels:
+    app: nodeapp
+spec:
+  selector:
+    matchLabels:
+      app: nodeapp
+  template:
     metadata:
-      name: nodeapp
       labels:
         app: nodeapp
     spec:
-      selector:
-        matchLabels:
-          app: nodeapp
-      template:
-        metadata:
-          labels:
-            app: nodeapp
-        spec:
-          # Secret for image pull Docker Hub
-          imagePullSecrets:
-            - name: my-registry-key
-          containers:
-            - name: nodeapp
-              image: nanajanashia/demo-app:nodeapp
-              ports:
-                - containerPort: 3000
-              imagePullPolicy: Always
-    ---
-    apiVersion: v1
-    kind: Service
-    metadata:
-      name: nodeapp
-      labels:
-        app: nodeapp
-    spec:
-      type: ClusterIP
-      selector:
-        app: nodeapp
-      ports:
-        - name: service
-          protocol: TCP
-          # Based on Dockerfile
-          port: 3000
-          targetPort: 3000
+      # Secret for image pull Docker Hub
+      imagePullSecrets:
+        - name: my-registry-key
+      containers:
+        - name: nodeapp
+          image: nanajanashia/demo-app:nodeapp
+          ports:
+            - containerPort: 3000
+          imagePullPolicy: Always
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nodeapp
+  labels:
+    app: nodeapp
+spec:
+  type: ClusterIP
+  selector:
+    app: nodeapp
+  ports:
+    - name: service
+      protocol: TCP
+      # Based on Dockerfile
+      port: 3000
+      targetPort: 3000
 
-    ```
+```
 
-    ``` shell
+``` shell
 
-    kubectl create secret docker-registrry my-registry-key --docker-server=https://index.docker.io/v1/ --docker-username-nanatwn --docker-password=password
+kubectl create secret docker-registrry my-registry-key --docker-server=https://index.docker.io/v1/ --docker-username-nanatwn --docker-password=password
 
-    kubectl apply -f k8s-config.yaml
+kubectl apply -f k8s-config.yaml
 
-    # Verify deployment
-    kubectl get pod
-    kubectl get svc
-    # Test app on localhost
-    kubectl port-forward svc/nodeapp 3000:3000
+# Verify deployment
+kubectl get pod
+kubectl get svc
+# Test app on localhost
+kubectl port-forward svc/nodeapp 3000:3000
 
-    ```
+```
 
-    - Test app localhost:3000, populate metrics
+- Test app localhost:3000, populate metrics
 
 ## Scrape Own Application Metrics & Configure Own Grafana Dashboard (Monitor own App - Part 2)
 

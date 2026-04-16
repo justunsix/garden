@@ -44,7 +44,7 @@ confidence</figcaption>
 - Girls slightly more inactive than boys. Adolescents slightly more
   inactive compared to younger children.
 
-## Multiple factors affecting physical activity
+### Multiple factors affecting physical activity
 
 Individual and external
 
@@ -82,7 +82,7 @@ generated</figcaption>
 - Task force report, meeting around Manitoba with people for
   recommendations
 
-## Result: Policy changes-PE classes
+### Result: Policy changes-PE classes
 
 Grade 9 to 12 classes
 
@@ -107,7 +107,7 @@ automatically generated</figcaption>
 
 - In and out of classroom percentage implementation
 
-## Choices of schedules
+### Choices of schedules
 
 <figure>
 <img src="..\media\Manitoba-exercise-policy-image9.png" />
@@ -115,7 +115,7 @@ automatically generated</figcaption>
 generated</figcaption>
 </figure>
 
-## Out of Classroom direction and supports
+### Out of Classroom direction and supports
 
 <figure>
 <img src="..\media\Manitoba-exercise-policy-image10.png" />
@@ -128,7 +128,7 @@ with low confidence</figcaption>
 <figcaption>Text Description automatically generated</figcaption>
 </figure>
 
-## Policy Evaluation
+### Policy Evaluation
 
 <figure>
 <img src="..\media\Manitoba-exercise-policy-image12.png" />
@@ -137,7 +137,7 @@ with low confidence</figcaption>
 
 **moderate- to-vigorous physical activity (MVPA)**
 
-## Policy Impact
+### Policy Impact
 
 <figure>
 <img src="..\media\Manitoba-exercise-policy-image13.png" />
@@ -195,7 +195,7 @@ medium confidence</figcaption>
 In adjusted model, no significant differences between intervention and
 comparison
 
-## Study 2
+### Study 2
 
 <figure>
 <img src="..\media\Manitoba-exercise-policy-image21.png" />
@@ -268,7 +268,7 @@ generated</figcaption>
 In adjusted model, no significant differences between intervention and
 comparison
 
-# Outcomes
+## Outcomes
 
 <figure>
 <img src="..\media\Manitoba-exercise-policy-image31.png" />
@@ -302,7 +302,7 @@ Note drop at 60mins
 generated</figcaption>
 </figure>
 
-## Ability of schools to satisfy policies
+### Ability of schools to satisfy policies
 
 CONTRIBUTION TO THE EVIDENCE BASE
 
@@ -317,14 +317,14 @@ POSSIBLE AMENDMENT
 - Assessing intervention fidelity and reach, as well as various delivery
   models applied by schools
 
-## Study Strength
+### Study Strength
 
 - Natural experiment and quasi-experimental design
 - Uses cross-sectional census survey data and objective measures of MVPA
 - Parallel data from comparison provinces that did not enact a PE policy
 - Includes follow-up data over a 4-year period
 
-## Limitations
+### Limitations
 
 - Baseline differences between comparison and intervention samples on
   key characteristics known to associate with MVPA, such as sex, age,
@@ -335,7 +335,7 @@ POSSIBLE AMENDMENT
 - No data identifying if student was enrolled in PE in the semester of
   follow-up data collections in Studies 1 or 2
 
-## Presentation Summary
+### Presentation Summary
 
 - First study to examine the effect of a province-wide secondary school
   PE policy on student MVPA
@@ -346,7 +346,7 @@ POSSIBLE AMENDMENT
   policies in different settings would be valuable and further
   contribute to converging knowledge
 
-## Questions
+### Questions
 
 Is the policy implemented too late in life?
 

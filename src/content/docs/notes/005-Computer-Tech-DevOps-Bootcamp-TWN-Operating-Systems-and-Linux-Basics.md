@@ -1367,20 +1367,20 @@ unset DB_NAME
 
 ```
 
-1.  Setting Environment Variables Permanently in Shell
+#### Setting Environment Variables Permanently in Shell
 
-    - Use shell program configuration, like in bash, use `.bashrc` file
-      - Inside `.bashrc` file, write the export variable commands and
-        restart the shell for the variables to be available or
-        `source .bashrc` to get the variables immediately
+- Use shell program configuration, like in bash, use `.bashrc` file
+  - Inside `.bashrc` file, write the export variable commands and
+    restart the shell for the variables to be available or
+    `source .bashrc` to get the variables immediately
 
-2.  Setting Environment Variables Permanently System Wide
+#### Setting Environment Variables Permanently System Wide
 
-    - Use `/etc/environment` file
-      - Write the export variable commands in the file
-      - Restart the system for the variables to be available
-      - For example, a global PATH variable is set for all users, so
-        users can run binaries from system programs
+- Use `/etc/environment` file
+  - Write the export variable commands in the file
+  - Restart the system for the variables to be available
+  - For example, a global PATH variable is set for all users, so users
+    can run binaries from system programs
 
 ### Adding Programs to Path
 
@@ -1433,23 +1433,22 @@ unset DB_NAME
       - 192.168.x.x - shows possible IP values
     - 255 fixates the Octet, value of 0 meas free range
 
-1.  Classless Inter-Domain Routing CIDR ("cider")
+#### Classless Inter-Domain Routing CIDR ("cider")
 
-    Shorthand for IP ranges
+Shorthand for IP ranges
 
-    - 192.168.0.0/16
-      - 16 bits are fixed
-    - 192.168.0.0/24
-      - 24 bits are fixed
+- 192.168.0.0/16
+  - 16 bits are fixed
+- 192.168.0.0/24
+  - 24 bits are fixed
 
-2.  Network Routing
+#### Network Routing
 
-    - Addresses in local subnet go to switch, outside addresses go to
-      router
-    - Any device needs:
-      - IP Address
-      - Subnet
-      - Gateway
+- Addresses in local subnet go to switch, outside addresses go to router
+- Any device needs:
+  - IP Address
+  - Subnet
+  - Gateway
 
 ### Network Address Translation (NAT)
 
@@ -1497,30 +1496,30 @@ unset DB_NAME
     - Later geographical domains for each country like .de, .us, .fr
     - Later more top level domains
 
-1.  Governance
+#### Governance
 
-    - Regulated by Internet Corporation of Assigned Names and Numbers
-      (ICANN), manages TLD development, architecture, authorizes domain
-      name registrars
+- Regulated by Internet Corporation of Assigned Names and Numbers
+  (ICANN), manages TLD development, architecture, authorizes domain name
+  registrars
 
-2.  Subdomains
+#### Subdomains
 
-    - With a domain name, you can create subdomains
-      - For example, `www.google.com` is a subdomain of `google.com`
-      - Subdomains can be used to organize websites, like
-        `mail.google.com`, `drive.google.com`
-      - Subdomains can be used for different servers, applications
-    - Fully Qualified Domain Name is a the full domain name
+- With a domain name, you can create subdomains
+  - For example, `www.google.com` is a subdomain of `google.com`
+  - Subdomains can be used to organize websites, like `mail.google.com`,
+    `drive.google.com`
+  - Subdomains can be used for different servers, applications
+- Fully Qualified Domain Name is a the full domain name
 
-3.  DNS Resolution
+#### DNS Resolution
 
-    - DNS client on source, checks with resolver (usually ISP), resolver
-      checks with root server, root server can direct to TLD Server
-      (.com). TLD server refers to the authoritative name server for a
-      certain domain name.
-    - DNS entries are cached for a certain time, so the same request
-      does not have to go through the whole process again. Caches are
-      stored at the DNS client and resolvers.
+- DNS client on source, checks with resolver (usually ISP), resolver
+  checks with root server, root server can direct to TLD Server (.com).
+  TLD server refers to the authoritative name server for a certain
+  domain name.
+- DNS entries are cached for a certain time, so the same request does
+  not have to go through the whole process again. Caches are stored at
+  the DNS client and resolvers.
 
 ### Networking Commands
 

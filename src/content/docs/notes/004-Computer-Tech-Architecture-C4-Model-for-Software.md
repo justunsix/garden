@@ -9,14 +9,14 @@ title: C4 model for visualising software architecture
 
 <link rel="stylesheet" type="text/css" href="basic-org.css"/>
 
-# See Also
+## See Also
 
-## Resources
+### Resources
 
 - [The C4 model for visualising software
   architecture](https://c4model.com/)
 
-# Introduction
+## Introduction
 
 From: [Visualising software architecture with the C4 model - Simon
 Brown, Agile on the Beach 2019 -
@@ -24,9 +24,9 @@ YouTube](https://www.youtube.com/watch?v=x2-rSnhpw0g) and [The C4 Model
 for Software
 Architecture](https://www.infoq.com/articles/C4-architecture-model/)
 
-## Why Use Modelling Language
+### Why Use Modelling Language
 
-### Unified Modelling Language (UML)
+#### Unified Modelling Language (UML)
 
 - Many people have excuses not to use UML:
   - "Just use a whiteboard" does not produce a consistent set of
@@ -34,7 +34,7 @@ Architecture](https://www.infoq.com/articles/C4-architecture-model/)
   - Different audiences - different diagrams and stories
 - Compare to building industry - physical plans
 
-### Approach
+#### Approach
 
 - When drawing software architecture, think like a software developer
   - Need to reflect reality
@@ -47,7 +47,7 @@ Architecture](https://www.infoq.com/articles/C4-architecture-model/)
       - Containers are made of components
         - Components are made of code
 
-### C4 Model
+#### C4 Model
 
 - C4 = Context, Containers, Components, Code
 - 4 levels
@@ -67,9 +67,9 @@ Analogy: Diagrams are maps
   - Data
   - Runtime and behaviour
 
-## Example: Banking System
+### Example: Banking System
 
-## Level 1 System Context diagram
+### Level 1 System Context diagram
 
 - System - what we are working on
 - People who use it
@@ -96,7 +96,7 @@ ibankingsys --> mainframebsys : gets account information
 @enduml
 ```
 
-### Level 2 Container Diagram
+#### Level 2 Container Diagram
 
 "Zoom into the context like a map to see more details"
 
@@ -149,7 +149,7 @@ apiapp -[dashed]-> ibsdb : reads from and writes to [JDBC]
 @enduml
 ```
 
-### Level 3 Component Diagram
+#### Level 3 Component Diagram
 
 - Zoom into a container to see components for API application
 - Components should reflect code structure like
@@ -222,14 +222,14 @@ emailcp -[dashed]-> emailsys : sends email using [SMTP]
 @enduml
 ```
 
-### Level 4 Code Diagram
+#### Level 4 Code Diagram
 
 - Manually doing level 4 diagrams is not recommended due to complexity,
   changes
 - Automate them from code
 - Example is a class diagram
 
-## Notation and Tips
+### Notation and Tips
 
 - Put titles, include diagram type, numbered diagram if order is
   important
@@ -324,7 +324,7 @@ endlegend
 @enduml
 ```
 
-## Assessing Diagram Usefulness
+### Assessing Diagram Usefulness
 
 - Software architecture diagrams must be able to stand alone without
   explanation
@@ -333,7 +333,7 @@ endlegend
 - Abstractions first, notations second - ensure team understands
   language
 
-## Tooling
+### Tooling
 
 Recommendations:
 

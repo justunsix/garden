@@ -120,54 +120,52 @@ c7gn.8xlarge
 
 ### About Storage
 
-1.  Block vs File vs Object
+#### Block vs File vs Object
 
-    - Block Storage
-      - Raw Storage
-      - Data organized as an array of unrelated blocks
-      - Host File System places data on disk
-      - Ex: Hard Disks, Storage Area Network (SAN) Storage Arrays
-    - File Storage
-      - Unrelated data blocks managed by a file (serving) system
-      - Native file system places data on disk
-      - Ex: Network Attached Storage (NAS) Appliances, Windows File
-        Servers, NetApp OnTap
-    - Object Storage
-      - Stores Virtual containers that encapsulate the data, data
-        attributes, metadata and Object IDs
-      - API Access to data
-      - Metadata Driven, Policy-based, etc.
-      - Ex: Ceph, OpenStack Swift
+- Block Storage
+  - Raw Storage
+  - Data organized as an array of unrelated blocks
+  - Host File System places data on disk
+  - Ex: Hard Disks, Storage Area Network (SAN) Storage Arrays
+- File Storage
+  - Unrelated data blocks managed by a file (serving) system
+  - Native file system places data on disk
+  - Ex: Network Attached Storage (NAS) Appliances, Windows File Servers,
+    NetApp OnTap
+- Object Storage
+  - Stores Virtual containers that encapsulate the data, data
+    attributes, metadata and Object IDs
+  - API Access to data
+  - Metadata Driven, Policy-based, etc.
+  - Ex: Ceph, OpenStack Swift
 
-2.  Storage attributes
+#### Storage attributes
 
-    - Durability: target data loss if any
-      - Example: 2 copies on 1 site, multiple sites will increase
-        durability
-      - Metric: 1 in how many objects may have access issues
-    - Availability: target downtime
-      - Metrics: minutes and seconds of downtime
-    - Security: encryption at rest, in transit
-    - Cost: per storage unit like \$ / GB
-    - Scalability: storage size, number of users, flexility to increase
-      size
-    - Performance: metrics like bandwidth
-    - Integration: use with API or with other services
+- Durability: target data loss if any
+  - Example: 2 copies on 1 site, multiple sites will increase durability
+  - Metric: 1 in how many objects may have access issues
+- Availability: target downtime
+  - Metrics: minutes and seconds of downtime
+- Security: encryption at rest, in transit
+- Cost: per storage unit like \$ / GB
+- Scalability: storage size, number of users, flexility to increase size
+- Performance: metrics like bandwidth
+- Integration: use with API or with other services
 
-3.  Storage Options
+#### Storage Options
 
-    Choose appropriate storage for use case
+Choose appropriate storage for use case
 
-    - Block Storage: disks
-    - Backup: AWS backup
-      - Cloud, on premise backup
-    - File storage: different file systems available
-    - Object storage: S3 options
-    - Data transfer:
-      - Storage gateway
-        - Example: Shares for users
-      - AWS DataSync
-        - Move data in/out of cloud
+- Block Storage: disks
+- Backup: AWS backup
+  - Cloud, on premise backup
+- File storage: different file systems available
+- Object storage: S3 options
+- Data transfer:
+  - Storage gateway
+    - Example: Shares for users
+  - AWS DataSync
+    - Move data in/out of cloud
 
 ### Block Storage
 

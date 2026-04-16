@@ -272,9 +272,7 @@ Isotonic = same osmolarity
   (water moves into cells to balance solute concentrations and increase
   ECF solute concentrations)
 
-###  
-
-## Endocrine System - An Overview
+### \*\* Endocrine System - An Overview
 
 Endocrine target cells must have high affinity receptors to hormones
 since blood is so large, while chemical is small concentration (dilute).
@@ -376,18 +374,18 @@ synthesized and secreted on demand, conversion in target tissues
 
 ### About Receptor
 
-1.  Types
+#### Types
 
-    Hormones can be received in different places (even inside cell in
-    case of steroid/thyroid hormones).
+Hormones can be received in different places (even inside cell in case
+of steroid/thyroid hormones).
 
-    There are many receptors on/in cells
+There are many receptors on/in cells
 
-2.  Sensitivity
+#### Sensitivity
 
-    Depends on a couple factors:
+Depends on a couple factors:
 
-     
+ 
 
 ### Looking at examples of hormones
 
@@ -468,34 +466,33 @@ delivery](http://en.wikipedia.md/wiki/Continuous_delivery), and
 qualitatively assessing or quantitatively measuring the presence or
 amount or the functional activity of a target entity (the analyte).
 
-1.  Competitive Binding Assay
+#### Competitive Binding Assay
 
-    - Checking concentrations of hormones.
+- Checking concentrations of hormones.
 
-    - Using antibodies that binds with labelled and unknown hormones.
+- Using antibodies that binds with labelled and unknown hormones.
 
-    - Antibodies normally bind with labelled hormones. A mixture will
-      along us to find out the amount of unlabelled (unknown) hormones
-      are present.
+- Antibodies normally bind with labelled hormones. A mixture will along
+  us to find out the amount of unlabelled (unknown) hormones are
+  present.
 
-    - Can tell us the amount of hormones, but not their ability to
-      function
+- Can tell us the amount of hormones, but not their ability to function
 
-     
+ 
 
-2.  Bioassay
+#### Bioassay
 
-    - Checks whether hormones are functional
+- Checks whether hormones are functional
 
-    - e.g. cortisol secreted by adrenal gland, we want to check high
-      cortisol
+- e.g. cortisol secreted by adrenal gland, we want to check high
+  cortisol
 
-      - Cortisol is secreated (steroid is synthesized on demand) from
-        CRH and ACTH hormone inputs
+  - Cortisol is secreated (steroid is synthesized on demand) from CRH
+    and ACTH hormone inputs
 
-      - Give dexamethason to inhibit ACTH, to check if ACTH and CRH is
-        the problem or other areas of the hypothalamus, pituitary,
-        cortex axis is not functioning
+  - Give dexamethason to inhibit ACTH, to check if ACTH and CRH is the
+    problem or other areas of the hypothalamus, pituitary, cortex axis
+    is not functioning
 
 ### Classification of Endocrine pathology
 

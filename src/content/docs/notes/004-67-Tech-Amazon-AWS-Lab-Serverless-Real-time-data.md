@@ -41,13 +41,13 @@ Elaboration of serverless app component
 - Storage
 - Minimize infrastructure cost
 
-1.  Serverless benefits
+#### Serverless benefits
 
-    - No manual infrastructure creation
-    - Automatic scaling
-      - Automatic geographical location for users
-    - Pay only on use
-    - High availability and security
+- No manual infrastructure creation
+- Automatic scaling
+  - Automatic geographical location for users
+- Pay only on use
+- High availability and security
 
 ### Message Processing vs Stream Processing
 
@@ -136,21 +136,21 @@ src="../media/Tech-Amazon-AWS-Lab-Serverless-Real-time-data-Architecture-1.png" 
 
 ### AWS Development
 
-1.  About Cloud9
+#### About Cloud9
 
-    - Cloud based IDE with web browser
-    - Use case:
-      - Build serverless applications
-      - Real time collaboration
+- Cloud based IDE with web browser
+- Use case:
+  - Build serverless applications
+  - Real time collaboration
 
-2.  Cloud Development Kit
+#### Cloud Development Kit
 
-    - CDK application
-      - Construct stack(s) with constructs:
-        - Service –\> Lambda
-        - S3 –\> DynamoDB
-      - Output CloudFormation template
-      - Template used for resource creation
+- CDK application
+  - Construct stack(s) with constructs:
+    - Service –\> Lambda
+    - S3 –\> DynamoDB
+  - Output CloudFormation template
+  - Template used for resource creation
 
 ## Lab
 

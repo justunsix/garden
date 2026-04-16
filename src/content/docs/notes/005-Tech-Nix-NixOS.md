@@ -111,22 +111,22 @@ Single-user installations of Nix should run this:
 Multi-user Nix users on Linux should run this
 `sudo nix-channel --update; nix-env -iA nixpkgs.nix nixpkgs.cacert; systemctl daemon-reload; systemctl restart nix-daemon`
 
-1.  Updates
+#### Updates
 
-    `nix-channel --update nixpkgs` - update channels
+`nix-channel --update nixpkgs` - update channels
 
-    and
+and
 
-    `nix-env -u '*'` - update packages
+`nix-env -u '*'` - update packages
 
-2.  Rollbacks
+#### Rollbacks
 
-    `nix-env --rollback` - rollback to previous version of packages
+`nix-env --rollback` - rollback to previous version of packages
 
-3.  Garbage Collection
+#### Garbage Collection
 
-    `nix-collect-garbage -d` - remove old versions of packages, should
-    be run periodically since other Nix commands do not delete old items
+`nix-collect-garbage -d` - remove old versions of packages, should be
+run periodically since other Nix commands do not delete old items
 
 ### Security
 

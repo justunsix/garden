@@ -148,13 +148,12 @@ Include:
 Copilot also respect Claude code files and configurations like
 `.claude/rules`
 
-1.  Prompt files
+#### Prompt files
 
-    Saved as `.github/*.prompt.md`
+Saved as `.github/*.prompt.md`
 
-    Instructions for specific things like code review, new developer
-    review. In VS Code GitHub Copilot chat, reference using
-    `/prompt-file`
+Instructions for specific things like code review, new developer review.
+In VS Code GitHub Copilot chat, reference using `/prompt-file`
 
 ### Custom Agents
 
@@ -199,12 +198,12 @@ single task and output/results.
 
 CLI can be configured. During use, can select model and configure it.
 
-1.  Features
+#### Features
 
-    - Autopilot: With a requirement, CLI does many tasks until it
-      believes outcome is complete.
-    - `/fleet` can use multiple models depending on prompt
-    - Other local and open source models can be used with CLI
+- Autopilot: With a requirement, CLI does many tasks until it believes
+  outcome is complete.
+- `/fleet` can use multiple models depending on prompt
+- Other local and open source models can be used with CLI
 
 ### Context Management
 
@@ -272,20 +271,18 @@ is use AI assistance on database only in a non-production environment.
   Server](https://learn.microsoft.com/en-us/sql/tools/visual-studio-code-extensions/github-copilot/overview?view=sql-server-ver17) -
   Chat with your Database
 
-1.  Prompts, Configurations, Agents
+#### Prompts, Configurations, Agents
 
-    - [Awesome Copilot /
-      GitHub](https://github.com/github/awesome-copilot) -
-      Community-contributed instructions, prompts, agent information,
-      and configurations to help you make the most of GitHub Copilot
-    - [GitHub - githubabcs-devops/gh-advsec-devsecops: Agentic AI for
-      DevSecOps: Transforming Security with GitHub Advanced Security and
-      GitHub Copilot. GitHub Advanced Security - DevSecOps Guidelines -
-      Unified visibility into DevOps security posture. DevSecOps E2E
-      Demos. ·
-      GitHub](https://github.com/githubabcs-devops/gh-advsec-devsecops)
-    - [GitHub - microsoft/hve-core: A refined collection of
-      Hypervelocity Engineering components (instructions, prompts,
-      agents) to start your project off right, or upgrade your existing
-      projects to get the most out of all Copilots ·
-      GitHub](https://github.com/microsoft/hve-core)
+- [Awesome Copilot /
+  GitHub](https://github.com/github/awesome-copilot) -
+  Community-contributed instructions, prompts, agent information, and
+  configurations to help you make the most of GitHub Copilot
+- [GitHub - githubabcs-devops/gh-advsec-devsecops: Agentic AI for
+  DevSecOps: Transforming Security with GitHub Advanced Security and
+  GitHub Copilot. GitHub Advanced Security - DevSecOps Guidelines -
+  Unified visibility into DevOps security posture. DevSecOps E2E Demos.
+  · GitHub](https://github.com/githubabcs-devops/gh-advsec-devsecops)
+- [GitHub - microsoft/hve-core: A refined collection of Hypervelocity
+  Engineering components (instructions, prompts, agents) to start your
+  project off right, or upgrade your existing projects to get the most
+  out of all Copilots · GitHub](https://github.com/microsoft/hve-core)

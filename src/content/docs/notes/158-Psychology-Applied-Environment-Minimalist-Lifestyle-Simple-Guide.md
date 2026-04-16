@@ -53,16 +53,15 @@ Swedish proverb
   - “Have nothing in your houses that you do not know to be useful, or
     believe to be beautiful.” - William Morris
 
-1.  Principles to Fight Fear of not having something
+#### Principles to Fight Fear of not having something
 
-    - Remove items not used in 6 months unless seasonal or known
-      occasional
-    - It is a waste to keep unused items
-    - Take a picture of sentimental items
-    - Put items in a "maybe" box before removing them
-    - “We donʼt need to increase our goods nearly as much as we need to
-      scale down our wants. Not wanting something is as good as
-      possessing it.” - Donald Horban
+- Remove items not used in 6 months unless seasonal or known occasional
+- It is a waste to keep unused items
+- Take a picture of sentimental items
+- Put items in a "maybe" box before removing them
+- “We donʼt need to increase our goods nearly as much as we need to
+  scale down our wants. Not wanting something is as good as possessing
+  it.” - Donald Horban
 
 ### Slowly apply minimalist values
 
@@ -109,13 +108,13 @@ there is nothing left to take away.” - Antoine de Saint-Exupe
     - Make old records/photos digital
 - Have one working file folder either physical or digital
 
-1.  Computer
+#### Computer
 
-    - Aim to have a clean desktop
-    - Use keyboard for speed and simplicity
-    - Avoid filing and use search
+- Aim to have a clean desktop
+- Use keyboard for speed and simplicity
+- Avoid filing and use search
 
-    “Simplicity is the ultimate sophistication.” - Leonardo da Vinci
+“Simplicity is the ultimate sophistication.” - Leonardo da Vinci
 
 ### Travel
 

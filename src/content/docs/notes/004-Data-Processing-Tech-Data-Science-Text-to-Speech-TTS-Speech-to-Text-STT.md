@@ -12,6 +12,8 @@ title: Text to Speech (TTS) and Speech to Text (STT)
   (FOSS)](/garden/notes/005-tech-free-open-source-software-foss) - [Free and/or
   Open Source Software (FOSS)](id:4d3e0888-9e79-414c-a552-48c6357ad845)
   and search for TTS options
+  - In 2026-04: Kokoro-TTS is good for ease of use and natural sounding
+    voices
 - Free and accessible, built into browsers: Firefox
 - Open Source TTS from [Open Source Text to Speech TTS Engines -
   datacamp](https://www.datacamp.com/blog/best-open-source-text-to-speech-tts-engines)

@@ -78,26 +78,25 @@ tsdiscon /4
 When you execute the commands above, log in as an administrator on the
 machine. That log in allow you to use the console on the server.
 
-1.  Remove any disconnected users via the Terminal Services Manager
+#### Remove any disconnected users via the Terminal Services Manager
 
-    Start \> All Programs \> Administrative Tools \> **Terminal Services
-    Manager**
+Start \> All Programs \> Administrative Tools \> **Terminal Services
+Manager**
 
-    Click on the name of your server and the right side should show a
-    list of users. If the users are disconnected, reset the users to
-    free up the two normal remote desktop connections. Right clicking
-    the disconnected user and selecting "Reset."
+Click on the name of your server and the right side should show a list
+of users. If the users are disconnected, reset the users to free up the
+two normal remote desktop connections. Right clicking the disconnected
+user and selecting "Reset."
 
-    It is good practices to only use the console to disconnect inactive
-    sessions and not for anything else. Make sure you disconnect
-    inactive user sessions first with the instructions above, otherwise
-    if you get disconnected again you will have to physically access the
-    server.
+It is good practices to only use the console to disconnect inactive
+sessions and not for anything else. Make sure you disconnect inactive
+user sessions first with the instructions above, otherwise if you get
+disconnected again you will have to physically access the server.
 
-    Remote Desktop sessions should always be closed using the Windows
-    \<\<Log Off\>\> function rather than disconnecting by closing the
-    window as using the X to close will disconnect from the session but
-    leave it active.
+Remote Desktop sessions should always be closed using the Windows
+\<\<Log Off\>\> function rather than disconnecting by closing the window
+as using the X to close will disconnect from the session but leave it
+active.
 
 ## See Also
 

@@ -30,15 +30,15 @@ Access is managed by Azure role based access control.
   environments
 - Serverless - good for small jobs, experiments
 
-1.  Choosing compute
+#### Choosing compute
 
-    | Use Case               | Compute                         |
-    |------------------------|---------------------------------|
-    | Small jobs, experience | Serverless                      |
-    | Training, pipelines    | Serverless, Instances, Clusters |
-    | Regular workload       | Instances, Clusters             |
+| Use Case               | Compute                         |
+|------------------------|---------------------------------|
+| Small jobs, experience | Serverless                      |
+| Training, pipelines    | Serverless, Instances, Clusters |
+| Regular workload       | Instances, Clusters             |
 
-    Can be configured to start and stop.
+Can be configured to start and stop.
 
 ### URIs
 

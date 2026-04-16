@@ -93,5 +93,8 @@ curl --request GET "https://aws-id.s3.us-eastnaws.com" --user myuser --aws-sigv4
 
 ## See Also
 
+- [chubin/awesome-console-services: A curated list of awesome console
+  services (reachable via HTTP, HTTPS and other network protocols) -
+  GitHub](https://github.com/chubin/awesome-console-services)
 - [Wait… cURL can do WHAT - DevOps Toolbox -
   YouTube](https://www.youtube.com/watch?app=desktop&v=3xmD4E2aqxo)

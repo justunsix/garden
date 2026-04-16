@@ -116,44 +116,44 @@ installed on host like apt programs.
 
 ### Build from source using Nix as of 2024-12-28
 
-1.  Nix-shell
+#### Nix-shell
 
-    ``` shell
+``` shell
 
-    nix-shell
-    # Build binary to $HOME/.local/bin
-    zig build -p $HOME/.local -Doptimize=ReleaseFast
+nix-shell
+# Build binary to $HOME/.local/bin
+zig build -p $HOME/.local -Doptimize=ReleaseFast
 
-    # Logout, then launch ghostty from app launcher
+# Logout, then launch ghostty from app launcher
 
-    ## Uninstall ghostty from zig build above
-    rm -rf $HOME/.local/bin/ghostty
-    rm -rf $HOME/.local/share/ghostty
-    rm -rf $HOME/.local/state/ghostty
-    rm -rf $HOME/.local/share/man/man1/ghostty.1
-    rm -rf $HOME/.local/share/man/man5/ghostty.5
-    rm -rf $HOME/.local/share/terminfo/ghostty.*
-    ## Reboot or logout
+## Uninstall ghostty from zig build above
+rm -rf $HOME/.local/bin/ghostty
+rm -rf $HOME/.local/share/ghostty
+rm -rf $HOME/.local/state/ghostty
+rm -rf $HOME/.local/share/man/man1/ghostty.1
+rm -rf $HOME/.local/share/man/man5/ghostty.5
+rm -rf $HOME/.local/share/terminfo/ghostty.*
+## Reboot or logout
 
-    ```
+```
 
-2.  Nix only (has issues)
+#### Nix only (has issues)
 
-    ``` shell
+``` shell
 
-    git clone https://github.com/ghostty-org/ghostty.git
+git clone https://github.com/ghostty-org/ghostty.git
 
-    cd ghostty
+cd ghostty
 
-    # Build using nix and enable experimental features
-    nix build .#ghostty --extra-experimental-features 'nix-command flakes'
-    ## Agree to prompts
-    # Run ghostty
-    ./result/bin/ghostty
+# Build using nix and enable experimental features
+nix build .#ghostty --extra-experimental-features 'nix-command flakes'
+## Agree to prompts
+# Run ghostty
+./result/bin/ghostty
 
-    # If EGL problems, use nixGL - required for non-NixOS Ghostty
-    # or home-manager installed ghostty
-    # per https://github.com/nix-community/nixGL
-    nix run --impure github:nix-community/nixGL --extra-experimental-features 'nix-command flakes' -- ./result/bin/ghostty
+# If EGL problems, use nixGL - required for non-NixOS Ghostty
+# or home-manager installed ghostty
+# per https://github.com/nix-community/nixGL
+nix run --impure github:nix-community/nixGL --extra-experimental-features 'nix-command flakes' -- ./result/bin/ghostty
 
-    ```
+```

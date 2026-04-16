@@ -15,10 +15,9 @@ tv update-channels
 # List chanels
 tv list-channels
 
-# Open file
-vim (tv)
-
 # Channel specific search
+## Switch to channel
+tv channels
 ## Directories
 tv dirs
 ## Nushell history
@@ -31,6 +30,8 @@ tv git-branch
 tv git-log
 ## Git repositories
 tv git-repos
+## Git diff on changed files
+tv git-diff
 ## Shell aliases
 tv alias
 ## Dotfiles - select user's dotfiles, cross platform for Unix, Windows
@@ -39,6 +40,32 @@ tv dotfiles
 tv env
 ## Text like grep
 tv text
+
+# Change Directory
+tv zoxide
+
+# Open downloads directory items
+tv downloads
+
+```
+
+## Applying with other commands
+
+``` shell
+
+# Open a file with editor
+vim (tv files)
+
+# Change directory
+cd (tv dirs)
+
+# Flatpak run program
+flatpak run (tv flatpak)
+
+# Nu history run
+nu -c (tv nu-history)
+
+tmux attach -t (tv tmux-sessions)
 
 ```
 

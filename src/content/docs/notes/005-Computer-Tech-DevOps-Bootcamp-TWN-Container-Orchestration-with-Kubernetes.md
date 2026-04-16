@@ -184,13 +184,12 @@ Above functions are controlled from control plane nodes
   - Must be stored and replicated and distributed among all control
     plane nodes
 
-1.  Example Cluster Setup
+#### Example Cluster Setup
 
-    - Control plan processes are high importance, but low usages
-      - Get new server, install control plane, nodes, join to the
-        cluster
-    - Worker nodes have high usage, but can be replaced, added, removed
-      - Get new server, install node and join to cluster
+- Control plan processes are high importance, but low usages
+  - Get new server, install control plane, nodes, join to the cluster
+- Worker nodes have high usage, but can be replaced, added, removed
+  - Get new server, install node and join to cluster
 
 ## Minikube and kubectl - Local Kubernetes Cluster
 
@@ -204,22 +203,22 @@ See [Minikube documentation](https://minikube.sigs.k8s.io/docs/)
 - Minikube puts control plane processes and worker process in one node
   and has docker pre-installed
 
-1.  Setup
+#### Setup
 
-    - Will run as a container or VM on local machine
-      - Needs either container or virtualization platform like Docker
-        (preferred) or Virtualbox
-      - If using container, there will layers of containers
-    - Install
+- Will run as a container or VM on local machine
+  - Needs either container or virtualization platform like Docker
+    (preferred) or Virtualbox
+  - If using container, there will layers of containers
+- Install
 
-    ``` shell
+``` shell
 
-    # Start using Docker driver
-    minikube start --driver docker
+# Start using Docker driver
+minikube start --driver docker
 
-    minikube status
+minikube status
 
-    ```
+```
 
 ### What is kubectl
 
@@ -678,31 +677,31 @@ data:
 
 ```
 
-1.  Kubectl commands
+#### Kubectl commands
 
-    - By default, kubectl will just look at the default namespace, use
-      –namespace to specify it or change the active namespace. You can
-      also use a tool `kubens` k8s namespace, to manage namespaces
+- By default, kubectl will just look at the default namespace, use
+  –namespace to specify it or change the active namespace. You can also
+  use a tool `kubens` k8s namespace, to manage namespaces
 
-    ``` shell
+``` shell
 
-    # See namespace and non-namespace resources with
-    kubectl api-resources --namespace=false
-    kubectl api-resources --namespace=true
+# See namespace and non-namespace resources with
+kubectl api-resources --namespace=false
+kubectl api-resources --namespace=true
 
-    # Set namespace on apply
-    kubectl apply -f deployment.yaml --namespace=my-namespace
+# Set namespace on apply
+kubectl apply -f deployment.yaml --namespace=my-namespace
 
-    kubectl get all  --namespace=my-namespace
+kubectl get all  --namespace=my-namespace
 
-    # Change active namespace
-    kubectl config set-context --current --namespace=my-namespace
-    ## List namespaces
-    kubens
-    ## Change namespace
-    kubens my-namspace
+# Change active namespace
+kubectl config set-context --current --namespace=my-namespace
+## List namespaces
+kubens
+## Change namespace
+kubens my-namspace
 
-    ```
+```
 
 ## Kubernetes Services - Connecting to Applications inside cluster
 
@@ -841,22 +840,22 @@ Example: my-app web used by users
     Controller](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/)
     - Like K8s Nginx Ingress Controller
 
-1.  Considerations when choosing Ingress Controller
+#### Considerations when choosing Ingress Controller
 
-    - If using a service provider like a cloud, they will have a cloud
-      load balancer and would redirect to K8s cluster. Advantage is no
-      need to implement load balancer yourself
-    - If using self managed K8s / bare metal, need to configure an entry
-      point
-      - Can use external proxy server as an entrypoint to cluster which
-        will host public IP and open ports
-        - Keeps K8s secure using a separate server
+- If using a service provider like a cloud, they will have a cloud load
+  balancer and would redirect to K8s cluster. Advantage is no need to
+  implement load balancer yourself
+- If using self managed K8s / bare metal, need to configure an entry
+  point
+  - Can use external proxy server as an entrypoint to cluster which will
+    host public IP and open ports
+    - Keeps K8s secure using a separate server
 
-    For Minikube local work:
+For Minikube local work:
 
-    - Install Ingress Controller with `minikube addons enable ingress`
-      which activates the K8s Nginx Ingress Controller which uses an
-      minikube tunnel to enable ingress access
+- Install Ingress Controller with `minikube addons enable ingress` which
+  activates the K8s Nginx Ingress Controller which uses an minikube
+  tunnel to enable ingress access
 
 ### Create Ingress Rule and Example of Ingress Configuration
 
@@ -1178,94 +1177,94 @@ properties
 - For files that should not be changed like certificates or permanent
   config files, can add `readOnly: true` to `volumeMount`
 
-1.  Running Demo
+#### Running Demo
 
-    ``` shell
+``` shell
 
-    # Start mosquitto without volumes to see default file system
-    kubectl apply -f mosquitto-without-volumes.yaml
-    # Use kubectl exec -it to review container
+# Start mosquitto without volumes to see default file system
+kubectl apply -f mosquitto-without-volumes.yaml
+# Use kubectl exec -it to review container
 
-    # Create ConfigMap and Secret first before pod deployment
-    kubectl apply -f config-file.yaml
-    kubectl apply -f secret-file.yaml
+# Create ConfigMap and Secret first before pod deployment
+kubectl apply -f config-file.yaml
+kubectl apply -f secret-file.yaml
 
-    # Deploy pods
-    kubectl apply -f mosquitto.yaml
-    # Use kubectl exec -it to review container, see volumes/files are mounted
+# Deploy pods
+kubectl apply -f mosquitto.yaml
+# Use kubectl exec -it to review container, see volumes/files are mounted
 
-    ```
+```
 
-2.  Configuration Files
+#### Configuration Files
 
-    ``` yaml
+``` yaml
 
-    # secret-file.yaml
-    apiVersion: v1
-    kind: Secret
+# secret-file.yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mosquitto-secret-file
+type: Opaque
+data:
+  # Base 64 encoded
+  secret.file: |
+    VGVjaFdvcmxkMjAyMyEgLW4K
+
+---
+# config-file.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mosquitto-config-file
+data:
+  # File and its contents defined here
+  mosquitto.conf: |
+    log_dest stdout
+    log_type all
+    log_timestamp true
+    listener 9001
+
+---
+# mosquitto.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mosquitto
+  labels:
+    app: mosquitto
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mosquitto
+  template:
     metadata:
-      name: mosquitto-secret-file
-    type: Opaque
-    data:
-      # Base 64 encoded
-      secret.file: |
-        VGVjaFdvcmxkMjAyMyEgLW4K
-
-    ---
-    # config-file.yaml
-    apiVersion: v1
-    kind: ConfigMap
-    metadata:
-      name: mosquitto-config-file
-    data:
-      # File and its contents defined here
-      mosquitto.conf: |
-        log_dest stdout
-        log_type all
-        log_timestamp true
-        listener 9001
-
-    ---
-    # mosquitto.yaml
-    apiVersion: apps/v1
-    kind: Deployment
-    metadata:
-      name: mosquitto
       labels:
         app: mosquitto
     spec:
-      replicas: 1
-      selector:
-        matchLabels:
-          app: mosquitto
-      template:
-        metadata:
-          labels:
-            app: mosquitto
-        spec:
-          containers:
-            - name: mosquitto
-              image: eclipse-mosquitto:2.0
-              ports:
-                - containerPort: 1883
-              # Volumes must be mounted explicitly for each container where they must be mounted to
-              volumeMounts:
-                - name: mosquitto-config
-                  # Use target paths appropriate for the container/application
-                  mountPath: /mosquitto/config
-                - name: mosquitto-secret
-                  # add read only attribute where app should not be changing it
-                  mountPath: /mosquitto/secret
-                  readOnly: true
-          volumes:
+      containers:
+        - name: mosquitto
+          image: eclipse-mosquitto:2.0
+          ports:
+            - containerPort: 1883
+          # Volumes must be mounted explicitly for each container where they must be mounted to
+          volumeMounts:
             - name: mosquitto-config
-              configMap:
-                name: mosquitto-config-file
+              # Use target paths appropriate for the container/application
+              mountPath: /mosquitto/config
             - name: mosquitto-secret
-              secret:
-                secretName: mosquitto-secret-file
+              # add read only attribute where app should not be changing it
+              mountPath: /mosquitto/secret
+              readOnly: true
+      volumes:
+        - name: mosquitto-config
+          configMap:
+            name: mosquitto-config-file
+        - name: mosquitto-secret
+          secret:
+            secretName: mosquitto-secret-file
 
-    ```
+```
 
 ## StatefulSet - Deploying Stateful Applications
 
@@ -1700,116 +1699,115 @@ Final code:
 
 - First build and push the image to the private repository
 
-1.  Secret Set up on K8s
+#### Secret Set up on K8s
 
-    ``` shell
+``` shell
 
-    # Login to private repo
-    aws ecr get-login-password --profile profile_name1 --region ca-central-1 | docker login --username AWS --password-stdin acr-registry-name-region.amazonaws.com
+# Login to private repo
+aws ecr get-login-password --profile profile_name1 --region ca-central-1 | docker login --username AWS --password-stdin acr-registry-name-region.amazonaws.com
 
-    # See authentication setup
-    cat .docker/config.json
+# See authentication setup
+cat .docker/config.json
 
-    # Get token for login
-    aws ecr get-login-password
+# Get token for login
+aws ecr get-login-password
 
-    # Go into local K8s / minikube host
-    # Use token with K8s cluster
-    # Use login with password directory
-    docker login --username AWS -p <long-token> acr-registry-name-region.amazonaws.com
+# Go into local K8s / minikube host
+# Use token with K8s cluster
+# Use login with password directory
+docker login --username AWS -p <long-token> acr-registry-name-region.amazonaws.com
 
-    # Copy from Minikube host to your machine
-    minikube cp minikube:/home/docker/.docker/config.json /home/user/.docker/config.json
+# Copy from Minikube host to your machine
+minikube cp minikube:/home/docker/.docker/config.json /home/user/.docker/config.json
 
-    # Set up Secret
-    ## Option 1: Get base64 encoded value of docker authentication
-    ## to put into a Secret yaml file
-    ## to apply
-    cat .docker/config.json | base64
-    ## or Option 2: use kubectl command
-    kubectl create secret generic my-registry-key \
-        --from-file=.dockerconfigjson=.docker/config.json \
-        --type=kubernetes.io/dockerconfigjson
+# Set up Secret
+## Option 1: Get base64 encoded value of docker authentication
+## to put into a Secret yaml file
+## to apply
+cat .docker/config.json | base64
+## or Option 2: use kubectl command
+kubectl create secret generic my-registry-key \
+    --from-file=.dockerconfigjson=.docker/config.json \
+    --type=kubernetes.io/dockerconfigjson
 
-    ## See Secret
-    kubectl get secret -o yaml
+## See Secret
+kubectl get secret -o yaml
 
-    ## or Option 3: use kubectl command with token directly
-    kubectl create secret generic my-registry-key-two \
-        --docker-server=https://ecr-server.amazonaws.com \
-        --docker-username=AWS \
-        --docker-password=<long-token>
+## or Option 3: use kubectl command with token directly
+kubectl create secret generic my-registry-key-two \
+    --docker-server=https://ecr-server.amazonaws.com \
+    --docker-username=AWS \
+    --docker-password=<long-token>
 
-    ```
+```
 
-    Using the `.dockerconfigjson` type can be useful for accessing
-    multiple repositories using the one Secret file contents
+Using the `.dockerconfigjson` type can be useful for accessing multiple
+repositories using the one Secret file contents
 
-    `docker-secret.yaml` for use in Docker pull image later in
-    deployment
+`docker-secret.yaml` for use in Docker pull image later in deployment
 
-    ``` yaml
+``` yaml
 
-    apiVersion: v1
-    kind: Secret
+apiVersion: v1
+kind: Secret
+metadata:
+  name: my-registry-key
+data:
+  # Contains repo authentication information
+  # Example: AWS ECR token and access information
+  .dockerconfigjson: base-64-encoded-value-of-the-config-json-file
+# Type of Secret
+type: kubernetes.io/dockerconfigjson
+
+```
+
+#### Deployment on K8s using Image Repository Secret
+
+Deploy app to pod, spec has image name with tag
+
+`my-app-deployment.yaml`
+
+``` yaml
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-app-two
+  labels:
+    app: my-app-two
+spec:
+  replicas:
+  selector:
+    matchLabels:
+      app: my-app-two
+  template:
     metadata:
-      name: my-registry-key
-    data:
-      # Contains repo authentication information
-      # Example: AWS ECR token and access information
-      .dockerconfigjson: base-64-encoded-value-of-the-config-json-file
-    # Type of Secret
-    type: kubernetes.io/dockerconfigjson
-
-    ```
-
-2.  Deployment on K8s using Image Repository Secret
-
-    Deploy app to pod, spec has image name with tag
-
-    `my-app-deployment.yaml`
-
-    ``` yaml
-
-    apiVersion: apps/v1
-    kind: Deployment
-    metadata:
-      name: my-app-two
       labels:
         app: my-app-two
     spec:
-      replicas:
-      selector:
-        matchLabels:
-          app: my-app-two
-      template:
-        metadata:
-          labels:
-            app: my-app-two
-        spec:
-          # Image repository credentials
-          # Secret must be in same namespace for deployment
-          imagePullSecrets:
-            - name: my-registry-key-two
-          containers:
-            - name: my-app-two
-              # Example image name with tag: 12414.ecr.amazonaws.com/my-app:1.2
-              # containing repository
-              image: IMAGE_NAME_HERE
-              # Force pull on deployment
-              imagePullPolicy: Always
-              ports:
-                - containerPort: 3000
+      # Image repository credentials
+      # Secret must be in same namespace for deployment
+      imagePullSecrets:
+        - name: my-registry-key-two
+      containers:
+        - name: my-app-two
+          # Example image name with tag: 12414.ecr.amazonaws.com/my-app:1.2
+          # containing repository
+          image: IMAGE_NAME_HERE
+          # Force pull on deployment
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
 
-    ```
+```
 
-    ``` shell
+``` shell
 
-    # Deploy app and check it
-    kubectl apply -f my-app-deployment.yaml
-    kubectl get pod
+# Deploy app and check it
+kubectl apply -f my-app-deployment.yaml
+kubectl get pod
 
-    ```
+```
 
 ## Kubernetes Operators for Managing Complex Application
 
@@ -1841,12 +1839,12 @@ Use case:
   that extends the K8s API
   - Domain/application-specific knowledge
 
-1.  Who Creates Operators?
+#### Who Creates Operators?
 
-    - Built by teams that understand the application (Prometheus,
-      Postgres, elastic, mysql)
-    - See listings at <https://operatorhub.io/>
-    - There is an Operator SDK to create their own operator
+- Built by teams that understand the application (Prometheus, Postgres,
+  elastic, mysql)
+- See listings at <https://operatorhub.io/>
+- There is an Operator SDK to create their own operator
 
 ### Summary
 

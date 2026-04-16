@@ -120,31 +120,30 @@ title: Death Care Plan Concept
 - [ ] Distribute assets according to the will
 - [ ] Close or transfer accounts
 
-1.  Will and Estates
+#### Will and Estates
 
-    Contact and retain lawyer for support and obtain will with lawyer or
-    local Ontario court and review will.
+Contact and retain lawyer for support and obtain will with lawyer or
+local Ontario court and review will.
 
-    Probate court to determine if will is legal. Once determined legal,
-    it grants probate = approves a trustee to carry out the wishes of
-    the deceased. Trustee is often named in the will. If you are named
-    as the estate trustee (also called the "executor"), you are
-    authorized to administer the estate of the deceased person. You are
-    considered the deceased person's personal representative, and will
-    carry out their wishes as stated in the will.
+Probate court to determine if will is legal. Once determined legal, it
+grants probate = approves a trustee to carry out the wishes of the
+deceased. Trustee is often named in the will. If you are named as the
+estate trustee (also called the "executor"), you are authorized to
+administer the estate of the deceased person. You are considered the
+deceased person's personal representative, and will carry out their
+wishes as stated in the will.
 
-    Get accountant to file tax returns.
+Get accountant to file tax returns.
 
-    - Record decisions made, steps done, and financial transactions.
-      Maintain account of assets, receipts, an disbursements during
-      administration of estate. Locate estate assets and safety deposit
-      box.
-    - Notify beneficiaries
-    - Pay debts and expenses
-    - Obtain [clearance
-      certificate](https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/what-when-someone-died/clearance-certificate.html)
-      from CRA
-    - Identify will details: estate, financial accounts
+- Record decisions made, steps done, and financial transactions.
+  Maintain account of assets, receipts, an disbursements during
+  administration of estate. Locate estate assets and safety deposit box.
+- Notify beneficiaries
+- Pay debts and expenses
+- Obtain [clearance
+  certificate](https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/what-when-someone-died/clearance-certificate.html)
+  from CRA
+- Identify will details: estate, financial accounts
 
 ### Funeral & Memorial Arrangements
 

@@ -185,36 +185,36 @@ src="../media/Learning-How-to-Learn-Week3-2024-12-26-Memory-Consolidation.png" /
   - See if others have come up with memory tricks or make your own
   - Sentences with first letter of words to remember list of items
 
-1.  Memory Palace
+#### Memory Palace
 
-    - Think of a place you know
-    - Associate parts of the place with memories you want to store
-    - Example: grocery list pictured in your home
-      - Bread on your couch
-      - Milk on your coffee table
-      - Egg on the floor
+- Think of a place you know
+- Associate parts of the place with memories you want to store
+- Example: grocery list pictured in your home
+  - Bread on your couch
+  - Milk on your coffee table
+  - Egg on the floor
 
-    <figure>
-    <img
-    src="../media/Learning-How-to-Learn-Week3-2024-12-26-Grocery-List-Memory-Palace.png" />
-    <figcaption>Grocery list in your memory palace at home</figcaption>
-    </figure>
+<figure>
+<img
+src="../media/Learning-How-to-Learn-Week3-2024-12-26-Grocery-List-Memory-Palace.png" />
+<figcaption>Grocery list in your memory palace at home</figcaption>
+</figure>
 
-    - First use of memory palace can take time
+- First use of memory palace can take time
 
-    - Palace expands working memory to access long term memory
+- Palace expands working memory to access long term memory
 
-    - Makes you creative, make connections early in learning, chunks
+- Makes you creative, make connections early in learning, chunks
 
-    - Research support
+- Research support
 
-      - One study showed that a person using the memory palace technique
-        could remember more than 95 percent of a 40 to 50 item list
-        after only one or two practice mental walks where the items were
-        placed on the grounds or the local university
-      - People use memory tricks outperform those who don't
-      - Memory tricks speed up learning and creating chunks and big
-        picture templates
+  - One study showed that a person using the memory palace technique
+    could remember more than 95 percent of a 40 to 50 item list after
+    only one or two practice mental walks where the items were placed on
+    the grounds or the local university
+  - People use memory tricks outperform those who don't
+  - Memory tricks speed up learning and creating chunks and big picture
+    templates
 
 ### Summing Up Memory
 
@@ -237,45 +237,43 @@ src="../media/Learning-How-to-Learn-Week3-2024-12-26-Memory-Consolidation.png" /
   - Competitive: hours / day
   - Every day people: less time / day
 
-1.  Memory techniques
+#### Memory techniques
 
-    - Visualization:
-      - Create a mental picture, attach picture to a memory palace
-    - How to remember people you meet?
-      - Use a distinguishing feature of them to place them - their
-        location
-      - Get their name - associate with something, can be anything
-      - Imagine name with the feature
-    - How to remember multiple people quickly?
-      - It is hard
-      - Ask them their name if needed, get to know them
-      - Record their feature and name again
-    - How to remember people after a long time?
-      - Get to know them, listen and pay attention
-      - Some people are better than others
-      - Space repetition, like index / business cards - like a game
-    - How might students memorize concepts, terms, complex systems,
-      theory?
-      - In competitions, memory athletes trained on specific items to
-        memorize them
-      - Memory exercises help with memory in general, use basics
-        - Visualization / picture - can be unrelated to the theory,
-          store it in memory palace
-        - Hard part is creating the picture
-    - How to memorize long text?
-      - Easier to remember concept
-      - Word for word memory
-      - Find list of key words, memorize list of words - pictures and
-        then memory palace
-    - Who to keep memory into old age?
-      - Concentrate on brain health
-        - Memorize regularly
-        - Try challenging items
-        - Physical activity
-        - Be social
-        - Eat healthy
-          - Ensure nutrients
-      - Remember to play, use imagination, inner child
+- Visualization:
+  - Create a mental picture, attach picture to a memory palace
+- How to remember people you meet?
+  - Use a distinguishing feature of them to place them - their location
+  - Get their name - associate with something, can be anything
+  - Imagine name with the feature
+- How to remember multiple people quickly?
+  - It is hard
+  - Ask them their name if needed, get to know them
+  - Record their feature and name again
+- How to remember people after a long time?
+  - Get to know them, listen and pay attention
+  - Some people are better than others
+  - Space repetition, like index / business cards - like a game
+- How might students memorize concepts, terms, complex systems, theory?
+  - In competitions, memory athletes trained on specific items to
+    memorize them
+  - Memory exercises help with memory in general, use basics
+    - Visualization / picture - can be unrelated to the theory, store it
+      in memory palace
+    - Hard part is creating the picture
+- How to memorize long text?
+  - Easier to remember concept
+  - Word for word memory
+  - Find list of key words, memorize list of words - pictures and then
+    memory palace
+- Who to keep memory into old age?
+  - Concentrate on brain health
+    - Memorize regularly
+    - Try challenging items
+    - Physical activity
+    - Be social
+    - Eat healthy
+      - Ensure nutrients
+  - Remember to play, use imagination, inner child
 
 ### Interview with Dr. Robert Gamache, an Award-winning Bilingual Scientist
 

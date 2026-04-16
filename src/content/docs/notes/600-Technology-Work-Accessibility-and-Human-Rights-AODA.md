@@ -18,7 +18,7 @@ About Accessibility for Ontarians with Disabilities Act (AODA):
   of daily life.
 - The AODA sets accessibility standards that organizations must meet.
 
-## Disabilities
+### Disabilities
 
 Can be people with or without visible disabilities.
 
@@ -29,7 +29,7 @@ Can be people with or without visible disabilities.
 - Developmental
 - Learning and mental health disabilities
 
-## Customer Service Standard
+### Customer Service Standard
 
 - Requires organizations and businesses to provide accessible customer
   service to people with disabilities.
@@ -61,7 +61,7 @@ Requirements for organizations:
 7.  Invite customers to provide feedback
 8.  Train staff and others
 
-# Serving People with Disabilities
+## Serving People with Disabilities
 
 Accessible customer service is about:
 
@@ -70,9 +70,9 @@ Accessible customer service is about:
 - Inclusion, making everyone feel welcome and included
 - Understanding that people with disabilities may have different needs
 
-## Good Practices
+### Good Practices
 
-### People with Physical or Mobility Disabilities
+#### People with Physical or Mobility Disabilities
 
 - Ask before you help. People with disabilities often have their own
   ways of doing things.
@@ -133,7 +133,7 @@ Accessible customer service is about:
 - Don't leave your customer in the middle of a room — guide them to a
   comfortable location.
 
-### People with Hearing Loss
+#### People with Hearing Loss
 
 - Once a customer has self-identified as having hearing loss, make sure
   you face the customer when talking and that you are in a well-lit area
@@ -151,7 +151,7 @@ Accessible customer service is about:
   customer, not the sign language interpreter. For example, say "What
   would you like?" not "Ask her what she'd like."
 
-### People who are Deafblind
+#### People who are Deafblind
 
 - Speak directly to your customer, not to the intervenor.
 - The customer is likely to explain to you how to communicate with them
@@ -159,7 +159,7 @@ Accessible customer service is about:
 - Don't assume what a person can or cannot do. Some people who are
   deafblind have some sight or hearing, while others have neither.
 
-### People with Speech or Language Impairments
+#### People with Speech or Language Impairments
 
 - Don't assume that a person who has difficulty speaking doesn't
   understand you.
@@ -177,7 +177,7 @@ visible instructions for communicating with them.
 - If necessary, provide other ways for the customer to contact you, such
   as email.
 
-### People with Learning Disabilities
+#### People with Learning Disabilities
 
 - Be patient and allow extra time if needed. People with learning
   disabilities may take a little longer to process information or to
@@ -189,7 +189,7 @@ visible instructions for communicating with them.
 - Be willing to rephrase or explain something again in another way, if
   needed.
 
-### People with Developmental Disabilities
+#### People with Developmental Disabilities
 
 - Don't make assumptions about what a person can or cannot do.
 - Don't exaggerate your speech or speak in a patronizing way.
@@ -202,7 +202,7 @@ visible instructions for communicating with them.
   completing a form and wait for them to accept the offer of assistance.
 - Be patient and allow extra time if needed.
 
-### People with Mental Health Disabilities
+#### People with Mental Health Disabilities
 
 - If you sense or know that a customer has a mental health disability,
   treat them with the same respect and consideration you have for
@@ -227,7 +227,7 @@ could cause stress.
 
 For example, "lf you scream, I will not be able to talk to you."
 
-## Other supports
+### Other supports
 
 - Service Animals
 - Support person

@@ -34,33 +34,33 @@ F7
 
 ### Browser specific
 
-1.  Tabs
+#### Tabs
 
-    | Description                           | Shortcut                          |
-    |---------------------------------------|-----------------------------------|
-    | Close / delete tab                    | d                                 |
-    | Go to first/last tab                  | g0, g\$                           |
-    | Go to last active tab                 | C-^                               |
-    | Open new tab                          | t                                 |
-    | See open tabs and filter/select items | b + type + TAB/SHIFT-TAB          |
-    | Switch tabs                           | Shift + j (previous) or k (next)) |
-    | Switch tabs by list                   | b                                 |
-    | Undo close item                       | u                                 |
+| Description                           | Shortcut                          |
+|---------------------------------------|-----------------------------------|
+| Close / delete tab                    | d                                 |
+| Go to first/last tab                  | g0, g\$                           |
+| Go to last active tab                 | C-^                               |
+| Open new tab                          | t                                 |
+| See open tabs and filter/select items | b + type + TAB/SHIFT-TAB          |
+| Switch tabs                           | Shift + j (previous) or k (next)) |
+| Switch tabs by list                   | b                                 |
+| Undo close item                       | u                                 |
 
-2.  Pages
+#### Pages
 
-    | Description                                  | Shortcut                |
-    |----------------------------------------------|-------------------------|
-    | Historym, Back and Forward                   | H (back), L (forward)   |
-    | Bookmark set - global persistent on restarts | markadd \[A-Z\]         |
-    | Bookmark set - local non-persistent          | markadd \[a-z\]         |
-    | Copy current tab title to clipboard          | yt                      |
-    | Copy current URL to clipboard                | yy                      |
-    | Go to, Focus on first text box for input     | gi                      |
-    | Go to, Next page (guess it)                  | \]\]                    |
-    | Go to, Previous page (guess it)              | \[\[                    |
-    | Jump back to where you came from             | \`\`                    |
-    | Jump to bookmark                             | \` + \[a-z\] or \[A-z\] |
+| Description                                  | Shortcut                |
+|----------------------------------------------|-------------------------|
+| Historym, Back and Forward                   | H (back), L (forward)   |
+| Bookmark set - global persistent on restarts | markadd \[A-Z\]         |
+| Bookmark set - local non-persistent          | markadd \[a-z\]         |
+| Copy current tab title to clipboard          | yt                      |
+| Copy current URL to clipboard                | yy                      |
+| Go to, Focus on first text box for input     | gi                      |
+| Go to, Next page (guess it)                  | \]\]                    |
+| Go to, Previous page (guess it)              | \[\[                    |
+| Jump back to where you came from             | \`\`                    |
+| Jump to bookmark                             | \` + \[a-z\] or \[A-z\] |
 
 ### Same as vim
 

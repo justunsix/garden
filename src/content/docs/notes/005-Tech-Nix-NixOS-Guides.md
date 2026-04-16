@@ -39,7 +39,7 @@ YouTube](https://www.youtube.com/watch?v=DMQWirkx5EY)
   - Update channel: `sudo nix-channel --update`
   - Rebuild to upgrade: `sudo nixos-rebuild switch`
 
-Other Cases
+#### Other Cases
 
 - Flakes - reproducible environments
 - Home Manager - declarative configuration for user directory
@@ -95,26 +95,26 @@ popd
 
 ### Channel Use
 
-1.  All Unstable
+#### All Unstable
 
-    ``` bash
+``` bash
 
-    $ nix-channel --add \
-    https://nixos.org/channels/nixos-unstable nixos
-    $ nixos-rebuild switch --upgrade
+$ nix-channel --add \
+https://nixos.org/channels/nixos-unstable nixos
+$ nixos-rebuild switch --upgrade
 
-    ```
+```
 
-2.  Some Unstable
+#### Some Unstable
 
-    ``` nix
+``` nix
 
-    environment.systemPackages = with pkgs; [
-      unstable.neovim  # bleeding-edge nvim
-      emacs            # stable emacs
-    ];
+environment.systemPackages = with pkgs; [
+  unstable.neovim  # bleeding-edge nvim
+  emacs            # stable emacs
+];
 
-    ```
+```
 
 ### Auto Upgrade in Background on Schedule, Run linked executables, Systemd services,
 
@@ -254,35 +254,35 @@ Use case: "Anyone should be able to compile my code"
   - Manage dependencies and prevent conflicts with them
   - Use old programs that may be difficult to run
 
-1.  Features
+#### Features
 
-    - Infrastructure as Code
-    - Reproducibility
-    - Software supply chain security
-    - Software Bill of Materials
+- Infrastructure as Code
+- Reproducibility
+- Software supply chain security
+- Software Bill of Materials
 
-    1.  Example Usage
+1.  Example Usage
 
-        - Servers, personal devices defined by nix:
-          <https://github.com/MatthewCroughan/nixcfg>
-        - Nix flake for running AI: <https://nixified.ai/>
-        - Could replace other package managers, dotfiles, dockerfiles,
-          makefiles, helper scripts, version managers
+    - Servers, personal devices defined by nix:
+      <https://github.com/MatthewCroughan/nixcfg>
+    - Nix flake for running AI: <https://nixified.ai/>
+    - Could replace other package managers, dotfiles, dockerfiles,
+      makefiles, helper scripts, version managers
 
-2.  About
+#### About
 
-    - Example companies using nix: replit, Anduril, Target
-      - Some companies use Nix and view as a competitive advantage
-    - Nix is a small C++ program
-      - Can be copied to another machine to use just the binary
-    - Functional programming language
-    - Package manager
-    - Method of compiling software from source
+- Example companies using nix: replit, Anduril, Target
+  - Some companies use Nix and view as a competitive advantage
+- Nix is a small C++ program
+  - Can be copied to another machine to use just the binary
+- Functional programming language
+- Package manager
+- Method of compiling software from source
 
-    1.  Communicating
+1.  Communicating
 
-        - nixpkgs repository
-        - [NixOS Discourse](https://discourse.nixos.org/)
+    - nixpkgs repository
+    - [NixOS Discourse](https://discourse.nixos.org/)
 
 ### Nixpkgs
 
@@ -306,79 +306,79 @@ Use case: "Anyone should be able to compile my code"
 
 ### Demonstrations
 
-1.  nix-shell and python3.withPackage
+#### nix-shell and python3.withPackage
 
-    ``` bash
+``` bash
 
-    # Start repl
-    nix repl
-    # Load nixpkgs. a path to repository
-    :l <nixpkgs>
-    # See derivation of python3
-    python3
-    # See function
-    python3.withPackages
-    # See python with packages
-    python3.withPackages (p: [p.numpy])
-    python3.withPackages (p: [p.jupyter])
+# Start repl
+nix repl
+# Load nixpkgs. a path to repository
+:l <nixpkgs>
+# See derivation of python3
+python3
+# See function
+python3.withPackages
+# See python with packages
+python3.withPackages (p: [p.numpy])
+python3.withPackages (p: [p.jupyter])
 
-    # Exit repl
+# Exit repl
 
-    # See configurations
-    cd /etc/nixos
-    ls
-    # Edit configuration.nix and activate changes
-    nixos-rebuild switch
-    # Observe what is being built
+# See configurations
+cd /etc/nixos
+ls
+# Edit configuration.nix and activate changes
+nixos-rebuild switch
+# Observe what is being built
 
-    ```
+```
 
-2.  Flakes
+#### Flakes
 
-    - All inputs and outputs are defined
-    - Exampe: make reproducible shell for projects with exact same
-      version of all tools, stack
-    - nix will use nix cache if the requested output has been built
-      before and stored
-    - Can use to override existing build attributes like
-      pkgs.packagename.overrideAttrs (old : ….)
+- All inputs and outputs are defined
+- Exampe: make reproducible shell for projects with exact same version
+  of all tools, stack
+- nix will use nix cache if the requested output has been built before
+  and stored
+- Can use to override existing build attributes like
+  pkgs.packagename.overrideAttrs (old : ….)
 
-    ``` bash
+``` bash
 
-    # Edit flake.nix
+# Edit flake.nix
 
-    # See changes
-    nix flake show
-    # Go into shell
-    nix develop .#devShell.x86_64-linux
+# See changes
+nix flake show
+# Go into shell
+nix develop .#devShell.x86_64-linux
 
-    # Cross compilations, see tab for architectures
-    nix build nixpkgs#pkgsCross.<tab>
-    # Binary can be run with nix emulated architectures enabled
-    # using: boot.binfmt.registrations
-    # e.g. boot.binfmt.emulatedSystems = ["risc64..."]
+# Cross compilations, see tab for architectures
+nix build nixpkgs#pkgsCross.<tab>
+# Binary can be run with nix emulated architectures enabled
+# using: boot.binfmt.registrations
+# e.g. boot.binfmt.emulatedSystems = ["risc64..."]
 
-    # Run programs
-    nix run <https:/...>
+# Run programs
+nix run <https:/...>
 
-    # Run VM with QEMU
-    nix-shell -p nixos-shell
-    # In vm.nix, specific state, Linux kernel services
-    nixos-shell vm.nix
+# Run VM with QEMU
+nix-shell -p nixos-shell
+# In vm.nix, specific state, Linux kernel services
+nixos-shell vm.nix
 
-    ```
+```
 
-3.  Tests
+#### Tests
 
-    - Using nix, specific creation of VMs with services
-    - Start VMs, run tests, check results
+- Using nix, specific creation of VMs with services
+- Start VMs, run tests, check results
 
-4.  Docker
+#### Docker
 
-    - Enable in configuration.nix with
-      `virtualization.docker.enable = true;`
-    - Using a nix file, build Docker image, docker load the image for
-      running using Nix's dockerTools build.
+- Enable in configuration.nix with
+  `virtualization.docker.enable = true;`
+- Using a nix file, build Docker image, docker load the image for
+  running using Nix's dockerTools build.
 
 ## See Also
 

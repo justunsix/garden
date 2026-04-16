@@ -19,11 +19,11 @@ title: Home Savings
 - The account can stay open for a maximum 15 years or until the end of
   the year you turn 71
 
-1.  Use
+#### Use
 
-    - \$8000 annual contribution allowed, unused contribution is carried
-      forward
-    - \$16000 yearly maximum contribution
+- \$8000 annual contribution allowed, unused contribution is carried
+  forward
+- \$16000 yearly maximum contribution
 
 ### Benefits
 

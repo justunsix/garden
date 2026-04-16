@@ -16,6 +16,7 @@ title: Neovim Shortcuts
 | Treesitter, Inspect language nodes tree at point | :InspectTree |
 | Treesitter, Inspect language nodes tree at point, Query Editor | :InspectTree , then press o |
 | Buffer, format | vim.lsp.buf.format |
+| Restart Neovim | :restart |
 
 For Buffer, format, can run with :lua vim.lsp.buf.format
 

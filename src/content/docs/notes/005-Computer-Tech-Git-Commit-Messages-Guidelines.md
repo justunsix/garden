@@ -29,34 +29,34 @@ Since commit messages are structured, they can be used for:
 
 \[optional footer(s)\]
 
-1.  Examples
+#### Examples
 
-    1.  Example 1
+1.  Example 1
 
-        feat: allow provided config object to extend other configs
+    feat: allow provided config object to extend other configs
 
-        BREAKING CHANGE: \`extends\` key in config file is now used for
-        extending other config files
+    BREAKING CHANGE: \`extends\` key in config file is now used for
+    extending other config files
 
-        Signed-off-by: Alice \<alice@example.com\> Signed-off-by: Bob
-        \<bob@example.com\>
+    Signed-off-by: Alice \<alice@example.com\> Signed-off-by: Bob
+    \<bob@example.com\>
 
-    2.  Example 2
+2.  Example 2
 
-        fix: prevent racing of requests
+    fix: prevent racing of requests
 
-        Introduce a request id and a reference to latest request.
-        Dismiss incoming responses other than from latest request.
+    Introduce a request id and a reference to latest request. Dismiss
+    incoming responses other than from latest request.
 
-        Remove timeouts which were used to mitigate the racing issue but
-        are obsolete now.
+    Remove timeouts which were used to mitigate the racing issue but are
+    obsolete now.
 
-        Reviewed-by: Z Refs: \#123
+    Reviewed-by: Z Refs: \#123
 
-2.  Footer
+#### Footer
 
-    - Footer may use [git
-      trailers](https://git-scm.com/docs/git-interpret-trailers)
+- Footer may use [git
+  trailers](https://git-scm.com/docs/git-interpret-trailers)
 
 ### Commit types
 

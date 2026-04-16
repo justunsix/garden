@@ -121,47 +121,46 @@ destroying cancerous tumour</figcaption>
 - Like before flying, doing a surgery - checklist increase your change
   of success
 
-1.  Test Preparation Checklist, by Richard Felder, PhD.
+#### Test Preparation Checklist, by Richard Felder, PhD.
 
-    The answer to the question “How should I prepare for the test? Is ‐
-    Do whatever it takes to be able to answer “Yes” (meaning usually) to
-    most of the questions on this list.
+The answer to the question “How should I prepare for the test? Is ‐ Do
+whatever it takes to be able to answer “Yes” (meaning usually) to most
+of the questions on this list.
 
-    1.  Did you make a serious effort to understand the text? (Just
-        hunting for relevant worked out examples doesn’t count.)
-    2.  Did you work with classmates on homework problems, or at least
-        check your solutions with others?
-    3.  Did you attempt to outline every homework problem solution
-        before working with classmates?
-    4.  Did you participate actively in homework group discussions
-        (contributing ideas, asking questions)?
-    5.  Did you consult the instructor or teaching assistants when you
-        were having trouble with something?
-    6.  Did you understand ALL of your homework problem solutions when
-        they were handed in?
-    7.  Did you ask in class for explanations of homework problem
-        solutions that weren’t clear to you?
-    8.  If you had a study guide, did you carefully go through it before
-        the test and convince yourself that you could do everything on
-        it?
-    9.  Did you attempt to outline lots of problem solutions quickly,
-        without spending time on the algebra and calculations?
-    10. Did you go over the study guide and problems with classmates and
-        quiz one another?
-    11. If there was a review session before the test, did you attend it
-        and ask questions about anything you weren’t sure about?
-    12. Did you get a reasonable night’s sleep before the test? (If your
-        answer is no, your answers to 1–11 may not matter.)
+1.  Did you make a serious effort to understand the text? (Just hunting
+    for relevant worked out examples doesn’t count.)
+2.  Did you work with classmates on homework problems, or at least check
+    your solutions with others?
+3.  Did you attempt to outline every homework problem solution before
+    working with classmates?
+4.  Did you participate actively in homework group discussions
+    (contributing ideas, asking questions)?
+5.  Did you consult the instructor or teaching assistants when you were
+    having trouble with something?
+6.  Did you understand ALL of your homework problem solutions when they
+    were handed in?
+7.  Did you ask in class for explanations of homework problem solutions
+    that weren’t clear to you?
+8.  If you had a study guide, did you carefully go through it before the
+    test and convince yourself that you could do everything on it?
+9.  Did you attempt to outline lots of problem solutions quickly,
+    without spending time on the algebra and calculations?
+10. Did you go over the study guide and problems with classmates and
+    quiz one another?
+11. If there was a review session before the test, did you attend it and
+    ask questions about anything you weren’t sure about?
+12. Did you get a reasonable night’s sleep before the test? (If your
+    answer is no, your answers to 1–11 may not matter.)
 
-    Yes No TOTAL
+Yes No TOTAL
 
-    1.  Credits
+1.  Credits
 
-        - Richard M. Felder, courtesy Richard M. Felder.
-        - Checklist courtesy Chemical Engineering Education and Richard
-          Felder; Felder, Richard M. "Memo to Students Who Have Been
-          - Disappointed with Their Test Grades." Chemical Engineering
-            Education 33, no. 2 (1999): 136‐37.
+    - Richard M. Felder, courtesy Richard M. Felder.
+    - Checklist courtesy Chemical Engineering Education and Richard
+      Felder; Felder, Richard M. "Memo to Students Who Have Been
+      - Disappointed with Their Test Grades." Chemical Engineering
+        Education 33, no. 2 (1999): 136‐37.
 
 ### Hard Start - Jump to Easy
 
@@ -191,22 +190,22 @@ problems</figcaption>
 - Body puts out cortisol during stress, which can happen in test
   - You can control how you react
 
-1.  Relaxation Techniques
+#### Relaxation Techniques
 
-    - "This test got me excited to do my best"
-    - Relax your stomach, place your hand on it, slow a draw breath
-      - Practice this technique regularly
-    - Pretend you are in a calm environment
-    - Face your fears, have a plan B - you will do your best on the test
-      and what comes is ok
+- "This test got me excited to do my best"
+- Relax your stomach, place your hand on it, slow a draw breath
+  - Practice this technique regularly
+- Pretend you are in a calm environment
+- Face your fears, have a plan B - you will do your best on the test and
+  what comes is ok
 
-2.  Test Preparation and Taking
+#### Test Preparation and Taking
 
-    - Close to before test, review materials, but take it easy - you
-      have already prepared
-    - Check your answer from a big picture perspective
-    - Check answers from back to front, fresh perspective to check
+- Close to before test, review materials, but take it easy - you have
+  already prepared
+- Check your answer from a big picture perspective
+- Check answers from back to front, fresh perspective to check
 
-    Techniques above will use focused and diffuse modes
+Techniques above will use focused and diffuse modes
 
 ### Summary of Renaissance Learning, Teamwork, and Testing

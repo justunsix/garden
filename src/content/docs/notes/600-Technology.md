@@ -4,7 +4,7 @@ id: 9092eabf-f6f5-4775-b8aa-6e78e74880c3
 title: Technology
 ---
 
-## See Also
+### See Also
 
 - [Amazon AWS Technology](/garden/notes/004-67-tech-amazon) - [Amazon AWS
   Technology](id:5a571f39-4df2-49f7-9c0b-4327cf902c8b)
@@ -55,14 +55,14 @@ title: Technology
   Network](/garden/notes/005-tech-vpn-virtual-private-network) - [VPN Virtual
   Private Network](id:32902a0d-c7e6-4bfe-a8c8-661d550c8e7e)
 
-## Major Indexes
+### Major Indexes
 
 - [Software Snippets](/garden/notes/005-tech-snippets) - [Software
   Snippets](id:ebf340f4-ded0-49e4-9649-2936f9d32bf6)
 - [Software Shortcuts](/garden/notes/005-tech-shortcuts) - [Software
   Shortcuts](id:b5a7d865-949d-4a3c-85fd-847e16699c5c)
 
-## Tools, Programs, Software
+### Tools, Programs, Software
 
 - [Free and/or Open Source Software
   (FOSS)](/garden/notes/005-tech-free-open-source-software-foss) - [Free and/or
@@ -144,7 +144,7 @@ title: Technology
 - [yt-dlp](/garden/notes/005-tech-yt-dlp) - [YouTube Downloader
   (yt-dlp)](id:cbdc0af2-a446-4534-a9da-286243b91f31)
 
-### Terminal
+#### Terminal
 
 - [Linux Terminal](/garden/notes/005-tech-terminal-linux) - [Linux
   Terminal](id:f9492bfc-e1f5-4e99-8de0-e8b0e2299542)
@@ -153,24 +153,24 @@ title: Technology
 - [Terminal](/garden/notes/005-tech-terminal) -
   [Terminal](id:af66c501-039b-4af6-ba93-18e759546761)
 
-## Computer Languages
+### Computer Languages
 
 - [Programming, Languages](/garden/notes/005-1-tech-programming-languages) -
   [Programming, Languages](id:acb9274f-a5c9-4517-9cd0-3b4c7dac13ed)
 
-## Devices and Hardware
+### Devices and Hardware
 
 - [Boox E-Reader](/garden/notes/600-tech-boox-ereader) - [Boox
   EReader](id:2b2cade0-012d-43a5-8d42-3f02811f74c6)
 - [Earbuds](/garden/notes/620-engineering-hardware-audio-earbuds-headphones) -
   [Earbuds](id:3a12c7c8-b0d7-42c3-b3aa-863d0c39cfb1)
 
-## Linux
+### Linux
 
 - [Linux](/garden/notes/005-tech-linux) -
   [Linux](id:45bc2546-7923-446e-b5cb-b71840fa0199)
 
-### Software
+#### Software
 
 — sorting for garden —
 
@@ -189,7 +189,7 @@ title: Technology
 - [XMonad](id:28926191-026e-4011-a51e-739713d8a0cb)
   ([Xmonad](/garden/notes/005-tech-xmonad))
 
-# Infrastructure
+## Infrastructure
 
 - [Domains](/garden/notes/005-tech-domains) -
   [Domains](id:ad188c9b-c399-4a5e-8f6f-b5bcb63df5be)

@@ -757,60 +757,59 @@ personnes: en: These three persons (1st, 2nd, 3rd person).
 
 Un pronom personnel désigne l'une de ces trois personnes.
 
-1.  1re personne
+#### 1re personne
 
-    Singulier
+Singulier
 
-    - *Je* mange
-    - Le maire *me* raconte une histoire
-    - Jean parlait de *moi*
+- *Je* mange
+- Le maire *me* raconte une histoire
+- Jean parlait de *moi*
 
-    Pluriel
+Pluriel
 
-    - *Nous* mangeons
-    - Le maire *nous* racontent une histoire
-    - Jean parlait de *nous*
+- *Nous* mangeons
+- Le maire *nous* racontent une histoire
+- Jean parlait de *nous*
 
-2.  2e personne
+#### 2e personne
 
-    Singulier
+Singulier
 
-    - *Tu* chantes
-    - Maria *t*'attend (te) pour dîner. en: Maria is waiting for you for
-      dinner.
-    - Il ne manquait due *toi*. en: He missed you.
+- *Tu* chantes
+- Maria *t*'attend (te) pour dîner. en: Maria is waiting for you for
+  dinner.
+- Il ne manquait due *toi*. en: He missed you.
 
-    Pluriel
+Pluriel
 
-    - *Vous* chantez
-    - Maria *vous* attend pour dîner
-    - Il ne manquait due *vous*. en: He missed you all.
+- *Vous* chantez
+- Maria *vous* attend pour dîner
+- Il ne manquait due *vous*. en: He missed you all.
 
-3.  3e personne
+#### 3e personne
 
-    Singulier
+Singulier
 
-    - *Il* ou *elle* court vite. en: He or she runs fast.
-    - C'est à *lui* de le faire. en: It's up to him to do it.
-    - C'est à *elle* de le faire. en: It's up to her to do it.
+- *Il* ou *elle* court vite. en: He or she runs fast.
+- C'est à *lui* de le faire. en: It's up to him to do it.
+- C'est à *elle* de le faire. en: It's up to her to do it.
 
-    Pluriel
+Pluriel
 
-    - *Ils* ou *elles* courent vite. en: They run fast.
-    - C'est à *eux* de le faire. en: It's up to them (males) to do it.
-    - C'est à *elles* de le faire. en: It's up to them (females) to do
-      it.
+- *Ils* ou *elles* courent vite. en: They run fast.
+- C'est à *eux* de le faire. en: It's up to them (males) to do it.
+- C'est à *elles* de le faire. en: It's up to them (females) to do it.
 
-4.  Exercises
+#### Exercises
 
-    Replacez les nom en italique par un pronom personnel:
+Replacez les nom en italique par un pronom personnel:
 
-    - *L'enseignante* nous donne des bonbons pour notre anniversaire.
-      en: The teacher gives us candy for our birthday.
-      - Il
-    - Basil, Ruben, Pépé sont des chatons, *Basil, Ruben, Pépé* sont
-      mignons, *Basil, Ruben, Pépé* jouent toujours ensemble.
-      - Ils
+- *L'enseignante* nous donne des bonbons pour notre anniversaire. en:
+  The teacher gives us candy for our birthday.
+  - Il
+- Basil, Ruben, Pépé sont des chatons, *Basil, Ruben, Pépé* sont
+  mignons, *Basil, Ruben, Pépé* jouent toujours ensemble.
+  - Ils
 
 ### Pronoms de complément d'objet direct
 
@@ -857,13 +856,13 @@ le verbe.
     - Ne *le* jetez pas!
     - Ne *lui* donner pas ce qu'il vent
 
-1.  Exercises
+#### Exercises
 
-    Remplacez la partie par un pronom d'objet direct ou indirect
+Remplacez la partie par un pronom d'objet direct ou indirect
 
-    - Ils envoient de l'argent *à leur père*. Ils *lui* envoient de
-      l'argent.
-    - Ne jetez pas *vos ordures* ici!. Ne *les* jetez pas ici! en: Don't
-      throw your trash here!
-    - Il peut faire *l'activité* tout seul. Il peut *le* faire tout
-      seul. en: He can do the activity alone.
+- Ils envoient de l'argent *à leur père*. Ils *lui* envoient de
+  l'argent.
+- Ne jetez pas *vos ordures* ici!. Ne *les* jetez pas ici! en: Don't
+  throw your trash here!
+- Il peut faire *l'activité* tout seul. Il peut *le* faire tout seul.
+  en: He can do the activity alone.

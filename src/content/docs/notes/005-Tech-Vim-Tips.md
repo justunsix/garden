@@ -4,7 +4,7 @@ id: d69fe5ea-c75c-45f4-9686-a6d60e421de2
 title: Vim Tips
 ---
 
-# How to Do 90% of What Plugins Do (With Just Vim)
+## How to Do 90% of What Plugins Do (With Just Vim)
 
 Source:
 
@@ -12,7 +12,7 @@ Source:
   Cantor
 - Slides and info at <https://github.com/changemewtf/no_plugins>
 
-## Config to start in vim.rc
+### Config to start in vim.rc
 
 Edited with comments from
 <https://github.com/changemewtf/no_plugins/blob/master/no_plugins.vim>
@@ -202,7 +202,7 @@ set makeprg=bundle\ exec\ rspec\ -f\ QuickfixFormatter
 
 ```
 
-## Fuzzy File Search
+### Fuzzy File Search
 
 - With `path` variable setting above, can use `find` command to search
   all files in current working directory and files in subfolders
@@ -212,7 +212,7 @@ set makeprg=bundle\ exec\ rspec\ -f\ QuickfixFormatter
 
 - See :help path and :help find
 
-## Tag Jumping
+### Tag Jumping
 
 Note: LSP provides same ability and more to navigate tags and other code
 elements instead of ctags/similar tools. The following describing just
@@ -231,7 +231,7 @@ using ctags with vim:
 
 - Tip for updating tags, can bind ctags to save to update tags regularly
 
-## Autocomplete
+### Autocomplete
 
 - Insert completion see :help ins-completion
 
@@ -239,7 +239,7 @@ using ctags with vim:
 
 - Activate using Ctrl + n, Ctrl + p (previous in list)
 
-## File Browsing
+### File Browsing
 
 - netrw is a plugin built into vim, like a file browser
   - Can integrate like with ssh
@@ -248,7 +248,7 @@ using ctags with vim:
   - Open file at point in split: s
   - Open file at point in tab: t
 
-## Snippets
+### Snippets
 
 Above configuration:
 `nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>3jwf>a` will create
@@ -266,7 +266,7 @@ a key mapping to running commands, can help with automation
 - \<CR\>3jwfa - \<CR\> is enter (carriage return), sequence will move
   the cursor to the title tag and do insert
 
-## Build Integration
+### Build Integration
 
 - Use vim's make command, put it into an QuickFix format that vim can
   read and then go to errors in specific code
@@ -274,7 +274,7 @@ a key mapping to running commands, can help with automation
 - :cc# to jump to error by number
 - :cn and :cp to navigate forward and back
 
-## Using Help
+### Using Help
 
 - Use :help to look at things like commands, shortcuts like:
   - :help <sup>n</sup> - help on Ctrl + n key

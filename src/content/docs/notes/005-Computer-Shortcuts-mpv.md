@@ -9,17 +9,18 @@ Source: [mpv.io](https://mpv.io/manual/master/)
 | Description                  | Shortcut        |
 |------------------------------|-----------------|
 | Aspect ratio, Cycle override | A               |
+| Console, open                | \`              |
 | Full Screen                  | f               |
 | OSC, cycle visibility        | DEL             |
+| Play, look current file      | L               |
 | Screenshot                   | Shift + S       |
 | Show progress, toggle        | Shift + O       |
 | Speed Down (slower)          | \[              |
 | Speed Up (faster)            | \]              |
 | Subtitle, toggle             | v               |
-| Play, look current file      | L               |
 | Zoom in                      | Alt + (shift) = |
 | Zoom out                     | Alt + -         |
-| Console, open                | \`              |
+| Zoom, pan, reset             | Alt + Backspace |
 
 ## Console commands
 

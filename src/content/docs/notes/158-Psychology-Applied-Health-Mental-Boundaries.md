@@ -71,12 +71,12 @@ Medicine, November 2022, Harvard Medical School.
 - Set physical, time boundaries around work and other life to separate
   them - can be healthier for mind
 
-1.  Examples
+#### Examples
 
-    - Set do not disturb times
-    - Do not check things like digital notifications until a certain
-      scheduled time
-    - Talk about workload with those involved
+- Set do not disturb times
+- Do not check things like digital notifications until a certain
+  scheduled time
+- Talk about workload with those involved
 
 ### Benefits on Boundaries
 

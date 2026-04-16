@@ -23,6 +23,9 @@ $env.NVIM_APPNAME = 'astronvim'
 ## Run nvim
 nvim
 
+## Run Neovim with defaults (skip user config, plugins, shada)
+nvim --clean
+
 # Edit a file with a specific configuration
 NVIM_APPNAME=nvimexample nvim init.lua
 

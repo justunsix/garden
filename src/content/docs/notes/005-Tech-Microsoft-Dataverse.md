@@ -28,107 +28,107 @@ Learn](https://learn.microsoft.com/en-us/training/modules/get-started-with-power
   between data
 - Dataverse is scalable
 
-1.  What's in the Dataverse
+#### What's in the Dataverse
 
-    - Structures data and business logic to support interconnected apps
-      and processes in a secure and compliant way
-    - Dataverse is available globally and deploy in regions to comply
-      with data residency and requires an internet connect to access. It
-      is not designed for offline use
-    - It is used by Microsoft Dynamics 365 and native connectivity is
-      built into Power Apps and Automate
-    - Dataverse areas:
-      - API
-      - Security
-        - Audit
-        - IAA with Azure Active Directory
-      - Logic
-        - Business rules
-        - Duplicate detection
-        - Calculated, roll up fields
-        - Workflows
-        - Jobs
-      - Data
-        - Report
-        - Modelling
-        - Validation
-        - Common Data Model
-        - Catalog and discovery
-      - Storage
-        - Files
-        - Databases
-        - Storage in Azure cloud, scalable
-      - Integration
-        - Cloud, Azure, Event Hubs, Service Bus
-        - SQL
-        - Data Lake
-        - API, webhooks, events, data exports
-    - Dataverse allows creation of a cloud database with predefined
-      tables and columns
-      - Data model can be configured
-      - Role-based security and business rules secure data
+- Structures data and business logic to support interconnected apps and
+  processes in a secure and compliant way
+- Dataverse is available globally and deploy in regions to comply with
+  data residency and requires an internet connect to access. It is not
+  designed for offline use
+- It is used by Microsoft Dynamics 365 and native connectivity is built
+  into Power Apps and Automate
+- Dataverse areas:
+  - API
+  - Security
+    - Audit
+    - IAA with Azure Active Directory
+  - Logic
+    - Business rules
+    - Duplicate detection
+    - Calculated, roll up fields
+    - Workflows
+    - Jobs
+  - Data
+    - Report
+    - Modelling
+    - Validation
+    - Common Data Model
+    - Catalog and discovery
+  - Storage
+    - Files
+    - Databases
+    - Storage in Azure cloud, scalable
+  - Integration
+    - Cloud, Azure, Event Hubs, Service Bus
+    - SQL
+    - Data Lake
+    - API, webhooks, events, data exports
+- Dataverse allows creation of a cloud database with predefined tables
+  and columns
+  - Data model can be configured
+  - Role-based security and business rules secure data
 
-2.  Dataverse Defined
+#### Dataverse Defined
 
-    - Dataverse is a instance of a database with standard and custom
-      data structures called tables
-    - A table is a set of rows to store data
-    - Rows contain columns to manage pieces of information in a row
-    - One or many database instance can be created and each instance
-      will start with a default set of tables and can be customized
+- Dataverse is a instance of a database with standard and custom data
+  structures called tables
+- A table is a set of rows to store data
+- Rows contain columns to manage pieces of information in a row
+- One or many database instance can be created and each instance will
+  start with a default set of tables and can be customized
 
-    1.  Scalability
+1.  Scalability
 
-        - Table can hold millions of items
+    - Table can hold millions of items
 
-        - Instance storage maximum is 4 TB
+    - Instance storage maximum is 4 TB
 
-        - Storage is controlled by license and more can be purchased
+    - Storage is controlled by license and more can be purchased
 
-        - Dataverse is suited to transactional applications and not
-          intended for long running and batch processes.
+    - Dataverse is suited to transactional applications and not intended
+      for long running and batch processes.
 
-    2.  Common Data Model vs Dataverse
+2.  Common Data Model vs Dataverse
 
-        - Standard table design in Dataverse uses an open source,
-          standard, extensible model called the Common Data Model
-        - It is a collection of predefined tables, columns, meta data
-          and relationships
+    - Standard table design in Dataverse uses an open source, standard,
+      extensible model called the Common Data Model
+    - It is a collection of predefined tables, columns, meta data and
+      relationships
 
-    3.  Dataverse Structure and Benefits
+3.  Dataverse Structure and Benefits
 
-        - Since definitions and schema are based on the Common Data
-          Model (CDM), integration is easy for solutions using the CDM
-          schema because standard tables are the same
-        - You can reuse apps using the CDM
+    - Since definitions and schema are based on the Common Data Model
+      (CDM), integration is easy for solutions using the CDM schema
+      because standard tables are the same
+    - You can reuse apps using the CDM
 
 ### Identify Tables and Columns in Dataverse
 
-1.  Types of Tables
+#### Types of Tables
 
-    - Standard
-      - Out of the box like account, business unit, task
-      - They can be customized
-      - Tables imported as a managed solution can be standard too if
-        marked as customizable
-    - Managed
-      - Non-customizable tables imported into the environment as part of
-        a managed solution
-    - Custom
-      - Unmanaged tables that are either imported or new tables created
-        in Dataverse
-      - They can be customized
+- Standard
+  - Out of the box like account, business unit, task
+  - They can be customized
+  - Tables imported as a managed solution can be standard too if marked
+    as customizable
+- Managed
+  - Non-customizable tables imported into the environment as part of a
+    managed solution
+- Custom
+  - Unmanaged tables that are either imported or new tables created in
+    Dataverse
+  - They can be customized
 
-2.  Columns
+#### Columns
 
-    - Pieces of information within a row of a table
-    - Columns have data types like number
-    - Number of columns can be 100 or more.
-    - Good practices:
-      - Is if a table has 100s of columns, consider structuring the data
-        differently will be better like breaking up tables
-      - Use standard tables and columns when possible before creating a
-        new table
+- Pieces of information within a row of a table
+- Columns have data types like number
+- Number of columns can be 100 or more.
+- Good practices:
+  - Is if a table has 100s of columns, consider structuring the data
+    differently will be better like breaking up tables
+  - Use standard tables and columns when possible before creating a new
+    table
 
 ### Understand Relationships
 
@@ -198,21 +198,21 @@ Learn](https://learn.microsoft.com/en-us/training/modules/get-started-with-power
     enable/disable columns and give recommendations based on business
     intelligence
 
-1.  Rules by applications
+#### Rules by applications
 
-    The following business rule actions can be used by canvas and
-    model-driven apps:
+The following business rule actions can be used by canvas and
+model-driven apps:
 
-    - Set column values
-    - Clear column values
-    - Validate data and show error messages
+- Set column values
+- Clear column values
+- Validate data and show error messages
 
-    Model-driven apps can also use business rules to:
+Model-driven apps can also use business rules to:
 
-    - Show or hide columns (model-driven apps only)
-    - Enable or disable columns (model-driven apps only)
-    - Create business recommendations based on business intelligence
-      (model-driven apps only)
+- Show or hide columns (model-driven apps only)
+- Enable or disable columns (model-driven apps only)
+- Create business recommendations based on business intelligence
+  (model-driven apps only)
 
 ### Administer
 
@@ -236,120 +236,118 @@ Learn](https://learn.microsoft.com/en-us/training/modules/get-started-with-power
 - Dynamics 365 uses Dataverse to store and secure data and Power Apps
   can use business data already in Dynamics 365
 
-1.  Logic and Validation
+#### Logic and Validation
 
-    Dataverse can use server-side logic and validation to ensure data
-    quality:
+Dataverse can use server-side logic and validation to ensure data
+quality:
 
-    - Business rules: validate date and provide errors and messages
-    - Business process flows: ensure data entry is consistent. Only for
-      model-driven apps.
-    - Workflows: Workflows automate business processes
-    - Business logic with code: Advanced scenarios that extend the
-      application directly through code.
+- Business rules: validate date and provide errors and messages
+- Business process flows: ensure data entry is consistent. Only for
+  model-driven apps.
+- Workflows: Workflows automate business processes
+- Business logic with code: Advanced scenarios that extend the
+  application directly through code.
 
-2.  Security
+#### Security
 
-    - Role based security is used
+- Role based security is used
 
 ### Table Characteristics
 
 - Table metadata describes tables and when tables are edited in
   Dataverse, you can editing the metadata.
 
-1.  When to Use Standard or Create new Tables
+#### When to Use Standard or Create new Tables
 
-    - Know the standard tables and use them where possible
-    - You can rename standard tables and their metadata instead of
-      creating new tables
+- Know the standard tables and use them where possible
+- You can rename standard tables and their metadata instead of creating
+  new tables
 
-2.  Table Relationships
+#### Table Relationships
 
-    - Relationships define ways table rows can be associated with rows
-      from other tables or the same table with self-referential
-      relationships. These relationships are metadata and can be
-      one-to-many (1:N) or many-to-many (N:N)
-    - The child table will have a lookup column referencing a row in the
-      parent / primary table.
-    - 1:N relationships also address:
-      - When I delete a row, should any rows that are related to that
-        row also be deleted?
-      - When I assign a row to a new owner, do I also have to assign all
-        related rows to the new owner?
-      - How can I streamline the data entry process when I create a new
-        related row in the context of an existing row?
-      - How should people who view a row be able to view the related
-        rows?
+- Relationships define ways table rows can be associated with rows from
+  other tables or the same table with self-referential relationships.
+  These relationships are metadata and can be one-to-many (1:N) or
+  many-to-many (N:N)
+- The child table will have a lookup column referencing a row in the
+  parent / primary table.
+- 1:N relationships also address:
+  - When I delete a row, should any rows that are related to that row
+    also be deleted?
+  - When I assign a row to a new owner, do I also have to assign all
+    related rows to the new owner?
+  - How can I streamline the data entry process when I create a new
+    related row in the context of an existing row?
+  - How should people who view a row be able to view the related rows?
 
-3.  Table Types
+#### Table Types
 
-    - Types cannot be changed after a table is created
+- Types cannot be changed after a table is created
 
-    1.  Types of Table Owners
+1.  Types of Table Owners
 
-        - User/team owned: actions on rows controlled at user level
-        - Organization owned: Access to data controlled at organization
-          level
+    - User/team owned: actions on rows controlled at user level
+    - Organization owned: Access to data controlled at organization
+      level
 
-    2.  Activity Tables
+2.  Activity Tables
 
-        Activities are actions that a calendar entry can be made for.
-        Actions have characteristics:
+    Activities are actions that a calendar entry can be made for.
+    Actions have characteristics:
 
-        - Time dimensions like start, stop, due dates and duration
+    - Time dimensions like start, stop, due dates and duration
 
-        - Data that describe the action like subject and description
+    - Data that describe the action like subject and description
 
-        - Have a status as opened, cancelled, or completed with
-          completed having sub-status values
+    - Have a status as opened, cancelled, or completed with completed
+      having sub-status values
 
-        - Only can be owed by a user or team, not an organization
+    - Only can be owed by a user or team, not an organization
 
-        - See default activity tables at [Table characteristics -
-          Training \| Microsoft
-          Learn](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps-common-data-service/2-learn-about-entities)
-          like appointments, emails, fax, letter, phone call, task
+    - See default activity tables at [Table characteristics - Training
+      \| Microsoft
+      Learn](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps-common-data-service/2-learn-about-entities)
+      like appointments, emails, fax, letter, phone call, task
 
-        - Custom Activity Tables can be created
+    - Custom Activity Tables can be created
 
-4.  Business Rules
+#### Business Rules
 
-    - Rules defined for a table work with apps
-    - They combine conditions and actions to set, hide/show, enable,
-      validate column values and create recommendations based on BI
-    - Some actions are not available in canvas apps like: Show/hide
-      columns, enable/disable columns, and create recommendations
+- Rules defined for a table work with apps
+- They combine conditions and actions to set, hide/show, enable,
+  validate column values and create recommendations based on BI
+- Some actions are not available in canvas apps like: Show/hide columns,
+  enable/disable columns, and create recommendations
 
 ### Dual-write vs Virtual Tables
 
 Dual-write and virtual tables allows Dataverse connections to external
 data sources and write back to the original source.
 
-1.  Dual-write
+#### Dual-write
 
-    - Out of the box that does near real time integration between
-      Database and Finance and Operations apps and promotes sharing data
-      and flows within an organization
-    - Any data changes in Finance and Operations apps writes to
-      Dataverse and the same with Dataverse changes writing back.
-    - User experience across apps is integrated
+- Out of the box that does near real time integration between Database
+  and Finance and Operations apps and promotes sharing data and flows
+  within an organization
+- Any data changes in Finance and Operations apps writes to Dataverse
+  and the same with Dataverse changes writing back.
+- User experience across apps is integrated
 
-2.  Virtual Tables also know as Virtual Entities
+#### Virtual Tables also know as Virtual Entities
 
-    - Allow integration with external system by representing the tables
-      in Dataverse without data replication or custom coding where
-      possible
-    - It simplifies integration and management of data in Dataverse
-      administration roles
+- Allow integration with external system by representing the tables in
+  Dataverse without data replication or custom coding where possible
+- It simplifies integration and management of data in Dataverse
+  administration roles
 
-3.  When to use Dual-write vs virtual tables
+#### When to use Dual-write vs virtual tables
 
-    - Dual-write should be used when you are working with Dynamics 365
-      apps and need near real-time integration. Dual-write will
-      duplicate the data in both directions (to and from Dataverse).
-    - Virtual tables should be used when you are connecting to data
-      sources outside of Dynamics 365. There may be built-in connectors
-      for these data sources, or you may have to use a custom connector.
+- Dual-write should be used when you are working with Dynamics 365 apps
+  and need near real-time integration. Dual-write will duplicate the
+  data in both directions (to and from Dataverse).
+- Virtual tables should be used when you are connecting to data sources
+  outside of Dynamics 365. There may be built-in connectors for these
+  data sources, or you may have to use a custom connector.
 
 ### Dataverse Auditing
 
@@ -359,23 +357,23 @@ data sources and write back to the original source.
 - Auditing is not supported on table definition changes, retrieve/export
   operations, or during authentication
 
-1.  Concepts
+#### Concepts
 
-    - Can be enable/disabled at organization, table, and column levels
-    - Auditing must be enabled at organization level for auditing to
-      work at table/column levels
-    - Defaults are: auditing on for all table columns, but disabled at
-      table and organization level
-    - Audit history is restricted to users with certain privileges:
-      "view audit history/summary" and privileges specific to partitions
-    - Audited data changes are stored in the audit table
+- Can be enable/disabled at organization, table, and column levels
+- Auditing must be enabled at organization level for auditing to work at
+  table/column levels
+- Defaults are: auditing on for all table columns, but disabled at table
+  and organization level
+- Audit history is restricted to users with certain privileges: "view
+  audit history/summary" and privileges specific to partitions
+- Audited data changes are stored in the audit table
 
-2.  Configure tables and columns for auditing
+#### Configure tables and columns for auditing
 
-    - Only users assigned System Administrator or System Customizer can
-      enable auditing
-    - The setting is a property in the table's definition
-    - Specific column auditing is on by default and can be disabled
+- Only users assigned System Administrator or System Customizer can
+  enable auditing
+- The setting is a property in the table's definition
+- Specific column auditing is on by default and can be disabled
 
 ### Exercise - Create a Microsoft Dataverse Table
 
