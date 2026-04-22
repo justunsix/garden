@@ -24,6 +24,10 @@ terraform plan
 # Plan Terraform deployment and output plan and apply plan
 terraform plan -out=tfplan
 terraform apply tfplan
+# Apply changes without approval prompt
+terraform apply -auto-approve tfplan
+# Apply changes with tfplan in directory ./infra
+terraform -chdir=infra apply -auto-approve tfplan
 
 # Build or change infrastructure:
 terraform apply

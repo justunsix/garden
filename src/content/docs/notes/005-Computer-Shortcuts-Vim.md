@@ -450,13 +450,44 @@ Other table per `vimtutor` command
 | Go to, last insert mode | gi |
 | Go to, last selected text | gv |
 | Go to line 12, Go to line 100 | 12G, 100G or :100 |
-| Jump history back (o for out), forward (i for in) | C-o, C-i |
+| Jump list, history back (o for out), forward (i for in) | C-o, C-i |
 | Jump to beginning of line (bol) | 0 / Home / ^ (soft) |
 | Jump to end of line (eol) | \$ / End |
 | Repeat last command, repeat macro (like command, inserts, combos) | . |
 | Replace all occurrences of string<sub>old</sub> with new, new can be blank | :%s/string<sub>old</sub>/new |
 | Replace in region string<sub>old</sub> with new, new can be blank with g global | :'\<,'\>s/string<sub>old</sub>/new/g |
-| Undo | u |
+| Change list, Undo | u |
+| Change list, Redo | C-r |
+| Change list, go to last change, first change | g; , g, |
+
+### Jump list
+
+Source: [Vim Jump List -
+VimTricks](https://vimtricks.com/p/vim-jump-list/)
+
+| Description      | Shortcut    |
+|------------------|-------------|
+| Jump list, view  | :jumps      |
+| Jump list, clear | :clearjumps |
+
+Movements that modify the jump list:
+
+- `/pattern` searches and `?pattern` searches (forward and backward
+  pattern matching)
+- `*` and `#` (forward and backward search for the word under the
+  cursor.
+- `%` (jump to a matching enclosing character like paren, brace,
+  bracket, etc)
+- Navigation between files like `gf`
+
+### Change list
+
+Source: [Vim Jump to Last Change -
+VimTricks](https://vimtricks.com/p/vim-jump-to-last-change/)
+
+| Description       | Shortcut |
+|-------------------|----------|
+| Change list, view | :changes |
 
 ## Other Shortcuts
 

@@ -167,7 +167,14 @@ Find and replace works for whole buffer or selected region
 | Find and replace - Close all file buffers | projectile-replace |
 | Find and replace - Close all file buffers | `dired-do-find-regexp-and-replace` (Q) in dired in a directory or with marked files |
 | Find word -Search (backward) | C-r or Backspace (aka DEL) |
-| Regexp "helper" | M-x re-builder |
+| Regexp "helper", interactive | M-x re-builder |
+
+1.  Re-builder - interactive regexp editing that highlights matches
+
+    - For re-builder, escape characters are double like word boundary
+      `\\<` and a group is `\\(...\\)`
+    - Switch to string syntax and things look like normal Emacs regexps:
+      `(setq reb-re-syntax 'string)`
 
 ### Delete
 

@@ -285,10 +285,6 @@ The Microsoft Agent Framework platform for generative AI development
 with service connectors, memory (data) connectors, prompt templates,
 functions, and filters like pre and post actions.
 
-See the [Semantic
-Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) for
-how the framework is implemented underneath.
-
 Its benefit is an integrated platform to reuse Semantic Kernel
 development and existing code.
 
@@ -303,9 +299,39 @@ patterns in Microsoft Agent Framework:
 - Group chat - brainstorming, collaborative problem solving
 - Magentic - generalist multi-agent collaboration
 
-See [Semantic Kernel Agent Orchestration \| Microsoft Learn An overview
-on orchestrating agents in Semantic
-Kernel](https://learn.microsoft.com/semantic-kernel/frameworks/agent/agent-orchestration)
+See more: [Microsoft Agent Framework Overview \| Microsoft
+Learn](https://learn.microsoft.com/en-us/agent-framework/overview/?pivots=programming-language-csharp).
+The [Semantic
+Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) was
+how the framework was implemented previously.
+
+### Agent Framework Workflows
+
+Source: [Microsoft Agent Framework Workflows \| Microsoft
+Learn](https://learn.microsoft.com/en-us/agent-framework/workflows/)
+
+Business processes can be done with workflows (series of steps) as
+automation systems.
+
+#### Agent vs Workflow
+
+An agent uses a LLM with memory and tools to do tasks, while a workflow
+is a defined sequence of operations. These operations can include
+agents, systems, and human interaction.
+
+#### Concepts of the Workflow
+
+- Executors: represent individual processing units within a workflow.
+  They can be AI agents or custom logic components. They receive input
+  messages, perform specific tasks, and produce output messages.
+- Edges: define the connections between executors, determining the flow
+  of messages. They can include conditions to control routing based on
+  message contents.
+- Events: provide observability into workflow execution, including
+  life-cycle events, executor events, and custom events.
+- Workflow Builder & Execution: ties executors and edges together into a
+  directed graph, manages execution via super steps, and supports
+  streaming and non-streaming modes.
 
 ## Q: What are examples of agents in use?
 

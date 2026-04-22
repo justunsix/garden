@@ -79,6 +79,9 @@ open data.csv | select "First Name" column2 column3 column4
 # Read a csv file, find a specific row and output specific columns
 open contacts.csv | where "First Name" =~ "John" | select "First Name" "Last Name" "E-mail Address" "Mobile Phone"
 
+# Read json or other data format file
+open results.json
+
 # Transpose table display - useful for small amount of rows, but many columns
 let name = 'John'; open contacts.csv | where "First Name" =~ $name | select "First Name" "Last Name" "E-mail Address" "Mobile Phone" "Birthday" | transpose
 

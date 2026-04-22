@@ -41,6 +41,13 @@ title: Artificial Intelligence (AI) Models
 
 multimodal means the model can do text and image
 
+### Specific Models
+
+| Model Name | Use Cases | Strengths |
+|----|----|----|
+| [SimulStreaming](https://github.com/ufal/SimulStreaming) (replace Whisper) | Speech to text, translation |  |
+| [Voxtral-Mini-4B-Realtime-2602](https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602) | Speech to text | low hardware |
+
 ### Footnotes and Sources
 
 ### Model and RAM Recommendations

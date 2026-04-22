@@ -21,6 +21,9 @@ cargo install --git https://github.com/atuinsh/atuin/
 cargo install cargo-binstall
 cargo binstall atuin
 
+# Uninstall a package
+cargo uninstall cargo-update
+
 ```
 
 ### Programming with cargo and rustc

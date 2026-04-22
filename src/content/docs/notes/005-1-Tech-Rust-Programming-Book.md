@@ -1,8 +1,16 @@
 ---
 filetags: ":rust:cargo:snippets:epubnote:"
 id: e130960f-bd15-4667-9625-acf1c2a8abc4
-title: The Rust Programming Language, The Book
+title: The Rust Programming Language, The Book (Book)
 ---
+
+Source: My notes from book: [The Rust Programming
+Language](https://doc.rust-lang.org/stable/book/), Steve Klabnik, Carol
+Nichols, and Chris Krycho, with contributions from the Rust Community.
+“The Rust Programming Language - the Rust Programming Language.”
+Doc.rust-Lang.org, doc.rust-lang.org/stable/book/. 2026 Latest book
+source at [rust-lang/book: The Rust Programming Language ·
+GitHub](https://github.com/rust-lang/book)
 
 ## Second Edition
 

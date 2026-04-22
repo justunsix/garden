@@ -68,9 +68,9 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Dired, down directory or open file | l |
 | Dired, edit with wdired | i |
 | Dired, edit with wdired, save changes | :w or C-c |
+| Dired, Move/rename file, respect VCS like git mv (move) | R |
 | Dired, open marked files with external program | W, dired-do-open |
 | Dired, up directory | h |
-| Dired, Move/rename file, respect VCS like git mv (move) | R |
 | Documentation, Look up or Web search on selection | K |
 | eww, back URL | H or \[\[ |
 | eww, bookmark | m |
@@ -111,6 +111,7 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Next buffer | C-x right arrow |
 | Next, error | \] e |
 | Org: Insert subheading (org-insert-subheading) | C-m Enter |
+| Org: Link copy from clipboard and insert | SPC m l c |
 | Org: Link insert (org-insert-link) | SPC m l l |
 | Org: Link store (org-store-link) | SPC n l |
 | proced: sort leader key | o |
@@ -125,6 +126,7 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Search - mark (Evil) list | SPC s r |
 | Search - minibuffer orderless fuzzy search with ~ | ~lspform |
 | Section or heading, previous or next | double \[ or \]\] |
+| Session, Load from file | SPC q L or doom/load-session |
 | Spelling, suggest correct spelling of word | z =, ispell-word |
 | Switch Buffer | SPC , |
 | Tags: projectile find tag | C-t |

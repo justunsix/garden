@@ -72,6 +72,15 @@ multiline
 string.'''
 print(multiline_string)
 
+# Multiline f strings with """ and variables
+report = f"""======================================
+  CONTOSO OBSERVATORIES - SESSION REPORT
+======================================
+Date:           {timestamp}
+Observer:       {observer_name}
+Event:          {event_name}
+Location:       {location}"""
+
 # Simple Docstring, can be for modules, classes, functions
 def determine_magic_level(magic_number):
     """
@@ -258,6 +267,9 @@ list_of_months[0] = "New January"
 # String split on a comma to a list
 my_list = my_string.split(",")
 
+# Store list as string
+list_as_string = "".join(mylist)
+
 # Get data type, for example class type
 type(my_variable)
 
@@ -310,7 +322,6 @@ match term:
     case _:
         action-default
 
-
 ```
 
 Sources:
@@ -328,6 +339,21 @@ Automation](/garden/notes/005-computer-tech-devops-bootcamp-twn-python-automatio
 Automation](id:c3dc1f6f-d9c4-4d86-88bc-488e42698f7d)
 
 ## Other Packages
+
+### datetime
+
+``` python
+
+from datetime import datetime
+
+date_today: str = datetime.now().strftime("%Y-%m-%d")
+
+# Return a string representing the date and time in ISO 8601 format:
+# YYYY-MM-DDTHH:MM:SS.ffffff, if microsecond is not 0
+# YYYY-MM-DDTHH:MM:SS, if microsecond is 0
+date_today_iso = datetime.now().isoformat(sep='T', timespec='auto')
+
+```
 
 ### Subprocess
 
@@ -374,6 +400,20 @@ if Path("my_file").exists():
   print("my_file exists")
 else:
   print("my_file does not exist")
+
+# Append 'a' or use Write 'w' to file
+def append_text_to_file(file_path, text_to_append):
+    try:
+        with open(file_path, "a") as file:
+            file.write(text_to_append + "\n")
+        print(f"Text appended to {file_path} successfully")
+    except Exception as e:
+        print(f"Error: {e}")
+
+# Example Usage
+file_path = 'example.txt'
+text_to_append = 'This is a new line of text.'
+append_text_to_file(file_path, text_to_append)
 
 ```
 

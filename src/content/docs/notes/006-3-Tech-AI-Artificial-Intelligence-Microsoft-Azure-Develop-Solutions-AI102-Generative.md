@@ -75,11 +75,14 @@ When choosing models, think about:
   - Compare models for the use case or constraints like cost and
     throughput. In Azure AI Foundry, use the model benchmarks and
     compare model functions
-- Deployment options:
+- Deployment options: [Deploy Microsoft Foundry Models in the Foundry
+  portal - Microsoft
+  Foundry](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/deploy-foundry-models)
   - Managed compute: Virtual Machines (VM) are required, only cost is
     Azure hosted VMs
-  - Serverless API
+  - Serverless API (Default)
 - Region availability
+  - Geographic limits and quotas
 
 Choosing a good model depends on the requirements and usage.
 
@@ -141,16 +144,27 @@ desired.
 
 ### Foundry Resource Organization
 
-- Azure AI Foundry
+- Azure AI Foundry (classic)
   - Project
   - Hub
     - Project 1
     - Project 2
       - Azure resource
-    - Services including AI, other Azure service like key vault, storage
-      account
+    - Services including AI Services, other Azure service like key
+      vault, storage account
     - Users, models, connected resources (data, Azure resources,
       OpenAI), compute used/read access by all projects in hub
+
+In newer Foundry as of 2026-03, resources are:
+
+- Azure AI Foundry Resource
+  - Project
+    - Resources (models, agents)
+    - Connections (AI Search, Other AI Services, Storage, Functions)
+
+Source: [Migrate From Hub-based to Foundry Projects (classic) -
+Microsoft Foundry (classic) portal \| Microsoft
+Learn](https://learn.microsoft.com/en-us/azure/foundry-classic/how-to/migrate-project?tabs=azure-ai-foundry#new-foundry-projects-overview)
 
 ### Microsoft Copilot, Example of an agent
 
@@ -187,8 +201,15 @@ service. For example, connecting to Azure AI services (formerly known as
 Cognitive Services), Azure OpenAI service, Azure AI search like vector
 search.
 
-The developer requires the Azure AI Projects Client library and Entra
-authentication
+The developer requires:
+
+- [Azure AI Projects Client
+  library](https://learn.microsoft.com/en-us/python/api/overview/azure/ai-projects-readme?view=azure-python)
+- Credentials like Entra authentication and/or API key
+- Endpoint
+
+Requests to Azure AI Foundry projects are sent using the library with
+endpoint and credentials.
 
 ## Develop a RAG-based Solution with Your Own Data with Azure AI Foundry
 
@@ -234,10 +255,18 @@ It is additional training for a foundation model resulting in a
 fine-tuned model. It is separate from grounding in that you are adding
 data to the model, though not significant re-training.
 
-When to fine tune? may be after doing prompt engineering and grounding
-and requirement is a specific skill, such as using a small generalist
-model to do a specific skill. Frequent used system prompt or grounding
-data are also good use cases to add it to the model instead.
+Fine tuning may occur because:
+
+- Prompt engineering and grounding is not sufficient for response
+  quality such as a specialist
+- Need to train on examples that are larger than the model's context
+  limit
+- Saving tokens with smaller prompts
+- Faster response, especially with small models instead of a generalist
+  model
+
+A risk is the training data is poorly managing and fine tuning does not
+improve results.
 
 Neural networks in the foundation model process information in the
 layers and has weights. Fine tuning shifts the model weights with
@@ -248,7 +277,7 @@ Fine-tuned models are private and new weights in model is available for
 inferencing.
 
 Supervised fine-tuning is providing the model with many examples on
-input and desired results. There are other types of fine -tuning like
+input and desired results. There are other types of fine-tuning like
 Direct Preference Optimization and Reinforcement.
 
 ### Preparing data for fine-tuning a model
@@ -316,7 +345,7 @@ When planning, use the following approach:
   - User experience
 - Manage the solution responsibly through deployment and operations
 
-## Evaluating Generative AI Performance
+## Evaluating Generative AI
 
 Examples:
 
@@ -336,6 +365,32 @@ Them](/garden/notes/006-3-tech-ai-agents-operations-checking-monitoring) - [Agen
 Operations, Checking and Monitoring
 Them](id:1c7b17d9-89dd-4068-9ec0-fefef15912e5) - on metrics and
 approaches to evaluating AI systems
+
+### Evaluators
+
+Source: [Built-in Evaluators Reference - Microsoft Foundry \| Microsoft
+Learn](https://learn.microsoft.com/en-us/azure/foundry/concepts/built-in-evaluators)
+
+Evaluators assess quality, safety, and reliability of AI response.
+
+Built in evaluators and custom ones can be used in AI Foundry. Built in
+ones are in categories of:
+
+- General purpose:
+  - Coherence: logic, flow of responses
+  - Fluency: natural language quality and readability
+- Textual similarity
+  - F1 Score (truth): precision and recall in token overlaps between
+    response and truth
+  - Others
+- RAG evaluators: measures retrieval on relevant information, accuracy,
+  completeness, groundness in data
+- Risk and safety evaluators: hate, unfairness, sexual, violence, self
+  harm, data leakage, and other prohibited actions
+- Agent evaluators: task management, tool selection and use, intent
+  resolution
+- Azure OpenAI graders: custom classification, validations and pattern
+  matching, semantic closeness
 
 ## Exercise: Create a chat app
 

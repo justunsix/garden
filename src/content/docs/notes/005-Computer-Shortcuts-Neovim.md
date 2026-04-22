@@ -100,12 +100,12 @@ See :h lsp for more commands
 | Navigation, Previous, buffer | \[b |
 | Navigation, previous/next paragraph/section | {, } |
 | Navigation, previous/next sentence | (, ) |
-| Neo tree, File explorer | \<l\> e |
-| Neo tree, File explorer open in cwd | \<l\> E |
 | Neo tree, File, Add file, add folder | a, A |
 | Neo tree, File, Copy | y |
 | Neo tree, File, Cut | x |
 | Neo tree, File, Delete | d |
+| Neo tree, File explorer | \<l\> e |
+| Neo tree, File explorer open in cwd | \<l\> E |
 | Neo tree, File, Open file/folder | Enter |
 | Neo tree, File, Open file/folder |  |
 | Neo tree, File, Paste | p |
@@ -128,7 +128,9 @@ See :h lsp for more commands
 | Search: Diagnostic messages | \<l\> s d |
 | Search: Diagnostic messages, root directory | \<l\> s D |
 | Search: Help | \<l\> s h |
+| Search: Jump list | \<l\> s j |
 | Search: Keymap | \<l\> s k |
+| Search: Marks | \<l\> s m |
 | Search: Replace, Do Replace | \<l\> s r, \<l\> R |
 | Search: selection, selected tex on root or cwd | \<l\> s w or s W |
 | Search: Todos | \<l\> s t |

@@ -111,3 +111,14 @@ Tested on 2025-09-18 with:
 - NVIM v0.11.4
 - tree-sitter 0.25.9
 - Neovim distribution: LazyVim 15.x
+
+## On Windows, Mason Installs hitting Long Path Error
+
+Error may be caused during Python `ruff`, `ty`, and other language
+server installs.
+
+For `ruff` and `ty`, a fix is to create a Python virtual environment in
+a short directory like `~/nm`. Run neovim inside the virtual
+environment. The install should use virtual environment `python` for
+installations, bypassing long file names that otherwise would be
+created.

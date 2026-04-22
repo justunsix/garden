@@ -61,6 +61,9 @@ find ./ -type f -size +2G -exec du -h {} + | sort -rh | head -30
 # du -h - print out file information
 # head -30 - first 30 files
 
+# Find files in current directory case insensitive (-iname), and exclude (ignore) pathes (-not -path) set
+find . -iname '*.py' -not -path '*/.venv/*' -not -path '*/Labfiles/*'
+
 ```
 
 ## xargs

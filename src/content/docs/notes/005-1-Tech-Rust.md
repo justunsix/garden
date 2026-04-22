@@ -58,9 +58,9 @@ cargo packages (can use cargo binstall):
 
 ## See Also
 
-- [The Rust Programming Language, The
-  Book](/garden/notes/005-1-tech-rust-programming-book) - [The Rust Programming
-  Language, The Book](id:e130960f-bd15-4667-9625-acf1c2a8abc4)
+- [The Rust Programming Language, The Book
+  (Book)](/garden/notes/005-1-tech-rust-programming-book) - [The Rust Programming
+  Language, The Book (Book)](id:e130960f-bd15-4667-9625-acf1c2a8abc4)
 - [Rust Cargo Snippets](/garden/notes/005-computer-snippets-rust-cargo) - [Rust
   Cargo Snippets](id:92688ec0-8523-4171-88c2-337e34693607)
 - [Neovim Language Server Protocol (LSP)](/garden/notes/005-tech-vim-neovim-lsp) -

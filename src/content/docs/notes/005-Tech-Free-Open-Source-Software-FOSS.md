@@ -55,6 +55,9 @@ plus my additions
   graphical front end for GDB and CUDA-GDB
 - [DB Browser for SQLite](https://sqlitebrowser.org/) - SQLite
   management, editing browser
+- [DevDocs](https://github.com/freeCodeCamp/devdocs/) - API
+  Documentation Browser for online and offline, including programming
+  languages, APIs and others
 - Drupal - web content management system (CMS) written in PHP and
   distributed under the GNU General Public License
 - [ELinks](https://en.wikipedia.org/wiki/ELinks) - text based browser
@@ -140,6 +143,8 @@ plus my additions
   EPUB books and PDF documents
 - [kondo](https://github.com/tbillington/kondo) - Cleans dependencies
   and build artifacts from your projects
+- [Konqueror](https://apps.kde.org/konqueror/) - web browser and
+  swiss-army-knife for any kind of file-management and file previewing
 - [Kottster](https://github.com/kottster/kottster) - Instant Node.js
   admin panel. Secure, self-hosted, and easy to set up
 - [Krita](https://krita.org/) - raster graphics editor designed primarily
@@ -171,9 +176,6 @@ plus my additions
   for data science machine learning.
 - [mpv](https://mpv.io/) - media player software based on MPlayer,
   mplayer2 and FFmpeg
-- [DevDocs](https://github.com/freeCodeCamp/devdocs/) - API
-  Documentation Browser for online and offline, including programming
-  languages, APIs and others
 - [Neovim](https://neovim.io/) - hyperextensible Vim-based text editor
 - [Netbox](https://github.com/netbox-community/netbox) - platform for
   network and infrastructure management and automation
@@ -237,6 +239,11 @@ plus my additions
 - [Smallstep CLI](https://github.com/smallstep/cli) - general purpose
   for working with PKI systems and workflows with X509, OAuth, JWT, OATH
   OTP, etc.
+- [Speaches](https://github.com/speaches-ai/speaches) - OpenAI
+  API-compatible server supporting streaming transcription, translation,
+  and speech generation. Speach-to-Text is powered by faster-whisper and
+  for Text-to-Speech piper and Kokoro are used. This project aims to be
+  Ollama, but for text to speech TTS / speech to text STT models
 - Spyder - IDE for scientific programming in the Python language
 - [sqlc](https://sqlc.dev/) - generates fully type-safe idiomatic code
   from SQL in various programming language
@@ -294,16 +301,21 @@ plus my additions
 ### KDE Applications
 
 Source: Documentation: [Windows - KDE
-Applications](https://apps.kde.org/platforms/windows/) and personal
+Applications](https://apps.kde.org/platforms/windows/), [Windows - KDE
+Community Wiki](https://community.kde.org/Windows), and personal
 experience.
 
-KDE Applications on Windows and Unix/Linux platforms:
+[KDE Applications on Windows and Unix/Linux platforms](https://kde.org/):
 
 - Ark - file archiver
 - [Dolphin](https://apps.kde.org/en-gb/dolphin/) - file manager
 - Elisa - music player
+- [Gcompris](https://www.gcompris.net) - educational game used in
+  schools
 - Kate - text editor
 - KCachegrind - profile data visualization tool
+- [KDE Connect](https://kdeconnect.kde.org/) - Communications and data
+  transfer between devices over local networks
 - KDE Connect - data transfer between devices on local networks
 - [Kdenlive](https://apps.kde.org/en-gb/kdenlive/) - video editor
 - KDiff3 - file and folder diff and merge tool
@@ -312,7 +324,7 @@ KDE Applications on Windows and Unix/Linux platforms:
   verification of text and files
 - [Konsole](https://apps.kde.org/en-gb/konsole/) - terminal
 - Konversation - IRC chat client
-- [Krita](https://apps.kde.org/en-gb/krita/) - painter
+- [Krita](https://apps.kde.org/en-gb/krita/) - digital paintiner, painter
 - KTouch - typing tutor
 - Lokalize - locational tool, translation
 - [Okular](https://apps.kde.org/en-gb/okular/) - document viewer

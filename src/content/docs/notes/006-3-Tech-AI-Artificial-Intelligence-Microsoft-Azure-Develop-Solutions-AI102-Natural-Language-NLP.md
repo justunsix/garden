@@ -94,8 +94,8 @@ NLU focuses on understanding intents and performing actions.
 
 ## Custom Text Classification
 
-Example are recognizing organization or industry terms and custom
-locations.
+Example are recognizing specific entities, organization or industry
+terms and custom locations.
 
 Define entity labels and label documents. Custom named entities will be
 used for train models.
@@ -137,6 +137,14 @@ XML- based language with customization options:
 - Say-as (number, date, time, address)
 - Insert recorded speech, background
 
+Example SSML
+
+``` xml
+
+<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xmlns:mstts='https://www.w3.org/2001/mstts' xml:lang='en-US'><voice name='en-US-Ava:DragonHDLatestNeural'>Hello, welcome to Azure AI Foundry!</voice></speak>
+
+```
+
 ## Translation
 
 Use cases:
@@ -173,6 +181,13 @@ language detection, entity recognition, and PII redaction.
 - Use the service in Azure Language in Foundry Tools MCP server to
   integrate its capabilities into an AI agent. It uses an AI Foundry
   endpoint and key
+
+## Exercise: Use speech-capable generative AI models
+
+Use generative AI models to support two use cases:
+
+- Speech synthesis (text-to-speech) - generating speech output.
+- Speech recognition (speech-to-text) - transcribing speech input.
 
 ## Exercise: Create a question answering solution
 

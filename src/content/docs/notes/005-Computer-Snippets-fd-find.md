@@ -9,6 +9,8 @@ title: fd find Snippets
 # Find a pattern with fd followed by a pattern to search
 fd pattern
 fd 'put_regex_here'
+# Find a pattern, case insensitive (-i | --ignore-case)
+fd -i case_insensitive_pattern
 
 # Find pattern from fd output with rg for better highlighting
 fd | rg -i pattern

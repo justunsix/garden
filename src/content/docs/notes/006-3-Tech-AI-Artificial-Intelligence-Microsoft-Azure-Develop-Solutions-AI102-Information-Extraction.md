@@ -142,20 +142,25 @@ access to a result.
 
 ### Stored Extracted Information in a Knowledge Store for Search and Processing
 
-Store projections in storage:
-
-- Objects: JSON documents
-- Tables: Relational schema for extracted fields
-- Files: Extracted images
+| Projection storage | Input type                             |
+|--------------------|----------------------------------------|
+| Objects            | JSON documents                         |
+| Tables             | Relational schema for extracted fields |
+| Files              | Extracted images                       |
 
 Projections are separate from the index and could be used for additional
 processing.
 
 ## Exercise: Extract information from multimodal content
 
-Created AI Foundry hub to use Content Understanding. Custom tasks were
-created for invoice field detection, slide analysis, audio analysis and
-meeting recording analysis to extract information in each medium.
+- Create Foundry to use Content Understanding AI service (Content
+  Understanding - Layout)
+- "AI Services" in the foundry do not required deployment of models
+- Do custom tasks invoice field detection, slide analysis, audio
+  analysis and meeting recording analysis to extract information in each
+  medium
+  - Each task with test detection with uploaded files and set up an
+    analyzer with a schema of fields to be extracted
 
 ## Exercise: Analyze forms with prebuilt Azure AI Document Intelligence models
 
@@ -163,12 +168,193 @@ Set up an Azure AI Foundry project for document analysis. Use Azure AI
 Foundry portal and the Python SDK to submit forms to AI resource for
 analysis.
 
+## Exercise: Develop a Content Understanding client application
+
+Use the Azure Content Understanding (ACU) Python SDK to create an
+analyzer that extracts information from business cards.
+
+Create a client application that sets up the analyzer to extract contact
+details from scanned business cards. Cards are submitted and `JSON`
+results are returned.
+
+``` json
+
+{
+    "analyzerId": "businesscardanalyzer",
+    "apiVersion": "2025-11-01",
+    "createdAt": "2026-04-17T19:50:57Z",
+    "stringEncoding": "codePoint",
+    "warnings": [],
+    "contents": ["details of the business card scans"],
+}
+
+```
+
+## Exercise: Extract data with Azure Document Intelligence
+
+The Azure AI service, Azure Document Intelligence, can do automated data
+processing to extract text, key/value pairs, and tables from form
+documents using optical character recognition (OCR).
+
+It uses pre-built models for recognizing invoices, receipts, business
+cards, and other common document types. The service also can train
+custom models to extract specific data fields from forms.
+
+Use both prebuilt and custom Document Intelligence models to extract
+information from documents.
+
 ## Exercise: Create a knowledge mining solution
 
 Use AI Search to index a set of documents maintained by Margie's Travel,
 a fictional travel agency. The indexing process involves using AI skills
 to extract key information to make them searchable, and generating a
 knowledge store containing data assets for further analysis.
+
+- Upload documents for indexing and AI enrichment to a Azure storage
+  account container with PDFs of travel information
+
+- Connect the Azure AI Search to the document container and configure
+  Retrievable, Filterable, Sortable, and Facetable for indexed fields
+
+- Search through documents using index created by Azure AI Search
+
+- Create an app that can query and retrieval specific fields from
+  searched documents
+
+- Search manually in the Azure portal AI Search like the `json` below:
+
+``` json
+
+{
+  "search": "*",
+  "count": true,
+  "select": "title,locations",
+  "queryType": "semantic",
+  "semanticConfiguration": "margies-index-semantic-configuration",
+  "captions": "extractive",
+  "answers": "extractive|count-3",
+  "queryLanguage": "en-us",
+  "queryRewrites": "generative"
+}
+
+```
+
+### Example search and response from index using Azure AI Search explorer
+
+Search
+
+``` json
+
+{
+    "search": "New York",
+    "count": true,
+    "select": "title,keyPhrases",
+    "filter": "metadata_storage_size lt 380000"
+}
+
+```
+
+Results
+
+``` json
+{
+  "@odata.context": "https://aisearch2325425.search.windows.net/indexes('margies-index')/$metadata#docs(*)",
+  "@odata.count": 1,
+  "value": [
+    {
+      "@search.score": 6.8039145,
+      "title": "Margies Travel Company Info.pdf",
+      "keyPhrases": [
+        "world-leading travel agency",
+        "best travel experts",
+        "international reach",
+        "Currency Exchange",
+        "Las Vegas",
+        "New York",
+        "San Francisco",
+        "leadership team",
+        "Marjorie Long",
+        "Logan Reid",
+        "Emma Luffman",
+        "Deepak Nadar",
+        "Strategic Director",
+        "Margie",
+        "local",
+        "expertise",
+        "Flights",
+        "Accommodation",
+        "Transfers",
+        "Visas",
+        "Excursions",
+        "trips",
+        "Dubai",
+        "London",
+        "CEO",
+        "CFO",
+        "website"
+      ]
+    }
+  ]
+}
+
+```
+
+## Exercise: Build an automated RAG ingestion pipeline with Content Understanding
+
+Retrieval-augmented generation (RAG) is a method that enhances Large
+Language Models (LLMs) by integrating data from external knowledge
+sources. In production scenarios, new documents arrive continuously and
+must be extracted, embedded, and indexed so they are available for
+search in near real-time.
+
+- Create an analyzer for the travel PDF documents
+- Build an automated RAG ingestion pipeline that uses Azure Content
+  Understanding to extract content from multimodal documents and embeds
+  the content using Azure OpenAI, and indexes it in Azure AI Search
+  - It extracts content with Content Understanding, generating vector
+    embeddings with Azure OpenAI, and indexing into Azure AI Search. It
+    also tracks which files have been processed so it can detect new or
+    updated documents on subsequent runs
+- The pipeline tracks which files have already been processed and can
+  run in watch mode to automatically detect and ingest new documents as
+  they arrive
+- Creating a conversational agent that answers questions grounded in the
+  indexed data
+
+Pipeline Details from `ingest-pipeline.py`:
+
+- Tracks processed files using a manifest
+  (processed<sub>files</sub>.json) that records the SHA-256 hash of each
+  file. On each run, the pipeline compares the current hash of every
+  file in the data/ folder against the manifest, so only new or modified
+  files are processed.
+- Ensures the search index exists by calling ensure<sub>index</sub>(),
+  which creates or updates the Azure AI Search index with the required
+  schema (text fields, a vector field, and HNSW vector search
+  configuration).
+- Extracts content from each new file by submitting it to the Content
+  Understanding analyzer via begin<sub>analyzebinary</sub>, which
+  returns markdown content and extracted fields (summary, key topics).
+- Chunks the content by splitting at paragraph boundaries with a
+  2000-character limit, keeping each chunk self-contained.
+- Generates embeddings for each chunk using the Azure OpenAI embedding
+  model, producing a 3072-dimension vector for semantic search.
+- Indexes the chunks into Azure AI Search using deterministic document
+  IDs (based on the file name and chunk index), so re-ingesting an
+  updated file replaces its old chunks.
+- Supports a –watch flag for continuous monitoring and a –reset flag to
+  reprocess all files.
+
+RAG client details from `rag-agent.py`:
+
+- Creates an Azure AI Search client to retrieve documents.
+- Creates an Azure OpenAI chat client.
+- Implements a retrieval function that performs hybrid search (combining
+  keyword and vector search) to find the most relevant content chunks.
+- Constructs a prompt that includes the retrieved context and the user’s
+  question.
+- Sends the prompt to the chat model for answer generation.
+- Runs a conversational loop so you can ask multiple questions.
 
 ## See Also
 
