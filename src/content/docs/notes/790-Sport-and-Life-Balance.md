@@ -28,6 +28,6 @@ champion and seven-time world champion.
 - Ensuring you rest, maintaining good health. It is ok to take rest and
   take things slower!
 - Developing a post career plan:
-- Find passion related to sport
-- Additional training may be required, preparation
-- Talking with people in the sport for ideas
+  - Find passion related to sport
+  - Additional training may be required, preparation
+  - Talking with people in the sport for ideas

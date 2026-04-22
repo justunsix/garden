@@ -21,8 +21,6 @@ plus my additions
 - Ansible - software tools that enables infrastructure as code
 - Ardour - digital audio workstation
 - Audacity - digital audio editor and recording application software
-- [Autogen](https://github.com/microsoft/autogen) - A programming
-  framework for agentic AI
 - Bash - Unix shell and command language written by Brian Fox for the
   GNU Project as a free software replacement for the Bourne shell
 - [Bitwarden](https://bitwarden.com/) - password management service
@@ -189,8 +187,8 @@ plus my additions
 - [OpenCode](https://opencode.ai/) - AI coding agent, Free models
   included or connect any model from any provider
 - Openshot - video editor
-- [Open Street Map](https://www.openstreetmap.md) - geographical and map
-  information
+- [Open Street Map](https://www.openstreetmap.org/) - geographical and
+  map information
 - [Open WebUI](https://github.com/open-webui/open-webui) - AI platform
   for offline or online operation which supports various LLM runners
   like Ollama and OpenAI-compatible APIs, with built-in inference engine

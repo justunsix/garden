@@ -262,8 +262,6 @@ family.
 
 - [Theme Park Listings](http://www.themeparkcity.com/EURO_france.htm) -
   English site that shows all sorts of theme parks in France.
-- [Tourist Spots](http://www.paris.md) Shows places in France to visit.
-  In English.
 - [10 Best Places to Visit in
   France](https://www.touropia.com/best-places-to-visit-in-france/) Get
   your passport ready! I like this site because not only is it full of

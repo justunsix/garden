@@ -1,9 +1,8 @@
 ---
+filetags: ":kamal:epubnote:devops:"
 id: f47686a2-2d19-419f-8c11-da3ebb099496
 title: Kamal - Deploy web apps anywhere
 ---
-
-\#:filetags: :kamal:epubnote:
 
 Use case is deploy web application in containers anywhere like cloud, on
 premise, virtual machines, and bare metal. Benefits are no downtime,

@@ -3035,7 +3035,7 @@ OpenShift Online or other OpenShift related products and services.
 - [OpenShift Container Platform](https://www.openshift.com/) - The Red
   Hat supported OpenShift product for installation on premise or in
   hosted cloud environments.
-- [OpenShift Commons](https://commons.openshift.md) - A community for
+- [OpenShift Commons](https://commons.openshift.org/) - A community for
   users, partners, customers, and contributors to come together to
   collaborate and work together on OpenShift.
 

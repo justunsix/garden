@@ -95,7 +95,7 @@ title: Emacs Shortcuts for org-mode
     `org-insert-link` where you want to link to be
   - Examples: https, roam, email, attachments
   - source: [Handling Links (The Org
-    Manual)](https:/.mdmode.md/manual/Handling-Links.html)
+    Manual)](https://orgmode.org/manual/Handling-Links.html)
 
 ## Search
 
@@ -109,7 +109,7 @@ title: Emacs Shortcuts for org-mode
 ## Tables
 
 Source: [Org tutorial for tables -
-orgmode.org](https:/.mdmode.md/.md.md-tutorials/tables.html),
+orgmode.org](https://orgmode.org/.md.md-tutorials/tables.html),
 [james-stoup/org-mode-table-tutorial: A simplified guide to mastering
 Org Mode table functions ·
 GitHub](https://github.com/james-stoup.md-mode-table-tutorial)
@@ -136,8 +136,8 @@ For table formulas, see:
 
 - Tutorial and examples at:
   [https://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html](https:/.orgmode.org/.md.md-tutorials.md-spreadsheet-intro.html)
-- [https://orgmode.org/manual/field-and-range-formulas.htmand](https:/.orgmode.org/manual/Field-and-range-formulas.htmand)
-- [https://orgmode.org/manual/formula-syntax-for-calc.html#formula-syntax-for-calc](https:/.orgmode.org/manual/Formula-syntax-for-Calc.html#Formula-syntax-for-Calc)
+- [https://orgmode.org/manual/Field-and-range-formulas.htmand](https://orgmode.org/manual/Field-and-range-formulas.htmand)
+- [https://orgmode.org/manual/Formula-syntax-for-Calc.html#Formula-syntax-for-Calc](https://orgmode.org/manual/Formula-syntax-for-Calc.html#Formula-syntax-for-Calc)
 
 ### Table Notation
 
@@ -158,7 +158,7 @@ columns:
   regular code blocks of an Org file, and then load the Org file with:
   `org-babel-lob-ingest`
 - Source: [Library of Babel (The Org
-  Manual)](https:/.mdmode.md/manual/Library-of-Babel.html)
+  Manual)](https://orgmode.org/manual/Library-of-Babel.html)
 
 ## Org-clock Shortcuts
 

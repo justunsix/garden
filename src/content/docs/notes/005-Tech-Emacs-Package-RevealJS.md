@@ -30,7 +30,7 @@ title: "Emacs Package: org-re-reveal, RevealJS"
 ```
 
 See the [org-re-reveal
-README.org](https://gitlab.com/oer.md-re-reveal/-/raw/main/Readme.md)
+README.org](https://gitlab.com/oer.org-re-reveal/-/raw/main/readme.org/)
 for more examples of usage
 
 - After finishing the presentation, export using `org-export-dispatch`

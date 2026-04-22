@@ -29,7 +29,7 @@ title: Diagrams as Code
     Enterprise Architecture Modeling Language \|
     opengroup.org](https://www.opengroup.org/archimate-forum/archimate-overview)
 - Mermaid - [Mermaid - diagrams and visualizations from
-  text](https://mermaid.js.md)
+  text](https://mermaid.js.org/)
 - Diagram as Code (Python) - [Diagrams - Diagram as
   Code](https://diagrams.mingrammer.com/)
 - Drawio - [draw.io](https://www.drawio.com/) - Diagramming tool

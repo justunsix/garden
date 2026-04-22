@@ -14,8 +14,8 @@ title: OpenStreetMap Shortcuts
 
 ### Resources
 
-- [Open Street Map](https://www.openstreetmap.md) - geographical and map
-  information
+- [Open Street Map](https://www.openstreetmap.org/) - geographical and
+  map information
 - [OSM - Toronto - Administrative Boundary
   6](https://www.openstreetmap.org/relation/324211#map=11/43.7175/-79.3766)
 - [OpenStreetMap (OSM)
