@@ -1,6 +1,6 @@
 ---
 date: 2017-01-31
-filetags: ":how-to:goals:epubnote:"
+filetags: ":how-to:goals:focus:concentration:visualization:epubnote:"
 id: e050605d-0667-45cc-9c47-493c8ffd789a
 title: NCCP Psychology of Performance
 ---

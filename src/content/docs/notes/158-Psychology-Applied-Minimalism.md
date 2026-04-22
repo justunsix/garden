@@ -10,10 +10,10 @@ title: Minimalism
   Lifestyle](/garden/notes/158-psychology-applied-environment-minimalist-lifestyle) -
   [Minimalist, Zero Waste
   Lifestyle](id:df69cada-d197-4508-9ae0-12affb79dfd0)
-- [the simple guide to a minimalist
-  life](/garden/notes/158-psychology-applied-environment-minimalist-lifestyle-simple-guide) -
-  [the simple guide to a minimalist
-  life](id:170ccdb8-73b1-4edd-aa09-f61e86a075f6)
+- [the simple guide to a minimalist life
+  (Book)](/garden/notes/158-psychology-applied-environment-minimalist-book-lifestyle-simple-guide) -
+  [the simple guide to a minimalist life
+  (Book)](id:170ccdb8-73b1-4edd-aa09-f61e86a075f6)
 - [The
   Minimalists](/garden/notes/158-psychology-applied-minimalism-the-minimalists) -
   [The Minimalists](id:5b72e98e-c259-4375-9f23-eb7bc6deffeb)

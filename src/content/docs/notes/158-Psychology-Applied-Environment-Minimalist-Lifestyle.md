@@ -97,7 +97,7 @@ Maintenance?
 ## See Also
 
 - [the simple guide to a minimalist
-  life](/garden/notes/158-psychology-applied-environment-minimalist-lifestyle-simple-guide) -
+  life](/garden/notes/158-psychology-applied-environment-minimalist-book-lifestyle-simple-guide) -
   [the simple guide to a minimalist
   life](id:170ccdb8-73b1-4edd-aa09-f61e86a075f6)
 - [The
