@@ -39,6 +39,8 @@ Appleton](https://maggieappleton.com/)
 
 ## 100 – Philosophy and psychology
 
+- [153 Conscious mental processes and
+  intelligence](/garden/notes/153-conscious-mental-intelligence)
 - [158 Applied Psychology](/garden/notes/158-psychology-applied)
 
 ## 200 – Religion
@@ -73,11 +75,11 @@ Appleton](https://maggieappleton.com/)
 
 - [600 Technology](/garden/notes/600-technology)
 - [610 Medicine and health](/garden/notes/610-health)
-- [613 Personal health and safety](/garden/notes/613-safety)
+- [613 Personal health and safety](/garden/notes/613-health-safety)
 - [615 Pharmacology and therapeutics](/garden/notes/615-pharmacology-therapeutics)
 - [634 Orchards, fruits, forestry](/garden/notes/634-forestry)
-- 635 Garden crops (Horticulture)
-- 640 Home and family management
+- [635 Garden crops (Horticulture)](/garden/notes/635-gardening)
+- [640 Home and family management](/garden/notes/640-home)
 - [641 Food and drink](/garden/notes/641-food)
 - [646 Sewing, clothing, management of personal and family
   life](/garden/notes/646-sewing)
