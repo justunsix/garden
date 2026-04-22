@@ -7,9 +7,10 @@ title: Garden crops (Horticulture), Gardening
 
 ## See Also
 
-- [Comic Book Guide to Growing
-  Food](/garden/notes/635-gardening-comic-book-guide-to-growing-food) - [Comic Book
-  Guide to Growing Foodtitle](id:6b67a77d-a97c-4ba4-a93d-860614f0e0f1:)
+- [Comic Book Guide to Growing Food
+  (Book)](/garden/notes/635-gardening-comic-book-guide-to-growing-food) - [Comic
+  Book Guide to Growing Food
+  (Book)](id:6b67a77d-a97c-4ba4-a93d-860614f0e0f1:)
 - [Flower Maintenance](/garden/notes/635-gardening-flower-maintenance) - [Flower
   Maintenance](id:36bcb79c-4908-4804-950c-4333adfaa86d)
 - [Forestry](/garden/notes/634-forestry) -

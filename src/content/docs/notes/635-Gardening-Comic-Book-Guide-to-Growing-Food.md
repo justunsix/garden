@@ -1,12 +1,12 @@
 ---
 filetags: "\\#+filetags: :garden:plants:vegetables:book:epubnote:"
 id: "6b67a77d-a97c-4ba4-a93d-860614f0e0f1:"
-title: Comic Book Guide to Growing Food
+title: Comic Book Guide to Growing Food (Book)
 ---
 
-Source: My personal notes on The Comic Book Guide to Growing Food:
-Step-by-Step Vegetable Gardening for Everyone: Tychonievich, Joseph,
-Kozik, Liz Anna: 9781984857262: Books - Amazon.ca
+Source: My personal notes from book: Tychonievich, Joseph, and Liz Anna
+Kozik. The Comic Book Guide to Growing Food : Step-By-Step Vegetable
+Gardening for Everyone. California, Ten Speed Press, 2021.
 
 ## 1 Location
 

@@ -149,6 +149,7 @@ during initial game run.
 ## Games that should work with no or minor changes
 
 - Baldur's Gate 3
+- Broken Arrow
 - Call of Duty: Infinite Warfare
   - Switch to fullscreen borderless to remove some stutter
 - Cities Skylines
@@ -164,6 +165,7 @@ during initial game run.
 - Tempest Rising
 - Total War: Pharaoh, Troy, Three Kingdoms, Warhammer 3 (Native), Attila
 - Uncharted: Legacy of Thieves
+- WARNO
 - Warhammer 40,000 Darktide
   - Multiplayer works best with VPN turned off
 - Warhammer 40,000 Dawn of War II Retribution

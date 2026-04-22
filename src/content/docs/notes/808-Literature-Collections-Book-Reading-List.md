@@ -66,3 +66,10 @@ title: Reading List
   Communication, and Expressing Your
   Needs](https://www.amazon.ca/Unfuck-Your-Boundaries-Communication-Expressing/dp/1621061000)
   by Dr Faith G Harper
+
+## See Also
+
+Notes from books
+
+- [Books](/garden/notes/370-education-learning-books) -
+  [Books](id:69af0e3e-3e81-463e-9365-ce8caa3b2cc2)
