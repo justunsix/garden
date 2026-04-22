@@ -4,16 +4,19 @@ id: 5ed4f890-6dd9-46a4-8168-ac4ccc9a9b75
 title: A Garden Entrance
 ---
 
-Justin is a servant of the public. Communications, tech, health, & sport
-multi-expert. Fundraiser & volunteer for the greater good.
-
 This site is a digital garden which is like a knowledge base, wiki, and
-second brain. The garden's articles are organized according to the
-[Dewey Decimal Classification (DDC)
+second brain.
+
+The garden's articles are organized according to the [Dewey Decimal
+Classification (DDC)
 system](https://en.wikipedia.org/wiki/List_of_Dewey_Decimal_classes) used
 by libraries to organize information covering all knowledge. Index pages
 for classes and articles are listed below. Most articles are on
 technology, applied psychology, and health and sport.
+
+The garden is maintained by Justin Tung who is a servant of the public.
+Communications, tech, health, & sport multi-expert. Fundraiser &
+volunteer for the greater good.
 
 "A digital garden is a collection of imperfect notes, essays, and ideas
 growing slowly over time" - [Maggie
@@ -29,7 +32,8 @@ Appleton](https://maggieappleton.com/)
     computers](/garden/notes/004-1-computers-specific)
 - [005 Computer programming, programs, and
   data](/garden/notes/005-computer-programs)
-  - [005.1 Programming](/garden/notes/005-1-tech-programming-languages)
+  - [005.1 Programming](/garden/notes/005-1-tech-programming-languages) (Computer
+    Programming Languages)
   - [005.8 Data Security (Cyber Security)](/garden/notes/005-8-tech-security)
 - [006 Special computer methods (e.g. AI, multimedia,
   VR)](/garden/notes/006-special-computer-methods)
@@ -122,7 +126,7 @@ except source content from original authors where indicated.
 - Website is built with [Astro](https://astro.build/) website framework
   with [Starlight](https://github.com/withastro/starlight) theme.
 - Page content
-  - Content is managed in [Emacs org](https:/.mdmode.md/) files and
+  - Content is managed in [Emacs org](https://orgmode.org/) files and
     converted to markdown for this website using
     [pandoc](https://pandoc.org/)
   - Conversion to markdown is still being worked on so expect broken

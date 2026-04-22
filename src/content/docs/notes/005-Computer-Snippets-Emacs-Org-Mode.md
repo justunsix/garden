@@ -139,8 +139,8 @@ The following sections shows babel examples and results in org-mode
 
 ### Python session like Jupyter Notebooks
 
-Source:
-[https://rgoswami.me/posts/jupyter-orgmode/](https://rgoswami.me/posts/jupyter.mdmode/)
+Source: [Replacing Jupyter with Orgmode :: Rohit Goswami —
+Reflections](https://rgoswami.me/posts/jupyter-orgmode/)
 
 Set the environment Python binary in the properties of the heading
 
@@ -219,8 +219,8 @@ print(sys.executable)
 
 ## Run a specific program using :shebang
 
-See
-[https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-shell.html](https:/.orgmode.org/.md.md-contrib/babel/languages/ob-doc-shell.html)
+See [Shell Code Blocks in
+Babel](https:/orgmode.org/worg/org-contrib/babel/languages/ob-doc-shell.html)
 
 This method can be used to run any command, programming language and get
 its output with a specific path or in the user's PATH environment
@@ -303,10 +303,11 @@ Snippets](id:c0360cd8-8ed4-45a4-9c5f-df8edc034cb5)
 
 ## SQL
 
-Source: [SQL Source Code Blocks in Org
-Mode](https:/.mdmode.md/.md/.md-contrib/babel/languages/ob-doc-sql.html)
+Source: For specific languages, see [SQL Source Code Blocks in Org
+Mode](https:/orgmode.org/worg/org-contrib/babel/languages/ob-doc-sql.html)
 with examples from [Ryan Prior / Emacs Org Data Starter ·
-GitLab](https://gitlab.com/ryanprior/emacs.md-data-starter)
+GitLab](https://gitlab.com/ryanprior/emacs.md-data-starter) for
+configurations
 
 Make sure the corresponding sql binary is installed on the system like
 sqlite3, psql, and others
@@ -338,8 +339,6 @@ WHERE id > 500
 
 #### Connecting & running a basic query
 
-Follow the MySQL instructions in the [org-babel
-documentation](https:/.mdmode.md/.md/.md-contrib/babel/languages/ob-doc-sql.html).
 This example uses source block level properties.
 
 ``` sql
@@ -362,9 +361,6 @@ qureies.
 
 #### Connecting & running a basic query
 
-Follow the PostgresQL instructions in the [org-babel
-documentation](https:/.mdmode.md/.md/.md-contrib/babel/languages/ob-doc-sql.html)
-
 ``` sql
 \list
 ```
@@ -378,9 +374,6 @@ documentation](https:/.mdmode.md/.md/.md-contrib/babel/languages/ob-doc-sql.html
     ```
 
 ### SQLite
-
-Follow the ob-sqlite instructions in the [org-babel
-documentation](https:/.mdmode.md/.md.md-contrib/babel/languages/ob-doc-sqlite.html)
 
 ``` sql
 select sqlite_version();
