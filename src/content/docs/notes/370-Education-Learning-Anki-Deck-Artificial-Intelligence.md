@@ -1342,11 +1342,14 @@ whether it is an orange or type of oranges.
       - Compare models for the use case or constraints like cost and
         throughput. In Azure AI Foundry, use the model benchmarks and
         compare model functions
-    - Deployment options:
+    - Deployment options: [Deploy Microsoft Foundry Models in the
+      Foundry portal - Microsoft
+      Foundry](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/deploy-foundry-models)
       - Managed compute: Virtual Machines (VM) are required, only cost
         is Azure hosted VMs
-      - Serverless API
+      - Serverless API (Default)
     - Region availability
+      - Geographic limits and quotas
 
 #### Azure AI Foundry Resources Organization
 
@@ -1356,14 +1359,14 @@ whether it is an orange or type of oranges.
 
 2.  Back
 
-    - Azure AI Foundry
+    - Azure AI Foundry (classic)
       - Project
       - Hub
         - Project 1
         - Project 2
           - Azure resource
-        - Services including AI, other Azure service like key vault,
-          storage account
+        - Services including AI Services, other Azure service like key
+          vault, storage account
         - Users, models, connected resources (data, Azure resources,
           OpenAI), compute used/read access by all projects in hub
 
@@ -1372,6 +1375,11 @@ whether it is an orange or type of oranges.
     - Azure AI Foundry Resource
       - Project
         - Resources (models, agents)
+        - Connections (AI Search, Other AI Services, Storage, Functions)
+
+    Source: [Migrate From Hub-based to Foundry Projects (classic) -
+    Microsoft Foundry (classic) portal \| Microsoft
+    Learn](https://learn.microsoft.com/en-us/azure/foundry-classic/how-to/migrate-project?tabs=azure-ai-foundry#new-foundry-projects-overview)
 
 #### Evaluating Generative AI Performance
 
@@ -1383,9 +1391,94 @@ whether it is an orange or type of oranges.
 
     - Automated evaluation: use test data and compare results,
       evaluating can be AI assisted
-    - Metrics like answer quality, accessibility, accuracy, tone
+    - Metrics like answer quality, accessibility, accuracy, tone, cost
     - Risk and safety measures like violence, sexual, self-hard content
       in results
+
+    Evaluators assess quality, safety, and reliability of AI response.
+
+    Built in evaluators and custom ones can be used in AI Foundry. Built
+    in ones are in categories of:
+
+    - General purpose:
+      - Coherence: logic, flow of responses
+      - Fluency: natural language quality and readability
+    - Textual similarity
+      - F1 Score (trust): precision and recall in token overlaps between
+        response and truth
+      - Others
+    - RAG evaluators: measures retrieval on relevant information,
+      accuracy, completeness, groundness in data
+    - Risk and safety evaluators: hate, unfairness, sexual, violence,
+      self harm, data leakage, and other prohibited actions
+    - Agent evaluators: task management, tool selection and use, intent
+      resolution
+    - Azure OpenAI graders: custom classification, validations and
+      pattern matching, semantic closeness
+
+#### Developing an Application with Azure AI Foundry SDK
+
+1.  Front
+
+    How would a developer connect to the Azure AI Foundry SDK? What
+    items would the developer need?
+
+2.  Back
+
+    Use the Azure AI Foundry SDK to connect securely to a project which
+    has access to multiple Azure AI services instead of connecting to
+    each service. For example, connecting to Azure AI services (formerly
+    known as Cognitive Services), Azure OpenAI service, Azure AI search
+    like vector search.
+
+    The developer requires:
+
+    - [Azure AI Projects Client
+      library](https://learn.microsoft.com/en-us/python/api/overview/azure/ai-projects-readme?view=azure-python)
+    - Credentials like Entra authentication and/or API key
+    - Endpoint
+
+    Requests to Azure AI Foundry projects are sent using the library
+    with endpoint and credentials.
+
+#### Fine tune a model and the process
+
+1.  Front
+
+    Describe why to fine tune a model and the process
+
+2.  Back
+
+    Fine tuning may occur because:
+
+    - Prompt engineering and grounding is not sufficient for response
+      quality such as a specialist
+    - Need to train on examples that are larger than the model's context
+      limit
+    - Saving tokens with smaller prompts
+    - Faster response, especially with small models instead of a
+      generalist model
+
+    A risk is the training data is poorly managing and fine tuning does
+    not improve results.
+
+    Fine tuning will shift the models weights, like "re-wiring the
+    model's brain" and the process is:
+
+    - Prepare training and validation data for fine tuning, prepare data
+      in `JSONL` format
+    - Set options like:
+
+    | Name | Description |
+    |----|----|
+    | batch<sub>size</sub> | Number of training examples used to train a single forward and backward pass |
+    | learning<sub>ratemultiplier</sub> | Original learning rate used for pre-training multiplied by this value |
+    | n<sub>epochs</sub> | The number of epochs to train the model for |
+    | seed | Random seed used to control the reproducibility of the job |
+
+    Supervised fine-tuning is providing the model with many examples on
+    input and desired results. There are other types of fine tuning like
+    Direct Preference Optimization and Reinforcement.
 
 ### Agents
 
@@ -1491,7 +1584,9 @@ whether it is an orange or type of oranges.
       functionality
     - Microsoft Agent Framework - service and data connectors, prompt
       templates, functions. Can manage agents in concurrent, sequential,
-      handoff, group chat and other orchestration patterns
+      handoff, group chat and other orchestration patterns. Framework
+      can work with workflows where sequential steps are done and steps
+      can include other systems and human interaction along with agents
 
     Other options:
 
@@ -1535,9 +1630,40 @@ whether it is an orange or type of oranges.
       remove sensitive information like name, phone number, credit card
       –\> label sensitive fields, redacted text array, type of PII,
       confidence scores
+    - Speech recognition: who is speaker, pronunciation, intent, speech
+      to text and text to speech
+    - Translation
 
     Customizable models are available for each specific case. Generally
     Azure AI services give JSON responses.
+
+#### Speech Synthesis Markup Language (SSML)
+
+1.  Front
+
+    What is Speech Synthesis Markup Language (SSML) used for in text to
+    speech?
+
+2.  Back
+
+    Speech Synthesis Markup Language (SSML) helps with defining the
+    speech output.
+
+    SSML is an XML-based markup language that you can use to fine-tune
+    your text to speech output attributes such as pitch, pronunciation,
+    speaking rate, volume, and more. It gives you more control and
+    flexibility than plain text input.
+
+    Example SSML
+
+    ``` xml
+
+    <?xml version="1.0"?>
+    <speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" version="1.0" xml:lang="en-US">
+      <voice name="en-US-Ava:DragonHDLatestNeural">Hello, welcome to Azure AI Foundry!</voice>
+    </speak>
+
+    ```
 
 #### Conversational Understanding
 
@@ -1577,36 +1703,217 @@ whether it is an orange or type of oranges.
     data. It is similar to retrieval augmented generation used with
     LLMs.
 
-#### New Card
+#### Text Analysis and SDK
 
 1.  Front
 
-2.  Back
-
-#### New Card
-
-1.  Front
+    As a developer, describe the process to use the Azure Foundry SDK to
+    do text analysis. Include required resources and sequence of calls.
 
 2.  Back
 
-#### New Card
-
-1.  Front
-
-2.  Back
-
-#### New Card
-
-1.  Front
-
-2.  Back
-
-#### New Card
-
-1.  Front
-
-2.  Back
+    - Create a Foundry resource and get its endpoint. Prepare documents
+      for analysis.
+    - Log into Azure CLI and set up the SDK development environment
+    - Create a text analysis client using the `textanalytics` library
+      using the endpoint and Azure credential
+    - Use the client's functions to:
+      - Load documents as text and submit text to AI services
+      - Detect the language
+      - Recognize entities
+      - Recognize personal information in the entities
+    - Output results, process response data
 
 ### Computer Vision
 
-### Information Extraction
+#### Multiclass vs Multilabel in Computer Vision
+
+1.  Front
+
+    What is the difference between multiclass and multilabel
+
+2.  Back
+
+    Multiclass: Model recognizes multiple classes - each image tagged
+    using **one** class label, for example fruit/plant identifier
+
+    Multilabel: Each image can be tagged as multiple classes, for
+    example groups of fruit like fruit bowls
+
+#### Computer Vision Use Cases
+
+1.  Front
+
+    What are use cases for using AI computer vision?
+
+2.  Back
+
+    - Image recognition like captions for images, image tagging,
+      detecting and locating objects and people, image tagging
+    - Finding text in images with optical character recognition (OCR)
+      and getting text in a schema like identity documents
+    - Find faces, facial features
+    - Existing and custom classification. Analyze images and generate
+      structured descriptions to classify and index content
+    - Create image/video from existing images using computer vision and
+      generative models
+
+#### Recognize Printed Text
+
+1.  Front
+
+    When doing the recognize printed text operation on an image with
+    text, how is text structured in the response?
+
+2.  Back
+
+    Response is provided in `json` with the following structure:
+
+    - Metadata
+    - Regions
+      - Bounding boxes
+        - Lines
+          - Words
+            - Text
+
+    Each bounding box provides the coordinates in the image of the
+    content (lines, words, text).
+
+### Information Extraction, Extracted Data Projections
+
+#### Projections
+
+1.  Front
+
+    Which kind of projection results in a relational data schema for
+    extracted fields?
+
+2.  Back
+
+    It depends on the data type. Projections for relational data are
+    stored in Tables. Projections for other formats like images and
+    objects are stored as Files and Objects.
+
+#### Using Content Understanding and Document Intelligence
+
+1.  Front
+
+    What are use cases for information extraction solutions?
+
+2.  Back
+
+    Extract data from structured data in documents and text, images,
+    audio, and videos
+
+    - Recognize data in forms for processing
+    - Extracting data from documents and indexing for search and
+      processing. Extract can include custom:
+      - Classification
+      - Extraction: labelling text and values
+    - Azure AI Content Understanding can analyze multiple input mediums
+    - Recognition can be in images and video like graphs, charts, and
+      other structured data. For example, in a video, speakers,
+      transcription, and summary of activity will be detected.
+
+#### Differences between document intelligence and other vision services?
+
+1.  Front
+
+    What are differences between document intelligence and other vision
+    services?
+
+2.  Back
+
+    Document intelligence and content understanding uses an existing
+    schema like an invoice to extract information. Either existing or
+    custom analyzers extract data into schema fields.
+
+    Pre-built models are available like for receipt, invoice, business
+    cards, and other common documents. In summary, document intelligence
+    uses specific models / AI services for data extraction and
+    recognition.
+
+#### Process Of Knowledge Mining
+
+1.  Front
+
+    Describe the process of knowledge mining
+
+2.  Back
+
+    Knowledge mining helps find information and search for relevant
+    information in knowledge bases like web, document, and other data.
+    Implementations are organizational search and supporting retrieval
+    augmented generation (RAG).
+
+    1.  An *Indexer* gets data from data sources
+    2.  *Document cracking* retrieves the text content and attributes
+    3.  An *enrichment pipeline* builds JSON representations of each
+        indexed document
+    4.  Fields for each document might be file name, date, size. Result
+        is an *index* of the indexed documents. The idea is similar to
+        indexes in books with keywords and page numbers.
+
+    Azure AI Search with vector databases and also regular databases
+    with vectors can be used for search. It indexes documents and data,
+    use AI to enrich index data and store insights in a knowledge store
+    for analysis and integration.
+
+    Examples of Enrichment Pipeline features:
+
+    - Language detection
+    - Key phrase detection
+    - Translation
+    - Get text from images
+    - Image description
+    - PII identification
+    - Captions, tags
+    - Custom skills: other logic
+
+    New data can be added and indexed over time.
+
+#### Data storage in Knowledge Mining
+
+1.  Front
+
+    How is data stored in indexed information during knowledge mining?
+
+2.  Back
+
+    It depends on the data type. Projections for relational data are
+    stored in Tables. Projections for other formats like images and
+    objects are stored as Files and Objects.
+
+    | Projection storage | Input type                             |
+    |--------------------|----------------------------------------|
+    | Objects            | JSON documents                         |
+    | Tables             | Relational schema for extracted fields |
+    | Files              | Extracted images                       |
+
+    Projections are separate from the index and could be used for
+    additional processing.
+
+#### Knowledge Mining process steps using SDK
+
+1.  Front
+
+    Describe steps using the Azure Portal and Azure AI SDK to create a
+    knowledge mining solution.
+
+2.  Back
+
+    - Create the infrastructure: Azure AI Foundry, Azure Storage
+      account, Azure AI Search
+    - Upload documents for indexing and AI enrichment to a Azure storage
+      account container
+    - Connect the Azure AI Search to the document container and
+      configure Retrievable, Filterable, Sortable, and Facetable for
+      indexed fields
+    - Search through documents using index created by Azure AI Search
+    - Create an app that can query and get specific fields from searched
+      documents
+      - Create an analyzer for the documents
+      - Build an automated retrieval augmented generation pipelines to
+        ingest documents
+      - App can be used with a conversational agent to answer questions
+        grounded in the indexed data
