@@ -10,7 +10,7 @@ title: Hiking Trails & Books
 ### Toronto
 
 - Don Valley
-- Rouge Valley - <http://www.rougepark.com/hike/>
+- [Rouge Valley](http://www.rougepark.com/hike/)
 - Humber River
 - Lakeshore
 - Rosedale Valley

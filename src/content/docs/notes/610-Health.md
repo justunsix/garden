@@ -13,9 +13,9 @@ title: Medicine and health
   Pandemic Information](id:ba10802f-f857-4db2-8782-59beac4a2f5f)
 - [Dental Health](/garden/notes/610-health-dental) - [Dental
   Health](id:73433513-b45f-47c8-996e-f416c20373ef)
-- [Growing Young](/garden/notes/610-health-growing-young) - [Growing
-  Young](id:521e6a48-ccec-443c-b826-1d69e3d807e0) - book on longevity
-  practices
+- [Growing Young (Book)](/garden/notes/610-health-book-growing-young) - [Growing
+  Young (Book)](id:521e6a48-ccec-443c-b826-1d69e3d807e0) - book on
+  longevity practices
 - [Medical and Physical Health](/garden/notes/610-health-medical) - [Medical and
   Physical Health](id:cfb156e2-2a4b-4248-9329-9f040bf3d656)
 - [Mental Health](/garden/notes/158-psychology-applied-health-mental) - [Mental
@@ -39,7 +39,7 @@ title: Medicine and health
 - [Health Education](/garden/notes/610-health-edu) - [Health
   Education](id:67bb4d0e-2265-441a-b3e5-f0c11fa29f18)
 - [Health, Food and
-  Nutrition](/garden/notes/613-personal-health-sport-health-edu-food-nutrition) -
+  Nutrition](/garden/notes/613-health-safety-sport-health-edu-food-nutrition) -
   [Health, Food, and Nutrition](id:9b54f6b6-ec27-4160-b6a0-4885ab610607)
 
 ### Resources
