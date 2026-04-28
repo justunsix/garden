@@ -1,5 +1,5 @@
 ---
-filetags: "\\#+filetags: :garden:plants:vegetables:book:epubnote:"
+filetags: ":garden:plants:vegetables:book:epubnote:"
 id: "6b67a77d-a97c-4ba4-a93d-860614f0e0f1:"
 title: Comic Book Guide to Growing Food (Book)
 ---
