@@ -186,15 +186,14 @@ endpoint1 --> aiserviceregion1 : LLMs are hosted external to a user subscription
 
 ```
 
-Various tools can be used like Azure DevOps, GitLab, Jenkins pipelines
-and Terraform which translates to Microsoft ARM deployment templates. AI
-Foundry resources like hub, projects, and endpoints can be created and
-managed using those DevOps tools.
+Various tools can be used like Azure DevOps, GitLab, Jenkins pipelines,
+Azure CLI, and Terraform which translates to Microsoft ARM deployment
+templates. AI Foundry resources like hub, projects, and endpoints can be
+created and managed using those DevOps tools.
 
-When adding or modifying things like endpoints, agents and other
-resources inside projects are additional asset managed by IAC.
-
-Additional assets may include: monitoring, storage accounts.
+Assets can be managed by IAC when adding or changing things like
+endpoints, agents and other resources inside projects, as well as
+monitoring, storage accounts, and virtual machines.
 
 ### Roles and Responsibilities, Security
 

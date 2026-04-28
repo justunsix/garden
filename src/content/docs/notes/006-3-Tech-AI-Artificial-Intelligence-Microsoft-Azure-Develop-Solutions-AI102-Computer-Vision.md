@@ -331,7 +331,36 @@ Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900
 Azure](id:87af447e-094c-4839-a517-88cfd185b8e6)
 
 Accessing Azure AI Vision Face resources can be done using Face SDK to
-get detection and face attributes and features responses.
+get detection and face attributes and features responses:
+
+- Detect faces
+- Face attribute analysis (head pose, glasses, mask, other visual
+  attributes and accessories)
+- Facial landmarks locations
+- Face comparison
+- Facial recognition (specific individuals)
+- Facial liveness (detect real stream)
+
+Example response for an image containing a single face:
+
+``` json
+
+[
+    {
+        'faceRectangle': {'top': 174, 'left': 247, 'width': 246, 'height': 246}
+        'faceAttributes':
+        {
+            'headPose':{'pitch': 3.7, 'roll': -7.7, 'yaw': -20.9},
+            'accessories':
+                [
+                    {'type': 'glasses', 'confidence': 1.0}
+                ],
+            'occlusion':{'foreheadOccluded': False, 'eyeOccluded': False, 'mouthOccluded': False}
+        }
+    }
+]
+
+```
 
 ## Classify images and detect objects
 
@@ -359,18 +388,91 @@ Models can be trained with custom classifications.
 
 ## Generative AI and Vision
 
-### Multimodel generative AI with mixed media
+### Multimodal generative AI with mixed media
 
-A Multimodel generative AI model responds to prompts and returns created
+A Multimodal generative AI model responds to prompts and returns created
 content. Prompts can include text, speech, and images and typically
 include a text part and media part.
 
+Examples of models for multimodal generation:
+
+Microsoft Phi-4-multimodal-instruct OpenAI gpt-4.1 OpenAI gpt-4.1-mini
+
 ### Generate images with AI
 
-Uses prompt to create images.
+Uses prompt to create images. Example models that have the ability:
+
+- OpenAI gpt-image-1 series of models.
+- Black Forest Labs FLUX series of models.
 
 Image generation can have responsible AI implications like other
 generative AI with malicious use.
+
+## Custom Vision
+
+Object detection with Azure AI Custom Vision can handle:
+
+- Train a custom model based on your own training images - Custom Vision
+  training resource
+- Create predictions from new images based on your trained model -
+  Custom Vision prediction resource
+
+Portal and SDK access allow training for custom image classification and
+object detection. Use includes:
+
+Image labelling:
+
+- Image classification: adds tags that apply to the whole image
+- Object detection: bounding boxes for objects in image
+
+### Domains for Custom Vision
+
+Domains are a starting point for a project optimized for specific use
+cases:
+
+#### Image Classification
+
+- General, and General A1 (accuracy, large data) and A2 (accuracy,
+  faster inference)
+- Food, for example restaurant menus, dishes, fruits
+- Landmarks, both natural and artificial
+- Retail, for example shopping catalogue, shopping website, different
+  shop items
+- Compact - optimized for real time, edge devices
+
+#### Object Detection
+
+- General
+- Logo
+- Products on Shelves
+- Compact
+
+## Video
+
+The Azure Video Indexer service helps extract information from videos:
+
+- Facial recognition - detecting the presence of individual people in
+  the image. This requires Limited Access approval.
+- Optical character recognition - reading text in the video.
+- Speech transcription - creating a text transcript of spoken dialog in
+  the video.
+- Topics - identification of key topics discussed in the video.
+- Sentiment - analysis of how positive or negative segments within the
+  video are.
+- Labels - label tags that identify key objects or themes throughout the
+  video.
+- Content moderation - detection of adult or violent themes in the
+  video.
+- Scene segmentation - a breakdown of the video into its constituent
+  scenes.
+
+The service includes predefined models to recognize celebrities, do OCR
+,and transcription. Creating custom models is supported for recognizing
+other:
+
+- People - known images of certain people
+- Language - like specific terms
+- Brands - identify products, projects, organizations
 
 ## Exercise: Analyze Images
 

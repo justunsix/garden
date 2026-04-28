@@ -58,10 +58,9 @@ number, and food order information and put in the kitchen order.
 
 Interpreting user input is called natural language understanding (NLU).
 
-### Applications
+### Conversational Language Understanding (CLU) Applications
 
-In Azure, conversational language understanding (CLU) enables building
-an NLU component in a conversational application.
+CLU enables building an NLU component in a conversational application.
 
 The NLU model understands utterances from the NL input and maps them to
 intents that assign semantic meaning. It can recognize entities like
@@ -76,21 +75,67 @@ Examples:
 ### Customizations and Configurations
 
 Specific intents, entities, synonyms can be used to train a model to
-understand them with utterances. The trained model can be published at
-an endpoint.
+understand them with utterances. Labelled utterances are used for model
+training and evaluation. Ensure data is balanced with different
+utterances and intents and language used is varied.
 
-Question Answering: A knowledge base of question and answer pairs with
+The trained model can be published at an endpoint.
+
+Conversational Language Understanding (CLU) supports two modes for
+training models:
+
+- Standard training uses fast machine learning algorithms to quickly
+  train your models but has limitations (English only as of 2026-04-23)
+- Advanced training uses the latest in machine learning technology to
+  customize models with your data. This training level is expected to
+  show better performance scores for your models and enables you to use
+  the multilingual capabilities of CLU
+
+### Question Answering (QA)
+
+Question Answering is a knowledge base of question and answer pairs with
 NLP. Content, like an FAQ, is indexed and service is published as a REST
-endpoint.
+endpoint. Common inputs are FAQ websites, documents, and information
+brochures.
+
+Custom Question Answering projects can use active learning where
+alternate questions to relevant question answer pairs can be reviewed
+and added or manually added. Synonyms can be defined so QA knows
+multiple words have the same meaning.
+
+Synonym example
+
+``` json
+
+{
+    "synonyms": [
+        {
+            "alterations": [
+                "reservation",
+                "booking"
+                ]
+        }
+    ]
+}
+
+```
 
 ### Question Answering (QA) vs Language Understanding
 
-QA is focused on static answers from known content. For LLMs, it is
-similar to [Retrieval Augmented Generation
-(RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag) - [Retrieval
-Augmented Generation (RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23)
+QA is focused on static answers from known content with slight
+variations possible. For LLMs, it is similar to [Retrieval Augmented
+Generation (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag) -
+[Retrieval Augmented Generation
+(RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23)
 
 NLU focuses on understanding intents and performing actions.
+
+| Use | Question answering | Language understanding |
+|----|----|----|
+| Usage pattern | User submits a question, expecting an answer | User gives utterance, expecting an appropriate response or action |
+| Query processing | Use NLP to match question to answer | Use NLP to interpret the utterance, match it to an intent, and identify entities |
+| Response | Static Response to known question | Response indicates likely intent and referenced entities |
+| Client logic | Client presents answer to the user | Client responsible for performing appropriate action from detected intent |
 
 ## Custom Text Classification
 
@@ -147,6 +192,9 @@ Example SSML
 
 ## Translation
 
+Source: [Translate text and speech - Training \| Microsoft
+Learn](https://learn.microsoft.com/en-ca/training/modules/translate-text-speech/)
+
 Use cases:
 
 - Detect language and do translation, which can be one language to many
@@ -159,6 +207,23 @@ Use cases:
 Can be applied to document translation, custom translation for a domain
 or industry, and in single task or batch translation. Options includes
 accurate grammar, profanity filter.
+
+### Translate Text/Speech
+
+Azure Translator in Foundry Tools provides an API for translating text
+in supported languages:
+
+- Translate or transliterate text using the default translation model or
+  a large language model (LLM).
+- Translate documents, synchronously or asynchronously, while
+  maintaining document structure.
+- Use custom translation models to translate domain-specific terms.
+
+Inputs and outputs could be text and speech.
+
+When using speech functions, configuration through
+`SpeechTranslationConfig` object allows API connection and with other
+objects, configuration of languages, audio streams, text, and synthesis.
 
 ## Audio in Solutions
 

@@ -11,7 +11,7 @@ with labs from [Exercises for Develop AI-powered information extraction
 solutions in
 Azure](https://microsoftlearning.github.io/mslearn-ai-information-extraction/)
 
-## Multimodal Analysis, Document Intelligence
+## Multi-modal Analysis, Document Intelligence
 
 Use case: extract data and store structured data from documents with
 text, images, audio, videos.
@@ -32,14 +32,88 @@ services?
 Document intelligence and content understanding uses an existing schema
 like an invoice to extract information.
 
-### Azure AI Content Understanding
+## Azure AI Content Understanding
 
-In an Azure AI Foundry project, define a Content Understanding schema
-for information to be extracted using a content sample and analyzer
-template. An analyzer is built on the schema and can be used to analyze
-further documents of similar type.
+Source: [Azure Content Understanding documentation \| Microsoft
+Learn](https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/)
+and [Create a multimodal analysis solution with Azure Content
+Understanding -
+Training](https://learn.microsoft.com/en-ca/training/modules/analyze-content-ai/)
 
-## Using AI Content Understanding in a Solution
+Content Understanding uses AI to process and ingest different types of
+content and generates output to be uses like automation, analysis,
+search / RAG, reporting, and classification.
+
+### Content Understanding Benefits
+
+- Multi-modal and handles documents, images, videos, audio, and custom
+  formats and unstructured data
+- Can use multiple models and a schema to analyze, extract, and classify
+  data and validate the extraction and provide accuracy scores
+- Includes analyzers for scenarios like taxes, procurement, contracts,
+  call centres, media analysis and others. An analyzer is built on the
+  schema and can be custom built or use pre-built ones to analyze
+  further documents of similar type.
+
+### Content Understanding Framework
+
+``` text
+────────────────────────────────────────────────────────────────────────────
+|                  Content Understanding Framework                         |
+────────────────────────────────────────────────────────────────────────────
+   Inputs    -------------------->>   Analyzers
+────────────────────────────────────────────────────────────────────────────
+|                           |             |           |            |
+|  Documents                | Content     | Segment-  | Field      | Post-
+|  Image       ┐            | Extraction  | ation     | Extraction | process-
+|  Video       |            |─────────────|───────────|────────────| ing
+|  Audio      ─┘──────────>>|             |           |            |
+|                           |             |           |            |
+──────────────────────────────────────────────────────────────────────────────
+|                                   Analyzers                                |
+──────────────────────────────────────────────────────────────────────────────
+|                                                                           |
+| - Content Extraction          - Segmentation     - Field Extraction       |
+|   • Scale, Format              • Categorization    • Prebuilt/custom sch. |
+|   • Orientation/de-skew        • Routing           • Extractive/inferred  |
+|   • Layout/structure           • Splitting           fields               |
+|   • Speaker recognition                            • Tables/complex fld   |
+|                                                                           |
+| - Postprocessing           -----------------------------------------------|----
+|   • Confidence scores      |                                                  |
+|   • Grounding              |  Specialized AI Models  |  Foundational Models   |
+|   • Normalization          |   OCR, Layout,          |  GPT-4 family          |
+|                            |   Transcription         |  Embedding             |
+─────────────────────────────┴────────────────────┬───────────────────────────────
+                                                  │
+                                                  ▼
+────────────────────────────────────────────────────────────────────────────
+|                           Structured Output                               |
+|                   (Markdown or JSON schema format)                        |
+────────────────────────────────────────────────────────────────────────────
+                                     │
+                                     ▼
+────────────────────────────────────────────────────────────────────────────
+|   Search    Agents    Databases    Apps    Analytics                     |
+────────────────────────────────────────────────────────────────────────────
+
+```
+
+Legend / Flow:
+
+- Inputs (Documents, Image, Video, Audio) enter the Analyzer
+- Analyzers (Content Extraction, Segmentation, Field Extraction,
+  Postprocessing) operate in parallel/sequence.
+- Specialized AI Models (OCR, Layout, Transcription) & Foundational
+  Models (example GPT-4o, 4.1) support the framework.
+- Output: Structured data (Markdown/JSON).
+- Targets: Search, Agents, Databases, Apps, Analytics
+
+### Using AI Content Understanding in a Solution
+
+In an Azure Foundry project, define a Content Understanding schema for
+information to be extracted using a content sample and analyzer
+template.
 
 An application can call the REST API to:
 
@@ -86,7 +160,47 @@ During SDK calls, call the model using the model ID and get results.
 Use case: analyze and extract information from documents.
 
 Pre-built models are available like for receipt, invoice, business
-cards, and other common documents.
+cards, ID documents, government certificates, financial documents, and
+other common documents.
+
+The other models are designed to extract values from documents with less
+specific structures:
+
+- Read model - Extracts text and languages from documents. Used by other
+  pre-built models for text extraction
+- General document model - Extract text, keys, values, entities, and
+  selection marks (checkbox, radio buttons, others) from documents. Gets
+  common entities like people, locations, organizations, contact
+  information, email, URL, and others
+- Layout model - Extracts text similar to general document model and
+  structured information from documents with focus on structural layout
+  information (header, footer, columns) rather than key-value semantics
+
+### Pre-built Model Features
+
+- Text extraction. All the prebuilt models extract lines of text and
+  words from hand-written and printed text.
+
+- Key-value pairs like label and key or label and value, for example
+  weight and 30 kg
+
+- Entities. Entity types include people, locations, and dates.
+
+- Selection marks. Some models extract spans of text that indicate a
+  choice as selection marks. These marks include radio buttons and check
+  boxes.
+
+- Tables. Many models can extract tables in scanned forms included the
+  data contained in cells, the numbers of columns and rows, and column
+  and row headings. Tables with merged cells are supported.
+
+- Fields. Models trained for a specific form type identify the values of
+  a fixed set of fields. For example, the Invoice model includes
+  `CustomerName` and `InvoiceTotal` fields.
+
+  If you have an industry-specific or unique form type, you might be
+  able to obtain more reliable and predictable results by using a custom
+  model, though balance the training required for accuracy.
 
 ## Knowledge mining
 
@@ -142,14 +256,33 @@ access to a result.
 
 ### Stored Extracted Information in a Knowledge Store for Search and Processing
 
-| Projection storage | Input type                             |
-|--------------------|----------------------------------------|
-| Objects            | JSON documents                         |
-| Tables             | Relational schema for extracted fields |
-| Files              | Extracted images                       |
+| Input type                                | Projection's storage |
+|-------------------------------------------|----------------------|
+| JSON documents                            | Objects              |
+| Extracted fields with a relational schema | Tables               |
+| Extracted images                          | Files                |
 
 Projections are separate from the index and could be used for additional
 processing.
+
+## Azure AI Search
+
+The service Azure AI Search connects data to AI to help:
+
+- Ground AI in accurate data and responses
+- Access data
+- Enrich and structure content
+- Combine text search with vector search (hybrid search) for precision
+  and recall
+  - Full-text, vector, hybrid, and multimodal queries over local
+    (indexed) and remote content
+- Implement search features like relevance tuning, filters, geo-spatial
+  search, synonym mapping, and autocomplete
+- Securely access protected information
+- Monitor and measure activity
+
+Deployments include classic search and retrieval-augmented generation
+(RAG) via agentic retrieval.
 
 ## Exercise: Extract information from multimodal content
 
