@@ -159,19 +159,20 @@ during initial game run.
 - Homeworld Deserts or Kharak, Remastered Collection
 - Injustice 2
 - Mechwarrior 5 Mercenaries
-- SpellForce Conquest of Eo
 - Sins of a Solar Empire 1, 2
+- SpellForce Conquest of Eo
 - Stellaris
 - Tempest Rising
 - Total War: Pharaoh, Troy, Three Kingdoms, Warhammer 3 (Native), Attila
 - Uncharted: Legacy of Thieves
-- WARNO
 - Warhammer 40,000 Darktide
   - Multiplayer works best with VPN turned off
 - Warhammer 40,000 Dawn of War II Retribution
 - Warhammer 40,000 Rogue Trader
 - Warhammer 40,000 Space Marine 2
   - Long initial Vulkan shaders install
+- WARNO
+- Witcher 3
 - WWE 2K25
 
 ### Games that take a while on first run, like due to install, installation scripts, or shader loading
