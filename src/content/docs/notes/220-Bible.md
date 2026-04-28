@@ -6,5 +6,4 @@ title: The Bible
 
 ## See Also
 
-- [Bible Study](/garden/notes/220-bible-study) - [Bible
-  Study](id:55bdb288-7448-4cf8-a270-cd54c7d55371)
+- [Bible Study](/garden/notes/220-bible-study)

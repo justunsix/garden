@@ -12,167 +12,108 @@ title: Microsoft Technology Microsoft Power Platform Notes Microsoft
 
 ### Products
 
-- [Microsoft Dynamics](/garden/notes/005-tech-microsoft-dynamics) - [Microsoft
-  Dynamics](id:ffe5c447-66a0-4bf7-b566-a0c54d95e4cf)
-- [Microsoft Fabric](/garden/notes/005-tech-microsoft-fabric) - [Microsoft
-  Fabric](id:74adb143-2282-4633-a6ec-ae28df638881)
+- [Microsoft Dynamics](/garden/notes/005-tech-microsoft-dynamics)
+- [Microsoft Fabric](/garden/notes/005-tech-microsoft-fabric)
 - [Microsoft Fabric Real Time
-  Intelligence](/garden/notes/005-tech-microsoft-fabric-real-time-intelligence) -
-  [Microsoft Fabric Real Time
-  Intelligence](id:10be9d68-3b92-4257-a19f-b97c44d1b454)
+  Intelligence](/garden/notes/005-tech-microsoft-fabric-real-time-intelligence)
 - [Microsoft M365 Copilot](/garden/notes/006-3-tech-ai-microsoft-m365-copilot)
-- [Microsoft Outlook](/garden/notes/005-tech-microsoft-outlook) - [Microsoft
-  Outlook](id:7b63aaa4-93d8-4cc6-8d41-215f67d2776e)
-- [Microsoft SharePoint](/garden/notes/005-tech-microsoft-sharepoint) - [Microsoft
-  SharePoint](id:2c70e832-90ff-4a59-ace1-59c5879a755a)
+- [Microsoft Outlook](/garden/notes/005-tech-microsoft-outlook)
+- [Microsoft SharePoint](/garden/notes/005-tech-microsoft-sharepoint)
 - [Microsoft Windows Desktop](/garden/notes/005-tech-microsoft-windows-desktop)
-- [Microsoft Word](/garden/notes/005-tech-microsoft-word) - [Microsoft
-  Word](id:91ef78d2-8bac-4b47-9761-a27ad35e1ed3)
+- [Microsoft Word](/garden/notes/005-tech-microsoft-word)
 
 ### Courses and Training
 
 - [AI
-  Fundamentals](/garden/notes/006-3-tech-microsoft-ai-artificial-intelligence-fundamentals) -
-  [Microsoft Artificial Intelligence (AI)
-  Fundamentals](id:9db12dce-1cba-49a1-820b-bc0ba62c24da)
+  Fundamentals](/garden/notes/006-3-tech-microsoft-ai-artificial-intelligence-fundamentals)
 - [Cloud Adoption Framework
   (CAF)](id:661671e6-5811-4e12-85e0-06e99018716f) ([Cloud Adoption
   Framework](/garden/notes/004-67-tech-microsoft-cloud-adoption-framework))
-- [DevOps with GitHub](/garden/notes/005-tech-microsoft-devops-github) - [Microsoft
-  GitHub DevOps](id:3fd2590f-06c4-420a-8c54-ee75fc7466e2)
+- [DevOps with GitHub](/garden/notes/005-tech-microsoft-devops-github)
 - [DevOps with GitHub - Secure
   Development](/garden/notes/005-8-tech-microsoft-devops-github-secure-development) -
   How to develop securely in the cloud
-- [Microsoft Build 2023](/garden/notes/005-tech-microsoft-build-2023) - [Microsoft
-  Build 2023](id:43e6a78d-fb35-4f7d-865b-9756d1954950)
+- [Microsoft Build 2023](/garden/notes/005-tech-microsoft-build-2023)
 - [Microsoft Developer Day 2026 at
-  Work](/garden/notes/005-tech-microsoft-developer-day-at-work-2026) - [Microsoft
-  Developer Day 2026 at Work](id:21ab993d-0a72-465f-b2d7-3c5a10f7db16) -
+  Work](/garden/notes/005-tech-microsoft-developer-day-at-work-2026) -
   Data science flows and artificial intelligence platforms and AI
   building full stack application
-- [Microsoft Java Apps](/garden/notes/005-tech-microsoft-java-apps) - [Microsoft
-  Java Apps](id:956282c1-6520-452d-a693-350ddf4e75fa)
-- [Microsoft Power BI](/garden/notes/005-tech-microsoft-powerbi) - [Microsoft Power
-  BI](id:a624927c-e3c0-4019-9a29-55fa523ec621)
+- [Microsoft Java Apps](/garden/notes/005-tech-microsoft-java-apps)
+- [Microsoft Power BI](/garden/notes/005-tech-microsoft-powerbi)
 - [Microsoft Power BI
-  Visualizations](/garden/notes/005-tech-microsoft-powerbi-visualizations) -
-  [Microsoft Power BI
-  Visualizations](id:e7ff8bd6-bfd9-4f58-adc0-88ea56ed40d0)
-- [Secure DevOps](/garden/notes/005-8-tech-security-secure-devops) - [Secure
-  DevOps](id:9329dbfe-ee56-4bda-93d7-6bf7a8816b1d)
+  Visualizations](/garden/notes/005-tech-microsoft-powerbi-visualizations)
+- [Secure DevOps](/garden/notes/005-8-tech-security-secure-devops)
 - [Service Connections for Microsoft
-  DevOps](/garden/notes/005-8-tech-microsoft-devops-service-connections) - [Service
-  Connections for Microsoft
-  DevOps](id:583e4050-964c-4a68-b736-6ae27cb5aaff)
+  DevOps](/garden/notes/005-8-tech-microsoft-devops-service-connections)
 
 ### Microsoft Power Platform Notes
 
 - [Microsoft Power Platform](/garden/notes/005-tech-microsoft-power-platform)
   - [Microsoft Power Platform and
-    AI](/garden/notes/005-tech-microsoft-power-platform-ai) - [Microsoft Power
-    Platform and AI](id:d85c6b3c-b675-46bd-8399-7919d2a3a6b3)
+    AI](/garden/notes/005-tech-microsoft-power-platform-ai)
   - [Microsoft Power Apps User Experience and
-    Accessibility](/garden/notes/005-tech-microsoft-power-apps-user-experiences-accessibility) -
-    [Microsoft Power Apps User Experience and
-    Accessibility](id:f004146f-09a8-4e65-823d-bfe51b52353c)
-- [Microsoft Power Apps](/garden/notes/005-tech-microsoft-power-apps) - [Microsoft
-  Power Apps](id:e6a3c89b-e48f-449a-a816-ee6ac46c3912)
+    Accessibility](/garden/notes/005-tech-microsoft-power-apps-user-experiences-accessibility)
+- [Microsoft Power Apps](/garden/notes/005-tech-microsoft-power-apps)
   - [Microsoft Power Apps Canvas
-    App](/garden/notes/005-tech-microsoft-power-apps-canvas) - [Microsoft Power
-    Apps - Canvas App](id:d657cd62-0c79-43b5-8f03-e9eda51cd1d0)
+    App](/garden/notes/005-tech-microsoft-power-apps-canvas)
   - [Microsoft Power Apps - Create an
-    App](/garden/notes/005-tech-microsoft-power-apps-create-an-app) - [Microsoft
-    Power Apps - Create an App](id:6e61b1f5-6e15-4671-8ffa-2535c424b9e6)
+    App](/garden/notes/005-tech-microsoft-power-apps-create-an-app)
 - [Microsoft Power Automate](/garden/notes/005-tech-microsoft-power-automate)
   - [Microsoft Power Platform Virtual Training Day - Automate Business
-    Processes](/garden/notes/005-tech-microsoft-power-automate-business-processes) -
-    [Microsoft Power Platform Virtual Training Day - Automate Business
-    Processes](id:e54cbe89-e3f0-4aa2-adb3-305b83d9e698)
+    Processes](/garden/notes/005-tech-microsoft-power-automate-business-processes)
   - [Power Automate - Populate an Office
-    Template](/garden/notes/005-tech-microsoft-power-automate-populate-office-template) -
-    [Power Automate - Populate an Office
-    Template](id:1623df91-3319-45d2-acef-27e1d1cf9d07)
+    Template](/garden/notes/005-tech-microsoft-power-automate-populate-office-template)
   - [Power Automate - Extracting Data from
-    Files](/garden/notes/005-tech-microsoft-power-automate-extracting-data-from-files) -
-    [Power Automate - Extracting Data from
-    Files](id:ddd4e445-43f4-4886-99f8-d2082717976d)
-- [Microsoft Dataverse](/garden/notes/005-tech-microsoft-dataverse) - [Microsoft
-  Dataverse](id:cc998824-a24c-43fa-a060-0dbc98a7183d)
+    Files](/garden/notes/005-tech-microsoft-power-automate-extracting-data-from-files)
+- [Microsoft Dataverse](/garden/notes/005-tech-microsoft-dataverse)
 - [Microsoft Power Platform
-  Architecture](/garden/notes/005-tech-microsoft-power-platform-architecture) -
-  [Microsoft Power Platform
-  Architecture](id:7a2f5379-f2f4-4788-9d52-46bb0193b3b5)
+  Architecture](/garden/notes/005-tech-microsoft-power-platform-architecture)
 - [Microsoft Power Platform Learning
-  Plan](/garden/notes/005-tech-microsoft-power-platform-learning-plan) - [Microsoft
-  Power Platform Learning Plan](id:9a5c2937-ddf4-4d6b-87f2-08182989052a)
+  Plan](/garden/notes/005-tech-microsoft-power-platform-learning-plan)
 
 ### Microsoft Azure Technologies
 
-- [Microsoft Azure](/garden/notes/004-67-tech-microsoft-azure) - [Microsoft
-  Azure](id:82cd7fee-3e7c-4c71-ae88-7f6b6ce9cfdc)
+- [Microsoft Azure](/garden/notes/004-67-tech-microsoft-azure)
   - [Azure Application
-    Gateway](/garden/notes/004-67-tech-microsoft-azure-application-gateway) -
-    [Azure Application Gateway](id:049a0ca2-8783-4db1-b754-4793123fd950)
-  - [Azure DevOps](/garden/notes/004-67-tech-microsoft-azure-devops) - [Azure
-    DevOps](id:690360f5-6e57-40ac-b612-d60fc706e0d9)
+    Gateway](/garden/notes/004-67-tech-microsoft-azure-application-gateway)
+  - [Azure DevOps](/garden/notes/004-67-tech-microsoft-azure-devops)
   - [Azure Data Fundamentals](id:9f5b36d6-5b23-4e92-ba28-0dda0da11b6d)
     ([Azure Data
     Fundamentals](/garden/notes/004-67-tech-microsoft-azure-data-fundamentals))
   - [Azure Data Factory](/garden/notes/004-67-tech-microsoft-azure-data-factory)
-  - [Azure Logic App](/garden/notes/004-67-tech-microsoft-azure-logic-app) - [Azure
-    Logic App](id:c0f4f9c9-a550-46c1-965a-43e6ccbf3348)
+  - [Azure Logic App](/garden/notes/004-67-tech-microsoft-azure-logic-app)
   - [Azure Hybrid
-    Infrastructure](/garden/notes/004-67-tech-microsoft-azure-hybrid-infrastructure) -
-    [Azure Hybrid
-    Infrastructure](id:80b03a49-4c14-4c35-855d-f8dff5f535ad)
-  - [Microsoft Azure OpenAI](/garden/notes/006-3-tech-ai-openai-azure) - [Microsoft
-    Azure OpenAI](id:5f3fb72d-cc33-4c99-b553-5962dc6909e7)
+    Infrastructure](/garden/notes/004-67-tech-microsoft-azure-hybrid-infrastructure)
+  - [Microsoft Azure OpenAI](/garden/notes/006-3-tech-ai-openai-azure)
   - [Azure SQL Database](/garden/notes/004-67-tech-microsoft-azure-sql-database)
   - [Azure Virtual
-    Machine](/garden/notes/004-67-tech-microsoft-azure-virtual-machine) - [Azure
-    Virtual Machine](id:d35fe92e-9ada-4e3a-b191-819cd44a8330)
-  - [Azure Network](/garden/notes/004-67-tech-microsoft-azure-network) - [Azure
-    Network](id:6f1f7de9-782d-403e-9df6-a9235a913a6d)
-  - [Azure Monitor](/garden/notes/004-67-tech-microsoft-azure-monitor) - [Microsoft
-    Technology - Azure Monitor](id:06cce72d-182c-4956-ace3-7c4281dc93b2)
+    Machine](/garden/notes/004-67-tech-microsoft-azure-virtual-machine)
+  - [Azure Network](/garden/notes/004-67-tech-microsoft-azure-network)
+  - [Azure Monitor](/garden/notes/004-67-tech-microsoft-azure-monitor)
   - [Azure Resource
-    Inventory](/garden/notes/004-67-tech-microsoft-azure-resource-inventory) -
-    [Azure Resource Inventory](id:83fd5c28-14e6-4f7b-b9db-6baaeb64f3bb)
+    Inventory](/garden/notes/004-67-tech-microsoft-azure-resource-inventory)
 
 ### Microsoft Artificial Intelligence
 
 See also AI related items in other sections
 
 - [Introduction to AI in Microsoft Azure
-  AI-900](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
-  [Introduction to AI in Microsoft Azure
-  AI-900](id:dd87d682-2c98-4272-acb2-eafa6ebabf78)
+  AI-900](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900)
 - [Microsoft Artificial Intelligence (AI)
-  Fundamentals](/garden/notes/006-3-tech-microsoft-ai-artificial-intelligence-fundamentals) -
-  [Microsoft Artificial Intelligence (AI)
-  Fundamentals](id:9db12dce-1cba-49a1-820b-bc0ba62c24da)
+  Fundamentals](/garden/notes/006-3-tech-microsoft-ai-artificial-intelligence-fundamentals)
 - [Microsoft Power Platform and
-  AI](/garden/notes/005-tech-microsoft-power-platform-ai) - [Microsoft Power
-  Platform and AI](id:d85c6b3c-b675-46bd-8399-7919d2a3a6b3)
+  AI](/garden/notes/005-tech-microsoft-power-platform-ai)
 - [Microsoft AI Chatbots in Lowcode Apps and
-  Websites](/garden/notes/006-3-tech-microsoft-ai-chatbots-in-lowcode-apps-and-websites) -
-  [Microsoft AI Chatbot in Lowcode Apps and
-  Websites](id:8d906108-2a1c-4768-9696-2f48560c3711)
+  Websites](/garden/notes/006-3-tech-microsoft-ai-chatbots-in-lowcode-apps-and-websites)
 
 #### Work Hackathon 2024 Learning Paths
 
 - [Microsoft Azure AI Fundamentals, Generative
-  AI](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
-  [Microsoft Azure AI Fundamentals: Generative
-  AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3)
+  AI](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai)
 - [Create Power Platform solutions with AI and
-  Copilot](/garden/notes/005-tech-microsoft-power-platform-ai-solutions-and-copilot) -
-  [Create Power Platform solutions with AI and
-  Copilot](id:09ea5ea0-19da-40ca-bb27-f78ed8938e2f)
+  Copilot](/garden/notes/005-tech-microsoft-power-platform-ai-solutions-and-copilot)
 - [AI Builder and Power Platform Apps and
-  Automate](/garden/notes/006-3-tech-microsoft-ai-builder-and-power-platform) - [AI
-  Builder and Power Platform Apps and
-  Automate](id:1412a840-ce18-41a6-b292-ce89c70562f4)
+  Automate](/garden/notes/006-3-tech-microsoft-ai-builder-and-power-platform)
 
 1.  Development Resource Guides
 

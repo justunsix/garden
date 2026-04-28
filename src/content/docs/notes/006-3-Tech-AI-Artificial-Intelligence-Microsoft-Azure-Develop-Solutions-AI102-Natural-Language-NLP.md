@@ -278,17 +278,10 @@ requests.
 ## See Also
 
 - [AI Speech and in
-  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-speech) -
-  [AI Speech and in Azure](id:25041740-3fbb-4df4-9637-a23ee364ac68)
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-speech)
 - [Natural Language Processing (NLP) Concepts and in
-  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-natural-language-processing-nlp) -
-  [Natural Language Processing (NLP) Concepts and in
-  Azure](id:b71bbd44-c8d5-4221-b9c9-ec80f39e4d38)
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-natural-language-processing-nlp)
 - [Develop AI solutions in Azure
-  AI-102](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102) -
-  [Develop AI solutions in Azure
-  AI-102](id:dc608ccd-b4bc-4820-8bfa-e522c827e6f8)
+  AI-102](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102)
 - [Text to Speech (TTS) and Speech to Text
-  (STT)](/garden/notes/004-data-processing-tech-data-science-text-to-speech-tts-speech-to-text-stt) -
-  [Text to Speech (TTS) and Speech to Text
-  (STT)](id:f7d86fd7-47ba-49c0-bb56-b5e7e4ee3341)
+  (STT)](/garden/notes/004-data-processing-tech-data-science-text-to-speech-tts-speech-to-text-stt)

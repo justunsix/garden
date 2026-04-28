@@ -26,6 +26,5 @@ conversions and other configurations.
 ## See Also
 
 - [ffmpeg - video converter and tool
-  Snippets](/garden/notes/005-computer-snippets-ffmpeg) - [ffmpeg - video converter
-  and tool Snippets](id:7dd8e1e7-2d9a-4a67-860f-250205d1286f) - Convert
+  Snippets](/garden/notes/005-computer-snippets-ffmpeg) - Convert
   Video to GIF using ffmpeg

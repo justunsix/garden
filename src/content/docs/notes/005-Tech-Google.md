@@ -6,14 +6,12 @@ title: Google Technology
 
 ## See Also
 
-- [Google Colaboratory](/garden/notes/005-tech-google-colab) - [Google
-  Colaboratory](id:30915df2-3cb0-4109-9151-816d6638065f)
+- [Google Colaboratory](/garden/notes/005-tech-google-colab)
 
 ### Google Ads
 
 - [Tools to Use with Google
-  Ads](/garden/notes/650-business-comms-marketing-google-ads-tools) - [Tools to Use
-  with Google Ads](id:cb9812ef-2954-4dbb-9062-b371721536cb)
+  Ads](/garden/notes/650-business-comms-marketing-google-ads-tools)
 - [Google Ads Campaign Plan for Ad Assets
   Template](/garden/notes/650-business-comms-marketing-template-google-ads-assets) -
   [Google Ads Campaign Plan for Ad Assets

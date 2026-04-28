@@ -10,41 +10,29 @@ title: Health Education
 
 - [Investigating Manitoba's physical education policy on students'
   physical
-  activity](/garden/notes/610-health-edu-public-health-investigating-effect-of-manitoba-education-policy-on-physical-activity) -
-  [Investigating the effect of Manitoba's province-wide physical
-  education policy on secondary school students' physical activity: a
-  natural experiment](id:9b4ae30f-9b15-4c7c-8fb1-c0c261c2f54c)
+  activity](/garden/notes/610-health-edu-public-health-investigating-effect-of-manitoba-education-policy-on-physical-activity)
 - [CARD System for Better Vaccination
-  Experiences](/garden/notes/610-health-edu-pho-immunization-card-system) - [CARD
-  System for Better Vaccination
-  Experiences](id:6f72a3f8-5b32-441a-b85d-ace4cf1598ea)
+  Experiences](/garden/notes/610-health-edu-pho-immunization-card-system)
 
 ### Medical
 
 - [Role of sodium-glucose linked co-transporter (SGLT2) in the role of
   Type 2 Diabetes
-  Mellitus](/garden/notes/610-health-edu-sodium-glucose-linked-co-transporter-sglt2-in-type-2-diabetes-mellitus) -
-  [Role of sodium-glucose linked co-transporter (SGLT2) in the role of
-  Type 2 Diabetes Mellitus](id:ed58b1f0-b080-4a14-b487-a9f0ecf2d6e0)
+  Mellitus](/garden/notes/610-health-edu-sodium-glucose-linked-co-transporter-sglt2-in-type-2-diabetes-mellitus)
 - [Introduction to Human
-  Physiology](/garden/notes/610-health-edu-human-physiology) - [Introduction to
-  Human Physiology](id:8a8b161a-d9db-4f9c-a96b-8ccbd26aaddd)
+  Physiology](/garden/notes/610-health-edu-human-physiology)
 
 #### Mini Medical School
 
 Archived, some sources are not openly available, though some are
 
-- [Mini Medical School](/garden/notes/610-health-edu-mini-medschool) - [Mini
-  Medical School](id:57797965-c1ab-4632-8f3a-9822a14256e7)
+- [Mini Medical School](/garden/notes/610-health-edu-mini-medschool)
 
 ### First Aid
 
-- [First Aid](/garden/notes/610-health-edu-first-aid) - [First
-  Aid](id:6cb48881-9290-43dd-945b-efaf6c5a7ecd)
+- [First Aid](/garden/notes/610-health-edu-first-aid)
 - [First Aid for Allergies and Stomach
-  Upset](/garden/notes/610-health-edu-first-aid-allergies-stomach-upset) - [First
-  Aid for Allergies and Stomach
-  Upset](id:4bdfb968-21ca-45ad-8fc8-e145ab86082c)
+  Upset](/garden/notes/610-health-edu-first-aid-allergies-stomach-upset)
 
 ### Personal Health
 

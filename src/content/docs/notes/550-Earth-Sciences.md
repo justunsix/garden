@@ -6,25 +6,16 @@ title: Earth Sciences, Environment and Nature
 
 ## See Also
 
-- [Bike, Bicycle](/garden/notes/380-transportation-environment-bike) - [Bike,
-  Bicycle](id:698e8935-0f72-40f0-bf2d-a1b0086029e0)
+- [Bike, Bicycle](/garden/notes/380-transportation-environment-bike)
 - [Climate Change](/garden/notes/550-earth-sciences-environment-climate-change)
 - [Climate change pension fund appeal
-  example](/garden/notes/550-earth-sciences-environment-climate-change-pension-fund-appeal) -
-  [Climate Change Pension Fund Appeal
-  Example](id:883985f5-a905-48d7-ad46-551ad77fc308)
+  example](/garden/notes/550-earth-sciences-environment-climate-change-pension-fund-appeal)
 - [Environmental
-  Transportation](/garden/notes/380-transportation-environment-transportation) -
-  [Environmental
-  Transportation](id:454b25c2-5427-4e8a-9a82-836fd766b19e) - commuting,
+  Transportation](/garden/notes/380-transportation-environment-transportation) - commuting,
   GHGs reduction and health for transit
 - [Forestry Volunteer](/garden/notes/360-social-services-volunteer-forestry) -
   Community stewardship in Toronto
 - [Minimalist, Zero Waste
-  Lifestyle](/garden/notes/158-psychology-applied-environment-minimalist-lifestyle) -
-  [Minimalist, Zero Waste
-  Lifestyle](id:df69cada-d197-4508-9ae0-12affb79dfd0)
-- [Remote Work](/garden/notes/650-business-environment-remote-work) - [Remote
-  Work](id:9968f136-4607-4993-a4a0-be9d51433b4e)
-- [Zero Waste](/garden/notes/550-earth-sciences-environment-zero-waste) - [Zero
-  Waste](id:b06838f3-91c7-44a8-b9e6-e432b9965be7)
+  Lifestyle](/garden/notes/158-psychology-applied-environment-minimalist-lifestyle)
+- [Remote Work](/garden/notes/650-business-environment-remote-work)
+- [Zero Waste](/garden/notes/550-earth-sciences-environment-zero-waste)

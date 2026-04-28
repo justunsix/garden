@@ -18,8 +18,7 @@ on these topics and more:
 
 ## See Also
 
-- [Home Savings](/garden/notes/332-finance-home-savings) - [Home
-  Savings](id:07ea5c21-c615-44e5-ac6d-a25ea8c17b39) - First Home Savings
+- [Home Savings](/garden/notes/332-finance-home-savings) - First Home Savings
   Account (FHSA)
 
 ### Resources

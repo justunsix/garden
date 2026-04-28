@@ -100,20 +100,14 @@ will prevent the cluster from scaling to 0 nodes.
 ## Course Modules
 
 - [Explore and configure the Azure Machine Learning
-  workspace](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-design-implement-data-science-dp-100-machine-learning) -
-  [Explore and configure the Azure Machine Learning
-  workspace](id:e2ac631f-68af-42d2-af70-6297a9f575e6) covers
+  workspace](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-design-implement-data-science-dp-100-machine-learning) covers
   introduction to data management, developer / data scientist tools, and
   compute and environment management
 - [Model Training with Azure Machine Learning,
-  MLflow](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-design-implement-data-science-dp-100-model-training-mlflow) -
-  [Model Training with Azure Machine Learning,
-  MLflow](id:f3e103ad-6b0b-49f2-8afa-66c4c55f17d5) covers MLflow
+  MLflow](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-design-implement-data-science-dp-100-model-training-mlflow) covers MLflow
   experiment and job management, hyperparameter tuning, and pipelines.
 - [Deploy and Use Models with Azure Machine
-  Learning](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-design-implement-data-science-dp-100-model-deploy-and-use) -
-  [Deploy and Use Models with Azure Machine
-  Learning](id:582cfcae-bd6b-41ff-9601-1576eb726d90) covers registration
+  Learning](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-design-implement-data-science-dp-100-model-deploy-and-use) covers registration
   of models, Responsible AI, management of endpoints, and generative
   models.
 

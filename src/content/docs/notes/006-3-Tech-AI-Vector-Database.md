@@ -82,6 +82,4 @@ given to a LLM for processing to give answers
 ## See Also
 
 - [Retrieval Augmented Generation
-  (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag) -
-  [Retrieval Augmented Generation
-  (RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23)
+  (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag)

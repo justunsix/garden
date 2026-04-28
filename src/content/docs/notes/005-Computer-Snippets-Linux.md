@@ -435,9 +435,7 @@ DISPLAY CHANNEL('')
 ### System Administration
 
 See [DevOps Bootcamp - Operating Systems and Linux
-Basics](/garden/notes/005-computer-tech-devops-bootcamp-twn-operating-systems-and-linux-basics) -
-[DevOps Bootcamp - Operating Systems and Linux
-Basics](id:e37ac848-6bb2-4f18-afcf-71c6a7388961) for common commands and
+Basics](/garden/notes/005-computer-tech-devops-bootcamp-twn-operating-systems-and-linux-basics) for common commands and
 file system structure.
 
 ### Useful Concepts for Linux/Unix
@@ -623,8 +621,7 @@ recursive flag
 
 ## sed (stream editor)
 
-Main article: [sed Snippets](/garden/notes/005-computer-snippets-sed) - [sed
-Snippets](id:dfacdd4d-a4e5-4f51-b672-0b7a8a873468)
+Main article: [sed Snippets](/garden/notes/005-computer-snippets-sed)
 
 ## source, environment variables
 
@@ -738,26 +735,15 @@ Similar to:
 ## See Also
 
 - [awk - text processing and pattern
-  scanning](/garden/notes/005-computer-snippets-awk) - [awk Snippets - text
-  processing and pattern
-  scanning](id:105e4b70-09da-40e7-9d7f-3798899a3b00)
+  scanning](/garden/notes/005-computer-snippets-awk)
 - [DevOps Bootcamp - Operating Systems and Linux
-  Basics](/garden/notes/005-computer-tech-devops-bootcamp-twn-operating-systems-and-linux-basics) -
-  [DevOps Bootcamp - Operating Systems and Linux
-  Basics](id:e37ac848-6bb2-4f18-afcf-71c6a7388961)
-- [fzf Snippets](/garden/notes/005-computer-snippets-fzf) - [fzf Fuzzy Finder
-  Snippets](id:1aa7c311-74a6-4304-86f1-4c3676ad2498)
-- [GNU Info Snippets](/garden/notes/005-computer-snippets-info) - [GNU Info
-  Snippets](id:9421a803-3ff4-4a17-87a5-322cabb371e3)
+  Basics](/garden/notes/005-computer-tech-devops-bootcamp-twn-operating-systems-and-linux-basics)
+- [fzf Snippets](/garden/notes/005-computer-snippets-fzf)
+- [GNU Info Snippets](/garden/notes/005-computer-snippets-info)
 - [Linux Terminal Shortcuts
-  Readline](/garden/notes/005-computer-shortcuts-linux-terminal-gnu-readline) -
-  [Linux Terminal Shortcuts - GNU
-  Readline](id:bf3b61d8-23cc-4959-a5c7-17041d7e43f4)
-- [Nushell Snippets](/garden/notes/005-computer-snippets-nushell) - [Nushell
-  Snippets](id:8f076960-3e23-4f1c-a53e-239ec3a61cb4)
-- [Regex Regular Expression Snippets](/garden/notes/005-computer-snippets-regex) -
-  [Regex Regular Expression
-  Snippets](id:1ff1942e-2077-44a4-9ab1-38401efb2631)
+  Readline](/garden/notes/005-computer-shortcuts-linux-terminal-gnu-readline)
+- [Nushell Snippets](/garden/notes/005-computer-snippets-nushell)
+- [Regex Regular Expression Snippets](/garden/notes/005-computer-snippets-regex)
 
 ### Resources
 

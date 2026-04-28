@@ -19,10 +19,8 @@ use cases for Go
 
 ## See Also
 
-- [Golang Libraries](/garden/notes/005-1-tech-golang-libraries) - [Golang
-  Libraries](id:bec30a9d-eaa6-4237-811b-2cb6ed503832)
-- [Golang Snippets](/garden/notes/005-computer-snippets-golang) - [Golang
-  Snippets](id:68fa2f78-3752-4893-93a9-0979bee579f4) for syntax, example
+- [Golang Libraries](/garden/notes/005-1-tech-golang-libraries)
+- [Golang Snippets](/garden/notes/005-computer-snippets-golang) for syntax, example
   code
 
 ### Resources

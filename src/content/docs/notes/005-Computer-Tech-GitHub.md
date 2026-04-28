@@ -17,13 +17,9 @@ otherwise you may get an `vfs` error.
 
 ## See Also
 
-- [GitHub Actions](/garden/notes/005-computer-tech-github-actions) - [GitHub
-  Actions](id:d31aae40-327e-4fa0-ac61-75fe83907cf1)
+- [GitHub Actions](/garden/notes/005-computer-tech-github-actions)
 - [GitHub Copilot Workspace Index and Retrieval Augmented Generation
-  (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-github-copilot-workspace-index) -
-  [GitHub Copilot Workspace Index and Retrieval Augmented Generation
-  (RAG)](id:1ae880da-6df5-4bcb-9463-27955b9f1654)
+  (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-github-copilot-workspace-index)
 - [Microsoft GitHub
-  Copilot](/garden/notes/006-3-tech-ai-microsoft-github-copilot) - [Microsoft
-  GitHub Copilot](id:871c6593-9b29-489e-ab0d-3a999bc1531a)
+  Copilot](/garden/notes/006-3-tech-ai-microsoft-github-copilot)
 - [Microsoft GitHub DevOps](/garden/notes/005-tech-microsoft-devops-github)

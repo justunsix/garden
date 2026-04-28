@@ -24,15 +24,12 @@ The method uses [Retrieval Augmented Generation
 Augmented Generation (RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23)
 using a local environment setup in [Local AI with Retrieval Augmented
 Generation (RAG) using Open WebUI and
-Ollama](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama) -
-[Local AI with Retrieval Augmented Generation (RAG) using Open WebUI and
-Ollama](id:19319abe-7f4f-4eb7-a953-5f3fc197cf34). The system is used
+Ollama](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama). The system is used
 for:
 
 1.  Store data in way that can be easier to search through for relevant
     information in your questions. The database type for RAG is a
-    [Vector Database](/garden/notes/006-3-tech-ai-vector-database) - [Vector
-    Database](id:67032821-f795-4059-bc63-ae4adada458a)
+    [Vector Database](/garden/notes/006-3-tech-ai-vector-database)
 2.  The relevant data is given to an AI to read through and then provide
     a response.
 

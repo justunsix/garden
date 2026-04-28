@@ -28,7 +28,5 @@ espanso install basic-emojis
 
 ## See Also
 
-- [Espanso Shortcuts](/garden/notes/005-computer-shortcuts-espanso) - [Espanso
-  Shortcuts](id:0e8aa619-3fec-4b52-8222-df1f03cbd065)
-- [Text Expander Software](/garden/notes/005-tech-text-expander-software) - [Text
-  Expander Software](id:ffce1ec3-4f1c-458f-9fe2-f93b78b46a49)
+- [Espanso Shortcuts](/garden/notes/005-computer-shortcuts-espanso)
+- [Text Expander Software](/garden/notes/005-tech-text-expander-software)

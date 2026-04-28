@@ -81,7 +81,5 @@ into naturally.
 ## See Also
 
 - [NCCP Psychology of
-  Performance](/garden/notes/158-psychology-applied-sport-nccp-psychology-of-performance) -
-  [NCCP Psychology of
-  Performance](id:e050605d-0667-45cc-9c47-493c8ffd789a) - including goal
+  Performance](/garden/notes/158-psychology-applied-sport-nccp-psychology-of-performance) - including goal
   and process goals

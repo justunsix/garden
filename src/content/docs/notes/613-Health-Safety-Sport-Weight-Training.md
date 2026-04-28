@@ -8,13 +8,8 @@ title: Weight Training
 ## See Also
 
 - [Benefits of Weight and Resistance
-  Training](/garden/notes/613-health-safety-sport-weight-training-benefits) -
-  [Benefits of Weight and Resistance
-  Training](id:1c1fdfb5-39f6-43e2-8124-d0c0419d5748)
+  Training](/garden/notes/613-health-safety-sport-weight-training-benefits)
 - [A Physical Education
-  (Book)](/garden/notes/613-health-safety-sport-weight-training-book-a-physical-education) -
-  [A Physical Education (Book)](id:9d5bc361-ab0c-4b22-b984-19abff28f066)
+  (Book)](/garden/notes/613-health-safety-sport-weight-training-book-a-physical-education)
 - [LIFTOFF: Couch to Barbell
-  (Book)](/garden/notes/613-health-safety-sport-weight-training-book-liftoff-couch-to-barbell) -
-  [LIFTOFF: Couch to Barbell
-  (Book)](id:08050311-3d44-4c52-a619-de4b2243a4d9)
+  (Book)](/garden/notes/613-health-safety-sport-weight-training-book-liftoff-couch-to-barbell)

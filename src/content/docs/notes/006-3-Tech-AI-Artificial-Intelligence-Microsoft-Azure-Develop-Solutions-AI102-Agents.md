@@ -380,16 +380,10 @@ sequential order.
 
 ## See Also
 
-- [Mycroft Artificial Intelligence (AI)](/garden/notes/006-3-tech-ai-mycroft) -
-  [Mycroft Artificial Intelligence
-  (AI)](id:f8db3814-1116-4010-9e4a-ba5828dc4c34)
+- [Mycroft Artificial Intelligence (AI)](/garden/notes/006-3-tech-ai-mycroft)
 - [Develop AI solutions in Azure
-  AI-102](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102) -
-  [Develop AI solutions in Azure
-  AI-102](id:dc608ccd-b4bc-4820-8bfa-e522c827e6f8)
-- [Artificial Intelligence (AI) Agents](/garden/notes/006-3-tech-ai-agents) -
-  [Artificial Intelligence (AI)
-  Agents](id:a33f8c71-f312-43a0-8e1b-1023e2fd020c)
+  AI-102](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102)
+- [Artificial Intelligence (AI) Agents](/garden/notes/006-3-tech-ai-agents)
 
 ### Resources
 

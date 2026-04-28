@@ -7,6 +7,4 @@ title: Conscious mental processes and intelligence
 ## See Also
 
 - [Secret to Concentration - How to increase your attention
-  span](/garden/notes/153-conscious-mental-intelligence-concentration-how-to-increase-attention-span) -
-  [Secret to Concentration - How to increase your attention
-  span](id:7806efe1-1931-4c2c-8a1c-8b11c8eed8c3)
+  span](/garden/notes/153-conscious-mental-intelligence-concentration-how-to-increase-attention-span)

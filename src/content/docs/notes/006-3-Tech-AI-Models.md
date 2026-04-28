@@ -134,9 +134,7 @@ with some personal notes
 ## See also
 
 - [Deepseek R1 Locally, Open-Source Ai Tools, ollama, automation,
-  RAG](/garden/notes/006-3-tech-ai-models-deepseek-local-open-source-ai-tools-automation-rag) -
-  [Deepseek R1 Locally, Open-Source Ai Tools, ollama, automation,
-  RAG](id:4ca0b4b4-ef4e-4eeb-b4a6-7537215aca53)
+  RAG](/garden/notes/006-3-tech-ai-models-deepseek-local-open-source-ai-tools-automation-rag)
 
 ### Resources
 

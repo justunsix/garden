@@ -18,6 +18,4 @@ Chart template to help track taking medication
 
 ## See Also
 
-- [Pharmacology and therapeutics](/garden/notes/615-pharmacology-therapeutics) -
-  [Pharmacology and
-  therapeutics](id:adb71a8b-61f5-4af0-a75e-1451282d5341)
+- [Pharmacology and therapeutics](/garden/notes/615-pharmacology-therapeutics)

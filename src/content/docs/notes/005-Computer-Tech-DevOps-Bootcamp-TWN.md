@@ -89,12 +89,9 @@ Nana](https://www.techworld-with-nana.com/devops-bootcamp)
 
 - Git repo of demonstrations:
   <https://gitlab.com/twn-devops-bootcamp/latest>
-- [DevOps Learning](/garden/notes/005-computer-tech-devops-learning) - [DevOps
-  Learning Resources](id:0e8915ba-a9e8-4068-86f4-40d62165feee)
+- [DevOps Learning](/garden/notes/005-computer-tech-devops-learning)
 - [How to Learn New Technologies as a DevOps
-  Engineer](/garden/notes/370-education-learning-how-to-learn-new-technologies-devops-engineer) -
-  [How I learn new technologies as a DevOps Engineer (without being
-  overwhelmed)](id:066aa3a4-b95c-4068-9e5e-660060bf7ed3)
+  Engineer](/garden/notes/370-education-learning-how-to-learn-new-technologies-devops-engineer)
 
 ## Bootcamp Overview
 

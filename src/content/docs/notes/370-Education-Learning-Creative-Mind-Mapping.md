@@ -8,8 +8,7 @@ title: Mind Mapping
 
 - [PlantUML](/garden/notes/005-1-tech-plantuml)
 - [DevOps Automation
-  Mindmap](/garden/notes/005-computer-tech-devops-automation-mindmap) - [DevOps
-  Automation Mindmap](id:61db8dc3-538b-4950-9260-1b3ec8e5ca30)
+  Mindmap](/garden/notes/005-computer-tech-devops-automation-mindmap)
 
 ### Resources
 

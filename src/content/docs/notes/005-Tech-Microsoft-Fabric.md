@@ -87,10 +87,6 @@ Central interface in Fabric to access all its features.
 ## See Also
 
 - [Data Basics and Use Cases with Microsoft
-  Fabric](/garden/notes/004-data-processing-tech-data-science-use-cases-microsoft-fabric) -
-  [Data Basics and Use Cases with Microsoft
-  Fabric](id:444c1c69-ea8b-4858-a008-2ce3a61ae4ee)
+  Fabric](/garden/notes/004-data-processing-tech-data-science-use-cases-microsoft-fabric)
 - [Data Warehouse vs Data Lakehouse vs Data
-  Lake](/garden/notes/005-tech-database-vs-data-warehouse-lakehouse-lake) - [Data
-  Warehouse vs Data Lakehouse vs Data
-  Lake](id:b3f202ea-9b8a-434b-b5ad-096a321e117e)
+  Lake](/garden/notes/005-tech-database-vs-data-warehouse-lakehouse-lake)

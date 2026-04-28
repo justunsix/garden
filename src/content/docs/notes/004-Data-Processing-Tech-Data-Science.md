@@ -6,25 +6,14 @@ title: Data Science
 
 ## See Also
 
-- [Artificial Intelligence](/garden/notes/006-3-tech-ai-artificial-intelligence) -
-  [Artificial Intelligence
-  (AI)](id:bfe7af6c-9a91-4f3e-a98c-60ed67b8285a)
+- [Artificial Intelligence](/garden/notes/006-3-tech-ai-artificial-intelligence)
 - [Data Basics and Use Cases with Microsoft
-  Fabric](/garden/notes/004-data-processing-tech-data-science-use-cases-microsoft-fabric) -
-  [Data Basics and Use Cases with Microsoft
-  Fabric](id:444c1c69-ea8b-4858-a008-2ce3a61ae4ee)
+  Fabric](/garden/notes/004-data-processing-tech-data-science-use-cases-microsoft-fabric)
 - [Design and Implement Data Science Solution in Azure
-  DP-100](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-design-implement-data-science-dp-100) -
-  [Design and Implement Data Science Solution in Azure
-  DP-100](id:276d06c2-5240-4f8f-bbb3-c964cecfce30)
+  DP-100](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-design-implement-data-science-dp-100)
 - [FOSS Data Science Alternatives - Desktop Data
-  Management](/garden/notes/004-data-processing-tech-data-science-foss-alternatives) -
-  [FOSS Data Science Alternatives - Desktop Data
-  Management](id:8fcd0a67-39a9-442b-b350-33a05dd60d9c)
+  Management](/garden/notes/004-data-processing-tech-data-science-foss-alternatives)
 - [Introduction to Data Science with
-  Pandas](/garden/notes/004-data-processing-tech-data-science-pandas-workshop) -
-  [Introduction to Data Science with
-  Pandas](id:8f735eb2-0e76-4e57-b2f0-809a14e63fc7)
+  Pandas](/garden/notes/004-data-processing-tech-data-science-pandas-workshop)
 - [Generating Synthetic
-  Data](/garden/notes/004-data-processing-tech-data-science-generating-synthetic-data) -
-  [Generating Synthetic Data](id:7afc2137-0042-42d8-8fce-2c07ba852c76)
+  Data](/garden/notes/004-data-processing-tech-data-science-generating-synthetic-data)

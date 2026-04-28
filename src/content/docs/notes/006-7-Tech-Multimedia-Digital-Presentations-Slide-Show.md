@@ -48,8 +48,7 @@ Examples by RevealJS HTML presentations by Pamela Fox
 
 ## See Also
 
-- [Pandoc Snippets](/garden/notes/005-computer-snippets-pandoc) - [Pandoc
-  Snippets](id:56030404-6d4a-453b-9763-ceb5f016124b) for more examples
+- [Pandoc Snippets](/garden/notes/005-computer-snippets-pandoc) for more examples
   on using pandoc to create presentations
 
 ### References

@@ -23,15 +23,10 @@ compute resources which can be supported with human supervision.
 ## See Also
 
 - [Agent Operations, Checking and Monitoring
-  Them](/garden/notes/006-3-tech-ai-agents-operations-checking-monitoring) - [Agent
-  Operations, Checking and Monitoring
-  Them](id:1c7b17d9-89dd-4068-9ec0-fefef15912e5) - evaluating AI systems
-- [AI Prompts](/garden/notes/006-3-tech-ai-prompts) - [AI
-  Prompts](id:0a00398f-f4d9-42ae-8830-c37fa9abdc8f)
+  Them](/garden/notes/006-3-tech-ai-agents-operations-checking-monitoring) - evaluating AI systems
+- [AI Prompts](/garden/notes/006-3-tech-ai-prompts)
 - [Develop AI agents on
-  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-agents) -
-  [Agents in Azure AI
-  Solutions](id:eae5da2e-f013-42af-8128-cc2ae5c28b0f)
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-agents)
 - [Skills to Build AI Agents](/garden/notes/006-3-tech-ai-agents-career-skills)
 
 ### Resources

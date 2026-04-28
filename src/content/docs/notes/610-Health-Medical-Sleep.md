@@ -72,14 +72,11 @@ Habit Details
 
 ## See Also
 
-- [TED Talks](/garden/notes/370-education-learning-ted) - [TED
-  Talks](id:c18bb8e9-a511-4bfe-bcce-3fb59b349ac3) - "Sleep is your Super
+- [TED Talks](/garden/notes/370-education-learning-ted) - "Sleep is your Super
   Power"
 - [Learning How to Learn Week 1 Focused Diffuse Modes Procrastination
   Memory
-  Sleep](/garden/notes/370-education-learning-how-to-learn-week-1-focused-diffuse-modes-procrastination-memory-sleep) -
-  [Learning How to Learn Week 1 Focused/Diffuse Modes, Procrastination &
-  Memory & Sleep](id:682da365-b118-412a-8089-05714475e8c7)
+  Sleep](/garden/notes/370-education-learning-how-to-learn-week-1-focused-diffuse-modes-procrastination-memory-sleep)
 
 ## References
 

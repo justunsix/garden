@@ -294,8 +294,7 @@ SLM:
 - Orca 2
 
 More examples of models and use at [AI
-Models](/garden/notes/006-3-tech-ai-models) - [AI
-Models](id:65533479-7d6e-4726-92f8-fb66177a39c6)
+Models](/garden/notes/006-3-tech-ai-models)
 
 Models will have different context sizes, which is how much input they
 can take in prompts and output windows. For example, GPT 4 Turbo has
@@ -355,9 +354,7 @@ minimal harm like putting warning messages
 Example risks are false outputs, possible unethical use
 
 For Responsible AI frameworks, see - [Ethics in the Age of Generative
-AI](/garden/notes/006-3-tech-ai-artificial-intelligence-ethics-in-age-of-generative-ai) -
-[Ethics in the Age of Generative AI - Generative AI and Ethics - the
-Urgency of Now](id:5d269fc6-f581-421a-b2c9-bd4a90ad2ca1)
+AI](/garden/notes/006-3-tech-ai-artificial-intelligence-ethics-in-age-of-generative-ai)
 
 #### Principles for responsible AI at Microsoft
 
@@ -576,18 +573,11 @@ Ways to evaluate and monitor generative AI:
 
 ## See Also
 
-- [Vector Database](/garden/notes/006-3-tech-ai-vector-database) - [Vector
-  Database](id:67032821-f795-4059-bc63-ae4adada458a)
+- [Vector Database](/garden/notes/006-3-tech-ai-vector-database)
 - [Local AI with Retrieval Augmented Generation (RAG) using Open WebUI
   and
-  Ollama](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama) -
-  [Local AI with Retrieval Augmented Generation (RAG) using Open WebUI
-  and Ollama](id:19319abe-7f4f-4eb7-a953-5f3fc197cf34)
+  Ollama](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama)
 - [Retrieval Augmented Generation
-  (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag) -
-  [Retrieval Augmented Generation
-  (RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23)
+  (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag)
 - [Introduction to AI in Microsoft Azure
-  AI-900](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
-  [Introduction to AI in Microsoft Azure
-  AI-900](id:dd87d682-2c98-4272-acb2-eafa6ebabf78)
+  AI-900](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900)

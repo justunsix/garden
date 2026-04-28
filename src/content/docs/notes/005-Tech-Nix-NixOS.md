@@ -155,12 +155,9 @@ are available.
 
 ## See Also
 
-- [Nix Guides and Information](/garden/notes/005-tech-nix-nixos-guides) - [Nix
-  Guides and Information](id:768b191b-bb1e-48c6-93c1-e6d757ea28f0)
+- [Nix Guides and Information](/garden/notes/005-tech-nix-nixos-guides)
 - [Nix and Poetry for Python App
-  Packaging](/garden/notes/005-tech-nix-and-poetry-for-python-app-packaging) - [Nix
-  and Poetry for Python App
-  Packaging](id:b8f60b30-8bf6-4e81-a7df-c25730c83e16)
+  Packaging](/garden/notes/005-tech-nix-and-poetry-for-python-app-packaging)
 
 ### Resources
 

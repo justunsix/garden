@@ -157,5 +157,4 @@ See ideas discussed at "How to Work From Home" talk
 
 - [Learning How to Learn](/garden/notes/370-education-learning-how-to-learn) -
   course that also talks about focus, energy and attention management
-- [Remote Work](/garden/notes/650-business-environment-remote-work) - [Remote
-  Work](id:9968f136-4607-4993-a4a0-be9d51433b4e)
+- [Remote Work](/garden/notes/650-business-environment-remote-work)

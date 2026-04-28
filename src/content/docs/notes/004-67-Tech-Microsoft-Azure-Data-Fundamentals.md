@@ -577,5 +577,4 @@ Store:
 
 ## See Also
 
-- [Microsoft Power BI](/garden/notes/005-tech-microsoft-powerbi) - [Microsoft Power
-  BI](id:a624927c-e3c0-4019-9a29-55fa523ec621)
+- [Microsoft Power BI](/garden/notes/005-tech-microsoft-powerbi)

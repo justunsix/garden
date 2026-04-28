@@ -631,5 +631,4 @@ The files used in this project can be found here:
 ## See Also
 
 - [Python](/garden/notes/005-1-tech-python)
-- [Python Snippets](/garden/notes/005-computer-snippets-python) - [Python
-  Snippets](id:b775ff13-9b5b-4af4-9c2b-e98be0af5fdc)
+- [Python Snippets](/garden/notes/005-computer-snippets-python)

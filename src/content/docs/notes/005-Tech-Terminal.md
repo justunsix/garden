@@ -14,12 +14,9 @@ Source Software (FOSS)](id:4d3e0888-9e79-414c-a552-48c6357ad845).
 - [Termux](/garden/notes/005-tech-termux) - Mobile Android
   terminal
 - [Linux Terminal Shortcuts - GNU
-  Readline](/garden/notes/005-computer-shortcuts-linux-terminal-gnu-readline) -
-  [Linux Terminal Shortcuts - GNU
-  Readline](id:bf3b61d8-23cc-4959-a5c7-17041d7e43f4)
+  Readline](/garden/notes/005-computer-shortcuts-linux-terminal-gnu-readline)
 - [Charm Gum - tool for glamourous shell
-  scripts](/garden/notes/005-tech-terminal-charm-gum) - [Charm Gum - tool for
-  glamourous shell scripts](id:a4eb2482-a0cd-4761-a08d-4afb4f285b4d)
+  scripts](/garden/notes/005-tech-terminal-charm-gum)
 
 ### Resources
 

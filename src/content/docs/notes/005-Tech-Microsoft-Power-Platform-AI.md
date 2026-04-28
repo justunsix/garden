@@ -106,12 +106,9 @@ Set(
 ## See Also
 
 - [Artificial Intelligence
-  (AI)](/garden/notes/006-3-tech-ai-artificial-intelligence) - [Artificial
-  Intelligence (AI)](id:bfe7af6c-9a91-4f3e-a98c-60ed67b8285a)
+  (AI)](/garden/notes/006-3-tech-ai-artificial-intelligence)
 - [Create Power Platform solutions with AI and
-  Copilot](/garden/notes/005-tech-microsoft-power-platform-ai-solutions-and-copilot) -
-  [Create Power Platform solutions with AI and
-  Copilot](id:09ea5ea0-19da-40ca-bb27-f78ed8938e2f)
+  Copilot](/garden/notes/005-tech-microsoft-power-platform-ai-solutions-and-copilot)
 
 ### Resources
 

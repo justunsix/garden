@@ -7,12 +7,7 @@ title: Social problems and social services
 ## See Also
 
 - [Forestry Volunteer, Community
-  Stewardship](/garden/notes/360-social-services-volunteer-forestry) - [Forestry
-  Volunteer, Community
-  Stewardship](id:8c09ea88-9526-4672-8bd7-da79e11d9486)
-- [Environment and Nature](/garden/notes/550-earth-sciences) - [Environment and
-  Nature](id:2eea361c-9f11-4440-9cb0-d7a3f5b190cc)
+  Stewardship](/garden/notes/360-social-services-volunteer-forestry)
+- [Environment and Nature](/garden/notes/550-earth-sciences)
 - [Community Stewardship Program - City of Toronto Urban
-  Forestry](/garden/notes/360-social-services-volunteer-forestry-toronto) -
-  [Community Stewardship Program - City of Toronto Urban
-  Forestry](id:59ccaf01-cc85-48d8-a562-e272d871cd27)
+  Forestry](/garden/notes/360-social-services-volunteer-forestry-toronto)

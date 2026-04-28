@@ -92,5 +92,4 @@ Shortcuts](id:bdb62bfe-56b7-4c13-a1e4-9f91cf4e0bb5)
 
 ## See Also
 
-- [VS Code Tips](/garden/notes/005-tech-vs-code) - [VS Code:
-  Tips](id:b91168f4-673f-4580-a248-ae4b85aa3439)
+- [VS Code Tips](/garden/notes/005-tech-vs-code)

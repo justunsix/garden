@@ -130,8 +130,5 @@ different other solutions.
 ## See Also
 
 - [Openshift Intro
-  Workshop](/garden/notes/005-tech-ibm-redhat-openshift-intro-workshop) -
-  [Openshift Introduction
-  Workshop](id:7258f169-0f3e-41b2-a459-cfb18f5c7dab)
-- [IBM Openshift](/garden/notes/005-tech-ibm-redhat-openshift) - [IBM
-  Openshift](id:626eb03d-5d7f-41aa-ba61-8a9df283cfaa)
+  Workshop](/garden/notes/005-tech-ibm-redhat-openshift-intro-workshop)
+- [IBM Openshift](/garden/notes/005-tech-ibm-redhat-openshift)

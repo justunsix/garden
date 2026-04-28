@@ -33,8 +33,7 @@ Not required when using Spacemacs
 
 ## Usage
 
-See [Emacs Shortcuts for Magit](/garden/notes/005-tech-emacs-shortcuts-magit) -
-[Emacs Shortcuts for Magit](id:18083c56-9942-44b7-804d-623b22866188) for
+See [Emacs Shortcuts for Magit](/garden/notes/005-tech-emacs-shortcuts-magit) for
 common tasks.
 
 - Navigation:

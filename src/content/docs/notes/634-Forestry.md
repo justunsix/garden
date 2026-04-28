@@ -8,10 +8,7 @@ title: Orchards, fruits, forestry
 ## See Also
 
 - [Preparing Trees for Winter in Cold
-  Climates](/garden/notes/634-forestry-tree-preparation-for-winter) - [Preparing
-  Trees for Winter in Cold
-  Climates](id:43fc7b47-2d16-4add-ac0d-981f108b9cdf)
+  Climates](/garden/notes/634-forestry-tree-preparation-for-winter)
 - [Forestry Volunteer](/garden/notes/360-social-services-volunteer-forestry) -
   Community stewardship in Toronto
-- [Environment and Nature](/garden/notes/550-earth-sciences) - [Environment and
-  Nature](id:2eea361c-9f11-4440-9cb0-d7a3f5b190cc)
+- [Environment and Nature](/garden/notes/550-earth-sciences)

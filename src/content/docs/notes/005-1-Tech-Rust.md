@@ -59,18 +59,12 @@ cargo packages (can use cargo binstall):
 ## See Also
 
 - [The Rust Programming Language, The Book
-  (Book)](/garden/notes/005-1-tech-rust-programming-book) - [The Rust Programming
-  Language, The Book (Book)](id:e130960f-bd15-4667-9625-acf1c2a8abc4)
-- [Rust Cargo Snippets](/garden/notes/005-computer-snippets-rust-cargo) - [Rust
-  Cargo Snippets](id:92688ec0-8523-4171-88c2-337e34693607)
-- [Neovim Language Server Protocol (LSP)](/garden/notes/005-tech-vim-neovim-lsp) -
-  [Neovim Language Server Protocol
-  (LSP)](id:2a279ca1-8291-45e0-889d-26ec8063e535) - includes setup for
+  (Book)](/garden/notes/005-1-tech-rust-programming-book)
+- [Rust Cargo Snippets](/garden/notes/005-computer-snippets-rust-cargo)
+- [Neovim Language Server Protocol (LSP)](/garden/notes/005-tech-vim-neovim-lsp) - includes setup for
   Neovim with Rust
-- [Rust on Windows](/garden/notes/005-1-tech-rust-on-windows) - [Rust on
-  Windows](id:06fcfe47-81b3-4717-9a77-bb261b3b7376)
-- [Rust Libraries](/garden/notes/005-1-tech-rust-libraries) - [Rust
-  Libraries](id:1163ccec-6925-455a-bf8a-4c3a1c5ee1f9)
+- [Rust on Windows](/garden/notes/005-1-tech-rust-on-windows)
+- [Rust Libraries](/garden/notes/005-1-tech-rust-libraries)
 - [Rust Faster Compile Times](/garden/notes/005-1-tech-rust-faster-compile-times)
 
 ### Resources

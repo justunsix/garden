@@ -8,25 +8,17 @@ title: Amazon Web Services (AWS) Training
 
 - [Amazon AWS Fundamentals](/garden/notes/004-67-tech-amazon-aws-fundamentals)
 - [DevOps Bootcamp - AWS
-  Services](/garden/notes/005-computer-tech-devops-bootcamp-twn-aws-services) -
-  [DevOps Bootcamp - AWS
-  Services](id:1c5571ed-de33-4381-a6f0-f27033cc72a5)
+  Services](/garden/notes/005-computer-tech-devops-bootcamp-twn-aws-services)
 
 ### Training and Labs
 
-- [AWS Databases](/garden/notes/004-67-tech-amazon-aws-databases) - [AWS
-  Databases](id:a890041d-1d82-4f44-91e7-c88fd16a296d)
+- [AWS Databases](/garden/notes/004-67-tech-amazon-aws-databases)
 - [AWS Data Architecture](/garden/notes/004-67-tech-amazon-aws-data-architecture)
 - [AWS Serverless Application
-  Development](/garden/notes/004-67-tech-amazon-aws-serverless-application-development) -
-  [AWS Serverless Application
-  Development](id:58cf4cd6-e560-486b-8204-8310ef612026)
-- [AWS Lab on EC2 S3](/garden/notes/004-67-tech-amazon-aws-lab-ec2-s3) - [AWS Lab
-  EC2 S3](id:94a59b6f-1481-461b-9640-333dba6091d1)
+  Development](/garden/notes/004-67-tech-amazon-aws-serverless-application-development)
+- [AWS Lab on EC2 S3](/garden/notes/004-67-tech-amazon-aws-lab-ec2-s3)
 - [AWS Lab Serverless Real Time Data
-  Processing](/garden/notes/004-67-tech-amazon-aws-lab-serverless-real-time-data) -
-  [AWS Lab Serverless Real Time Data
-  Processing](id:9c4c71e2-d6e8-45bd-a881-57cec5a31a3f)
+  Processing](/garden/notes/004-67-tech-amazon-aws-lab-serverless-real-time-data)
 
 ### Resources
 

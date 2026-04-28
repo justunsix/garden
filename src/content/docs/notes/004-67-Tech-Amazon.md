@@ -7,8 +7,6 @@ title: Amazon AWS Technology
 ## See Also
 
 - [Amazon AWS Identitiy
-  Management](/garden/notes/004-67-tech-amazon-aws-identity-management) - [Amazon
-  AWS Identity Management](id:7c2d3af3-7daa-4301-a271-0b904515aa74) -
+  Management](/garden/notes/004-67-tech-amazon-aws-identity-management) -
   First time setup and IAM Identity Center
-- [AWS Training](/garden/notes/004-67-tech-amazon-aws-training) - [Amazon Web
-  Services (AWS) Training](id:eda7bee4-ff86-4488-95dc-9ac17255008a)
+- [AWS Training](/garden/notes/004-67-tech-amazon-aws-training)

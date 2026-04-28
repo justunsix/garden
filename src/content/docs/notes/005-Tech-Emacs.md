@@ -8,20 +8,15 @@ title: Emacs
 
 ### Shortcuts and Snippets
 
-- [Emacs Shortcuts](/garden/notes/005-tech-emacs-shortcuts) - [Emacs
-  Shortcuts](id:daea5d06-6895-4073-a5c7-64e8f21bf085)
-- [Emacs Snippets](/garden/notes/005-computer-snippets-emacs) - [Emacs
-  Snippets](id:f1e69dcf-1ee5-48c5-9efe-a05affb4236c)
+- [Emacs Shortcuts](/garden/notes/005-tech-emacs-shortcuts)
+- [Emacs Snippets](/garden/notes/005-computer-snippets-emacs)
 
 ### Learning
 
 - [Emacs from Scratch Series](/garden/notes/005-tech-emacs-from-scratch-learning)
-- [Emacs Windows Management](/garden/notes/005-tech-emacs-windows) - [Emacs Windows
-  Management](id:3630b5e3-7579-42d8-b461-813b36094e53)
+- [Emacs Windows Management](/garden/notes/005-tech-emacs-windows)
 - [Productivity System Second Brain in
-  Emacs](/garden/notes/370-education-info-productivity-system-second-brain) -
-  [Productivity System Second Brain in
-  Emacs](id:81a88400-1933-47d3-92a4-7381508c342c) - productivity tools,
+  Emacs](/garden/notes/370-education-info-productivity-system-second-brain) - productivity tools,
   second brain with Org Roam in Emacs
 - [Spacemacs](/garden/notes/005-tech-emacs-spacemacs)
 - [Why Use Emacs and Tips](/garden/notes/005-tech-emacs-why-use-and-tips) -
@@ -29,37 +24,25 @@ title: Emacs
 ### Packages and Systems
 
 - [Emacs Search with fzf, ripgrep, ivy, counsel, consult,
-  vertico](/garden/notes/005-tech-emacs-search-fzf-ripgrep-ivy-counsel) - [Emacs
-  Search with fzf, ripgrep, ivy, counsel, consult,
-  vertico](id:026ff642-5c97-4465-a4c2-e71fa8e2b63a)
+  vertico](/garden/notes/005-tech-emacs-search-fzf-ripgrep-ivy-counsel)
 
 - [Emacs Spaced Repetition System with
-  Anki](/garden/notes/005-tech-emacs-spaced-repetition-system-anki) - [Emacs Spaced
-  Repetition System with Anki](id:343b3f91-0b53-450e-a8a9-4286bd619535)
+  Anki](/garden/notes/005-tech-emacs-spaced-repetition-system-anki)
 
-- [PlantUML in Emacs](/garden/notes/005-1-tech-plantuml-emacs) - [PlantUML in
-  Emacs](id:0703699b-25f7-402e-abcf-37dcd8d5264c)
+- [PlantUML in Emacs](/garden/notes/005-1-tech-plantuml-emacs)
 
-- [Package: eshell](/garden/notes/005-tech-emacs-package-eshell) - [Emacs Package:
-  Eshell](id:1171801e-feaa-457b-b422-1429c8db74ce)
+- [Package: eshell](/garden/notes/005-tech-emacs-package-eshell)
 
-- [Package: EWW](/garden/notes/005-tech-emacs-package-eww) - [Emacs Package: Eww
-  Emacs Web Wowser](id:5f9fa5b6-491f-4df7-86b9-fc08d64fe6e5)
+- [Package: EWW](/garden/notes/005-tech-emacs-package-eww)
 
-- [Package: Magit](/garden/notes/005-tech-emacs-package-magit) - [Emacs Package:
-  Magit](id:f9107e82-4d3f-4198-a00d-f653096b9ebd)
+- [Package: Magit](/garden/notes/005-tech-emacs-package-magit)
 
 - [Package: org-re-reveal,
-  RevealJS](/garden/notes/005-tech-emacs-package-revealjs) - [Emacs Package:
-  org-re-reveal, RevealJS](id:bc7c6ee0-974b-4a53-93e2-3bda4dbedc4b)
+  RevealJS](/garden/notes/005-tech-emacs-package-revealjs)
 
-- [Package: Org Mode](/garden/notes/005-tech-emacs-package-org) - [Emacs
-  Org-mode](id:c64cef99-01d4-4c3b-aee1-d96e40101951)
+- [Package: Org Mode](/garden/notes/005-tech-emacs-package-org)
 
-- [Package: Kubernetes](/garden/notes/005-tech-emacs-kubernetes) - [Kubernetes and
-  Emacs Package](id:a76dbe77-9cda-474a-b8e9-34b9f4de6b93)
+- [Package: Kubernetes](/garden/notes/005-tech-emacs-kubernetes)
 
 - [Package: vertio, marginalia, orderless, consult, embark and
-  others](/garden/notes/005-tech-emacs-package-vertico-and-others) - [Package:
-  vertio, marginalia, orderless, consult, embark and
-  others](id:0e42b3c5-865b-4e77-9d71-f4b5d701ee06)
+  others](/garden/notes/005-tech-emacs-package-vertico-and-others)

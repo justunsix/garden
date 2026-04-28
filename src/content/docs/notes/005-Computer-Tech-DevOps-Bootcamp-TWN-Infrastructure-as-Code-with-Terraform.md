@@ -293,5 +293,4 @@ found here: <https://docs.docker.com/compose/install/standalone/>
 
 ## See Also
 
-- [Terraform](/garden/notes/005-computer-tech-devops-terraform) - [Terraform -
-  infrastructure as code](id:df7e9ded-8c8b-4ede-8d31-7ad229c1b7d1)
+- [Terraform](/garden/notes/005-computer-tech-devops-terraform)

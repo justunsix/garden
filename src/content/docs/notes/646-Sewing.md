@@ -7,8 +7,7 @@ title: Sewing, clothing, management of personal and family life
 
 ## See Also
 
-- [Sewing Projects](/garden/notes/646-sewing-projects) - [Sewing
-  Projects](id:e6a6374a-dc2d-4055-9b4c-c09da0183458)
+- [Sewing Projects](/garden/notes/646-sewing-projects)
 
 ### Resources - Training in Toronto, Canada
 

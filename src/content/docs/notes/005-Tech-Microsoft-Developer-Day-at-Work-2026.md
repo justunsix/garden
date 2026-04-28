@@ -36,9 +36,7 @@ Source: My personal notes from a developer day with Microsoft at work
   - Search, filtering
   - Caching, response caching
   - [Retrieval Augmented Generation
-    (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag) -
-    [Retrieval Augmented Generation
-    (RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23)
+    (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag)
 - Governance - security and administration
   - Token quotas, content safety, security mitigation in place,
     identity, client secrets
@@ -63,9 +61,7 @@ Azure Databricks \<– mirror functions –\> Microsoft Fabric
 Azure Databricks:
 
 - [Data Warehouse vs Data Lakehouse vs Data
-  Lake](/garden/notes/005-tech-database-vs-data-warehouse-lakehouse-lake) - [Data
-  Warehouse vs Data Lakehouse vs Data
-  Lake](id:b3f202ea-9b8a-434b-b5ad-096a321e117e) (OneLake)
+  Lake](/garden/notes/005-tech-database-vs-data-warehouse-lakehouse-lake) (OneLake)
 - Data catalog, data models and governance (Unity Catalog (UC))
 
 Microsoft Fabric:
@@ -113,5 +109,4 @@ packages can be deployed to different environments.
 
 - [GitHub](/garden/notes/005-computer-tech-github)
 - [Microsoft Power Platform](/garden/notes/005-tech-microsoft-power-platform)
-- [Microsoft Technology](/garden/notes/005-tech-microsoft) - [Microsoft
-  Technology](id:fd8af895-8c3f-483c-80a9-e082b1e62581)
+- [Microsoft Technology](/garden/notes/005-tech-microsoft)

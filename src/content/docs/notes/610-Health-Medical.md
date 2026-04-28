@@ -26,26 +26,15 @@ to eat healthier at work, plan meals for shift work, and recipes.
 
 ## See Also
 
-- [Cancer Screening](/garden/notes/610-health-medical-cancer-screening) - [Cancer
-  Screening - Medical and Physical
-  Health](id:38165ca7-b6dd-4550-8d85-bc72c2e2a40e)
-- [Family Health](/garden/notes/610-health-medical-family-health-doctor) - [Family
-  Health](id:22581bf1-4397-4827-b393-bfec1f840bf5)
-- [First Aid](/garden/notes/610-health-edu-first-aid) - [First
-  Aid](id:6cb48881-9290-43dd-945b-efaf6c5a7ecd)
-- [Fitness Test](/garden/notes/610-health-medical-fitness-test) - [Fitness
-  Test](id:b663c559-e626-4080-84e6-2a47ecd89e4c) - basic flexibility,
+- [Cancer Screening](/garden/notes/610-health-medical-cancer-screening)
+- [Family Health](/garden/notes/610-health-medical-family-health-doctor)
+- [First Aid](/garden/notes/610-health-edu-first-aid)
+- [Fitness Test](/garden/notes/610-health-medical-fitness-test) - basic flexibility,
   fat level, and pulse check under exercise
 - [Long-Term
-  Care](/garden/notes/360-social-services-health-medical-long-term-care) -
-  [Long-Term Care - Medical and Physical
-  Health](id:44f19aa1-4ef3-4f0a-a5e0-ef64da79c659)
+  Care](/garden/notes/360-social-services-health-medical-long-term-care)
 - [Medication Chart](/garden/notes/610-health-medical-medication-chart)
 - [Other Health Care Providers for
-  Ontario](/garden/notes/610-health-medical-other-providers-ontario) - [Other
-  Health Care Providers for
-  Ontario](id:2634cf57-00f7-43c9-af64-56d8078c244f)
-- [Sleep - Medical and Physical Health](/garden/notes/610-health-medical-sleep) -
-  [Sleep - Medical and Physical
-  Health](id:964cb438-cb54-46ba-8a39-403aaca47e88) - sleep hygiene and
+  Ontario](/garden/notes/610-health-medical-other-providers-ontario)
+- [Sleep - Medical and Physical Health](/garden/notes/610-health-medical-sleep) - sleep hygiene and
   habits

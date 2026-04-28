@@ -43,8 +43,7 @@ sudo chgrp devops test.txt
 See also DevOps Bootcamp [Modifying
 Permissions](id:ec2b10e8-9f38-4b44-85be-842d5e02994d) file permissions
 section of - [DevOps Bootcamp with
-Nana](/garden/notes/005-computer-tech-devops-bootcamp-twn) - [DevOps Bootcamp
-Series with Nana Janashia](id:47b64b3b-67a0-4cc5-9e96-2369c5877b08)
+Nana](/garden/notes/005-computer-tech-devops-bootcamp-twn)
 
 ## cut - remove selections from each line of files
 
@@ -256,8 +255,7 @@ yes | head -n 5
 ## See Also
 
 - [GNU Findutils Snippets](/garden/notes/005-computer-snippets-gnu-findutils)
-- [Linux Snippets](/garden/notes/005-computer-snippets-linux) - [Linux
-  Snippets](id:3aca5424-540c-4f65-a7ca-079fd5e94a99)
+- [Linux Snippets](/garden/notes/005-computer-snippets-linux)
 
 ### Resources
 

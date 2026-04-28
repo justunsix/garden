@@ -7,22 +7,14 @@ title: Books
 ## See Also
 
 - [A Physical Education
-  (Book)](/garden/notes/613-health-safety-sport-weight-training-book-a-physical-education) -
-  [A Physical Education (Book)](id:9d5bc361-ab0c-4b22-b984-19abff28f066)
+  (Book)](/garden/notes/613-health-safety-sport-weight-training-book-a-physical-education)
 - [Comic Book Guide to Growing Food
-  (Book)](/garden/notes/635-gardening-comic-book-guide-to-growing-food) - [Comic
-  Book Guide to Growing Food
-  (Book)](id:6b67a77d-a97c-4ba4-a93d-860614f0e0f1:)
-- [Growing Young (Book)](/garden/notes/610-health-book-growing-young) - [Growing
-  Young (Book)](id:521e6a48-ccec-443c-b826-1d69e3d807e0)
+  (Book)](/garden/notes/635-gardening-comic-book-guide-to-growing-food)
 - [Hiking Trails and Books](/garden/notes/796-sports-fun-hiking-trails-and-books)
 - [The Rust Programming Language, The Book
-  (Book)](/garden/notes/005-1-tech-rust-programming-book) - [The Rust Programming
-  Language, The Book (Book)](id:e130960f-bd15-4667-9625-acf1c2a8abc4)
+  (Book)](/garden/notes/005-1-tech-rust-programming-book)
 - [the simple guide to a minimalist life
-  (Book)](/garden/notes/158-psychology-applied-environment-minimalist-book-lifestyle-simple-guide) -
-  [the simple guide to a minimalist life
-  (Book)](id:170ccdb8-73b1-4edd-aa09-f61e86a075f6)
+  (Book)](/garden/notes/158-psychology-applied-environment-minimalist-book-lifestyle-simple-guide)
 
 ### Bibliography of Above Books
 

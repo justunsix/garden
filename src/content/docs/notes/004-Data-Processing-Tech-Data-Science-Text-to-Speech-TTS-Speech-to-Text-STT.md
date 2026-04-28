@@ -50,8 +50,7 @@ title: Text to Speech (TTS) and Speech to Text (STT)
 - 2025-01: VLC upcoming feature for translations and speech to text
   subtitles
 - See [Audio Subtitles and OpenAI
-  Whisper](/garden/notes/006-3-tech-ai-audio-subtitles-whisper) - [Audio Subtitles
-  and OpenAI Whisper](id:2ba9f6d2-10f2-4c27-b781-ee754d1423b4)
+  Whisper](/garden/notes/006-3-tech-ai-audio-subtitles-whisper)
 - [Speech Note](https://github.com/mkiol/dsnote) app
 
 ### Free Options
@@ -59,6 +58,4 @@ title: Text to Speech (TTS) and Speech to Text (STT)
 - Microsoft Office
   - Word: Home \> Dictate option
   - See [Microsoft Word - Audio
-    Transcription](/garden/notes/005-tech-microsoft-word-audio-transcription) -
-    [Microsoft Word - Audio
-    Transcription](id:a1d18314-3499-4376-87c4-667954f8e0ca)
+    Transcription](/garden/notes/005-tech-microsoft-word-audio-transcription)

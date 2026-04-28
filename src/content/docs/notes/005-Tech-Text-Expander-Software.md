@@ -17,5 +17,4 @@ Use Cases for Text Expanders
 ## See Also
 
 - [Espanso Text Expander
-  Snippets](/garden/notes/005-computer-snippets-espanso-text-expander) - [Espanso
-  Text Expander Snippets](id:be176cf7-6494-42aa-9532-eb91cd3cc573)
+  Snippets](/garden/notes/005-computer-snippets-espanso-text-expander)

@@ -1822,15 +1822,9 @@ The correct answer is A).
 ## See Also
 
 - [Mental Health & MH First Aid - Depression and Stress
-  Treatment](/garden/notes/158-psychology-applied-health-mental-depression-and-stress-treatment) -
-  [Mental Health & MH First Aid - Depression and Stress
-  Treatment](id:aecbe8af-0291-48ee-a4fe-e1575f0cee3f)
+  Treatment](/garden/notes/158-psychology-applied-health-mental-depression-and-stress-treatment)
 - [Mental Health & MH First Aid - Mental Health First
-  Aid](/garden/notes/158-psychology-applied-health-mental-first-aid-basic) -
-  [Mental Health & MH First Aid - Mental Health First
-  Aid](id:92af0c3b-7c18-4709-9aea-5e9d42b451c4)
+  Aid](/garden/notes/158-psychology-applied-health-mental-first-aid-basic)
 - [Mental Health & MH First Aid - Protecting the Psychological Health
   and Safety of
-  Volunteers](/garden/notes/158-psychology-applied-health-mental-protecting-psychological-health-and-safety-of-volunteers) -
-  [Mental Health & MH First Aid - Protecting the Psychological Health
-  and Safety of Volunteers](id:bd395ab3-9cde-4ac0-8db6-85d2caa54335)
+  Volunteers](/garden/notes/158-psychology-applied-health-mental-protecting-psychological-health-and-safety-of-volunteers)

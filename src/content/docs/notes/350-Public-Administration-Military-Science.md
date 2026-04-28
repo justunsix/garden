@@ -8,5 +8,4 @@ title: Public Administration and Military Science
 ## See Also
 
 - [Seafarer's
-  Roles](/garden/notes/350-public-administration-military-science-seafarer-roles) -
-  [Seafarer's Roles](id:b5d1647a-70eb-4ff9-b25f-ec33b87580ee)
+  Roles](/garden/notes/350-public-administration-military-science-seafarer-roles)

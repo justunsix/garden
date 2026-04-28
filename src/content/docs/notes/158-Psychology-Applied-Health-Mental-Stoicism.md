@@ -306,9 +306,7 @@ Stoicism had 3 fields:
 [Source:
 Practices](https://donaldrobertson.name/2012/11/13/example-stoic-therapeutic-regime/),
 related to [Cognitive Behavioural
-Therapy](/garden/notes/158-psychology-applied-health-mental-cognitive-therapy) -
-[Mental Health Cognitive
-Therapy](id:d81eb9c5-fe36-4f55-899e-49aa39153f43):
+Therapy](/garden/notes/158-psychology-applied-health-mental-cognitive-therapy):
 
 ### Contemplations
 
@@ -515,6 +513,4 @@ by Tony A. A. Long
 ## See Also
 
 - [Stoicism and Artificial
-  Intelligence](/garden/notes/158-psychology-applied-health-mental-stoicism-ai) -
-  [Stoicism and Artificial Intelligence
-  (AI)](id:4e3d5808-d482-44a1-903e-471c845d7e84)
+  Intelligence](/garden/notes/158-psychology-applied-health-mental-stoicism-ai)

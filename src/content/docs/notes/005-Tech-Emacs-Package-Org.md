@@ -198,10 +198,6 @@ In Linux shell
 
 ## See Also
 
-- [Emacs org-mode shortcuts](/garden/notes/005-tech-emacs-shortcuts-mode) -
-  [Emacs Shortcuts for
-  org-mode](id:f3812051-ffec-4691-bdd0-c6bf791bb870)
-- [Emacs Org-mode Clock](/garden/notes/005-tech-emacs-package-org-clock) - [Emacs
-  Org-mode Clock](id:53ed1ca0-bf70-4a92-bd36-4e9a9e8cc260)
-- [Emacs Org-mode Agenda](/garden/notes/005-tech-emacs-package-org-agenda) - [Emacs
-  Org-mode Agenda](id:61e24f99-2680-48cd-8fee-7a686619e914)
+- [Emacs org-mode shortcuts](/garden/notes/005-tech-emacs-shortcuts-mode)
+- [Emacs Org-mode Clock](/garden/notes/005-tech-emacs-package-org-clock)
+- [Emacs Org-mode Agenda](/garden/notes/005-tech-emacs-package-org-agenda)

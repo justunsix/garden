@@ -85,5 +85,4 @@ Host my-website.com
 
 ## See Also
 
-- [GNU Privacy Guard](/garden/notes/005-8-tech-security-gpg) - [GNU Privacy Guard
-  (GPG)](id:42b3dfbb-141c-4aa8-9dc0-06cefa20f62d)
+- [GNU Privacy Guard](/garden/notes/005-8-tech-security-gpg)

@@ -186,13 +186,9 @@ classes of entities in the image.
 See Transformers section of these notes:
 
 - [Microsoft Azure AI Fundamentals, Generative
-  AI](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
-  [Microsoft Azure AI Fundamentals: Generative
-  AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3)
+  AI](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai)
 - [Machine Learning (ML) Concepts and in
-  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-machine-learning) -
-  [Machine Learning (ML) Concepts and in
-  Azure](id:c04c162a-85c7-4295-b9b9-5bbb71270b1b)
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-machine-learning)
 
 #### Multi-modal models
 
@@ -388,14 +384,8 @@ resources for solutions.
 ## See Also
 
 - [Introduction to AI in Microsoft Azure
-  AI-900](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
-  [Introduction to AI in Microsoft Azure
-  AI-900](id:dd87d682-2c98-4272-acb2-eafa6ebabf78)
+  AI-900](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900)
 - [Microsoft Azure AI Fundamentals, Generative
-  AI](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
-  [Microsoft Azure AI Fundamentals: Generative
-  AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3)
+  AI](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai)
 - [Machine Learning (ML) Concepts and in
-  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-machine-learning) -
-  [Machine Learning (ML) Concepts and in
-  Azure](id:c04c162a-85c7-4295-b9b9-5bbb71270b1b)
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-machine-learning)

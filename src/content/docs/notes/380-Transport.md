@@ -6,10 +6,7 @@ title: Commerce, communications and transportation
 
 ## See Also
 
-- [Bicycling, Bike](/garden/notes/380-transportation-environment-bike) - [Bike,
-  Bicycle](id:698e8935-0f72-40f0-bf2d-a1b0086029e0)
+- [Bicycling, Bike](/garden/notes/380-transportation-environment-bike)
 - [Environmental
-  Transportation](/garden/notes/380-transportation-environment-transportation) -
-  [Environmental
-  Transportation](id:454b25c2-5427-4e8a-9a82-836fd766b19e)
+  Transportation](/garden/notes/380-transportation-environment-transportation)
 - [Marine Radio Safety](/garden/notes/380-transportation-marine-radio-safety)

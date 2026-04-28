@@ -110,10 +110,7 @@ report card which is evidence of your good coaching.
 
 ## See Also
 
-- [Mental Health](/garden/notes/158-psychology-applied-health-mental) - [Mental
-  Health](id:40ae11a4-0376-4020-a17d-f1cb3939e193)
+- [Mental Health](/garden/notes/158-psychology-applied-health-mental)
 - [Mental Health & MH First Aid - Cognitive Therapy Unwarping
-  Module](/garden/notes/158-psychology-applied-health-mental-cognitive-therapy-unwarping) -
-  [Mental Health & MH First Aid - Cognitive Therapy Unwarping
-  Module](id:9259efe7-baf7-4991-89ec-4dc7c11f6175)
+  Module](/garden/notes/158-psychology-applied-health-mental-cognitive-therapy-unwarping)
 - [Stoicism](/garden/notes/158-psychology-applied-health-mental-stoicism)

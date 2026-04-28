@@ -214,5 +214,4 @@ minikube stop
 
 ## See Also
 
-- [Minikube Snippets](/garden/notes/005-computer-snippets-minikube) - [Minikube
-  Snippets](id:c430e255-a071-45a5-873c-da3104149bdc)
+- [Minikube Snippets](/garden/notes/005-computer-snippets-minikube)

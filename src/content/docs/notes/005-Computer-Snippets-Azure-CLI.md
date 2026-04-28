@@ -27,5 +27,4 @@ az account show
 
 ## See Also
 
-- [KQL Snippets](/garden/notes/005-tech-snippets-kql) - [KQL
-  Snippets](id:45cb5a49-50ec-4159-843c-34195f380ee7)
+- [KQL Snippets](/garden/notes/005-tech-snippets-kql)

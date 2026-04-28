@@ -40,5 +40,4 @@ Threads are useful for going through multi threaded programs.
 ## See Also
 
 - [GDB and LLDB
-  Snippets](/garden/notes/005-computer-snippets-gdb-lldb-gnu-debugger) - [GDB and
-  LLDB Debugger Snippets](id:7fba6e8c-f671-4deb-8126-88a1208d567e)
+  Snippets](/garden/notes/005-computer-snippets-gdb-lldb-gnu-debugger)

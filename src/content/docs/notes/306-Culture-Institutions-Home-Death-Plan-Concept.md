@@ -90,8 +90,7 @@ title: Death Care Plan Concept
 - [ ] Apply for death certificate (needed for estate, insurance,
   government benefits)
   - Apply online in resources at [Deathcare
-    planning](/garden/notes/306-culture-institutions-home-death-plan) - [Deathcare
-    Planning](id:81713af1-1eba-4750-bf3a-4fcab47c2ffa)
+    planning](/garden/notes/306-culture-institutions-home-death-plan)
 
 ### Government Notifications
 
@@ -166,8 +165,7 @@ Get accountant to file tax returns.
 
 ## Key Contacts and Resources
 
-See [Deathcare planning](/garden/notes/306-culture-institutions-home-death-plan) -
-[Deathcare Planning](id:81713af1-1eba-4750-bf3a-4fcab47c2ffa) for sites
+See [Deathcare planning](/garden/notes/306-culture-institutions-home-death-plan) for sites
 and resources.
 
 ## Funeral Ideas

@@ -173,9 +173,7 @@ columns:
 See also:
 
 - [Info Productivity System Second
-  Brain](/garden/notes/370-education-info-productivity-system-second-brain) -
-  [Productivity System Second
-  Brain](id:81a88400-1933-47d3-92a4-7381508c342c)
+  Brain](/garden/notes/370-education-info-productivity-system-second-brain)
 - [Org-roam User
   Manual](https://www.mdroam.com/manual.html#The-Org_002droam-Buffer)
 

@@ -126,9 +126,7 @@ title: Emacs Shortcuts
 See also:
 
 - [Emacs Search with fzf, ripgrep, ivy, counsel, consult,
-  vertico](/garden/notes/005-tech-emacs-search-fzf-ripgrep-ivy-counsel) - [Emacs
-  Search with fzf, ripgrep, ivy, counsel, consult,
-  vertico](id:026ff642-5c97-4465-a4c2-e71fa8e2b63a)
+  vertico](/garden/notes/005-tech-emacs-search-fzf-ripgrep-ivy-counsel)
 
 #### Default isearch, occur
 
@@ -563,23 +561,15 @@ methods
 
 ## See Also
 
-- [Emacs Snippets](/garden/notes/005-computer-snippets-emacs) - [Emacs
-  Snippets](id:f1e69dcf-1ee5-48c5-9efe-a05affb4236c)
-- [Emacs Shortcuts Evil Doom](/garden/notes/005-tech-emacs-shortcuts-evil-doom) -
-  [Emacs Shortcuts for Evil and Doom
-  Emacs](id:53e11158-909c-4d77-a705-d12a0077d1e0)
+- [Emacs Snippets](/garden/notes/005-computer-snippets-emacs)
+- [Emacs Shortcuts Evil Doom](/garden/notes/005-tech-emacs-shortcuts-evil-doom)
 - [Emacs Shortcuts in a Graphical Cheat
-  Sheet](/garden/notes/005-tech-emacs-shortcuts-graphical-cheat-sheet) - [Emacs
-  Shortcuts in a Graphical Cheat
-  Sheet](id:222d371a-92ff-41ae-8af5-c12743b36edd)
+  Sheet](/garden/notes/005-tech-emacs-shortcuts-graphical-cheat-sheet)
 - [Emacs Shortcuts from Other
-  Packages](/garden/notes/005-tech-emacs-shortcuts-other-packages) - [Emacs
-  Shortcuts from Other
-  Packages](id:c83f42e0-ecb2-427d-bf75-0a3ca824bf1d)
+  Packages](/garden/notes/005-tech-emacs-shortcuts-other-packages)
 - [Emacs Shortcuts for dired](/garden/notes/005-tech-emacs-shortcuts-dired)
 - [Emacs Shortcuts for elfeed](/garden/notes/005-tech-emacs-shortcuts-elfeed)
 - [Emacs Shortcuts for org-mode](/garden/notes/005-tech-emacs-shortcuts-mode)
 - [Emacs Shortcuts for Magit](/garden/notes/005-tech-emacs-shortcuts-magit)
 - [Emacs Shortcuts for
-  plantuml-mode](/garden/notes/005-tech-emacs-shortcuts-plantuml-mode) - [Emacs
-  plantuml-mode Shortcuts](id:4f3385f7-4b51-48cd-b004-2e4a73e6f27a)
+  plantuml-mode](/garden/notes/005-tech-emacs-shortcuts-plantuml-mode)

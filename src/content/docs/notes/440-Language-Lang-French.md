@@ -7,10 +7,6 @@ title: French and related languages
 ## See Also
 
 - [French Language, Beginning
-  Convesational](/garden/notes/440-language-lang-french-beginning-conversational-course) -
-  [Beginning Conversational
-  French](id:878c3b0f-a9c5-48e6-b3e1-22b87c807b4e)
+  Convesational](/garden/notes/440-language-lang-french-beginning-conversational-course)
 - [Introduction to French for
-  Anglophones](/garden/notes/440-language-lang-french-intro-anglophones) -
-  [Introduction to French, OPS FrancoNoir Cours de français (Niveau
-  débutant)](id:63cc4825-ff7d-4862-b7d3-dfc1020728c3)
+  Anglophones](/garden/notes/440-language-lang-french-intro-anglophones)

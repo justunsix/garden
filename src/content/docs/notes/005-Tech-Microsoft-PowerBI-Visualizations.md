@@ -54,6 +54,5 @@ control.
 ## See Also
 
 - [Data
-  Visualization](/garden/notes/006-computer-learning-creative-data-visualization) -
-  [Data Visualization](id:8dec4c61-b952-414c-9989-63523313e100)
+  Visualization](/garden/notes/006-computer-learning-creative-data-visualization)
   practices on how to present data

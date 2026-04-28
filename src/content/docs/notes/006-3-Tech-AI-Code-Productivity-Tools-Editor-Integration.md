@@ -62,6 +62,4 @@ ollama run mistral
 ## See Also
 
 - [AI Code Editor Integration -
-  Tabby](/garden/notes/006-3-tech-ai-code-productivity-tools-editor-integration-tabby) -
-  [Tabby - Open source self hosted AI coding
-  assistant](id:153091da-b5b7-4a32-bd62-c928923b2fcf)
+  Tabby](/garden/notes/006-3-tech-ai-code-productivity-tools-editor-integration-tabby)

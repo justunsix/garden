@@ -109,16 +109,11 @@ return {
 
 - [Neovim and Artificial
   Intelligence](/garden/notes/005-tech-vim-neovim-artificial-intelligence)
-- [Neovim Debugging](/garden/notes/005-tech-vim-neovim-debug) - [Neovim
-  Debugging](id:3dd708f8-6a2e-4752-9d7f-3a71b5c64352)
-- [Neovim Language Server Protocol (LSP)](/garden/notes/005-tech-vim-neovim-lsp) -
-  [Neovim Language Server Protocol
-  (LSP)](id:2a279ca1-8291-45e0-889d-26ec8063e535)
+- [Neovim Debugging](/garden/notes/005-tech-vim-neovim-debug)
+- [Neovim Language Server Protocol (LSP)](/garden/notes/005-tech-vim-neovim-lsp)
 - [Neovim Language Support](/garden/notes/005-tech-vim-neovim-language-support)
-- [Neovim Shortcuts](/garden/notes/005-computer-shortcuts-neovim) - [Neovim
-  Shortcuts](id:441cec9c-4ca1-479a-9dcc-b0b0bbe294f6)
-- [Neovim Snippets](/garden/notes/005-computer-snippets-neovim) - [Neovim
-  Snippets](id:14f691d1-6ce6-4765-8fed-4fcee1ea410a)
+- [Neovim Shortcuts](/garden/notes/005-computer-shortcuts-neovim)
+- [Neovim Snippets](/garden/notes/005-computer-snippets-neovim)
 
 ### Resources
 

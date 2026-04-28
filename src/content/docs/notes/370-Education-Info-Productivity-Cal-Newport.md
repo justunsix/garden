@@ -141,12 +141,7 @@ as it is never required.
 ## See Also
 
 - [Cal Newport's Planning System - Core Documents, Productivity,
-  Discipline](/garden/notes/370-education-info-productivity-cal-newport-planning-system) -
-  [Cal Newport's Planning System - Core Documents, Productivity,
-  Discipline](id:063caedc-018f-440b-bd70-927e00171d8e)
+  Discipline](/garden/notes/370-education-info-productivity-cal-newport-planning-system)
 - [Remote Work and
-  Productivity](/garden/notes/370-education-info-productivity-cal-newport-remote-work-from-home) -
-  [Remote Work and
-  Productivity](id:4f4f5efe-b753-425c-9652-d5c9f0e3c79b)
-- [Remote Work](/garden/notes/650-business-environment-remote-work) - [Remote
-  Work](id:9968f136-4607-4993-a4a0-be9d51433b4e)
+  Productivity](/garden/notes/370-education-info-productivity-cal-newport-remote-work-from-home)
+- [Remote Work](/garden/notes/650-business-environment-remote-work)

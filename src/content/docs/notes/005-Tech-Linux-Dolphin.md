@@ -184,8 +184,7 @@ Change settings like:
 
 ## See Also
 
-- [Dolphin Shortcuts](/garden/notes/005-computer-shortcuts-dolphin) - [Dolphin
-  Shortcuts](id:87c1a54e-8b05-42fa-b62d-a40fb869eddf)
+- [Dolphin Shortcuts](/garden/notes/005-computer-shortcuts-dolphin)
 
 ### Resources
 

@@ -91,7 +91,5 @@ from article with numbered pillars:
   Course that describes similar processes to encourage learning and
   neuron development supported by science
 - [Minimalist, Zero Waste
-  Lifestyle](/garden/notes/158-psychology-applied-environment-minimalist-lifestyle) -
-  [Minimalist, Zero Waste
-  Lifestyle](id:df69cada-d197-4508-9ae0-12affb79dfd0) - Related to pause
+  Lifestyle](/garden/notes/158-psychology-applied-environment-minimalist-lifestyle) - Related to pause
   ideas in article

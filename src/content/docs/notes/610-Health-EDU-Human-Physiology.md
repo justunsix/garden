@@ -30,16 +30,10 @@ Coursera](https://www.coursera.org/learn/physiology/home/info)
 Course Modules
 
 - [1 Homeostasis and Endocrine
-  System](/garden/notes/610-health-edu-human-physiology-1-homeostasis-and-endocrine-system) -
-  [Introduction to Human Physiology - 1 Homeostasis and Endocrine
-  System](id:99df7d99-7929-4403-a2eb-78adfb28b53d)
+  System](/garden/notes/610-health-edu-human-physiology-1-homeostasis-and-endocrine-system)
 - [2 Nervous System, Senses, Somatic
-  NS](/garden/notes/610-health-edu-human-physiology-2-nervous-system) -
-  [Introduction to Human Physiology - 2 Nervous System, Senses, Somatic
-  NS](id:5264a601-0eed-48fb-8290-255d7b2c91f3)
-- [3 Muscle](/garden/notes/610-health-edu-human-physiology-3-muscle) -
-  [Introduction to Human Physiology - 3
-  Muscle](id:b96d10fa-31ca-4f84-a554-59d376f083d8)
+  NS](/garden/notes/610-health-edu-human-physiology-2-nervous-system)
+- [3 Muscle](/garden/notes/610-health-edu-human-physiology-3-muscle)
 - [4 Cardiovascular
   System](/garden/notes/610-health-edu-human-physiology-4-cardiovascular-system)
 - [5 Respiratory System - Anatomy and

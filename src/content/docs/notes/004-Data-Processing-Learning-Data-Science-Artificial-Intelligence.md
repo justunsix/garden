@@ -21,6 +21,4 @@ future through AI and data science learning
 ## See Also
 
 - [Learning Skills for Engineering Career in
-  AGI](/garden/notes/006-3-tech-ai-artificial-intelligence-learning-engineering-career-agi) -
-  [Learning Skills for Engineering Career in
-  AGI](id:1403756e-8640-481a-9f4c-215070a04576)
+  AGI](/garden/notes/006-3-tech-ai-artificial-intelligence-learning-engineering-career-agi)

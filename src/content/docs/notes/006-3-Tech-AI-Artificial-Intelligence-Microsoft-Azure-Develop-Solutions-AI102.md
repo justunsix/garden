@@ -41,29 +41,19 @@ you can improve during training.
 ## Course Modules
 
 - [Develop generative AI apps in
-  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-generative) -
-  [Generative AI in Azure AI
-  Solutions](id:d5571956-346d-433d-8500-0b58a819fffb)
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-generative)
 - [Develop AI agents on
-  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-agents) -
-  [Agents in Azure AI
-  Solutions](id:eae5da2e-f013-42af-8128-cc2ae5c28b0f)
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-agents)
 
 ### Former Cognitive Services
 
 - [Develop natural language and Natural Language Processing (NLP)
   solutions in
-  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-natural-language-nlp) -
-  [Natural Language and Natural Language Processing (NLP) in Azure AI
-  Solutions](id:97e2a0ac-74dd-40b0-bc77-5237767a4b9b)
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-natural-language-nlp)
 - [Develop computer vision solutions in
-  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-computer-vision) -
-  [Computer Vision in Azure AI
-  solutions](id:586c528a-cbe1-4d1d-9026-844ad393e82f)
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-computer-vision)
 - [Develop AI information extraction solutions in
-  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-information-extraction) -
-  [Information Extraction in Azure AI
-  Solutions](id:ea3c4dff-d8c8-4fb6-ad75-82274983fc33)
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-information-extraction)
 
 ### About Former Cognitive Services
 
@@ -300,9 +290,7 @@ In prompts, you could add for users to report responses.
 ## See Also
 
 - [AI-102 Azure AI Development Lab
-  Environment](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-lab-environmnt) -
-  [AI-102 Azure AI Development Lab
-  Environment](id:59f08c23-93b2-4fd3-a669-30c4d79877fc)
+  Environment](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-lab-environmnt)
 
 ### Resources
 

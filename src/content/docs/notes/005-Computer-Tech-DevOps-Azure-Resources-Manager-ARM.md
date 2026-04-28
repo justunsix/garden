@@ -380,9 +380,7 @@ else {
 ## See Also
 
 - [Azure Resources Manager and
-  Bicep](/garden/notes/005-computer-tech-devops-azure-resources-manager-arm-bicep) -
-  [Azure Resource Management (ARM) and
-  Bicep](id:5011a880-eca6-4b02-85a6-52a465d0dbd1)
+  Bicep](/garden/notes/005-computer-tech-devops-azure-resources-manager-arm-bicep)
 
 ### Resources
 

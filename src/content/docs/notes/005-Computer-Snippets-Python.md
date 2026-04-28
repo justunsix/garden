@@ -329,9 +329,7 @@ Sources:
 - [How to Write Docstrings - Real
   Python](https://realpython.com/how-to-write-docstrings-in-python/)
 - [DevOps Bootcamp - Python
-  Basics](/garden/notes/005-computer-tech-devops-bootcamp-twn-python-basics) -
-  [DevOps Bootcamp - Python
-  Basics](id:a5dd45be-10bf-4ab6-8c8f-cb4719c74f1c)
+  Basics](/garden/notes/005-computer-tech-devops-bootcamp-twn-python-basics)
 
 \-[ DevOps Bootcamp - Python
 Automation](/garden/notes/005-computer-tech-devops-bootcamp-twn-python-automation) -
@@ -386,8 +384,7 @@ jupytext --to ipynb my_org_file.org
 ```
 
 For Jupyter and notebook use in Emacs org-mode, see [Emacs Org Mode
-Snippets](/garden/notes/005-computer-snippets-emacs-org-mode) - [Emacs Org Mode
-Snippets](id:4a735bbe-5abd-434a-8387-df414685c341)
+Snippets](/garden/notes/005-computer-snippets-emacs-org-mode)
 
 ### File Operations
 
@@ -517,18 +514,11 @@ Python](https://realpython.com/api-integration-in-python/)
 ## See Also
 
 - [DevOps Bootcamp - Python
-  Automation](/garden/notes/005-computer-tech-devops-bootcamp-twn-python-automation) -
-  [DevOps Bootcamp - Python
-  Automation](id:c3dc1f6f-d9c4-4d86-88bc-488e42698f7d)
+  Automation](/garden/notes/005-computer-tech-devops-bootcamp-twn-python-automation)
 - [DevOps Bootcamp - Python
-  Basics](/garden/notes/005-computer-tech-devops-bootcamp-twn-python-basics) -
-  [DevOps Bootcamp - Python
-  Basics](id:a5dd45be-10bf-4ab6-8c8f-cb4719c74f1c)
-- [Jupyter Shortcuts](/garden/notes/005-computer-shortcuts-jupyter) - [Jupyter
-  Shortcuts](id:3983fb96-601d-428f-bf2c-670a561751b3)
+  Basics](/garden/notes/005-computer-tech-devops-bootcamp-twn-python-basics)
+- [Jupyter Shortcuts](/garden/notes/005-computer-shortcuts-jupyter)
 - [Python Anaconda and Conda
-  Snippets](/garden/notes/005-computer-snippets-python-anaconda) - [Python and
-  Anaconda Snippets](id:09101af3-7da0-4433-b8b4-c1df997fcd91)
-- [Python PyDay 2023](/garden/notes/005-1-tech-python-pyday2023) - [Python PyDay
-  2023](id:f8bc9ba2-948f-4b44-92f8-37bcea837b6e)
+  Snippets](/garden/notes/005-computer-snippets-python-anaconda)
+- [Python PyDay 2023](/garden/notes/005-1-tech-python-pyday2023)
 - [Technology](/garden/notes/600-technology)

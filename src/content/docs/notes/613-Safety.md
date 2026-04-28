@@ -7,6 +7,5 @@ title: Personal health and safety
 ## See Also
 
 - [Emergency Preparedness](/garden/notes/613-safety-home-emergency-preparedness)
-- [Sports, games and entertainment](/garden/notes/790-sport) - [Sports, games, and
-  entertainment](id:02621cc8-f94b-48e5-9d99-37213de7c7c1) - see section
+- [Sports, games and entertainment](/garden/notes/790-sport) - see section
   on NCCP training related to injuries

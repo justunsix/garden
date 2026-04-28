@@ -7,6 +7,4 @@ title: Apple Computers Hardware
 ## See Also
 
 - [Apple Hardware Thunderbolt
-  Connections](/garden/notes/004-1-computers-hardware-apple-thunderbolt) - [Apple
-  Hardware Thunderbolt
-  Connections](id:81f0d8a8-17d7-4dd1-99dc-05b783418777)
+  Connections](/garden/notes/004-1-computers-hardware-apple-thunderbolt)

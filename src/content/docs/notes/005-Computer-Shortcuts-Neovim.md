@@ -205,8 +205,7 @@ Example connection string: sqlite:/path/to/myfile.sqlite3
 
 ## See Also
 
-- [Vim Shortcuts](/garden/notes/005-computer-shortcuts-vim) - [Vim
-  Shortcuts](id:bdb62bfe-56b7-4c13-a1e4-9f91cf4e0bb5)
+- [Vim Shortcuts](/garden/notes/005-computer-shortcuts-vim)
 
 ### Resources
 

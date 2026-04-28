@@ -8,29 +8,19 @@ title: "Social sciences: Inclusion, diversity"
 
 - [Racism](/garden/notes/300-social-science-comms-inclusion-racism)
 - [Racism and Loved
-  Ones](/garden/notes/300-social-science-comms-inclusion-racism-and-loved-ones) -
-  [Racism and Loved Ones](id:79c336a6-48a4-436d-8a51-16b8243385e6)
+  Ones](/garden/notes/300-social-science-comms-inclusion-racism-and-loved-ones)
 
 ### Positive Space
 
 - [Positive Space - Words
-  Matter](/garden/notes/300-social-science-comms-inclusion-positive-space-words-matter) -
-  [Positive Space - Words
-  Matter](id:cf1c825c-0c6c-4592-98b3-7630c8a140a5)
+  Matter](/garden/notes/300-social-science-comms-inclusion-positive-space-words-matter)
 
 ### Indigenous
 
 - [Indigenous Land
-  Acknowledgements](/garden/notes/300-social-science-comms-inclusion-indigenous-land-acknowledgement) -
-  [Indigenous Land
-  Acknowledgements](id:ded7eb3d-cbdc-4ae7-bc69-458759a6776d)
+  Acknowledgements](/garden/notes/300-social-science-comms-inclusion-indigenous-land-acknowledgement)
 - [Canadian National Indigenous History Month Event with Phyllis Webstad
   and Smoke Trail Cultural
-  Group](/garden/notes/300-social-science-comms-inclusion-indigenous-history-month-2025-phyllis-webstad-smoke-trail-cultural-group) -
-  [Canadian National Indigenous History Month Event with Phyllis Webstad
-  and Smoke Trail Cultural
-  Group](id:5f423cd0-8f5b-43df-9b42-9275f0deedd0)
+  Group](/garden/notes/300-social-science-comms-inclusion-indigenous-history-month-2025-phyllis-webstad-smoke-trail-cultural-group)
 - [Indigenous Cultural Sensitivity & Safety
-  Training](/garden/notes/300-social-science-comms-inclusion-indigenous-cultural-sensitivity-safety-training) -
-  [Indigenous Cultural Sensitivity & Safety
-  Training](id:c92b74ec-d26a-469e-8c3d-4babacac44ab)
+  Training](/garden/notes/300-social-science-comms-inclusion-indigenous-cultural-sensitivity-safety-training)

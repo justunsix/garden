@@ -292,17 +292,11 @@ direct pressure to wound/bleeding
 ## See Also
 
 - [First Aid for Allergies and Stomach
-  Upset](/garden/notes/610-health-edu-first-aid-allergies-stomach-upset) - [First
-  Aid for Allergies and Stomach
-  Upset](id:4bdfb968-21ca-45ad-8fc8-e145ab86082c)
+  Upset](/garden/notes/610-health-edu-first-aid-allergies-stomach-upset)
 - [Mental Health First
-  Aid](/garden/notes/158-psychology-applied-health-mental-first-aid-basic) -
-  [Mental Health & MH First Aid - Mental Health First
-  Aid](id:92af0c3b-7c18-4709-9aea-5e9d42b451c4)
+  Aid](/garden/notes/158-psychology-applied-health-mental-first-aid-basic)
 - [Mental Health First Aid in
-  Workplace](/garden/notes/158-psychology-applied-health-mental-first-aid-in-the-workplace) -
-  [Mental Health First Aid in
-  Workplace](id:07ce3c33-513f-4497-936e-43ffbbd457d6)
+  Workplace](/garden/notes/158-psychology-applied-health-mental-first-aid-in-the-workplace)
 - [NCCP Incident Form, Health Questionnaire and First Aid Inspection
   checklist](/garden/notes/790-sport-nccp-incident-report-health-questionnaire-first-aid-checklist)
 - [First Aid for Headaches](/garden/notes/610-health-edu-first-aid-headache)

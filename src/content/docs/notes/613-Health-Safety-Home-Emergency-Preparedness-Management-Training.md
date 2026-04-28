@@ -109,8 +109,7 @@ Emergency Preparedness Kits](id:5e5d2c96-0669-4e98-83d9-b1b348c57ec3)
 <!-- -->
 
 - Aware of cold and heat health emergencies
-  - See also [First Aid](/garden/notes/610-health-edu-first-aid) - [First
-    Aid](id:6cb48881-9290-43dd-945b-efaf6c5a7ecd) and [First Aid for
+  - See also [First Aid](/garden/notes/610-health-edu-first-aid) and [First Aid for
     Environmental Emergencies](id:17453ecc-01f5-4d66-acf6-9d61641eb9bc)
 - Body Mechanics: lifting
   - Be aware of irritation, sudden events, using maximum physical
@@ -294,9 +293,7 @@ Support Team members with:
 ## Accessibility and Human Rights
 
 See [Accessibility and Human Rights and
-AODA](/garden/notes/600-technology-work-accessibility-and-human-rights-aoda) -
-[Accessibility and Human Rights and
-AODA](id:7b712cc5-2449-47ca-9dbe-33b9930c7ec3)
+AODA](/garden/notes/600-technology-work-accessibility-and-human-rights-aoda)
 
 ## Ontario Human Rights Code
 

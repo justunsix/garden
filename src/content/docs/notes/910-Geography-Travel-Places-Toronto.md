@@ -107,8 +107,7 @@ title: Fun Things to do Toronto
 ## See Also
 
 - [Restaurants in
-  Toronto](/garden/notes/910-geography-travel-restaurants-toronto) - [Restaurants
-  in Toronto](id:a214e55f-9361-48f7-b100-14f7d75f0bde)
+  Toronto](/garden/notes/910-geography-travel-restaurants-toronto)
 - [Markets in Toronto](/garden/notes/910-geography-travel-markets-toronto)
 - [Hiking](/garden/notes/796-sports-fun-hiking)
 

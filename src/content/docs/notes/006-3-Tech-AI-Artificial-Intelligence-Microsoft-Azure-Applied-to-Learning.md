@@ -10,9 +10,7 @@ learn concepts from courses below were applied to learning. Courses that
 influences these applications:
 
 - [Introduction to AI in Microsoft Azure
-  AI-900](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900) -
-  [Introduction to AI in Microsoft Azure
-  AI-900](id:dd87d682-2c98-4272-acb2-eafa6ebabf78)
+  AI-900](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900)
 - [Learning How to Learn](/garden/notes/370-education-learning-how-to-learn) -
   Coursera course
 

@@ -208,13 +208,9 @@ Processes](id:e54cbe89-e3f0-4aa2-adb3-305b83d9e698)
 ## See Also
 
 - [Microsoft Power Platform Virtual Training Day - Automate Business
-  Processes](/garden/notes/005-tech-microsoft-power-automate-business-processes) -
-  [Microsoft Power Platform Virtual Training Day - Automate Business
-  Processes](id:e54cbe89-e3f0-4aa2-adb3-305b83d9e698)
+  Processes](/garden/notes/005-tech-microsoft-power-automate-business-processes)
 - [Microsoft Power Automate
-  Snippets](/garden/notes/005-computer-snippets-microsoft-power-automate) -
-  [Microsoft Power Automate
-  Snippets](id:21dcf766-554f-4be9-a2d4-5116673f75be)
+  Snippets](/garden/notes/005-computer-snippets-microsoft-power-automate)
 
 ### Resources
 

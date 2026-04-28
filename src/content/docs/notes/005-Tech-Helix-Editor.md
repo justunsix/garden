@@ -41,5 +41,4 @@ existing `languages.toml`
 
 ## See Also
 
-- [Helix Shortcuts](/garden/notes/005-computer-shortcuts-helix) - [Helix
-  Shortcuts](id:bc213b79-60c0-4e31-acf7-97ecfe5dd98b)
+- [Helix Shortcuts](/garden/notes/005-computer-shortcuts-helix)

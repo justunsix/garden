@@ -910,13 +910,9 @@ IDEs. They preserve the window layout.
 ## See Also
 
 - [DevOps Bootcamp Techworld with
-  Nana](/garden/notes/005-computer-tech-devops-bootcamp-twn) - [DevOps Bootcamp
-  Series with Nana Janashia](id:47b64b3b-67a0-4cc5-9e96-2369c5877b08)
-- [Emacs Shortcuts Evil Doom](/garden/notes/005-tech-emacs-shortcuts-evil-doom) -
-  [Emacs Shortcuts for Evil and Doom
-  Emacs](id:53e11158-909c-4d77-a705-d12a0077d1e0)
-- [Neovim Shortcuts](/garden/notes/005-computer-shortcuts-neovim) - [Neovim
-  Shortcuts](id:441cec9c-4ca1-479a-9dcc-b0b0bbe294f6)
+  Nana](/garden/notes/005-computer-tech-devops-bootcamp-twn)
+- [Emacs Shortcuts Evil Doom](/garden/notes/005-tech-emacs-shortcuts-evil-doom)
+- [Neovim Shortcuts](/garden/notes/005-computer-shortcuts-neovim)
 
 ### Resources
 

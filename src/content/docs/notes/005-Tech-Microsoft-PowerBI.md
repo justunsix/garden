@@ -108,6 +108,4 @@ See PowerBI licensing online
 ## See Also
 
 - [Microsoft Power BI
-  Visualizations](/garden/notes/005-tech-microsoft-powerbi-visualizations) -
-  [Microsoft Power BI
-  Visualizations](id:e7ff8bd6-bfd9-4f58-adc0-88ea56ed40d0)
+  Visualizations](/garden/notes/005-tech-microsoft-powerbi-visualizations)

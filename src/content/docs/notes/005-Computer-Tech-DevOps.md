@@ -9,50 +9,31 @@ title: DevOps - Development and Operations
 - [Ansible](/garden/notes/005-computer-tech-devops-ansible) - infrastructure as
   code (IaC)
 - [Azure Resource Manager
-  ARM](/garden/notes/005-computer-tech-devops-azure-resources-manager-arm) - [Azure
-  Resources Manager (ARM)](id:6e157bf9-523b-4774-b068-9381031866a3)
+  ARM](/garden/notes/005-computer-tech-devops-azure-resources-manager-arm)
   - [Azure Resources Manager and
-    Bicep](/garden/notes/005-computer-tech-devops-azure-resources-manager-arm-bicep) -
-    [Azure Resource Management (ARM) and
-    Bicep](id:5011a880-eca6-4b02-85a6-52a465d0dbd1)
+    Bicep](/garden/notes/005-computer-tech-devops-azure-resources-manager-arm-bicep)
 - [DevOps Automation
-  Mindmap](/garden/notes/005-computer-tech-devops-automation-mindmap) - [DevOps
-  Automation Mindmap](id:61db8dc3-538b-4950-9260-1b3ec8e5ca30)
+  Mindmap](/garden/notes/005-computer-tech-devops-automation-mindmap)
 - [DevOps Concepts and
-  Tools](/garden/notes/005-computer-tech-devops-concepts-and-tools) - [DevOps
-  Concepts (Use cases) and
-  Tools](id:ca820a8c-ca67-49e4-b296-38e9c2f08094)
+  Tools](/garden/notes/005-computer-tech-devops-concepts-and-tools)
 - [DevOps IT Career Paths
-  2023](/garden/notes/005-computer-tech-devops-twn-it-career-paths-2023) - [IT
-  Career Paths 2023](id:3f6fb017-48ee-4e3a-b55b-9a16ffdabe30)
+  2023](/garden/notes/005-computer-tech-devops-twn-it-career-paths-2023)
 - [Microsoft GitHub
-  Copilot](/garden/notes/006-3-tech-ai-microsoft-github-copilot) - [Microsoft
-  GitHub Copilot](id:871c6593-9b29-489e-ab0d-3a999bc1531a)
+  Copilot](/garden/notes/006-3-tech-ai-microsoft-github-copilot)
 - [Secure DevOps: Security Principles and
-  Practices](/garden/notes/005-8-tech-security-secure-devops-principles-practices) -
-  [Secure DevOps: Security Principles and
-  Practices](id:4430aaeb-2a31-4f60-8a77-3e2bffae9eac)
+  Practices](/garden/notes/005-8-tech-security-secure-devops-principles-practices)
 - [Securing Git Secrets, SOPS: Secrets
-  OPerations](/garden/notes/005-computer-tech-git-security-sops-secrets-operations) -
-  [Securing Git Secrets](id:563d5df1-87e1-4fec-9783-509f18c0112f)
-- [Terraform](/garden/notes/005-computer-tech-devops-terraform) - [Terraform -
-  infrastructure as code](id:df7e9ded-8c8b-4ede-8d31-7ad229c1b7d1) -
+  OPerations](/garden/notes/005-computer-tech-git-security-sops-secrets-operations)
+- [Terraform](/garden/notes/005-computer-tech-devops-terraform) -
   infrastructure as code (IaC)
 
 ### Learning
 
 - [DevOps Bootcamp Techworld with
-  Nana](/garden/notes/005-computer-tech-devops-bootcamp-twn) - [DevOps Bootcamp
-  Series with Nana Janashia](id:47b64b3b-67a0-4cc5-9e96-2369c5877b08)
-- [DevOps Learning](/garden/notes/005-computer-tech-devops-learning) - [DevOps
-  Learning Resources](id:0e8915ba-a9e8-4068-86f4-40d62165feee)
+  Nana](/garden/notes/005-computer-tech-devops-bootcamp-twn)
+- [DevOps Learning](/garden/notes/005-computer-tech-devops-learning)
 - [How to Learn New Technologies as a DevOps
-  Engineer](/garden/notes/370-education-learning-how-to-learn-new-technologies-devops-engineer) -
-  [How I learn new technologies as a DevOps Engineer (without being
-  overwhelmed)](id:066aa3a4-b95c-4068-9e5e-660060bf7ed3)
-- [GitHub DevOps](/garden/notes/005-tech-microsoft-devops-github) - [Microsoft
-  GitHub DevOps](id:3fd2590f-06c4-420a-8c54-ee75fc7466e2)
+  Engineer](/garden/notes/370-education-learning-how-to-learn-new-technologies-devops-engineer)
+- [GitHub DevOps](/garden/notes/005-tech-microsoft-devops-github)
 - [GitHub DevOps - Secure
-  Development](/garden/notes/005-8-tech-microsoft-devops-github-secure-development) -
-  [GitHub DevOps - Secure
-  Development](id:6396303d-6c14-48cc-a292-c29005511e9c)
+  Development](/garden/notes/005-8-tech-microsoft-devops-github-secure-development)

@@ -7,7 +7,5 @@ title: Geography and travel
 ## See Also
 
 - [Restaurants in
-  Toronto](/garden/notes/910-geography-travel-restaurants-toronto) - [Restaurants
-  in Toronto](id:a214e55f-9361-48f7-b100-14f7d75f0bde)
-- [Fun things in Toronto](/garden/notes/910-geography-travel-places-toronto) - [Fun
-  Things to do Toronto](id:cea7d7ad-fb9d-404a-9d3a-b477d2202aaa)
+  Toronto](/garden/notes/910-geography-travel-restaurants-toronto)
+- [Fun things in Toronto](/garden/notes/910-geography-travel-places-toronto)

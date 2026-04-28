@@ -7,9 +7,7 @@ title: JavaScript
 ## See Also
 
 - [JavaScript Basics
-  Tutorial](/garden/notes/005-1-tech-javascript-basics-tutorial) - [JavaScript
-  Basics Tutorial](id:d0d19eb8-ef71-4afe-ab6b-51e51bf7071c)
-- [JavaScript Engines](/garden/notes/005-1-tech-javascript-engines) - [JavaScript
-  Engines](id:d3650aa8-72cd-405f-9a35-eda7e0609f1d)
+  Tutorial](/garden/notes/005-1-tech-javascript-basics-tutorial)
+- [JavaScript Engines](/garden/notes/005-1-tech-javascript-engines)
 - [JavaScript Libraries](/garden/notes/005-1-tech-javascript-libraries)
 - [JavaScript Snippets](/garden/notes/005-computer-snippets-javascript)

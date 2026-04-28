@@ -52,7 +52,5 @@ uv run whisper audio.wav --model large --language Italian --task translate --out
 
 ## See Also
 
-- [Yt-dlp Snippets](/garden/notes/005-computer-snippets-youtube-yt-dlp) - [yt-dlp
-  Snippets](id:4cc04c35-2c98-4bcf-84ef-e51148ca8e3c)
-- [Video Editing](/garden/notes/700-arts-comms-media-video-editing) - [Video
-  Editing](id:9146341a-5d8b-43f5-a5fb-b416535ec754)
+- [Yt-dlp Snippets](/garden/notes/005-computer-snippets-youtube-yt-dlp)
+- [Video Editing](/garden/notes/700-arts-comms-media-video-editing)

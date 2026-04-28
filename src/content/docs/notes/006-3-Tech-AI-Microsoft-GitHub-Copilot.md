@@ -87,16 +87,13 @@ GitHub Copilot
 Docs](https://docs.github.com/en/copilot/reference/ai-models/model-comparison)
 or in VS Code "Manage Models" function with models.
 
-Also see for other [AI Models](/garden/notes/006-3-tech-ai-models) - [AI
-Models](id:65533479-7d6e-4726-92f8-fb66177a39c6) for possible use with
+Also see for other [AI Models](/garden/notes/006-3-tech-ai-models) for possible use with
 CLI.
 
 ## Demonstration of Use Case of Building an Application
 
 Main article: [GitHub Copilot, Building a Full Stack
-Application](/garden/notes/006-3-tech-ai-microsoft-github-copilot-building-a-full-stack-application) -
-[GitHub Copilot, Building a Full Stack
-Application](id:df455313-58fd-4658-ab23-76597a349174)
+Application](/garden/notes/006-3-tech-ai-microsoft-github-copilot-building-a-full-stack-application)
 
 Use principles from [AI Prompts](/garden/notes/006-3-tech-ai-prompts) - [AI
 Prompts](id:0a00398f-f4d9-42ae-8830-c37fa9abdc8f) to give instructions
@@ -118,9 +115,7 @@ developer preferences and standards.
 
 Main article: [GitHub Copilot Workspace Index and Retrieval Augmented
 Generation
-(RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-github-copilot-workspace-index) -
-[GitHub Copilot Workspace Index and Retrieval Augmented Generation
-(RAG)](id:1ae880da-6df5-4bcb-9463-27955b9f1654)
+(RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-github-copilot-workspace-index)
 
 GitHub Copilot can index files in a workspace for use with prompts,
 search, and for use as context.
@@ -246,9 +241,7 @@ is use AI assistance on database only in a non-production environment.
 ## See Also
 
 - [GitHub Copilot, Building a Full Stack
-  Application](/garden/notes/006-3-tech-ai-microsoft-github-copilot-building-a-full-stack-application) -
-  [GitHub Copilot, Building a Full Stack
-  Application](id:df455313-58fd-4658-ab23-76597a349174)
+  Application](/garden/notes/006-3-tech-ai-microsoft-github-copilot-building-a-full-stack-application)
 
 ### Resources
 

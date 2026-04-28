@@ -492,6 +492,4 @@ RAG client details from `rag-agent.py`:
 ## See Also
 
 - [Develop AI solutions in Azure
-  AI-102](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102) -
-  [Develop AI solutions in Azure
-  AI-102](id:dc608ccd-b4bc-4820-8bfa-e522c827e6f8)
+  AI-102](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102)

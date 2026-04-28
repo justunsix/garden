@@ -2061,6 +2061,4 @@ The link to the Microservices Helm Chart project can be found here:
 ## See Also
 
 - [kubectl, oc Openshift, Other K8s related command Snippets
-  Snippets](/garden/notes/005-computer-snippets-kubectl-oc-kube) - [kubectl, oc
-  Openshift, Other K8s related command Snippets
-  Snippets](id:1b0d6d70-3fc0-4246-bec2-425fe12d454f)
+  Snippets](/garden/notes/005-computer-snippets-kubectl-oc-kube)

@@ -54,8 +54,7 @@ use different keys or multiple keys for different secrets.
 ## SOPS Usage
 
 For usage examples, see [SOPS Secrets OPerations
-Snippets](/garden/notes/005-computer-snippets-sops) - [SOPS Secrets OPerations
-Snippets](id:b00b9f8a-3711-4864-8878-4f908f590874)
+Snippets](/garden/notes/005-computer-snippets-sops)
 
 PGP and AWS KMS, Azure Key vault and GCP keys can be used simultaneously
 

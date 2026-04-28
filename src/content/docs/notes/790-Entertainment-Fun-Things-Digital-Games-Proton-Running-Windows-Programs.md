@@ -65,6 +65,4 @@ Snippets](id:d74e20b9-f1b8-4d8d-8747-71366f9ab90a)
 ## See Also
 
 - [How to Install Google Ads Editor on
-  Wine](/garden/notes/005-tech-linux-wine-install-google-ads-editor) - [How to
-  Install Google Ads Editor on
-  Wine](id:e2427220-20d3-4fc9-8039-0c7729de49c5)
+  Wine](/garden/notes/005-tech-linux-wine-install-google-ads-editor)

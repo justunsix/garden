@@ -223,8 +223,7 @@ Write a file like in markdown with:
 ## See Also
 
 - [AI Prompt Examples by
-  Topic](/garden/notes/006-3-tech-ai-prompts-examples-by-topic) - [AI Prompt
-  Examples by Topic](id:cefc972f-c8e0-41d1-a420-271b8a1e911a)
+  Topic](/garden/notes/006-3-tech-ai-prompts-examples-by-topic)
 
 ### Resources
 

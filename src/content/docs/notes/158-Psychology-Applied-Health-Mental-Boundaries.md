@@ -106,11 +106,7 @@ What are good to delegate tasks?
 
 - [Minimalism](/garden/notes/158-psychology-applied-minimalism)
 - [Minimalist, Zero Waste
-  Lifestyle](/garden/notes/158-psychology-applied-environment-minimalist-lifestyle) -
-  [Minimalist, Zero Waste
-  Lifestyle](id:df69cada-d197-4508-9ae0-12affb79dfd0)
+  Lifestyle](/garden/notes/158-psychology-applied-environment-minimalist-lifestyle)
 - [Productivity and Work with Cal
-  Newport](/garden/notes/370-education-info-productivity-cal-newport) -
-  [Productivity and Work with Cal
-  Newport](id:0044bdc0-c260-457a-8a2e-2bb025cb8888) - work, life, focus
+  Newport](/garden/notes/370-education-info-productivity-cal-newport) - work, life, focus
   time systems

@@ -6,5 +6,4 @@ title: Public Finance
 
 ## See Also
 
-- [Canada Taxes](/garden/notes/336-public-finance-tax-canada) - [Canada
-  Taxes](id:e4de139d-a5dc-4556-865e-33b89ac65e16)
+- [Canada Taxes](/garden/notes/336-public-finance-tax-canada)

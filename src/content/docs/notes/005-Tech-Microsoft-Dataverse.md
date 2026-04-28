@@ -409,5 +409,4 @@ All steps are in Dataverse
 
 ## See Also
 
-- [Microsoft Dynamics](/garden/notes/005-tech-microsoft-dynamics) - [Microsoft
-  Dynamics](id:ffe5c447-66a0-4bf7-b566-a0c54d95e4cf)
+- [Microsoft Dynamics](/garden/notes/005-tech-microsoft-dynamics)

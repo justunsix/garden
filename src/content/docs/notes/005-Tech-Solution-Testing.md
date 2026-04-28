@@ -23,9 +23,6 @@ Learn](https://learn.microsoft.com/en-us/azure/architecture/best-practices/monit
 ## See Also
 
 - [Regression Testing, Quality Assurance and
-  Automation](/garden/notes/005-tech-solution-testing-regression) - [Regression
-  Testing, Quality Assurance and
-  Automation](id:64979365-5e29-49ab-9291-a9a9eed98d3c)
+  Automation](/garden/notes/005-tech-solution-testing-regression)
 - [Web Accessibility
-  Testing](/garden/notes/004-67-technology-work-accessibility-testing) - [Web
-  Accessibility Testing](id:8120d8e0-ba00-47ef-ab38-bbb364065a48)
+  Testing](/garden/notes/004-67-technology-work-accessibility-testing)

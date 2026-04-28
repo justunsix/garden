@@ -181,8 +181,7 @@ Copilot takes a user's prompt and sits in front of AI services like
 LLMs, Microsoft Graph to get information for grounding, and compliance
 and controls. Prompts and responses can be screened for controls. It is
 an agent as described in [Develop AI agents on
-Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-agents) -
-[Agents in Azure AI Solutions](id:eae5da2e-f013-42af-8128-cc2ae5c28b0f)
+Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-agents)
 
 ``` text
 
@@ -240,8 +239,7 @@ Grounding means giving context to the model to allow it to give accurate
 and relevant responses.
 
 It uses [Retrieval Augmented Generation
-(RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag) - [Retrieval
-Augmented Generation (RAG)](id:4a445fad-74c1-42c9-bba8-fe0c067b6d23)
+(RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag)
 which gets relevant data to include with a prompt to use for grounding
 context.
 
@@ -413,9 +411,7 @@ evaluated on different criteria like:
 - Risk and safety measuring violent, sexual, self-harm content
 
 See also [Agent Operations, Checking and Monitoring
-Them](/garden/notes/006-3-tech-ai-agents-operations-checking-monitoring) - [Agent
-Operations, Checking and Monitoring
-Them](id:1c7b17d9-89dd-4068-9ec0-fefef15912e5) - on metrics and
+Them](/garden/notes/006-3-tech-ai-agents-operations-checking-monitoring) - on metrics and
 approaches to evaluating AI systems
 
 ### Evaluators
@@ -538,14 +534,8 @@ after deployment and use with a solution.
 ## See Also
 
 - [Develop AI solutions in Azure
-  AI-102](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102) -
-  [Develop AI solutions in Azure
-  AI-102](id:dc608ccd-b4bc-4820-8bfa-e522c827e6f8)
+  AI-102](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102)
 - [Machine Learning (ML) Concepts and in
-  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-machine-learning) -
-  [Machine Learning (ML) Concepts and in
-  Azure](id:c04c162a-85c7-4295-b9b9-5bbb71270b1b)
+  Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-machine-learning)
 - [Microsoft Azure AI Fundamentals, Generative
-  AI](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai) -
-  [Microsoft Azure AI Fundamentals: Generative
-  AI](id:4e618b1d-6f89-4eb3-811b-be31133ea2f3)
+  AI](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-ai900-generative-ai)

@@ -148,8 +148,7 @@ For documentation look up `K`, good minibuffer items are language
 specific docs, devdocs.io, and web search.
 
 For completions, shortcuts are implemented similarly to completion
-section of [Vim Shortcuts](/garden/notes/005-computer-shortcuts-vim) - [Vim
-Shortcuts](id:bdb62bfe-56b7-4c13-a1e4-9f91cf4e0bb5) and complete the
+section of [Vim Shortcuts](/garden/notes/005-computer-shortcuts-vim) and complete the
 same kind of items.
 
 ### Item Navigation with \[ and \] (Unimpaired Mode)

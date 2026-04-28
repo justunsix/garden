@@ -154,11 +154,8 @@ GitHub codespaces
 
 ## See Also
 
-- [DevOps - Development and Operations](/garden/notes/005-computer-tech-devops) -
-  [DevOps - Development and
-  Operations](id:1daaeec4-145b-4f3c-8579-a9d4519feae5)
-- [Microsoft Technology](/garden/notes/005-tech-microsoft) - [Microsoft
-  Technology](id:fd8af895-8c3f-483c-80a9-e082b1e62581)
+- [DevOps - Development and Operations](/garden/notes/005-computer-tech-devops)
+- [Microsoft Technology](/garden/notes/005-tech-microsoft)
 
 ### Resources
 

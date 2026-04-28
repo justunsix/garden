@@ -6,5 +6,4 @@ title: Home Hardware and Improvement
 
 ## See Also
 
-- [Home Bathroom Toilet](/garden/notes/640-home-hardware-bathroom-toilet) - [Home
-  Bathroom Toilet](id:e0a0f75e-ac12-4fb7-8020-32c575597936)
+- [Home Bathroom Toilet](/garden/notes/640-home-hardware-bathroom-toilet)

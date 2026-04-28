@@ -620,5 +620,4 @@ CMD node index.js
 
 ## See Also
 
-- [Docker Snippets](/garden/notes/005-computer-snippets-docker) - [Docker
-  Snippets](id:4a17b5a3-3c43-42d4-a17c-9c2699a9d9d0)
+- [Docker Snippets](/garden/notes/005-computer-snippets-docker)
