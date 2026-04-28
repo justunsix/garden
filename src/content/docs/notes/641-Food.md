@@ -6,6 +6,8 @@ title: Food and drink
 
 ## See Also
 
+- [Chinese Dim Sum](/garden/notes/641-food-chinese-dim-sum) - [Chinese Dim
+  Sum](id:233cb89d-9abe-48de-a475-315aa9cb40f9)
 - [Comic Book Guide to Growing Food
   (Book)](/garden/notes/635-gardening-comic-book-guide-to-growing-food) - [Comic
   Book Guide to Growing Food
