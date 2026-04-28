@@ -29,7 +29,7 @@ Recommendations based on accessibility and productivity.
 - [Dioxus](https://dioxuslabs.com/) - full stack cross platform app and
   web for Rust
 - [egui](https://lib.rs/crates/egui) - easy to use, pure rust, runs on
-  the web, natively, and game engine
+  the web, native, and game engine
 - [gpui](https://www.gpui.rs/) - UI framework from creators of Zed
 - [Iced](https://iced.rs/) - Retained mode UI with a nice API
 - [Leptos](https://lib.rs/crates/leptos) - front end web

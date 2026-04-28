@@ -76,10 +76,15 @@ opencode session list
 
 ## OpenCode Configuration
 
-### Microsoft Documentation MCP Server
+### Microsoft Documentation External MCP Server and Terraform Local MCP Server
 
-Source: Configuration originally from [MCP Servers - microsoft/skils -
-GitHub](https://github.com/microsoft/skills?tab=readme-ov-file#mcp-servers)
+Source: Microsoft Docs configuration originally from [MCP Servers -
+microsoft/skills -
+GitHub](https://github.com/microsoft/skills?tab=readme-ov-file#mcp-servers),
+[Install Terraform MCP
+locally](https://github.com/hashicorp/terraform-mcp-server) with
+`go install github.com/hashicorp/terraform-mcp-server/cmd/terraform-mcp-server@main`
+or package manager/nix.
 
 ``` json
 
@@ -89,8 +94,14 @@ GitHub](https://github.com/microsoft/skills?tab=readme-ov-file#mcp-servers)
     "microsoft-docs": {
       "type": "remote",
       "url": "https://learn.microsoft.com/api/mcp"
+    },
+    "terraform": {
+      "type": "local",
+      "command": "/path/to/terraform-mcp-server",
+      "env": {
+        "TFE_TOKEN": "<<TFE_TOKEN_HERE>>"
+      },
     }
-  }
 }
 
 ```

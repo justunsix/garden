@@ -252,7 +252,7 @@ let secret = input -s
 # Run background job
 job spawn { nautilus }
 # Run background and tag a description for seeing in job list
-job spawn -t files { nautilus }
+job spawn -d files { nautilus }
 
 # List jobs
 job list

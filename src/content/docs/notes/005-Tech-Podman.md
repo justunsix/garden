@@ -67,6 +67,7 @@ Stack on YouTube](https://www.youtube.com/watch?v=SIvoAOpXZPg)
   - Volumes
   - K8s dashboard - linked to kubectl
     - Nodes, deployments, volumes
+  - AI Lab - run models as AI API, containerize models
 
 ## See Also
 

@@ -69,7 +69,9 @@ select * from users where name like '%joe%'
 # -S server name
 # -G use Entra identity
 # -d database name to use
-sqlcmd -S mydatabaseserver.database.windows.net -G -d mydatabase
+sqlcmd -S mydatabaseserver.database.windows.net -d mydatabase -G
+## Example connection
+sqlcmd -S azuresqlserver-mine.database.windows.net -d datamanagement -G
 
 # Run query using go
 1> select * from users
@@ -78,6 +80,12 @@ sqlcmd -S mydatabaseserver.database.windows.net -G -d mydatabase
 # Leave sqlcmd
 1> exit
 
+#######
+# Vim Dadbod
+# Vim Dadbod connection url for Azure SQL Database using Entra authentication
+# for example with az login
+# per :h dadbod and discussion in https://github.com/tpope/vim-dadbod/issues/152
+sqlserver://azuresqlserver.windows.net?database=databasename&authentication=ActiveDirectoryDefault
 ```
 
 ## T-SQL Administration

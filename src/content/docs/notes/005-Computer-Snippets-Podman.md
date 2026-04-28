@@ -21,7 +21,7 @@ podman --help
 podman -h
 
 # Search for images
-podman search search_term
+podman search image_name
 
 # Pull an image with repository specified
 podman pull quay.io/podman/hello
@@ -57,6 +57,9 @@ podman run -d --name db postgres
 podman generate kube web db > deployment.yaml
 # deployment.yaml can be applied to k8s cluster
 
+# Generate systemd units for a pod or container.
+podman generate systemd [options] {CONTAINER|POD}
+
 # Runs pods locally and view them
 podman play kube deployment.yaml
 podman pod ps
@@ -78,6 +81,7 @@ podman rm -f container1 container2
 
 # Export pod definitions to k8s yaml like
 podman generate kube wordpress-pod > wordpress-pod.yaml
+## Can also generate Kubernetes YAML from containers, pods or volumes.
 
 # See processes in a container
 podman top container_id

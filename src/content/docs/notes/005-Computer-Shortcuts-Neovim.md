@@ -145,6 +145,7 @@ See :h lsp for more commands
 | Window, move in direction | \<l\> w \<j, k, h l\> |
 | Window, move to split left, right, down up | C-h, C-l, C-j, C-k |
 | Window, next, previous window | \<l\> w w or W |
+| Vim-dadbod-ui, Execute query | \<l\> S |
 
 To simulate M-x in Emacs, use search keymaps and search commands.
 
