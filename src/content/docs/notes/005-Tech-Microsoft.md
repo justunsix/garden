@@ -8,8 +8,7 @@ title: Microsoft Technology Microsoft Power Platform Notes Microsoft
 
 ## See Also
 
-- [Technology](/garden/notes/600-technology) -
-  [Technology](id:9092eabf-f6f5-4775-b8aa-6e78e74880c3)
+- [Technology](/garden/notes/600-technology)
 
 ### Products
 
@@ -21,14 +20,12 @@ title: Microsoft Technology Microsoft Power Platform Notes Microsoft
   Intelligence](/garden/notes/005-tech-microsoft-fabric-real-time-intelligence) -
   [Microsoft Fabric Real Time
   Intelligence](id:10be9d68-3b92-4257-a19f-b97c44d1b454)
-- [Microsoft M365 Copilot](/garden/notes/006-3-tech-ai-microsoft-m365-copilot) -
-  [Microsoft M365 Copilot](id:68647160-81d6-4a03-a1c0-cd91cc529eed)
+- [Microsoft M365 Copilot](/garden/notes/006-3-tech-ai-microsoft-m365-copilot)
 - [Microsoft Outlook](/garden/notes/005-tech-microsoft-outlook) - [Microsoft
   Outlook](id:7b63aaa4-93d8-4cc6-8d41-215f67d2776e)
 - [Microsoft SharePoint](/garden/notes/005-tech-microsoft-sharepoint) - [Microsoft
   SharePoint](id:2c70e832-90ff-4a59-ace1-59c5879a755a)
-- [Microsoft Windows Desktop](/garden/notes/005-tech-microsoft-windows-desktop) -
-  [Microsoft Windows Desktop](id:ca2bc826-3f62-471e-a244-480df7ea8f18)
+- [Microsoft Windows Desktop](/garden/notes/005-tech-microsoft-windows-desktop)
 - [Microsoft Word](/garden/notes/005-tech-microsoft-word) - [Microsoft
   Word](id:91ef78d2-8bac-4b47-9761-a27ad35e1ed3)
 
@@ -70,8 +67,7 @@ title: Microsoft Technology Microsoft Power Platform Notes Microsoft
 
 ### Microsoft Power Platform Notes
 
-- [Microsoft Power Platform](/garden/notes/005-tech-microsoft-power-platform) -
-  [Microsoft Power Platform](id:3a07fa69-d143-48f4-bcda-e2c6222aeeb9)
+- [Microsoft Power Platform](/garden/notes/005-tech-microsoft-power-platform)
   - [Microsoft Power Platform and
     AI](/garden/notes/005-tech-microsoft-power-platform-ai) - [Microsoft Power
     Platform and AI](id:d85c6b3c-b675-46bd-8399-7919d2a3a6b3)
@@ -87,8 +83,7 @@ title: Microsoft Technology Microsoft Power Platform Notes Microsoft
   - [Microsoft Power Apps - Create an
     App](/garden/notes/005-tech-microsoft-power-apps-create-an-app) - [Microsoft
     Power Apps - Create an App](id:6e61b1f5-6e15-4671-8ffa-2535c424b9e6)
-- [Microsoft Power Automate](/garden/notes/005-tech-microsoft-power-automate) -
-  [Microsoft Power Automate](id:4cf22ee7-9fe5-4a7b-bece-bfef0e60e374)
+- [Microsoft Power Automate](/garden/notes/005-tech-microsoft-power-automate)
   - [Microsoft Power Platform Virtual Training Day - Automate Business
     Processes](/garden/notes/005-tech-microsoft-power-automate-business-processes) -
     [Microsoft Power Platform Virtual Training Day - Automate Business
@@ -123,8 +118,7 @@ title: Microsoft Technology Microsoft Power Platform Notes Microsoft
   - [Azure Data Fundamentals](id:9f5b36d6-5b23-4e92-ba28-0dda0da11b6d)
     ([Azure Data
     Fundamentals](/garden/notes/004-67-tech-microsoft-azure-data-fundamentals))
-  - [Azure Data Factory](/garden/notes/004-67-tech-microsoft-azure-data-factory) -
-    [Azure Data Factory](id:7200e72b-33f4-4ca3-ae75-91d939b75ecd)
+  - [Azure Data Factory](/garden/notes/004-67-tech-microsoft-azure-data-factory)
   - [Azure Logic App](/garden/notes/004-67-tech-microsoft-azure-logic-app) - [Azure
     Logic App](id:c0f4f9c9-a550-46c1-965a-43e6ccbf3348)
   - [Azure Hybrid
@@ -133,8 +127,7 @@ title: Microsoft Technology Microsoft Power Platform Notes Microsoft
     Infrastructure](id:80b03a49-4c14-4c35-855d-f8dff5f535ad)
   - [Microsoft Azure OpenAI](/garden/notes/006-3-tech-ai-openai-azure) - [Microsoft
     Azure OpenAI](id:5f3fb72d-cc33-4c99-b553-5962dc6909e7)
-  - [Azure SQL Database](/garden/notes/004-67-tech-microsoft-azure-sql-database) -
-    [Azure SQL Database](id:4362bcb6-a6df-4d9d-989f-e43319da753e)
+  - [Azure SQL Database](/garden/notes/004-67-tech-microsoft-azure-sql-database)
   - [Azure Virtual
     Machine](/garden/notes/004-67-tech-microsoft-azure-virtual-machine) - [Azure
     Virtual Machine](id:d35fe92e-9ada-4e3a-b191-819cd44a8330)

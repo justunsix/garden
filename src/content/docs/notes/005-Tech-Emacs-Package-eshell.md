@@ -27,5 +27,4 @@ GNU Coreutils, but will also run command line tools if installed.
 
 ## See Also
 
-- [Emacs eshell Snippets](/garden/notes/005-computer-snippets-emacs-eshell) -
-  [Emacs eshell Snippets](id:b9c15120-7b17-427c-9f08-e12e2678e0b7)
+- [Emacs eshell Snippets](/garden/notes/005-computer-snippets-emacs-eshell)

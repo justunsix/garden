@@ -95,7 +95,6 @@ administration, server support, and troubleshooting.
 
 ## See Also
 
-- [GNU Coreutils Snippets](/garden/notes/005-computer-snippets-gnu-coreutils) -
-  [GNU Coreutils Snippets](id:60d1c07a-22b6-40bb-99ee-274feab9cd20)
+- [GNU Coreutils Snippets](/garden/notes/005-computer-snippets-gnu-coreutils)
 - [Linux Snippets](/garden/notes/005-computer-snippets-linux) - [Linux
   Snippets](id:3aca5424-540c-4f65-a7ca-079fd5e94a99)

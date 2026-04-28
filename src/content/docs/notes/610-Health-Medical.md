@@ -40,8 +40,7 @@ to eat healthier at work, plan meals for shift work, and recipes.
   Care](/garden/notes/360-social-services-health-medical-long-term-care) -
   [Long-Term Care - Medical and Physical
   Health](id:44f19aa1-4ef3-4f0a-a5e0-ef64da79c659)
-- [Medication Chart](/garden/notes/610-health-medical-medication-chart) -
-  [Medication Chart](id:80f9bdf9-30fb-427e-8f87-7fc0608993e2)
+- [Medication Chart](/garden/notes/610-health-medical-medication-chart)
 - [Other Health Care Providers for
   Ontario](/garden/notes/610-health-medical-other-providers-ontario) - [Other
   Health Care Providers for

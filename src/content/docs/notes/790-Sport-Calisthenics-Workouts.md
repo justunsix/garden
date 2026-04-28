@@ -340,5 +340,4 @@ progressed movement. Here are some general rules for the routine.
 
 ## See Also
 
-- [Sport](/garden/notes/790-sport) -
-  [Sport](id:02621cc8-f94b-48e5-9d99-37213de7c7c1)
+- [Sport](/garden/notes/790-sport)

@@ -12,8 +12,7 @@ title: KDE
   [Free and/or Open Source Software
   (FOSS)](id:4d3e0888-9e79-414c-a552-48c6357ad845) - KDE Applications
   also on Windows
-- [Kdenlive](/garden/notes/005-tech-kdenlive) -
-  [Kdenlive](id:127d1ef5-f0e2-4538-98bc-00c0318b728a)
+- [Kdenlive](/garden/notes/005-tech-kdenlive)
 - [KDE Shortcuts](/garden/notes/005-computer-shortcuts-linux-kde) - [KDE
   Shortcuts](id:43dac315-2f0f-4e16-bd3a-937cc1b180ca)
 - [KDE Konsole Terminal](/garden/notes/005-tech-konsole) - [KDE Konsole

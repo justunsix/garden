@@ -36,5 +36,4 @@ fd --type d --max-depth 1
 
 ## See Also
 
-- [GNU Findutils Snippets](/garden/notes/005-computer-snippets-gnu-findutils) -
-  [GNU Findutils Snippets](id:86eb6f90-622f-4d0d-b37d-eb55d6b6cf45)
+- [GNU Findutils Snippets](/garden/notes/005-computer-snippets-gnu-findutils)

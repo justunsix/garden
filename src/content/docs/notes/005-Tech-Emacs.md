@@ -15,8 +15,7 @@ title: Emacs
 
 ### Learning
 
-- [Emacs from Scratch Series](/garden/notes/005-tech-emacs-from-scratch-learning) -
-  [Emacs from Scratch](id:68838d6e-0c84-426a-9e35-296d9e4e2db1)
+- [Emacs from Scratch Series](/garden/notes/005-tech-emacs-from-scratch-learning)
 - [Emacs Windows Management](/garden/notes/005-tech-emacs-windows) - [Emacs Windows
   Management](id:3630b5e3-7579-42d8-b461-813b36094e53)
 - [Productivity System Second Brain in
@@ -24,8 +23,7 @@ title: Emacs
   [Productivity System Second Brain in
   Emacs](id:81a88400-1933-47d3-92a4-7381508c342c) - productivity tools,
   second brain with Org Roam in Emacs
-- [Spacemacs](/garden/notes/005-tech-emacs-spacemacs) -
-  [Spacemacs](id:3fb19c26-bb2d-426d-b08b-1dd28d050f4d)
+- [Spacemacs](/garden/notes/005-tech-emacs-spacemacs)
 - [Why Use Emacs and Tips](/garden/notes/005-tech-emacs-why-use-and-tips) -
 
 ### Packages and Systems

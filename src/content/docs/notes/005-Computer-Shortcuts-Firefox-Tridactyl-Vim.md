@@ -198,8 +198,7 @@ unset [setting]
   Shortcuts](id:bdb62bfe-56b7-4c13-a1e4-9f91cf4e0bb5)
 - [Firefox Shortcuts](/garden/notes/005-computer-shortcuts-firefox) - [Firefox
   Shortcuts](id:8d636d51-8333-4a2e-a9ab-b073f6ae6721)
-- [Vim](/garden/notes/005-tech-vim) -
-  [Vim](id:57923c42-729e-4abc-b16a-4b0699e83717)
+- [Vim](/garden/notes/005-tech-vim)
 
 ### Resource
 

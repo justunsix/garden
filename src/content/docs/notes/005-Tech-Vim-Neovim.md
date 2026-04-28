@@ -114,8 +114,7 @@ return {
 - [Neovim Language Server Protocol (LSP)](/garden/notes/005-tech-vim-neovim-lsp) -
   [Neovim Language Server Protocol
   (LSP)](id:2a279ca1-8291-45e0-889d-26ec8063e535)
-- [Neovim Language Support](/garden/notes/005-tech-vim-neovim-language-support) -
-  [Neovim Language Support](id:645199ea-3a6f-4847-aecf-c475ac0c19b8)
+- [Neovim Language Support](/garden/notes/005-tech-vim-neovim-language-support)
 - [Neovim Shortcuts](/garden/notes/005-computer-shortcuts-neovim) - [Neovim
   Shortcuts](id:441cec9c-4ca1-479a-9dcc-b0b0bbe294f6)
 - [Neovim Snippets](/garden/notes/005-computer-snippets-neovim) - [Neovim

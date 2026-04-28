@@ -576,14 +576,10 @@ methods
   Packages](/garden/notes/005-tech-emacs-shortcuts-other-packages) - [Emacs
   Shortcuts from Other
   Packages](id:c83f42e0-ecb2-427d-bf75-0a3ca824bf1d)
-- [Emacs Shortcuts for dired](/garden/notes/005-tech-emacs-shortcuts-dired) -
-  [Emacs Shortcuts for dired](id:8f08d874-1ec0-4709-b492-dc0d679513a0)
-- [Emacs Shortcuts for elfeed](/garden/notes/005-tech-emacs-shortcuts-elfeed) -
-  [Emacs Shortcuts for elfeed](id:54b690fd-eac4-4934-8a30-97388d72e99f)
-- [Emacs Shortcuts for org-mode](/garden/notes/005-tech-emacs-shortcuts-mode) -
-  [Emacs Shortcuts](id:daea5d06-6895-4073-a5c7-64e8f21bf085)
-- [Emacs Shortcuts for Magit](/garden/notes/005-tech-emacs-shortcuts-magit) -
-  [Emacs Shortcuts for Magit](id:18083c56-9942-44b7-804d-623b22866188)
+- [Emacs Shortcuts for dired](/garden/notes/005-tech-emacs-shortcuts-dired)
+- [Emacs Shortcuts for elfeed](/garden/notes/005-tech-emacs-shortcuts-elfeed)
+- [Emacs Shortcuts for org-mode](/garden/notes/005-tech-emacs-shortcuts-mode)
+- [Emacs Shortcuts for Magit](/garden/notes/005-tech-emacs-shortcuts-magit)
 - [Emacs Shortcuts for
   plantuml-mode](/garden/notes/005-tech-emacs-shortcuts-plantuml-mode) - [Emacs
   plantuml-mode Shortcuts](id:4f3385f7-4b51-48cd-b004-2e4a73e6f27a)

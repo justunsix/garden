@@ -19,11 +19,9 @@ title: DevOps Concepts (Use cases) and Tools
 - Container orchestration
 - Continuous Monitoring
 - Data Transformation
-  - [Azure Data Factory](/garden/notes/004-67-tech-microsoft-azure-data-factory) -
-    [Azure Data Factory](id:7200e72b-33f4-4ca3-ae75-91d939b75ecd)
+  - [Azure Data Factory](/garden/notes/004-67-tech-microsoft-azure-data-factory)
 - Infrastructure as Code
-  - [Ansible](/garden/notes/005-computer-tech-devops-ansible) -
-    [Ansible](id:9d393a61-59de-4540-9495-0c2122cf3d59)
+  - [Ansible](/garden/notes/005-computer-tech-devops-ansible)
   - [Terraform](/garden/notes/005-computer-tech-devops-terraform) - [Terraform -
     infrastructure as code](id:df7e9ded-8c8b-4ede-8d31-7ad229c1b7d1)
 - Package management

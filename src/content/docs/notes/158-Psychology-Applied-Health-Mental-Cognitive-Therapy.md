@@ -116,5 +116,4 @@ report card which is evidence of your good coaching.
   Module](/garden/notes/158-psychology-applied-health-mental-cognitive-therapy-unwarping) -
   [Mental Health & MH First Aid - Cognitive Therapy Unwarping
   Module](id:9259efe7-baf7-4991-89ec-4dc7c11f6175)
-- [Stoicism](/garden/notes/158-psychology-applied-health-mental-stoicism) -
-  [Stoicism](id:3615be88-f25a-4fba-98c4-42f34c59be5d)
+- [Stoicism](/garden/notes/158-psychology-applied-health-mental-stoicism)

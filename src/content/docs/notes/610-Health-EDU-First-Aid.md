@@ -305,5 +305,4 @@ direct pressure to wound/bleeding
   Workplace](id:07ce3c33-513f-4497-936e-43ffbbd457d6)
 - [NCCP Incident Form, Health Questionnaire and First Aid Inspection
   checklist](/garden/notes/790-sport-nccp-incident-report-health-questionnaire-first-aid-checklist)
-- [First Aid for Headaches](/garden/notes/610-health-edu-first-aid-headache) -
-  [First Aid for Headaches](id:7e76bfec-53dc-44ca-8824-6f263fcdca82)
+- [First Aid for Headaches](/garden/notes/610-health-edu-first-aid-headache)

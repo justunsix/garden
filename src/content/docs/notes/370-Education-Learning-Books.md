@@ -15,8 +15,7 @@ title: Books
   (Book)](id:6b67a77d-a97c-4ba4-a93d-860614f0e0f1:)
 - [Growing Young (Book)](/garden/notes/610-health-book-growing-young) - [Growing
   Young (Book)](id:521e6a48-ccec-443c-b826-1d69e3d807e0)
-- [Hiking Trails and Books](/garden/notes/796-sports-fun-hiking-trails-and-books) -
-  [Hiking Trails & Books](id:6440c45e-d468-4b37-a6ce-5fcbb2ab4c9d)
+- [Hiking Trails and Books](/garden/notes/796-sports-fun-hiking-trails-and-books)
 - [The Rust Programming Language, The Book
   (Book)](/garden/notes/005-1-tech-rust-programming-book) - [The Rust Programming
   Language, The Book (Book)](id:e130960f-bd15-4667-9625-acf1c2a8abc4)

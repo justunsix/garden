@@ -11,8 +11,7 @@ Source Software (FOSS)](id:4d3e0888-9e79-414c-a552-48c6357ad845).
 
 ## See Also
 
-- [Termux](/garden/notes/005-tech-termux) -
-  [Termux](id:917e0b31-da04-4c4f-bcca-a706dcf597cc) - Mobile Android
+- [Termux](/garden/notes/005-tech-termux) - Mobile Android
   terminal
 - [Linux Terminal Shortcuts - GNU
   Readline](/garden/notes/005-computer-shortcuts-linux-terminal-gnu-readline) -

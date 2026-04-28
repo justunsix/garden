@@ -18,10 +18,8 @@ title: Git Version Control System
   ([GitOps](/garden/notes/005-computer-tech-git-ops))
 - [Git Snippets](/garden/notes/005-computer-snippets-git) - [Git
   Snippets](id:95f66412-2bb4-49f7-aed1-c05f0057798c)
-- [GitHub](/garden/notes/005-computer-tech-github) -
-  [GitHub](id:7780cbb0-5092-4233-8f80-bb90864828f9)
-- [Lazygit](/garden/notes/005-tech-lazygit) -
-  [Lazygit](id:f1c8a2ab-2cf0-4923-865c-d93898a54d55)
+- [GitHub](/garden/notes/005-computer-tech-github)
+- [Lazygit](/garden/notes/005-tech-lazygit)
 - [Git Commit Messages
   Guidelines](/garden/notes/005-computer-tech-git-commit-messages-guidelines) -
   [Git Commit Messages

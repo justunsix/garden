@@ -12,5 +12,4 @@ title: Commerce, communications and transportation
   Transportation](/garden/notes/380-transportation-environment-transportation) -
   [Environmental
   Transportation](id:454b25c2-5427-4e8a-9a82-836fd766b19e)
-- [Marine Radio Safety](/garden/notes/380-transportation-marine-radio-safety) -
-  [Marine Radio Safety](id:007fe863-1490-40e3-8619-a4bcecf36779)
+- [Marine Radio Safety](/garden/notes/380-transportation-marine-radio-safety)

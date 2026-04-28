@@ -14,8 +14,7 @@ title: Food and drink
   (Book)](id:6b67a77d-a97c-4ba4-a93d-860614f0e0f1:)
 - [Cooking Food Ideas](/garden/notes/641-food-home-cooking-food-ideas) - [Home
   Cooking Food Ideas](id:4b42a868-b956-405c-81b3-51ff30bafca0)
-- [Cooking, Food, Recipes](/garden/notes/641-food-home-cooking-food-recipes) -
-  [Cooking, Recipes, Food](id:56a33318-2bab-4345-b1a8-3d6c71f3bac1)
+- [Cooking, Food, Recipes](/garden/notes/641-food-home-cooking-food-recipes)
 - [Health, Food and
   Nutrition](/garden/notes/613-health-safety-sport-health-edu-food-nutrition) -
   [Health, Food, and Nutrition](id:9b54f6b6-ec27-4160-b6a0-4885ab610607)

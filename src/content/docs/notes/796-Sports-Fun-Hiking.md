@@ -14,8 +14,7 @@ title: Hiking
   Food](id:54457042-ee7c-4382-b632-d4b271bef93e)
 - [Hiking Tips](/garden/notes/796-sports-fun-hiking-tips) - [Hiking
   Tips](id:9d159039-8b0f-41bf-aa37-b5059d048310)
-- [Trails and Books](/garden/notes/796-sports-fun-hiking-trails-and-books) -
-  [Hiking Trails & Books](id:6440c45e-d468-4b37-a6ce-5fcbb2ab4c9d)
+- [Trails and Books](/garden/notes/796-sports-fun-hiking-trails-and-books)
 
 ### Trip Plans
 

@@ -9,7 +9,7 @@ Source: [PlantUML Command Line](https://plantuml.com/command-line),
 [PlantUML Hitch Hikers
 Guide](https://crashedmind.github.io/PlantUMLHitchhikersGuide),
 <https://plantuml.com/>, [PlantUML Code Blocks in
-Babel](https:/.mdmode.md/.md.md-contrib/babel/languages/ob-doc-plantuml.html)
+Babel](https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-plantuml.html)
 
 ``` shell
 

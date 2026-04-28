@@ -38,7 +38,6 @@ title: Personal Knowledge Management System
 ## See Also
 
 - [Mardown Notetaking](/garden/notes/370-education-info-markdown-notetaking) -
-  [Markdown Notetaking](id:92f9d2eb-ff99-46fb-911c-8d02af2179ad) -
   implementation ideas for a system based on Markdown and VS Code
 - [Productivity System Second
   Brain](/garden/notes/370-education-info-productivity-system-second-brain) -

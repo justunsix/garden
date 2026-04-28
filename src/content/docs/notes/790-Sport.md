@@ -6,15 +6,12 @@ title: Sports, games and entertainment
 
 ## See Also
 
-- [Stretching](/garden/notes/790-sport-stretching) -
-  [Stretching](id:3253d781-59f5-45c2-9392-40241c3bad13)
+- [Stretching](/garden/notes/790-sport-stretching)
 
 ### Gymnastics
 
-- [Calisthenics](/garden/notes/790-sport-calisthenics) -
-  [Calisthenics](id:ab01c8a4-750f-43f7-9e84-c51094e0a2a0)
-- [Calisthenics Workouts](/garden/notes/790-sport-calisthenics-workouts) -
-  [Calisthenics Workouts](id:21290686-fd73-4eec-9944-e16d4b333376)
+- [Calisthenics](/garden/notes/790-sport-calisthenics)
+- [Calisthenics Workouts](/garden/notes/790-sport-calisthenics-workouts)
 - [Calisthenics Handstands
   Classes](/garden/notes/790-sport-calisthenics-handstands) - [Calisthenics
   Handstand Classes](id:1f99ff6c-2ce4-42af-9839-679e3c6855c7)

@@ -71,5 +71,4 @@ title: Reading List
 
 Notes from books
 
-- [Books](/garden/notes/370-education-learning-books) -
-  [Books](id:69af0e3e-3e81-463e-9365-ce8caa3b2cc2)
+- [Books](/garden/notes/370-education-learning-books)

@@ -32,8 +32,7 @@ compute resources which can be supported with human supervision.
   Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-agents) -
   [Agents in Azure AI
   Solutions](id:eae5da2e-f013-42af-8128-cc2ae5c28b0f)
-- [Skills to Build AI Agents](/garden/notes/006-3-tech-ai-agents-career-skills) -
-  [Skills to Build AI Agents](id:be537cbf-7949-4d1d-8a69-910e72464b34)
+- [Skills to Build AI Agents](/garden/notes/006-3-tech-ai-agents-career-skills)
 
 ### Resources
 

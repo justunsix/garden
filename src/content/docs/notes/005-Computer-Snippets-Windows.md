@@ -100,5 +100,4 @@ active.
 
 ## See Also
 
-- [Powershell Snippets](/garden/notes/005-computer-snippets-powershell) -
-  [Powershell Snippets](id:803df536-bf76-4fef-8bc6-775cf2e7dec6)
+- [Powershell Snippets](/garden/notes/005-computer-snippets-powershell)

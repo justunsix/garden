@@ -104,8 +104,7 @@ What are good to delegate tasks?
 
 ## See Also
 
-- [Minimalism](/garden/notes/158-psychology-applied-minimalism) -
-  [Minimalism](id:2b798889-d02b-4917-80ee-53b63b169032)
+- [Minimalism](/garden/notes/158-psychology-applied-minimalism)
 - [Minimalist, Zero Waste
   Lifestyle](/garden/notes/158-psychology-applied-environment-minimalist-lifestyle) -
   [Minimalist, Zero Waste

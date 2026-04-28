@@ -56,8 +56,7 @@ title: Mental Health
   [Personal Goals Meditation
   Manifestation](id:73d19c1d-cda6-4073-a456-2600eba18eb2)
 
-- [Stoicism](/garden/notes/158-psychology-applied-health-mental-stoicism) -
-  [Stoicism](id:3615be88-f25a-4fba-98c4-42f34c59be5d)
+- [Stoicism](/garden/notes/158-psychology-applied-health-mental-stoicism)
 
 - [Mental Health
   Hoarding](/garden/notes/158-psychology-applied-health-mental-hoarding) - [Mental

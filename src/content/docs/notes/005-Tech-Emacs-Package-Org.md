@@ -12,7 +12,7 @@ Source: [Emacs Org-mode - a system for note-taking and project
 planning](https://www.youtube.com/watch?v=oJTwQvgfgMM) with speaker:
 Carsten Dominik, creator of org mode. Including notes from [org mode is
 awesome - YouTube](https://www.youtube.com/watch?v=fgizHHd7nOo),
-[Org-mode manual](https:/.mdmode.md/)
+[Org-mode manual](https://orgmode.org/)
 
 ### Use cases
 
@@ -146,7 +146,7 @@ your personal settings
 2.  Radio Tables
 
     - [Org mode manual entry: Radio
-      Tables](https:/.mdmode.md/manual/Radio-tables.html)
+      Tables](https://orgmode.org/manual/Radio-tables.html)
 
     - Embed an org-mode table in any file (e.g. Markdown, C, Javascript)
 

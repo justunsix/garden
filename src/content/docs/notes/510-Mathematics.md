@@ -6,5 +6,4 @@ title: Mathematics
 
 ## See Also
 
-- [Fibonacci sequence](/garden/notes/510-mathematics-geometry-fibonacci-sequence) -
-  [Fibonacci sequence](id:bc98d41c-eb5c-4724-9f07-11a993245556)
+- [Fibonacci sequence](/garden/notes/510-mathematics-geometry-fibonacci-sequence)

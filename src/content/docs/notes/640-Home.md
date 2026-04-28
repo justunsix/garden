@@ -11,8 +11,7 @@ title: Home and family management
   shoes
 - [Cooking Food Ideas](/garden/notes/641-food-home-cooking-food-ideas) - [Home
   Cooking Food Ideas](id:4b42a868-b956-405c-81b3-51ff30bafca0)
-- [Cooking, Food, Recipes](/garden/notes/641-food-home-cooking-food-recipes) -
-  [Cooking, Recipes, Food](id:56a33318-2bab-4345-b1a8-3d6c71f3bac1)
+- [Cooking, Food, Recipes](/garden/notes/641-food-home-cooking-food-recipes)
 - [Death plan](/garden/notes/306-culture-institutions-home-death-plan) - [Death
   Plan](id:81713af1-1eba-4750-bf3a-4fcab47c2ffa)
 - [Emergency

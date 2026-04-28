@@ -15,8 +15,7 @@ title: IBM Openshift
 - [kubectl, oc snippets - ](/garden/notes/005-computer-snippets-kubectl-oc-kube) -
   [kubectl, oc Openshift, Other K8s related command Snippets
   Snippets](id:1b0d6d70-3fc0-4246-bec2-425fe12d454f)
-- [Redhat Openshift Logging](/garden/notes/005-tech-ibm-redhat-openshift-logging) -
-  [Redhat Openshift Logging](id:fb40866f-7c57-4745-af4e-3059478b17ce)
+- [Redhat Openshift Logging](/garden/notes/005-tech-ibm-redhat-openshift-logging)
 - [Redhat Openshift Data Foundation
   (ODF)](/garden/notes/005-tech-ibm-redhat-openshift-data-foundation) - [Redhat
   Openshift Data Foundation

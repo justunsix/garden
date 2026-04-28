@@ -26,5 +26,4 @@ otherwise you may get an `vfs` error.
 - [Microsoft GitHub
   Copilot](/garden/notes/006-3-tech-ai-microsoft-github-copilot) - [Microsoft
   GitHub Copilot](id:871c6593-9b29-489e-ab0d-3a999bc1531a)
-- [Microsoft GitHub DevOps](/garden/notes/005-tech-microsoft-devops-github) -
-  [Microsoft GitHub DevOps](id:3fd2590f-06c4-420a-8c54-ee75fc7466e2)
+- [Microsoft GitHub DevOps](/garden/notes/005-tech-microsoft-devops-github)

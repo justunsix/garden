@@ -6,8 +6,7 @@ title: Amazon Web Services (AWS) Training
 
 ## See Also
 
-- [Amazon AWS Fundamentals](/garden/notes/004-67-tech-amazon-aws-fundamentals) -
-  [Amazon AWS Fundamentals](id:f15582c4-0b4b-4578-97bc-13e51eec2d42)
+- [Amazon AWS Fundamentals](/garden/notes/004-67-tech-amazon-aws-fundamentals)
 - [DevOps Bootcamp - AWS
   Services](/garden/notes/005-computer-tech-devops-bootcamp-twn-aws-services) -
   [DevOps Bootcamp - AWS
@@ -17,8 +16,7 @@ title: Amazon Web Services (AWS) Training
 
 - [AWS Databases](/garden/notes/004-67-tech-amazon-aws-databases) - [AWS
   Databases](id:a890041d-1d82-4f44-91e7-c88fd16a296d)
-- [AWS Data Architecture](/garden/notes/004-67-tech-amazon-aws-data-architecture) -
-  [AWS Data Architecture](id:d0606acc-53c1-429d-8d4a-5c522dff53c8)
+- [AWS Data Architecture](/garden/notes/004-67-tech-amazon-aws-data-architecture)
 - [AWS Serverless Application
   Development](/garden/notes/004-67-tech-amazon-aws-serverless-application-development) -
   [AWS Serverless Application

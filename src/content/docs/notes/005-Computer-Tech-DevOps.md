@@ -6,8 +6,7 @@ title: DevOps - Development and Operations
 
 ## See Also
 
-- [Ansible](/garden/notes/005-computer-tech-devops-ansible) -
-  [Ansible](id:9d393a61-59de-4540-9495-0c2122cf3d59) - infrastructure as
+- [Ansible](/garden/notes/005-computer-tech-devops-ansible) - infrastructure as
   code (IaC)
 - [Azure Resource Manager
   ARM](/garden/notes/005-computer-tech-devops-azure-resources-manager-arm) - [Azure

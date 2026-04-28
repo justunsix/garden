@@ -7,7 +7,7 @@ title: Emacs Org-Mode Table Snippets
 ---
 
 Source: [Org tutorial for tables -
-orgmode.org](https:/orgmode.org/worg/org-tutorials/tables.html),
+orgmode.org](https://orgmode.org/worg/org-tutorials/tables.html),
 [james-stoup/org-mode-table-tutorial: A simplified guide to mastering
 Org Mode table functions ·
 GitHub](https://github.com/james-stoup/org-mode-table-tutorial). Examples

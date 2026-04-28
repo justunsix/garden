@@ -35,5 +35,4 @@ title: Personal health and safety
 
 ### Weight Training
 
-- [Weight Training](/garden/notes/613-health-safety-sport-weight-training) -
-  [Weight Training](id:2706dc72-c875-407a-aa82-f7e930d5b0a5)
+- [Weight Training](/garden/notes/613-health-safety-sport-weight-training)

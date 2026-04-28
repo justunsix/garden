@@ -6,8 +6,7 @@ title: "Social sciences: Inclusion, diversity"
 
 ## See also
 
-- [Racism](/garden/notes/300-social-science-comms-inclusion-racism) -
-  [Racism](id:3c1d5f6f-c828-4ddd-a7a2-54424dda28ae)
+- [Racism](/garden/notes/300-social-science-comms-inclusion-racism)
 - [Racism and Loved
   Ones](/garden/notes/300-social-science-comms-inclusion-racism-and-loved-ones) -
   [Racism and Loved Ones](id:79c336a6-48a4-436d-8a51-16b8243385e6)

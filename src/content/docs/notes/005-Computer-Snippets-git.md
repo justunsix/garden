@@ -637,7 +637,5 @@ git checkout branch_name
 
 ## See Also
 
-- [Technology](/garden/notes/600-technology) -
-  [Technology](id:9092eabf-f6f5-4775-b8aa-6e78e74880c3)
-- [GitHub](/garden/notes/005-computer-tech-github) -
-  [GitHub](id:7780cbb0-5092-4233-8f80-bb90864828f9)
+- [Technology](/garden/notes/600-technology)
+- [GitHub](/garden/notes/005-computer-tech-github)

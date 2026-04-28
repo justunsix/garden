@@ -11,14 +11,13 @@ title: Emacs Org Babel Literate Programming
 
 ## See Also
 
-- [Emacs Org Mode Snippets](/garden/notes/005-computer-snippets-emacs-org-mode) -
-  [Emacs Org Mode Snippets](id:4a735bbe-5abd-434a-8387-df414685c341)
+- [Emacs Org Mode Snippets](/garden/notes/005-computer-snippets-emacs-org-mode)
 
 ### Resources
 
-- [Babel: Active Code in Org](https:/.mdmode.md/.md.md-contrib/babel/)
+- [Babel: Active Code in Org](https://orgmode.org/worg/org-contrib/babel/)
 - [Babel:
-  Languages](https:/.mdmode.md/.md.md-contrib/babel/languages/index.html) -
+  Languages](https://orgmode.org/worg/org-contrib/babel/languages/index.html) -
   supported by babel
 
 ## Tips

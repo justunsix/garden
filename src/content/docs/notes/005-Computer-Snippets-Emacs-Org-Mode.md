@@ -220,7 +220,7 @@ print(sys.executable)
 ## Run a specific program using :shebang
 
 See [Shell Code Blocks in
-Babel](https:/orgmode.org/worg/org-contrib/babel/languages/ob-doc-shell.html)
+Babel](https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-shell.html)
 
 This method can be used to run any command, programming language and get
 its output with a specific path or in the user's PATH environment
@@ -304,7 +304,7 @@ Snippets](id:c0360cd8-8ed4-45a4-9c5f-df8edc034cb5)
 ## SQL
 
 Source: For specific languages, see [SQL Source Code Blocks in Org
-Mode](https:/orgmode.org/worg/org-contrib/babel/languages/ob-doc-sql.html)
+Mode](https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-sql.html)
 with examples from [Ryan Prior / Emacs Org Data Starter ·
 GitLab](https://gitlab.com/ryanprior/emacs.md-data-starter) for
 configurations

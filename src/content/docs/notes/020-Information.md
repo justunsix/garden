@@ -10,10 +10,8 @@ title: Library and Information Sciences
   Documentation](/garden/notes/020-information-documentation-code-as-documentation) -
   [Using Code as Documentation to Save Time and Share
   Context](id:ce8c9f0f-3176-4008-914a-fafbd71f1d90)
-- [Documentation System](/garden/notes/020-info-documentation-system) -
-  [Documentation System](id:94b95d8d-8571-4beb-9d90-a49d952ded88)
-- [Information IT Privacy](/garden/notes/005-computer-info-it-privacy) -
-  [Information Privacy IT](id:b6e827cc-f4c9-4da3-a436-4d9b85e1da0f)
+- [Documentation System](/garden/notes/020-info-documentation-system)
+- [Information IT Privacy](/garden/notes/005-computer-info-it-privacy)
 - [Information Universal Decimal Classification System
   UDC](/garden/notes/020-information-universal-decimal-classification-system-udc) -
   [Information Universal Decimal Classification System
@@ -23,7 +21,6 @@ title: Library and Information Sciences
   [Information Dewey Decimal Classification
   (DDC)](id:a339c5f9-476a-4d4c-a9b5-924b2bec9aa7)
 - [Mardown Notetaking](/garden/notes/370-education-info-markdown-notetaking) -
-  [Markdown Notetaking](id:92f9d2eb-ff99-46fb-911c-8d02af2179ad) -
   implementation ideas for a system based on Markdown and VS Code
 - [Personal Knowledge
   management](/garden/notes/370-education-info-personal-knowledge-management-system) -

@@ -8,7 +8,6 @@ title: Management and public relations (Business, career,
 ## See Also
 
 - [Classroom Management](/garden/notes/370-education-comms-classroom-management) -
-  [Classroom Management](id:71ba3b8e-c904-4ec2-9996-ae2867f5ece3) -
   discipline, parenting, child communications, techniques
 - [Diagrams as Code](/garden/notes/004-tech-comms-diagrams-as-code) - [Diagrams as
   Code](id:2396caa4-6342-41b3-a2a8-26614aa6da3c)
@@ -31,8 +30,7 @@ title: Management and public relations (Business, career,
 
 ### Inclusion
 
-- [Inclusion - Communications](/garden/notes/300-social-science-comms-inclusion) -
-  [Inclusion - Communications](id:ad5f7b13-cdd6-465e-bc1a-979187d078e9)
+- [Inclusion - Communications](/garden/notes/300-social-science-comms-inclusion)
 - [Indigenous Land
   Acknowledgements](/garden/notes/300-social-science-comms-inclusion-indigenous-land-acknowledgement) -
   [Indigenous Land
@@ -43,8 +41,7 @@ title: Management and public relations (Business, career,
 
 ### Marketing Communications
 
-- [Marketing](/garden/notes/650-business-comms-marketing) -
-  [Marketing](id:1af38f49-81c3-410f-837f-aa053acd5605) - Marketing
+- [Marketing](/garden/notes/650-business-comms-marketing) - Marketing
   approaches, Google Ads, Digital Ads
 - [Digital Marketing Profile
   Template](/garden/notes/650-business-comms-marketing-digital-profile-template) -

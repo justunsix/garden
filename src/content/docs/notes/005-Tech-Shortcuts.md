@@ -17,8 +17,7 @@ title: Software Shortcuts
 - [Dolphin File Manager Shortcuts](/garden/notes/005-computer-shortcuts-dolphin) -
   [Dolphin File Manager
   Shortcuts](id:87c1a54e-8b05-42fa-b62d-a40fb869eddf)
-- [duckduckgo Shortcuts](/garden/notes/005-computer-shortcuts-duckduckgo) -
-  [duckduckgo Shortcuts](id:889bac6b-0631-45f2-9176-89c9056b5e78)
+- [duckduckgo Shortcuts](/garden/notes/005-computer-shortcuts-duckduckgo)
 - [Emacs Shortcuts](/garden/notes/005-tech-emacs-shortcuts) - [Emacs
   Shortcuts](id:daea5d06-6895-4073-a5c7-64e8f21bf085)
 - [Espanso Shortcuts](/garden/notes/005-computer-shortcuts-espanso) - [Espanso
@@ -53,13 +52,11 @@ title: Software Shortcuts
   Shortcuts](id:56e801c9-5f3f-4417-a9c5-c6a556885f5a)
 - [Lazygit Shortcuts](/garden/notes/005-computer-shortcuts-lazygit) - [Shortcuts
   Lazygit](id:e37dc2a2-7eff-44f7-b8dd-a21b07eba1af)
-- [Lenovo Laptop Shortcuts](/garden/notes/005-computer-shortcuts-lenovo-laptop) -
-  [Lenovo Laptop Shortcuts](id:ae117719-1fba-46e6-9195-fc675ddc903f)
+- [Lenovo Laptop Shortcuts](/garden/notes/005-computer-shortcuts-lenovo-laptop)
 - [lf list file manager
   Shortcuts](/garden/notes/005-computer-shortcuts-lf-list-file-manager) - [lf list
   file manager Shortcuts](id:cc43793b-b283-46f7-b078-d4596f83cd62)
-- [LibreOffice Shortcuts](/garden/notes/005-computer-shortcuts-libreoffice) -
-  [LibreOffice Shortcuts](id:0543eccb-1111-444b-aed8-28101db0036e)
+- [LibreOffice Shortcuts](/garden/notes/005-computer-shortcuts-libreoffice)
 - [Linux GNOME gTile
   Shortcuts](/garden/notes/005-computer-shortcuts-linux-gnome-gtile) - [Linux GNOME
   gTile Shortcuts](id:9d4e2740-83a5-49ab-bfcb-f55def51a8a8)
@@ -100,27 +97,22 @@ title: Software Shortcuts
   Shortcuts](id:fc547d1c-d991-4e67-b6be-1b8cc5d4fc17)
 - [OpenCode Shortcuts](/garden/notes/005-computer-shortcuts-opencode) - [OpenCode
   Shortcuts](id:fffca480-55d7-435a-abe9-c4f4fb1433b6)
-- [OpenStreetMap Shortcuts](/garden/notes/005-computer-shortcuts-openstreetmap) -
-  [OpenStreetMap Shortcuts](id:26136107-fbb2-4749-b793-5f6d911b81c6)
+- [OpenStreetMap Shortcuts](/garden/notes/005-computer-shortcuts-openstreetmap)
 - [Personal OS Shortcuts](/garden/notes/005-computer-shortcuts-personal) -
   [Personal Operating System (OS)
   Shortcuts](id:e088b065-f7fd-48d1-a797-93a7222314c9)
-- [PowerShell Shortcuts](/garden/notes/005-computer-shortcuts-powershell) -
-  [PowerShell Shortcuts](id:95c7a21b-9498-46ac-a81a-6184ebf6a884)
+- [PowerShell Shortcuts](/garden/notes/005-computer-shortcuts-powershell)
 - [Proton Shortcuts](/garden/notes/005-computer-shortcuts-proton) - [Proton
   Shortcuts](id:2451250d-aed0-48e9-839d-90730bf4c4fd)
 - [Ranger Shortcuts](/garden/notes/005-computer-shortcuts-ranger) - [Ranger
   Shortcuts](id:6b338826-2f54-43af-96d5-205b2e34321f)
-- [Television Shortcuts](/garden/notes/005-computer-shortcuts-television) -
-  [Television Shortcuts](id:60262848-822f-4bf3-8a17-629cb46a0815)
-- [Thunderbird Shortcuts](/garden/notes/005-computer-shortcuts-thunderbird) -
-  [Thunderbird Shortcuts](id:bd958c77-1153-426a-8001-d4abd9b68325)
+- [Television Shortcuts](/garden/notes/005-computer-shortcuts-television)
+- [Thunderbird Shortcuts](/garden/notes/005-computer-shortcuts-thunderbird)
 - [Tmux Shortcuts](/garden/notes/005-computer-shortcuts-tmux) - [Tmux
   Shortcuts](id:7f641c76-24e6-4027-b7b7-364b0f503926)
 - [top Shortcuts](/garden/notes/005-computer-shortcuts-top) - [top
   Shortcuts](id:0a383917-ba37-4fc8-9b88-f5dd212adc3d)
-- [Vim Packages Shortcuts](/garden/notes/005-computer-shortcuts-vim-packages) -
-  [Vim Packages Shortcuts](id:5406dafc-2c54-40ec-9efd-41b277e37284)
+- [Vim Packages Shortcuts](/garden/notes/005-computer-shortcuts-vim-packages)
 - [Vim Shortcuts](/garden/notes/005-computer-shortcuts-vim) - [Vim
   Shortcuts](id:bdb62bfe-56b7-4c13-a1e4-9f91cf4e0bb5)
 - [Visidata Shortcuts](/garden/notes/005-computer-shortcuts-visidata) - [Visidata

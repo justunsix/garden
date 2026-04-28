@@ -14,7 +14,6 @@ influences these applications:
   [Introduction to AI in Microsoft Azure
   AI-900](id:dd87d682-2c98-4272-acb2-eafa6ebabf78)
 - [Learning How to Learn](/garden/notes/370-education-learning-how-to-learn) -
-  [Learning How to Learn](id:1e2563ae-4b97-423c-a719-8e2eb9d6db03) -
   Coursera course
 
 ## Application of AI to Learning

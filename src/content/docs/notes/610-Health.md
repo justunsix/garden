@@ -6,8 +6,7 @@ title: Medicine and health
 
 ## See Also
 
-- [Calisthenics](/garden/notes/790-sport-calisthenics) -
-  [Calisthenics](id:ab01c8a4-750f-43f7-9e84-c51094e0a2a0) - gymnastics,
+- [Calisthenics](/garden/notes/790-sport-calisthenics) - gymnastics,
   exercises, workouts
 - [COVID 19 Pandemic Information](/garden/notes/610-health-covid19) - [COVID 19
   Pandemic Information](id:ba10802f-f857-4db2-8782-59beac4a2f5f)
@@ -31,8 +30,7 @@ title: Medicine and health
   Flexibility](/garden/notes/610-health-physiotherapy-shoulder-back-flexibility) -
   [Physiotherapy Shoulder, Back Strength and
   Flexibility](id:13190fba-9051-46cc-b7bb-505595e6030e)
-- [Stretching](/garden/notes/790-sport-stretching) -
-  [Stretching](id:3253d781-59f5-45c2-9392-40241c3bad13) - gymnastics
+- [Stretching](/garden/notes/790-sport-stretching) - gymnastics
 
 ### Education
 

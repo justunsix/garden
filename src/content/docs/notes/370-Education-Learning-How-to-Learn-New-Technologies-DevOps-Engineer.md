@@ -57,5 +57,4 @@ Know concepts to check new tools or tool features
 
 ## See Also
 
-- [Learning How to Learn](/garden/notes/370-education-learning-how-to-learn) -
-  [Learning How to Learn](id:1e2563ae-4b97-423c-a719-8e2eb9d6db03)
+- [Learning How to Learn](/garden/notes/370-education-learning-how-to-learn)

@@ -625,10 +625,8 @@ App → Alternative
 - [Free and Open source software
   alternatives](/garden/notes/005-tech-foss-alternatives) - [Free and Open source
   software alternatives](id:cc3fae8b-58d7-4d82-9ee9-3fe7001dc50a)
-- [Terminal](/garden/notes/005-tech-terminal) -
-  [Terminal](id:af66c501-039b-4af6-ba93-18e759546761)
-- [KDE](/garden/notes/005-tech-kde) -
-  [KDE](id:e9b0d465-18a0-470e-ad74-179048a24f95)
+- [Terminal](/garden/notes/005-tech-terminal)
+- [KDE](/garden/notes/005-tech-kde)
 
 ### Resources
 

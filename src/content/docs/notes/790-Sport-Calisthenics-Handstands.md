@@ -90,8 +90,7 @@ Source: My personal notes on routines from handstand classes
 
 ## See Also
 
-- [Calisthenics Workouts](/garden/notes/790-sport-calisthenics-workouts) -
-  [Calisthenics Workouts](id:21290686-fd73-4eec-9944-e16d4b333376)
+- [Calisthenics Workouts](/garden/notes/790-sport-calisthenics-workouts)
 
 ### Reference
 

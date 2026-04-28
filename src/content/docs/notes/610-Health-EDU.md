@@ -48,5 +48,4 @@ Archived, some sources are not openly available, though some are
 
 ### Personal Health
 
-- [Neuron Growth and Yoga](/garden/notes/610-health-edu-neuron-growth-and-yoga) -
-  [Neuron Growth and Yoga](id:b916c529-6028-4a34-91e6-767b88c4792c)
+- [Neuron Growth and Yoga](/garden/notes/610-health-edu-neuron-growth-and-yoga)

@@ -15,8 +15,7 @@ title: Applied Psychology
   Applied Pscyhology](id:1d24ebff-9d02-4038-9285-6d6ede889b02)
 - [Mental Health](/garden/notes/158-psychology-applied-health-mental) - [Mental
   Health](id:40ae11a4-0376-4020-a17d-f1cb3939e193)
-- [Minimalism](/garden/notes/158-psychology-applied-minimalism) -
-  [Minimalism](id:2b798889-d02b-4917-80ee-53b63b169032)
+- [Minimalism](/garden/notes/158-psychology-applied-minimalism)
 - [Neuroscience of Meditation Summit
   2025](/garden/notes/158-psychology-applied-neuroscience-of-meditation-2025-conference) -
   [Neuroscience of Meditation Summit

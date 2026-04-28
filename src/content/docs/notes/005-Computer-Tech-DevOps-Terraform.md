@@ -64,7 +64,5 @@ Both tools should be used together for their strengths.
 
 ## See Also
 
-- [Ansible](/garden/notes/005-computer-tech-devops-ansible) -
-  [Ansible](id:9d393a61-59de-4540-9495-0c2122cf3d59)
-- [Terraform - Azure](/garden/notes/005-computer-tech-devops-terraform-azure) -
-  [Terraform - Azure](id:1a54acd2-4463-4917-bb08-dfcb4a0e8ced)
+- [Ansible](/garden/notes/005-computer-tech-devops-ansible)
+- [Terraform - Azure](/garden/notes/005-computer-tech-devops-terraform-azure)

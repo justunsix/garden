@@ -45,14 +45,11 @@ title: Software Snippets
   Snippets](id:4a17b5a3-3c43-42d4-a17c-9c2699a9d9d0)
 - [dotnet .NET Snippets](/garden/notes/005-computer-snippets-dotnet) - [dotnet .NET
   Snippets](id:fcce2f6d-6d6e-4919-8303-f1a59f125457)
-- [Editorconfig Snippets](/garden/notes/005-computer-snippets-editorconfig) -
-  [Editorconfig Snippets](id:0f1c1552-c742-412f-8008-ae602020e576)
-- [Emacs eshell Snippets](/garden/notes/005-computer-snippets-emacs-eshell) -
-  [Emacs eshell Snippets](id:b9c15120-7b17-427c-9f08-e12e2678e0b7)
+- [Editorconfig Snippets](/garden/notes/005-computer-snippets-editorconfig)
+- [Emacs eshell Snippets](/garden/notes/005-computer-snippets-emacs-eshell)
 - [Emacs Lisp Snippets](/garden/notes/005-computer-snippets-emacs-lisp) - [Emacs
   Lisp Snippets](id:00798efe-be1c-4450-8aaf-2b1d288d8422)
-- [Emacs Org Mode Snippets](/garden/notes/005-computer-snippets-emacs-org-mode) -
-  [Emacs Org Mode Snippets](id:4a735bbe-5abd-434a-8387-df414685c341)
+- [Emacs Org Mode Snippets](/garden/notes/005-computer-snippets-emacs-org-mode)
 - [Emacs Org Mode Table
   Snippets](/garden/notes/005-computer-snippets-emacs-org-mode-table) - [Emacs Org
   Mode Table Snippets](id:43771c13-7b1a-49d0-9a25-95ea5a644844)
@@ -83,10 +80,8 @@ title: Software Snippets
   CLI Snippets](id:a3c30671-2f49-4952-9cb4-a5b4087bf8b3)
 - [Git Snippets](/garden/notes/005-computer-snippets-git) - [Git
   Snippets](id:95f66412-2bb4-49f7-aed1-c05f0057798c)
-- [GNU Coreutils Snippets](/garden/notes/005-computer-snippets-gnu-coreutils) -
-  [GNU Coreutils Snippets](id:60d1c07a-22b6-40bb-99ee-274feab9cd20)
-- [GNU Findutils Snippets](/garden/notes/005-computer-snippets-gnu-findutils) -
-  [GNU Findutils Snippets](id:86eb6f90-622f-4d0d-b37d-eb55d6b6cf45)
+- [GNU Coreutils Snippets](/garden/notes/005-computer-snippets-gnu-coreutils)
+- [GNU Findutils Snippets](/garden/notes/005-computer-snippets-gnu-findutils)
 - [GNU Info Snippets](/garden/notes/005-computer-snippets-info) - [GNU Info
   Snippets](id:9421a803-3ff4-4a17-87a5-322cabb371e3)
 - [GNU Privacy Guard GPG Pretty Good Privacy (PGP)
@@ -104,8 +99,7 @@ title: Software Snippets
   Snippets](id:0ad986a2-9bec-4d2c-8687-f91af216c662)
 - [Helm Snippets](/garden/notes/005-computer-snippets-helm) - [Helm
   Snippets](id:7ed92686-1a85-46cc-8483-6fa1fc0587a2)
-- [JavaScript Snippets](/garden/notes/005-computer-snippets-javascript) -
-  [JavaScript Snippets](id:9d66cc02-f8c7-46e0-8f92-da79b107f1c7)
+- [JavaScript Snippets](/garden/notes/005-computer-snippets-javascript)
 - [Java Snippets](/garden/notes/005-computer-snippets-java) - [Java
   Snippets](id:169b12b1-ff8d-4a9a-8adc-d6e1e9452cda)
 - [Kamal Snippets](/garden/notes/005-tech-snippets-kamal) - [Kamal
@@ -133,16 +127,14 @@ title: Software Snippets
   Snippets](id:55fa5347-938b-43d8-9c98-3d1a8d28595d)
 - [Markdown](/garden/notes/005-computer-snippets-markdown) - [Markdown
   Snippets](id:f2162753-fa54-47d9-bd7d-b5ead55b40ee)
-- [Mermaid Diagrams Snippets](/garden/notes/005-computer-snippets-mermaid) -
-  [Mermaid Diagrams Snippets](id:50c2d4f2-8613-4b6b-a6ef-12f43376e2d6)
+- [Mermaid Diagrams Snippets](/garden/notes/005-computer-snippets-mermaid)
 - [Microsoft Power Automate
   Snippets](/garden/notes/005-computer-snippets-microsoft-power-automate) -
   [Microsoft Power Automate
   Snippets](id:21dcf766-554f-4be9-a2d4-5116673f75be)
 - [Minikube Snippets](/garden/notes/005-computer-snippets-minikube) - [Minikube
   Snippets](id:c430e255-a071-45a5-873c-da3104149bdc)
-- [mise-en-place Snippets](/garden/notes/005-computer-snippets-mise-en-place) -
-  [mise-en-place Snippets](id:4126d6c6-3402-40de-95d9-e28e97cbb617)
+- [mise-en-place Snippets](/garden/notes/005-computer-snippets-mise-en-place)
 - [mpocs Snippets](/garden/notes/005-computer-snippets-mprocs) - [mprocs
   Snippets](id:5681583f-e894-4777-aeab-930ba556443d)
 - [mpv Snippets](/garden/notes/005-computer-snippets-mpv) - [mpv
@@ -171,16 +163,14 @@ title: Software Snippets
   Snippets](id:cff51a5c-156b-4f2e-a49f-17a61dd46f76)
 - [Power Fx Snippets](/garden/notes/005-computer-snippets-powerfx) - [Power Fx
   Snippets](id:c6748d15-4042-4d28-9b3d-a0acbfbc4ce6)
-- [Powershell Snippets](/garden/notes/005-computer-snippets-powershell) -
-  [Powershell Snippets](id:803df536-bf76-4fef-8bc6-775cf2e7dec6)
+- [Powershell Snippets](/garden/notes/005-computer-snippets-powershell)
 - [Pulseaudio-pactl
   Snippets](/garden/notes/005-computer-snippets-pulseaudio-pactl) -
   [Pulseaudio-pactl Snippets](id:43f11284-372d-42fe-aaaa-9f9dea5093b4)
 - [Python Anaconda and
   Conda](/garden/notes/005-computer-snippets-python-anaconda) - [Python and
   Anaconda Snippets](id:09101af3-7da0-4433-b8b4-c1df997fcd91)
-- [Python Debugging Snippets](/garden/notes/005-computer-snippets-python-debug) -
-  [Python Debugging Snippets](id:8093b4b0-9b65-4e0e-8dd7-260bce0a2ade)
+- [Python Debugging Snippets](/garden/notes/005-computer-snippets-python-debug)
 - [Python Snippets](/garden/notes/005-computer-snippets-python) - [Python
   Snippets](id:b775ff13-9b5b-4af4-9c2b-e98be0af5fdc)
 - [Python uv Snippets](/garden/notes/005-computer-snippets-python-uv) - [Python uv
@@ -209,10 +199,8 @@ title: Software Snippets
   Snippets](id:df000228-d572-4544-8dcb-86f94b1cd346)
 - [Stow Snippets](/garden/notes/005-computer-snippets-stow) - [Stow GNU
   Snippets](id:b70edd4e-9022-467b-ba9a-600b39b72853)
-- [systemd-journal Snippets](/garden/notes/005-computer-snippets-systemd-journal) -
-  [systemd-journal Snippets](id:bd625f38-5dee-464e-bf0f-da6b57b0c52b)
-- [Television Snippets](/garden/notes/005-computer-snippets-television) -
-  [Television Snippets](id:464e217b-0754-456e-9b6b-d3d954917af5)
+- [systemd-journal Snippets](/garden/notes/005-computer-snippets-systemd-journal)
+- [Television Snippets](/garden/notes/005-computer-snippets-television)
 - [Terraform Snippets](/garden/notes/005-computer-snippets-terraform) - [Terraform
   Snippets](id:fcf890d9-149a-4c8c-80c8-ab2e2417fad8)
 - [tmux Snippets](/garden/notes/005-computer-snippets-tmux) - [tmux
@@ -235,12 +223,10 @@ title: Software Snippets
   Snippets](id:5823f5a9-3c82-453a-bad3-e659009dee7a)
 - [Windows Snippets](/garden/notes/005-computer-snippets-windows) - [Windows
   Snippets](id:cba87902-6edd-4f82-8071-24d8902da403)
-- [Windows WSL Snippets](/garden/notes/005-computer-snippets-windows-wsl) -
-  [Windows WSL Snippets](id:135e45be-b456-4c86-a5cb-fee47064b77a)
+- [Windows WSL Snippets](/garden/notes/005-computer-snippets-windows-wsl)
 - [Wine Snippets](/garden/notes/005-computer-snippets-wine) - [Wine
   Snippets](id:d74e20b9-f1b8-4d8d-8747-71366f9ab90a)
-- [winget Windows Package Manager](/garden/notes/005-computer-snippets-winget) -
-  [Winget Snippets](id:03a386df-b8a7-43fa-9048-30ce9ea28a0e)
+- [winget Windows Package Manager](/garden/notes/005-computer-snippets-winget)
 - [Worktrunk Snippets](/garden/notes/005-computer-snippets-worktrunk) - [Worktrunk
   Snippets](id:85f7620e-184b-4c79-8157-d1146f0fbfbd)
 - [Yt-dlp Snippets](/garden/notes/005-computer-snippets-youtube-yt-dlp) - [yt-dlp

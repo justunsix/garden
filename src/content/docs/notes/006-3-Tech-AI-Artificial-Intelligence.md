@@ -135,8 +135,7 @@ title: Artificial Intelligence (AI)
 - [Microsoft GitHub
   Copilot](/garden/notes/006-3-tech-ai-microsoft-github-copilot) - [Microsoft
   GitHub Copilot](id:871c6593-9b29-489e-ab0d-3a999bc1531a)
-- [Microsoft M365 Copilot](/garden/notes/006-3-tech-ai-microsoft-m365-copilot) -
-  [Microsoft M365 Copilot](id:68647160-81d6-4a03-a1c0-cd91cc529eed)
+- [Microsoft M365 Copilot](/garden/notes/006-3-tech-ai-microsoft-m365-copilot)
 - [Microsoft Power Platform and
   AI](/garden/notes/005-tech-microsoft-power-platform-ai) - [Microsoft Power
   Platform and AI](id:d85c6b3c-b675-46bd-8399-7919d2a3a6b3)

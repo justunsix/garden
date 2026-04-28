@@ -72,8 +72,7 @@ START qemu-system-x86_64.exe -L Bios -m 1024M ^
 
 ## See Also
 
-- [Technology](/garden/notes/600-technology) -
-  [Technology](id:9092eabf-f6f5-4775-b8aa-6e78e74880c3)
+- [Technology](/garden/notes/600-technology)
 
 ### Resources
 

@@ -10,8 +10,7 @@ title: Data Security, IT Cyber Security
   Guard (GPG)](id:42b3dfbb-141c-4aa8-9dc0-06cefa20f62d)
 - [Safing Portmaster](/garden/notes/005-8-tech-security-portmaster) - [Safing
   Portmaster](id:b8d7927c-a93b-45da-a622-a91f7c0b4945)
-- [SecDevOps, Secure DevOps](/garden/notes/005-8-tech-security-secure-devops) -
-  [Secure DevOps](id:9329dbfe-ee56-4bda-93d7-6bf7a8816b1d)
+- [SecDevOps, Secure DevOps](/garden/notes/005-8-tech-security-secure-devops)
 - [Securing Git Secrets, SOPS: Secrets
   OPerations](/garden/notes/005-computer-tech-git-security-sops-secrets-operations) -
   [Securing Git Secrets, SOPS: Secrets

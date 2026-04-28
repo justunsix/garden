@@ -531,5 +531,4 @@ Python](https://realpython.com/api-integration-in-python/)
   Anaconda Snippets](id:09101af3-7da0-4433-b8b4-c1df997fcd91)
 - [Python PyDay 2023](/garden/notes/005-1-tech-python-pyday2023) - [Python PyDay
   2023](id:f8bc9ba2-948f-4b44-92f8-37bcea837b6e)
-- [Technology](/garden/notes/600-technology) -
-  [Technology](id:9092eabf-f6f5-4775-b8aa-6e78e74880c3)
+- [Technology](/garden/notes/600-technology)

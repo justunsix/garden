@@ -178,7 +178,7 @@ Notes for books, articles, etc.
 - "\* Summary" first heading of note
 
 [Org Mode Manual: Template
-Expansion](https:/.mdmode.md/manual/Template-expansion.html#Template-expansion)
+Expansion](https://orgmode.org/manual/Template-expansion.html#Template-expansion)
 
 #### Project template
 
@@ -249,7 +249,7 @@ Year: %^{Year}
   beware of filename collisions
 
 See further examples of possible inserts in [Org Mode Manual: Template
-Expansion](https:/.mdmode.md/manual/Template-expansion.html#Template-expansion)
+Expansion](https://orgmode.org/manual/Template-expansion.html#Template-expansion)
 
 If you change the template, keep in mind you'll need to update older
 files using the template to match your new format.

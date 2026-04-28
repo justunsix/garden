@@ -76,5 +76,4 @@ Example process to check differences in branches:
 
 ## See Also
 
-- [Emacs Shortcuts for Magit](/garden/notes/005-tech-emacs-shortcuts-magit) -
-  [Emacs Shortcuts for Magit](id:18083c56-9942-44b7-804d-623b22866188)
+- [Emacs Shortcuts for Magit](/garden/notes/005-tech-emacs-shortcuts-magit)

@@ -255,8 +255,7 @@ yes | head -n 5
 
 ## See Also
 
-- [GNU Findutils Snippets](/garden/notes/005-computer-snippets-gnu-findutils) -
-  [GNU Findutils Snippets](id:86eb6f90-622f-4d0d-b37d-eb55d6b6cf45)
+- [GNU Findutils Snippets](/garden/notes/005-computer-snippets-gnu-findutils)
 - [Linux Snippets](/garden/notes/005-computer-snippets-linux) - [Linux
   Snippets](id:3aca5424-540c-4f65-a7ca-079fd5e94a99)
 

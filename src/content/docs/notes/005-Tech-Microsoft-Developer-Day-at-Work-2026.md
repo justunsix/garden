@@ -111,9 +111,7 @@ packages can be deployed to different environments.
 
 ## See Also
 
-- [GitHub](/garden/notes/005-computer-tech-github) -
-  [GitHub](id:7780cbb0-5092-4233-8f80-bb90864828f9)
-- [Microsoft Power Platform](/garden/notes/005-tech-microsoft-power-platform) -
-  [Microsoft Power Platform](id:3a07fa69-d143-48f4-bcda-e2c6222aeeb9)
+- [GitHub](/garden/notes/005-computer-tech-github)
+- [Microsoft Power Platform](/garden/notes/005-tech-microsoft-power-platform)
 - [Microsoft Technology](/garden/notes/005-tech-microsoft) - [Microsoft
   Technology](id:fd8af895-8c3f-483c-80a9-e082b1e62581)
