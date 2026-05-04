@@ -10,16 +10,16 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.8",
+    "@astrojs/check": "^0.9.9",
     "@astrojs/starlight": "^0.38.4",
-    "astro": "^6.1.9",
+    "astro": "^6.2.1",
     "sharp": "^0.34.5",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.3"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "eslint": "^10.2.1",
-    "globals": "^17.5.0",
+    "eslint": "^10.3.0",
+    "globals": "^17.6.0",
     "typescript-eslint": "^8.58.1"
   }
 }
