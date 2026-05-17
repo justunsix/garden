@@ -10,6 +10,8 @@ title: Food and drink
 - [Comic Book Guide to Growing Food
   (Book)](/garden/notes/635-gardening-comic-book-guide-to-growing-food)
 - [Cooking, Food, Recipes](/garden/notes/641-food-home-cooking-food-recipes)
+- [Espresso, Latte with Machine
+  Preparation](/garden/notes/641-food-coffee-espresso-latte-machine-preparation)
 - [Health, Food and
   Nutrition](/garden/notes/613-health-safety-sport-health-edu-food-nutrition)
 - [Hiking Food](/garden/notes/796-sports-fun-hiking-food)
