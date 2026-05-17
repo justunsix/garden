@@ -6,6 +6,9 @@ id: 013c5e1a-8471-45df-a027-4d064205800b
 title: Emergency Management and Preparedness Training
 ---
 
+Source: [Ontario Corp Volunteer
+Training](https://www.corps.ontario.ca/training)
+
 ## Emergency Management and Preparedness
 
 ### Emergencies and Emergency Management
@@ -124,17 +127,16 @@ Emergency Preparedness Kits](id:5e5d2c96-0669-4e98-83d9-b1b348c57ec3)
     - Reconfigure your workstation
     - Ask for assistance
 - Conflict Resolution
-  - See also [Peacemaking and
-    de-escalation](id:b799171a-77c0-4d0b-bd05-0547c73f29ce) from
-    [Fridays for Future Marshal
-    Training](/garden/notes/550-earth-sciences-environment-fridays-for-future)
+  - See also "Peacemaking and de-escalation" from [Fridays for Future
+    Marshal
+    Training](/garden/notes/550-earth-sciences-environment-fridays-for-future-marshal-training)
   - Identify yourself verbally (what you do or who you represent). Be
     polite, friendly and pleasant.
   - Only get voluntary compliance, anything more is a police matter
   - Likely scenarios:
     - Personal investment in situation
       - Be compassionate, adjust to comply with rules and safety
-    - Well intentioned helpers
+    - People who want to help
       - Reason for safety
     - Curious, thrill seeking or opportunism like looters
       - Be firm, order them but inform others during non-compliance
@@ -147,7 +149,7 @@ Emergency Preparedness Kits](id:5e5d2c96-0669-4e98-83d9-b1b348c57ec3)
 
 ### Hazard and Risk Awareness
 
-Your safety is required to help others
+Your safety required to help others
 
 #### Potential hazards
 
@@ -230,12 +232,12 @@ Prevention:
   hazardous sites
 
 - Air purifying respirators (APR) (half/full face) - when there is
-  sufficient oxygen but filtering air from particulates is required, but
+  sufficient oxygen but filtering air from particulates required, but
   not protection from gas
 
 ### Stress Management and Self-Care
 
-Volunteer can be exposed to stressful situations like weather,
+Volunteer may have exposure to stressful situations like weather,
 situations, victims, and senses and team members
 
 #### Stress Types
@@ -293,7 +295,9 @@ Support Team members with:
 ## Accessibility and Human Rights
 
 See [Accessibility and Human Rights and
-AODA](/garden/notes/600-technology-work-accessibility-and-human-rights-aoda)
+AODA](/garden/notes/600-technology-work-accessibility-and-human-rights-aoda) -
+[Accessibility and Human Rights and
+AODA](id:7b712cc5-2449-47ca-9dbe-33b9930c7ec3)
 
 ## Ontario Human Rights Code
 
@@ -321,5 +325,17 @@ of Racism](id:49cebe53-2c94-438a-8084-92a1c7db7218)
 
 ### Resources
 
+#### Ontario, Canada
+
+- [211 Ontario (211ontario.ca)](https://211ontario.ca/) – Connection to
+  essential community and social supports
+- [511 Ontario (511on.ca)](https://511on.ca/) – Real time road and
+  travel information
+- [Health811
+  (health811.ontario.ca)](https://health811.ontario.ca/static/guest/home)
+  – 24/7 access to registered nurses for health advice
+- [Hydro One Outage
+  Map](https://www.hydroone.com/power-outages-and-safety/stormcentre-outage-map)
+  – Power outage status and restoration updates
 - [Ontario Volunteer
   Corps](https://www.volunteercorps.gov.on.ca/Home/Dashboard)

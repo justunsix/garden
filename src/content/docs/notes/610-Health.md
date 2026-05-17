@@ -10,7 +10,7 @@ title: Medicine and health
   exercises, workouts
 - [COVID 19 Pandemic Information](/garden/notes/610-health-covid19)
 - [Dental Health](/garden/notes/610-health-dental)
-- [Growing Young (Book)](/garden/notes/610-health-book-growing-young) - book on
+- [Growing Young (Book)](/garden/notes/610-health-growing-young-book) - book on
   longevity practices
 - [Medical and Physical Health](/garden/notes/610-health-medical)
 - [Mental Health](/garden/notes/158-psychology-applied-health-mental)

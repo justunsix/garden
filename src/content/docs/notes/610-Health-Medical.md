@@ -29,6 +29,7 @@ to eat healthier at work, plan meals for shift work, and recipes.
 - [Cancer Screening](/garden/notes/610-health-medical-cancer-screening)
 - [Family Health](/garden/notes/610-health-medical-family-health-doctor)
 - [First Aid](/garden/notes/610-health-edu-first-aid)
+- [Shingles First Aid](/garden/notes/610-health-edu-first-aid-shingles) -
 - [Fitness Test](/garden/notes/610-health-medical-fitness-test) - basic flexibility,
   fat level, and pulse check under exercise
 - [Long-Term

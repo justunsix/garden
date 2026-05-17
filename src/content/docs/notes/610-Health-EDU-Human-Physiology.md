@@ -9,12 +9,11 @@ February - June 2015 by Duke University
 
 Taught by Emma (Mimi) Jakoi and Jennifer Carbrey
 
-Our primary reference text for this course is Introductory Human
-Physiology, by Emma Jakoi and Jennifer Carbrey, (Lulu Press).” This
-textbook is an ebook that combines our lecture notes into one searchable
-document and is available for a minimal fee at the following link:
-[Introductory Human
-Physiology](https://www.lulu.com/shop/emma-jakoi-and-jennifer-carbrey/introductory-human-physiology/ebook/product-22080962.html?page=1&pageSize=4)
+Reference text for this course is Introductory Human Physiology, by Emma
+Jakoi and Jennifer Carbrey, (Lulu Press). This textbook is an ebook that
+combines our lecture notes into one searchable document and is available
+for a minimal fee at [Introductory Human
+Physiology](https://www.lulu.com/shop/emma-jakoi-and-jennifer-carbrey/introductory-human-physiology/ebook/product-22080962.html?page=1&pageSize=4).
 
 Or
 
@@ -23,7 +22,10 @@ Widmaier, Hershel Raff, Kevin T. Strang, 10th, 11th, or 12th edition,
 McGraw Hill Companies Inc.
 
 See more at [Introduction to Human Physiology \|
-Coursera](https://www.coursera.org/learn/physiology/home/info)
+Coursera](https://www.coursera.org/learn/physiology/home/info) - Jakoi,
+Emma, and Jennifer Carbrey. Introductory Human Physiology. 2015,
+<https://www.lulu.com/shop/emma-jakoi-and-jennifer-carbrey/introductory-human-physiology/ebook/product-22080962.html?page=1&pageSize=4>.
+EPUB.
 
 ## See Also
 

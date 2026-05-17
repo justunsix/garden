@@ -297,8 +297,7 @@ AODA](/garden/notes/600-technology-work-accessibility-and-human-rights-aoda)
 
 ## Ontario Human Rights Code
 
-See [Ontario Human Rights Code](/garden/notes/340-law-ontario-human-rights-code) -
-[Ontario Human Rights Code](id:ce203fcc-4c21-4fc9-ba98-6cbe00eb8f0f)
+See [Ontario Human Rights Code](/garden/notes/340-law-ontario-human-rights-code)
 
 ## The Ontario Accessibility for Ontarians with Disabilities Act (AODA) and the Ontario Human Rights Code
 
