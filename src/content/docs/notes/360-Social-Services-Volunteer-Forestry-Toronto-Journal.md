@@ -11,12 +11,10 @@ planting, and other activities while volunteering with [Community
 Stewardship Program – City of
 Toronto](https://www.toronto.ca/community-people/get-involved/volunteer-with-the-city/community-stewardship-program/)
 
-## Riverdale Park East 2025
+## Invasive species on site, identification and removal tips (Riverdale Park East)
 
-### Invasive species on site, identification and removal tips
-
-- [Bedstraw](http://ontariowildflowers.com/main/group.php?id=67) -
-  sticky
+- [Bedstraw](https://www.ontario.ca/document/weed-identification-guide-ontario-crops/smooth-bedstraw)
+  - Sticky
 - Buckthorn - woody, looks like small dots on bark
   - Removal: if large, chop near bottom of trunk
 - [Burdock](https://www.ontarioinvasiveplants.ca/invasive-plants/species/burdock/) -
@@ -36,20 +34,36 @@ Toronto](https://www.toronto.ca/community-people/get-involved/volunteer-with-the
   - Matching stems
   - Removal: Cut parts that provide photosynthesis or uproot if possible
     and turn upside down to prevent re-rooting
-- Garlic mustard - red stem, smells like garlic, leafy
+- [Garlic mustard](https://www.ontario.ca/page/garlic-mustard)
+  - Red stem
+  - Smells like garlic when crushed
+  - Leaves: first year: dark green kidney shaped; second year: sharp
+    toothed
 - Norway maple
 - [Phragmites](https://www.ontarioinvasiveplants.ca/invasive-plants/species/phragmites/)
   aka European fern - thin stem, long leaves
   - Removal: using spading under roots at 45 degree angle
 - Queen Anne's Lace aka wild carrot
   - Has braks, sticky seeds
-- Red dead nettle - pinkish flower
+- [Purple deadnettle aka red dead
+  nettle](https://www.ontario.ca/document/weed-identification-guide-ontario-crops/purple-deadnettle)
+  - Pinkish flower
+  - Leaves: heart shaped
 - Siberia squill - blue flower
 - Tansy - frilly leaves, yellow flowers
 
 Removal of plants with seeds: before removal, cut off seeds and dispose
 of separately in bucket / garbage bags. Other parts of invasive species
 can be composted.
+
+## Riverdale Park East 2026
+
+### 2026-05
+
+- Early May: Prefer removal of garlic mustard before it flowers
+- Removal of purple deadnettle aka red dead neetle and bedstraw
+
+## Riverdale Park East 2025
 
 ### Leaf and Plant Identification 2025-08
 

@@ -15,7 +15,7 @@ doctor, friend, family member, even you, yourself
 
 See [Ontario Health atHome](https://ontariohealthathome.ca/)
 
-### Care Coordinators
+### Care Coordinators for Therapies
 
 Care Coordinators are regulated health professionals, with expertise in
 nursing, social work, occupational therapy, physiotherapy or speech
