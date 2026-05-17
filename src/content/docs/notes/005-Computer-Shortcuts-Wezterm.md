@@ -39,15 +39,16 @@ Source:
 
 ## Copy Mode
 
-| Description                   | Shortcut         |
-|-------------------------------|------------------|
-| Activate                      | Ctrl + Shift + x |
-| Exit                          | Esc              |
-| Toggle - cell select          | v                |
-| Toggle - line select          | Shift + v        |
-| Toggle - rectangle select     | Ctrl + v         |
-| Copy selected                 | Ctrl + Shift + c |
-| Copy selected and exit (yank) | y                |
+| Description                   | Shortcut             |
+|-------------------------------|----------------------|
+| Activate                      | Ctrl + Shift + x     |
+| Copy common patterns          | Ctrl + Shift + Space |
+| Copy selected                 | Ctrl + Shift + c     |
+| Copy selected and exit (yank) | y                    |
+| Exit                          | Esc                  |
+| Toggle - cell select          | v                    |
+| Toggle - line select          | Shift + v            |
+| Toggle - rectangle select     | Ctrl + v             |
 
 Other select navigation is similar to Vim
 

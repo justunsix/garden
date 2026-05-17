@@ -36,11 +36,11 @@ title: Emacs Shortcuts for org-mode
 
 | Name                                 | Shortcuts                         |
 |--------------------------------------|-----------------------------------|
-| Sort lists, tables by selection [^1] | org-sort= , =org-table-sort-lines |
+| Check checkbox                       | C-c C-x C-b                       |
 | Indent headings/bullets              | M-left/right                      |
 | Insert next item in list             | M-Enter                           |
-| Check checkbox                       | C-c C-x C-b                       |
-| org toggle on context [^2]           | Shift-Left or Shift-Right         |
+| org toggle on context [^1]           | Shift-Left or Shift-Right         |
+| Sort lists, tables by selection [^2] | org-sort= , =org-table-sort-lines |
 | Toggle task priority (A, B, C)       | Shift-Up or Shift-Down            |
 
 ### Metadata
@@ -195,10 +195,7 @@ See also:
 +org/dwim-at-point: like check boxs, follow items, and [other
 functions](https://github.com/doomemacs/doomemacs/blob/9620bb45ac4cd7b0274c497b2d9d93c4ad9364ee/modules/lang.org/autoload.md.el#L151)
 
-[^1]: different than sort-lines due options and sorts alphabetical and
-    sub bullets correctly with uppercase and lowercase
-
-[^2]: Act on element according to context:
+[^1]: Act on element according to context:
 
     - switch a timestamp at point one day into the past
     - on a headline, switch to the previous TODO keyword, like DONE
@@ -206,3 +203,6 @@ functions](https://github.com/doomemacs/doomemacs/blob/9620bb45ac4cd7b0274c497b2
     - on a property line, switch to the previous allowed value
     - on a clocktable definition line, move time block into the past
     - in a table, move a single cell left
+
+[^2]: different than sort-lines due options and sorts alphabetical and
+    sub bullets correctly with uppercase and lowercase

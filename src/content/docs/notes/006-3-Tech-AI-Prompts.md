@@ -50,6 +50,7 @@ Other tips:
 ---
 
 ### 1. Goal
+
 Clearly state what you want accomplished.
 - Desired outcome
 - Definition of complete
@@ -57,6 +58,7 @@ Clearly state what you want accomplished.
 ---
 
 ### 2. Context
+
 - History
 - Audience / people involved
 - Constraints (time, politics, sensitivities, costs)
@@ -64,6 +66,7 @@ Clearly state what you want accomplished.
 ---
 
 ### 3. Information Sources
+
 - **Attachments:**
   - doc1.pdf
   - requirements.md
@@ -78,10 +81,11 @@ Clearly state what you want accomplished.
 ---
 
 ### 4. Expectations
-- **Tone:**
-- **Output format:**
-- **Length:**
-- **Structure:**
+
+- Tone:
+- Output format:
+- Length:
+- Structure:
 
 ```
 
@@ -98,16 +102,19 @@ Clearly state what you want accomplished.
 ,:END:
 
 **** 1. Goal
+
 Clearly state what you want accomplished.
 - Desired outcome
 - Definition of task complete
 
 **** 2. Context
+
 - History
 - Audience / people involved
 - Constraints (time, politics, sensitivities, costs)
 
 **** 3. Information Sources
+
 - Attachments: doc1.pdf, requirements.md, python_code.py
 - Links:
   - [1]
@@ -115,6 +122,7 @@ Clearly state what you want accomplished.
   - [2]
 
 **** 4. Expectations
+
 - Tone:
 - Output format:
 - Length:
@@ -224,6 +232,8 @@ Write a file like in markdown with:
 
 - [AI Prompt Examples by
   Topic](/garden/notes/006-3-tech-ai-prompts-examples-by-topic)
+- [AI Prompt Approaches for
+  Creation](/garden/notes/006-3-tech-ai-prompts-approaches-for-creation)
 
 ### Resources
 

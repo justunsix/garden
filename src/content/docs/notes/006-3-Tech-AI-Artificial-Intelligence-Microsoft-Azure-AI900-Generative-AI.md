@@ -328,6 +328,10 @@ methods/instructions:
 - One shot - provide one example of what you want
 - Few shot - provide a couple examples of what you want
 
+See more prompt types at [AI Prompt Approaches for
+Creation](/garden/notes/006-3-tech-ai-prompts-approaches-for-creation) - [AI Prompt
+Approaches for Creation](id:32ffb713-d70e-49d8-81c0-c7bfb48a280e)
+
 Information sources (3) provide grounding for the model like documents,
 emails.
 

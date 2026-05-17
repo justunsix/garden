@@ -37,6 +37,14 @@ mise use github:hashicorp/vagrant
 # Install a tool globally (-g)
 mise use -g github:nickgerace/gfold
 
+# Install npm package
+mise use npm:fission-ai/openspec
+
+# Install pipx package
+mise use pipx:black
+# Install specific pipx package
+mise use pipx:black@24.3.0
+
 # mise x or exec can be used for one-off commands using specific tools
 mise x python@3.12 -- ./myscript.py
 ## if you want to run a script with python3.12

@@ -14,7 +14,10 @@ SELECT * FROM Customers LIMIT 10
 
 ```
 
-## SQL Client in Terminal and Command Line
+## USQL Universal SQL Client in Terminal and Command Line
+
+Source: [xo/usql: Universal command-line interface for SQL databases ·
+GitHub](https://github.com/xo/usql)
 
 ``` shell
 
@@ -57,7 +60,7 @@ select * from users where name like '%joe%'
 
 ```
 
-## Microsoft SQL Server, Azure SQL, T-SQL
+## Microsoft SQL Server, Azure SQL, T-SQL, sqlcmd CLI
 
 ``` powershell
 
@@ -86,9 +89,15 @@ sqlcmd -S azuresqlserver-mine.database.windows.net -d datamanagement -G
 # for example with az login
 # per :h dadbod and discussion in https://github.com/tpope/vim-dadbod/issues/152
 sqlserver://azuresqlserver.windows.net?database=databasename&authentication=ActiveDirectoryDefault
+
+######
+# JDBC, for example for use with DBeaver
+jdbc:sqlserver://;serverName=azuresqlserver.windows.net;databaseName=DBName;encrypt=true
+# For Authentication, use Active Directory - MFA (web MFA prompt), Active Directory - Integrated (reuse user's login),
+
 ```
 
-## T-SQL Administration
+## Microsoft (MS) SQL Server T-SQL Administration
 
 ``` sql
 
@@ -99,9 +108,12 @@ ALTER LOGIN [Mary.Smith] WITH PASSWORD = '<enterStrongPasswordHere>' OLD_PASSWOR
 -- Check logged in user
 SELECT SYSTEM_USER AS [Current User]
 
+-- View table structure
+SELECT * FROM sys.tables
+
 ```
 
-## T-SQL Permissions
+- T-SQL Permissions
 
 ### View all Permissions on Azure SQL server
 

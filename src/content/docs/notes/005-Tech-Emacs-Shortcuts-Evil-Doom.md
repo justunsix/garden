@@ -53,6 +53,7 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Browse url of file, open in browser | SPC o b |
 | Buffer, delete buffer | SPC b d |
 | Buffer, open scratch buffer | SPC x |
+| Buffer, switch buffers, files, bookmarks, projects | SPC \< or consult-buffer or C-x b |
 | Code actions, Jump to definition (like Vim gd) | SPC c d or gd |
 | Code actions, Jump to reference (like Vim gr) | SPC c D |
 | Code actions / LSP | SPC c a |
@@ -101,6 +102,7 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Go to file or url at point | g f |
 | Go to, open file in separate buffer and split | C-w f |
 | Help: Doom, Doom Modules | SPC h d m |
+| Help, Search key map and run | SPC ? |
 | Insert, Search Evil Register | SPC i r |
 | Insert, Snippet | SPC i s |
 | Leader key while in insert mode | M-SPC |
@@ -132,6 +134,7 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Tags: projectile find tag | C-t |
 | Terminal, Open in cwd full screen (vterm) terminal | SPC o T |
 | Terminal, Toggle (vterm) terminal popup (bottom screen) | SPC o t |
+| Terminal, Toggle pop up | C-\` |
 | Toggle: line numbers: absolute, relative, none | SPC t l or doom/toggle-line-numbers |
 | Toggle: pop up like help, terminal | C-\` |
 | Workspace (tab): Close | SPC tab d |

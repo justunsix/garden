@@ -10,7 +10,11 @@ title: SSH Snippets
 ssh-keygen
 # Create with type and email
 ssh-keygen -t ed25519 -C "myemail@domain.com"
-# Optionally, can use flag to specific where files are created -f /path/to/key
+# Optionally, can use flag to specific where with files created -f /path/to/key
+# Make sure permissions limited to user
+chmod 600 ./.ssh/id_ed25519*
+# Output public key
+cat ~/.ssh/id_ed25519.pub
 
 # SSH to destination with an identity file "id_rsa_myidentity"
 ssh -i id_rsa_myidentity user@ip_address

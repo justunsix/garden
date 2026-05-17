@@ -18,6 +18,8 @@ plus my additions
 - [age](https://github.com/FiloSottile/age) - secure encryption tool and
   Go library with small explicit keys, no config options, and UNIX-style
   composability
+- [alacritty](https://alacritty.org/) - terminal emulator, URLs can open,
+  search, VI bindings
 - Ansible - software tools that enables infrastructure as code
 - Ardour - digital audio workstation
 - Audacity - digital audio editor and recording application software
@@ -53,9 +55,12 @@ plus my additions
   graphical front end for GDB and CUDA-GDB
 - [DB Browser for SQLite](https://sqlitebrowser.org/) - SQLite
   management, editing browser
+- [DBeaver](https://dbeaver.io/) - Universal Database Tool
 - [DevDocs](https://github.com/freeCodeCamp/devdocs/) - API
   Documentation Browser for online and offline, including programming
   languages, APIs and others
+- [Dozzle](https://github.com/amir20/dozzle) - Realtime log viewer for
+  containers. Supports Docker, Swarm and K8s
 - Drupal - web content management system (CMS) written in PHP and
   distributed under the GNU General Public License
 - [ELinks](https://en.wikipedia.org/wiki/ELinks) - text based browser
@@ -111,6 +116,8 @@ plus my additions
 - Handbrake - video converter, transcoder for digital video files
 - [headlamp](https://github.com/kubernetes-sigs/headlamp) - Kubernetes
   web UI for local or in cluster use
+- [Helix](https://helix-editor.com/) - modal editor like vim with modern
+  defaults and more built in features
 - htop - interactive system-monitor process-viewer and process-manager
 - [ImageMagick](https://imagemagick.org/) - editing and manipulating
   digital images. It can be used to create, edit, compose, or convert

@@ -55,31 +55,31 @@ is at the right and moves right. j The j key looks like a down arrow. v
 
 | Description | Shortcut |
 |----|----|
-| Search: command history | C-f |
-| Search: set case insensitive | :set ic |
-| Search: set case sensitive | :set noic |
-| Search: highlight | :set hls |
-| File, Open, Edit \<file\> | :e \<file\> or :edit \<file |
-| File, Save as | :f |
-| File, set file encoding | set fileencoding=utf8 |
-| File, set autowrite (aw), write on certain changes | set aw |
-| Show list of commands / autocomplete | : \<…\> Ctrl + D or tab |
-| Autocomplete, chose choices | Tab |
 | Autocomplete, accept choice, keep in command mode | Ctrl + y |
-| Line numbers: absolute as in file / deactivate | :set nu :set nonu |
-| Line numbers: relative to point / deactivate | :set rnu :setnornu |
-| Line numbers: hybrid of above / deactivate | :set:nu rnu :set nonu nornu |
+| Autocomplete, chose choices | Tab |
+| Digraphs, show call digraph codes | :diagraphs |
 | Earlier, go back in time of file, 2 number of times | :earlier 2 |
 | Earlier, go back in time of file, {N} minutes before | :earlier {N}m |
+| File, Open, Edit \<file\> | :e \<file\> or :edit \<file |
+| File, Save as | :f |
+| File, set autowrite (aw), write on certain changes | set aw |
+| File, set file encoding | set fileencoding=utf8 |
+| Key mappings, depends on mode, see :h map-overview | :map |
+| Line numbers: absolute as in file / deactivate | :set nu :set nonu |
+| Line numbers: hybrid of above / deactivate | :set:nu rnu :set nonu nornu |
+| Line numbers: relative to point / deactivate | :set rnu :setnornu |
+| Lines, copy given line range, see :h cmdline-ranges | :copy or :t |
+| Lines, move given line range | :norm |
 | Make, run make by default or makeprg defined command | :make |
 | Make, set makeprg (make program) | :set makeprg make |
 | Messages, Vim logs View | :messages |
-| Lines, copy given line range, see :h cmdline-ranges | :copy or :t |
-| Lines, move given line range | :norm |
 | Normal mode commands execution | :move or :m |
-| Key mappings, depends on mode, see :h map-overview | :map |
+| Search: command history | C-f |
+| Search: highlight | :set hls |
+| Search: set case insensitive | :set ic |
+| Search: set case sensitive | :set noic |
 | Settings, Tab stop or number of spaces for a tab | :set tabstop 2 |
-| Digraphs, show call digraph codes | :diagraphs |
+| Show list of commands / autocomplete | : \<…\> Ctrl + D or tab |
 
 For `:make`, output will go to quickfix list for easy fixes on items
 
@@ -113,13 +113,13 @@ with Vim's `:make` and `:copen`. See `:h quickfix`.
 
 | Description                                 | Shortcut             |
 |---------------------------------------------|----------------------|
-| Quickfix, Open                              | :copen               |
-| Quickfix, Close                             | :cclose              |
-| Next item                                   | :cnext or \]q or :cn |
-| Previous item                               | :cprev or \[q or :cp |
 | First, last item                            | :cfirst :clast       |
-| Open item 3 or item by number               | :cc 3                |
 | Go to quickfix item                         | Enter                |
+| Next item                                   | :cnext or \]q or :cn |
+| Open item 3 or item by number               | :cc 3                |
+| Previous item                               | :cprev or \[q or :cp |
+| Quickfix, Close                             | :cclose              |
+| Quickfix, Open                              | :copen               |
 | Run command on each quickfix item           | :cdo COMMAND         |
 | Run command on each quickfix item, per file | :cfo COMMAND         |
 
@@ -260,8 +260,8 @@ Vim command mode:
 
 | Description                   | Shortcut                        |
 |-------------------------------|---------------------------------|
-| Show file location and status | Ctrl + g                        |
 | Retrieve and place in buffer  | :r \<file or external command\> |
+| Show file location and status | Ctrl + g                        |
 | Spell check                   | :set spell                      |
 
 ### External Commands
@@ -392,9 +392,15 @@ editor
 # Go to, line number in file
 :103
 
-# Copy current file name to system clipboard register @+
+# Copy current file name and relative path to cwd to system clipboard register @+
 :let @+ = expand('%')
 # expand('%') gets the current file name
+# Copy current file name to system clipboard register @+
+# t - tail of the path meaning filename only
+:let @+ = expand('%:t')
+# Copy current file name and absolute path to system clipboard register @+
+# p - path
+:let @+ = expand('%:p')
 
 # Pipe visual selection to shell command
 :'<,'>w !psql $DATABASE_URL > sql.out
@@ -433,6 +439,9 @@ Other table per `vimtutor` command
 
 | Description | Shortcut |
 |----|----|
+| Change list, go to last change, first change | g; , g, |
+| Change list, Redo | C-r |
+| Change list, Undo | u |
 | Command-line window, buffer for commands, Edit line, hit Enter to run | q: (like C-f in command mode) |
 | Command-line window, search history, Edit line, hit Enter to run | q/ or q? |
 | Delete 10 lines | d10, d |
@@ -456,9 +465,6 @@ Other table per `vimtutor` command
 | Repeat last command, repeat macro (like command, inserts, combos) | . |
 | Replace all occurrences of string<sub>old</sub> with new, new can be blank | :%s/string<sub>old</sub>/new |
 | Replace in region string<sub>old</sub> with new, new can be blank with g global | :'\<,'\>s/string<sub>old</sub>/new/g |
-| Change list, Undo | u |
-| Change list, Redo | C-r |
-| Change list, go to last change, first change | g; , g, |
 
 ### Jump list
 
@@ -515,8 +521,8 @@ VimTricks](https://vimtricks.com/p/vim-jump-to-last-change/)
 | Select, Start select - visual selection | v |
 | Select, visual and selected area | v i \<choose selection options\> |
 | Select, visual and text inside selected symbol, like bracket | v i \], v i ', v i " |
-| Select, visual block mode (rectangle mark, multiple cursor select) | C-v |
 | Select, visual block mode, insert | C-v i |
+| Select, visual block mode (rectangle mark, multiple cursor select) | C-v |
 | Select, visual line mode | V |
 
 - `p` can be combined with `dd` to delete and then paste the deleted
@@ -620,11 +626,11 @@ Source: :h registers, <https://www.brianstorti.com/vim-registers/>
 
 | Description | Shortcut |
 |----|----|
-| Replace content between symbols | di + \<symbol\> like di" |
-| Cut content between symbols | ci + \<symbol\> like ci( |
-| Swap lines up and down (delete line, paste it) | ddp |
-| Delete entire document - G from first line, gg from last line | dG or dgg |
 | Auto indent entire document | gg=G |
+| Cut content between symbols | ci + \<symbol\> like ci( |
+| Delete entire document - G from first line, gg from last line | dG or dgg |
+| Replace content between symbols | di + \<symbol\> like di" |
+| Swap lines up and down (delete line, paste it) | ddp |
 
 ### Movement and Search
 
@@ -651,8 +657,8 @@ Source: :h registers, <https://www.brianstorti.com/vim-registers/>
 | Navigation Previous, Spelling error | \[s |
 | Page Down | Ctrl + f |
 | Page Up | Ctrl + b |
-| Scroll screen, z mini mode: Move screen and leave cursor, top, bottom, middle | zt, zb, zz |
 | Scroll screen, centre page view on current line | zz |
+| Scroll screen, z mini mode: Move screen and leave cursor, top, bottom, middle | zt, zb, zz |
 | Search word at point | \* |
 
 #### Search and Replace
@@ -854,21 +860,21 @@ See `:h wincmd` for more commands
 | Refresh buffer | :e |
 | Close buffer | :bd |
 
-### Tabs
+### Tabs, Layouts, Workspaces
 
 Tabs in Vim are like layouts or workspaces and not like tabs in newer
 IDEs. They preserve the window layout.
 
 | Description                         | Shortcut          |
 |-------------------------------------|-------------------|
-| Edit/Open in new tab                | :tabe example.txt |
-| Open current buffer in new tab      | :tabnew %         |
-| Close tab                           | :tabc (close)     |
 | Close all other tabs except current | :tabo (only)      |
+| Close tab                           | :tabc (close)     |
+| Edit/Open in new tab                | :tabe example.txt |
+| List all tabs                       | :tabs             |
 | Next tab                            | gt                |
-| Prior tab                           | gT                |
 | Numbered tab                        | nnngt             |
-| list all tabs                       | :tabs             |
+| Open current buffer in new tab      | :tabnew %         |
+| Prior tab                           | gT                |
 
 ## Help
 

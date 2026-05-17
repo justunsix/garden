@@ -25,6 +25,10 @@ title: Emacs Shortcuts
 
 | Name | Shortcuts |
 |----|----|
+| Buffer, Save | C-x C-s |
+| Buffer, Switch | C-x b |
+| Buffer, Switch: Cycle through buffers | C-x right , C-x left |
+| Buffer, Switch: List Buffers | C-x C-b |
 | Exit emacs | C-x C-c |
 | Find / Open file | find-file, C-x C-f |
 | Help | C-h C-h |
@@ -34,10 +38,6 @@ title: Emacs Shortcuts
 | Reload screen, mode (many modes like magit, dashboard) | g |
 | Run any command | M-x |
 | Run commands relevant to buffer modes | M-S-X (M-X) |
-| Save buffer | C-x C-s |
-| Switch buffers | C-x b |
-| Switch buffers: Cycle through buffers | C-x right , C-x left |
-| Switch buffers: List Buffers | C-x C-b |
 
 ## System
 

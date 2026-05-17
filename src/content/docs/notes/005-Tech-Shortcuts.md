@@ -6,6 +6,7 @@ title: Software Shortcuts
 
 ## See Also
 
+- [Alacritty Shortcuts](/garden/notes/005-computer-shortcuts-alacritty)
 - [Anki Shortcuts](/garden/notes/005-computer-shortcuts-anki)
 - [Atuin Shortcuts](/garden/notes/005-computer-shortcuts-atuin)
 - [Broot Shortcuts](/garden/notes/005-computer-shortcuts-broot)

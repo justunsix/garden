@@ -90,3 +90,24 @@ doom build
 doom doctor
 
 ```
+
+## Doom Emacs `.editorconfig` error
+
+When receiving an error like the following on Windows operating system,
+the error is likely due to carriage return (CR) characters on Windows.
+
+``` text
+
+EditorConfig: (editorconfig-error "Error from editorconfig-get-properties-function: (error \"Error while reading config file: ~/.config/emacs/modules/editor/file-templates/templates/.editorconfig:1:
+    [*]
+\")")
+
+```
+
+### Fix
+
+Open the file that is part of Doom Emacs at
+`~/.config/emacs/modules/editor/file-templates/templates/.editorconfig`
+and remove the CR characters. Save the file and restart Doom Emacs. The
+`editorconfig-get-properties-function` function should now run fine on
+Windows with the CR characters removed.

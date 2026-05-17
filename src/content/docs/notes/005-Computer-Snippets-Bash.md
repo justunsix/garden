@@ -43,7 +43,7 @@ if ! [ condition ]; then
 fi
 
 # Check if substring inside a string
-[ input_string = "*my_substring*"]
+[ $input_string == *"my_substring"* ]
 
 # Check if a process is running with pgrep
 [ "$(pgrep my-app)" ]

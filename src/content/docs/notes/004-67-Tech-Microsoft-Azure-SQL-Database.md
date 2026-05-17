@@ -13,11 +13,10 @@ Learn](https://learn.microsoft.com/en-us/azure/azure-sql/database/recovery-using
 
 ## Back Up and Restore Databases
 
-- Plan and implement policy for recovering data if user of technology
-  errors occur
-- See options for how and where to back up and restore databases.
+Plan and implement policy for recovering data if user or technology
+errors occur.
 
-Source:
+See options for how and where to back up and restore databases.
 
 - Database backup and restore options for IaaS
 - Virtual machine backup and restore options for IaaS
@@ -389,5 +388,3 @@ Configuration:
 - [Overview of SQL Server on Azure Windows Virtual Machines - SQL Server
   on Azure VMs \| Microsoft
   Learn](https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview?view=azuresql)
-- [Back up and restore databases - Training \| Microsoft
-  Learn](https://learn.microsoft.com/en-us/training/modules/backup-restore-databases/?source=learn)

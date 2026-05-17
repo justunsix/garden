@@ -6,6 +6,6 @@ title: Documentation System
 
 ## See Also
 
-- [Information Management](/garden/notes/020-information)
+- [Library and Information Sciences](/garden/notes/020-information)
 - [Info Documentation System
   Diataxis](/garden/notes/020-info-documentation-system-diataxis)

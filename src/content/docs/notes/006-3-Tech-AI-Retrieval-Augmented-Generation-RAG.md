@@ -68,6 +68,44 @@ RAG similarities:
 Risk mitigation of bias, hallucinations involve (1) Verify input data
 quality is clean, governed and (2) choose appropriate LLM
 
+## Agentic RAG
+
+Source: [RAG's Evolution: From Simple Retrieval to Agentic AI - IBM -
+YouTube](https://youtu.be/JB2P5Gk23VI)
+
+Search approaches:
+
+1.  Keywords - relies on users asking with the right keywords
+2.  Semantic search - words and their relationships, intent is
+    understood
+
+Hybrid search: Keywords search (precision) and semantic vector search
+(recall) complement each other to get relevant results.
+
+- Precision measures how many predicted positives are true positives
+- Recall measures how many actual positives were correctly predicted
+
+1.  Retrieval augmented generation (RAG)
+    - Enhanced RAG
+      - Pipelines added re-rankers to re-order results to be more
+        relevant
+      - User queries re-worded to improve recall
+      - Hybrid retrieval - uses keyword and semantic search
+    - Agentic RAG uses LLMs, memory, planning, critics, retrievers.
+      Agent can decide:
+      - Is retrieval needed?
+      - What question to ask
+      - Where to search
+      - What retrievers to use
+      - Compare sources
+      - Validate data
+      - Refine queries
+      - Use data sources
+      - Use APIs
+      - Multi-modal data
+
+Agentic system applies reasoning on a query and finds answers.
+
 ## See Also
 
 - [AI Retrieval Augmented-Generation RAG and Large Language Model
@@ -77,4 +115,5 @@ quality is clean, governed and (2) choose appropriate LLM
 - [Local AI with Retrieval Augmented Generation (RAG) using Open WebUI
   and
   Ollama](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama)
+- [Skills to Build AI Agents](/garden/notes/006-3-tech-ai-agents-career-skills)
 - [Vector Database](/garden/notes/006-3-tech-ai-vector-database)

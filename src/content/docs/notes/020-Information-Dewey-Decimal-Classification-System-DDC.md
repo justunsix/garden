@@ -12,8 +12,8 @@ OCLC Online Computer Library Center, Inc, Dublin, Ohio. For example
 [class 000 from OCLC
 (pdf)](https://www.oclc.org/content/dam/oclc/webdewey/help/000.pdf)
 
-The below lists classes of the Dewey Decimal Classification (DDC) and
-last section indicates classes adapted for this garden.
+The below lists classes of the Dewey Decimal Classification (DDC). For
+classes adapted for this garden, see the main page.
 
 ``` text
 
@@ -1123,7 +1123,7 @@ Class 900 – History and geography
         989 Paraguay and Uruguay
     990 History of other areas
         990 History of Australasia, Pacific Ocean islands, Atlantic Ocean islands, Arctic islands, Antarctica, extraterrestrial worlds
-        991–992 Not assigned or no longer used
+        991–992 Unassigned
         993 New Zealand
         994 Australia
         995 New Guinea and neighboring countries of Melanesia
@@ -1133,46 +1133,3 @@ Class 900 – History and geography
         999 Extraterrestrial worlds
 
 ```
-
-## Usage of DDC Classes in this Garden
-
-DDC Class name to note topics
-
-- 004.67 Wide area networks
-- 004 Data processing and computer science
-- 005.1 Programming
-- 005.8 Data Security (Cyber Security)
-- 005 Computer programming, programs, and data
-- 006.3 Artificial intelligence
-- 020 Library and information sciences
-- 158 Applied Psychology
-- 300 Social sciences: Inclusion, diversity
-- 306 Culture and institutions: culture institutions
-- 332 Financial economics
-- 336 Public finance
-- 340 Law
-- 360 Social problems and social services
-- 370 Education
-- 380 Commerce, communications and transportation
-- 400 Language
-- 440 French and related languages
-- 550 Earth sciences
-- 600 Technology
-- 610 Medicine and health
-- 613 Personal health and safety
-- 615 Pharmacology and therapeutics
-- 634 Orchards, fruits, forestry
-- 635 Garden crops (Horticulture)
-- 640 Home and family management
-- 641 Food and drink
-- 646 Sewing, clothing, management of personal and family life
-- 648 Housekeeping
-- 650 Management and public relations (Business, career, communications,
-  marketing)
-- 700 General works on art (Creative)
-- 770 Photography, computer art, film, video
-- 780 Music
-- 790 Sports, games and entertainment
-- 808 Rhetoric and collections of literary texts from more than two
-  literatures
-- 910 Geography and travel

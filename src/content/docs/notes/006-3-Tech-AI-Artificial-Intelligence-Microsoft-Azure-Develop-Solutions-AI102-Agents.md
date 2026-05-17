@@ -266,7 +266,7 @@ Learn](https://learn.microsoft.com/en-us/azure/developer/azure-mcp-server/)
 
 ``` text
 
-Agent --> MCP Server : Agent gets list of tools
+Agent (MCP Host, Client) -- MCP Protocol --> MCP Server : Agent gets list of tools
 
 MCP Server --> Agent : Tool information is given to agent for use, like Function A database access, B ticket, and C that sends email
 
