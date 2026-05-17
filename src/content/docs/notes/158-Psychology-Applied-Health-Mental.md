@@ -29,34 +29,24 @@ title: Mental Health
 
 ### CBT and Therapy
 
-- [Mental Health Cognitive Behavioural
-  Therapy](/garden/notes/158-psychology-applied-health-mental-cognitive-therapy)
-
-- [Mental Health & MH First Aid - Cognitive Therapy Unwarping
-  Module](/garden/notes/158-psychology-applied-health-mental-cognitive-therapy-unwarping)
-
-- [Personal Goals Meditation
-  Manifestation](/garden/notes/158-psychology-applied-goals-personal-meditation-manifestation)
-
-- [Stoicism](/garden/notes/158-psychology-applied-health-mental-stoicism)
-
-- [Mental Health
-  Hoarding](/garden/notes/158-psychology-applied-health-mental-hoarding)
-
-- [Compulsive
-  Behaviour](/garden/notes/158-psychology-applied-health-mental-compulsive-behaviour)
-
 - [Box Breathing 4 4 4 4
   Technique](/garden/notes/158-psychology-applied-health-mental-box-breathing-4-4-4-4-technique)
-
+- [Compulsive
+  Behaviour](/garden/notes/158-psychology-applied-health-mental-compulsive-behaviour)
+- [Mental Health Cognitive Behavioural
+  Therapy](/garden/notes/158-psychology-applied-health-mental-cognitive-therapy)
+- [Mental Health Hoarding](/garden/notes/616-diseases-health-mental-hoarding)
+- [Mental Health & MH First Aid - Cognitive Therapy Unwarping
+  Module](/garden/notes/158-psychology-applied-health-mental-cognitive-therapy-unwarping)
 - [Minimalist, Zero Waste
   Lifestyle](/garden/notes/158-psychology-applied-environment-minimalist-lifestyle)
-
-- [Self Care Challenge for Mental and Physical
-  Health](/garden/notes/158-psychology-applied-health-mental-self-care-challenge)
-
+- [Personal Goals Meditation
+  Manifestation](/garden/notes/158-psychology-applied-goals-personal-meditation-manifestation)
 - [Self Care and How are you
   doing](/garden/notes/158-psychology-applied-health-mental-self-care-how-are-you)
+- [Self Care Challenge for Mental and Physical
+  Health](/garden/notes/158-psychology-applied-health-mental-self-care-challenge)
+- [Stoicism](/garden/notes/158-psychology-applied-health-mental-stoicism)
 
 ### Resources
 

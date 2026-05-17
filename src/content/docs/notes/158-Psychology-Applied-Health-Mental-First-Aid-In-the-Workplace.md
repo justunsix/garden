@@ -50,9 +50,7 @@ people and youth programs.
 
 Source: My personal notes from work course on March 18, 2016
 
-**Mental Health in the Workplace for Employees**
-
-**Introduction Module**
+### Introduction Module
 
 **A word of caution**
 
@@ -62,7 +60,7 @@ introduction to mental health in the workplace.
 Please do not attempt to diagnose yourself or others. If you suspect a
 problem, please consult a qualified doctor.
 
-**Module 1 – Stigma**
+### Module 1 – Stigma
 
 **Learning Objectives**
 
@@ -303,11 +301,7 @@ In this module, you learned how to:
 You have come to the end of this module. You may now close the browser
 to end this module.
 
-------------------------------------------------------------------------
-
-**Module 2 – Mental Health Facts**
-
-------------------------------------------------------------------------
+### Module 2 – Mental Health Facts
 
 **Objectives**
 
@@ -840,13 +834,11 @@ understand them better.
 
 **Mental Disorders**
 
-The DSM 5 lists many mental disorders.  Based on recent statistics, the
+The DSM 5 lists many mental disorders. Based on recent statistics, the
 three most commonly seen in the workplace are:
 
 - Major Depressive Disorder,
-
 - Generalized Anxiety Disorder, and
-
 - Adjustment Disorder
 
 Unlike mental health problems, mental disorders are not temporary
@@ -1091,14 +1083,14 @@ there are many resources to help us recover and cope.
 - Mood Disorder Society
 - Center for Addition and Mental Health (CAMH)
 
-**Recap**
+### Recap
 
 Mental health disorders have earned the status of the fastest growing
 cause of disability on a global scale.  Mental disorders are treatable
-and stress is manageable.   Early treatment is critical for a successful
+and stress is manageable. Early treatment is critical for a successful
 recovery.  Mental health conditions can be treated in a variety of ways
 including medication, talking therapy, and community support aimed at
-achieving positive mental health.  It is important to remember that
+achieving positive mental health. It is important to remember that
 diagnosis must be left to mental health professionals.
 
 New medications have positively impacted the lives of people living with
@@ -1270,7 +1262,7 @@ Take a moment to pause and think how you can apply what you have learned
 here on the job or at home. Spread the word – become an advocate for
 tearing down the stigma and shame surrounding mental health issues.
 
-**Module 3 – Strategies for Mental Health Resiliency**
+### Module 3 – Strategies for Mental Health Resiliency
 
 **Learning objectives**
 
@@ -1385,7 +1377,7 @@ In this module, you discovered:
 
 You have come to the end of this module.
 
-**Module 4 - Resources**
+### Module 4 - Resources
 
 **Learning objectives**
 
@@ -1527,7 +1519,7 @@ In this module, you discovered:
 
 You have come to the end of this module.
 
-**Module 5 – Assessment (Exam)**
+### Module 5 – Assessment (Exam)
 
 There are 10 randomly drawn questions for you to assess your own
 knowledge of the material covered in the course.

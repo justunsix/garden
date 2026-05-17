@@ -9,7 +9,7 @@ title: Minimalism
 - [Minimalist, Zero Waste
   Lifestyle](/garden/notes/158-psychology-applied-environment-minimalist-lifestyle)
 - [the simple guide to a minimalist life
-  (Book)](/garden/notes/158-psychology-applied-environment-minimalist-book-lifestyle-simple-guide)
+  (Book)](/garden/notes/158-psychology-applied-environment-minimalist-lifestyle-simple-guide-book)
 - [The
   Minimalists](/garden/notes/158-psychology-applied-minimalism-the-minimalists)
 - [Boundaries and Mental

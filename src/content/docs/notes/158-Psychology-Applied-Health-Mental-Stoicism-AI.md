@@ -1,5 +1,5 @@
 ---
-filetags: ":artificial-intelligence:ai:stoicism:epubnote:"
+filetags: ":health:mental:stoicism:philosophy:psychology:epubnote:artificial-intelligence:"
 id: 4e3d5808-d482-44a1-903e-471c845d7e84
 title: Stoicism and Artificial Intelligence (AI)
 ---

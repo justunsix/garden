@@ -37,6 +37,12 @@ Course Outline:
 - Session Three: Anxiety and Trauma Related Disorders
 - Session Four: Psychotic Disorders
 
+## Summary of Approach
+
+- Show empathy and listen
+- Confirm that their feelings and experiences are valid
+- Offer support, resources
+
 ## Calming exercises
 
 Good for shock, hyperventilation
@@ -65,5 +71,5 @@ breathing will help you feel more relaxed and in control.
 
 ## See Also
 
-[Mental Health in the
-Workplace](/garden/notes/158-psychology-applied-health-mental-first-aid-in-the-workplace)
+- [Mental First Aid in the
+  Workplace](/garden/notes/158-psychology-applied-health-mental-first-aid-in-the-workplace)

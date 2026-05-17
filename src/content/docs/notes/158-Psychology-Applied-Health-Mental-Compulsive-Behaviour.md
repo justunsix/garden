@@ -15,7 +15,7 @@ title: Compulsive Behaviour
   Diseases (ICD-11) - Impulse control
   disorders](https://icd.who.int/browse/2024-01/mms/en#826065555)
 
-## About Compulsive Behaviors
+## About Compulsive Behaviours
 
 - Repeated and consistent behaviours that a person does despite them
   being troubling and having bad effects
