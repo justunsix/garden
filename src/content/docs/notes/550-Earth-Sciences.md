@@ -15,6 +15,8 @@ title: Earth Sciences, Environment and Nature
   GHGs reduction and health for transit
 - [Forestry Volunteer](/garden/notes/360-social-services-volunteer-forestry) -
   Community stewardship in Toronto
+- [Fridays for Future Marshal
+  Training](/garden/notes/550-earth-sciences-environment-fridays-for-future-marshal-training)
 - [Minimalist, Zero Waste
   Lifestyle](/garden/notes/158-psychology-applied-environment-minimalist-lifestyle)
 - [Remote Work](/garden/notes/650-business-environment-remote-work)

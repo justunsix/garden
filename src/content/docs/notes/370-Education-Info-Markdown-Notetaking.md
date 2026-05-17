@@ -123,7 +123,7 @@ To improve VS Code CPU and RAM usage
 ## Converting from OneNote to Markdown
 
 1.  Copy note from OneNote to Docx
-2.  See [pandoc snippets](/garden/notes/005-computer-snippets-pandoc) section
+2.  See [Pandoc Snippets](/garden/notes/005-computer-snippets-pandoc) section
     "Converting docx with images to markdown"
 
 OR
@@ -135,12 +135,12 @@ script](https://github.com/SjoerdV/ConvertOneNote2MarkDown), requires:
 
 ## See Also
 
-- [Pandoc Snippets](/garden/notes/005-computer-snippets-pandoc) - how to convert
-  notes to other formats and paste into notes
-- [Markdown Snippets](/garden/notes/005-computer-snippets-markdown) - pieces of notes
-  for reuse
-- [VS Code Tips](/garden/notes/005-computer-shortcuts-vs-code)
 - [Information management personal knowledge
   management](/garden/notes/370-education-info-personal-knowledge-management-system)
+- [Markdown Snippets](/garden/notes/005-computer-snippets-markdown) - pieces of notes
+  for reuse
 - [Marksman LSP Markdown and Neovim
   Notetaking](/garden/notes/370-education-info-markdown-notetaking-lsp-neovim) -
+- [Pandoc Snippets](/garden/notes/005-computer-snippets-pandoc) - how to convert
+  notes to other formats and paste into notes
+- [VS Code Shortcuts](/garden/notes/005-computer-shortcuts-vs-code)
