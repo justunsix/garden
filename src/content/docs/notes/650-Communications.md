@@ -33,10 +33,4 @@ title: Management and public relations (Business, career,
 - [Marketing](/garden/notes/650-business-comms-marketing) - Marketing
   approaches, Google Ads, Digital Ads
 - [Digital Marketing Profile
-  Template](/garden/notes/650-business-comms-marketing-digital-profile-template) -
-  [Digital Marketing Profile
-  Template](id:Test-client-alpha-63c67486-2692-401c-9d3d-be2034fa037c)
-
-### Media
-
-- [Video Editing](/garden/notes/700-arts-comms-media-video-editing)
+  Template](/garden/notes/650-business-comms-marketing-digital-profile-template)
