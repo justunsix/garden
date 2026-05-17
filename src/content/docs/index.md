@@ -7,14 +7,14 @@ title: A Garden Entrance
 This site is a digital garden which is like a knowledge base, wiki, and
 second brain.
 
-The garden's articles are organized according to the [Dewey Decimal
+The garden's article organization is according to the [Dewey Decimal
 Classification (DDC)
 system](https://en.wikipedia.org/wiki/List_of_Dewey_Decimal_classes) used
-by libraries to organize information covering all knowledge. Index pages
-for classes and articles are listed below. Most articles are on
+by libraries to organize information covering all knowledge. Below is a
+list of the index pages for classes and articles. Most articles are on
 technology, applied psychology, and health and sport.
 
-The garden is maintained by Justin Tung who is a servant of the public.
+Justin Tung maintains this garden. Justin is a servant of the public.
 Communications, tech, health, & sport multi-expert. Fundraiser &
 volunteer for the greater good.
 
@@ -62,7 +62,11 @@ Appleton](https://maggieappleton.com/)
 - [350 Public administration and military
   science](/garden/notes/350-public-administration-military-science)
 - [360 Social problems and social services](/garden/notes/360-social-services)
+- [362.1 People with physical illness](/garden/notes/362-1-social-physical-illness)
+  (Public Health)
 - [370 Education](/garden/notes/370-education-learning)
+- [371 Schools and their activities, special
+  education](/garden/notes/371-schools-activities-special-education)
 - [380 Commerce, communications and transportation](/garden/notes/380-transport)
 
 ## 400 – Language
@@ -81,6 +85,7 @@ Appleton](https://maggieappleton.com/)
 - [610 Medicine and health](/garden/notes/610-health)
 - [613 Personal health and safety](/garden/notes/613-health-safety)
 - [615 Pharmacology and therapeutics](/garden/notes/615-pharmacology-therapeutics)
+- [616 Diseases](/garden/notes/616-diseases)
 - [634 Orchards, fruits, forestry](/garden/notes/634-forestry)
 - [635 Garden crops (Horticulture)](/garden/notes/635-gardening)
 - [640 Home and family management](/garden/notes/640-home)
@@ -90,6 +95,7 @@ Appleton](https://maggieappleton.com/)
 - [648 Housekeeping](/garden/notes/648-housekeeping)
 - [650 Management and public relations (Business, career,
   communications, marketing)](/garden/notes/650-communications)
+- [690 Construction of buildings](/garden/notes/690-construction-buildings)
 
 ## 700 – Arts and recreation
 
@@ -97,6 +103,9 @@ Appleton](https://maggieappleton.com/)
 - [770 Photography, computer art, film, video](/garden/notes/770-photography-art)
 - [780 Music](/garden/notes/780-music)
 - [790 Sports, games and entertainment](/garden/notes/790-sport)
+- [796 Athletic and outdoor sports and
+  games](/garden/notes/796-athletic-outdoor-sports)
+- [796.44 Gymnastics](/garden/notes/796-44-athletic-sports-gymnastics)
 
 ## 800 – Literature
 
@@ -118,23 +127,24 @@ scripts available.
 See [garden/LICENSE at main · justunsix/garden ·
 GitHub](https://github.com/justunsix/garden/blob/main/LICENSE).
 
-Most content is under Creative Commons Attribution 4.0 International
-except source content from original authors where indicated.
+Content you are reading is under Creative Commons Attribution 4.0
+International except source content from original authors where
+indicated.
 
 ### Technology
 
-- Website is built with [Astro](https://astro.build/) website framework
+- Website built with [Astro](https://astro.build/) website framework
   with [Starlight](https://github.com/withastro/starlight) theme.
 - Page content
-  - Content is managed in [Emacs org](https://orgmode.org/) files and
+  - Content managed in [Emacs org](https://orgmode.org/) files and
     converted to markdown for this website using
     [pandoc](https://pandoc.org/)
-  - Conversion to markdown is still being worked on so expect broken
-    links, images, and problems in markdown files
+  - Conversion to markdown is in progress, so expect broken links,
+    images, and problems in markdown files
 - Hosted on [GitHub pages](https://pages.github.com/)
 
 ### References
 
-Sources of content in the garden is indicated in each article.
+Each article will indicate sources of content if any.
 
 - [About Digital Gardens](https://maggieappleton.com/garden-history)
