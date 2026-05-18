@@ -140,7 +140,7 @@ script](https://github.com/SjoerdV/ConvertOneNote2MarkDown), requires:
 - [Markdown Snippets](/garden/notes/005-computer-snippets-markdown) - pieces of notes
   for reuse
 - [Marksman LSP Markdown and Neovim
-  Notetaking](/garden/notes/370-education-info-markdown-notetaking-lsp-neovim) -
+  Notetaking](/garden/notes/370-education-info-markdown-notetaking-lsp-neovim)
 - [Pandoc Snippets](/garden/notes/005-computer-snippets-pandoc) - how to convert
   notes to other formats and paste into notes
 - [VS Code Shortcuts](/garden/notes/005-computer-shortcuts-vs-code)

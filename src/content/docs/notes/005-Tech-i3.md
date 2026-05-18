@@ -244,8 +244,9 @@ lxappearance (GUI theming app)
 ## See Also
 
 - [i3 Shortcuts](/garden/notes/005-computer-shortcuts-i3)
+- [i3 Status Configuration file](/garden/notes/005-tech-i3-dotfile-i3status)
 
-## Resources
+### Resources
 
 - [i3: i3 User Guide](https://i3wm.org/docs/userguide.html)
 - [dotfiles/.config/i3 at main · justunsix/dotfiles ·

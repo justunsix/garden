@@ -6,6 +6,7 @@ title: Software Snippets
 
 ## See Also
 
+- [7-Zip Snippets](/garden/notes/005-computer-snippets-7-zip)
 - [asdf Snippets](/garden/notes/005-computer-snippets-asdf)
 - [Astro Snippets](/garden/notes/005-computer-snippets-astro)
 - [Atuin Snippets](/garden/notes/005-computer-snippets-atuin)

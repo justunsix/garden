@@ -12,5 +12,6 @@ title: Financial economics
 
 ### Training and Planning
 
-- [eCommerce Camp 2011](/garden/notes/332-finance-training-ecommerce)
+- [eCommerce camp 2011 Online
+  Merchandising](/garden/notes/332-finance-training-ecommerce)
 - [Finance: Value of Time](/garden/notes/332-finance-time-value)

@@ -19,7 +19,7 @@ title: Emacs
   Emacs](/garden/notes/370-education-info-productivity-system-second-brain) - productivity tools,
   second brain with Org Roam in Emacs
 - [Spacemacs](/garden/notes/005-tech-emacs-spacemacs)
-- [Why Use Emacs and Tips](/garden/notes/005-tech-emacs-why-use-and-tips) -
+- [Why Use Emacs and Tips](/garden/notes/005-tech-emacs-why-use-and-tips)
 
 ### Packages and Systems
 

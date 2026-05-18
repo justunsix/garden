@@ -21,3 +21,7 @@ title: Gymnastics Lesson Plans and Classes
   Kindernastics](/garden/notes/796-44-athletic-sports-gymnastics-lesson-junior-kindernastics)
 - [Gymnastics Recreational Lesson
   Plans](/garden/notes/796-44-athletic-sports-gymnastics-lesson-recreational)
+- [Gymnastics Lesson Plans - Senior Kindernastics ages
+  4-5](/garden/notes/796-44-athletic-sports-gymnastics-kindernastics-senior-2015)
+- [Gymnastics Lesson Plans - Senior and Junior Kindernastics ages
+  3-5](/garden/notes/796-44-athletic-sports-gymnastics-kindernastics-2015)

@@ -1,7 +1,7 @@
 ---
 filetags: ":finance:epubnote:"
 id: 22081dfc-1c22-4528-9264-88198af17d5d
-title: eCommerce camp Online Merchandising
+title: eCommerce Camp 2011 Online Merchandising
 ---
 
 Source: My personal notes from eCommerce camp Online Merchandising on
