@@ -19,7 +19,7 @@ export default defineConfig({
       sidebar: [
         {
           label: "Notes",
-          autogenerate: { directory: "notes" },
+          items: [{ autogenerate: { directory: "notes" } }],
         },
       ],
     }),
