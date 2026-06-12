@@ -6,6 +6,8 @@ id: 5a7f9427-b19a-4798-8b38-4c8c1acd030a
 title: Reading List
 ---
 
+Collection of books people have recommended
+
 - Art of Living by Sharon Lebell
 - Atomic Habits by James Clear
   - Category: Self-Improvement / Productivity / Behavioral Science
@@ -43,10 +45,15 @@ title: Reading List
   - Category: Spirituality / Mindfulness
   - Summary: A guide to living in the present moment and transcending
     the ego to achieve inner peace and spiritual awakening.
+- The Art of War by Sun Tzu
+  - Category: Strategy, Psychology, Military
+  - Summary: Sets of skills or arts related to warfare, finance and how
+    they apply to military strategy and tactics
 - The Untethered Soul by Michael A. Singer
   - Category: Spirituality / Personal Growth
   - Summary: A guide to freeing oneself from mental chatter and inner
     limitations by observing thoughts and embracing consciousness.
+    Themes of surrender and courage
 - The War of Art by Steven Pressfield
   - Category: Creativity / Self-Improvement / Motivation
   - Summary: A motivational manifesto on overcoming resistance and inner

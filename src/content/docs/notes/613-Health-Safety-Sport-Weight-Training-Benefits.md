@@ -5,7 +5,8 @@ id: 1c1fdfb5-39f6-43e2-8124-d0c0419d5748
 title: Benefits of Weight and Resistance Training
 ---
 
-Source: [The many benefits of resistance training as you age - Mayo
+Source: Notes from [The many benefits of resistance training as you
+age - Mayo
 Clinic](https://mcpress.mayoclinic.org/healthy-aging/the-many-benefits-of-resistance-training-as-you-age/),
 [Effects of Resistance Training Volume on Physical Function, Lean Body
 Mass and Lower-Body Muscle Hypertrophy and Strength in Older Adults -
