@@ -84,6 +84,8 @@ Appleton](https://maggieappleton.com/)
 - [600 Technology](/garden/notes/600-technology)
 - [610 Medicine and health](/garden/notes/610-health)
 - [613 Personal health and safety](/garden/notes/613-health-safety)
+- [614 Forensic medicine; incidence of injuries, wounds, disease; public
+  preventive medicine](/garden/notes/614-forensic-preventive-medicine)
 - [615 Pharmacology and
   therapeutics](/garden/notes/615-pharmacology-therapeutics)
 - [616 Diseases](/garden/notes/616-diseases)
