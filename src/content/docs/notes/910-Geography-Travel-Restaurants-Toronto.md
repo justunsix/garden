@@ -77,6 +77,9 @@ Yonge-Finch and Yonge-Shepperd areas
 | Joyous | Leslie-Finch | Chinese |  |
 | [Nak Won](https://www.nakwon.ca/finch/) | Yonge-Finch | Korean |  |
 | Trio Restaurant | North York Centre | Western style | Service, Fine |
+| Dear Saigon | Various Yonge-Finch, \[fn:1\] | Vietnamese | Value=lunch specials |
+
+- \[fn:1\] St. George-College, GTA
 
 ## Other Locations
 
