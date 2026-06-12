@@ -11,15 +11,15 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",
-    "@astrojs/starlight": "^0.38.5",
-    "astro": "^6.2.2",
+    "@astrojs/starlight": "^0.39.2",
+    "astro": "^6.4.2",
     "sharp": "^0.34.5",
     "typescript": "^6.0.3"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "eslint": "^10.3.0",
+    "eslint": "^10.4.1",
     "globals": "^17.6.0",
-    "typescript-eslint": "^8.59.2"
+    "typescript-eslint": "^8.60.0"
   }
 }
