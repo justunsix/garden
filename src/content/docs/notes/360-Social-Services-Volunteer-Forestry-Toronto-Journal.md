@@ -56,12 +56,50 @@ Removal of plants with seeds: before removal, cut off seeds and dispose
 of separately in bucket / garbage bags. Other parts of invasive species
 can be composted.
 
+## Planting Tips
+
+Safety: Be careful for tripping hazards, deadfall, and fire ants. Fire
+ants will give off a lemon smell. Keep shovel and tools down when
+moving.
+
+- Remove plant identification tag
+- Dig hole slightly larger than plant and its roots
+- Plants should sit level with soil when planted
+- Remove air pockets, tap down sides of soil
+- Tug test: after planting, give plant a light tug to ensure it is in
+  the soil and should not come out of the soil
+
+If planting on slope, plant must face upward and perpendicular to level
+ground:
+
+``` text
+
+Plant facing up
+     /\     _________
+     /\    /
+     /\  _/ slope
+     | _/
+     |/
+     /
+    /
+------------------- Level ground
+```
+
 ## Riverdale Park East 2026
 
 ### 2026-05
 
+- Planting of native plants (shrub and trees) in under story (shaded
+  area below trees) and light wooded area with sunlight:
+  - Milk weed
+  - Limebark
+  - Black rasberry
+  - Zigzag golden rod (shady area)
 - Early May: Prefer removal of garlic mustard before it flowers
 - Removal of purple deadnettle aka red dead neetle and bedstraw
+- Observed: worms, fire ants (lemon smell), cooper's hawk, snails,
+  blackbird
+  - Native plants: wild ginger from previous planting
 
 ## Riverdale Park East 2025
 
@@ -116,3 +154,5 @@ Weeding and education on variety of plants:
 - Japanese Knotweed
 - European buckthorn
 - Norway maple
+
+Planted forest near fence area close to soccer pitch
