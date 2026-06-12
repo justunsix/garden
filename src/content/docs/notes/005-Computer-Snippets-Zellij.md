@@ -34,4 +34,13 @@ zellij kill-all-sessions | ka
 # Start with default config
 zellij setup --clean
 
+# Rename current tab
+zellij action rename-tab [new-tab-name]
+
+# Welcome screen (start menu to configure and view sessions)
+zellij -l welcome
+
+# Autostart Zellij on shell creation
+echo 'eval "$(zellij setup --generate-auto-start bash)"' >> ~/.bashrc
+
 ```

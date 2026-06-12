@@ -10,6 +10,8 @@ Powerful tool to create EXCEL inventory from Azure Resources with low
 effort](https://github.com/microsoft/ARI)
 
 Use case: Track resources to help manage them using a PowerShell module.
+Produce Excel report, resource graph, network view, organization and
+other data.
 
 ## Example usage
 

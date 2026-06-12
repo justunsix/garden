@@ -58,6 +58,8 @@ cargo packages (can use cargo binstall):
 
 ## See Also
 
+- [Rust Integrated Development Environment (IDE) with VS Code, Neovim,
+  and Emacs](/garden/notes/005-1-tech-rust-ide-vs-code-neovim-emacs)
 - [The Rust Programming Language, The Book
   (Book)](/garden/notes/005-1-tech-rust-programming-book)
 - [Rust Cargo Snippets](/garden/notes/005-computer-snippets-rust-cargo)

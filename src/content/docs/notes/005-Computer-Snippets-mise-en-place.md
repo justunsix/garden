@@ -188,7 +188,7 @@ for i in range(10):
     print(i)
 '''
 
-[tasks."tf.apply"]
+[tasks."tf:apply"]
 alias = "tfa"
 description = "`terraform apply` with pre-generated plan file (terraform plan should be generated in advance)"
 run = """

@@ -71,7 +71,9 @@ quality is clean, governed and (2) choose appropriate LLM
 ## Agentic RAG
 
 Source: [RAG's Evolution: From Simple Retrieval to Agentic AI - IBM -
-YouTube](https://youtu.be/JB2P5Gk23VI)
+YouTube](https://youtu.be/JB2P5Gk23VI), [How RAG, GraphRAG, and Context
+Engineering Improve AI Performance - IBM -
+YouTube](https://youtu.be/pN-LfxNFiTc)
 
 Search approaches:
 
@@ -105,6 +107,21 @@ Hybrid search: Keywords search (precision) and semantic vector search
       - Multi-modal data
 
 Agentic system applies reasoning on a query and finds answers.
+
+1.  Context Engineering to address weakness in **context** to better use
+    model reasoning
+
+- Connected Access - access to federated data (API, data, documents)
+- Knowledge Layer - organization's knowledge
+- Precision Retrieval - only access relevant documents with filters like
+  intent, role, time, policy
+  - RAG
+  - Agentic RAG
+  - Graph RAG - check relationships of entities and information related
+    to entities
+  - Context compression - maximize relevant data (summarize, prioritize)
+    and reduce noise
+- Governance - access permissions at runtime
 
 ## See Also
 

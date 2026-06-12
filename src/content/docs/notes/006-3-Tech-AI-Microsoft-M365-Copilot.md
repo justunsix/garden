@@ -15,6 +15,7 @@ Functions include:
 
 - Accessing your data for context and prompt
 - Agents
+- Selection of models and/or task (quick response, reasoning, research)
 - History of previous conversations
 - Customization using instructions
 

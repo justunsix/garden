@@ -218,6 +218,11 @@ echo 'bunch of words to merge' | tr -d '[:space:]'
 # -c and -d to complete (reverse match) and delete others
 echo 'Call me 123 Justin 552' | tr -cd '[:digit:]'
 
+# Remove Windows line ending (CRLF) and replace with line feed (\n)
+tr -d '\r' < input.txt > output.txt
+## In place variation
+tr -d '\r' < file.txt > tmp && mv tmp file.txt
+
 ```
 
 ## uniq - choose unique items

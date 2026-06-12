@@ -23,36 +23,8 @@ git clone --sparse url
 # Only fetch the latest commit
 git clone --depth=1 url
 
-# Create a new branch
-git checkout -b new-branch-name
-# make changes to new-branch-name
-# Merge changes to main branch
-git checkout main
-git merge new-branch-name
-
-# Checkout an existing branch
-git checkout my-branch
-
-# List all git branches, local, and remotes in current repository
-git branch -a
-
-# Check differences between local "main" branch and remote
-git diff main remotes/origin/HEAD
-
 # Check differences in file from current edits and main
 git diff note/my-note.md
-
-# List branches
-git branch -a -v
-
-# Switch to git (remote) branch named "Release_3.0"
-git switch Release_3.0
-
-# Remove temporary branch named "list"
-git branch -d list
-
-# Go back to last branch
-git checkout -
 
 # Show git commit history of specified file
 git log -p -- <filename>
@@ -206,6 +178,9 @@ git commit --amend <amend information>
 ## Example: change commit author
 git commit --amend --author="John Smith <John.Smith@email.com>"
 ## Continue rebase until all selected commits are changed
+## Identify conflicts during rebase
+git status
+## Make changes and continue
 git rebase --contiue
 
 ```
@@ -293,91 +268,6 @@ git rm -r files
 
 # Remove git tracking from root of repository
 rm -rf .git
-
-```
-
-## Branching and Merging
-
-Source: [Git - Basic Branching and
-Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
-
-``` shell
-
-# Run visual tool to help with merges
-git mergetool
-
-```
-
-## Worktrees - git worktree
-
-Git worktrees help with manage multiple working trees and it is easier
-to keep track of separate branches. See [Worktrunk
-Snippets](/garden/notes/005-computer-snippets-worktrunk) - [Worktrunk
-Snippets](id:85f7620e-184b-4c79-8157-d1146f0fbfbd) for command to
-simplify management of worktrees.
-
-They are like managing a git branch as a separate directory or manually
-git cloning a repository to a separate directory and changing the
-working branch of that repository.
-
-``` shell
-
-# Create a new branch whose name is the final part of the command; add a new worktree with a feature branch
-git worktree add ../myrepo-newfeature new-feature
-## Example
-## /bubbles is [master]
-## /bubbles-table is branch [use-lipgloss-table]
-
-# Create new worktree with existing branch main
-git worktree add ../repo-main main
-
-# Example workflow with these branches:
-# - main
-# - pull request review
-# - feature development
-git clone myrepo.git # main
-cd myrepo
-git worktree add ../myrepo-feature feature_branch
-git worktree add ../myrepo-pr pull_request_numbered_branch
-
-# If you want to make experimental changes or do testing without disturbing development,
-# it is often convenient to create a throwaway worktree not associated with any branch.
-# Creates a new worktree with a detached HEAD at the same commit as the current branch example
-git worktree add -d ../repo-experimental
-
-# List work trees, their location, and checked out branches
-git worktree list
-
-# Remove a worktree
-git worktree remove worktree-name
-
-# Merge a worktree changes to main branch
-git checkout main
-git merge worktree-branch
-git worktree remove worktree-branch
-
-```
-
-Example worktree workflow from [Stop Using Git Worktrees - DevOps
-Toolbox, YouTube](https://www.youtube.com/watch?v=WBQiqr6LevQ)
-
-``` shell
-
-# Create a folder to contain worktrees of a repository
-git clone --bare https://my.repository/repo2 repo2
-## Add main branch as a subfolder in repo2
-git worktree add main
-# Create a new branch
-git checkout -b feature1
-## Add feature1 branch as a subfolder in repo2
-git worktree add ../feature1
-## List worktrees
-git worktree list
-## Do work in feature1 and then merge it to main and remove it
-cd main
-git merge feature1
-git worktree remove feature1
-git branch -d feature1
 
 ```
 
@@ -637,5 +527,7 @@ git checkout branch_name
 
 ## See Also
 
-- [Technology](/garden/notes/600-technology)
+- [Git branch worktree
+  Snippets](/garden/notes/005-computer-snippets-git-branch-worktree)
 - [GitHub](/garden/notes/005-computer-tech-github)
+- [Technology](/garden/notes/600-technology)

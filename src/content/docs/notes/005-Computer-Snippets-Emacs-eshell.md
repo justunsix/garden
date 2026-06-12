@@ -84,6 +84,11 @@ ssh server
 ;; Common Commands re-implemented by eshell
 cat, cp, ls, cd, export, dirs, du, echo, env, kill, ln, mkdir, mv, alias, popd, pushd, pwd, rm, rmdir, time, umask
 
+;; Repeat last command
+!!
+
+
+
 ```
 
 ## See Also

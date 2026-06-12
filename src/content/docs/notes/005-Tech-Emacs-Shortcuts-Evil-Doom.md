@@ -102,6 +102,7 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Go to file or url at point | g f |
 | Go to, open file in separate buffer and split | C-w f |
 | Help: Doom, Doom Modules | SPC h d m |
+| Help on key bindings for current function/minibuffer | C-h b b |
 | Help, Search key map and run | SPC ? |
 | Insert, Search Evil Register | SPC i r |
 | Insert, Snippet | SPC i s |
@@ -133,8 +134,8 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Switch Buffer | SPC , |
 | Tags: projectile find tag | C-t |
 | Terminal, Open in cwd full screen (vterm) terminal | SPC o T |
-| Terminal, Toggle (vterm) terminal popup (bottom screen) | SPC o t |
 | Terminal, Toggle pop up | C-\` |
+| Terminal, Toggle (vterm) terminal popup (bottom screen) | SPC o t |
 | Toggle: line numbers: absolute, relative, none | SPC t l or doom/toggle-line-numbers |
 | Toggle: pop up like help, terminal | C-\` |
 | Workspace (tab): Close | SPC tab d |

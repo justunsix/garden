@@ -4,7 +4,9 @@ id: b91168f4-673f-4580-a248-ae4b85aa3439
 title: "VS Code: Tips"
 ---
 
-See VS Code's `settings.json` for other tips and options
+Tips are taken from reading tutorials and reading [monthly
+updates](https://code.visualstudio.com/updates). See VS Code's
+`settings.json` for tips and options.
 
 ## Extensions
 
@@ -188,6 +190,3 @@ with solution exports, canvas app extraction, and other features.
 - [VS Code - Local App Settings](/garden/notes/005-tech-vs-code-local-settings)
 - [GitHub Copilot Workspace Index and Retrieval Augmented Generation
   (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-github-copilot-workspace-index)
-
-Tips are taken from reading tutorials and reading [monthly
-updates](https://code.visualstudio.com/updates).

@@ -103,7 +103,7 @@ help(math)
 # Other Docstring types are available like NumPy style common
 # for data science, Google-style, and doctest that combines
 # tests with documetation
-def cast_spell(wand, incantation, target=None):
+def cast_spell(wand, incantation, target=None) -> str:
     """
     Cast a magical spell using a wand and incantation.
     This function simulates casting a spell. With no

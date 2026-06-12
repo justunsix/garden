@@ -47,6 +47,8 @@ title: Software Snippets
 - [GDB and LLDB
   Snippets](/garden/notes/005-computer-snippets-gdb-lldb-gnu-debugger)
 - [GitHub CLI Snippets](/garden/notes/005-computer-snippets-github-cli)
+- [Git branch worktree
+  Snippets](/garden/notes/005-computer-snippets-git-branch-worktree)
 - [Git Snippets](/garden/notes/005-computer-snippets-git)
 - [GNU Coreutils Snippets](/garden/notes/005-computer-snippets-gnu-coreutils)
 - [GNU Findutils Snippets](/garden/notes/005-computer-snippets-gnu-findutils)

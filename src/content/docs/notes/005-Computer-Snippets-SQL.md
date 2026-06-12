@@ -12,6 +12,9 @@ select file.id as file_id from files
 -- Select top 10 records from table
 SELECT * FROM Customers LIMIT 10
 
+-- Select top 10 records from table with specified fields first
+SELECT first_name, address, * from Customers LIMIT 10
+
 ```
 
 ## USQL Universal SQL Client in Terminal and Command Line
@@ -93,7 +96,7 @@ sqlserver://azuresqlserver.windows.net?database=databasename&authentication=Acti
 ######
 # JDBC, for example for use with DBeaver
 jdbc:sqlserver://;serverName=azuresqlserver.windows.net;databaseName=DBName;encrypt=true
-# For Authentication, use Active Directory - MFA (web MFA prompt), Active Directory - Integrated (reuse user's login),
+## For Authentication, use Active Directory - MFA (web MFA prompt) and enter user's username domain/username, Active Directory - Integrated (reuse user's login),
 
 ```
 
@@ -110,6 +113,9 @@ SELECT SYSTEM_USER AS [Current User]
 
 -- View table structure
 SELECT * FROM sys.tables
+
+-- Get database version
+SELECT @@version
 
 ```
 
@@ -155,12 +161,13 @@ ORDER BY DP1.name;
 
 /* Template */
 CREATE USER "<AAD identity>" FROM EXTERNAL PROVIDER;
+CREATE USER [John.Smith@domain.com] FROM EXTERNAL PROVIDER;
 ALTER ROLE db_datareader ADD MEMBER "<AAD identity>";
+ALTER ROLE db_datawriter ADD MEMBER [John.Smith@domain.com];
+ALTER ROLE db_ddladmin ADD MEMBER [John.Smith@domain.com];
 
 /* Example */
-
 CREATE USER [entra-group-name-readers] FROM EXTERNAL PROVIDER;
-
 ALTER ROLE db_datareader ADD MEMBER [entra-group-name-readers];
 
 -- List all users in database
@@ -171,6 +178,32 @@ SELECT name as username,
        authentication_type_desc as authentication_type
 from sys.database_principals
 order by username;
+
+-- List all users and their roles
+SELECT
+    member.name AS UserName,
+    member.type_desc AS UserType,
+    role.name AS RoleName
+FROM sys.database_role_members drm
+JOIN sys.database_principals role
+    ON drm.role_principal_id = role.principal_id
+JOIN sys.database_principals member
+    ON drm.member_principal_id = member.principal_id
+ORDER BY member.name, role.name;
+
+-- Verify specific role grants
+SELECT
+    dp.name AS UserName,
+    dp.type_desc AS UserType,
+    dr.name AS RoleName
+FROM sys.database_role_members drm
+JOIN sys.database_principals dr
+    ON drm.role_principal_id = dr.principal_id
+JOIN sys.database_principals dp
+    ON drm.member_principal_id = dp.principal_id
+WHERE dp.name = 'John.Smith@domain.com'
+  AND dr.name IN ('db_datareader', 'db_datawriter', 'db_ddladmin');
+
 ```
 
 ## Azure SQL Administration

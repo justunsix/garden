@@ -23,6 +23,9 @@ plus my additions
 - Ansible - software tools that enables infrastructure as code
 - Ardour - digital audio workstation
 - Audacity - digital audio editor and recording application software
+- [Azure Resource Inventory](https://github.com/microsoft/ARI) - create
+  inventory of Azure Resources, including resource view, documentation,
+  network diagrams
 - Bash - Unix shell and command language written by Brian Fox for the
   GNU Project as a free software replacement for the Bourne shell
 - [Bitwarden](https://bitwarden.com/) - password management service
@@ -40,7 +43,7 @@ plus my additions
   single executable file
 - Calibre - cross-platform suite of e-book software
 - Ceph - software-defined storage platform that implements object
-  storage
+  storageS
 - Clonezilla - drive cloning, drive imaging and system deployment
   utilities used to simplify deployment and maintenance of a group of
   computers
@@ -116,6 +119,8 @@ plus my additions
 - Handbrake - video converter, transcoder for digital video files
 - [headlamp](https://github.com/kubernetes-sigs/headlamp) - Kubernetes
   web UI for local or in cluster use
+- [Headscale](https://github.com/juanfont/headscale) - self-hosted
+  implementation of the Tailscale control server building on Wireguard
 - [Helix](https://helix-editor.com/) - modal editor like vim with modern
   defaults and more built in features
 - htop - interactive system-monitor process-viewer and process-manager

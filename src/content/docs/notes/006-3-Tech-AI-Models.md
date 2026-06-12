@@ -90,7 +90,7 @@ creation, short Q&A
 Analyzing code, debugging hard issues, architecture decisions,
 multi-step reasoning, performance analysis
 
-- GPT-5-MINI
+- GPT-5-mini
 - GPT-5.1
 - GPT-5.2
 - Claude Opus
@@ -139,6 +139,8 @@ with some personal notes
 ### Resources
 
 - [Ollama Models Library](https://ollama.com/library)
+- [GitHub Copilot - Model
+  Comparison](https://docs.github.com/en/copilot/reference/ai-models/model-comparison)
 
 [^1]: [Coding LLMs Copilot
     Alternatives](https://itsfoss.com/coding-llms-copilot-alternatives/)

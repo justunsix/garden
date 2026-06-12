@@ -56,14 +56,14 @@ Shortcuts](id:bdb62bfe-56b7-4c13-a1e4-9f91cf4e0bb5)
 
 | Description                          | Shortcut      |
 |--------------------------------------|---------------|
-| Enter insert mode with cell selected | Enter         |
 | Add cell above/below (command mode)  | a/b           |
-| Select code cell above/below         | k/j or arrows |
 | Delete code cell                     | dd            |
-| Undo last change                     | z             |
-| Switch cell type for Markdown        | m             |
-| Switch cell type for Code            | y             |
+| Enter insert mode with cell selected | Enter         |
 | Mode selected cell up or down        | Alt + arrows  |
+| Select code cell above/below         | k/j or arrows |
+| Switch cell type for Code            | y             |
+| Switch cell type for Markdown        | m             |
+| Undo last change                     | z             |
 
 ## Terminal
 
@@ -89,6 +89,19 @@ Shortcuts](id:bdb62bfe-56b7-4c13-a1e4-9f91cf4e0bb5)
 | Description | Shortcut        |
 |-------------|-----------------|
 | Chat, Open  | Chat: Open Chat |
+
+#### Chronicle (AI Chat Sessions Database)
+
+Source: [Query session history with
+chronicle](https://code.visualstudio.com/docs/agents/sessions/session-insights)
+
+| Description | Shortcut |
+|----|----|
+| Index, Rebuild local index and sync to account | /chronicle:reindex |
+| Report, Summarize recent sessions like files, repository | /chronicle:standup |
+| Search sessions by keyword, file, PR or issue | /chronicle:search |
+| Tips, Suggest ways to reduce token usage | /chronicle:cost-tips |
+| Tips, Suggest ways to use Copilot more efficiently | /chronicle:tips |
 
 ## See Also
 

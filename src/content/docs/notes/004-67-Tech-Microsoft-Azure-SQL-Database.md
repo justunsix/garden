@@ -1,4 +1,5 @@
 ---
+date: 2026-05-19
 filetags: ":microsoft:tech:azure:sql:database:epubnote:"
 id: 4362bcb6-a6df-4d9d-989f-e43319da753e
 title: Azure SQL Database
@@ -20,7 +21,11 @@ See options for how and where to back up and restore databases.
 
 - Database backup and restore options for IaaS
 - Virtual machine backup and restore options for IaaS
-- Backup and restore options for PaaS
+- Backup and restore options for PaaS, see [Azure SQL Database PaaS
+  Backup and
+  Restore](/garden/notes/004-67-tech-microsoft-azure-sql-database-backup-and-restore-paas) -
+  [Azure SQL Database PaaS Backup and
+  Restore](id:0b563051-64c7-4b88-9fad-d0b374f2db1a)
 
 ### Back up and restore SQL Server running on Azure virtual machines
 
@@ -152,49 +157,6 @@ See options for how and where to back up and restore databases.
 - Restores are done manually using the URL functionality within the SQL
   server
 
-### Back up and restore a database using Azure SQL Database
-
-The backup and restore on the SQL server PaaS works differently than
-IaaS.
-
-- Backups are generated automatically for Azure SQL database and Azure
-  SQL managed instance.
-  - Schedule is full backup is created once a week, a differential every
-    12 hours, and transaction log backups every 5 – 10 minutes.
-  - All backups are located in read-access, geo-redundant (RA-GRS) blobs
-    replicated to a datacenter that is paired based on Azure rules. That
-    means backups are safe from an outage in a single data center.
-
-#### Backup Retention
-
-Policies can be configured for
-
-- Point in Time Restoration (PITR) in days
-- Long term retention settings:
-  - Weekly - in weeks
-  - Monthly - in week
-  - Yearly - in week
-- If the server containing the database is deleted, all backups are
-  deleted preventing recovery. If only the database is database, the
-  database can be restored.
-- SQL database managed instance backups cannot be restored to Azure SQL
-  database
-
-#### Point in Time Restore
-
-Restore can be done using Azure portal, Azure PowerShell, Azure CLI, or
-REST API.
-
-- Restore in place is not supported and need to make sure the database
-  does not exist before the restore.
-
-#### Database backup and restore for SQL Managed Instance
-
-- Automatic backups
-- Manual backups also possible and restore databases using the same
-  backup to URL/restore from URL functions found in SQL Server mentioned
-  earlier.
-
 ### Exercise: Backup to URL
 
 Lab at [Exercise: Backup to URL - Training \| Microsoft
@@ -212,7 +174,7 @@ Restore database using Transact-SQL and SSMS on VM
 RESTORE DATABASE AdventureWorks2017
 FROM DISK = 'C:\LabFiles\HADR\AdventureWorks2017.bak'
 WITH RECOVERY,
-MOVE 'AdventureWorks2017' 
+MOVE 'AdventureWorks2017'
 TO 'C:\LabFiles\HADR\AdventureWorks2017.mdf',
 MOVE 'AdventureWorks2017_log'
 TO 'C:\LabFiles\HADR\AdventureWorks2017_log.ldf';
@@ -289,25 +251,24 @@ Validate the backup with Azure portal storage explorer
 Restore from URL
 
 - Change a record in the database
-
 - Restore the database to get it back to before the changes
 
-  ``` sql
+``` sql
 
-  USE [master]
-  GO
+USE [master]
+GO
 
-  ALTER DATABASE AdventureWorks2017 SET SINGLE_USER WITH ROLLBACK IMMEDIATE
-  GO
+ALTER DATABASE AdventureWorks2017 SET SINGLE_USER WITH ROLLBACK IMMEDIATE
+GO
 
-  RESTORE DATABASE AdventureWorks2017 
-  FROM URL = 'https://<storage_account_name>.blob.core.windows.net/backups/AdventureWorks2017.bak'
-  GO
+RESTORE DATABASE AdventureWorks2017
+FROM URL = 'https://<storage_account_name>.blob.core.windows.net/backups/AdventureWorks2017.bak'
+GO
 
-  ALTER DATABASE AdventureWorks2017 SET MULTI_USER
-  GO
+ALTER DATABASE AdventureWorks2017 SET MULTI_USER
+GO
 
-  ```
+```
 
 - Check the record change were undone
 
@@ -382,6 +343,9 @@ Configuration:
   - Change SQL connectivity level like private and change port
 
 ## See Also
+
+- [Azure SQL Database PaaS Backup and
+  Restore](/garden/notes/004-67-tech-microsoft-azure-sql-database-backup-and-restore-paas)
 
 ### Resources
 

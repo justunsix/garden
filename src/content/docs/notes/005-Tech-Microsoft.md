@@ -33,6 +33,7 @@ title: Microsoft Technology Microsoft Power Platform Notes Microsoft
 - [DevOps with GitHub - Secure
   Development](/garden/notes/005-8-tech-microsoft-devops-github-secure-development) -
   How to develop securely in the cloud
+- [Microsoft Build 2026](/garden/notes/005-tech-microsoft-build-2026)
 - [Microsoft Build 2023](/garden/notes/005-tech-microsoft-build-2023)
 - [Microsoft Developer Day 2026 at
   Work](/garden/notes/005-tech-microsoft-developer-day-at-work-2026) -
@@ -74,24 +75,39 @@ title: Microsoft Technology Microsoft Power Platform Notes Microsoft
 ### Microsoft Azure Technologies
 
 - [Microsoft Azure](/garden/notes/004-67-tech-microsoft-azure)
-  - [Azure Application
-    Gateway](/garden/notes/004-67-tech-microsoft-azure-application-gateway)
-  - [Azure DevOps](/garden/notes/004-67-tech-microsoft-azure-devops)
-  - [Azure Data Fundamentals](id:9f5b36d6-5b23-4e92-ba28-0dda0da11b6d)
-    ([Azure Data
-    Fundamentals](/garden/notes/004-67-tech-microsoft-azure-data-fundamentals))
-  - [Azure Data Factory](/garden/notes/004-67-tech-microsoft-azure-data-factory)
-  - [Azure Logic App](/garden/notes/004-67-tech-microsoft-azure-logic-app)
-  - [Azure Hybrid
-    Infrastructure](/garden/notes/004-67-tech-microsoft-azure-hybrid-infrastructure)
-  - [Microsoft Azure OpenAI](/garden/notes/006-3-tech-ai-openai-azure)
-  - [Azure SQL Database](/garden/notes/004-67-tech-microsoft-azure-sql-database)
-  - [Azure Virtual
-    Machine](/garden/notes/004-67-tech-microsoft-azure-virtual-machine)
-  - [Azure Network](/garden/notes/004-67-tech-microsoft-azure-network)
-  - [Azure Monitor](/garden/notes/004-67-tech-microsoft-azure-monitor)
-  - [Azure Resource
-    Inventory](/garden/notes/004-67-tech-microsoft-azure-resource-inventory)
+
+- [Azure Application
+  Gateway](/garden/notes/004-67-tech-microsoft-azure-application-gateway)
+
+- [Azure DevOps](/garden/notes/004-67-tech-microsoft-azure-devops)
+
+- [Azure Data Fundamentals](id:9f5b36d6-5b23-4e92-ba28-0dda0da11b6d)
+  ([Azure Data
+  Fundamentals](/garden/notes/004-67-tech-microsoft-azure-data-fundamentals))
+
+- [Azure Data Factory](/garden/notes/004-67-tech-microsoft-azure-data-factory)
+
+- [Azure Logic App](/garden/notes/004-67-tech-microsoft-azure-logic-app)
+
+- [Azure Hybrid
+  Infrastructure](/garden/notes/004-67-tech-microsoft-azure-hybrid-infrastructure)
+
+- [Microsoft Azure OpenAI](/garden/notes/006-3-tech-ai-openai-azure)
+
+- [Azure SQL Database](/garden/notes/004-67-tech-microsoft-azure-sql-database)
+
+- [Azure SQL Database PaaS Backup and
+  Restore](/garden/notes/004-67-tech-microsoft-azure-sql-database-backup-and-restore-paas)
+
+- [Azure Virtual
+  Machine](/garden/notes/004-67-tech-microsoft-azure-virtual-machine)
+
+- [Azure Network](/garden/notes/004-67-tech-microsoft-azure-network)
+
+- [Azure Monitor](/garden/notes/004-67-tech-microsoft-azure-monitor)
+
+- [Azure Resource
+  Inventory](/garden/notes/004-67-tech-microsoft-azure-resource-inventory)
 
 ### Microsoft Artificial Intelligence
 

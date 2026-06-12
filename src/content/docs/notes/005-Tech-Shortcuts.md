@@ -62,6 +62,9 @@ title: Software Shortcuts
 - [PowerShell Shortcuts](/garden/notes/005-computer-shortcuts-powershell)
 - [Proton Shortcuts](/garden/notes/005-computer-shortcuts-proton)
 - [Ranger Shortcuts](/garden/notes/005-computer-shortcuts-ranger)
+- [Rust Integrated Development Environment (IDE) with VS Code, Neovim,
+  and Emacs
+  Shortcuts](/garden/notes/005-tech-shortcuts-rust-ide-vs-code-neovim-emacs)
 - [Television Shortcuts](/garden/notes/005-computer-shortcuts-television)
 - [Thunderbird Shortcuts](/garden/notes/005-computer-shortcuts-thunderbird)
 - [Tmux Shortcuts](/garden/notes/005-computer-shortcuts-tmux)

@@ -10,15 +10,19 @@ title: Azure CLI Snippets
 
 ``` shell
 
-# Log in with web prompt
+# Log in with interactive prompt
+az logi n
+
+# Disable the subscription selector feature
+az config set core.login_experience_v2=off
 az login
 
 # Log in using a device code from web browser
 az login --use-device-code
 
 # Change subscriptions
-az account set <subscription>
-az account set 34342sdd-353-2428-cc453432ref3
+az account set --subscription <subscription>
+az account set --subscription 34342sdd-353-2428-cc453432ref3
 
 # Show account information
 az account show
