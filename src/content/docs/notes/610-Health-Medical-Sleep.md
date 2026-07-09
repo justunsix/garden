@@ -80,7 +80,7 @@ Habit Details
 
 ## References
 
-- [\[7 Ways to Manage Daytime Fatigue - Pscyhology
+- [7 Ways to Manage Daytime Fatigue - Pscyhology
   Today](https://www.psychologytoday.com/us/blog/engaging/202302/7-ways-to-manage-daytime-fatigue)
 - [Avoid Daytime Sleepiness -
   WebMD](https://www.webmd.com/sleep-disorders/avoid-daytime-sleepiness)
