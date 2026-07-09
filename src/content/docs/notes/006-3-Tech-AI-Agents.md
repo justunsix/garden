@@ -33,12 +33,14 @@ compute resources which can be supported with human supervision.
   Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-agents)
 - [Skills to Build AI Agents](/garden/notes/006-3-tech-ai-agents-career-skills)
 
-### Resources
+## External Links
 
 - [Awesome Copilot /
   GitHub](https://github.com/github/awesome-copilot) -
   Community-contributed instructions, prompts, agent information, and
   configurations to help you make the most of GitHub Copilot
+- [caveman - reduce token usage skill -
+  GitHub](https://github.com/JuliusBrussee/caveman)
 - [justunsix/dotfiles: My configuration and dotfiles for cross platform
   Linux, Windows, MacOS ·
   GitHub](https://github.com/justunsix/dotfiles) - example agents

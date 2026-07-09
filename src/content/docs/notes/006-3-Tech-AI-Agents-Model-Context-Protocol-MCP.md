@@ -25,13 +25,14 @@ MCP allows agents to **act** by accessing systems and data. Agent can:
 
 - Discover available systems, data sources using MCP:
   - Tools
+  - Application Programming Interface (API)
   - Resources
   - Prompt templates
 - Understand user request, plan what tools to use
 - Execute using tools from MCP server
 - Integrate information and systems
 
-### Differences in API and MCP and Strengths of Both
+## Differences in API and MCP and Strengths of Both
 
 | Use Case  | MCP                    | API               |
 |-----------|------------------------|-------------------|
@@ -43,3 +44,8 @@ MCP works well with APIs underneath.
 
 To use the strengths of both, have AI use MCPs to discover API usage and
 other systems.
+
+## Tools and Processes in Context Engineering
+
+If an agent must follow a process, use a skills. The skill can define
+using MCP for example to access and manage data.

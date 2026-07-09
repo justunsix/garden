@@ -57,6 +57,12 @@ If agent finds a description that is useful, it will load the
 ### Knowledge: MCP, RAG, Fine tuning, and Skills
 
 - Model Context Protocol (MCP) - gives tool access
+  - Context engineering with give an agent MCP (tools and data access)
+    and skills (steps to do specific tasks). See context engineering at
+    [Artificial Intelligence (AI) Agents and Model Context Protocol
+    (MCP)](/garden/notes/006-3-tech-ai-agents-model-context-protocol-mcp) -
+    [Artificial Intelligence (AI) Agents and Model Context Protocol
+    (MCP)](id:c17cdb1a-cd72-4016-91fe-3aa30fb2162c)
 - Retrieval Augmented Generation (RAG) - facts, knowledge
 - Fine tuning - adjusts model weights
 - Skills - procedural knowledge, when to use other knowledge
@@ -92,5 +98,7 @@ environment variables, and secrets. Review skills before using them.
 
 ## See Also
 
+- [Artificial Intelligence (AI) Agents and Model Context Protocol
+  (MCP)](/garden/notes/006-3-tech-ai-agents-model-context-protocol-mcp)
 - [Develop AI agents on
   Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-agents)
