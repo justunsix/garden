@@ -7,11 +7,11 @@ title: Rust Integrated Development Environment (IDE) with VS Code,
 ---
 
 This article describes setting up a Rust language integrated development
-environment on VS Code \[fn:1\], Neovim \[fn:2\], and Emacs \[fn:3\].
-The structure of the article and wording follows [Rust in Visual Studio
-Code](https://code.visualstudio.com/docs/languages/rust) and attribution
-is given to VS Code contributors for the structure of their
-documentation that is used in this article.
+environment on VS Code \[fn:1\], Neovim \[fn:2\], and Emacs \[fn:3\]
+\[fn:5\]. The structure of the article and wording follows [Rust in
+Visual Studio Code](https://code.visualstudio.com/docs/languages/rust)
+and attribution is given to VS Code contributors for the structure of
+their documentation that is used in this article.
 
 ## Introduction
 
@@ -391,6 +391,25 @@ rust-analyzer extension
 See the References section below for links to each editors' page on Rust
 support including dealign with common issues and install problems.
 
+## Appendix: Emacs and Rust Development
+
+Description of IDE functions to Emacs packages from Doom Emacs rust
+module \[fn:3\] and Robert Krahn's post about configuring Emacs for Rust
+\[fn:5\]
+
+- Language support: `rustic` extends `rust-mode` for highlights,
+  compiltion, cargo commands
+- Errors and checking: `flycheck` is used by `rustic`. See errors and
+  warning with `M-x flycheck-list-errors`
+- Language Server Protocol (LSP) integration: `lsp-mode` or `eglot`
+  integrates with rust-analyzer like rename symbols, code actions to fix
+  issues, type hits
+- Completion: `company-mode`, `vertico` and others
+- Snippets: `yasnippet` adds common language code snippets
+- Debugging: `dape`, `dap-mode`, or `M-x gdb` (Emacs [GDB Graphical
+  Interface](https://www.gnu.org/software/emacs/manual/html_node/emacs/GDB-Graphical-Interface.html))
+  for `gdb` and `lldb` integration
+
 ## See Also
 
 - [GDB and LLDB
@@ -400,6 +419,10 @@ support including dealign with common issues and install problems.
   Neovim with Rust
 - [Rust](/garden/notes/005-1-tech-rust)
 - [Rust on Windows](/garden/notes/005-1-tech-rust-on-windows)
+
+## External Links
+
+- [rust-analyzer Documentation](https://rust-analyzer.github.io/book/)
 
 ## References
 
@@ -411,3 +434,5 @@ support including dealign with common issues and install problems.
   GitHub](https://github.com/doomemacs/doomemacs/blob/master/modules/lang/rust/README.md)
 - \[fn:4\] [rust-lang/rust-analyzer: A Rust compiler front-end for IDEs
   · GitHub](https://github.com/rust-lang/rust-analyzer)
+- \[fn:5\] [Configuring Emacs for Rust
+  Development](https://robert.kra.hn/posts/rust-emacs-setup/)

@@ -7,7 +7,15 @@ title: Rust Libraries
 
 - [Axum](https://lib.rs/crates/axum) - Web framework that focuses on
   ergonomics and modularity, HTTP server, APIs
+- [anyhow](https://lib.rs/crates/anyhow) - Provides a boxed error type
+  that can hold any error, and helpers for generating an
+  application-level stack trace. Good for function caller logging error
+  and stopping.
 - [Clap](https://lib.rs/crates/clap) - CLI argument parsing
+- [crossterm](https://lib.rs/crates/crossterm) - Low-level
+  cross-platform terminal rendering and event handling
+- [CSV](https://lib.rs/crates/csv) - Fast CSV parsing with support for
+  serde
 - [grex](https://github.com/pemistahl/grex) - Generate a matching
   regular expression from the test cases you provide
 - [GTK4](https://lib.rs/crates/gtk4) - GUI Rust bindings for GTK4
@@ -36,6 +44,13 @@ Recommendations based on accessibility and productivity.
 - [Tauri](https://tauri.app/) - cross platform app platform
   - Example: <https://github.com/readest/readest>
 
+## Standard Library
+
+- [Command in std::process -
+  Rust](https://doc.rust-lang.org/std/process/struct.Command.html)
+  ([DevDocs](https://devdocs.io/rust/std/process/struct.command)) -
+  Command, like shell command execution
+
 ## See Also
 
 ### Rust Package Recommendations
@@ -44,4 +59,6 @@ Where to find trusted, recommended crates
 
 - [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
 - [Blessed.rs](https://blessed.rs/)
-- [Lib.rs — home for Rust crates](https://lib.rs/)
+- [crates.io Rust community’s crate registry](https://crates.io/)
+- [Lib.rs — home for Rust crates](https://lib.rs/) - includes library
+  descriptions, download metrics, links to library source and examples

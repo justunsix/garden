@@ -72,6 +72,7 @@ cargo packages (can use cargo binstall):
 ### Resources
 
 - [Rust Programming Language](https://www.rust-lang.org/)
+- [Rust Playground](https://play.rust-lang.org/) - run code in browser
 
 #### Learning
 
