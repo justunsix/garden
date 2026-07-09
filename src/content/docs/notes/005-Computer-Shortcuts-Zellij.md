@@ -21,10 +21,12 @@ Guide](https://zellij.dev/documentation/)
 | Pane, Pin pane                    | Alt + p + i            |
 | Pane, Split Down                  | LDR + p + d            |
 | Pane, Split Right                 | LDR + p + r            |
-| Pane, Switch                      | Alt + arrow keys       |
 | Pane, Switch stack                | Alt + up, down         |
-| Search, Edit scroll back          | LDR + s + e            |
+| Search, Edit scroll back, copy    | LDR + s + e            |
 | Search, Navigate                  | LDR + s                |
 | Session, Configuration            | LDR + o + c            |
 | Session, Detach                   | LDR + o + d            |
 | Session, Manager                  | LDR + o + w            |
+| Tab, move left or right           | Alt + i or Alt + o     |
+| Tab, new                          | LDR + t + n            |
+| Tab, or Pane, Switch              | Alt + arrow keys       |

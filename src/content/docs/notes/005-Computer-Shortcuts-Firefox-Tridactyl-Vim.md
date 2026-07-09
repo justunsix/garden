@@ -51,7 +51,7 @@ F7
 
 | Description                                  | Shortcut                |
 |----------------------------------------------|-------------------------|
-| Historym, Back and Forward                   | H (back), L (forward)   |
+| History, Back and Forward                    | H (back), L (forward)   |
 | Bookmark set - global persistent on restarts | markadd \[A-Z\]         |
 | Bookmark set - local non-persistent          | markadd \[a-z\]         |
 | Copy current tab title to clipboard          | yt                      |

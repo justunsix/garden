@@ -33,7 +33,8 @@ is at the right and moves right. j The j key looks like a down arrow. v
 | File Explorer, open file selected in split   | s                   |
 | File Explorer, Delete file                   | D                   |
 | File Explorer, Rename file                   | R                   |
-| File Explorer, Make directory                | d                   |
+
+j\| File Explorer, Make directory \| d \|
 
 ## Command Mode, aka Ex Mode - Frequently Used
 
@@ -453,11 +454,12 @@ Other table per `vimtutor` command
 | Enter Insert mode, at beginning of line | I |
 | Enter Insert mode, at new line below / above current one | o, O |
 | Go to, beginning of file | gg |
+| Go to, definition of symbol (tag) at cursor in workspace | C-\] |
 | Go to, end of file | G |
 | Go to, file, url at point (open with system app) | gf , gx |
 | Go to, file with line number (like file.txt:42) | gF |
 | Go to, last insert mode | gi |
-| Go to, last selected text | gv |
+| Go to, last selected text / visual selection | gv |
 | Go to line 12, Go to line 100 | 12G, 100G or :100 |
 | Jump list, history back (o for out), forward (i for in) | C-o, C-i |
 | Jump to beginning of line (bol) | 0 / Home / ^ (soft) |
@@ -692,6 +694,23 @@ Source: :h registers, <https://www.brianstorti.com/vim-registers/>
 | Find tag                    | C-\]     |
 | Find ambiguous tag          | g C-\]   |
 | Jump back in tag jump stack | C-t      |
+
+1.  Tags in Command mode
+
+    ``` shell
+
+    # Help
+    :help tag
+
+    # Set tags file location
+    :set tags=/my/dir/tags
+    # Set tags file to current directory or parent until tags file found
+    :set tags=./tags;
+
+    # Jump to tag with <name>
+    :tag <name>
+
+    ```
 
 ### Deletions
 

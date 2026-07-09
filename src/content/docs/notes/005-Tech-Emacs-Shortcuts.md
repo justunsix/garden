@@ -134,16 +134,16 @@ Only matches characters, not regex unless using isearch-…-regex
 
 | Name | Shortcuts |
 |----|----|
+| Search and highlight in file | M-s h l or hi-lock-face-buffer |
+| Search and highlight in file, cancel | M-s h u or hi-lock-unface-buffer aka unhighlight-regexp |
 | Search in file isearch | C-s or isearch-forward, C-s or isearch-backward |
 | Search in file isearch, cancel | C-g |
 | Search in file isearch, enter at point | Enter |
 | Search in file isearch, enter beginning of search word | C-b |
-| Search in file isearch, repeat last search | C-s C-s or C-r C-r |
 | Search in file isearch regex | C-M-s or isearch-forward-regex, C-M-r or isearch-backward-regex |
-| Search with search results occur | M-s-o or occur |
+| Search in file isearch, repeat last search | C-s C-s or C-r C-r |
 | Search in file isearch with occur for buffer with results | C-s \<search-text\> M-s-o (while in isearch) |
-| Search and highlight in file | M-s h l or hi-lock-face-buffer |
-| Search and highlight in file, cancel | M-s h u or hi-lock-unface-buffer aka unhighlight-regexp |
+| Search with search results occur | M-s-o or occur |
 
 #### Find/Search and Replace
 
@@ -457,24 +457,46 @@ g command examples
 
 | Name | Shortcuts |
 |----|----|
+| Compile, go to next error and file | C-x \` |
+| Compile, run async shell command, output buffer | M-x compile |
+| Compile, run last compile command again | M-x recompile |
 | Completion, Suggestions at cursor | completion-at-point |
 | Flycheck, check LSP, linters, checkers enabled | C-c ! v or flycheck-verify-setup |
 | Flycheck, LSP, linters, Errors List | C-c ! l or flycheck-list-errors |
-| LSP Mode - Leader key | C-c l |
-| LSP Mode - Find references | C-c l g r |
-| LSP Mode - Find definitions | C-c l g g |
-| LSP Mode - Refactor like rename | C-c l r |
-| LSP Mode - Flymake tracks problems in file | flymake-show-buffer-diagnostics |
+| Language spoken, describe (help) for input method | describe-input-method (example french-postfix) |
+| Language spoken, set input method | set-input-method |
+| Language spoken, toggle (on or off) input method | toggle-input-method |
 | LSP Mode - Code formatting | C-c l = == or TAB |
 | LSP Mode - Display symbols with treemacs | M-x lsp-treemacs-symbols |
+| LSP Mode - Find definitions | C-c l g g |
+| LSP Mode - Find references | C-c l g r |
+| LSP Mode - Flymake tracks problems in file | flymake-show-buffer-diagnostics |
+| LSP Mode - Leader key | C-c l |
+| LSP Mode - Refactor like rename | C-c l r |
 | LSP, Update LSP servers | M-x lsp-update-servers |
 | LSP, Update LSP specific server | M-x lsp-update-server |
-| Tags, automatically regenerate TAGS file in repo | M-x etags-regen-mode |
 | Spelling - Flyspell autocorrect word | C-M-i |
 | Spelling - Flyspell suggest words for correction | C-c-\$ |
-| Compile, run async shell command, output buffer | M-x compile |
-| Compile, go to next error and file | C-x \` |
-| Compile, run last compile command again | M-x recompile |
+| Tags, automatically regenerate TAGS file in repo | M-x etags-regen-mode |
+
+### Set Spoken Language Input Method
+
+Source: [Emacs: write with input method (e.g. French) and Jinx for
+spelling - Protesilaos on
+YouTube](https://www.youtube.com/watch?v=UjCbNOqUgTs)
+
+- `set-input-method` and select a language like `french-postfix`
+- When typing a character like `e`, input method will show keys for
+  alternate characters
+- Example: Je peux écrire en français! , during typing e and c, input
+  method shows in mini-buffer
+- Use `describe-input-method` to see available characters
+- Exit with `toggle-input-method` to turn off input method
+
+The input method is separate from the operating system language input.
+
+Spelling with languages can use the package `jinx` with `libenchant` and
+`M-x jinx-correct-all` to apply spelling fixes.
 
 ### Diff
 

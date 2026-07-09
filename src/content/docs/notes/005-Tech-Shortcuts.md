@@ -24,6 +24,8 @@ title: Software Shortcuts
 - [GNU Info Shortcuts](/garden/notes/005-computer-shortcuts-info)
 - [Helix Shortcuts](/garden/notes/005-computer-shortcuts-helix)
 - [i3 Window Manager Shortcuts](/garden/notes/005-computer-shortcuts-i3)
+- [JetBrains Rust Rover
+  Shortcuts](/garden/notes/005-computer-shortcuts-jetbrains-rust-rover)
 - [Jupyter Shortcuts](/garden/notes/005-computer-shortcuts-jupyter)
 - [k9s Shorcuts](/garden/notes/005-computer-shortcuts-k9s)
 - [Kate Editor Shortcuts](/garden/notes/005-computer-shortcuts-kate)

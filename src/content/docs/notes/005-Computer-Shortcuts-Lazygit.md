@@ -6,9 +6,10 @@ title: Shortcuts Lazygit
 
 ## 1 Status
 
-| Description             | Shortcut |
-|-------------------------|----------|
-| Switch to a recent repo | Enter    |
+| Description                       | Shortcut |
+|-----------------------------------|----------|
+| Switch to a recent repo           | Enter    |
+| Open configuration (status panel) | e        |
 
 ## 2 Files
 

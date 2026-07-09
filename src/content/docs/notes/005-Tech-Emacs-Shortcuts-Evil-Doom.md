@@ -66,6 +66,9 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Completion, go up 1 choice | C-k |
 | Completion, keyword | C-x C-k |
 | Completion, snippet | C-x C-s |
+| Cursor, multiple cursor, exit | ESC |
+| Cursor, multiple cursor match at | g z m or evil-mc-make-all-cursors |
+| Cursor, multiple cursor match at point or select | evil-multiedit-match-all |
 | Dired, down directory or open file | l |
 | Dired, edit with wdired | i |
 | Dired, edit with wdired, save changes | :w or C-c |
@@ -132,12 +135,13 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Session, Load from file | SPC q L or doom/load-session |
 | Spelling, suggest correct spelling of word | z =, ispell-word |
 | Switch Buffer | SPC , |
-| Tags: projectile find tag | C-t |
+| Tags: projectile find tag | C-\] |
 | Terminal, Open in cwd full screen (vterm) terminal | SPC o T |
 | Terminal, Toggle pop up | C-\` |
 | Terminal, Toggle (vterm) terminal popup (bottom screen) | SPC o t |
 | Toggle: line numbers: absolute, relative, none | SPC t l or doom/toggle-line-numbers |
 | Toggle: pop up like help, terminal | C-\` |
+| Vertico, vertical mini buffer, section, next previous | M-{ or M-} |
 | Workspace (tab): Close | SPC tab d |
 | Workspace (tab): Close session, work spaces, buffers | SPC tab x |
 | Workspace (tab): List tabs | SPC Tab Tab |
