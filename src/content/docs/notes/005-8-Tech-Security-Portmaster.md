@@ -59,7 +59,7 @@ Choose most filter lists:
 - [x] Deception
 - [x] Mixed Ads/Trackers/Malware
 - [x] NSFW
-- [x] Big Tech as needed
+- [x] Big Tech (all, use exceptions for certain programs)
 - Experimental
   - [x] Windows Spy Blocker
 - [x] Unbreak Popular Websites

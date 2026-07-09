@@ -10,3 +10,9 @@ title: Music
   Captions](/garden/notes/780-music-baldurs-gate-3-soundtrack-lyrics-captions)
 - [Singing and Karaoke
   Songs](/garden/notes/780-music-fun-things-digital-media-sing-karaoke)
+
+## External Links
+
+- [ABC Music Notation](https://abcnotation.com/) - text-based music
+  notation system and the de facto standard for folk and traditional
+  music
