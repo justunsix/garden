@@ -161,6 +161,7 @@ during initial game run.
 - Mechwarrior 5 Mercenaries
 - Sins of a Solar Empire 1, 2
 - SpellForce Conquest of Eo
+- Star Wars Squadrons
 - Stellaris
 - Tempest Rising
 - Total War: Pharaoh, Troy, Three Kingdoms, Warhammer 3 (Native), Attila
