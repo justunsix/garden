@@ -21,6 +21,7 @@ title: Software Snippets
 - [Chocolatey - Windows Package
   Manager](/garden/notes/005-computer-snippets-chocolatey)
 - [ClamAV Snippets](/garden/notes/005-computer-snippets-clamav)
+- [ctags Snippets](/garden/notes/005-computer-snippets-ctags)
 - [curl Snippets](/garden/notes/005-computer-snippets-curl)
 - [DevPod snippets - reproducible developer
   environments](/garden/notes/005-computer-snippets-devpod)
@@ -46,9 +47,9 @@ title: Software Snippets
 - [fzf fuzzy finder Snippets](/garden/notes/005-computer-snippets-fzf)
 - [GDB and LLDB
   Snippets](/garden/notes/005-computer-snippets-gdb-lldb-gnu-debugger)
-- [GitHub CLI Snippets](/garden/notes/005-computer-snippets-github-cli)
 - [Git branch worktree
   Snippets](/garden/notes/005-computer-snippets-git-branch-worktree)
+- [GitHub CLI Snippets](/garden/notes/005-computer-snippets-github-cli)
 - [Git Snippets](/garden/notes/005-computer-snippets-git)
 - [GNU Coreutils Snippets](/garden/notes/005-computer-snippets-gnu-coreutils)
 - [GNU Findutils Snippets](/garden/notes/005-computer-snippets-gnu-findutils)
@@ -63,6 +64,7 @@ title: Software Snippets
 - [Helm Snippets](/garden/notes/005-computer-snippets-helm)
 - [JavaScript Snippets](/garden/notes/005-computer-snippets-javascript)
 - [Java Snippets](/garden/notes/005-computer-snippets-java)
+- [Jujutsu-jj Snippets](/garden/notes/005-computer-snippets-jujutsu-jj)
 - [Kamal Snippets](/garden/notes/005-tech-snippets-kamal)
 - [Kokoro TTS Snippets](/garden/notes/005-computer-snippets-kokoro-tts)
 - [KQL Snippets](/garden/notes/005-tech-snippets-kql)
@@ -152,9 +154,9 @@ title: Software Snippets
 - [GitHub - cheat/cheatsheets: Community-sourced
   cheatsheets](https://github.com/cheat/cheatsheets/tree/master) (older
   versions)
-- [vscode/extensions at main · microsoft/vscode ·
-  GitHub](Https://github.com/microsoft/vscode/tree/main/extensions) - VS
-  Code Snippets by Language, for example
-  [vscode/extensions/javascript/snippets/javascript.code-snippets at
-  main · microsoft/vscode ·
-  GitHub](https://github.com/microsoft/vscode/blob/main/extensions/javascript/snippets/javascript.code-snippets)
+- [Learn X in Y Minutes: Scenic Programming Language
+  Tours](https://learnxinyminutes.com/)
+- [VS Code Snippets by
+  Language](https://github.com/microsoft/vscode/tree/main/extensions)
+  - Example: [JavaScript
+    snippets](https://github.com/microsoft/vscode/blob/main/extensions/javascript/snippets/javascript.code-snippets)

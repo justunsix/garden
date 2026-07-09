@@ -59,13 +59,16 @@ rg '<title>(.*)</title>' test.html -r '$1'
 
 # Search all files in current directory
 grep PATTERN *
+## Search recursively (-r)
+grep PATTERN 
+
 grep -e PATTERN
 ## -e use pattern after -e, helps with patterns begining with -
 
-# Search all files in current and recurive directories
+# Search all files in current and recurive files and directories (-r)
 grep -r PATTERN
 
-# Case insentive search
-grep -i PATTERN
+# Case insentive search (-i), recursive (-r) and ignore directory (--exclude-dir)
+grep --exclude-dir=.venv -ir PATTERN
 
 ```

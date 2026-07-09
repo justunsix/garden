@@ -58,6 +58,12 @@ rustc main.rs
 ## Windows
 .\main.exe
 
+# Explain a compiler error with rustc --explain
+rustc --explain E0284
+
+# Rust Debugging using GUI with rust-gdbgui and gdbgui
+rust-gdbgui target/debug/myprog
+
 ```
 
 ### Rustup
@@ -69,6 +75,9 @@ rustup update
 
 # View Rust documentation
 rustup doc
+
+# View The Rust Programming Language Book
+rustup doc --book
 
 # Add rust-analyzer
 rustup component add rust-analyzer
@@ -90,24 +99,51 @@ use rand::Rng;
 
 // Example of multiple line comments
 // Match Expression
+// Like case statement with enumerations (enums) of Ordering
 // Made up of arms
 match guess.cmp(&secret_number) {
         Ordering::Less => println!("Too small!"),
         Ordering::Greater => println!("Too big!"),
-        Ordering::Equal => println!("You win!"),
+        Ordering::Equal => println!("You win!"), // end of line comment
 }
 
 // Number of type u32, unsigned default number
 let guess: u32
 
+// Read user input using standard library io module
+use std::io;
+// ...
+io::stdin().read_line(&mut guess)
+
 // Variable shadowing, guess string and number
+// and error handling with expect()
+// and parsing string to another type with parse() and trimming string with trim()
 let guess: u32 = guess.trim().parse().expect("Please type a number!");
+
+// Error handling with enumeration (enum) Result types of: Ok Err
+let guess: u32 = match guess.trim().parse() {
+    Ok(num) => num,
+    Err(_) => {
+        if guess.trim() == "q" {
+            break;
+        } else {
+            println!("Please enter a number.");
+            continue;
+        }
+    }
+};
+
+// Error handling with match statement
+let guess: u32 = match guess.trim().parse() {
+    Ok(num) => num,
+    Err(_) => continue,
+};
 
 // Loop that is infinite
 loop {
     // do stuff
 
-    // break out of loop
+    // Leave loop with break
     break;
 }
 
@@ -131,15 +167,22 @@ const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
 let x = 5;
 let x = x + 1; // x is 6
 
+// Print to standard out with variables using { var_name }
+println!("You guessed: {guess}");
+
 ```
 
 ## Data Types
 
 ``` rust
 
-// Scalars - Integers
+// String, mutable
+let mut guess = String::new()
+
+// Scalars - Integers, immutable
 let unsignedint : i18 = 1000 // or 1_000 where _ is visual separator
 
+// Rust's default integer is i32
 let defaultint : i32 = 3253
 
 // isize and usize integers can be good for collection indexes
@@ -147,7 +190,11 @@ let defaultint : i32 = 3253
 // Floating point, signed decimals
 let defaultfloat : f64 = 2.0
 
-// Numeric operators and Booleans types
+// Floating point literal 32.0 used in calculations
+let celsius: f64 = (input - 32.0) / 1.8;
+println!("The celsius of {input} F is {celsius} C")
+
+// Numeric operators, Booleans, and Character types
 fn main() {
     // addition
     let sum = 5 + 10;
@@ -162,12 +209,17 @@ fn main() {
     let quotient = 56.7 / 32.2;
     let truncated = -5 / 3; // Results in -1
 
-    // remainder
+    // remainder, modulo
     let remainder = 43 % 5;
 
     let t = true;
 
-    let f: bool = false; // with explicit type annotation
+    let f: bool = false; // with explicit boolean type annotation
+
+    // Character types
+    let c = 'z';
+    let z: char = 'ℤ'; // with explicit char type annotation
+    let heart_eyed_cat = '😻';
 }
 
 // Compound Types - Tuples and Arrays
@@ -175,15 +227,23 @@ fn main() {
 // The variable tup binds to the entire tuple because a tuple is considered a single compound element
 // Can use pattern matching to destructure a tuple value, like:
 fn main() {
-    let tup = (500, 6.4, 1);
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
 
     let (x, y, z) = tup;
 
     println!("The value of y is: {y}");
+
+    // Accessing tuple elements by period and index number starting at 0
+    let five_hundred = x.0;
+    let six_point_four = x.1;
+    let one = x.2;
+
+    // Unit is a tuple without any value, empty return type
+    let _unit_tup: () = ();
 }
 
 // Array Type
-// Fixed length, cannot be changed, allocated on stack
+// Fixed length, change not allowed, allocated on stack
 fn main() {
     let a = [1, 2, 3, 4, 5];
 }
@@ -221,18 +281,23 @@ fn main() {
 
 ``` rust
 
-// Function with parameter
+// Function with integer parameter and multiple parameters
 fn main() {
     another_function(5);
+    print_labeled_measurement(5, 'h');
 }
 
 fn another_function(x: i32) {
     println!("The value of x is: {x}");
 }
 
+fn print_labeled_measurement(value: i32, unit_label: char) {
+    println!("The measurement is: {value}{unit_label}");
+}
+
 // Statements and Expressions
 // Statements are instructions that perform some action and do not return a values
-// Expressions evaluate to a resultant value. Let’s look at some examples.
+// Expressions evaluate to a resultant value
 
 let y = 6; // a statement
 
@@ -250,20 +315,131 @@ fn five() -> i32 {
 fn main() {
     let x = five();
 
+    // Println! macro is an expression
     println!("The value of x is: {x}");
 }
 
 fn main() {
+    // Function call is an expression with let statement
     let x = plus_one(5);
 
     println!("The value of x is: {x}");
 }
 
 fn plus_one(x: i32) -> i32 {
-    // return
+    // Expression returns x plus 1, ; is not present
     x + 1
 }
 
+```
 
+## Control Flow
+
+``` rust
+
+// if expressions
+fn main() {
+    let number = 3;
+
+    if number < 5 {
+        // First arm, like match expression
+        println!("condition was true");
+    } else {
+        // Second arm
+        println!("condition was false");
+    }
+
+    // multiple if else and else if expression
+    if number % 4 == 0 {
+        println!("number is divisible by 4");
+    } else if number % 3 == 0 {
+        println!("number is divisible by 3");
+    } else if number % 2 == 0 {
+        println!("number is divisible by 2");
+    } else {
+        println!("number is not divisible by 4, 3, or 2");
+    }
+
+    // if in a let statement to assign outcome to a variable
+    let condition = true;
+    let number = if condition { 5 } else { 6 };
+
+    println!("The value of number is: {number}");
+}
+
+// Repetition with Loops with loop, while, and for
+// Loop with break as an exit
+fn main() {
+    let mut counter = 0;
+
+    let result = loop {
+        counter += 1;
+
+        if counter == 10 {
+            // can also return from inside a loop
+            // While break only exits the current loop, return always exits the current function
+            break counter * 2;
+        }
+    };
+
+    println!("The result is {result}");
+}
+
+// Exit nested loops with a loop label specified by a single quote '
+// break and continue wilapply to the innermost loop at that point
+// while the loop label allows the keyword to apply to the labelled loop
+fn main() {
+    let mut count = 0;
+    'counting_up: loop {
+        println!("count = {count}");
+        let mut remaining = 10;
+
+        loop {
+            println!("remaining = {remaining}");
+            if remaining == 9 {
+                break;
+            }
+            if count == 2 {
+                // Exit outer loop with 'counting_up label
+                break 'counting_up;
+            }
+            remaining -= 1;
+        }
+
+        count += 1;
+    }
+    println!("End count = {count}");
+}
+
+// Loops with a conditional using while
+fn main() {
+    let mut number = 3;
+
+    while number != 0 {
+        println!("{number}!");
+
+        number -= 1;
+    }
+
+    println!("LIFTOFF!!!");
+
+    let a = [10, 20, 30, 40, 50];
+    let mut index = 0;
+}
+
+// Loops within a range using for, most used type of loop sice it is concise and safer
+fn main() {
+    let a = [10, 20, 30, 40, 50];
+
+    for element in a {
+        println!("the value is: {element}");
+    }
+
+    // For loop using a stadard library Range of numbers
+    for number in (1..4).rev() {
+        println!("{number}!");
+    }
+    println!("LIFTOFF!!!");
+}
 
 ```

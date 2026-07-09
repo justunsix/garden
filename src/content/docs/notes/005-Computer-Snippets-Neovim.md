@@ -29,6 +29,9 @@ nvim --clean
 # Edit a file with a specific configuration
 NVIM_APPNAME=nvimexample nvim init.lua
 
+# Open multiple files to see diffs (-d) vertical split (-O) from :h diff
+nvim -d -O file1 file2 file3
+
 ```
 
 ## Lua Snippets related to Neovim

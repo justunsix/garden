@@ -62,6 +62,8 @@ nix-channel remove nixpkgs
 
 # NixOS Rebuild from updated configurations
 sudo nixos-rebuild switch
+## Rebuild using a flake referencing a specific host name (nixos-btw in this example)
+sudo nixos-rebuild switch --flake ~/flake-dir#nixos-btw
 
 # Clean up old generations and packages to prevent space issues
 nix-collect-garbage
@@ -83,22 +85,41 @@ nix repl
 
 ## Flakes
 
-### Update
+### Initialize flake
+nix flake init 
+
+### Update flake inputs
 nix flake update
 
+# Update Nix - see https://nix.dev/manual/nix/2.34/installation/upgrading.html
+# depending on original install method
+# Example - Linux multi-user non-NixOS
+sudo su
+nix-env --install --file '<nixpkgs>' --attr nix cacert -I nixpkgs=channel:nixpkgs-unstable
+systemctl daemon-reload
+systemctl restart nix-daemon
+
 ```
+
+For NixOS flakes structured well, see [GitHub -
+Misterio77/nix-starter-configs: Simple and documented config templates
+to help you get started with NixOS + home-manager + flakes. All the
+boilerplate you
+need](https://github.com/Misterio77/nix-starter-configs?tab=readme-ov-file)
 
 ## nix-shell
 
 Reproducible shell environments
 
-source:
-<https://nix.dev/tutorials/first-steps/ad-hoc-shell-environments.html>
+Source: <span class="spurious-link"
+target="Ad Hoc Shell Environments">*<https://nix.dev/tutorials/first-steps/ad-hoc-shell-environments.html>*</span>
 
-- See also: [Automatic environment activation with direnv — nix.dev
-  documentation](https://nix.dev/guides/recipes/direnv) and [Setting up
-  a Python development environment — nix.dev
-  documentation](https://nix.dev/guides/recipes/python-environment)
+Related links: [devenv for Declarative, Reproducible and Composable
+Developer Environments using Nix](https://devenv.sh/), [Automatic
+environment activation with direnv — nix.dev
+documentation](https://nix.dev/guides/recipes/direnv) and [Setting up a
+Python development environment — nix.dev
+documentation](https://nix.dev/guides/recipes/python-environment)
 
 ``` shell
 

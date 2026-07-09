@@ -62,6 +62,24 @@ cpupower frequency-set -g performance
 
 ```
 
+## column - columnate lists
+
+``` shell
+
+# Format the output of a command for a 30 characters wide display:
+printf "header1 header2\nbar foo\n" | column --output-width {{30}}
+
+# Split columns automatically and auto-align them in a tabular format:
+printf "header1 header2\nbar foo\n" | column --table
+
+# Specify the column delimiter character for the --table option (e.g. "," for CSV) (defaults to whitespace):
+printf "header1,header2\nbar,foo\n" | column --table --separator {{,}}
+
+# Fill rows before filling columns:
+printf "header1\nbar\nfoobar\n" | column --output-width {{30}} --fillrows
+
+```
+
 ## dig - DNS lookup
 
 ``` bash
@@ -108,6 +126,9 @@ sudo fsck -f /dev/sdb
 # Fix Detected Error Automatically
 sudo fsck -y /dev/sdb
 
+# Fix Detected Error Automatically and force all checks
+sudo fsck -fy /dev/sdb
+
 # Force fsck to Do a Filesystem Check
 # When you perform a fsck on a clean device, the tool skips the filesystem check. If you want to force the filesystem check, use the -f option.
 sudo fsck -f /dev/sdb
@@ -121,7 +142,7 @@ mount /dev/sdb
 
 ``` shell
 
-# Can be installed for example with apt
+# Installed with apt
 sudo apt-get install smartmontools
 
 # Run scan, note some drives do not support SMART
@@ -358,6 +379,31 @@ ncdu -x /
 
 # Scan with SSH with
 ssh -C user@system ncdu -o- / | ./ncdu -f-
+
+```
+
+## strace - trace system calls and signals
+
+Source: [LaurieWired-Using Strace to Trace Linux Syscalls -
+YouTube](https://www.youtube.com/watch?v=mBfurelWwPQ)
+
+``` shell
+
+# Trace binary execution called mybin and output (-o) to file
+strace -o out_mybin.txt ./mybin 
+
+# Trace with a filter for a specific system call with (-e)
+strace -e trace='close' ./mybin
+strace -e trace='write' ./mybin
+## Exclude system calls with ! and include multiple filers with multiple -e
+strace -e trace='!pread64' -e trace='!nmap' -e trace='close' ./mybin
+
+# Count unique system calls which outputs a table of call and statistics
+strace -c ./mybin
+
+# Force follow child processes through fork command (-f)
+# strace's default is not to output child process calls
+strace -f -o fork_output.txt ./mybin
 
 ```
 

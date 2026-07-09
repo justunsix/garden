@@ -96,6 +96,18 @@ du -h --max-depth=1
 
 ```
 
+## nl - number lines of file
+
+``` shell
+
+# Number non-blank lines in a file:
+nl {{file}}
+
+# Read from standard output:
+cat {{file}} | nl {{options}} -
+
+```
+
 ## ln - link files
 
 ``` shell
@@ -136,6 +148,9 @@ od -c input.txt
 
 # Sort output of a command or text files, output to standard out
 sort file.txt
+
+# Numeric sort
+sort -n
 
 # Sort file and save back to new file or can be same file
 sort file.txt -o new_file.txt
@@ -231,6 +246,15 @@ tr -d '\r' < file.txt > tmp && mv tmp file.txt
 
 # Show only uniq lines in a file
 cat file.txt | uniq
+
+```
+
+## wc - word count
+
+``` bash
+
+# Print new line counts (-l)
+grep PATTERN README.md | wc -l
 
 ```
 

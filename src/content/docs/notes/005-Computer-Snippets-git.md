@@ -26,6 +26,12 @@ git clone --depth=1 url
 # Check differences in file from current edits and main
 git diff note/my-note.md
 
+# Check differences in a commit and commit minus N
+## Last commit difference
+git diff HEAD~1
+git diff HEAD~3
+git diff commithash~1
+
 # Show git commit history of specified file
 git log -p -- <filename>
 ## -p : --patch means it will produce patch text, like commit, file and diff information

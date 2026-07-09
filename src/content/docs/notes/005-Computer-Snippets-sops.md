@@ -157,6 +157,11 @@ sops keyservice
 
 # creation rules are evaluated sequentially, the first match wins
 creation_rules:
+
+    # Files in other/production
+    - path_regex: other/production/.yaml$
+      gcp_kms: projects/mygcproject/locations/global/keyRings/mykeyring/cryptoKeys/thekey
+
     # upon creation of a file that matches the pattern *.dev.yaml,
     # KMS set A as well as PGP and age is used
     - path_regex: \.dev\.yaml$

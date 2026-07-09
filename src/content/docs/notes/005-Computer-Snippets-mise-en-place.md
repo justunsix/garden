@@ -105,8 +105,9 @@ mise env --redacted
 
 ### mise.toml
 
-Set environment variables, whether they are required and run tasks with
-them
+Set [mise environment variables and
+settings](https://mise.jdx.dev/configuration.html), whether they are
+required and run tasks with them
 
 Redact environment variables with `redact = true`
 
@@ -135,6 +136,14 @@ DATABASE_URL = {
 [tasks.print]
 run = "echo $MY_VAR"
 env = { _.file = '/path/to/file.env', "MY_VAR" = "my variable" }
+
+```
+
+``` shell
+
+# Modify global config file (~/.config/mise/config.toml)
+mise settings key=value
+mise settings disable_tools=protonge
 
 ```
 

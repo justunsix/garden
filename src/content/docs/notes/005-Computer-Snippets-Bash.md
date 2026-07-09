@@ -14,6 +14,9 @@ title: Bash Snippets
 # Set environment variable
 export EDITOR="nvim"
 
+# Set PATH environment variable, add (prepend) directory to PATH
+export PATH="$HOME/.nix-profile/bin:$PATH"
+
 # Set variable
 video_files_dir="/home/user/my-videos"
 
