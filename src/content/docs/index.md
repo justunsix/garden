@@ -118,6 +118,8 @@ Appleton](https://maggieappleton.com/)
 ## 900 – History and geography
 
 - [910 Geography and travel](/garden/notes/910-geography-travel)
+- [900 History](/garden/notes/900-history)
+- [959 Southeast Asia History](/garden/notes/959-history-southeast-asia)
 
 ## About this site
 
