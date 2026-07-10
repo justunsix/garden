@@ -10,8 +10,8 @@ This article describes setting up a Rust language integrated development
 environment on VS Code \[fn:1\], Neovim \[fn:2\], and Emacs \[fn:3\]
 \[fn:5\]. The structure of the article and wording follows [Rust in
 Visual Studio Code](https://code.visualstudio.com/docs/languages/rust)
-and attribution is given to VS Code contributors for the structure of
-their documentation that is used in this article.
+and attribution to VS Code contributors for the structure of their
+documentation.
 
 ## Introduction
 
@@ -233,8 +233,8 @@ In VS Code, for example mutable variables are underlined in the editor.
 
 ## Code navigation
 
-Code navigation features are available in the context menu and/or
-functiosn of the editor
+Features to move through code are available in the context menu and/or
+functions of the editor
 
 | Code navigation feature | VS Code | Neovim | Emacs |
 |----|----|----|----|
@@ -332,7 +332,7 @@ configured to format on save.
 
 ## Debugging
 
-Debugging will vary with the editor.
+Each editor will have different debugging flows.
 
 ### VS Code
 
@@ -398,8 +398,8 @@ module \[fn:3\] and Robert Krahn's post about configuring Emacs for Rust
 \[fn:5\]
 
 - Language support: `rustic` extends `rust-mode` for highlights,
-  compiltion, cargo commands
-- Errors and checking: `flycheck` is used by `rustic`. See errors and
+  compilation, cargo commands
+- Errors and checking: `flycheck` used by `rustic`. See errors and
   warning with `M-x flycheck-list-errors`
 - Language Server Protocol (LSP) integration: `lsp-mode` or `eglot`
   integrates with rust-analyzer like rename symbols, code actions to fix
