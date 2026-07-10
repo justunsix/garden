@@ -1,4 +1,4 @@
-SHELL := /bin/bash
+SHELL := bash
 
 .PHONY: help
 help: ## Show this help
@@ -13,7 +13,7 @@ install: ## Install all dependencies
 	pnpm install
 
 run-dev: build ## Build and run Astro development site
-	pnpm run dev
+	deno run dev
 
 check-eslint: ## Check project files with ESLint
 	pnpm dlx eslint ./*.js
@@ -28,7 +28,7 @@ upgrade-astro: ## Upgrade Astro and official integrations
 	npx @astrojs/upgrade
 
 build: ## Build site
-	pnpm build
+	pnpm run build
 
 run-preview: build ## Build and preview site
 	pnpm preview
