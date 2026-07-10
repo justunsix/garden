@@ -51,6 +51,11 @@ plus my additions
 - [Bruno](https://github.com/usebruno/bruno) - Opensource IDE For
   Exploring and Testing API's (lightweight alternative to
   Postman/Insomnia)
+- [Bun](https://github.com/oven-sh/bun) - toolkit for JavaScript and
+  TypeScript apps include runtime, bundler, test runner and package
+  manager. Fast JavaScript runtime designed as a drop-in replacement for
+  Node.js. Written in Rust and powered by JavaScriptCore under the hood,
+  reducing startup times and memory usage
 - BusyBox - a software suite that provides several Unix utilities in a
   single executable file
 - [Caddy](https://github.com/caddyserver/caddy) - Reverse proxy, Fast
@@ -74,6 +79,9 @@ plus my additions
 - [DB Browser for SQLite](https://sqlitebrowser.org/) - SQLite
   management, editing browser
 - [DBeaver](https://dbeaver.io/) - Universal Database Tool
+- [Deno](https://github.com/denoland/deno) - JavaScript, TypeScript, and
+  WebAssembly runtime with secure defaults and a great developer
+  experience. It's built on V8, Rust, and Tokio.
 - [DevDocs](https://github.com/freeCodeCamp/devdocs/) - API
   Documentation Browser for online and offline, including programming
   languages, APIs and others
@@ -96,6 +104,11 @@ plus my additions
   accents.
 - [Excalidraw](https://github.com/excalidraw/excalidraw) - virtual
   hand-drawn style whiteboard, collaborative and end-to-end encrypted
+- [Extensible Messaging and Presence Protocol (XMPP) (formerly
+  Jabber](https://xmpp.org/)) - a set of open technologies for instant
+  messaging, presence, multi-party chat, voice and video calls,
+  collaboration, lightweight middleware, content syndication, and
+  generalized routing of XML data
 - Fairmail - privacy oriented email app for Android
 - [Faker](https://pypi.org/project/Faker/) - Test/fake data generation,
   also a Python package
@@ -112,6 +125,7 @@ plus my additions
   viewer
 - [frp](https://github.com/fatedier/frp) - Fast reverse proxy to help
   you expose a local server behind a NAT or firewall to the internet
+- [Gajim](https://xmpp.org/software/gajim/) - XMPP chat client
 - [Garage](https://garagehq.deuxfleurs.fr/) - S3-compatible object store
   for small self-hosted geo-distributed deployments
 - [GCC](https://gcc.gnu.org/) - GNU Compiler Collection is an optimizing
@@ -134,15 +148,15 @@ plus my additions
   functionality
 - Gnome - GNU Network Object Model Environment desktop environment for
   Linux/Unix like
-- GNU - "GNU is Not Unix" core software to GNU/Linux systems
 - GNU Boxes - virtualization
 - [GNU Emacs](https://www.gnu.org/software/emacs/) - An extensible,
   customizable, free/libre text editor. At its core is an interpreter
   for Emacs Lisp, a dialect of the Lisp programming language with
   extensions to support text editing.
+- GNU - "GNU is Not Unix" core software to GNU/Linux systems
 - GNU/Linux - operating system
-- [Gopeed](https://gopeed.com/https://gopeed.com/) - Lightweight
-  download manager (HTTP, BitTorrent, Magnet, others)
+- [Gopeed](https://gopeed.com/) - Lightweight download manager (HTTP,
+  BitTorrent, Magnet, others)
 - [Grafana](https://grafana.com/) - full stack observability with
   [Loki](https://grafana.com/docs/loki/latest/) for logging.
 - [GRASS GIS](https://grass.osgeo.org/) - Geographical Information System
