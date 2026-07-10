@@ -31,6 +31,7 @@ title: Emacs Shortcuts
 | Buffer, Switch: List Buffers | C-x C-b |
 | Exit emacs | C-x C-c |
 | Find / Open file | find-file, C-x C-f |
+| Function, pass argument | C-u \<argument\> \<function\> |
 | Help | C-h C-h |
 | Personal and common major mode leader key | C-c |
 | Quit partial command | C-g |
