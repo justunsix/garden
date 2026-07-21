@@ -43,7 +43,7 @@ operating systems
 - [Using Bookmarklets for Accessibility
   Testing](/garden/notes/004-67-technology-work-accessibility-testing-web-bookmarklets)
 
-### Resources
+## External Links
 
 - [Automated Accessibility Audits by Pamela Fox, North Bay Python
   2023](https://pamelafox.github.io/my-py-talks/automate-a11y/)

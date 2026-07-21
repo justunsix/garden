@@ -160,7 +160,7 @@ corporate data is stored in the cloud.
 
   - Math
   - Informatica
-  - GOogle BigQuery
+  - Google BigQuery (can be useful with Looker Studio for reports)
   - Grafana
   - DAX
   - IBM Cognos
@@ -469,7 +469,7 @@ workers
 - [IT Career Paths
   2023](/garden/notes/005-computer-tech-devops-twn-it-career-paths-2023)
 
-### Resources
+## External Links
 
 - Search on LinkedIn emerging trends report 2020, 2021
 - [Jobs on the Rise in

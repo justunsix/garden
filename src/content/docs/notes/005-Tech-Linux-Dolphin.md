@@ -186,7 +186,7 @@ Change settings like:
 
 - [Dolphin Shortcuts](/garden/notes/005-computer-shortcuts-dolphin)
 
-### Resources
+## External Links
 
 - [Dolphin KDE User base with links to
   Handbook](https://userbase.kde.org/index.php?title=Dolphin/en) - source

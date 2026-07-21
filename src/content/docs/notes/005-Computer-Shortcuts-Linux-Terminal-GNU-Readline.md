@@ -139,9 +139,7 @@ set colored-completion-prefix on
 
 ```
 
-## See also
-
-### Resources
+## External Links
 
 - [Keyboard Shortcuts every Command Line Hacker should know about GNU
   Readline](https://www.masteringemacs.org/article/keyboard-shortcuts-every-command-line-hacker-should-know-about-gnu-readline)

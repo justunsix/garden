@@ -23,6 +23,6 @@ use cases for Go
 - [Golang Snippets](/garden/notes/005-computer-snippets-golang) for syntax, example
   code
 
-### Resources
+## External Links
 
 - [Go Packages - Go Packages](https://pkg.go.dev/)

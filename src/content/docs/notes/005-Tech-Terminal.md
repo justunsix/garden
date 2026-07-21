@@ -18,7 +18,7 @@ Source Software (FOSS)](id:4d3e0888-9e79-414c-a552-48c6357ad845).
 - [Charm Gum - tool for glamourous shell
   scripts](/garden/notes/005-tech-terminal-charm-gum)
 
-### Resources
+## External Links
 
 - [14 Rust Tools for Linux Terminal
   Dwellers](https://itsfoss.com/rust-cli-tools/)

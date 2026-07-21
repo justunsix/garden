@@ -243,7 +243,7 @@ is use AI assistance on database only in a non-production environment.
 - [GitHub Copilot, Building a Full Stack
   Application](/garden/notes/006-3-tech-ai-microsoft-github-copilot-building-a-full-stack-application)
 
-### Resources
+## External Links
 
 - [GitHub Advanced
   Security](https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security)

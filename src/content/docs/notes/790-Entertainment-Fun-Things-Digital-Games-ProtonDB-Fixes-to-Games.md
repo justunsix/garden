@@ -217,9 +217,7 @@ waiting for it.
 If the script hangs, look for evidence of changed files with `.vdf` in
 ~/.steam/steam
 
-## See Also
-
-### Resources
+## External Links
 
 - [protondb](https://www.protondb.com/) - crowdsourced Linux and Steam
   Deck game compatibility reports

@@ -48,7 +48,7 @@ Supported by research, example Mindful Nation UK report
   - Habit idea: Take 10 minutes out of your day to do nothing, take care
     of your mind
 
-### Resources
+## External Links
 
 - Apps:
   - Headspace

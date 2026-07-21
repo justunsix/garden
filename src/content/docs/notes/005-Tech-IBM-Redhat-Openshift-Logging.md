@@ -13,9 +13,7 @@ title: Redhat Openshift Logging
 - See also Pod logs from administrative view (Workloads \> Pods \> Logs
   tab), Run queries
 
-## See Also
-
-### Resources
+## External Links
 
 - [Log QL Querying](https://grafana.com/docs/loki/latest/query/) with
   Grafana Loki

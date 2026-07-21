@@ -111,6 +111,6 @@ title: Fun Things to do Toronto
 - [Markets in Toronto](/garden/notes/910-geography-travel-markets-toronto)
 - [Hiking](/garden/notes/796-sports-fun-hiking)
 
-### Resources
+## External Links
 
 - [Things to do in Canada](https://www.todocanada.ca/) including Toronto

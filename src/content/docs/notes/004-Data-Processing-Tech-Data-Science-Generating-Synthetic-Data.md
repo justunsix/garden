@@ -155,9 +155,7 @@ patterns.
 The Databricks visualization editor can be used to view data fields or
 use Python to query the dataframes.
 
-## See Also
-
-### Resources
+## External Links
 
 - [Databricks Academy -
   Training](https://www.databricks.com/learn/training/login)

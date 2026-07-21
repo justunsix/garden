@@ -59,9 +59,7 @@ Options:
   - Flush
   - Extract flapper and take to store to buy new one
 
-## See Also
-
-### Resources
+## External Links
 
 - [Toilet Repairs - A mini masterclass for DIY beginners -
   YouTube](https://www.youtube.com/watch?v=1CHUJxqtjgQ)

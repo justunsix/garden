@@ -9,13 +9,6 @@ title: C4 model for visualising software architecture
 
 <link rel="stylesheet" type="text/css" href="basic-org.css"/>
 
-## See Also
-
-### Resources
-
-- [The C4 model for visualising software
-  architecture](https://c4model.com/)
-
 ## Introduction
 
 From: [Visualising software architecture with the C4 model - Simon
@@ -67,7 +60,7 @@ Analogy: Diagrams are maps
   - Data
   - Runtime and behaviour
 
-### Example: Banking System
+## Example: Banking System
 
 ### Level 1 System Context diagram
 
@@ -229,7 +222,7 @@ emailcp -[dashed]-> emailsys : sends email using [SMTP]
 - Automate them from code
 - Example is a class diagram
 
-### Notation and Tips
+## Notation and Tips
 
 - Put titles, include diagram type, numbered diagram if order is
   important
@@ -324,7 +317,7 @@ endlegend
 @enduml
 ```
 
-### Assessing Diagram Usefulness
+## Assessing Diagram Usefulness
 
 - Software architecture diagrams must be able to stand alone without
   explanation
@@ -333,10 +326,15 @@ endlegend
 - Abstractions first, notations second - ensure team understands
   language
 
-### Tooling
+## Tooling
 
 Recommendations:
 
 1.  PlantUML with C4 domain language
 2.  Structurizr
 3.  Do not use Visio
+
+## External Links
+
+- [The C4 model for visualising software
+  architecture](https://c4model.com/)

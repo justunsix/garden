@@ -200,9 +200,7 @@ The IR uses port HTTP 443 for variables outbound connections described
 at:
 <https://learn.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory#ports-and-firewalls>
 
-## See Also
-
-### Resources
+## External Links
 
 - [Introduction to Azure Data Factory - Azure Data Factory \| Microsoft
   Learn](https://learn.microsoft.com/en-us/azure/data-factory/introduction)

@@ -180,8 +180,6 @@ youtube-dl -f "bestvideo[height<=720]+bestaudio/best[height<=720]" --restrict-fi
 youtube-dl https://vk.com/video-1234_4567 -f "bestvideo[height<=720]+bestaudio/best[height<=720]" --restrict-filenames --merge-output-format mp4 --add-metadata -o "testoutput.mp4" 
 ```
 
-## See Also
-
-### Resources
+## External Links
 
 - [yt-dlp on GitHub](https://github.com/yt-dlp/yt-dlp)

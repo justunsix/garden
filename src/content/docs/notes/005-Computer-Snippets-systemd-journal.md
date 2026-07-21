@@ -65,9 +65,7 @@ journalctl -p err..alert
 
 ```
 
-## See Also
-
-### Resources
+## External Links
 
 - [systemd/Journal -
   ArchWiki](https://wiki.archlinux.org/title/systemd/Journal)

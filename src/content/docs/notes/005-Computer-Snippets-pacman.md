@@ -27,6 +27,9 @@ pacman -Q
 # Clean up local caches
 pacman -Sc
 
+# Remove pacman lock file if pacman previous failed
+rm /var/lib/pacman/db.lck
+
 ```
 
 ## Arch User Repository (AUR) Helpers
@@ -62,9 +65,7 @@ paru -Gc <target>
 
 ```
 
-## See Also
-
-### Resources
+## External Links
 
 - See more usage at
   [pacman/Rosetta](https://wiki.archlinux.org/title/Pacman/Rosetta) which

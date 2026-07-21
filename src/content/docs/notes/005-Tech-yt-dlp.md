@@ -48,7 +48,7 @@ Can use:
 
 - [Yt-dlp Snippets](/garden/notes/005-computer-snippets-youtube-yt-dlp)
 
-### Resources
+## External Links
 
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - [youtube-dl on ArchWiki](https://wiki.archlinux.org/title/Youtube-dl)

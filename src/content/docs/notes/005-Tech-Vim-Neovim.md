@@ -115,7 +115,7 @@ return {
 - [Neovim Shortcuts](/garden/notes/005-computer-shortcuts-neovim)
 - [Neovim Snippets](/garden/notes/005-computer-snippets-neovim)
 
-### Resources
+## External Links
 
 - [Effective Neovim: Instant IDE -
   YouTube](https://www.youtube.com/watch?v=stqUbv-5u2s)

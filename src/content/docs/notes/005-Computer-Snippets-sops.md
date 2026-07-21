@@ -232,9 +232,7 @@ backends:
 
 ```
 
-## See Also
-
-### Resources
+## External Links
 
 - [GitHub - getsops/sops: Simple and flexible tool for managing
   secrets](https://github.com/getsops/sops?tab=readme-ov-file#2usage)

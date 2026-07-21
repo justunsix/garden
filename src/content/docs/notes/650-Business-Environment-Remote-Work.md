@@ -151,7 +151,7 @@ Presented by Adrienne
   - Low/high demand spaces
   - Climate and budget savings
 
-### Resources
+## External Links
 
 - Hybrid Work 101
 - Guide to Hybrid Remote Work

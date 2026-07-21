@@ -96,7 +96,7 @@ Use an LLM wrapper to call model, like a web page
 
 - [Snippets ollama](/garden/notes/005-computer-snippets-ollama)
 
-### Resources
+## External Links
 
 - Page-Assist Chrome Extension - <https://github.com/n4ze3m/page-assist>
   (any model with any params)

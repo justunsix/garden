@@ -10,7 +10,7 @@ title: Mind Mapping
 - [DevOps Automation
   Mindmap](/garden/notes/005-computer-tech-devops-automation-mindmap)
 
-### Resources
+## External Links
 
 #### Mindmaps from Diagrams as Code
 

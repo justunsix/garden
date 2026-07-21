@@ -347,7 +347,7 @@ Configuration:
 - [Azure SQL Database PaaS Backup and
   Restore](/garden/notes/004-67-tech-microsoft-azure-sql-database-backup-and-restore-paas)
 
-### Resources
+## External Links
 
 - [Overview of SQL Server on Azure Windows Virtual Machines - SQL Server
   on Azure VMs \| Microsoft

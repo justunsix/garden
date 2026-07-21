@@ -21,7 +21,7 @@ work-flow](https://www.reddit.com/r/kubernetes/comments/1fj61bi/essential_tools_
   Snippets](/garden/notes/005-computer-snippets-kubectl-oc-kube)
 - [LogQL](/garden/notes/005-1-tech-kubernetes-logql)
 
-### Resources
+## External Links
 
 - [Netbox Tests](https://github.com/justunsix/netbox-tests) including
   k8s set up with minikube

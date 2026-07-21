@@ -226,7 +226,7 @@ activity.
 - [Boundaries and Mental
   Health](/garden/notes/158-psychology-applied-health-mental-boundaries)
 
-### Resources
+## External Links
 
 - [Coping with stress and anxiety \|
   CAMH](https://www.camh.ca/en/health-info/mental-health-and-covid-19/coping-with-stress-and-anxiety)

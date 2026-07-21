@@ -129,9 +129,7 @@ Things are in a museum because of how people used those things and their
 stories are most important. The wonder is in how people saw and used
 those things differently. People won't remember your things themselves.
 
-## See Also
-
-### Resources
+## External Links
 
 - [The Minimalists - YouTube
   channel](https://www.youtube.com/@TheMinimalists/featured)

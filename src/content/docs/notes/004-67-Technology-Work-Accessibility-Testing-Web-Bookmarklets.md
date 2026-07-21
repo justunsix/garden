@@ -118,9 +118,7 @@ Reveal all hidden content for checks and determine hiding technique
 (display, overflow, absolute positions), and find ARIA hidden true
 elements.
 
-## See Also
-
-### Resources
+## External Links
 
 - [Accessibility
   Bookmarklets](https://accessibility-bookmarklets.org/install.html) -

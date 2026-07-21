@@ -253,9 +253,7 @@ The study's data found participants reported photobiomodulation devices
 subjectively improved meditation. EEG found changes in brain wave
 activity, but no correlation with subjective experience.
 
-## See Also
-
-### Resources
+## External Links
 
 - [Vielight Photobiomodulation Therapy Devices \| At-Home Brain
   PBM](https://www.vielight.com/)

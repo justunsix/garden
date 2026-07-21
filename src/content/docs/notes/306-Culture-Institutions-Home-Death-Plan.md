@@ -11,7 +11,7 @@ title: Deathcare Planning
 - [Death Plan in
   Family](/garden/notes/306-culture-institutions-home-death-plan-in-family)
 
-### Resources
+## External Links
 
 #### Government
 

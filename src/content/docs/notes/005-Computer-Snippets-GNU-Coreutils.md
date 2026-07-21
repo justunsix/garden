@@ -286,7 +286,7 @@ yes | head -n 5
 - [GNU Findutils Snippets](/garden/notes/005-computer-snippets-gnu-findutils)
 - [Linux Snippets](/garden/notes/005-computer-snippets-linux)
 
-### Resources
+## External Links
 
 - [List of GNU Core Utilities commands -
   Wikipedia](https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands)

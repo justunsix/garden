@@ -148,7 +148,7 @@ indicated.
     images, and problems in markdown files
 - Hosted on [GitHub pages](https://pages.github.com/)
 
-### References
+## References
 
 Each article will indicate sources of content if any.
 

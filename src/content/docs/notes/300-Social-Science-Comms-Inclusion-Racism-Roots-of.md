@@ -118,7 +118,7 @@ over another." — Ontario's Anti-Racism Data Standards, 2019
 - Ally with others and support them by listening, speaking up when
   discrimination occurs
 
-### References
+## References
 
 1.  Caswell, Estelle and Jenee Desmond-Harris. "The myth of race,
     debunked in 3 minutes." YouTube, uploaded by

@@ -16,7 +16,7 @@ title: Diagrams as Code
 - Run grep on notes with text "begin<sub>src</sub> plantuml" for
   examples in org notes
 
-### Resources - Tools and Software
+## External Links - Tools and Software
 
 - PlantUML - [Open-source tool that uses simple textual descriptions to
   draw beautiful UML diagrams.](https://plantuml.com/)

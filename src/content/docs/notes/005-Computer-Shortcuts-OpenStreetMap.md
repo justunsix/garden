@@ -10,9 +10,7 @@ title: OpenStreetMap Shortcuts
 | Query area | Click Arrow and ? icon           |
 | Directions | Click double arrows turning icon |
 
-## See Also
-
-### Resources
+## External Links
 
 - [Open Street Map](https://www.openstreetmap.org/) - geographical and
   map information

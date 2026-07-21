@@ -19,9 +19,7 @@ title: Anki Shortcuts
 Tip: Many people find it convenient to answer most cards with Space and
 keep one finger on 1 for when they forget.
 
-## See Also
-
-### Resources
+## External Links
 
 - [Studying - Anki
   Manual](https://docs.ankiweb.net/studying.html?highlight=shortcut#keyboard-shortcuts)

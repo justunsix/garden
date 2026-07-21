@@ -88,9 +88,7 @@ See Macropad library examples for more code:
 - Send collection of keys/sentences, for example can be used with text
   expander
 
-## See Also
-
-### Resources
+## External Links
 
 - [My guide on
   Macropad](https://github.com/justunsix/adabox019-macropad-conf)

@@ -111,9 +111,7 @@ will prevent the cluster from scaling to 0 nodes.
   of models, Responsible AI, management of endpoints, and generative
   models.
 
-## See Also
-
-### Resources
+## External Links
 
 - [Azure/azureml-examples: Azure Machine Learning examples, tested with
   GitHub Actions -

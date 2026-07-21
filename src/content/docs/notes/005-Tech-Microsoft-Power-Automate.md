@@ -212,7 +212,7 @@ Processes](id:e54cbe89-e3f0-4aa2-adb3-305b83d9e698)
 - [Microsoft Power Automate
   Snippets](/garden/notes/005-computer-snippets-microsoft-power-automate)
 
-### Resources
+## External Links
 
 - [Introduction to Power Automate - Training \| Microsoft
   Learn](https://learn.microsoft.com/en-us/training/modules/introduction-power-automate/)

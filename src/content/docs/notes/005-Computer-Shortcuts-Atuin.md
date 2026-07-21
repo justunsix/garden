@@ -13,9 +13,7 @@ title: Atuin Shortcuts
 | Select item by the number located near it | alt + 1 to alt + 9 |
 | Copy select item to clipboard             | Ctrl + y           |
 
-## See Also
-
-### Resources
+## External Links
 
 - [Key Binding \| Atuin
   Docs](https://docs.atuin.sh/configuration/key-binding/)

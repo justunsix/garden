@@ -138,7 +138,7 @@ Automation? use PowerShell or Azure CLI
   - Add your client address to the SQL *server* firewall
   - Use SQL Studio or VS Code MSSQL extension to login
 
-### Resources
+## External Links
 
 - [Azure Documents](https://docs.microsoft.com/en-us/documentation/) -
   getting started, architecture, DevOps, service documentation
@@ -156,7 +156,7 @@ Automation? use PowerShell or Azure CLI
 - [Microsoft Technologies](/garden/notes/005-tech-microsoft) section: [Microsoft
   Azure Technologies](id:d54649b7-e39b-4974-bab4-e32abbb37d32)
 
-### Resources
+## External Links
 
 - [Microsoft Azure Well-Architected
   Framework](https://docs.microsoft.com/en-us/azure/architecture/framework/)

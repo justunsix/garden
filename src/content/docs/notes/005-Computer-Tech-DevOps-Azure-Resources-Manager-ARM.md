@@ -382,7 +382,7 @@ else {
 - [Azure Resources Manager and
   Bicep](/garden/notes/005-computer-tech-devops-azure-resources-manager-arm-bicep)
 
-### Resources
+## External Links
 
 - [Deploy Azure Resources with Arm Templates &
   PowerShell](https://www.youtube.com/watch?v=__I3jQfZ5gg)

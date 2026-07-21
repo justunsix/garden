@@ -153,9 +153,7 @@ Get-ChildItem . -Recurse -Attributes !Directory | Invoke-Fzf | % { notepad $_ }
 
 ```
 
-## See Also
-
-### Resources
+## External Links
 
 - [FZF Will CHANGE How You Work - DevOps Toolbox -
   YouTube](https://www.youtube.com/watch?v=MvLQor1Ck3M)

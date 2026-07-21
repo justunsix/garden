@@ -531,9 +531,7 @@ Create a bot demo
 - Create app in qnamaker.ai using FAQ documents
 - Train and test, then publish for use
 
-## See also
-
-### Resources
+## External Links
 
 - [Learn More
   AI](https://docs.microsoft.com/en-us/certifications/azure-ai-fundamentals/)

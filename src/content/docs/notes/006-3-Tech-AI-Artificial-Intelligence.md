@@ -89,7 +89,7 @@ title: Artificial Intelligence (AI)
 - [Open AI](/garden/notes/006-3-tech-ai-openai)
 - [Mycroft Artificial Intelligence (AI)](/garden/notes/006-3-tech-ai-mycroft)
 
-### Resources
+## External Links
 
 - [Hugging Face – AI community, models, data, and
   applications](https://huggingface.co/)

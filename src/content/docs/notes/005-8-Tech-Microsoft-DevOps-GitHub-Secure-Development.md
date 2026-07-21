@@ -157,7 +157,7 @@ GitHub codespaces
 - [DevOps - Development and Operations](/garden/notes/005-computer-tech-devops)
 - [Microsoft Technology](/garden/notes/005-tech-microsoft)
 
-### Resources
+## External Links
 
 - [GitHub Advanced
   Security](https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security)

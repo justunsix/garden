@@ -18,9 +18,7 @@ title: VPN Tailscale Mesh Network
 - Share prototype servers
 - Secure normally insecure protocols like telnet, VNC, FTP, HTTP
 
-## See Also
-
-### Resources
+## External Links
 
 - [Access your tailnet from Gitpod - Tailscale
   Docs](https://tailscale.com/kb/1161/gitpod)

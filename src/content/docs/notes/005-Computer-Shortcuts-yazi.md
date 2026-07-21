@@ -60,9 +60,7 @@ Space.
 
 Check if yazi sees relevant variables and progams with `yazi -debug`
 
-## See Also
-
-### Resources
+## External Links
 
 - [Yazi Quick Start,
   Keybindings](https://yazi-rs.github.io/docs/quick-start/)

@@ -25,9 +25,7 @@ grex [-r|--repetitions] space_separated_strings
 
 ```
 
-## See Also
-
-### Resources
+## External Links
 
 - [GitHub - pemistahl/grex: A command-line tool and Rust library with
   Python bindings for generating regular expressions from user-provided

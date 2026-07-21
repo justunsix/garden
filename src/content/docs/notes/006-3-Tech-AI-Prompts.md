@@ -235,7 +235,7 @@ Write a file like in markdown with:
 - [AI Prompt Approaches for
   Creation](/garden/notes/006-3-tech-ai-prompts-approaches-for-creation)
 
-### Resources
+## External Links
 
 - [Learn about Copilot
   Prompts](https://support.microsoft.com/en-gb/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5)

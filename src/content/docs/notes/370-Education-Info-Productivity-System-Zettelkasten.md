@@ -47,8 +47,6 @@ A note about note relationships is a structure note.
   index notes that match the given tag - my implementation is nested
   tags extension and tagging
 
-## See Also
-
-### Resources
+## External Links
 
 - [Concept of notes system](https://zettelkasten.de/posts/overview/)

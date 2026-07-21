@@ -327,7 +327,7 @@ tier of the resource.
 - [Applying Artificial Intelligence to
   Learning](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-applied-to-learning)
 
-### Resources
+## External Links
 
 - [Introduction to AI in Azure - Training \| Microsoft
   Learn](https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/) -

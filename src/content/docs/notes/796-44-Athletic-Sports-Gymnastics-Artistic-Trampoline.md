@@ -9,7 +9,7 @@ title: Artistic and Trampoline Gymnastics
 - [Gymnastics Lesson Plans and
   Classes](/garden/notes/796-44-athletic-sports-gymnastics-lesson-classes)
 
-### Resources
+## External Links
 
 - [Men’s Artistic Gymnastics \| Gymnastics
   Canada](https://gymcan.org/discipline/mens-artistic-gymnastics/)

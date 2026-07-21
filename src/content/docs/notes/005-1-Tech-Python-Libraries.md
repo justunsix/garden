@@ -32,6 +32,9 @@ title: Python Libraries
 - [Openshift-client](https://github.com/openshift/openshift-client-python) -
   Interacting with OpenShift via the OpenShift client binary
 - [Pandas](https://pandas.pydata.org/) - Data analysis
+- <span class="spurious-link"
+  target="pip-system-certs">*pip-system-certs*</span> - Automatically
+  configures Python to use system certificates via truststore
 - [Playwright](https://playwright.dev/) - End to end, browser, web based
   testing
 - [Polars](https://pola.rs/) - Dataframes, data processing, similar to
@@ -58,9 +61,7 @@ title: Python Libraries
 - [Whisper](https://openai.com/index/whisper/) - automatic speech
   recognition (ASR), text to speech (TTS)
 
-## See Also
-
-### Resources
+## External Links
 
 - [Awesome Python - curated list of awesome Python frameworks,
   libraries, software, and resources](https://python.libhunt.com/)

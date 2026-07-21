@@ -13,7 +13,7 @@ title: Emacs Org Babel Literate Programming
 
 - [Emacs Org Mode Snippets](/garden/notes/005-computer-snippets-emacs-org-mode)
 
-### Resources
+## External Links
 
 - [Babel: Active Code in Org](https://orgmode.org/worg/org-contrib/babel/)
 - [Babel:

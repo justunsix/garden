@@ -82,9 +82,7 @@ Since commit messages are structured, they can be used for:
   - refactor: A code change that neither fixes a bug nor adds a feature
   - test: Adding missing tests or correcting existing tests
 
-## See Also
-
-### Resources
+## External Links
 
 - [Angular Contributing Guidelines, see Commit Message
   Format](https://github.com/angular/angular/blob/main/CONTRIBUTING.md)

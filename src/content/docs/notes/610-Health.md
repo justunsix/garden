@@ -27,7 +27,7 @@ title: Medicine and health
 - [Health, Food and
   Nutrition](/garden/notes/613-health-safety-sport-health-edu-food-nutrition)
 
-### Resources
+## External Links
 
 - [Symptom Analysis using Microsoft Health
   Bot](https://www.microsoft.com/en-us/research/project/health-bot/) -

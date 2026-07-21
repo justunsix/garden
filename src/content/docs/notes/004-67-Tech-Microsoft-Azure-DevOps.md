@@ -52,9 +52,7 @@ Infrastructure team use case:
 - Items could be unassigned, though lowest level items should be
   assigned. Assigned could just mean who is the contact or managing it
 
-## See Also
-
-### Resources
+## External Links
 
 - [DevOps Tutorial \| Microsoft
   Azure](https://azure.microsoft.com/en-us/solutions/devops/tutorial/)

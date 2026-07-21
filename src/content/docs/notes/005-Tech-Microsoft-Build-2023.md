@@ -117,7 +117,7 @@ Demo:
 
 - [Microsoft](/garden/notes/005-tech-microsoft)
 
-#### Resources
+### External Links
 
 - [Microsoft After Ignite Training on Microsoft
   Learn](https://learn.microsoft.com/en-us/training/topics/ignite/)

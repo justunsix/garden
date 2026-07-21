@@ -38,7 +38,7 @@ Vaccination policy?
 
 - [Medicine and Health](/garden/notes/610-health)
 
-### Resources
+## External Links
 
 - [Coronoavirus Disease 2019 Pandemic -
   WHO](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)

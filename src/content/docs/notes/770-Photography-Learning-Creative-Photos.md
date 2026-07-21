@@ -65,9 +65,7 @@ Think about the background and scenes you would like.
 
 See my course notes in training folder
 
-## See Also
-
-### Resources
+## External Links
 
 - GIMP [documentation](https://www.gimp.org/docs/) and
   [tutorials](https://www.gimp.org/tutorials/)

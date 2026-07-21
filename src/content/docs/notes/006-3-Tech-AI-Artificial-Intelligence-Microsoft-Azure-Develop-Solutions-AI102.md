@@ -292,7 +292,7 @@ In prompts, you could add for users to report responses.
 - [AI-102 Azure AI Development Lab
   Environment](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-lab-environmnt)
 
-### Resources
+## External Links
 
 - [Course AI-102T00-A: Develop AI solutions in Azure - Microsoft
   Learn](https://learn.microsoft.com/en-us/training/courses/ai-102t00)

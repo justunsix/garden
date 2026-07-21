@@ -26,9 +26,7 @@ title: Lenovo Laptop Shortcuts
 
 Applications may limit trackpad functionality
 
-## See Also
-
-### Resources
+## External Links
 
 \-[Use the Trackpad -
 Lenovo](https://download.lenovo.com/pccbbs/pubs/t14s_gen1_x13_gen1/html_en/en/Trackpad_(topic)_T0000683000.html)

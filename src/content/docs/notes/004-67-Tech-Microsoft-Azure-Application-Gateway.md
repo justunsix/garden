@@ -166,9 +166,7 @@ Backend pool can be:
     - Controller run as a pod within AKS, allowing gateway to load
       balance traffic to k8s pods
 
-## See Also
-
-### Resources
+## External Links
 
 - [What is Azure Application Gateway \| Microsoft
   Learn](https://learn.microsoft.com/en-us/azure/application-gateway/overview)

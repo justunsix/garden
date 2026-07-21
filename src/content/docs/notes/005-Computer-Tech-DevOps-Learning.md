@@ -4,9 +4,7 @@ id: 0e8915ba-a9e8-4068-86f4-40d62165feee
 title: DevOps Learning Resources
 ---
 
-## See Also
-
-### Resources
+## External Links
 
 Suggestions from [Is Nana's devops bootcamp worth
 it?](https://www.reddit.com/r/devops/comments/qu8dw3/comment/hkryp0j)

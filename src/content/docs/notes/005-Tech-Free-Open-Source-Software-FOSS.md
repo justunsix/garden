@@ -189,7 +189,7 @@ plus my additions
 - [ImageMagick](https://imagemagick.org/)
 - [KDE](/garden/notes/005-tech-kde)
 
-### Resources
+## External Links
 
 - [Awesome Copilot /
   GitHub](https://github.com/github/awesome-copilot) -

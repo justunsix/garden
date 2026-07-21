@@ -74,7 +74,7 @@ START qemu-system-x86_64.exe -L Bios -m 1024M ^
 
 - [Technology](/garden/notes/600-technology)
 
-### Resources
+## External Links
 
 - [debezium-tests/localdev.md at main · justunsix/debezium-tests ·
   GitHub](https://github.com/justunsix/debezium-tests/blob/main/localdev.md) -

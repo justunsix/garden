@@ -32,9 +32,7 @@ title: Dolphin File Manager Shortcuts
 |----------------------------|----------------------------------------------|
 | SSH, FTP, other Connection | Use location and <ssh://servername> protocol |
 
-## See Also
-
-### Resources
+## External Links
 
 - [File transfers - KDE UserBase
   Wiki](https://userbase.kde.org/File_transfers)

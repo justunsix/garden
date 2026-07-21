@@ -343,9 +343,7 @@ src="../media/Learning-How-to-Learn-Week3-2024-12-26-Grocery-List-Memory-Palace.
   - Do serial tasking, focused time on task. Then move to next task
     until needing a break
 
-## See Also
-
-### Resources
+## External Links
 
 - [Introduction to Procrastination and
   Memory](https://www.coursera.org/learn/learning-how-to-learn/lecture/3vb3Y/introduction-to-procrastination-and-memory)

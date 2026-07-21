@@ -44,9 +44,7 @@ Features:
 - Automated events with scripts, webhooks
 - Change logs of objects
 
-## See Also
-
-### Resources
+## External Links
 
 - [GitHub - netbox-community/netbox: source of truth powering network
   automation](https://github.com/netbox-community/netbox) - Good

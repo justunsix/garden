@@ -21,7 +21,7 @@ on these topics and more:
 - [Home Savings](/garden/notes/332-finance-home-savings) - First Home Savings
   Account (FHSA)
 
-### Resources
+## External Links
 
 - [Canada Revenue Agency (CRA) -
   Canada.ca](https://www.canada.ca/en/revenue-agency.html)

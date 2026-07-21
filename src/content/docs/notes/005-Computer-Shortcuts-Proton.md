@@ -18,8 +18,6 @@ title: Proton Shortcuts
 | Show unread emails         | Shift + U  |
 | Show all emails            | Shift + A  |
 
-## See Also
-
-### Resources
+## External Links
 
 Source: <https://proton.me/support/keyboard-shortcuts>

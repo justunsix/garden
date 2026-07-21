@@ -321,9 +321,7 @@ See [Roots of
 Racism](/garden/notes/300-social-science-comms-inclusion-racism-roots-of) - [Roots
 of Racism](id:49cebe53-2c94-438a-8084-92a1c7db7218)
 
-## See Also
-
-### Resources
+## External Links
 
 #### Ontario, Canada
 

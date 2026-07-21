@@ -194,9 +194,7 @@ Understand:
 Microsoft consult is available to apply the Azure Well-Architected
 Framework to an example solution.
 
-## See Also
-
-### Resources
+## External Links
 
 - [Microsoft Cloud Adoption Framework for Azure - Cloud Adoption
   Framework \| Microsoft

@@ -8,7 +8,7 @@ title: General works on art (Creative)
 
 - [Theatre](/garden/notes/700-arts-creative-theatre) - costumes, acting
 
-### Resources
+## External Links
 
 #### Images
 

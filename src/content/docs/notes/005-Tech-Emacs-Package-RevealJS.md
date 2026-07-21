@@ -37,9 +37,7 @@ for more examples of usage
   and select reveal.js HTML presentation format
 - Use `#+REVEAL: split` to insert a new slide inside an org heading
 
-## See Also
-
-### Resources
+## External Links
 
 - [org-re-reveal on GitLab](https://gitlab.com/oer.md-re-reveal/)
 - [Doom Emacs org module, see +present flag for slides

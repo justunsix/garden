@@ -20,6 +20,6 @@ title: Amazon Web Services (AWS) Training
 - [AWS Lab Serverless Real Time Data
   Processing](/garden/notes/004-67-tech-amazon-aws-lab-serverless-real-time-data)
 
-### Resources
+## External Links
 
 - [AWS training and certification](https://www.aws.training/)

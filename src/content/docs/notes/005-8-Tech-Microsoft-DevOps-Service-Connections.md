@@ -1,8 +1,4 @@
 ---
-bibliography:
-- "\\[\\[https://learn.microsoft.com/en-us/azure/devops/pipelines/library/connect-to-azure?view=azure-devops\\]\\[Use
-  an Azure Resource Manager service connection - Azure Pipelines \\|
-  Microsoft Learn\\]\\]"
 filetags: ":devops:security:microsoft:epubnote:"
 id: 583e4050-964c-4a68-b736-6ae27cb5aaff
 title: Service Connections for Microsoft DevOps
@@ -28,8 +24,12 @@ title: Service Connections for Microsoft DevOps
 - If using SPNs with Azure DevOps, the SPNs can be migrated to WIFs
 - An option is to convert SPNs. Another option is having a WIF created
   and moving pipelines to use the WIF while keeping the SPN until you
-  are satisfied the WIF is working [^1].
+  are satisfied the WIF is working [using ARM service
+  connection](https://learn.microsoft.com/en-us/azure/devops/pipelines/library/connect-to-azure?view=azure-devops)
+  \[cite:@ramimsftUseAzureResource\].
 
-[^1]: [Use an Azure Resource Manager service connection - Azure
-    Pipelines \| Microsoft
-    Learn](https://learn.microsoft.com/en-us/azure/devops/pipelines/library/connect-to-azure?view=azure-devops)
+## References
+
+<div id="refs">
+
+</div>

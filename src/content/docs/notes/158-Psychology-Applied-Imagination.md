@@ -26,9 +26,7 @@ Considerations:
 - "Making time for sleep and idleness" -Neel Burton
 - Look at the natural world for inspiration
 
-## See Also
-
-### Resources
+## External Links
 
 Sources of information in this note
 

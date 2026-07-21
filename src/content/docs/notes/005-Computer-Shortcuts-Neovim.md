@@ -207,7 +207,7 @@ Example connection string: sqlite:/path/to/myfile.sqlite3
 
 - [Vim Shortcuts](/garden/notes/005-computer-shortcuts-vim)
 
-### Resources
+## External Links
 
 - `vimtutor` command tutorial in terminal
 - [LazyVim for Ambitious Developers, Vim, Neovim, Lazyvim

@@ -375,9 +375,7 @@ Define a mode map for `kubernetes-mode`
 - Allow customization
 - Implement other kubernetes functions, not just logs
 
-## See Also
-
-### Resources
+## External Links
 
 - [Gist of these
   notes](https://gist.github.com/abrochard/dd610fc4673593b7cbce7a0176d897de)

@@ -78,9 +78,7 @@ cp file1 file1_bak && cp file2 file2_bak; and echo "Backup successful"; or echo 
 
 ```
 
-## See Also
-
-### Resources
+## External Links
 
 - [Tutorial](https://fishshell.com/docs/current/tutorial.html) and
   [interactive

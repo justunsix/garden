@@ -9,7 +9,7 @@ title: Rhythmic Gymnastics
 - [Gymnastics Lesson Plans and
   Classes](/garden/notes/796-44-athletic-sports-gymnastics-lesson-classes)
 
-### Resources
+## External Links
 
 - [Rhythmic Gymnastics \| Gymnastics
   Canada](https://gymcan.org/discipline/rhythmic-gymnastics/)

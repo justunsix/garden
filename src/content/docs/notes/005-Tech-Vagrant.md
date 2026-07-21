@@ -7,9 +7,7 @@ title: Vagrant
 Use case: Set up virtual machines in a repeatable and infrastructure as
 code way.
 
-## See Also
-
-### Resources
+## External Links
 
 - [Getting Started with Vagrant for Local Development
   Environments](https://dev.to/sudhz_/getting-started-with-vagrant-for-local-development-environments-3hk6)

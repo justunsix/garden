@@ -15,8 +15,6 @@ title: Java Libraries and Frameworks
 - [Apache Commons IO](https://commons.apache.org/proper/commons-io/) -
   utilities to assist with developing IO functionality
 
-## See Also
-
-### Resources
+## External Links
 
 - [Maven MVN Central Repository](https://mvnrepository.com/)

@@ -32,9 +32,7 @@ sudo dnf upgrade --exclude=packagename
 
 ```
 
-## See Also
-
-### Resources
+## External Links
 
 \[\[[https://docs.fedoraproject.org/en-US/quick-docs/upgrading-fedora-offline/](https://docs.fedoraproject.org/en-US/quick-docs/upgrading-fedora-offline/)\]\[Upgrading Fedora Linux Using DNF System Plugin  
 Fedora Docs\]\]

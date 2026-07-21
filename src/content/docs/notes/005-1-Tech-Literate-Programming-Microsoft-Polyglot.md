@@ -4,9 +4,7 @@ id: fd7008df-4d1e-4df0-9477-20747af6cb0f
 title: Microsoft Polyglot Literate Programming
 ---
 
-## See Also
-
-### Resources
+## External Links
 
 - [Polyglot Notebooks - Visual Studio
   Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode)

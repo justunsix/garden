@@ -13,9 +13,7 @@ title: JavaScript Libraries
 - [Playwright](https://playwright.dev/) - End to end, browser, web based
   testing
 
-## See Also
-
-### Resources
+## External Links
 
 - [GitHub - sorrycc/awesome-javascript: 🐢 A collection of awesome
   browser-side JavaScript libraries,

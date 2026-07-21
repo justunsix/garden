@@ -9,7 +9,7 @@ title: mpv - Media Player
 - [mpv media player Shortcuts](/garden/notes/005-computer-shortcuts-mpv)
 - [mpv Snippets](/garden/notes/005-computer-snippets-mpv)
 
-### Resources
+## External Links
 
 - [AI Upscale shaders in realtime, MPV video player (Anime 4K ,
   FSRCNNX) -

@@ -136,7 +136,7 @@ with some personal notes
 - [Deepseek R1 Locally, Open-Source Ai Tools, ollama, automation,
   RAG](/garden/notes/006-3-tech-ai-models-deepseek-local-open-source-ai-tools-automation-rag)
 
-### Resources
+## External Links
 
 - [Ollama Models Library](https://ollama.com/library)
 - [GitHub Copilot - Model

@@ -30,8 +30,6 @@ Source: <https://tabby.tabbyml.com/docs/welcome/>
   - Can add local git using <file://> like
     [file://C:\Users\user\Code\repo2](file://C:\Users\user\Code\repo2)
 
-## See Also
-
-### Resources
+## External Links
 
 - [Tabby - Documentation](https://tabby.tabbyml.com/docs/welcome/)

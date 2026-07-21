@@ -345,9 +345,7 @@ Get-ChildItem -Path . -Include thumbs.db -Recurse -Name -Force | Remove-Item -Fo
 
 ```
 
-## See Also
-
-### Resources
+## External Links
 
 - [PowerShell Documentation - PowerShell \| Microsoft
   Learn](https://learn.microsoft.com/en-us/powershell/)

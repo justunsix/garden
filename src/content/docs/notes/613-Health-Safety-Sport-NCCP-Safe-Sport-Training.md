@@ -104,9 +104,7 @@ They describe coach's role in developing athletes.
 
 4 Cs are adapted from Côté and Gilbert, 2009
 
-## See Also
-
-### Resources
+## External Links
 
 - [Safe Sport
   Toolbox](https://coach.ca/sport-safety/safe-sport-training/toolkit)

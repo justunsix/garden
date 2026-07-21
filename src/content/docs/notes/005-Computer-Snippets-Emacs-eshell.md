@@ -87,13 +87,9 @@ cat, cp, ls, cd, export, dirs, du, echo, env, kill, ln, mkdir, mv, alias, popd, 
 ;; Repeat last command
 !!
 
-
-
 ```
 
-## See Also
-
-### Resources
+## External Links
 
 - [Mastering Eshell - Mastering
   Emacs](https://www.masteringemacs.org/article/complete-guide-mastering-eshell)

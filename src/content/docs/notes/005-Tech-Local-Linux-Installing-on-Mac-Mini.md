@@ -119,9 +119,7 @@ To boot back into MacOS, reboot the Mac mini and hold the Option key
 (Alt key on US keyboard) until you see the disk selection screen and
 select MacOS.
 
-## See Also
-
-### Resources
+## External Links
 
 [^1]: [Installing Broadcom Wireless Drivers - Ask
     Ubuntu](https://askubuntu.com/questions/55868/installing-broadcom-wireless-drivers)

@@ -64,7 +64,7 @@ title: Firefox Shortcuts
 - [Firefox Tridactyl Add On Vim like
   Shortcuts](/garden/notes/005-computer-shortcuts-firefox-tridactyl-vim)
 
-### Resources
+## External Links
 
 [Keyboard shortcuts - Perform common Firefox tasks quickly \| Firefox
 Help](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly)

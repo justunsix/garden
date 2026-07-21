@@ -15,8 +15,6 @@ title: Golang Libraries
   external API other Go programs can use to decrypt Secret Operations
   (SOPS) files
 
-## See Also
-
-### Resources
+## External Links
 
 - [Go Packages](https://pkg.go.dev/)

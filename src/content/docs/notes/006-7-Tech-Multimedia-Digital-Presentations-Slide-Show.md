@@ -51,7 +51,7 @@ Examples by RevealJS HTML presentations by Pamela Fox
 - [Pandoc Snippets](/garden/notes/005-computer-snippets-pandoc) for more examples
   on using pandoc to create presentations
 
-### References
+## References
 
 - [The HTML presentation framework \| reveal.js](https://revealjs.com)
 - [my-py-talks/llms-python-nov13/index.html at main ·

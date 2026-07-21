@@ -158,8 +158,9 @@ are available.
 - [Nix Guides and Information](/garden/notes/005-tech-nix-nixos-guides)
 - [Nix and Poetry for Python App
   Packaging](/garden/notes/005-tech-nix-and-poetry-for-python-app-packaging)
+- [Install NixOS](/garden/notes/005-tech-nix-nixos-install)
 
-### Resources
+## External Links
 
 - [Nix Manual](https://nixos.org/manual/nix/stable/)
 - [Nix Guides](https://nixos.org/learn.html)

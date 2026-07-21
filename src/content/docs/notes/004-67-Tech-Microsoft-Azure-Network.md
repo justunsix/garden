@@ -85,9 +85,7 @@ Learn](https://learn.microsoft.com/en-us/azure/virtual-network/concepts-and-best
   to reduce administration.
 - Secure VNets with network security groups (NSG) to subnets.
 
-## See Also
-
-### Resources
+## External Links
 
 - [Azure Virtual Network \| Microsoft
   Learn](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)

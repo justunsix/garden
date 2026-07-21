@@ -110,7 +110,7 @@ Set(
 - [Create Power Platform solutions with AI and
   Copilot](/garden/notes/005-tech-microsoft-power-platform-ai-solutions-and-copilot)
 
-### Resources
+## External Links
 
 - [OpenAI prompt examples](https://platform.openai.com/examples) and
   [OpenAI text completion prompt

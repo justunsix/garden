@@ -380,9 +380,7 @@ nixos-shell vm.nix
 - Using a nix file, build Docker image, docker load the image for
   running using Nix's dockerTools build.
 
-## See Also
-
-### Resources
+## External Links
 
 - [Learn Nix](https://nixos.org/learn.html)
 - [Nix Tutorials](https://nix.dev/tutorials/)

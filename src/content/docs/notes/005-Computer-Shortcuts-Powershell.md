@@ -21,7 +21,7 @@ On Windows, On MacOS and Linux will vary slightly
 
 - [Windows Shortcuts](/garden/notes/005-computer-shortcuts-windows)
 
-### Resources
+## External Links
 
 - [Using tab-completion in the shell - PowerShell \| Microsoft
   Learn](https://learn.microsoft.com/en-us/powershell/scripting/learn/shell/tab-completion?view=powershell-7.3)

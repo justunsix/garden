@@ -530,7 +530,7 @@ Formality
 - [Microsoft Technologies](/garden/notes/005-tech-microsoft) section [Microsoft
   Power Platform Notes](id:2acf1ed4-0099-4810-9ed4-3bba5c688490)
 
-### Resources
+## External Links
 
 - [Introduction to Microsoft Power Platform \| Microsoft
   Learn](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform/)

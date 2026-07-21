@@ -48,6 +48,6 @@ title: Mental Health
   Health](/garden/notes/158-psychology-applied-health-mental-self-care-challenge)
 - [Stoicism](/garden/notes/158-psychology-applied-health-mental-stoicism)
 
-### Resources
+## External Links
 
 - [Bell Let's Talk](https://letstalk.bell.ca/en/)

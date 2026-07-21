@@ -240,9 +240,7 @@ grep -r 'f[io]x'
 
 ```
 
-## See Also
-
-### Resources
+## External Links
 
 - [Debuggex: Online visual regex tester. JavaScript, Python, and
   PCRE](https://www.debuggex.com/) - visual representation of regex

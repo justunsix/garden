@@ -65,7 +65,7 @@ prettier --parser markdown --prose-wrap always -w *.md
 
 - [Markdown notetaking](/garden/notes/370-education-info-markdown-notetaking)
 
-### Resources
+## External Links
 
 - [Markdown Guide - Reference style
   links](https://www.markdownguide.org/basic-syntax#reference-style-links)

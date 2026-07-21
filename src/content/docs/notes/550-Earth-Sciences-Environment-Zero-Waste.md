@@ -50,7 +50,7 @@ Source: My personal notes from session with Sophi Robertson
   - Anarres Apothecary <http://www.anarreshealth.ca/>
   - Pretty Clean Shop <https://www.prettycleanshop.com/>
 
-### Resources
+## External Links
 
 - City of Toronto Phase 2: Approaches to Reduce Single-Use and Takeaway
   Items

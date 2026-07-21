@@ -385,7 +385,7 @@ sequential order.
   AI-102](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102)
 - [Artificial Intelligence (AI) Agents](/garden/notes/006-3-tech-ai-agents)
 
-### Resources
+## External Links
 
 - [Azure AI Foundry
   SDK](https://learn.microsoft.com/azure/ai-foundry/how-to/develop/sdk-overview)

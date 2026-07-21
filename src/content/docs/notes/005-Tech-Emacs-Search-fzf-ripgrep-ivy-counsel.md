@@ -131,7 +131,7 @@ Using `counsel-rg` or `rg` or `projectile-ripgrep`
 
 - [fzf fuzzy finder Snippets](/garden/notes/005-computer-snippets-fzf)
 
-### Resources
+## External Links
 
 - [Emacs: fuzzy find files (fzf, ripgrep,
   Ivy+Counsel)](https://www.youtube.com/watch?v=IDkx48JwDco)

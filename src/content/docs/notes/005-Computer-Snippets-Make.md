@@ -111,9 +111,7 @@ clean :$
 
 ```
 
-## See Also
-
-### Resources
+## External Links
 
 - [Managing Projects with GNU Make, Third
   Edition](https://www.oreilly.com/openbook/make3/book/index.csp) - in

@@ -219,7 +219,7 @@ sled heavier each round
 - [Calisthenics Workouts](/garden/notes/790-sport-calisthenics-workouts)
 - [Inspirational](/garden/notes/158-psychology-applied-goals-inspirational)
 
-### Resources
+## External Links
 
 All ages workouts
 

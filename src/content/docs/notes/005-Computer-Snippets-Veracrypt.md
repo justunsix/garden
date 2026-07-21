@@ -52,9 +52,7 @@ sudo veracrypt --text --dismount
 
 ```
 
-## See Also
-
-### Resources
+## External Links
 
 - [Veracrypt on Command Line for Ubuntu
   Linux](https://arcanecode.com/2021/06/21/veracrypt-on-the-command-line-for-ubuntu-linux/)

@@ -939,7 +939,7 @@ IDEs. They preserve the window layout.
 - [Emacs Shortcuts Evil Doom](/garden/notes/005-tech-emacs-shortcuts-evil-doom)
 - [Neovim Shortcuts](/garden/notes/005-computer-shortcuts-neovim)
 
-### Resources
+## External Links
 
 - `vimtutor` command tutorial in terminal
 - [LazyVim for Ambitious Developers, Vim, Neovim, Lazyvim

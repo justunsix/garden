@@ -40,9 +40,7 @@ sudo dpkg -i <package>.deb
 
 ```
 
-## See Also
-
-### Resources
+## External Links
 
 - [pacman/Rosetta](https://wiki.archlinux.org/title/Pacman/Rosetta) which
   translates common package manager commands from pacman to other

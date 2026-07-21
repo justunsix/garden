@@ -39,7 +39,7 @@ title: Microsoft Technology - Azure Monitor
 - [Azure Data
   Fundamentals](/garden/notes/004-67-tech-microsoft-azure-data-fundamentals)
 
-### Resources
+## External Links
 
 - [Azure Monitor documentation - Azure Monitor \| Microsoft
   Learn](https://learn.microsoft.com/en-us/azure/azure-monitor/)

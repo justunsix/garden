@@ -122,9 +122,7 @@ resource "azurerm_resource_group" "rg" {
 
 \>
 
-## See Also
-
-### Resources
+## External Links
 
 - [GitHub - trussworks/terraform-layout-example: Example of a Truss
   Terraform

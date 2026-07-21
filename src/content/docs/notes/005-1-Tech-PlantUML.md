@@ -12,7 +12,7 @@ title: PlantUML
 - [Case Study: Visualize Complex Microservice Data Using
   Python](/garden/notes/005-1-tech-python-case-study-visualize-microservice-data)
 
-### Resources
+## External Links
 
 - [PlantUML](https://plantuml.com/)
 - [Welcome to The Hitchhiker Guide to PlantUML

@@ -64,9 +64,7 @@ JDK has packaged usage tracker
 - Devices can be organized into "fleets"
 - Show runtimes, vendors
 
-### See Also
-
-#### Resources
+## External Links
 
 - [Which Version of JDK Should I Use? \|
   whichjdk.com](https://whichjdk.com/) - TLDR use Adoptium Eclipse

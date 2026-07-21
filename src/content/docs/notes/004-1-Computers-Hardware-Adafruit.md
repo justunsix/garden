@@ -11,7 +11,7 @@ title: Adafruit Hardware
 - [Adabox 22 Fruit Jam mini Retro Computer
   Kit](/garden/notes/004-1-computers-hardware-adafruit-adabox22-fruit-jam-retro-computer)
 
-### Resources
+## External Links
 
 Guide for Boards - Vendor agnostic:
 
