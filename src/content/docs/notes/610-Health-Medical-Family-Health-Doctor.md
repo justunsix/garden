@@ -31,6 +31,7 @@ Connect](https://www.ontario.ca/page/find-family-doctor-or-nurse-practitioner)
   - [ ] Immunizations
   - [ ] Cancer screening using [What’s My Risk? \| My
     CancerIQ](https://www.mycanceriq.ca/Cancers/Risk)
+    - Colorectal screening in Ontario lowered age as of 2026-07
 
 ### Tips for Blood work lab visit
 
