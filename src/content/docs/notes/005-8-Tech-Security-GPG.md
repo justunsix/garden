@@ -6,21 +6,13 @@ title: GNU Privacy Guard (GPG)
 
 ## GNU Privacy Guard (GPG)
 
-Sources:
-
-- [GNU Privacy Handbook](https://gnupg.org/gph/en/manual.html)
-- [Practical Guide to
-  GPG](https://www.linuxbabe.com/security/a-practical-guide-to-gpg-part-1-generate-your-keypair)
-- [How to create GPG key
-  pair](https://www.redhat.com/sysadmin/creating-gpg-keypairs)
-
 ### GNU Privacy Handbook
 
 GnuPG (GPG) is a tool for secure communications - a free implementation
 of the OpenPGP standard. It is a command line tool that can be used to
 encrypt and sign data and communication, features a key management
 system, along with access modules for all kinds of public key
-directories.
+directories \[fn:1\].
 
 #### Keys
 
@@ -310,6 +302,9 @@ keys signed by others you trust.
 
 ### Practical Guide to GPG
 
+Key management including generation, public keys, and software
+verification \[fn:2\] \[fn:3\].
+
 #### Generating a new key pair
 
 ``` shell
@@ -448,3 +443,11 @@ gpg --keyserver hkps://keyserver.ubuntu.com --recv-keys 0x680D16DE
 - [GPG Local Security](/garden/notes/005-8-tech-security-gpg-local)
 - [GNU Privacy Guard GPG Pretty Good Privacy (PGP)
   Snippets](/garden/notes/005-computer-snippets-gnu-privacy-guard-gpg-pgp)
+
+## References
+
+- \[fn:1\] [GNU Privacy Handbook](https://gnupg.org/gph/en/manual.html)
+- \[fn:2\] [Practical Guide to
+  GPG](https://www.linuxbabe.com/security/a-practical-guide-to-gpg-part-1-generate-your-keypair)
+- \[fn:3\] [How to create GPG key
+  pair](https://www.redhat.com/sysadmin/creating-gpg-keypairs)

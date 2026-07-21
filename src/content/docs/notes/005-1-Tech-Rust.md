@@ -4,77 +4,27 @@ id: 1c4a327d-4de8-461a-b3d6-7191b2f12982
 title: Rust Language
 ---
 
-## Why Use Rust
-
-- Performance metrics
-- Memory safety
-- Different production usage
-  - Cloud and desktop applications
-  - Large technology company usage and support
-  - Linux kernel
-- Programmer preference and productivity
-- Advanced programming
-  - Meta programming
-  - Foreign function interfaces (FFI) to call code written in other
-    programming languages
-
-### Use Cases
-
-- Performance critical applications due to speed and memory efficiency
-  and no garbage collection
-- Reduced security vulnerabilities due to memory safety
-  - Example: operating systems, user facing systems
-- Other examples:
-  - Command line applications
-  - Application Programming Interfaces (API)
-  - Distributed systems
-  - Front end
-    - WebAssembly
-  - Systems:
-    - Databases
-    - Security
-    - Data
-    - Devices
-  - Other
-    - Virtual reality
-    - Blockchain
-
-## Learning Rust Tips
-
-- Beginner learning
-  - Read Rust book (twice)
-  - Rustlings exercises, redo ones important to you
-  - Rust by Example
-- Use `cargo clippy`
-
-### Try
-
-cargo packages (can use cargo binstall):
-
-- sccache for caching compiled packages
-- irust - repl
-- bacon - clippy and build, test - compilments LSP editor for help
-- cargo-info - check crates
-
 ## See Also
 
-- [Rust Integrated Development Environment (IDE) with VS Code, Neovim,
-  and Emacs](/garden/notes/005-1-tech-rust-ide-vs-code-neovim-emacs)
-- [The Rust Programming Language, The Book
-  (Book)](/garden/notes/005-1-tech-rust-programming-book)
-- [Rust Cargo Snippets](/garden/notes/005-computer-snippets-rust-cargo)
 - [Neovim Language Server Protocol (LSP)](/garden/notes/005-tech-vim-neovim-lsp) - includes setup for
   Neovim with Rust
-- [Rust on Windows](/garden/notes/005-1-tech-rust-on-windows)
-- [Rust Libraries](/garden/notes/005-1-tech-rust-libraries)
+- [Rust Cargo Snippets](/garden/notes/005-computer-snippets-rust-cargo)
 - [Rust Faster Compile Times](/garden/notes/005-1-tech-rust-faster-compile-times)
+- [Rust Integrated Development Environment (IDE) with VS Code, Neovim,
+  and Emacs](/garden/notes/005-1-tech-rust-ide-vs-code-neovim-emacs)
+- [Rust Libraries](/garden/notes/005-1-tech-rust-libraries)
+- [Rust on Windows](/garden/notes/005-1-tech-rust-on-windows)
+- [Rust Optimization Tips](/garden/notes/005-1-tech-rust-optimization-tips)
+- [The Rust Programming Language, The Book
+  (Book)](/garden/notes/005-1-tech-rust-programming-book)
+- [Why Use Rust](/garden/notes/005-1-tech-rust-why-use-rust)
 
-### Resources
+## External Links
 
 - [Rust Programming Language](https://www.rust-lang.org/)
 - [Rust Playground](https://play.rust-lang.org/) - run code in browser
 
-#### Learning
+### Learning
 
 - [GitHub - ctjhoa/rust-learning: A bunch of links to blog posts,
   articles, videos, etc for learning

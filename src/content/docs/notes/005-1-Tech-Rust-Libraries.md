@@ -5,12 +5,12 @@ id: 1163ccec-6925-455a-bf8a-4c3a1c5ee1f9
 title: Rust Libraries
 ---
 
-- [Axum](https://lib.rs/crates/axum) - Web framework that focuses on
-  ergonomics and modularity, HTTP server, APIs
 - [anyhow](https://lib.rs/crates/anyhow) - Provides a boxed error type
   that can hold any error, and helpers for generating an
   application-level stack trace. Good for function caller logging error
   and stopping.
+- [Axum](https://lib.rs/crates/axum) - Web framework that focuses on
+  ergonomics and modularity, HTTP server, APIs
 - [Clap](https://lib.rs/crates/clap) - CLI argument parsing
 - [crossterm](https://lib.rs/crates/crossterm) - Low-level
   cross-platform terminal rendering and event handling
@@ -21,8 +21,14 @@ title: Rust Libraries
 - [GTK4](https://lib.rs/crates/gtk4) - GUI Rust bindings for GTK4
 - [Polars](https://pola.rs/) - Dataframes
 - [Ratatui](https://lib.rs/crates/ratatui) - terminal user interfaces
+- [rayon](https://lib.rs/crates/rayon) - convert sequential computation
+  into parallel computation with one call - \`par<sub>iter</sub>\`
+  instead of \`iter\`
 - [Serde](https://lib.rs/crates/serde) - generic
   serialization/deserialization framework
+- [Tokio](https://lib.rs/crates/tokio) - oldest async runtime in the
+  Rust ecosystem and still the most widely supported. Recommended for
+  new projects.
 
 ## Cross Platform GUI
 

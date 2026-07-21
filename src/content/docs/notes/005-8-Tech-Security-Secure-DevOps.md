@@ -1,7 +1,7 @@
 ---
 filetags: ":devops:security:epubnote:"
 id: 9329dbfe-ee56-4bda-93d7-6bf7a8816b1d
-title: Secure DevOps
+title: Secure DevOps (SecDevOps)
 ---
 
 ## Docker Image Security
