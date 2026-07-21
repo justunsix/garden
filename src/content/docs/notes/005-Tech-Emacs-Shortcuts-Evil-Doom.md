@@ -53,7 +53,7 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Browse url of file, open in browser | SPC o b |
 | Buffer, delete buffer | SPC b d |
 | Buffer, open scratch buffer | SPC x |
-| Buffer, switch buffers, files, bookmarks, projects | SPC \< or consult-buffer or C-x b |
+| Buffer, switch buffers, includes files, bookmarks, projects | SPC \< or consult-buffer or C-x b |
 | Code actions, Jump to definition (like Vim gd) | SPC c d or gd |
 | Code actions, Jump to reference (like Vim gr) | SPC c D |
 | Code actions / LSP | SPC c a |

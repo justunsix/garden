@@ -50,6 +50,8 @@ title: Software Shortcuts
   Shortcuts](/garden/notes/005-computer-shortcuts-microsoft-office)
 - [Microsoft Office Word
   Shortcuts](/garden/notes/005-computer-shortcuts-microsoft-word)
+- [Microsoft Outlook
+  Shortcuts](/garden/notes/005-computer-shortcuts-microsoft-outlook)
 - [Microsoft Power Platform
   Shortcuts](/garden/notes/005-computer-shortcuts-microsoft-power-platform)
 - [Microsoft Teams
@@ -77,5 +79,7 @@ title: Software Shortcuts
 - [VS Code Shortcuts](/garden/notes/005-computer-shortcuts-vs-code)
 - [Wezterm Shortcuts](/garden/notes/005-computer-shortcuts-wezterm)
 - [Windows Shortcuts](/garden/notes/005-computer-shortcuts-windows)
+- [Windows Terminal
+  Shortcuts](/garden/notes/005-computer-shortcuts-windows-terminal)
 - [Yazi Shortcuts](/garden/notes/005-computer-shortcuts-yazi)
 - [Zellij Shortcuts](/garden/notes/005-computer-shortcuts-zellij)

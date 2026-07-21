@@ -422,9 +422,6 @@ fn main() {
     }
 
     println!("LIFTOFF!!!");
-
-    let a = [10, 20, 30, 40, 50];
-    let mut index = 0;
 }
 
 // Loops within a range using for, most used type of loop sice it is concise and safer
@@ -440,6 +437,41 @@ fn main() {
         println!("{number}!");
     }
     println!("LIFTOFF!!!");
+}
+
+// For loop with a loop index variable using enumerate()
+for (gift_index, day) in days.into_iter().enumerate() {
+    let gift_of_day = gifts[gift_index];
+    println!("On the {day} of Christmas\nmy true love sent to me:");
+    // First Day
+    if gift_index == 0 {
+        println!("{gift_of_day}\n");
+    } else {
+        println!("{gift_of_day}");
+        let mut previous_gifts_index = gift_index - 1;
+        while previous_gifts_index > 0 {
+            let previous_gift = gifts[previous_gifts_index];
+            println!("{previous_gift}");
+            previous_gifts_index -= 1;
+        }
+        let first_gift = gifts[0];
+        println!("and {first_gift}\n")
+    }
+}
+
+```
+
+## Memory Allocation
+
+``` rust
+
+// Explicitly drop (deconstruct) an object sooner than its current scope using std::mem::drop
+// as drop(), which is a empty function, takes ownership of the object and drops it after execution
+fn main() {
+    let recorder = Recorder::new();
+    std::mem::drop(recorder);
+
+    println!("Further work");
 }
 
 ```

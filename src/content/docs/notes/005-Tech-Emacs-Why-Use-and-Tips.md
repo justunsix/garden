@@ -167,3 +167,14 @@ and:
 - M (alt) is used for operations related to units of the language
   (words, sentences). While C (Control) operates on basic units like
   characters and lines
+
+## Installing Emacs
+
+Easiest is install with your operating system package or software store.
+
+- For MacOS, can use emacs-plus as of 2026-07
+- `--with-native-comp` should be default for new Emacs builds. It means
+  Emacs will run fast and built for your operating system.
+- Using Emacs regularly or using Emacs as a daemon which is a background
+  running process is an option. When opening the Emacs Client program,
+  it will connect to an active Emacs daemon.

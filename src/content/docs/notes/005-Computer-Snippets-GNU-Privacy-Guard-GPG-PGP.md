@@ -6,6 +6,11 @@ title: GNU Privacy Guard GPG Snippets, Pretty Good Privacy (PGP)
 
 ``` shell
 
+# Show configuration
+gpgconf
+## List configured directories with -L with --list-dirs
+gpgconf -L
+
 # Create a GPG key pair
 gpg --full-generate-key
 
@@ -23,9 +28,15 @@ gpg --list-keys --keyid-format LONG
 gpg --list-secret-keys --keyid-format=long
 
 # Set home directory of GNUPG, for example on Windows to different directory, then list keys
+# - If not used, home directory defaults to ~/.gnupg. Only recognized when given on the command line
+# - Overrides any home directory stated through the environment variable GNUPGHOME 
+#   or (on Windows systems) by means of the Registry entry HKCU\Software\GNU\GnuPG:HomeDir.
+# https://www.gnupg.org/documentation/manuals/gnupg/Configuration-Options.html
 gpg --homedir ~/.gnupg --list-keys
 ## Windows msys2 D drive
 gpg --homedir d/.gnupg --list-keys
+# Set home directory of GNUPG with environment variable
+export GNUPGHOME="/e/.gnupg"
 
 ## Get fingerprint with a key ID
 gpg --fingerprint <keyID>
@@ -41,6 +52,11 @@ gpg --armor --export user-id-or-email > pubkey.asc
 gpg --output public.pgp --armor --export username@email
 ## Export Secret Key - export an ascii armored version of the secret key:
 gpg --output private.pgp --armor --export-secret-key username@email
+
+# Import a public key
+gpg --import public.gpg
+# Import a private key
+gpg --import private.pgp
 
 # Export public key for a person
 gpg --export --armor alice@example.com
@@ -65,8 +81,14 @@ gpg -c doc.txt
 # Decrypt file to output -o files doc.txt
 gpg -o 'doc.txt' -d 'doc.txt.gpg'
 
-# Import a public key
-gpg --import public.gpg
+# Export trust of keys (for example for ultimate levels)
+gpg --export-ownertrust > trust.txt
+
+# Import trust of keys 
+gpg --import-ownertrust trust.txt
+
+# Edit key, for example trust level
+gpg --edit-key <key-ID>
 
 ## Sign someone's public because you know it is from them and trust them locally
 gpg --sign-key <keyID>
@@ -95,3 +117,9 @@ gpgtar -d --directory mydir myarchive.gpg
 ## See Also
 
 - [GNU Privacy Guard (GPG)](/garden/notes/005-8-tech-security-gpg)
+
+## References
+
+- [GNU Privacy Handbook](https://gnupg.org/gph/en/manual.html)
+- [How I backup and migrate my GPG keys - Alex at
+  aottr](https://aottr.dev/posts/2024/08/how-i-backup-and-migrate-my-gpg-keys/)

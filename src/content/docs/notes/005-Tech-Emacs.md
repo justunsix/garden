@@ -21,28 +21,23 @@ title: Emacs
 - [Spacemacs](/garden/notes/005-tech-emacs-spacemacs)
 - [Why Use Emacs and Tips](/garden/notes/005-tech-emacs-why-use-and-tips)
 
-### Packages and Systems
+### Systems
 
 - [Emacs Search with fzf, ripgrep, ivy, counsel, consult,
   vertico](/garden/notes/005-tech-emacs-search-fzf-ripgrep-ivy-counsel)
-
 - [Emacs Spaced Repetition System with
   Anki](/garden/notes/005-tech-emacs-spaced-repetition-system-anki)
-
 - [PlantUML in Emacs](/garden/notes/005-1-tech-plantuml-emacs)
 
+### Packages
+
 - [Package: eshell](/garden/notes/005-tech-emacs-package-eshell)
-
 - [Package: EWW](/garden/notes/005-tech-emacs-package-eww)
-
+- [Package: Kubernetes](/garden/notes/005-tech-emacs-kubernetes)
 - [Package: Magit](/garden/notes/005-tech-emacs-package-magit)
-
+- [Package: Org Mode](/garden/notes/005-tech-emacs-package-org)
 - [Package: org-re-reveal,
   RevealJS](/garden/notes/005-tech-emacs-package-revealjs)
-
-- [Package: Org Mode](/garden/notes/005-tech-emacs-package-org)
-
-- [Package: Kubernetes](/garden/notes/005-tech-emacs-kubernetes)
-
-- [Package: vertio, marginalia, orderless, consult, embark and
-  others](/garden/notes/005-tech-emacs-package-vertico-and-others)
+- [Package: Completeion with vertico, marginalia, orderless, consult,
+  embark and
+  others](/garden/notes/005-tech-emacs-package-completion-vertico-and-others)

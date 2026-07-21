@@ -13,6 +13,13 @@ wsl
 wsl --list --verbose
 wsl -l -v
 
+# List available distros for installation
+wsl.exe --list --online
+
+# Install specific distribution
+wsl --install --distribution Ubuntu-26.04
+wsl --install --distribution FedoraLinux-44
+
 # Shutdown all distros
 wsl --shutdown
 
@@ -20,3 +27,8 @@ wsl --shutdown
 wsl --unregister <distro name>
 
 ```
+
+## References
+
+- [Install WSL \| Microsoft
+  Learn](https://learn.microsoft.com/en-us/windows/wsl/install)

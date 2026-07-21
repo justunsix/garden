@@ -18,6 +18,7 @@ Source: [mpv.io](https://mpv.io/manual/master/)
 | Speed Down (slower)          | \[              |
 | Speed Up (faster)            | \]              |
 | Subtitle, toggle             | v               |
+| Volume, up and down          | 0 and 9         |
 | Zoom in                      | Alt + (shift) = |
 | Zoom out                     | Alt + -         |
 | Zoom, pan, reset             | Alt + Backspace |

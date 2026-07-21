@@ -8,11 +8,6 @@ title: Emacs Shortcuts
 
 <link rel="stylesheet" type="text/css" href="basic-org.css"/>
 
-## Sources
-
-- Main source is [Absolute Beginners Guide to
-  Emacs](http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/)
-  with pictures and key bindings, good plain language overview
 - Use modeline to check place in file: \<file\> line number:column
   top/bot/all/xx%
   - Top first line is visible
@@ -27,7 +22,7 @@ title: Emacs Shortcuts
 |----|----|
 | Buffer, Save | C-x C-s |
 | Buffer, Switch | C-x b |
-| Buffer, Switch: Cycle through buffers | C-x right , C-x left |
+| Buffer, Switch: Cycle through buffers, previous, next | C-x right , C-x left |
 | Buffer, Switch: List Buffers | C-x C-b |
 | Exit emacs | C-x C-c |
 | Find / Open file | find-file, C-x C-f |
@@ -584,15 +579,23 @@ methods
 
 ## See Also
 
-- [Emacs Snippets](/garden/notes/005-computer-snippets-emacs)
 - [Emacs Shortcuts Evil Doom](/garden/notes/005-tech-emacs-shortcuts-evil-doom)
-- [Emacs Shortcuts in a Graphical Cheat
-  Sheet](/garden/notes/005-tech-emacs-shortcuts-graphical-cheat-sheet)
-- [Emacs Shortcuts from Other
-  Packages](/garden/notes/005-tech-emacs-shortcuts-other-packages)
+- [Emacs Shortcuts for Citations Library and
+  Citar](/garden/notes/005-tech-emacs-shortcuts-citations-library-citar)
 - [Emacs Shortcuts for dired](/garden/notes/005-tech-emacs-shortcuts-dired)
 - [Emacs Shortcuts for elfeed](/garden/notes/005-tech-emacs-shortcuts-elfeed)
-- [Emacs Shortcuts for org-mode](/garden/notes/005-tech-emacs-shortcuts-mode)
 - [Emacs Shortcuts for Magit](/garden/notes/005-tech-emacs-shortcuts-magit)
+- [Emacs Shortcuts for org-mode](/garden/notes/005-tech-emacs-shortcuts-mode)
 - [Emacs Shortcuts for
   plantuml-mode](/garden/notes/005-tech-emacs-shortcuts-plantuml-mode)
+- [Emacs Shortcuts from Other
+  Packages](/garden/notes/005-tech-emacs-shortcuts-other-packages)
+- [Emacs Shortcuts in a Graphical Cheat
+  Sheet](/garden/notes/005-tech-emacs-shortcuts-graphical-cheat-sheet)
+- [Emacs Snippets](/garden/notes/005-computer-snippets-emacs)
+
+## References
+
+- [GNU Emacs - GNU Project](https://www.gnu.org/software/emacs/)
+- [GNU Emacs documentation - GNU
+  Project](https://www.gnu.org/software/emacs/documentation.html)

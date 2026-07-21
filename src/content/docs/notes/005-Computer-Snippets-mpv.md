@@ -10,7 +10,7 @@ title: mpv Snippets
 mpv "https://www.youtube.com/watch?v=VPMyBOqCcsw"
 
 # Play video using yt-dlp and constrain video height and use best audio
-mpv --ytdl-format="bestvideo[height<=1080]+bestaudio "https://www.youtube.com/watch?v=myvideoid"
+mpv --ytdl-format="bestvideo[height<=1080]+bestaudio" "https://www.youtube.com/watch?v=myvideoid"
 
 # Upscaling video
 # Edit `mpv.conf`
@@ -20,5 +20,8 @@ profile=gpu-hq
 glsl-shaders="~~/shaders/shader_whatever_name.glsl"
 # Or run command line
 mpv --glsl-shaders="~~/shaders/FSR.glsl" video.mp4
+
+# Start media file at specific time 19 minutes, 52 seconds
+mpv --start=19:52 media.mp4
 
 ```

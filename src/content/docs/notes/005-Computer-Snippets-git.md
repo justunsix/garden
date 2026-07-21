@@ -189,6 +189,10 @@ git status
 ## Make changes and continue
 git rebase --contiue
 
+# Cleanup unnecessary files and optimize the local repository
+git gc
+# Usually done automatically with other git porcelain commands like git status, commit
+
 ```
 
 ## Create a new repository - git init, add

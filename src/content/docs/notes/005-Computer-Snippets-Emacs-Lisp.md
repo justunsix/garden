@@ -13,8 +13,13 @@ between parentheses \[fn:1\].
 ;; Types ;;
 ;;;;;;;;;;;
 
-;; List preceded by single apostrophe
+;; List preceded by single quote
 '(rose violet daisy buttercup)
+;; Set a varaible to a list
+;; Single quote means do not interpret, stuff after it is not a variable, function
+;; instead use the actual value
+;; Sets completion-styles to a list of orderless and basic
+(setq completion-styles '(orderless basic))
 
 ;; Concatenate (combine) two or more items into strings
 (concat "string1" string2var)

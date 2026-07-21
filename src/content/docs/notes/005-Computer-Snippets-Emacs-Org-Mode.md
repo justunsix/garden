@@ -13,6 +13,7 @@ title: Emacs Org Mode Snippets Emacs org mode like Jupyter Notebook
 
 ``` org
 
+# ###################
 # Images
 #+CAPTION: This is the caption for the next figure link (or table)
 #+NAME:   fig:SED-HR4049
@@ -23,12 +24,19 @@ title: Emacs Org Mode Snippets Emacs org mode like Jupyter Notebook
 #+attr_org:  :width 1000
 [[~/images/examples.jpg]]
 
+# ###################
+# Links
+
 # Link to a specific section/heading of any level in an org mode document called Golang Tutorial
 [[file:005-Golang.org::*Golang Tutorial][Golang Tutorial]]
 
+# ###################
 # Footnotes
 The Org website [fn:50] now looks a lot better than it used to.
 [fn:50] The link is: https://orgmode.org
+
+# ###################
+# File variables
 
 # Specify file variables in first line of file
 # https://www.gnu.org/software/emacs/manual/html_node/emacs/Specifying-File-Variables.html
@@ -38,7 +46,25 @@ The Org website [fn:50] now looks a lot better than it used to.
 # https://orgmode.org/manual/In_002dbuffer-Settings.html
 ,,#+STARTUP: inlineimages
 
+# ###################
+# Org Citations
+
+# Citation of a specific source
+My personal notes from [[https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026][FIFA 2026 Canada, Mexico, US]] volunteer training portal [cite:@fifa2026volelearn]
+
+# Citation with page number
+[cite:see @key p. 123]
+
+# Multiple citations
+[cite:@key1;@key2;@key3]
+
+# Print bibliography contains works cited in the org document
+#+print_bibliography:
+
 ```
+
+- Org citation use tutorials from \[cite:@dentonBasicCitationsOrg2024;
+  @tecJuly20212021\]
 
 ## Other Languages with org-babel like Python, Nu, SQL
 
@@ -319,6 +345,7 @@ DESCRIBE `some_table`;
 ### Run R for SQL query
 
 ``` r
+
 library(RMySQL)
 con <- dbConnect(MySQL(), user="user", password="pwd", dbname="dbname", host="host")
 q <-
@@ -394,3 +421,9 @@ select * from greeting;
       url TEXT
       );
     ```
+
+## References
+
+<div id="refs">
+
+</div>

@@ -5,12 +5,9 @@ title: "Securing Git Secrets, SOPS: Secrets OPerations"
 ---
 
 About Secrets OPerationS (SOPS) to support securing secrets stored in
-git
+git \[fn:1\] \[fn:2\].
 
 ## Securing DevOps Show & Tell: Mozilla Sops
-
-Sources: [Securing DevOps Show & Tell: Mozilla
-Sops](https://www.youtube.com/watch?v=V2PRhxphH2w)
 
 - Use sops to encrypt YAML, JSON, ENV, or binary files.
 - sops can encrypt just values in key value pairs, preserving other
@@ -251,3 +248,10 @@ note syntax differences. In sops.yaml, it is `encrypted_regex`.
 ### Other Features
 
 sops can operate on specific values without an editor
+
+## References
+
+- \[fn:1\] [getsops/sops: Simple and flexible tool for managing secrets
+  · GitHub](https://github.com/getsops/sops)
+- \[fn:2\] [Securing DevOps Show & Tell: Mozilla
+  Sops](https://www.youtube.com/watch?v=V2PRhxphH2w)

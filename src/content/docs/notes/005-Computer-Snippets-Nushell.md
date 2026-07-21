@@ -39,6 +39,13 @@ ls
 # List files and find files with a name or pattern with Nushell's find
 ls | find .jpg
 
+# Find substring from input, like grep
+'Cargo.toml' | find Cargo
+# Use regex with --regex
+[abc odb arc abf] | find --regex "b."
+## Ignore case with -i
+[aBc bde Arc abf] | find "ab" -i
+
 # Run a pipeline of commands
 nu -c <commands>
 # Run script
@@ -128,7 +135,7 @@ ps | where name =~ 'emacs' | first | kill $in.pid
 
 # See environment
 $env | table
-## Environment using table pager
+## Environment using table pager and search environment variables
 $env | explore
 # Display current directory
 pwd

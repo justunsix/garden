@@ -41,6 +41,7 @@ title: Software Snippets
 - [fd find Snippets](/garden/notes/005-computer-snippets-fd-find)
 - [ffmpeg - video converter and tool
   Snippets](/garden/notes/005-computer-snippets-ffmpeg)
+- [Firefox Snippets](/garden/notes/005-computer-snippets-firefox)
 - [Fish shell Snippets](/garden/notes/005-computer-snippets-linux-fish)
 - [Flatpak Snippets](/garden/notes/005-computer-snippets-flatpak)
 - [Fold and fmt Snippets](/garden/notes/005-computer-snippets-fold-fmt)
@@ -70,8 +71,8 @@ title: Software Snippets
 - [KQL Snippets](/garden/notes/005-tech-snippets-kql)
 - [kubectl, oc Openshift, Other K8s related command
   Snippets](/garden/notes/005-computer-snippets-kubectl-oc-kube)
-- [Linux Clipboard
-  xsel](/garden/notes/005-computer-snippets-linux-clipboard-xsel)
+- [Linux Clipboard xsel,
+  wl-clipboard](/garden/notes/005-computer-snippets-linux-clipboard-xsel-wl-clipboard)
 - [Lisp Snippets](/garden/notes/005-computer-snippets-lisp)
 - [Locate Snippets](/garden/notes/005-computer-snippets-locate)
 - [Lua Snippets](/garden/notes/005-computer-snippets-lua)
@@ -147,7 +148,7 @@ title: Software Snippets
   - [Useful Linux Snippets from
     History](/garden/notes/005-computer-snippets-linux-history-me)
 
-### Resources
+## External Links
 
 - [cheat.sh](https://github.com/chubin/cheat.sh) or use in terminal curl
   cheat.sh/\<command\> or curl cheat.sh/\<command\>/option

@@ -9,13 +9,13 @@ title: Emacs from Scratch
 <link rel="stylesheet" type="text/css" href="basic-org.css"/>
 
 Source: My personal notes from System Crafter's Emacs configuration
-video series
+video series \[fn:1\] \[fn:2\].
 
 ## Emacs from Scratch
 
 ### Introduction
 
-- David Wilson - System Crafter's own configuration
+- David Wilson - System Crafter's own configuration \[fn:2\]
   - Use org file to manage configurations
   - Linux running GNU GUIX
 - Navigate files: `find-files`
@@ -57,8 +57,7 @@ video series
 
 ### 4 - Projectile and Magit
 
-[
-Source](https://www.youtube.com/watch?v=INTu30BHZGk&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ&index=4)
+[Source](https://www.youtube.com/watch?v=INTu30BHZGk&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ&index=4)
 
 - Global find file in project/projects: `C-c p f`
 
@@ -269,8 +268,7 @@ LSP features:
 
 ### 9 - Learn to Love the Terminal Modes
 
-[
-Source](https://youtu.be/wa_wZIuT9Vw?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ&t=52)
+[Source](https://youtu.be/wa_wZIuT9Vw?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ&t=52)
 
 - Learn and configure terminal and shell modes in Emacs
 
@@ -335,9 +333,7 @@ Source](https://youtu.be/wa_wZIuT9Vw?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ&t=5
 
 ### 10 - Effortless File Management with Dired
 
-Source:
-
-[Emacs From Scratch \#10 - Effortless File Management with
+Source: [Emacs From Scratch \#10 - Effortless File Management with
 Dired](https://youtu.be/PMWwM8QJAtU?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ&t=71)
 
 - `C-x d` to open dired
@@ -355,10 +351,8 @@ Dired](https://youtu.be/PMWwM8QJAtU?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ&t=71
 
 ### 11 - Keeping Your Emacs Packages Up to Date
 
-Source:
-
-- [Keeping Your Emacs Packages Up To Date - Emacs From Scratch
-  \#11](https://www.youtube.com/watch?v=dtjq68F2dXw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ&index=11)
+Source: [Keeping Your Emacs Packages Up To Date - Emacs From Scratch
+\#11](https://www.youtube.com/watch?v=dtjq68F2dXw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ&index=11)
 
 - Emacs won't remind you to update your packages, it won't do background
   checks. You have to do it manually.
@@ -551,14 +545,12 @@ Consider](https://www.youtube.com/watch?v=51eSeqcaikM)
   - `(setq global-auto-revert-non-file-buffers t)` - check for changes
     in non-file buffers
 
-## See Also
+## References
 
-### Sources: Video Series from System Crafters
-
-- [Emacs from Scratch
+- \[fn:1\] [Emacs from Scratch
   Series](https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ) -
   customization, UI, Bindings, Projectile, Magit, Org Mode, IDE and
   LSP-mode, Terminal, File Management with Dired, Update packages, Cut
   start up times
-- Configuration with Org Babel
-  ([configuration](https://github.com/daviwil/dotfiles/blob/master/Emacs.md#presentations))
+- \[fn:2\] Configuration with Org Babel from David Wilson's
+  [configuration](https://github.com/daviwil/dotfiles/blob/master/Emacs.md#presentations)

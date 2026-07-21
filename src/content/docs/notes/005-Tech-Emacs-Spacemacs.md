@@ -4,10 +4,6 @@ id: 3fb19c26-bb2d-426d-b08b-1dd28d050f4d
 title: Spacemacs
 ---
 
-- [Spacemacs](https://www.spacemacs.org/doc/DOCUMENTATION.html)
-- [Video Overview of
-  Spacemacs](https://www.youtube.com/watch?v=hCNOB5jjtmc&list=PLhqJJNjsQ7KFkMVBunWWzFD8SlH714qm4)
-
 ## Configurations
 
 [Details of dotfile
@@ -67,3 +63,9 @@ configuration](https://www.spacemacs.org/doc/DOCUMENTATION.html#dotfile-configur
 - Browse buffers in transient state: `M-m b .`
 
 [Cursor](https://www.spacemacs.org/doc/DOCUMENTATION.html#neotree-file-tree)
+
+## References
+
+- [Spacemacs](https://www.spacemacs.org/doc/DOCUMENTATION.html)
+- [Video Overview of
+  Spacemacs](https://www.youtube.com/watch?v=hCNOB5jjtmc&list=PLhqJJNjsQ7KFkMVBunWWzFD8SlH714qm4)

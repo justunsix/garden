@@ -278,6 +278,24 @@ lsblk -s -o NAME,SIZE,MOUNTPOINT | grep -v loop
 
 ```
 
+## ln - symbolic link
+
+``` shell
+
+# Create a symbolic link to a file or directory:
+ln [-s|--symbolic] /path/to/file_or_directory path/to/symlink
+
+# Create a symbolic link relative to where the link is located:
+ln [-s|--symbolic] path/to/file_or_directory path/to/symlink
+
+# Overwrite an existing symbolic link to point to a different file:
+ln [-sf|--symbolic --force] /path/to/new_file path/to/symlink
+
+# Create a hard link to a file:
+ln /path/to/file path/to/hardlink
+
+```
+
 ## man - manual, whatis
 
 ``` shell
@@ -404,137 +422,6 @@ strace -c ./mybin
 # Force follow child processes through fork command (-f)
 # strace's default is not to output child process calls
 strace -f -o fork_output.txt ./mybin
-
-```
-
-## Networking
-
-- `ifconfig` - network information
-- `netstat` (deprecated, use ss) - active network connections
-- `ps aux` - check processes and network usage
-- `nslookup` - check IP address of domains
-- `ping` - check if a host is reachable
-
-## Other Linux/Unix Commands
-
-The first command indicates the command name (searchable with a man
-page). The parens indicate useful extensions
-
-| Command    | Usage/Function                                           |
-|------------|----------------------------------------------------------|
-| egrep      | Extract line containing word / pattern after the command |
-| pwd        | Print (output to console) current working directory      |
-| less, more | Console content control/reader                           |
-| cp         | copy                                                     |
-| mv         | move                                                     |
-| rm (-rf)   | Remove (with recursive and forced)                       |
-
-ampersand (&)Â - Executed after a UNIX command makes the command run
-while providing the command prompt back. Using & allows you to continue
-to type more UNIX commands.
-
-Common use of the ampersand ( & ) is at the end of commands that open
-their own windows like a web browser or an editor..
-
-The amperand (&) means something different when used immediately after a
-greater than (\>) for output redirection or after the pipe symbol ( \| )
-for passing output to other commands.
-
-### Utility
-
-| Command | Usage/Function |
-|----|----|
-| cat |  |
-| man | Manuals (help pages) for system commands. |
-| ln –s | Create symbolic links between files |
-| touch |  |
-| ftp | File transfer protocol program |
-| ping |  |
-| finger |  |
-| telnet |  |
-| ssh | Secure Shell |
-| bash | Bash shell (running activates bash shell on console if it is available). |
-| whois | Query |
-| traceroute | Trace network route |
-| lynx | Text based HTML browser |
-| mount, unmount | Mount or unmounts file systems |
-| date | Date/time on system |
-
-#### runmqsc - (WebSphere Messaging Queue MQ)
-
-ex. runmqsc
-
-DISPLAY CHSTATUS(\*)
-
-display all channels info
-
-DISPLAY CHSTATUS('')
-
-STOP CHANNEL('')
-
-RESET CHANNEL('')
-
-START CHANNEL('')
-
-DISPLAY CHANNEL('')
-
-### System Administration
-
-See [DevOps Bootcamp - Operating Systems and Linux
-Basics](/garden/notes/005-computer-tech-devops-bootcamp-twn-operating-systems-and-linux-basics) for common commands and
-file system structure.
-
-### Useful Concepts for Linux/Unix
-
-#### Directory Structure
-
-**Logs, spools, and file resources (mail, logs, temp, etc.)** :/var
-
-**Configuration Files** :/etc, /etc/rc.init (startup scripts).
-/etc/sendmail.cf
-
-**Unix "blackhole"** :/dev/null
-
-**Core Command locations if not in path** :/usr/(s)bin,
-/usr/local/(s)bin, *usr/sfw/bin* \| Solaris: /usr/openwin
-
-**Devices (I/O)** :/dev
-
-**Mounted Systems** :/mnt, /media
-
-**Code Libraries/Modules** :/usr/lib, /usr/local/lib
-
-**Stored source** :/usr/src
-
-**Services** :/etc/services - example of entries in services file (ports
-and protocols associated with the ports.
-
-netstat 15/tcp
-
-ftp 21/tcp \# File Transfer
-
-ssh 22/tcp \# Secure Shell
-
-telnet 23/tcp
-
-#### Platform Specific
-
-User settings ~/.\<user setting folder\>
-
-e.g.~/.kde/share/apps stores KDE desktop settings and configurations.
-
-#### Checking Memory
-
-``` shell
-
-# Check Free physical Memory
-top
-sar -r
-vmstat
-
-# For swap:
-swap -s
-swap --l
 
 ```
 
@@ -778,6 +665,136 @@ Similar to:
 
 `whereis <command>` - find the location of command and its manual page
 
+## Networking
+
+- `ifconfig` - network information
+- `netstat` (deprecated, use ss) - active network connections
+- `ps aux` - check processes and network usage
+- `nslookup` - check IP address of domains
+- `ping` - check if a host is reachable
+
+## Other Linux/Unix Commands
+
+The first command indicates the command name (searchable with a man
+page). The parens indicate useful extensions
+
+| Command    | Usage/Function                                           |
+|------------|----------------------------------------------------------|
+| egrep      | Extract line containing word / pattern after the command |
+| pwd        | Print (output to console) current working directory      |
+| less, more | Console content control/reader                           |
+| cp         | copy                                                     |
+| mv         | move                                                     |
+| rm (-rf)   | Remove (with recursive and forced)                       |
+
+ampersand (&)Â - Executed after a UNIX command makes the command run
+while providing the command prompt back. Using & allows you to continue
+to type more UNIX commands.
+
+Common use of the ampersand ( & ) is at the end of commands that open
+their own windows like a web browser or an editor..
+
+The amperand (&) means something different when used immediately after a
+greater than (\>) for output redirection or after the pipe symbol ( \| )
+for passing output to other commands.
+
+### Utility
+
+| Command | Usage/Function |
+|----|----|
+| cat |  |
+| man | Manuals (help pages) for system commands. |
+| touch |  |
+| ftp | File transfer protocol program |
+| ping |  |
+| finger |  |
+| telnet |  |
+| ssh | Secure Shell |
+| bash | Bash shell (running activates bash shell on console if it is available). |
+| whois | Query |
+| traceroute | Trace network route |
+| lynx | Text based HTML browser |
+| mount, unmount | Mount or unmounts file systems |
+| date | Date/time on system |
+
+#### runmqsc - (WebSphere Messaging Queue MQ)
+
+ex. runmqsc
+
+DISPLAY CHSTATUS(\*)
+
+display all channels info
+
+DISPLAY CHSTATUS('')
+
+STOP CHANNEL('')
+
+RESET CHANNEL('')
+
+START CHANNEL('')
+
+DISPLAY CHANNEL('')
+
+### System Administration
+
+See [DevOps Bootcamp - Operating Systems and Linux
+Basics](/garden/notes/005-computer-tech-devops-bootcamp-twn-operating-systems-and-linux-basics) for common commands and
+file system structure.
+
+### Useful Concepts for Linux/Unix
+
+#### Directory Structure
+
+**Logs, spools, and file resources (mail, logs, temp, etc.)** :/var
+
+**Configuration Files** :/etc, /etc/rc.init (startup scripts).
+/etc/sendmail.cf
+
+**Unix "blackhole"** :/dev/null
+
+**Core Command locations if not in path** :/usr/(s)bin,
+/usr/local/(s)bin, *usr/sfw/bin* \| Solaris: /usr/openwin
+
+**Devices (I/O)** :/dev
+
+**Mounted Systems** :/mnt, /media
+
+**Code Libraries/Modules** :/usr/lib, /usr/local/lib
+
+**Stored source** :/usr/src
+
+**Services** :/etc/services - example of entries in services file (ports
+and protocols associated with the ports.
+
+netstat 15/tcp
+
+ftp 21/tcp \# File Transfer
+
+ssh 22/tcp \# Secure Shell
+
+telnet 23/tcp
+
+#### Platform Specific
+
+User settings ~/.\<user setting folder\>
+
+e.g.~/.kde/share/apps stores KDE desktop settings and configurations.
+
+#### Checking Memory
+
+``` shell
+
+# Check Free physical Memory
+top
+sar -r
+vmstat
+
+# For swap:
+swap -s
+swap --l
+
+```
+
 ## See Also
 
 - [awk - text processing and pattern
@@ -791,7 +808,7 @@ Similar to:
 - [Nushell Snippets](/garden/notes/005-computer-snippets-nushell)
 - [Regex Regular Expression Snippets](/garden/notes/005-computer-snippets-regex)
 
-### Resources
+## External Links
 
 - [List of GNU Core Utilities commands -
   Wikipedia](https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands)

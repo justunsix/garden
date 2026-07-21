@@ -11,34 +11,34 @@ Super = Windows Logo key
 
 | Description | Shortcut |
 |----|----|
+| Display and hide the desktop | Super + d |
+| Lock screen | Super + L |
+| Logout | Ctrl + Alt + Delete |
+| Maximize Window | Super + Up Arrow or Alt + F10 |
+| Move Window Clicking on It | Super + Mouse Click |
+| Move windows to left or right | Super + Arrow |
+| Move windows to other workspaces | Super + Alt + Shift + Arrows |
+| Move workspace | Super + Alt + arrows |
 | Open Activities | Super |
 | Open Applications Menu | Super + Super / Super + a |
-| Show run prompt | Alt + F2 |
-| Display and hide the desktop | Super + d |
-| Select application in taskbar | Super + 1, 2, 3, … |
-| Open Terminal | Ctrt + Alt + t |
-| Lock screen | Super + L |
+| Open new tab, instance (most applications) | Middle mouse button |
 | Open Notifications | Super + m / Super + v |
+| Open Terminal | Ctrl + Alt + t |
+| Quit application | Ctrl + Q |
+| Resize Window Clicking on It | Super + Middle Mouse Button |
+| Select application in taskbar | Super + 1, 2, 3, … |
+| Show run prompt | Alt + F2 |
+| Snap windows to the edges of the screen | Super + Arrow Keys |
 | Switch between applications | Alt + Tab |
 | Switch between applications (previous and current) | Alt + Esc |
-| Switch to previous workspace | Super + Page Up (C-M-arrow key) |
 | Switch to next workspace | Super + Page Down |
-| Move workspace | Super + Alt + arrows |
-| Move windows to other workspaces | Super + Alt + Shift + Arrows |
-| Move windows to left or right | Super + Arrow |
-| Maximize Window | Super + Up Arrow or Alt + F10 |
-| Snap windows to the edges of the screen | Super + Arrow Keys |
-| Quit application | Ctrl + Q |
-| Switch workspaces | Ctrl + Alt + Arrow Keys |
-| Logout | Ctrl + Alt + Delete |
-| Take Screenshot, Video recording | Print Screen |
-| Take screenshot of open window | Alt + Print Screen |
-| Take screenshot of whole screen | Shift + Print Screen |
-| Move Window Clicking on It | Super + Mouse Click |
-| Resize Window Clicking on It | Super + Middle Mouse Button |
-| Open new tab, instance (most applications) | Middle mouse button |
+| Switch to previous workspace | Super + Page Up (C-M-arrow key) |
 | Switch to tty running Gnome | Ctrl + Alt + F2 |
 | Switch to tty with console | Ctrl + Alt + F3 |
+| Switch workspaces | Ctrl + Alt + Arrow Keys |
+| Take screenshot of open window | Alt + Print Screen |
+| Take screenshot of whole screen | Shift + Print Screen |
+| Take Screenshot, Video recording | Print Screen |
 
 ## Gnome Terminal
 

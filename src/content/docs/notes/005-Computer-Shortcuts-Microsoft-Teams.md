@@ -22,6 +22,17 @@ Teams](https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-microso
 | Search, open                    | Ctrt + e                           |
 | Settings, open                  | Ctrl + , or Ctrl + Shift + , (web) |
 
+## Open Feeds
+
+Assume default Teams layouts and on web browser
+
+| Name                | Shortcuts        |
+|---------------------|------------------|
+| Feed open, Activity | Ctrl + Shift + 1 |
+| Feed open, Chat     | Ctrl + Shift + 2 |
+| Feed open, Teams    | Ctrl + Shift + 3 |
+| Feed open, Calendar | Ctrl + Shift + 4 |
+
 ## Meetings and Calls
 
 | Name                                    | Shortcuts        |
