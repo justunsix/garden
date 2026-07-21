@@ -22,6 +22,7 @@ compute resources which can be supported with human supervision.
 
 ## See Also
 
+- [Agentic AI Frameworks](/garden/notes/006-3-tech-ai-agents-agentic-frameworks)
 - [Agent Operations, Checking and Monitoring
   Them](/garden/notes/006-3-tech-ai-agents-operations-checking-monitoring) - evaluating AI systems
 - [AI Prompts](/garden/notes/006-3-tech-ai-prompts)
@@ -32,6 +33,8 @@ compute resources which can be supported with human supervision.
 - [Develop AI agents on
   Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-agents)
 - [Skills to Build AI Agents](/garden/notes/006-3-tech-ai-agents-career-skills)
+- [Artificial Intelligence (AI) Agents Checks, Rules,
+  Context](/garden/notes/006-3-tech-ai-agents-checks-rules-context) - :roam:
 
 ## External Links
 
