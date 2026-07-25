@@ -28,13 +28,13 @@ compute resources which can be supported with human supervision.
 - [AI Prompts](/garden/notes/006-3-tech-ai-prompts)
 - [Artificial Intelligence (AI) Agents and Model Context Protocol
   (MCP)](/garden/notes/006-3-tech-ai-agents-model-context-protocol-mcp)
+- [Artificial Intelligence (AI) Agents Checks, Rules,
+  Context](/garden/notes/006-3-tech-ai-agents-checks-rules-context)
 - [Artificial Intelligence (AI) Agents
   Skills](/garden/notes/006-3-tech-ai-agents-skills)
 - [Develop AI agents on
   Azure](/garden/notes/006-3-tech-ai-artificial-intelligence-microsoft-azure-develop-solutions-ai102-agents)
 - [Skills to Build AI Agents](/garden/notes/006-3-tech-ai-agents-career-skills)
-- [Artificial Intelligence (AI) Agents Checks, Rules,
-  Context](/garden/notes/006-3-tech-ai-agents-checks-rules-context) - :roam:
 
 ## External Links
 
