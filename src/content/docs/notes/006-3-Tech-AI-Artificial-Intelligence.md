@@ -23,7 +23,7 @@ title: Artificial Intelligence (AI)
 - [Local AI with Retrieval Augmented Generation (RAG) using Open WebUI
   and
   Ollama](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama)
-- [My AI Use Cases](/garden/notes/006-3-tech-ai-my-use-cases)
+- [Use Cases of AI](/garden/notes/006-3-tech-ai-use-cases)
 - [Retrieval Augmented Generation
   (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag)
 - [Stoicism and

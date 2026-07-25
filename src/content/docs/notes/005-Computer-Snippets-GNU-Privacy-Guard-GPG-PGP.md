@@ -11,6 +11,9 @@ gpgconf
 ## List configured directories with -L with --list-dirs
 gpgconf -L
 
+# Export gpg keyring to older keyring format
+gpg --export > ~/.gnupg/pubring.gpg
+
 # Create a GPG key pair
 gpg --full-generate-key
 

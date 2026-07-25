@@ -10,6 +10,7 @@ title: Firefox Shortcuts
 | Chat box | Ctrl + Alt + x |
 | Downloads, show | Ctrl + Shift + y |
 | Go to location bar | Ctrl + l, F6 |
+| Location bar, navigate bookmarks | up, down arrow keys |
 | Location bar, search actions [^1] | @actions |
 | Location bar, search bookmarks | \* \<search\> , @bookmarks |
 | Location bar, search engine | Ctrl + k |
@@ -64,10 +65,19 @@ title: Firefox Shortcuts
 - [Firefox Tridactyl Add On Vim like
   Shortcuts](/garden/notes/005-computer-shortcuts-firefox-tridactyl-vim)
 
-## External Links
+## References
 
-[Keyboard shortcuts - Perform common Firefox tasks quickly \| Firefox
-Help](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly)
+- [Firefox Search bar Quick
+  Actions](https://support.mozilla.org/en-US/kb/quick-actions-firefox-search-bar)
+- [Keyboard shortcuts - Perform common Firefox tasks quickly \| Firefox
+  Help](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly)
 
-[^1]: Actions can be like clear history, open downloads, or take a
-    screenshot
+[^1]: [Actions](https://support.mozilla.org/en-US/kb/quick-actions-firefox-search-bar)
+    and others like:
+
+    - Clear history
+    - Open downloads
+    - Take screenshot
+    - Settings
+    - Firefox view (recent browsing)
+    - Translation
