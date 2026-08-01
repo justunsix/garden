@@ -4,7 +4,7 @@ id: 1d24ebff-9d02-4038-9285-6d6ede889b02
 title: Imagination - Applied Pscyhology
 ---
 
-Sources: See resources at bottom
+Sources: See References
 
 ## Benefits of Imagination
 
@@ -26,9 +26,7 @@ Considerations:
 - "Making time for sleep and idleness" -Neel Burton
 - Look at the natural world for inspiration
 
-## External Links
-
-Sources of information in this note
+## References
 
 - [The Psychology and Philosophy of Imagination \| Psychology
   Today](https://www.psychologytoday.com/us/blog/hide-and-seek/201811/the-psychology-and-philosophy-of-imagination),
