@@ -20,6 +20,7 @@ title: Artificial Intelligence (AI) Models
 | [GPT-oss-20b](https://huggingface.co/openai/gpt-oss-20b) | General, Reasoning, Agentic | Configurable reasoning |  |
 | [Granite](https://huggingface.co/ibm-granite) | General | FOSS, SLM, 4 series low to medium hardware, multi modal |  |
 | [Kimi-K2-Instruct](https://huggingface.co/moonshotai/Kimi-K2-Instruct) | General, Agentic | Chat, agentic |  |
+| [Kimi-K3](https://ollama.com/library/kimi-k3) | General | Mixture of Experts, context length |  |
 | [Llama3](https://ollama.com/library/llama3) | General |  | [^7] |
 | [Meditron](https://ollama.com/library/meditron) | Medical | Medical questions, diagnosis, information |  |
 | [Medllama2](https://ollama.com/library/medllama2) | Medical | Medical questions, trained on open source medical data | [^8] |
