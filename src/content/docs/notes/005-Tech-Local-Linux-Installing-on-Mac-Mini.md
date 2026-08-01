@@ -103,6 +103,29 @@ sudo apt install bcmwl-kernel-source
 - Configure wireless networking settings in Ubuntu's Wi-Fi settings if
   needed
 
+## Troubleshooting WIFI Package Install
+
+Issues occurred with Linux kernels 6+ to 7+
+
+- If issues, check <https://github.com/hsnuc09/bcm4360-fix>
+
+If further issues or issues with the package, try steps from [How to
+Install Broadcom Wl Driver on Ubuntu 24.04 – Installing –
+tutorialforl…](https://tutorialforlinux.com/2023/11/26/how-to-install-broadcom-wl-driver-for-ubuntu-24-04-step-by-step/2/)
+
+``` shell
+
+sudo apt install broadcom-sta-dkms
+# If build error, try
+sudo apt install broadcom-sta-source
+
+```
+
+If further build error, check the workaround detected for Ubuntu 24.04+
+in 2026-07 [{Bug 2161038} Re: broadcom-sta-dkms fails to build with
+kernel 7.0
+HWE](https://www.mail-archive.com/ubuntu-bugs@lists.ubuntu.com/msg6294453.html)
+
 ## Wi-Fi, Thunderbolt Display, Booting back into MacOS
 
 After the updates, the Wi-Fi should work.

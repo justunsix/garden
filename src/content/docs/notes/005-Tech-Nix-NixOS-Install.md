@@ -10,10 +10,11 @@ Instructions and examples from Tony \[fn:1\].
 - Download ISO, select graphical installer or manual install
 - Before installs, create manual partitions `cfdisk /dev/devicename`,
   select `gpt` label type
-  - 1G - gpt EFI system
+  - 1G - gpt EFI system (example 1024 MB)
     - Mount: /boot
     - Label: boot
-  - 8G to 32+G - Linux swap
+    - FAT32
+  - 8G to 32+G - Linux swap (example 9011 MB)
     - Mount (if required) /swap
     - Label: swap
   - 8 MB - unformatted partition - required for GPT partition table

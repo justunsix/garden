@@ -287,10 +287,11 @@ Directories under `/`
       and `/usr` binaries folder will have more files
     - `/usr/local` - Local binaries from programs you install, Non-OS
       applications, Available for all users on the computer
-      - Installed by user
+      - Installed by user, for example from manually from source
       - `/usr/local/bin`
       - `/usr/local/sbin`
       - `/usr/local/lib`
+      - `/usr/local/share`
       - Ex. you install java, it will be in `/usr/local/` with binaries,
         libraries, etc. in respective folders
 - `/opt` - Optional applications, 3rd party

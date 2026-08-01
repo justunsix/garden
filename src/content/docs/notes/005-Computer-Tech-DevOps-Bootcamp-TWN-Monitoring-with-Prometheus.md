@@ -1169,7 +1169,7 @@ app.get("/", function (req, res) {
 - Build image, then push to private repo in Docker Hub
 - Use Dockerfile
 
-``` Dockerfile
+``` dockerfile
 
 FROM node:13-alpine
 

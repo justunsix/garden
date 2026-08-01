@@ -152,7 +152,7 @@ Example Dockerfile that gets code, installs dependencies, and runs app
 from:
 <https://github.com/techworld-with-nana/react-nodejs-example/blob/master/Dockerfile>
 
-``` Dockerfile
+``` dockerfile
 
 FROM node:10 AS ui-build
 WORKDIR /usr/src/app
@@ -175,7 +175,7 @@ CMD ["node", "./api/server.js"]
 Example Dockerfile that reuses existing artifact and runs app from:
 <https://gitlab.com/twn-devops-bootcamp/latest/04-build-tools/java-app/-/blob/master/Dockerfile?ref_type=heads>
 
-``` Dockerfile
+``` dockerfile
 
 FROM amazoncorretto:17-alpine-jdk
 

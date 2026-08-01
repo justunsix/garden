@@ -1357,7 +1357,7 @@ pipeline {
 - Update the Dockerfile to take any version of the app/JAR
 - Adding the `*` will match any version of the jar
 
-``` Dockerfile
+``` dockerfile
 
 FROM amazoncorretto:8-alpine3.17-jre
 

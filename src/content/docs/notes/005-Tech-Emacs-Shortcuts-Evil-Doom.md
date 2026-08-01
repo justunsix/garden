@@ -114,6 +114,8 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | LSP, Update all servers installed | lsp-update-servers |
 | Magit | SPC g g |
 | Magit, Log, see commit log of file (like VS Code git history) | SPC g L or magit-log-buffer-file |
+| Makefile, run task | +make/run |
+| Makefile, run task, last one | +make/run-last |
 | Next buffer | C-x right arrow |
 | Next, error | \] e |
 | Org: Insert subheading (org-insert-subheading) | C-m Enter |

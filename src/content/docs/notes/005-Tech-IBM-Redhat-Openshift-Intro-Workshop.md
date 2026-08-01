@@ -39,7 +39,7 @@ Packaging model
 
 Anatomy of a Dockerfile from example for Java app
 
-``` Dockerfile
+``` dockerfile
 # Inherit from a base image
 FROM registry.access.redhat.com/ubi8/ubi 
 # Parameters as environment

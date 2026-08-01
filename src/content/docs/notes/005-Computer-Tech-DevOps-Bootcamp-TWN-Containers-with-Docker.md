@@ -322,7 +322,7 @@ docker-compose -f mongo-docker-compose.yaml down
 
 Example Dockerfile for Node and JS app
 
-``` Dockerfile
+``` dockerfile
 
 # Specific tagged image of node
 # Image will have its own Dockerfile
@@ -537,7 +537,7 @@ docker exec -it nexus3 /bin/bash
     like this example where npm install only needs to run during
     package.json changes
 
-``` Dockerfile
+``` dockerfile
 
 FROM node:20.0.2-alpine
 
@@ -565,7 +565,7 @@ CMD ["node", "src/index.js"]
     build output is copied to the final image. The build image is
     discarded
 
-``` Dockerfile
+``` dockerfile
 
 # Build stage
 
@@ -588,7 +588,7 @@ COPY --from=build /app/target/file.war /usr/local/tomcat/...
     container and host
   - Some base images already have users like node
 
-``` Dockerfile
+``` dockerfile
 
 # Create group and user
 RUN groupadd -r tom && useradd -g tom tom
