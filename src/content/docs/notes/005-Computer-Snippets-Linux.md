@@ -655,15 +655,18 @@ wget -r -k -l0 --no-parent -i artemislinks
 
 ```
 
-## which, where as, also use newer command type
+## which, whereis, and newer command type
 
-`which <command>` - find the location of a command
+``` shell
 
-`type <command>`
+which command # find the location of a command
 
-Similar to:
+# Find binary, source, and manual pages for a command
+whereis firefox
 
-`whereis <command>` - find the location of command and its manual page
+type <command>
+
+```
 
 ## Networking
 

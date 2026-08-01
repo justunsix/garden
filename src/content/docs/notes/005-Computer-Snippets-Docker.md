@@ -140,3 +140,97 @@ docker login 1.1.1.1:8083
 docker login
 
 ```
+
+## Dockerfile and .dockerignore
+
+### Dockerfile / Containerfile Good Practices
+
+Practices from [Reddit discussion "A Containerfile that works isn't
+necessarily a good
+Containerfile"](https://www.reddit.com/r/podman/comments/1uqo2kv/a_containerfile_that_works_isnt_necessarily_a/)
+
+- WORKDIR - set working directory once
+- Combine run instructions - reduce image layers
+- Use smaller base image - use minimal base images when possible
+- Use ENV / ARG - separate configuration from code
+- Add USER - run the container as non-root
+- Add LABEL - Add metadata about image
+- Use multi-stage builds - build in one stage, copy only what is needed
+  to run
+
+There can be exceptions to above depending on context or making the
+container simple.
+
+### Optimizing Dockerfile, Containerfile
+
+Set of optimizations for `Dockerfile` \[fn:1\] and `Dockerfile` linter
+\[fn:2\].
+
+Prior to the last
+`COPY . . = command, make sure to ignore unneeded files in the =.dockerignore`
+file
+
+``` dockerignore
+
+node_modules/
+.git/
+*.log
+.env
+dist/
+coverage/
+
+```
+
+Code is copied last with =COPY . . = so it is last in container layer.
+
+``` dockerfile
+
+FROM node:slim
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm ci
+COPY . .
+CMD ["npm", "start"]
+
+```
+
+Dockerfile with builder image first to output binary and run binary on a
+minimal image (example alpine or scratch).
+
+``` dockerfile
+
+FROM golang:alpine as builder
+WORKDIR /build
+COPY . .
+RUN go build -o /app
+
+FROM scratch
+COPY --from=builder /app /build/app
+CMD ["/bin/app"]
+
+```
+
+Minimal Python image requiring nginx so nginx doesn't need to be run in
+a separate container or Kubernetes (K8s).
+
+``` dockerfile
+
+fROM python:slim
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends nginx supervisor \
+  && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+COPY server.py /app/server.py
+COPY nginx.conf /etc/nginx/sites-enables/default
+COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+CMD ["supervisord", "-n", "-c", "/etc/supervisor/config.d/supervisord.conf"]
+
+```
+
+## References
+
+- \[fn:1\] [DevOps Toolbox-Give me 15 minutes and I'll Fix Your
+  Dockerfiles](https://www.youtube.com/watch?v=aZ_y2M2OuEA)
+- \[fn:2\] [Dockerfile
+  roast](https://github.com/immanuwell/dockerfile-roast)

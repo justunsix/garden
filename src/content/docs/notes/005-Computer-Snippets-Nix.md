@@ -62,8 +62,17 @@ nix-channel remove nixpkgs
 
 # NixOS Rebuild from updated configurations
 sudo nixos-rebuild switch
-## Rebuild using a flake referencing a specific host name (nixos-btw in this example)
-sudo nixos-rebuild switch --flake ~/flake-dir#nixos-btw
+## Rebuild using a flake referencing a specific host name (nixoshostname in this example)
+sudo nixos-rebuild switch --flake ~/flake-dir#nixoshostname
+### or
+cd ~/flake-dir
+sudo nixos-rebuild switch --flake .#nixoshostname
+
+## Preview rebuild changes without applying
+sudo nixos-rebuild dry-activate --flake ~/flake-dir#nixoshostname
+
+## Roll back system to previous generation
+sudo nixos-rebuild switch --rollback
 
 # Clean up old generations and packages to prevent space issues
 nix-collect-garbage
@@ -85,11 +94,22 @@ nix repl
 
 ## Flakes
 
+### Temporary enable flakes on a command
+nix flake init --experimental-features 'nix-command flakes'
+
 ### Initialize flake
 nix flake init 
 
 ### Update flake inputs
 nix flake update
+
+### Update specific flake inputs
+### Update only home-manager input
+nix flake update home-manager
+### Update only nixpkgs-unstable input
+nix flake update nixpkgs-unstable
+### Update only nixpkgs input
+nix flake update nixpkgs
 
 # Update Nix - see https://nix.dev/manual/nix/2.34/installation/upgrading.html
 # depending on original install method
@@ -195,6 +215,17 @@ shellHook = ''
 
 # Update home manager and create back up files if overwritting files
 home-manager switch -b backup
+
+# Preview changes of home-manager defined by flake, user, and host name
+home-manager build --flake .#user@nixoshostname
+# Apply changes of home-manager defined by flake, user, and host name
+home-manager switch --flake .#user@nixoshostname -b backup
+
+# Roll back home-manager to previous generation
+## List generations
+home-manager generations
+## Switch to generation
+home-manager switch --switch-generation <n>
 
 ```
 
