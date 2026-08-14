@@ -21,4 +21,11 @@ stow [-D|--delete] [-t|--target] path/to/target_directory file1 directory1 file2
 # Simulate to see what the result would be like
 stow [-n|--simulate] [-t|--target] path/to/target_directory file1 directory1 file2 directory2
 
+# Symbolic link emacs configuration files to ~/.config/emacs
+# -t : target directory for files in stow package
+# -d : directory containing stow package (source files)
+# -S emacs : stow package that is source of files (folder in dotfiles folder)
+# -vv verbose output
+stow -vv -t "$HOME/.config/emacs" -d "$DOTFILES_DIR/.config" -S emacs
+
 ```

@@ -11,7 +11,7 @@ title: Azure CLI Snippets
 ``` shell
 
 # Log in with interactive prompt
-az logi n
+az login
 
 # Disable the subscription selector feature
 az config set core.login_experience_v2=off

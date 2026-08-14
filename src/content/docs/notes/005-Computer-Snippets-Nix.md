@@ -60,6 +60,9 @@ nix-channel --add https://nixos.org/channels/nixpkgs-unstable
 ## as root, check nix-channel --list
 nix-channel remove nixpkgs
 
+# Generate configurations
+sudo nixos-generate-config
+
 # NixOS Rebuild from updated configurations
 sudo nixos-rebuild switch
 ## Rebuild using a flake referencing a specific host name (nixoshostname in this example)
@@ -226,6 +229,9 @@ home-manager switch --flake .#user@nixoshostname -b backup
 home-manager generations
 ## Switch to generation
 home-manager switch --switch-generation <n>
+
+# Expire (delete) generations older than 30 days
+home-manager expire-generations -30days
 
 ```
 

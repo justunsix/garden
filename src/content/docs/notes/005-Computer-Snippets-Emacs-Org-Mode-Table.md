@@ -1,8 +1,6 @@
 ---
 filetags: ":emacs:org-mode:snippets:epubnote:"
 id: 43771c13-7b1a-49d0-9a25-95ea5a644844
-TBLFM: "@2\\$8..@\\>\\>\\$8 = '(length(org-lookup-all \"\" '(\\$3..\\$7)
-  nil));E"
 title: Emacs Org-Mode Table Snippets
 ---
 
@@ -25,9 +23,10 @@ Restrict column width `org-table-shrink` to reduce column width given
 cookie length in table like `<10>`. Use `org-table-expand` to restore
 normal column width.
 
-|                  |                             |
-|------------------|-----------------------------|
+``` text
+| <10>             | <15>                        |
 | A very wide cell | Another very very wide cell |
+```
 
 ## Formulas
 
@@ -37,13 +36,14 @@ of any table.
 Example: The formula should be read as "column 2 equals column 1
 multiplied by 3":
 
-|     |     |
-|-----|-----|
-| 1   | 3   |
-| 2   | 6   |
-| 3   | 9   |
-| 4   | 12  |
-| 5   | 15  |
+``` text
+| 1 |  3 |
+| 2 |  6 |
+| 3 |  9 |
+| 4 | 12 |
+| 5 | 15 |
+#+TBLFM: $2=$1*3
+```
 
 ### Summing Column
 
@@ -53,64 +53,87 @@ operator, that signifies the last row of the table.
 
 Summing column with `@>$2`
 
+``` text
 | ITEM    | COST | PRICE |
-|---------|------|-------|
-| Bike    | 50   | 100   |
-| Sword   | 20   | 35    |
-| Drill   | 30   | 60    |
-| Cooler  | 10   | 70    |
-| TV      | 50   | 40    |
-| Blender | 25   | 45    |
-| Boots   | 10   | 20    |
-|         | 195  |       |
+|---------+------+-------|
+| Bike    |   50 |   100 |
+| Sword   |   20 |    35 |
+| Drill   |   30 |    60 |
+| Cooler  |   10 |    70 |
+| TV      |   50 |    40 |
+| Blender |   25 |    45 |
+| Boots   |   10 |    20 |
+|---------+------+-------|
+|         |  195 |       |
+#+TBLFM: @>$2=vsum(@2..@-1)
+```
 
 Summing all columns into last row:
 
+``` text
 | ITEM                                                 | COST | PRICE |
-|------------------------------------------------------|------|-------|
-| Bike                                                 | 50   | 100   |
-| Sword                                                | 20   | 35    |
-| Drill                                                | 30   | 60    |
-| Cooler                                               | 10   | 70    |
-| TV                                                   | 50   | 40    |
-| Blender                                              | 25   | 45    |
-| Boots                                                | 20   | 20    |
-| Bike + Sword + Drill + Cooler + TV + Blender + Boots | 205  | 370   |
+|------------------------------------------------------+------+-------|
+| Bike                                                 |   50 |   100 |
+| Sword                                                |   20 |    35 |
+| Drill                                                |   30 |    60 |
+| Cooler                                               |   10 |    70 |
+| TV                                                   |   50 |    40 |
+| Blender                                              |   25 |    45 |
+| Boots                                                |   20 |    20 |
+|------------------------------------------------------+------+-------|
+| Bike + Sword + Drill + Cooler + TV + Blender + Boots |  205 |   370 |
+#+TBLFM: @>=vsum(@2..@-1)
+```
 
 Summing only columns 2 and 3
 
+``` text
+
 | ITEM    | COST | PRICE |
-|---------|------|-------|
-| Bike    | 50   | 100   |
-| Sword   | 20   | 35    |
-| Drill   | 30   | 60    |
-| Cooler  | 10   | 70    |
-| TV      | 50   | 40    |
-| Blender | 25   | 45    |
-| Boots   | 20   | 20    |
-|         | 205  | 370   |
+|---------+------+-------|
+| Bike    |   50 |   100 |
+| Sword   |   20 |    35 |
+| Drill   |   30 |    60 |
+| Cooler  |   10 |    70 |
+| TV      |   50 |    40 |
+| Blender |   25 |    45 |
+| Boots   |   20 |    20 |
+|---------+------+-------|
+|         |  205 |   370 |
+#+TBLFM: @>$2..$3=vsum(@2..@-1)
+```
 
 Summing only columns 2 and beyond
 
+``` text
 | ITEM    | COST | PRICE | SHIPPING | MILEAGE |
-|---------|------|-------|----------|---------|
-| Bike    | 50   | 100   | 0        | 23      |
-| Sword   | 20   | 35    | 10       | 12      |
-| Drill   | 30   | 60    | 5        | 51      |
-| Cooler  | 10   | 70    | 0        | 32      |
-| TV      | 50   | 40    | 20       | 19      |
-| Blender | 25   | 45    | 0        | 9       |
-| Boots   | 20   | 20    | 0        | 38      |
-|         | 205  | 370   | 35       | 184     |
+|---------+------+-------+----------+---------|
+| Bike    |   50 |   100 |        0 |      23 |
+| Sword   |   20 |    35 |       10 |      12 |
+| Drill   |   30 |    60 |        5 |      51 |
+| Cooler  |   10 |    70 |        0 |      32 |
+| TV      |   50 |    40 |       20 |      19 |
+| Blender |   25 |    45 |        0 |       9 |
+| Boots   |   20 |    20 |        0 |      38 |
+|---------+------+-------+----------+---------|
+|         |  205 |   370 |       35 |     184 |
+#+TBLFM: @>$2..@>$>=vsum(@2..@-1)
+```
 
 ### Summing Rows
 
-| PLAYER | CMP% | PASSING YARDS | RUSHING YARDS | TOTAL YARDS | PASSING TDs | RUSHING TDs | TOTAL TDs |
-|----|----|----|----|----|----|----|----|
-| Joe Burrow | 69.8 | 4641 | 202 | 4843 | 42 | 2 | 44 |
-| Lamar Jackson | 67.9 | 3955 | 852 | 4807 | 39 | 4 | 43 |
-| Josh Allen | 63.6 | 3731 | 531 | 4262 | 28 | 12 | 40 |
-| Jayden Daniels | 69.4 | 3530 | 864 | 4394 | 25 | 6 | 31 |
+``` text
+|----------------+------+---------------+---------------+-------------+-------------+-------------+-----------|
+| PLAYER         | CMP% | PASSING YARDS | RUSHING YARDS | TOTAL YARDS | PASSING TDs | RUSHING TDs | TOTAL TDs |
+|----------------+------+---------------+---------------+-------------+-------------+-------------+-----------|
+| Joe Burrow     | 69.8 |          4641 |           202 |        4843 |          42 |           2 |        44 |
+| Lamar Jackson  | 67.9 |          3955 |           852 |        4807 |          39 |           4 |        43 |
+| Josh Allen     | 63.6 |          3731 |           531 |        4262 |          28 |          12 |        40 |
+| Jayden Daniels | 69.4 |          3530 |           864 |        4394 |          25 |           6 |        31 |
+|----------------+------+---------------+---------------+-------------+-------------+-------------+-----------|
+#+TBLFM: $5=$3+$4
+#+TBLFM: $8=$6+$7
+```
 
 ## Auto Incrementing
 
@@ -120,13 +143,16 @@ though it didn't show the first value, it still incremented it, which
 leaves our starting value at 2. We can do better. Modify the formula to
 subtract one from each value to produce the result we want.
 
-|     | BOOKS             | READ? |
-|-----|-------------------|-------|
-| 1   | IT                | yes   |
-| 2   | The Hobbit        | yes   |
-| 3   | The Black Company | yes   |
-| 4   | Salem's Lot       | no    |
-| 5   | Leaves of grass   | no    |
+``` text
+|   | BOOKS             | READ? |
+|---+-------------------+-------|
+| 1 | IT                | yes   |
+| 2 | The Hobbit        | yes   |
+| 3 | The Black Company | yes   |
+| 4 | Salem's Lot       | no    |
+| 5 | Leaves of grass   | no    |
+#+TBLFM: $1=@#-1
+```
 
 ## Horizontal Separators and Referencing Rows
 
@@ -138,23 +164,33 @@ correct Roman numeral. In the example below you have decided to host a
 party and are trying to tally up the costs of different types of
 expenses.
 
+``` text
 | ITEM    | COST |
-|---------|------|
-| rum     | 20   |
-| gin     | 18   |
-| beer    | 50   |
-| coke    | 10   |
-| sprite  | 5    |
-| chips   | 10   |
-| cookies | 20   |
-| pizza   | 60   |
-| plates  | 10   |
-| napkins | 8    |
-| cups    | 12   |
-| ALCOHOL | 88   |
-| SODA    | 15   |
-| FOOD    | 90   |
-| MISC    | 30   |
+|---------+------|
+| rum     |   20 |
+| gin     |   18 |
+| beer    |   50 |
+|---------+------|
+| coke    |   10 |
+| sprite  |    5 |
+|---------+------|
+| chips   |   10 |
+| cookies |   20 |
+| pizza   |   60 |
+|---------+------|
+| plates  |   10 |
+| napkins |    8 |
+| cups    |   12 |
+|---------+------|
+| ALCOHOL |   88 |
+| SODA    |   15 |
+| FOOD    |   90 |
+| MISC    |   30 |
+#+TBLFM: @13$2=vsum(@I..@II)
+#+TBLFM: @14$2=vsum(@II..@III)
+#+TBLFM: @15$2=vsum(@III..@IIII)
+#+TBLFM: @16$2=vsum(@IIII..@IIIII)
+```
 
 ## Sums, Averages, and Other Transforms
 
@@ -167,12 +203,16 @@ The field marked AVERAGE GRADE should contain an average of the 3 tests
 and the final exam grades. The CLASS GRADE is computed similarly but the
 final exam is now weighted in respect to the other grades.
 
+``` text
 | STUDENT | TEST 1 | TEST 2 | TEST 3 | FINAL EXAM | AVERAGE GRADE | CLASS GRADE |
-|---------|--------|--------|--------|------------|---------------|-------------|
-| Alice   | 89     | 93     | 75     | 77         | 83.5          | 82.2        |
-| Bob     | 78     | 99     | 69     | 80         | 81.5          | 81.2        |
-| Cathy   | 91     | 90     | 90     | 75         | 86.5          | 84.2        |
-| Doug    | 48     | 90     | 85     | 82         | 76.25         | 77.4        |
+|---------+--------+--------+--------+------------+---------------+-------------|
+| Alice   |     89 |     93 |     75 |         77 |          83.5 |        82.2 |
+| Bob     |     78 |     99 |     69 |         80 |          81.5 |        81.2 |
+| Cathy   |     91 |     90 |     90 |         75 |          86.5 |        84.2 |
+| Doug    |     48 |     90 |     85 |         82 |         76.25 |        77.4 |
+#+TBLFM: $6=vmean($2..$5)
+#+TBLFM: $7=($2+$3+$4+(2*$5))/5
+```
 
 ### Mean, Median, and Standard Deviation
 
@@ -187,21 +227,25 @@ Here is three different things in one formula:
 3.  All four functions are executed at once because each is separated by
     a :: operator.
 
-| INDEX   | VALUE     |
-|---------|-----------|
-| 1       | 1         |
-| 2       | 2         |
-| 3       | 4         |
-| 4       | 2         |
-| 5       | 3         |
-| 6       | 1         |
-| 7       | 4         |
-| 8       | 1         |
-| 9       | 5         |
-| MEAN    | 2.5555556 |
-| MEDIAN  | 2         |
+``` text
+|   INDEX |     VALUE |
+|---------+-----------|
+|       1 |         1 |
+|       2 |         2 |
+|       3 |         4 |
+|       4 |         2 |
+|       5 |         3 |
+|       6 |         1 |
+|       7 |         4 |
+|       8 |         1 |
+|       9 |         5 |
+|---------+-----------|
+|    MEAN | 2.5555556 |
+|  MEDIAN |         2 |
 | STD DEV | 1.5092309 |
-| SUM     | 23        |
+|     SUM |        23 |
+#+TBLFM: @>$2=vsum(@I..@II) :: @>>$2=vsdev(@I..@II) :: @>>>$2=vmedian(@I..@II) :: @>>>>$2=vmean(@I..@II)
+```
 
 ## Formatting
 
@@ -209,19 +253,25 @@ Here is three different things in one formula:
   three decimal places using `;%.3f`
 - Medium with 3 digits with `;%.3d`
 
-| INDEX   | VALUE |
-|---------|-------|
-| 1       | 1     |
-| 2       | 2     |
-| 3       | 4     |
-| 4       | 2     |
-| 5       | 3     |
-| 6       | 1     |
-| 7       | 4     |
-| 8       | 1     |
-| 9       | 5     |
-| MEDIAN  | 002   |
+``` text
+
+|   INDEX | VALUE |
+|---------+-------|
+|       1 |     1 |
+|       2 |     2 |
+|       3 |     4 |
+|       4 |     2 |
+|       5 |     3 |
+|       6 |     1 |
+|       7 |     4 |
+|       8 |     1 |
+|       9 |     5 |
+|---------+-------|
+|  MEDIAN |   002 |
 | STD DEV | 1.509 |
+#+TBLFM: @>$2=vsdev(@I..@II);%.3f :: @>>$2=vmedian(@I..@II);%.3d
+
+```
 
 ## Clearing Cells and Random Values
 
@@ -241,16 +291,23 @@ Here is three different things in one formula:
   large tables that require a count, but don't require a column
   dedicated to indexes.
 
+``` text
+
 | STUDENT NUMBER | NAME   | TEST 1 | TEST 2 | TEST 3 | HOMEWORK | FINAL EXAM |
-|----------------|--------|--------|--------|--------|----------|------------|
-| 221            | Amy    | 78     | 82     | 91     | 94       | 77         |
-| 931            | Bob    | 77     | 83     | 89     | 90       | 70         |
-| 067            | Clara  | 84     | 88     | 99     | 100      | 80         |
-| 632            | Dylan  | 69     | 74     | 83     | 91       | 65         |
-| 921            | Ed     | 74     | 70     | 77     | 85       | 69         |
-| 726            | Fiona  | 80     | 81     | 86     | 88       | 74         |
-| 663            | Gareth | 79     | 85     | 84     | 89       | 68         |
-| 7              |        |        |        |        |          |            |
+|----------------+--------+--------+--------+--------+----------+------------|
+|            221 | Amy    |     78 |     82 |     91 |       94 |         77 |
+|            931 | Bob    |     77 |     83 |     89 |       90 |         70 |
+|            067 | Clara  |     84 |     88 |     99 |      100 |         80 |
+|            632 | Dylan  |     69 |     74 |     83 |       91 |         65 |
+|            921 | Ed     |     74 |     70 |     77 |       85 |         69 |
+|            726 | Fiona  |     80 |     81 |     86 |       88 |         74 |
+|            663 | Gareth |     79 |     85 |     84 |       89 |         68 |
+|----------------+--------+--------+--------+--------+----------+------------|
+|              7 |        |        |        |        |          |            |
+#+TBLFM: $1=0
+#+TBLFM: @2$1..@>>$1 = random(1000);%.3d
+#+TBLFM: @>$1='(length'(@I..@II))
+```
 
 ## Empty Cells
 
@@ -263,13 +320,18 @@ We are looking for empty cells ("") and returning lists for each record.
 Then we count how many empty records were found, and set that number to
 the value in the MISSING column.
 
+``` text
+
 | STUDENT NUMBER | NAME   | TEST 1 | TEST 2 | TEST 3 | HOMEWORK | FINAL EXAM | MISSING |
-|----------------|--------|--------|--------|--------|----------|------------|---------|
-| 409            | Amy    | 78     | 82     |        | 94       |            | 2       |
-| 016            | Bob    | 77     | 83     | 89     | 90       | 70         | 0       |
-| 432            | Clara  | 84     | 88     | 99     | 100      | 80         | 0       |
-| 869            | Dylan  | 69     |        | 83     | 91       | 65         | 1       |
-| 925            | Ed     | 74     | 70     | 77     | 85       | 69         | 0       |
-| 723            | Fiona  | 80     | 81     | 86     |          | 74         | 1       |
-| 688            | Gareth | 79     | 85     | 84     | 89       | 68         | 0       |
-| 7              |        |        |        |        |          |            |         |
+|----------------+--------+--------+--------+--------+----------+------------+---------|
+|            409 | Amy    |     78 |     82 |        |       94 |            |       2 |
+|            016 | Bob    |     77 |     83 |     89 |       90 |         70 |       0 |
+|            432 | Clara  |     84 |     88 |     99 |      100 |         80 |       0 |
+|            869 | Dylan  |     69 |        |     83 |       91 |         65 |       1 |
+|            925 | Ed     |     74 |     70 |     77 |       85 |         69 |       0 |
+|            723 | Fiona  |     80 |     81 |     86 |          |         74 |       1 |
+|            688 | Gareth |     79 |     85 |     84 |       89 |         68 |       0 |
+|----------------+--------+--------+--------+--------+----------+------------+---------|
+|              7 |        |        |        |        |          |            |         |
+#+TBLFM: @2$8..@>>$8 = '(length(org-lookup-all "" '($3..$7) nil));E
+```

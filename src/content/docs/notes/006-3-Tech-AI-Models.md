@@ -12,22 +12,23 @@ title: Artificial Intelligence (AI) Models
 | [Codebooga](https://ollama.com/library/codebooga) | Programming | Python and JavaScript | [^1] |
 | [CodeGeeX](https://ollama.com/library/codegeex4) | Programming | Cross language translation, plugins for many IDEs | [^2] |
 | [Codeqwen](https://ollama.com/library/codeqwen) | Programming |  | [^3] |
+| CXRReportGen | Medical | chest X-ray report generation | [^4] |
 | [Deepseek-R1](https://ollama.com/library/deepseek-r1) | General | Reasoning |  |
-| [Dolphin-mistral](https://ollama.ai/library/dolphin-mistral) | General | Uncensored, use when other models refuse answers | [^4] |
-| [DolphinMixtral](https://ollama.com/library/dolphin-mixtral) | Programming | Uncensored | [^5] |
-| [Gemma2](https://ollama.com/library/gemma2) | General | 2B good for low hardware | [^6] |
+| [Dolphin-mistral](https://ollama.ai/library/dolphin-mistral) | General | Uncensored, use when other models refuse answers | [^5] |
+| [DolphinMixtral](https://ollama.com/library/dolphin-mixtral) | Programming | Uncensored | [^6] |
+| [FastFlowLM Models](https://fastflowlm.com/docs/) | General, NPU | Designed for NPU on AMD Ryzen AI |  |
+| [Gemma2](https://ollama.com/library/gemma2) | General | 2B good for low hardware | [^7] |
 | [Gemma3](https://ollama.com/library/gemma3) | General, RAG | low hardware/1 GPU, context length, multilingual, multimodal |  |
 | [GPT-oss-20b](https://huggingface.co/openai/gpt-oss-20b) | General, Reasoning, Agentic | Configurable reasoning |  |
 | [Granite](https://huggingface.co/ibm-granite) | General | FOSS, SLM, 4 series low to medium hardware, multi modal |  |
 | [Kimi-K2-Instruct](https://huggingface.co/moonshotai/Kimi-K2-Instruct) | General, Agentic | Chat, agentic |  |
 | [Kimi-K3](https://ollama.com/library/kimi-k3) | General | Mixture of Experts, context length |  |
-| [Llama3](https://ollama.com/library/llama3) | General |  | [^7] |
-| [Meditron](https://ollama.com/library/meditron) | Medical | Medical questions, diagnosis, information |  |
-| [Medllama2](https://ollama.com/library/medllama2) | Medical | Medical questions, trained on open source medical data | [^8] |
+| [Llama3](https://ollama.com/library/llama3) | General |  | [^8] |
 | [MedGemma Series](https://developers.google.com/health-ai-developer-foundations/medgemma) | Medical | Medical text and image comprehension | [^9] |
 | MedImageInsight | Medical | medical image embeddings (radiology, pathology, etc.) | [^10] |
 | MedImageParse | Medical | image segmentation | [^11] |
-| CXRReportGen | Medical | chest X-ray report generation | [^12] |
+| [Meditron](https://ollama.com/library/meditron) | Medical | Medical questions, diagnosis, information |  |
+| [Medllama2](https://ollama.com/library/medllama2) | Medical | Medical questions, trained on open source medical data | [^12] |
 | [Mistral](https://ollama.com/library/mistral) | General, Programming | 7B ok for low hardware | [^13] |
 | [Moondream](https://ollama.com/library/moondream) | Vision | Small for edge devices |  |
 | [Nemotron-mini](https://ollama.com/library/nemotron-mini) | Role-play, RAG, Function | 4b for low hardware | [^14] |
@@ -152,20 +153,21 @@ with some personal notes
 [^3]: [Local LLMs on Linux with
     Ollama](https://blog.machinezoo.com/Local_LLMs_on_Linux_with_Ollama)
 
-[^4]: [Local LLMs on Linux with
+[^4]: [Healthcare AI foundation models (classic) - Microsoft Foundry
+    (classic) portal \| Microsoft
+    Learn](https://learn.microsoft.com/en-us/azure/foundry-classic/how-to/healthcare-ai/healthcare-ai-models)
+
+[^5]: [Local LLMs on Linux with
     Ollama](https://blog.machinezoo.com/Local_LLMs_on_Linux_with_Ollama)
 
-[^5]: [Coding LLMs Copilot
+[^6]: [Coding LLMs Copilot
     Alternatives](https://itsfoss.com/coding-llms-copilot-alternatives/)
 
-[^6]: [I Ran 9 Popular LLMs on Raspberry Pi 5; Here's What I
+[^7]: [I Ran 9 Popular LLMs on Raspberry Pi 5; Here's What I
     Found](https://itsfoss.com/llms-for-raspberry-pi/)
 
-[^7]: [Local LLMs on Linux with
+[^8]: [Local LLMs on Linux with
     Ollama](https://blog.machinezoo.com/Local_LLMs_on_Linux_with_Ollama)
-
-[^8]: [5 easy ways to run an LLM
-    locally](https://www.infoworld.com/article/2338922/5-easy-ways-to-run-an-llm-locally.html)
 
 [^9]: MedGemma supports image understanding across radiology, pathology,
     dermatology, and others. Available on [Google Vertex
@@ -180,9 +182,8 @@ with some personal notes
     (classic) portal \| Microsoft
     Learn](https://learn.microsoft.com/en-us/azure/foundry-classic/how-to/healthcare-ai/healthcare-ai-models)
 
-[^12]: [Healthcare AI foundation models (classic) - Microsoft Foundry
-    (classic) portal \| Microsoft
-    Learn](https://learn.microsoft.com/en-us/azure/foundry-classic/how-to/healthcare-ai/healthcare-ai-models)
+[^12]: [5 easy ways to run an LLM
+    locally](https://www.infoworld.com/article/2338922/5-easy-ways-to-run-an-llm-locally.html)
 
 [^13]: [Coding LLMs Copilot
     Alternatives](https://itsfoss.com/coding-llms-copilot-alternatives/)

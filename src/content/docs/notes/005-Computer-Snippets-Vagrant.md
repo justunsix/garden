@@ -11,9 +11,13 @@ vagrant init hashicorp/bionic64
 
 # Start the VM from stopped or suspend state
 vagrant up
+## Start named VM
+vagrant up name-of-vm
 
 # SSH into the VM
 vagrant ssh
+## SSH into named VM in Vagrantfile
+vagrant ssh desktop-medium
 
 # SSH into VM with X11
 vagrant ssh -- -X

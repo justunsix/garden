@@ -26,6 +26,8 @@ title: Rust Libraries
   instead of \`iter\`
 - [Serde](https://lib.rs/crates/serde) - generic
   serialization/deserialization framework
+- [syntect](https://crates.io/crates/syntect) - high quality syntax
+  highlighting and code intelligence using Sublime Text's grammars
 - [Tokio](https://lib.rs/crates/tokio) - oldest async runtime in the
   Rust ecosystem and still the most widely supported. Recommended for
   new projects.

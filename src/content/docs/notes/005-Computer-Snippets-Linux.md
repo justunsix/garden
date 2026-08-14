@@ -32,6 +32,39 @@ scanning](/garden/notes/005-computer-snippets-awk) - [awk Snippets - text
 processing and pattern
 scanning](id:105e4b70-09da-40e7-9d7f-3798899a3b00)
 
+## cat - Print and concatenate files
+
+See also: - [bat Snippets](/garden/notes/005-computer-snippets-bat)
+
+More information:
+[https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html](https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html).
+
+``` shell
+
+# Print the contents of a file to `stdout`:
+cat path/to/file
+
+# Concatenate several files into an output file:
+cat path/to/file1 path/to/file2 ... > path/to/output_file
+
+# Append several files to an output file:
+cat path/to/file1 path/to/file2 ... >> path/to/output_file
+
+# Write to a file interactively:
+cat > path/to/file
+
+# Number all output lines:
+cat [-n|--number] path/to/file
+## Command can be useful to enumerate (add numbers) to lists in text files, output
+
+# Display all characters, including tabs, line endings, and non-printing characters:
+cat [-A|--show-all] path/to/file
+
+# Pass file contents to another program through `stdin`:
+cat path/to/file | program
+
+```
+
 ## cd - Change directory
 
 ``` shell
@@ -554,7 +587,8 @@ recursive flag
 
 ## sed (stream editor)
 
-Main article: [sed Snippets](/garden/notes/005-computer-snippets-sed)
+Main article: [sed Snippets](/garden/notes/005-computer-snippets-sed) - [sed
+Snippets](id:dfacdd4d-a4e5-4f51-b672-0b7a8a873468)
 
 ## source, environment variables
 
@@ -625,8 +659,10 @@ tar -czf path/to/target.tar.gz path/to/file1 path/to/file2 ...
 tar -xvf todo.txt_cli-2.12.0.tar.gz
 
 # E[x]tract a (compressed) archive [f]ile into the target directory:
-
 tar -xf path/to/source.tar[.gz|.bz2|.xz] [-C|--directory] path/to/directory
+
+# List files with -t [v]erbosely in tar [f]ile
+tar -tvf
 
 ```
 
@@ -705,7 +741,6 @@ for passing output to other commands.
 
 | Command | Usage/Function |
 |----|----|
-| cat |  |
 | man | Manuals (help pages) for system commands. |
 | touch |  |
 | ftp | File transfer protocol program |

@@ -8,20 +8,28 @@ title: Install NixOS
 Instructions and examples from Tony \[fn:1\].
 
 - Download ISO, select graphical installer or manual install
+- For graphical installer, if you don't have internet at first, close
+  the installer after booting into the NixOS environment [to prevent a
+  known issue in the Calamaries
+  installer](https://discourse.nixos.org/t/calamares-installer-instantly-crashes-when-i-start-typing-full-name/47120/4).
+  Connect to the internet. Now, reopen the graphical installer and
+  continue.
 - Before installs, create manual partitions `cfdisk /dev/devicename`,
   select `gpt` label type
   - 1G - gpt EFI system (example 1024 MB)
     - Mount: /boot
     - Label: boot
     - FAT32
-  - 8G to 32+G - Linux swap (example 9011 MB)
+  - 8G to 11G - Linux swap (example 9011 MB), can be 2xRAM or 20% or
+    RAM, depending on hibernation
     - Mount (if required) /swap
     - Label: swap
-  - 8 MB - unformatted partition - required for GPT partition table
-    - Label: bios-grub
   - Rest of space - LUKS2 encryption - / (can create manually in NixOS
     graphical installer)
     - Label: root
+  - Maybe not required: 8 MB - unformatted partition - required for GPT
+    partition table
+    - Label: bios-grub
   - Install boot loader: on same disk as /boot and NixOS
 - See [NixOS from Scratch for partition
   setup](https://github.com/tonybanters/nixos-from-scratch)

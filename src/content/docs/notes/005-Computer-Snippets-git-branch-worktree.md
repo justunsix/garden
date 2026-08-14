@@ -78,23 +78,27 @@ Cons:
   time-consuming for long-lived branches.
 
 ``` shell
+# Fetch the latest main branch
+git pull origin main
 # Ensure you're on your feature branch
 git checkout feature-branch
-# Fetch the latest main branch
-git fetch origin
 # Rebase feature branch onto main
-git rebase origin/main
+git rebase main
 ## Identify conflicts during rebase
 git status
 ## Make changes and continue
 git rebase --contiue
+## Force push with lease (don't overwrite commits if newer branch commits were made by collaborators)
+## which will show feature branch on top of updated main
+git push --force-with-lease origin feature-branch
+
 ```
 
 #### Merge
 
 Pros:
 
-- Safer for collaborative branches, as it doesn’t rewrite history.
+- Safer for collaborative branches, as it doesn't rewrite history.
 - Easier to understand for teams new to Git.
 - Preserves the context of when and why main was integrated.
 
@@ -114,7 +118,7 @@ git merge origin/main
 # Push the updated branch
 git push origin feature-branch
 
-# Merge conflicts manualy
+# Merge conflicts manually
 git add <resolved-file>
 git commit
 

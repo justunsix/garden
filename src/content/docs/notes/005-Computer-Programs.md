@@ -8,3 +8,5 @@ title: Computer programming, programs, and data
 
 - [IT Cyber Security](/garden/notes/005-8-tech-security)
 - [Programming, Languages](/garden/notes/005-1-tech-programming-languages)
+- [Integrated Development Environment IDE and Artificial
+  Intelligence](/garden/notes/005-computer-programs-integrated-development-environment-ide-and-artificial-intelligence)

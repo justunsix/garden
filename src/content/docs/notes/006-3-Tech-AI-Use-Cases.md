@@ -18,7 +18,11 @@ How to identify AI use cases:
 - Ask users how they could be more satisfied
 - Assess organization and industry with survey to find challenges and
   inefficiencies
-- Set AI performance targets
+- Set AI performance targets. A recommended target is the AI solution
+  must produce at least 20% productivity gains. The reason for 20% is
+  account for minor operational variation (+/- 10%) and balance against
+  implementation and maintenance costs, governance, opportunity cost and
+  other management.
 
 ## Common Use Cases
 

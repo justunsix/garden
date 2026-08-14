@@ -8,8 +8,8 @@ Source: [Diátaxis - Tutorials, How-To guides, Explanation,
 Reference](https://diataxis.fr/) - Also a forked version at
 [DIVIO](https://documentation.divio.com/)
 
-- There are tutorials, how-to guides, technical reference and
-  explanation types of documentation.
+There are tutorials, how-to guides, technical reference and explanation
+types of documentation.
 
 Tutorials
 
@@ -114,9 +114,10 @@ Reference
 
 - Not same as tutorial which is for learning.
 
-  - Example: cooking recipe:
-    - A skilled cook will still follow a recipe.
-    - Focuses only on how to make a dish, not teaching cooking.
+- Example: cooking recipe:
+
+  - A skilled cook will still follow a recipe.
+  - Focuses only on how to make a dish, not teaching cooking.
 
 ### Example - How to
 
@@ -184,11 +185,10 @@ Reference
 
 - Clarifies, deepens, and broadens understanding
 - Approach information from different angles
-- Can be read away from the product itself unlike other types of
-  documents
-- Explanations are not the highest priority, but are required for a
-  reader to developer relationships and understand the product and their
-  skills in using it
+- Can read away from the product itself unlike other types of documents
+- Explanations are not the highest priority, but required for a reader
+  to developer relationships and understand the product and their skills
+  in using it
 
 ### Challenges in Explanation
 
@@ -227,26 +227,28 @@ Reference
 
 ## Understanding User's Needs
 
-- Diátaxis provides:
-  - Map of documentation types rather than a list of documents
-  - Types will naturally provide structure
-  - Provide documentation for users in their cycle of interacting with
-    the product
-    - Learning \> task \> information \> explanation phase \> back to
-      beginning or deeper in a specific area
-    - Accessing a piece of document and jumping around
+Diátaxis provides:
+
+- Map of documentation types rather than a list of documents
+- Types will naturally provide structure
+- Provide documentation for users in their cycle of interacting with the
+  product
+  - Learning \> task \> information \> explanation phase \> back to
+    beginning or deeper in a specific area
+  - Accessing a piece of document and jumping around
 
 ## Tutorial vs How-to Guide
 
-- Tutorial is for learners
-- How to's focus on task for a goal and may be repeatable and used by
-  users regularly or by advanced users
+Difference is the audience - tutorials are for learners. How to's focus
+on task for a goal and may be repeatable and used by users regularly or
+by advanced users.
 
 ## How to use Diátaxis
 
-- It is a guide, a map, but not to be used as a plan
-- Check you are in the right place/direction and keep going. Do not
-  start with structure.
+It is a guide, a map, but not used as a plan.
+
+Check you are in the right place/direction and keep going. Do not start
+with structure.
 
 Approach:
 
@@ -258,10 +260,11 @@ Approach:
 
 ## Citation
 
-This CITATION.cff file was generated with cffinit. Visit
+This CITATION.cff file generated with cffinit. Visit
 <https://bit.ly/cffinit> to generate yours today!
 
 ``` txt
+
 # This CITATION.cff file was generated with cffinit.
 # Visit https://bit.ly/cffinit to generate yours today!
 cff-version: 1.2.0
@@ -282,4 +285,10 @@ preferred-citation:
     orcid: 'https://orcid.org/0000-0001-5141-7509'
   title: Diátaxis documentation framework
   url: "https://diataxis.fr/"
+
 ```
+
+## External Links
+
+- [Welcome to nix.dev — nix.dev documentation](https://nix.dev/) - Site
+  using Diataxis system

@@ -27,6 +27,7 @@ title: Emacs Shortcuts
 | Exit emacs | C-x C-c |
 | Find / Open file | find-file, C-x C-f |
 | Function, pass argument | C-u \<argument\> \<function\> |
+| Function, run number of times | C-u \<number\> \<function\> |
 | Help | C-h C-h |
 | Personal and common major mode leader key | C-c |
 | Quit partial command | C-g |
@@ -338,18 +339,19 @@ Example `.dir-locals.el` to set compile command
 
 | Name | Shortcuts |
 |----|----|
+| Browse Unix Man pages by topic | M-x woman |
 | Help | C-h |
-| Help on feature | C-h c |
-| Help on command | C-h k |
-| Help on function (describe-function) | C-h f= - can drill into function's cod |
-| Help on variable (describe-variable) | C-h v |
-| Help on key bindings for current function/minibuffer | C-h b |
-| Help on all active major and minor modes | C-h m or M-x describe-mode |
 | Help Apropos (search command keyword) | C-h a |
-| Help Search - search all manuals | info-apropos |
-| Read manuals (aka info) for installed packages | C-h i |
-| Open emacs manual | C-h r |
 | Help buffer - next / Previous page in Info buffer | n / p |
+| Help on all active major and minor modes | C-h m or M-x describe-mode |
+| Help on command | C-h k |
+| Help on feature | C-h c |
+| Help on function (describe-function) | C-h f= - can drill into function's cod |
+| Help on key bindings for current function/minibuffer | C-h b |
+| Help on variable (describe-variable) | C-h v |
+| Help Search - search all manuals | info-apropos |
+| Open emacs manual | C-h r |
+| Read manuals (aka info) for installed packages | C-h i |
 
 ### Info Mode
 

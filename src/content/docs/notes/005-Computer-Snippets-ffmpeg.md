@@ -89,15 +89,16 @@ ffmpeg -i input.mp4 -vf fps=10,scale=400:-1 -r 10 output.gif
 ## Script to extract audio of mp4 videos in directory into mp3 files
 
 ``` shell
+
 lc_convert_video_to_audio() {
 
-  VIDEO_FILES_DIR="/path/to/directory/
+  VIDEO_FILES_DIR="/path/to/directory/"
 
   cd "$VIDEO_FILES_DIR" || exit
 
-  # Check if ffmpeg is installed
+  # Check if ffmpeg installed
   if ! command -v ffmpeg &>/dev/null; then
-    echo "ffmpeg could not be found. Please install it first."
+    echo "Error: ffmpeg not found. Install ffmpeg first."
     exit 1
   fi
 
@@ -122,13 +123,10 @@ lc_convert_video_to_audio() {
 
   echo "All conversions are complete."
 }
+
 ```
 
-## See Also
-
-### Sources
-
-Sources of commands listed above
+## References
 
 - [How can I reduce a video's size with
   ffmpeg?](https://unix.stackexchange.com/questions/28803/how-can-i-reduce-a-videos-size-with-ffmpeg)

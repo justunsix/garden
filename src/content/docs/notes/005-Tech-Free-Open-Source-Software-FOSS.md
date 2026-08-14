@@ -157,6 +157,8 @@ plus my additions
 - GNU/Linux - operating system
 - [Gopeed](https://gopeed.com/) - Lightweight download manager (HTTP,
   BitTorrent, Magnet, others)
+- [GPT4All](https://www.nomic.ai/gpt4all) - Run Local LLMs on Any
+  Device. Open-source and available for commercial use.
 - [Grafana](https://grafana.com/) - full stack observability with
   [Loki](https://grafana.com/docs/loki/latest/) for logging.
 - [GRASS GIS](https://grass.osgeo.org/) - Geographical Information System

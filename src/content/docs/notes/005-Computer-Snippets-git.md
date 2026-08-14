@@ -31,6 +31,8 @@ git diff note/my-note.md
 git diff HEAD~1
 git diff HEAD~3
 git diff commithash~1
+## Differences of a file compared to HEAD
+git diff notes/note.md
 
 # Show git commit history of specified file
 git log -p -- <filename>
@@ -188,6 +190,15 @@ git commit --amend --author="John Smith <John.Smith@email.com>"
 git status
 ## Make changes and continue
 git rebase --contiue
+
+# Undo a commit to make changes to commit
+# from https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git
+git commit -m "Something terribly misguided" # (0: Your Accident)
+git reset HEAD~                              # (1)
+# === If you just want to undo the commit, stop here! ===
+# [ edit files as necessary ]                # (2)
+git add .                                    # (3)
+git commit -c ORIG_HEAD                      # (4)
 
 # Cleanup unnecessary files and optimize the local repository
 git gc
