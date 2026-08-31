@@ -214,10 +214,9 @@ sled heavier each round
 
 ## See Also
 
-- [Sport](/garden/notes/790-sport)
+- [Sports, games, and entertainment](/garden/notes/790-sport)
 - [Health](/garden/notes/610-health)
 - [Calisthenics Workouts](/garden/notes/790-sport-calisthenics-workouts)
-- [Inspirational](/garden/notes/158-psychology-applied-goals-inspirational)
 
 ## External Links
 
