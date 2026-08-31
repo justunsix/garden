@@ -7,3 +7,10 @@ title: Home Hardware and Improvement
 ## See Also
 
 - [Home Bathroom Toilet](/garden/notes/640-home-hardware-bathroom-toilet)
+- [Home Bathroom - Remove a Sink
+  Stopper](/garden/notes/640-home-hardware-bathroom-sink-stopper-removal)
+
+## External Links
+
+- [Home Improvement Ideas - Home
+  Depot](https://www.homedepot.com/c/alp/home-improvement-ideas/dqe7)

@@ -9,7 +9,9 @@ title: Sewing, clothing, management of personal and family life
 
 - [Sewing Projects](/garden/notes/646-sewing-projects)
 
-## External Links - Training in Toronto, Canada
+## External Links
+
+### Training in Toronto, Canada
 
 - [Sew Be It](https://sewbeitstudio.com/adult-classes)
 - [TDSB Learn](https://www.tdsb.on.ca/Adult-Learners/Learn4Life)

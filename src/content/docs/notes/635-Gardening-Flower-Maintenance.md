@@ -11,93 +11,61 @@ religious space.
 Tips will apply for most indoor flowers in a drier climate with cold and
 hot seasons.
 
-## Aesthetics & Colours
+## Aesthetics & Colours - Indoor Flower and Plant Care Guide
 
-Every flower carries a significance and meaning. In the Christian
-heritage, flowers
+Flowers and plants enhance indoor spaces through their beauty, colour,
+and visual appeal. Thoughtful arrangements can create a welcoming
+atmosphere and complement the surrounding environment. When selecting
+flowers, consider how colours, shapes, and plant varieties work together
+to create a balanced display. Often, a simple arrangement using one or
+two complementary colours produces an effective result.
 
-have been an expression of certain virtues. Colours too have meanings,
-especially within
+Certain arrangement will be preferred depending on the event or time of
+year.
 
-the liturgical calendar, and some carry personal significance. All fresh
-flowers and new
+## Extending the Life of Fresh Flowers
 
-plants are opportunities for not only enhancing church worship but
-expressing our desires,
+Use cool water and fill vases only halfway, ensuring that stems are
+submerged while leaves remain above the waterline. Remove any leaves
+that fall into the water, as decaying plant material can promote
+bacterial growth and shorten flower life. This also applies to
+decorative greenery such as fern foliage.
 
-faith, remembrances and love.
+### Flower Specific Care
 
-The aesthetic of beauty and design also has its place and its particular
-integrity on
+- Lilies and carnations are among the longest-lasting cut flowers.
+- Remove lily stamens once the flowers open to reduce pollen staining
+  and help maintain the appearance of the blooms.
+- Roses can last 7 to 10 days with proper care. White and pink varieties
+  tend to perform better indoors. Warm water may help unopened blooms
+  develop more fully.
 
-the altar. Does the display enhance devotion or distract from it? The
-patterns of flowers
+### Watering
 
-should draw the eye towards the tabernacle and highlight the sacred
-functions of the
+During the first week, top up the vase with fresh, cool water as needed.
+After the first week, completely replace the water, trim a small section
+from the bottom of each stem, and add flower food if available.
 
-reader’s podiums. Sometimes less is better under these circumstances.
-The combination
+For arrangements in floral foam (oasis), ensure the foam remains fully
+saturated by watering it daily. If the foam dries out, the flowers may
+not recover. For florist-prepared foam arrangements, redistributing
+flowers into separate vases after several days may help extend their
+lifespan. Caring for Long-Term Indoor Plants
 
-of flowers and colours should work as a theme and contribute their
-energies to the whole
+Apply a fertilizer stick or suitable plant fertilizer once per month
+during the growing season and less frequently during winter, following
+the manufacturer's instructions.
 
-congregation. Not all flowers and colours go together, of course. For
-instance, a carnation
+- Mist leaves if appropriate for the plant species.
+- Remove dry leaf tips, dead foliage, and spent flowers to maintain
+  plant health and appearance.
 
-family does not complement a lily family and visa versa. Because flowers
-form a visual
+### Caring for Short-Term Flowering Plants
 
-prayer, a prayer of quiet beauty is a call to contemplation. One or two
-colours (one of
+Water according to the plant's needs and avoid allowing the soil to dry
+out completely unless the species requires it. Check the soil with your
+fingers and it should be moist not dried out. If less moist, add water.
+Avoid over watering where the water is pooling in the soil.
 
-these being neutral, like white) usually assists the aesthetic.
-
-To Prolong Life
-
-\\ For fresh flowers the best are the lily family and the carnation
-family. Roses can
-
-last a week or ten days but only if white or pink (and need warm water
-to open).
-
-Red roses last only a few days and are usually not a good choice.
-
-\\ Tepid-cold water is best, half full vases with only the stems
-immersed.
-
-(NB if any leaves get into the water it turns it rancid and poisons the
-flowers.
-
-This also applies to green adornments – only stems of ferns etc in
-water).
-
-\\ Lily stamens to be snipped when open.
-
-\\ During the first week of display, fresh cool water to be added to
-original water.
-
-\\ Every subsequent week, completely change the water, snip bottom of
-stems and
-
-drop an aspirin in (or plant food).
-
-\\ For bouquets in oasis (green foam) the oasis needs full watering
-every day or
-
-it will dry out and the flowers cannot be revived. In the case of an
-oasis display
-
-(usually from a florist for a funeral or wedding) it is advisable to
-redistribute and
-
-re-arrange the flowers in vases within a few days to last.
-
-\\ For long-term plants, one fertilizer stick per month (in summer),
-every second
-
-month in winter. Spray leaves and cut all dry tips or wilting flowers,
-if applicable.
-
-\\ Short term plants (i.e. flowering pots) water and spray and cut away
-any decay.
+Remove any decaying leaves, stems, or flowers promptly to keep the plant
+healthy and attractive.
