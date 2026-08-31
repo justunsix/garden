@@ -3,7 +3,7 @@ date: 2019-04-01
 filetags: ":toronto:urban:forestry:epubnote:"
 id: bcd26d1d-7c34-4d69-9017-66b59cbc3ff9
 title: Community Stewardship Program - City of Toronto Urban Forestry
-  Personal Journal
+  Journal
 ---
 
 My journal of education/training, invasive species removal (weeding),
@@ -65,6 +65,7 @@ moving.
 - Remove plant identification tag
 - Dig hole slightly larger than plant and its roots
 - Plants should sit level with soil when planted
+- Form "donut" of soil around plant
 - Remove air pockets, tap down sides of soil
 - Tug test: after planting, give plant a light tug to ensure it is in
   the soil and should not come out of the soil
@@ -83,9 +84,57 @@ Plant facing up
      /
     /
 ------------------- Level ground
+
+
+Plant surrounded by soil
+
+       /\
+       /\
+     . | .
+    .  |   .
+    .  |   .
+     .    .
+       . .
+
 ```
 
 ## Riverdale Park East 2026
+
+### 2026-05 – 08
+
+Weeding of invasive species:
+
+- Garlic mustard (2026-05) - cut off flowering small stems
+- Dog strangling vine (DSV) - opposite leaves with deep roots, use
+  trowels
+- Creeping thistle - sword like leaves, pull at root
+- Bedstraw
+- Motherswort - woody with square stem
+- Burdock
+- Lady's thumb - pink flowers, symmetric red stem, around wetland
+- Queen Anne's Lace - parsley, large white flowers
+- Erect hedge parsley
+- Phragmites
+- European cocklebur - similar to burdock
+
+Observation of invasive species
+
+- Japanese beetle
+
+Observation of native species
+
+- May apple
+- Black current
+- Nests of birds, Baltimore oriole, wwallow
+- Rabbits
+- Bug bush - ends looks like COVID virus ball
+- Dragonfly
+- Bumble bee
+
+Safety
+
+- Fire ants
+- Wood tripping hazards
 
 ### 2026-05
 
