@@ -96,6 +96,15 @@ gpg --edit-key <key-ID>
 ## Sign someone's public because you know it is from them and trust them locally
 gpg --sign-key <keyID>
 
+# Remove stale lock files, sometimes required if getting waiting for lock
+rm ~/.gnupg/[name-of-the-stale-lock-file].lock
+rm -f ~/.gnupg/public-keys.d/pubring.db.lock
+## Reset GPG Agent
+gpgconf --reload gpg-agent
+
+# Test GPG agent and keys
+echo "test" | gpg --clearsign
+
 ```
 
 ## gpgtar - working with archives

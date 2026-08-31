@@ -60,6 +60,9 @@ nix-channel --add https://nixos.org/channels/nixpkgs-unstable
 ## as root, check nix-channel --list
 nix-channel remove nixpkgs
 
+# List nixos generations
+nixos-rebuild list-generations
+
 # Generate configurations
 sudo nixos-generate-config
 
@@ -84,7 +87,7 @@ nix-collect-garbage
 nix-collect-garbage --delete-older-than 30d
 
 # NixOS garbage collection
-sudo nix-collect-garbage --delete-older-than-30d
+sudo nix-collect-garbage --delete-older-than 30d
 
 ```
 
@@ -232,6 +235,41 @@ home-manager switch --switch-generation <n>
 
 # Expire (delete) generations older than 30 days
 home-manager expire-generations -30days
+
+```
+
+## nh - nix helper
+
+``` shell
+
+# Search for a Nix package
+nh search <query>
+
+# Search with filter
+# Scope options: nixpkgs, home-manager, nix-darwin, all
+nh search options [--scope=<SCOPE>] <query>
+
+# Search a local SPAM database without network access
+nh search offline --db <PATH> <query>
+
+# Rebuild NixOS like nixos-rebuild switch --flake .#myHost
+nh os switch . -H myHost
+# Rebuild NixOS with traditional /etc/nixos file locations
+nh os switch -f '<nixpkgs/nixos>'
+# Rebuild NixOS with custom nixos configuration.nix file location
+nh os switch -f '<nixpkgs/nixos>' -- -I nixos-config=/path/to/configuration.nix
+
+# Rebuild Darwin like darwin-rebuild switch --flake .#myHost
+nh darwin switch . -H myHost
+# Rebuild Home Manager like home-manager switch --flake .#myHost
+nh home switch . -c myHome
+
+# Clean and at least keep gcroots and generations in this time range  (--keep-since)
+# and keep at least one kcroot per direnv project (--keep-one)
+nh clean all --keep-since 30d --keep-one
+
+# Help for clean all
+nh clean all --help
 
 ```
 

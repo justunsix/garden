@@ -31,7 +31,7 @@ $ wl-paste --watch nc paste.example.org 5555
 
 ```
 
-## xsel on X Windows
+## xsel on X11 Windows and XWayland
 
 ``` shell
 

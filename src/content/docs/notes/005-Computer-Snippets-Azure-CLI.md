@@ -31,4 +31,4 @@ az account show
 
 ## See Also
 
-- [KQL Snippets](/garden/notes/005-tech-snippets-kql)
+- [KQL Snippets](/garden/notes/005-computer-snippets-kql)

@@ -6,12 +6,12 @@ title: Atuin Shortcuts
 
 | Description                               | Shortcut           |
 |-------------------------------------------|--------------------|
-| Open Atuin in most shells                 | Up arrow or Ctrl-r |
-| Execute selected item                     | Enter              |
-| Edit selected item                        | Tab                |
-| Cycle through filter modes                | Ctrl-r             |
-| Select item by the number located near it | alt + 1 to alt + 9 |
 | Copy select item to clipboard             | Ctrl + y           |
+| Cycle through filter modes                | Ctrl-r             |
+| Edit selected item                        | Tab                |
+| Execute selected item                     | Enter              |
+| Open Atuin in most shells                 | Up arrow or Ctrl-r |
+| Select item by the number located near it | alt + 1 to alt + 9 |
 
 ## External Links
 

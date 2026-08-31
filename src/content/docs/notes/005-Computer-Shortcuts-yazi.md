@@ -28,7 +28,7 @@ Generally, vim shortcuts are used
 | File operations, yank (copy) | y |
 | File operations, yank (cut) | x |
 | File Preview, Seek 5 units up or down | Shift + j or Shift + k |
-| Help | F1 or ~ |
+| Help and command palette | F1 or ~ |
 | Help, exit | Esc |
 | Hidden files, show/hide toggle | . |
 | Input mode, exit to normal mode, example rename | Esc |
@@ -52,6 +52,8 @@ Generally, vim shortcuts are used
 | Tabs, new tab | t |
 | Tabs, switch to previous, next tab | \[, \] |
 | Tabs, switch to tab \# | 1, 2, 3, … 9 |
+| Task manager, like file operations status | w |
+| Preview, Toggle (Plugin) | T |
 
 File operations like rename, trash, yank work on bulk selections with
 Space.
@@ -60,7 +62,9 @@ Space.
 
 Check if yazi sees relevant variables and progams with `yazi -debug`
 
-## External Links
+## References
 
 - [Yazi Quick Start,
   Keybindings](https://yazi-rs.github.io/docs/quick-start/)
+- [plugins/toggle-pane.yazi at main ·
+  yazi-rs/plugins](https://github.com/yazi-rs/plugins/tree/main/toggle-pane.yazi)

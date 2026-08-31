@@ -1,5 +1,5 @@
 ---
-filetags: ":rust:tech:language:index:epubnote:"
+filetags: ":rust:tech:language:epubnote:"
 id: 556033f7-4401-412d-abbb-1fbc854c49fd
 title: Rust Optimization Tips
 ---

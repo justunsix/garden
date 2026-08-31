@@ -5,7 +5,7 @@ id: 833c12af-a703-4f60-b92c-41ab7705b79f
 title: ctags Snippets
 ---
 
-Commands are for [University Ctags](https://docs.ctags.io/en/latest/)
+Commands are for [Universal Ctags](https://docs.ctags.io/en/latest/)
 
 ``` shell
 

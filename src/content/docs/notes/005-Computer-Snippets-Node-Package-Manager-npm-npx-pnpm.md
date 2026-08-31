@@ -1,7 +1,7 @@
 ---
 filetags: ":npm:snippets:epubnote:"
 id: 445b9e5b-6983-4422-8f86-9e19f5933f7a
-title: Node Package Manager - npm
+title: Node Package Manager - npm, Performant npm (pnpm)
 ---
 
 ``` shell
@@ -44,6 +44,46 @@ npx eslint ./*.js
 
 # Clean npm cache
 npm cache clean --force
+
+```
+
+## Performant npm (pnpm)
+
+``` shell
+
+# Install global package(s)
+pnpm add -g <pkg>
+pnpm add -g typescript prettier eslint
+
+# Update global packages
+## List them
+pnpm outdated -g
+## then update
+pnpm update -g --latest
+
+# Interactively create a package.json file
+pnpm init
+
+# Download all the packages listed as dependencies in package.json
+pnpm install
+
+# Download a specific version of a package and add it to the list of dependencies in package.json
+pnpm install {{module_name}}@{{version}}
+
+# Download a package and add it to the list of dev dependencies in package.json
+pnpm install --dev {{module_name}}
+
+# Download a package and install it globally
+pnpm install -g {{module_name}}
+
+# Uninstall a package and remove it from the list of dependencies in package.json
+pnpm uninstall {{module_name}}
+
+# Print a tree of locally installed modules
+pnpm list
+
+# List top-level [g]lobally installed modules
+pnpm list -g --depth={{0}}
 
 ```
 

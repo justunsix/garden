@@ -79,15 +79,19 @@ Cons:
 
 ``` shell
 # Fetch the latest main branch
-git pull origin main
+git fetch origin
 # Ensure you're on your feature branch
 git checkout feature-branch
 # Rebase feature branch onto main
-git rebase main
+git rebase origin/main
 ## Identify conflicts during rebase
 git status
 ## Make changes and continue
+## resolve conflicts
+git add <resolved-files>
 git rebase --contiue
+## or stop
+git rebase --abort
 ## Force push with lease (don't overwrite commits if newer branch commits were made by collaborators)
 ## which will show feature branch on top of updated main
 git push --force-with-lease origin feature-branch
@@ -121,6 +125,10 @@ git push origin feature-branch
 # Merge conflicts manually
 git add <resolved-file>
 git commit
+
+## Force push with lease (don't overwrite commits if newer branch commits were made by collaborators)
+## which will show feature branch on top of updated main
+git push --force-with-lease origin feature-branch
 
 ```
 

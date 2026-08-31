@@ -20,10 +20,12 @@ Shortcuts](https://duckduckgo.com/duckduckgo-help-pages/features/keyboard-shortc
 
 ## !Bang Shortcuts
 
-Search directly in other search engines.
+Search directly in other search engines [^1].
 
 | Name             | Shortcuts |
 |------------------|-----------|
+| Arch Linux Wiki  | !aw       |
+| Nixos Wiki       | !nixos    |
 | Bing             | !b        |
 | Google           | !g        |
 | Internet Archive | !ia       |
@@ -37,3 +39,10 @@ Search directly in other search engines.
 | Yandex           | !ya       |
 | Yandex.ru        | !y        |
 | YouTube          | !yt       |
+
+## References
+
+[^1]: [How To Use “!Bang” Shortcuts on DuckDuckGo Search - DuckDuckGo
+    Help
+    Pages](https://duckduckgo.com/duckduckgo-help-pages/features/bangs)
+    and [DuckDuckGo !Bangs](https://duckduckgo.com/bangs)
