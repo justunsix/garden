@@ -38,7 +38,7 @@ Appleton](https://maggieappleton.com/)
 - [006 Special computer methods (e.g. AI, multimedia,
   VR)](/garden/notes/006-special-computer-methods)
   - [006.3 Artificial
-    intelligence](/garden/notes/006-3-tech-ai-artificial-intelligence)
+    intelligence](/garden/notes/006-3-tech-ai-artificial-intelligence-outline)
 - [020 Library and information sciences](/garden/notes/020-information)
 
 ## 100 – Philosophy and psychology
