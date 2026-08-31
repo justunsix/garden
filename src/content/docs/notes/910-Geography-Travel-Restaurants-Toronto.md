@@ -67,6 +67,10 @@ inexpensive options and/or good price for portions.
 
 jd = near Yonge and Dundas in Toronto
 
+## Near Central Midtown
+
+- Gatherings
+
 ## Near North York Centre
 
 Yonge-Finch and Yonge-Shepperd areas
@@ -91,6 +95,7 @@ Yonge-Finch and Yonge-Shepperd areas
 | [Casa Barcelona](https://www.casabarcelona.ca/) | Royal York-Bloor | Spanish | tapas |  |
 | Centennial College Restaurant | Markham Road-401 | Various | Value, Student |  |
 | Congee Queen | Various, Yonge-Steeles | Chinese, Cantonese | Value shared |  |
+| [Gatherings Restobar](https://www.gatheringsrestobar.com/) | Yonge-St. Clair | Pub | breakfast | up |
 | [Good Catch Cafe](https://goodcatchbarcafe.com/good-catch-cafe/) | Don Mills-Sheppard, Fairview Mall | Chinese | Value=specials |  |
 | [Granma Loves You](https://grandmalovesyou.ca/) | Avenue Road-St. Clair | Sandwich |  | up |
 | Joy Noodle Cafe | Woodbine-407, Markham | Chinese, Hong Kong |  |  |
@@ -163,7 +168,7 @@ ordered by discussion popularity and personal experience
 
 ## See Also
 
-- [Fun Things Toronto](/garden/notes/790-entertainment-fun-things)
+- [Fun Things Toronto](/garden/notes/790-entertainment-fun-things-privhs)
 
 ## Archive (Closed Restaurants)
 
