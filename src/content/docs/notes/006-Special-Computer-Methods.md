@@ -6,7 +6,8 @@ title: Special computer methods (e.g. AI, multimedia, VR)
 
 ## See Also
 
-- [Artificial Intelligence](/garden/notes/006-3-tech-ai-artificial-intelligence)
+- [Artificial
+  Intelligence](/garden/notes/006-3-tech-ai-artificial-intelligence-outline)
 - [Data
   Visualization](/garden/notes/006-computer-learning-creative-data-visualization)
   practices on how to present data

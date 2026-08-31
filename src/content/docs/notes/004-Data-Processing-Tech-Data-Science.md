@@ -6,7 +6,8 @@ title: Data Science
 
 ## See Also
 
-- [Artificial Intelligence](/garden/notes/006-3-tech-ai-artificial-intelligence)
+- [Artificial
+  Intelligence](/garden/notes/006-3-tech-ai-artificial-intelligence-outline)
 - [Data Basics and Use Cases with Microsoft
   Fabric](/garden/notes/004-data-processing-tech-data-science-use-cases-microsoft-fabric)
 - [Design and Implement Data Science Solution in Azure

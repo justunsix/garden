@@ -61,11 +61,11 @@ title: Emacs Shortcuts
 
 ### Frames
 
-| Name                                  | Shortcuts |
-|---------------------------------------|-----------|
-| New frame (window)                    | C-x 5 2   |
-| Close frame (window)                  | C-x 5 0   |
-| Speedbar (like file, buffer explorer) | speedbar  |
+| Name                                                     | Shortcuts |
+|----------------------------------------------------------|-----------|
+| New frame (window)                                       | C-x 5 2   |
+| Close frame (window)                                     | C-x 5 0   |
+| Speedbar (like file, buffer explorer, imenu integration) | speedbar  |
 
 ### Windows
 

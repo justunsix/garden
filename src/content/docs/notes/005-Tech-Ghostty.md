@@ -137,7 +137,7 @@ rm -rf $HOME/.local/share/terminfo/ghostty.*
 
 ```
 
-#### Nix only (has issues)
+#### Nix only
 
 ``` shell
 

@@ -35,6 +35,7 @@ title: Artificial Intelligence (AI) Models
 | [Phi3](https://ollama.com/library/phi3) | General, RAG | low hardware, context length |  |
 | [phi-4](https://huggingface.co/microsoft/phi-4) | General | low hardware, reasoning |  |
 | [Phi4-mini](https://ollama.com/library/phi4-mini) | General, RAG | low hardware, multilingual, context length |  |
+| [Inkling](https://huggingface.co/thinkingmachines/Inkling) | General, Agentic, RAG | Multimodal, token efficiency, good for tuning |  |
 | [Qwen3 series](https://github.com/QwenLM/Qwen3) | General | [Multiple models](https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f) depending on use |  |
 | [Qwen-Image](https://huggingface.co/Qwen/Qwen-Image) | Image generation, editing | Good at text, especially Chinese |  |
 | [StarCoder](https://ollama.com/library/starcoder) | Programming | Trained on 80+ languages, Small to large models | [^15] |

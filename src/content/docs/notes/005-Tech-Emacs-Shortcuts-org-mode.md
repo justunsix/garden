@@ -1,5 +1,5 @@
 ---
-filetags: ":emacs:shortcuts:epubnote:"
+filetags: ":emacs:shortcuts:epubnote:org-mode:"
 id: f3812051-ffec-4691-bdd0-c6bf791bb870
 title: Emacs Shortcuts for org-mode
 ---

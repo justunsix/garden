@@ -45,13 +45,14 @@ title: Software Snippets
 - [Fish shell Snippets](/garden/notes/005-computer-snippets-linux-fish)
 - [Flatpak Snippets](/garden/notes/005-computer-snippets-flatpak)
 - [Fold and fmt Snippets](/garden/notes/005-computer-snippets-fold-fmt)
+- [FreeBSD Snippets](/garden/notes/005-computer-snippets-freebsd)
 - [fzf fuzzy finder Snippets](/garden/notes/005-computer-snippets-fzf)
 - [GDB and LLDB
   Snippets](/garden/notes/005-computer-snippets-gdb-lldb-gnu-debugger)
 - [Git branch worktree
   Snippets](/garden/notes/005-computer-snippets-git-branch-worktree)
-- [GitHub CLI Snippets](/garden/notes/005-computer-snippets-github-cli)
 - [Git Snippets](/garden/notes/005-computer-snippets-git)
+- [GitHub CLI Snippets](/garden/notes/005-computer-snippets-github-cli)
 - [GNU Coreutils Snippets](/garden/notes/005-computer-snippets-gnu-coreutils)
 - [GNU Findutils Snippets](/garden/notes/005-computer-snippets-gnu-findutils)
 - [GNU Info Snippets](/garden/notes/005-computer-snippets-info)
@@ -63,17 +64,18 @@ title: Software Snippets
 - [grex Snippets](/garden/notes/005-computer-snippets-grex)
 - [Helix Snippets](/garden/notes/005-computer-snippets-helix)
 - [Helm Snippets](/garden/notes/005-computer-snippets-helm)
-- [JavaScript Snippets](/garden/notes/005-computer-snippets-javascript)
 - [Java Snippets](/garden/notes/005-computer-snippets-java)
+- [JavaScript Snippets](/garden/notes/005-computer-snippets-javascript)
 - [Jujutsu-jj Snippets](/garden/notes/005-computer-snippets-jujutsu-jj)
-- [Kamal Snippets](/garden/notes/005-tech-snippets-kamal)
+- [Kamal Snippets](/garden/notes/005-computer-snippets-kamal)
 - [Kokoro TTS Snippets](/garden/notes/005-computer-snippets-kokoro-tts)
-- [KQL Snippets](/garden/notes/005-tech-snippets-kql)
+- [KQL Snippets](/garden/notes/005-computer-snippets-kql)
 - [kubectl, oc Openshift, Other K8s related command
   Snippets](/garden/notes/005-computer-snippets-kubectl-oc-kube)
 - [Linux Clipboard xsel,
   wl-clipboard](/garden/notes/005-computer-snippets-linux-clipboard-xsel-wl-clipboard)
-- [Lisp Snippets](/garden/notes/005-computer-snippets-lisp)
+- [Linux firmware update fwupd
+  Snippets](/garden/notes/005-computer-snippets-linux-firmware-update-fwupd)
 - [Locate Snippets](/garden/notes/005-computer-snippets-locate)
 - [Lua Snippets](/garden/notes/005-computer-snippets-lua)
 - [Lynx Snippets](/garden/notes/005-computer-snippets-lynx)
@@ -86,10 +88,11 @@ title: Software Snippets
 - [mise-en-place Snippets](/garden/notes/005-computer-snippets-mise-en-place)
 - [mpocs Snippets](/garden/notes/005-computer-snippets-mprocs)
 - [mpv Snippets](/garden/notes/005-computer-snippets-mpv)
+- [Nano Shortcuts](/garden/notes/005-computer-shortcuts-nano)
 - [Neovim Snippets](/garden/notes/005-computer-snippets-neovim)
 - [Nix Snippets](/garden/notes/005-computer-snippets-nix)
-- [npm - Node Package
-  Manager](/garden/notes/005-computer-snippets-node-package-manager-npm-npx)
+- [Node Package Manager - npm, Performant npm
+  (pnpm)](/garden/notes/005-computer-snippets-node-package-manager-npm-npx-pnpm)
 - [Nushell Snippets](/garden/notes/005-computer-snippets-nushell)
 - [nvm - Node Version
   Manager](/garden/notes/005-computer-snippets-nvm-node-version-manager)

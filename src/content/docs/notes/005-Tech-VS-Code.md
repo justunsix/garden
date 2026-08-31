@@ -96,7 +96,7 @@ it off by turning off the screen reader detection on the bottom toolbar.
   it and run Find File References command.
 
 - Run Find All References on the file part of a link to a Markdown file,
-  such as [text](A-Main-Note.md).
+  such as [text](A-Main-Note-Index-Privhs.md).
 
 - Support [finding all places where a given URL is
   used](https://code.visualstudio.com/updates/v1_67#_markdown-find-all-references-to-urls)

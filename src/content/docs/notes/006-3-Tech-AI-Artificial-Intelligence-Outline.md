@@ -1,35 +1,44 @@
 ---
 filetags: ":artificial-intelligence:ai:index:epubnote:"
 id: bfe7af6c-9a91-4f3e-a98c-60ed67b8285a
-title: Artificial Intelligence (AI)
+title: Artificial Intelligence (AI) Outline
 ---
 
 ## See Also
 
+- [Use Cases of AI](/garden/notes/006-3-tech-ai-use-cases)
+- [Stoicism and
+  AI](/garden/notes/158-psychology-applied-health-mental-stoicism-ai)
+
+### Tools and Development
+
 - [AI Code and Productivity
   Tools](/garden/notes/006-3-tech-ai-code-productivity-tools)
 - [AI Code Editor
-  Integratation](/garden/notes/006-3-tech-ai-code-productivity-tools-editor-integration)
+  Integretion](/garden/notes/006-3-tech-ai-code-productivity-tools-editor-integration)
+- [LangChain and AI
+  Development](/garden/notes/006-3-tech-ai-artificial-intelligence-langchain)
+
+### Models and Prompts
+
 - [AI Models](/garden/notes/006-3-tech-ai-models)
 - [AI Prompts](/garden/notes/006-3-tech-ai-prompts)
 - [Artificial Intelligence (AI) Agents](/garden/notes/006-3-tech-ai-agents)
 - [Audio Subtitles and OpenAI
   Whisper](/garden/notes/006-3-tech-ai-audio-subtitles-whisper)
+- [Text to Speech (TTS) and Speech to Text
+  (STT)](/garden/notes/004-data-processing-tech-data-science-text-to-speech-tts-speech-to-text-stt)
+- [Cognitive Computing](/garden/notes/006-3-tech-cognitive-computing)
+
+### Systems
+
 - [Build a Local Artificial Intelligence
   System](/garden/notes/006-3-tech-ai-artificial-intelligence-build-local-ai-system)
-- [Cognitive Computing](/garden/notes/006-3-tech-cognitive-computing)
-- [LangChain and AI
-  Development](/garden/notes/006-3-tech-ai-artificial-intelligence-langchain)
 - [Local AI with Retrieval Augmented Generation (RAG) using Open WebUI
   and
   Ollama](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag-local-open-webui-ollama)
-- [Use Cases of AI](/garden/notes/006-3-tech-ai-use-cases)
 - [Retrieval Augmented Generation
   (RAG)](/garden/notes/006-3-tech-ai-retrieval-augmented-generation-rag)
-- [Stoicism and
-  AI](/garden/notes/158-psychology-applied-health-mental-stoicism-ai)
-- [Text to Speech (TTS) and Speech to Text
-  (STT)](/garden/notes/004-data-processing-tech-data-science-text-to-speech-tts-speech-to-text-stt)
 - [Vector Database](/garden/notes/006-3-tech-ai-vector-database)
 
 ### Learning

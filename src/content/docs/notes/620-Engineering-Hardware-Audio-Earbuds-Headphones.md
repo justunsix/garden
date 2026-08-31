@@ -42,8 +42,8 @@ manual](https://support.skullcandy.com/hc/en-ca/articles/1500012914882-Skullcand
 
 - Turn off and on: put in / take out from case
   - Manually turn off: press both buds for 4 seconds
-- Pair to new device: take buds out of case, press either bud for 4
-  seconds, wait and pair
+- Pair to new device: press boths buds for 4 seconds, wait for power on
+  and "pairing" sound
 - Play / pause / Take call / end call: press either bud once
 - Device assistant: either bud x 3
 - Volume up / down: up: right bud twice / down: left bud twice

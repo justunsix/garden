@@ -6,11 +6,13 @@ title: Technology
 
 ### See Also
 
+- [Agile Development](/garden/notes/005-computer-tech-dev-agile) - :roam:
 - [Amazon AWS Technology](/garden/notes/004-67-tech-amazon)
-- [Artificial Intelligence](/garden/notes/006-3-tech-ai-artificial-intelligence)
+- [Artificial
+  Intelligence](/garden/notes/006-3-tech-ai-artificial-intelligence-outline)
 - [Cognitive Computing](/garden/notes/006-3-tech-cognitive-computing)
-- [Database](/garden/notes/005-tech-database)
 - [Data Science](/garden/notes/004-data-processing-tech-data-science)
+- [Database](/garden/notes/005-tech-database)
 - [DevOps - Development and Operations](/garden/notes/005-computer-tech-devops)
 - [Digital Empathy
   Mapping](/garden/notes/158-psychology-applied-tech-digital-empathy-mapping)
@@ -38,8 +40,6 @@ title: Technology
 
 ### Tools, Programs, Software
 
-- [Free and/or Open Source Software
-  (FOSS)](/garden/notes/005-tech-free-open-source-software-foss)
 - [Astro web framework](/garden/notes/005-tech-astro-web)
 - [Audacity](/garden/notes/005-tech-audacity)
 - [Contributing to Open Source Software
@@ -47,7 +47,11 @@ title: Technology
 - [Cygwin](/garden/notes/005-tech-cygwin)
 - [Digital Presentations, Slide
   Shows](/garden/notes/006-7-tech-multimedia-digital-presentations-slide-show)
+- [Dotfiles (Configuration Files) for Free and/or Open Source Software
+  (FOSS)](/garden/notes/005-tech-free-open-source-software-foss-configuration-dotfiles)
 - [Emacs](/garden/notes/005-tech-emacs)
+- [Free and/or Open Source Software
+  (FOSS)](/garden/notes/005-tech-free-open-source-software-foss)
 - [Free and/or Open Source Software
   Licenses](/garden/notes/005-tech-free-open-source-software-foss-licenses)
 - [Ghostty Terminal Emulator](/garden/notes/005-tech-ghostty)
@@ -58,7 +62,7 @@ title: Technology
 - [KDE](/garden/notes/005-tech-kde)
 - [KDE Konsole](/garden/notes/005-tech-konsole)
 - [Kdenlive](/garden/notes/005-tech-kdenlive)
-- [KeePassXC](/garden/notes/005-tech-local-keepassxc)
+- [KeePassXC](/garden/notes/005-computer-snippets-keepassxc)
 - [Kubernetes](/garden/notes/005-tech-kubernetes)
 - [Language Server Protocol
   (LSP)](/garden/notes/005-tech-language-server-protocol-lsp)

@@ -8,7 +8,8 @@ title: How to Install Google Ads Editor on Wine
 
 Follow the instructions below with Wine which use the MSI installer,
 install extra fonts with `winetricks`, and run the editor executable.
-Requires 64-bit install of `wine` and `winetricks`.
+Requires 64-bit install of `wine` and `winetricks`. Last tested in
+November 2025.
 
 ``` shell
 
@@ -21,7 +22,7 @@ export WINEARCH="win64"
 
 # Download latest MSI version of the Google Ads Editor
 curl https://dl.google.com/adwords_editor/google_ads_editor.msi -o ~/Downloads/google_ads_editor.msi
-# URL and unability for msi to upgrade itself explained https://support.google.com/google-ads/thread/43692618/is-there-am-msi-installer-google-ads-editor?hl=en
+# URL and inability for msi to upgrade itself explained https://support.google.com/google-ads/thread/43692618/is-there-am-msi-installer-google-ads-editor?hl=en
 
 # Open config and set to latest version of Windows
 wine winecfg

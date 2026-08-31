@@ -8,6 +8,9 @@ title: Tabby - Open source self hosted AI coding assistant
 
 Source: <https://tabby.tabbyml.com/docs/welcome/>
 
+Strengths of Tabby are local AI integration in IDEs like VS Code,
+Intellij, (n)vim, performance friendly for CPU or GPU use.
+
 - Runs locally, integration with editor
 - Can choose models for different tasks
 - Web server shoes stats, config,
@@ -15,8 +18,6 @@ Source: <https://tabby.tabbyml.com/docs/welcome/>
     suggestions
   - Chat interface
   - Code browser: indexed files in tabby, ask tabby
-- Strengths: Integration in IDEs like VS Code, Intellij, (n)vim,
-  performance friendly
 
 ### Usage
 

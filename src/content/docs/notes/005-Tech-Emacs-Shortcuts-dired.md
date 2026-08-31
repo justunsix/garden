@@ -90,7 +90,7 @@ YouTube](https://youtu.be/-qo2Ai3pZRk?t=504) \|
 | Execute program on file (e.g. cat) | ! or & |
 | Move/rename file, respect VCS like git mv (move) | S-r , dired-do-rename |
 | Open, Edit file | RET |
-| Open file in other window | o |
+| Open file in other window | o, dired-display-file |
 | Open file in other window without focusing on it | M-o/RET |
 | Open with External Program | dired-do-open or S-w |
 | Open with local browser | browse-url-of-dired-file, S-w |

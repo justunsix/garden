@@ -6,7 +6,7 @@ title: Integrated Development Environment (IDE) and Artificial
   Intelligence (AI)
 ---
 
-Integrated Development Environments (IDE) bring together many tools for
+Integrated Development Environments (IDE) bring together tools for
 users. These tools help users interact with and created \[fn:1\]:
 
 - Editing

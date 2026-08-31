@@ -26,6 +26,8 @@ title: Microsoft Technology Microsoft Power Platform Notes Microsoft
 
 - [AI
   Fundamentals](/garden/notes/006-3-tech-microsoft-ai-artificial-intelligence-fundamentals)
+- [Azure Open Source Day
+  2023](/garden/notes/004-67-tech-microsoft-azure-open-source-day-2023)
 - [Cloud Adoption Framework
   (CAF)](id:661671e6-5811-4e12-85e0-06e99018716f) ([Cloud Adoption
   Framework](/garden/notes/004-67-tech-microsoft-cloud-adoption-framework))
@@ -33,8 +35,8 @@ title: Microsoft Technology Microsoft Power Platform Notes Microsoft
 - [DevOps with GitHub - Secure
   Development](/garden/notes/005-8-tech-microsoft-devops-github-secure-development) -
   How to develop securely in the cloud
-- [Microsoft Build 2026](/garden/notes/005-tech-microsoft-build-2026)
 - [Microsoft Build 2023](/garden/notes/005-tech-microsoft-build-2023)
+- [Microsoft Build 2026](/garden/notes/005-tech-microsoft-build-2026)
 - [Microsoft Developer Day 2026 at
   Work](/garden/notes/005-tech-microsoft-developer-day-at-work-2026) -
   Data science flows and artificial intelligence platforms and AI

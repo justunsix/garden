@@ -5,6 +5,8 @@ id: 49a764b2-86b1-4389-9b7f-a9a56655d901
 title: User Experience Design (UX) in OPS Hackathon 2023-12-15
 ---
 
+Source: My personal notes from work Hackathon
+
 ## What is UX
 
 - All aspects of a end user experience
