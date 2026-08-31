@@ -5,7 +5,8 @@ id: ae9f8a55-bb7e-4844-95c9-09e3d9cb2bb0
 title: ProtonDB Fixes to Games
 ---
 
-Fixes applied to games running on Ubuntu GNU Linux operating system.
+Fixes applied to games running on Ubuntu and NixOS GNU Linux operating
+system.
 
 ## Act of Aggression
 
