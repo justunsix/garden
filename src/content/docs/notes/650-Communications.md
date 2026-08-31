@@ -19,6 +19,7 @@ title: Management and public relations (Business, career,
   Facebook groups
 - [Teleconference
   commands](/garden/notes/004-data-processing-comms-teleconference-commands)
+- [Work Places](/garden/notes/650-business-work)
 
 ### Inclusion
 
