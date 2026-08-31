@@ -51,9 +51,9 @@ Software:
 - Optional:
   [https://www.freecodecamp.org/learn/data-analysis-with-python/](https://www.freecodecamp.org/learn/data-analysis-with-python/)
 - [x] Real use cases
-  - Search and replace text - Google Ads Fawcett Tree Removal csv data
+  - Search and replace text - Google Ads campaign csv data
   - [x] Find string, extract rows with string - Finding row for a
     solution in solutions detail and extracting row
-  - [x] ADDS reporting domains
+  - [x] Reporting domains
     - Filter unfinished domains
-    - Popular Beausoleil domain information
+    - Popular domain information
