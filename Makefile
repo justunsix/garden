@@ -12,9 +12,6 @@ create: ## Create Astro project and config ESLint
 install: ## Install all dependencies
 	pnpm install
 
-run-dev: build ## Build and run Astro development site
-	deno run dev
-
 check-eslint: ## Check project files with ESLint
 	pnpm dlx eslint ./*.js
 
@@ -30,5 +27,8 @@ upgrade-astro: ## Upgrade Astro and official integrations
 build: ## Build site
 	pnpm run build
 
+run-dev: build ## Build and run Astro development site
+	deno run dev
+
 run-preview: build ## Build and preview site
-	pnpm preview
+	deno run preview
