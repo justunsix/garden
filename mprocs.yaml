@@ -2,6 +2,9 @@ procs:
   build:
     autostart: false
     shell: make build
+  check-astro:
+    autostart: false
+    shell: make check-astro
   check-eslint:
     autostart: false
     shell: make check-eslint
@@ -14,12 +17,12 @@ procs:
   install:
     autostart: false
     shell: make install
-  preview:
-    autostart: false
-    shell: make preview
   run-dev:
     autostart: false
     shell: make run-dev
+  run-preview:
+    autostart: false
+    shell: make run-preview
   update:
     autostart: false
     shell: make update
