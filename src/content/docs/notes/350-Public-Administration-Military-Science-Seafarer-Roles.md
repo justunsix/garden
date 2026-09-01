@@ -14,39 +14,27 @@ Departments: Deck, Engine, Steward, Support
 
 ## Deck department
 
-Chief mate (First mate) - cargo, supervision, safety and security
-
-Second mate - watch, bridge team, navigation, assisting cargo
-
-Third mate - navigation, safety
-
-Deck cadet - learning mate duties
-
-Boatswain (Bosum) - unlicensed, directing the able seamen and ordinary
-seamen
-
-Able seaman - ship mooring, navigational watch, helmsman
-
-Ordinary seaman - assisting able seaman
+- Chief mate (First mate) - cargo, supervision, safety and security
+- Second mate - watch, bridge team, navigation, assisting cargo
+- Third mate - navigation, safety
+- Deck cadet - learning mate duties
+- Boatswain (Bosum) - unlicensed, directing the able seamen and ordinary
+  seamen
+- Able seaman - ship mooring, navigational watch, helmsman
+- Ordinary seaman - assisting able seaman
 
 ## Engine department
 
-Engineering officers - ship and the machinery running, electrical,
-propulsion, garbage and sewage
-
-Chief engineer - manage engine department, machinery and equipment
-
-Second engineer - supervising the daily maintenance and operation of the
-engine department, engine control room
-
-Third engineer - boilers, fuel, auxiliary engines, condensate and feed
-systems
-
-Fourth engineer - assist
-
-Trainee marine engineer - assist
-
-Other: motorman, oiler, wiper
+- Engineering officers - ship and the machinery running, electrical,
+  propulsion, garbage and sewage
+- Chief engineer - manage engine department, machinery and equipment
+- Second engineer - supervising the daily maintenance and operation of
+  the engine department, engine control room
+- Third engineer - boilers, fuel, auxiliary engines, condensate and feed
+  systems
+- Fourth engineer - assist
+- Trainee marine engineer - assist
+- Other: motorman, oiler, wiper
 
 ## Electro-technical department
 
@@ -73,16 +61,12 @@ proper storage and preparation of food
 The lieutenants were commissioned officers immediately subordinate to
 the captain
 
-Sailing master - navigation of sailing
-
-Captain of marines - command marines on ship
-
-Purser - administration, ship supplies (food and drink, clothing,
-bedding, candles, money)
-
-Surgeon - medical officer, assisted by surgeon's mates
-
-Chaplain - religious services
+- Sailing master - navigation of sailing
+- Captain of marines - command marines on ship
+- Purser - administration, ship supplies (food and drink, clothing,
+  bedding, candles, money)
+- Surgeon - medical officer, assisted by surgeon's mates
+- Chaplain - religious services
 
 ## Standing officers
 
@@ -103,17 +87,12 @@ responsibility aboard ship. Six master's mates
 
 ## Senior petty officers
 
-Midshipman - master's mates
-
-Clerk - administrative work
-
-Armourer - maintained and repaired small weapons on the ship.
-
-Caulker - maintained and repair caulking of the ship's hull.
-
-Ropemaker - made, maintained and repaired ropes
-
-Master-at-arms - discipline aboard ship, assisted by corporals
+- Midshipman - master's mates
+- Clerk - administrative work
+- Armourer - maintained and repaired small weapons on the ship.
+- Caulker - maintained and repair caulking of the ship's hull.
+- Ropemaker - made, maintained and repaired ropes
+- Master-at-arms - discipline aboard ship, assisted by corporals
 
 ## Petty officers
 
