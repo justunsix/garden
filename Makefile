@@ -19,7 +19,7 @@ check-astro: ## Running type checking and diagnostics in Astro projects
 	pnpm dlx astro check
 	
 update: ## Update dependencies
-	pnpm update --latest
+	pnpm update
 
 upgrade-astro: ## Upgrade Astro and official integrations
 	npx @astrojs/upgrade
