@@ -104,18 +104,18 @@ Plant surrounded by soil
 
 Weeding of invasive species:
 
-- Garlic mustard (2026-05) - cut off flowering small stems
+- Bedstraw
+- Burdock
+- Creeping thistle - sword like leaves, pull at root
 - Dog strangling vine (DSV) - opposite leaves with deep roots, use
   trowels
-- Creeping thistle - sword like leaves, pull at root
-- Bedstraw
-- Motherswort - woody with square stem
-- Burdock
-- Lady's thumb - pink flowers, symmetric red stem, around wetland
-- Queen Anne's Lace - parsley, large white flowers
 - Erect hedge parsley
-- Phragmites
 - European cocklebur - similar to burdock
+- Garlic mustard (2026-05) - cut off flowering small stems
+- Lady's thumb - pink flowers, symmetric red stem, around wetland
+- Motherswort - woody with square stem
+- Phragmites
+- Queen Anne's Lace - parsley, large white flowers
 
 Observation of invasive species
 
@@ -123,13 +123,16 @@ Observation of invasive species
 
 Observation of native species
 
-- May apple
+- Bats
 - Black current
+- Bug bush - ends looks like COVID virus ball
+- Bumble bee
+- Dragonfly
+- Elder berry
+- Fruit bushes
+- May apple
 - Nests of birds, Baltimore oriole, wwallow
 - Rabbits
-- Bug bush - ends looks like COVID virus ball
-- Dragonfly
-- Bumble bee
 
 Safety
 
