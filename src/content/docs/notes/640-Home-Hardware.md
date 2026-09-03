@@ -7,8 +7,8 @@ title: Home Hardware and Improvement
 ## See Also
 
 - [Home Bathroom Toilet](/garden/notes/640-home-hardware-bathroom-toilet)
-- [Home Bathroom - Remove a Sink
-  Stopper](/garden/notes/640-home-hardware-bathroom-sink-stopper-removal)
+- [Home Bathroom - Remove a Sink Stopper and Cleaning Stopper and
+  Drain](/garden/notes/640-home-hardware-bathroom-sink-stopper-removal)
 
 ## External Links
 
