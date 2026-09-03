@@ -155,10 +155,12 @@ are available.
 
 ## See Also
 
-- [Nix Guides and Information](/garden/notes/005-tech-nix-nixos-guides)
+- [devenv - Development and CI
+  Environments](/garden/notes/005-tech-nix-devops-devenv)
+- [Install NixOS](/garden/notes/005-tech-nix-nixos-install)
 - [Nix and Poetry for Python App
   Packaging](/garden/notes/005-tech-nix-and-poetry-for-python-app-packaging)
-- [Install NixOS](/garden/notes/005-tech-nix-nixos-install)
+- [Nix Guides and Information](/garden/notes/005-tech-nix-nixos-guides)
 
 ## External Links
 

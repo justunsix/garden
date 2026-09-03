@@ -4,7 +4,7 @@ id: 556033f7-4401-412d-abbb-1fbc854c49fd
 title: Rust Optimization Tips
 ---
 
-Assess when and where there are performance optimizations \[fn:1\].
+Assess when and where there are performance optimizations [^1].
 
 ## General Optimizations
 
@@ -70,5 +70,5 @@ fn end_session(sessions: &mut Vec<Session>, idx: usize) {
 
 ## References
 
-- \[fn:1\] [Let's Get Rusty-BLAZINGLY FAST Rust Optimizations -
-  YouTube](https://www.youtube.com/watch?v=r_VoEa8HlPk)
+[^1]: [Let's Get Rusty-BLAZINGLY FAST Rust Optimizations -
+    YouTube](https://www.youtube.com/watch?v=r_VoEa8HlPk)

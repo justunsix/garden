@@ -24,6 +24,17 @@ cargo binstall atuin
 # Uninstall a package
 cargo uninstall cargo-update
 
+# Managing Packages
+
+# Search for a package
+cargo search rayon
+
+# Add a package to the project
+cargo add rand
+
+# Get information on a package
+cargo info rand
+
 ```
 
 ### Programming with cargo and rustc

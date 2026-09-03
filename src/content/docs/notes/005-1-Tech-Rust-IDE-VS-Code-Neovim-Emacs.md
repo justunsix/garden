@@ -7,11 +7,10 @@ title: Rust Integrated Development Environment (IDE) with VS Code,
 ---
 
 This article describes setting up a Rust language integrated development
-environment on VS Code \[fn:1\], Neovim \[fn:2\], and Emacs \[fn:3\]
-\[fn:5\]. The structure of the article and wording follows [Rust in
-Visual Studio Code](https://code.visualstudio.com/docs/languages/rust)
-and attribution to VS Code contributors for the structure of their
-documentation.
+environment on VS Code [^1], Neovim [^2], and Emacs [^3] [^4]. The
+structure of the article and wording follows [Rust in Visual Studio
+Code](https://code.visualstudio.com/docs/languages/rust) and attribution
+to VS Code contributors for the structure of their documentation.
 
 ## Introduction
 
@@ -71,7 +70,7 @@ Description of rust components installed:
   "[rust-analyzer](https://github.com/rust-lang/rust-analyzer) is an
   implementation of Language Server Protocol for the Rust programming
   language. It provides features like completion and goto definition for
-  many code editors, including VS Code, Emacs and Vim \[fn:4\]"
+  many code editors, including VS Code, Emacs and Vim [^5]"
 
 Keep your Rust installation up to date with the latest version by
 running:
@@ -87,6 +86,29 @@ a good habit.
 
 Restart any terminal and other development program instances to get the
 updated `PATH`.
+
+### Other Options for Development Environment Setup
+
+Use [devenv - Development and CI
+Environments](/garden/notes/005-tech-nix-devops-devenv) to install a
+development environment or manual installs as explained above [^6]. [No
+Boilerplate](https://www.namtao.com/) also suggests these other items in
+the Rust development stack and opinionated configurations [^7]:
+
+- [cargo-seek](https://crates.io/crates/cargo-seek) - search crates.io
+  TUI, manage crates in current project
+- [clippy](https://doc.rust-lang.org/stable/clippy/index.html) - code
+  checker with [Cargo.toml
+  configuration](https://www.namtao.com/rust-toolkit-2026/#clippy-config)
+- [bacon](https://crates.io/crates/bacon) - background rust compiler
+  that watches your project and run jobs
+- [cargo-nextest](https://crates.io/crates/cargo-nextest) - fast test
+  runner for Rust, check and manage tests
+- [cargo-generate](https://crates.io/crates/cargo-generate) - create
+  cargo projects from templates
+- [watchexec](https://crates.io/crates/watchexec) - execute commands in
+  response to file modifications, for example clippy, test, run or any
+  commands
 
 ## Rust in Visual Studio Code, Neovim or Emacs
 
@@ -394,8 +416,8 @@ support including dealign with common issues and install problems.
 ## Appendix: Emacs and Rust Development
 
 Description of IDE functions to Emacs packages from Doom Emacs rust
-module \[fn:3\] and Robert Krahn's post about configuring Emacs for Rust
-\[fn:5\]
+module [^8] and Robert Krahn's post about configuring Emacs for Rust
+[^9]
 
 - Language support: `rustic` extends `rust-mode` for highlights,
   compilation, cargo commands
@@ -426,13 +448,31 @@ module \[fn:3\] and Robert Krahn's post about configuring Emacs for Rust
 
 ## References
 
-- \[fn:1\] [Rust in Visual Studio
-  Code](https://code.visualstudio.com/docs/languages/rust)
-- \[fn:2\] [Rust \| LazyVim](https://www.lazyvim.org/extras/lang/rust)
-- \[fn:3\] [doomemacs/modules/lang/rust/README.org at master ·
-  doomemacs/doomemacs ·
-  GitHub](https://github.com/doomemacs/doomemacs/blob/master/modules/lang/rust/README.md)
-- \[fn:4\] [rust-lang/rust-analyzer: A Rust compiler front-end for IDEs
-  · GitHub](https://github.com/rust-lang/rust-analyzer)
-- \[fn:5\] [Configuring Emacs for Rust
-  Development](https://robert.kra.hn/posts/rust-emacs-setup/)
+[^1]: [Rust in Visual Studio
+    Code](https://code.visualstudio.com/docs/languages/rust)
+
+[^2]: [Rust \| LazyVim](https://www.lazyvim.org/extras/lang/rust)
+
+[^3]: [doomemacs/modules/lang/rust/README.org at master ·
+    doomemacs/doomemacs ·
+    GitHub](https://github.com/doomemacs/doomemacs/blob/master/modules/lang/rust/README.md)
+
+[^4]: [Configuring Emacs for Rust
+    Development](https://robert.kra.hn/posts/rust-emacs-setup/)
+
+[^5]: [rust-lang/rust-analyzer: A Rust compiler front-end for IDEs ·
+    GitHub](https://github.com/rust-lang/rust-analyzer)
+
+[^6]: [Configuring Emacs for Rust
+    Development](https://robert.kra.hn/posts/rust-emacs-setup/)
+
+[^7]: [My 2026 Rust Toolkit - No Boilerplate -
+    YouTube](https://www.youtube.com/watch?v=jlWnoRsGJNQ) and [My 2026
+    Rust Toolkit - namtao](https://www.namtao.com/rust-toolkit-2026/)
+
+[^8]: [doomemacs/modules/lang/rust/README.org at master ·
+    doomemacs/doomemacs ·
+    GitHub](https://github.com/doomemacs/doomemacs/blob/master/modules/lang/rust/README.md)
+
+[^9]: [Configuring Emacs for Rust
+    Development](https://robert.kra.hn/posts/rust-emacs-setup/)

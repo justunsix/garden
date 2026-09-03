@@ -23,6 +23,7 @@ title: Software Snippets
 - [ClamAV Snippets](/garden/notes/005-computer-snippets-clamav)
 - [ctags Snippets](/garden/notes/005-computer-snippets-ctags)
 - [curl Snippets](/garden/notes/005-computer-snippets-curl)
+- [devenv Snippets](/garden/notes/005-computer-snippets-devenv)
 - [DevPod snippets - reproducible developer
   environments](/garden/notes/005-computer-snippets-devpod)
 - [DNF-YUM Snippets](/garden/notes/005-computer-snippets-dnf-yum)
@@ -51,8 +52,8 @@ title: Software Snippets
   Snippets](/garden/notes/005-computer-snippets-gdb-lldb-gnu-debugger)
 - [Git branch worktree
   Snippets](/garden/notes/005-computer-snippets-git-branch-worktree)
-- [Git Snippets](/garden/notes/005-computer-snippets-git)
 - [GitHub CLI Snippets](/garden/notes/005-computer-snippets-github-cli)
+- [Git Snippets](/garden/notes/005-computer-snippets-git)
 - [GNU Coreutils Snippets](/garden/notes/005-computer-snippets-gnu-coreutils)
 - [GNU Findutils Snippets](/garden/notes/005-computer-snippets-gnu-findutils)
 - [GNU Info Snippets](/garden/notes/005-computer-snippets-info)
@@ -64,8 +65,8 @@ title: Software Snippets
 - [grex Snippets](/garden/notes/005-computer-snippets-grex)
 - [Helix Snippets](/garden/notes/005-computer-snippets-helix)
 - [Helm Snippets](/garden/notes/005-computer-snippets-helm)
-- [Java Snippets](/garden/notes/005-computer-snippets-java)
 - [JavaScript Snippets](/garden/notes/005-computer-snippets-javascript)
+- [Java Snippets](/garden/notes/005-computer-snippets-java)
 - [Jujutsu-jj Snippets](/garden/notes/005-computer-snippets-jujutsu-jj)
 - [Kamal Snippets](/garden/notes/005-computer-snippets-kamal)
 - [Kokoro TTS Snippets](/garden/notes/005-computer-snippets-kokoro-tts)
