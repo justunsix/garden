@@ -5,6 +5,23 @@ id: 60d1c07a-22b6-40bb-99ee-274feab9cd20
 title: GNU Coreutils Snippets
 ---
 
+## basename - strip directory and suffix from filenames
+
+``` shell
+
+# Show only the file name from a path
+basename path/to/file
+
+# Show only the rightmost directory name from a path, in this case directory
+basename path/to/directory
+
+# Show only the file name from a path, with a suffix removed
+basename path/to/file suffix
+# returns script
+basename path/to/script.sh .sh
+
+```
+
 ## cat - concatenate
 
 ``` shell

@@ -54,6 +54,30 @@ Review @README.md#5-10
 
 ```
 
+## Agents
+
+See document for list of [specialized AI
+assistants](https://opencode.ai/docs/agents/)
+
+``` shell
+
+# Build - default primary agent
+# - Tools - all
+# - Access - all system commands, file access
+@build
+
+# Plan - for planning and analysis
+# - Permisions - ask
+@plan
+
+# General - general purpose sub-agent for research, questions, multi-step tasks
+# - Tools - all except todo
+# - Files - access
+@general
+@general search for this function
+
+```
+
 ## Command Line Interface (CLI)
 
 ``` shell

@@ -25,11 +25,12 @@ Search directly in other search engines [^1].
 | Name             | Shortcuts |
 |------------------|-----------|
 | Arch Linux Wiki  | !aw       |
-| Nixos Wiki       | !nixos    |
 | Bing             | !b        |
+| Crates.io (Rust) | !cargo    |
 | Google           | !g        |
 | Internet Archive | !ia       |
 | NixOS Packages   | !nixpkg   |
+| Nixos Wiki       | !nixos    |
 | Reddit           | !reddit   |
 | Spotify          | !spy      |
 | StartPage        | !s or !sp |

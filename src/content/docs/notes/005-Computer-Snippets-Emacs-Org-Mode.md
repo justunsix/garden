@@ -157,6 +157,17 @@ curl https://jsonplaceholder.typicode.com/todos/1
   DESCRIBE `some_table`;
 #+end_src
 
+# Org Babel Tangle - output source code to a file with org-babel-tangle
+# https://orgmode.org/manual/Extracting-Source-Code.html
+# :tangle FILENAME - output code to file name
+# :mkdirp - Create parent directories for tangled files if the directory does not exist
+#+begin_src html :tangle ~/temp/bookmarks.html :mkdirp yes
+
+<a href="https://ciut.fm/">Radio UofT 89.5FM University of Toronto Campus and Community Radio</a>
+<a href="https://nixmultiverse.com/">Official NixOS Wiki</a>
+
+#+end_src
+
 ```
 
 The following sections shows babel examples and results in org-mode
