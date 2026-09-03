@@ -97,7 +97,9 @@ From Feral's support feedback:
 Had to apply these fixes or check [ProtonDB for updated
 fixes](https://www.protondb.com/app/1084160)
 
-### Initial game launch
+### Initial game launch, NVIDIA GPU related
+
+Should work out of box if using AMD. NVIDIA GPU fix:
 
 <https://www.protondb.com/app/1084160#vf74V81EyK>
 
@@ -128,6 +130,26 @@ Windowing:Size
   apply and then switch back to "Windowed fullscreen". This will fix the
   clicks.
 - Needs to be done after every restart.
+
+Alternatively, press Alt-Enter twice on the Main Menu on startup for
+fullscreen to work
+
+### LocalStorage.lua fix
+
+<https://www.protondb.com/app/1084160#Vigsv-3wZU>
+
+Go to:
+`~/.local/share/Steam/steamapps/compatdata/1084160/pfx/drive_c/users/steamuser/AppData/Roaming/Jagged Alliance 3/`
+
+Edit `LocalStorage.lua`
+
+Add/Edit inside Options = {… }:lua FullscreenMode = 0, SSR = "Off",
+VideoPreset = "Custom",
+
+#### Windowing:Activating Fullscreen
+
+You have to press Alt-Enter twice on the Main Menu on startup for
+fullscreen to work
 
 ## Total Warhammer 3
 
@@ -162,7 +184,6 @@ during initial game run.
 - Mechwarrior 5 Mercenaries
 - Sins of a Solar Empire 1, 2
 - SpellForce Conquest of Eo
-- Star Wars Squadrons
 - Stellaris
 - Tempest Rising
 - Total War: Pharaoh, Troy, Three Kingdoms, Warhammer 3 (Native), Attila
@@ -182,6 +203,7 @@ during initial game run.
 - Battletech
 - Homeworld 3
 - Marvel's Midnight Suns
+- Star Wars Squadrons
 - Titanfall 2 - requires log in to EA app during launch
 - X COM Chimera Squad
 
