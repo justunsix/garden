@@ -136,6 +136,10 @@ site](https://alternativeto.net/browse/).
 - [DevDocs](https://github.com/freeCodeCamp/devdocs/) - API
   Documentation Browser for online and offline, including programming
   languages, APIs and others
+- [devenv](https://devenv.sh/) - Define packages, languages, services,
+  tasks, secrets, and tooling once. Gives developers and continuous
+  integration (CI) fast, reproducible environments. Requires Nix package
+  manager.
 - Drupal - web content management system (CMS) written in PHP and
   distributed under the GNU General Public License
 - [Espanso](https://espanso.org/) - Privacy-first, cross-platform text
@@ -309,6 +313,13 @@ site](https://alternativeto.net/browse/).
 
 ### Gaming Software
 
+- [EmuDeck](https://www.emudeck.com/) - installation script for setting
+  up emulation on the SteamOS platform. It provides pre-configured
+  official options for users, managing emulator installation,
+  configuration, bezels, hotkeys, and performance enhancements.
+- [Lemuroid](https://github.com/Swordfish90/Lemuroid) - emulation
+  project for Android based on Libretro with goal of ease of use,
+  Android integration and good user experience
 - [Lutris](https://github.com/lutris) - open gaming platform for Linux.
   Lutris helps you install and play video games from all eras and from
   most gaming systems
