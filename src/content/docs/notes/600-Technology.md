@@ -6,7 +6,7 @@ title: Technology
 
 ### See Also
 
-- [Agile Development](/garden/notes/005-computer-tech-dev-agile) - :roam:
+- [Agile](/garden/notes/005-computer-tech-dev-agile)
 - [Amazon AWS Technology](/garden/notes/004-67-tech-amazon)
 - [Artificial
   Intelligence](/garden/notes/006-3-tech-ai-artificial-intelligence-outline)

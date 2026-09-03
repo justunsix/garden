@@ -1,4 +1,5 @@
 ---
+filetags: ":development:agile:tech:epubnote:"
 id: ecbc6ad0-e868-4a07-80df-7e0bb7f497aa
 title: Agile
 ---
