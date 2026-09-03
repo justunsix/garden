@@ -67,10 +67,6 @@ inexpensive options and/or good price for portions.
 
 jd = near Yonge and Dundas in Toronto
 
-## Near Central Midtown
-
-- Gatherings
-
 ## Near North York Centre
 
 Yonge-Finch and Yonge-Shepperd areas
