@@ -9,6 +9,8 @@ title: Food and drink
 - [Chinese Dim Sum](/garden/notes/641-food-chinese-dim-sum)
 - [Comic Book Guide to Growing Food
   (Book)](/garden/notes/635-gardening-comic-book-guide-to-growing-food)
+- [Office and Transport Friendly Snack
+  Ideas](/garden/notes/641-food-office-and-transport-friendly-ideas-for-snacks)
 - [Cooking, Food, Recipes](/garden/notes/641-food-home-cooking-food-recipes)
 - [Espresso, Latte with Machine
   Preparation](/garden/notes/641-food-coffee-espresso-latte-machine-preparation)
