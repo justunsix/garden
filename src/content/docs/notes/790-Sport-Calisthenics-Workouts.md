@@ -76,6 +76,27 @@ Source: Formerly on www.aimfitness.ca
   complete?
 - **Week 4:** Wall sit - how long can you tolerate the pain?
 
+## Weights based workout
+
+Follow [LIFTOFF: Couch to Barbell
+(Book)](/garden/notes/613-health-safety-sport-weight-training-liftoff-couch-to-barbell-book)
+
+Example 5 movements total
+
+- Squats
+- Bench press or push ups For push ups, adapt the difficultly to your
+  comfort level with options like putting your hands on a raised bench,
+  hands on floor with knees down, push up holding weights
+- Deadlift
+- Row
+- Pull down/up
+
+Do 3 sets of each with 8 reps per movement. For squats, do 10 reps.
+Every session, increase weight gradually. See example weight increases
+in the Couch to Barbell book.
+
+Cool down - stretching, joint exercises
+
 ## Do Anywhere Tough Workout
 
 Source: Formerly on Livestrong.com article 15 toughest do anywhere
