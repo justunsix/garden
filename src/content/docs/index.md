@@ -96,6 +96,10 @@ Appleton](https://maggieappleton.com/)
 - [646 Sewing, clothing, management of personal and family
   life](/garden/notes/646-sewing)
 - [648 Housekeeping](/garden/notes/648-housekeeping)
+- [649 Child rearing; home care of people with disabilities and
+  illnesses](/garden/notes/649-home-care)
+  - [649.8 Home care of people with disabilities and
+    illnesses](/garden/notes/649-8-home-care-people-with-disabilities-illness)
 - [650 Management and public relations (Business, career,
   communications, marketing)](/garden/notes/650-communications)
 - [690 Construction of buildings](/garden/notes/690-construction-buildings)
