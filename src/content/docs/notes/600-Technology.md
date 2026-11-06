@@ -45,6 +45,8 @@ title: Technology
 - [Contributing to Open Source Software
   Tips](/garden/notes/005-tech-open-source-software-contributing-tips)
 - [Cygwin](/garden/notes/005-tech-cygwin)
+- [DBeaver - Universal Database
+  Management](/garden/notes/005-tech-dbeaver-universal-database-management)
 - [Digital Presentations, Slide
   Shows](/garden/notes/006-7-tech-multimedia-digital-presentations-slide-show)
 - [Dotfiles (Configuration Files) for Free and/or Open Source Software
@@ -119,6 +121,10 @@ title: Technology
 - [Termux](/garden/notes/005-tech-termux) - Mobile Android Linux like system
 - [XMonad](id:28926191-026e-4011-a51e-739713d8a0cb)
   ([Xmonad](/garden/notes/005-tech-xmonad))
+
+### BSD
+
+- [BSD](/garden/notes/005-tech-bsd)
 
 ## Infrastructure
 
