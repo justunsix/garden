@@ -12,7 +12,7 @@ games.
 
 ## Installation
 
-1.  Create the directory `/home/your_username/Games/myprogram/pfx`
+1.  Create the directory `/home/your_username/Games/myprogram`
     - Directory is the Proton prefix for the program(s) and can be used
       for troubleshooting in future.
     - The directory must be in a location with sufficient disk space for
@@ -37,15 +37,16 @@ games.
 7.  Go back into the program's settings in Steam and change the Target
     to the actual executable of the program. For example, the EA App on
     Windows would be
-    `/home/your_username/Games/ea/pfx/pfx/drive_c/Program Files/Electronic Arts/EA Desktop/EA Desktop/EADesktop.exe`
+    `/home/your_username/Games/EAGames/pfx/drive_c/Program Files/Electronic Arts/EA Desktop/EA Desktop/EADesktop.exe`
     - If you forget this step, every time you launch the app, it will
       run the installer instead of the target application.
 8.  Launch the program again and confirm it works.
 
 EA App workaround: If changing the target does not work after
-installation, keep using the installer exe file and choose repair.
-However, this step means you have to keep the installer exe file around
-for using the EA App in Steam.
+installation, keep using the installer exe file and choose Lauch EA App
+or Repair. This step seems to work 2025 and after. This step means you
+have to keep the installer exe file around for using the EA App in
+Steam.
 
 If having trouble launching games or find files, changes the "Target" to
 explorer and start the program. A Windows Explorer window should open

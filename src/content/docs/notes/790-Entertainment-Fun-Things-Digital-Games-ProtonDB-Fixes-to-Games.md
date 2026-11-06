@@ -32,29 +32,40 @@ and find the binary, launch the game from the binary
   - During Story Mode cut scenes, may need to press Enter to get
     rendering to work
 
-## FIFA 20, EA App installed Games
+## EA App installed Games like FIFA 20, Battlefront 2
 
 Works using installation of EA App described at [Running Windows
 Programs with Steam
 Proton](/garden/notes/790-entertainment-fun-things-digital-games-proton-running-windows-programs) -
 [Running Windows Programs with Steam
 Proton](id:dfa9ea92-4b56-4ded-9949-839511a987e1). Install the EA App,
-then install FIFA 20 inside the app and run the game. During first run,
-configure game settings like display resolution, then press the button
-to run. As the game's servers are turned off, the game will show a
-message the servers are down, but offline play is not affected.
+then install the game you want.
 
-To make it easier to launch FIFA, add a new non-Steam game. Use the same
-prefix as the EA App like these examples and set these settings for the
-Steam app:
+### EA App Installation example for FIFA 20
+
+For FIFA 20, install inside the app and run the game. During first run,
+configure game settings like display resolution, then press the button
+to run. The game will show a message the servers are down since servers
+are off, but offline play is not affected.
+
+To make it easier to launch an EA App game like FIFA, add a new
+non-Steam game. Use the same prefix as the EA App like these examples
+and set these settings for the Steam app:
 
 - Compatibility: Proton Experimental
-- Target: "/path/to/EAGames/pfx/pfx/drive<sub>c</sub>/Program Files/EA
+- Target: "/path/to/EAGames/pfx/drive<sub>c</sub>/Program Files/EA
   Games/FIFA 20/FIFA20.exe"
-- Start In: *path/to/EAGames/pfx/pfx/drive<sub>c</sub>/Program Files/EA
+- Start In: *path/to/EAGames/pfx/drive<sub>c</sub>/Program Files/EA
   Games/FIFA 20*
-- Launch Options: STEAM<sub>COMPATDATAPATH</sub>="/path/to/EAGames/pfx"
+- Launch Options: STEAM<sub>COMPATDATAPATH</sub>="/path/to/EAGames"
   %command%
+
+### Tested Games
+
+Games tested with the steps above successfully:
+
+- FIFA 20
+- Star Wars Battlefront 2
 
 ## Mass Effect Legendary Edition
 
