@@ -22,7 +22,7 @@ update: ## Update dependencies
 	pnpm update
 
 upgrade-astro: ## Upgrade Astro and official integrations
-	npx @astrojs/upgrade
+	pnpm upgrade astro --latest
 
 build: ## Build site
 	pnpm run build
