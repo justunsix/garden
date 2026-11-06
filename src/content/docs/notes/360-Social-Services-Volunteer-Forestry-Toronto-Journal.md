@@ -100,9 +100,9 @@ Plant surrounded by soil
 
 ## Riverdale Park East 2026
 
-### 2026-05 – 08
+### 2026-05 – 09
 
-Weeding of invasive species:
+#### Weeding of invasive species:
 
 - Bedstraw
 - Burdock
@@ -117,24 +117,40 @@ Weeding of invasive species:
 - Phragmites
 - Queen Anne's Lace - parsley, large white flowers
 
-Observation of invasive species
+#### Observation of invasive species
 
 - Japanese beetle
 
-Observation of native species
+#### Observation of native species
 
 - Bats
+
 - Black current
+
 - Bug bush - ends looks like COVID virus ball
-- Bumble bee
+
 - Dragonfly
+
 - Elder berry
+
+- Wild flowers
+
 - Fruit bushes
+
 - May apple
+
+- Bumble bee
+
 - Nests of birds, Baltimore oriole, wwallow
+
 - Rabbits
 
-Safety
+Planting of:
+
+- Herbaceous plants
+- Native wet loving plants
+
+#### Safety
 
 - Fire ants
 - Wood tripping hazards
