@@ -6,10 +6,12 @@ title: Diagrams as Code
 
 ## See Also
 
-- [PlantUML in Emacs](/garden/notes/005-1-tech-plantuml-emacs)
-- [PlantUML](/garden/notes/005-1-tech-plantuml)
+- [C4 model for visualising software
+  architecture](/garden/notes/004-computer-tech-architecture-c4-model-for-software)
 - [Mermaid Snippets](/garden/notes/005-computer-snippets-mermaid)
 - [Mind Mapping](/garden/notes/370-education-learning-creative-mind-mapping)
+- [PlantUML](/garden/notes/005-1-tech-plantuml)
+- [PlantUML in Emacs](/garden/notes/005-1-tech-plantuml-emacs)
 
 ### My PlantUML Examples
 

@@ -14,11 +14,17 @@ wsl --list --verbose
 wsl -l -v
 
 # List available distros for installation
-wsl.exe --list --online
+wsl --list --online
 
 # Install specific distribution
 wsl --install --distribution Ubuntu-26.04
 wsl --install --distribution FedoraLinux-44
+
+# Install distribution from file
+wsl --install --from-file nixos.wsl
+
+# Open shell to specific distribution
+wsl -d NixOS
 
 # Shutdown all distros
 wsl --shutdown

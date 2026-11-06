@@ -295,6 +295,14 @@ history -c
 # Shell history last 5 entries
 history | last 5
 
+# Copy current working directory (pwd) to system clipboard
+# $nu.os-info.name = "windows"
+pwd | clip
+# $nu.os-info.name = "macos"
+pwd | pbcopy
+# $nu.os-info.name = "linux" | "freebsd"
+pwd | xsel --clipboard --input
+
 ```
 
 ## Data
@@ -309,6 +317,10 @@ date now | date to-timezone "America/Toronto"
 
 # Convert data, strings to yaml, other ouputs supported, see help for to
 [one two three] | to yaml
+
+# Flatten table by extracting nested values
+[[N, u, s, h, e, l, l]] | flatten | first
+# Returns N
 
 ```
 

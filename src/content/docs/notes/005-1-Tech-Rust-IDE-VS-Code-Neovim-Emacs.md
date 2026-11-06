@@ -91,15 +91,15 @@ updated `PATH`.
 
 Use [devenv - Development and CI
 Environments](/garden/notes/005-tech-nix-devops-devenv) to install a
-development environment or manual installs as explained above [^6]. [No
-Boilerplate](https://www.namtao.com/) also suggests these other items in
-the Rust development stack and opinionated configurations [^7]:
+development environment or manual installs as explained above. [No
+Boilerplate](https://www.namtao.com/) suggests these other items in the
+Rust development stack and opinionated configurations [^6]:
 
 - [cargo-seek](https://crates.io/crates/cargo-seek) - search crates.io
   TUI, manage crates in current project
 - [clippy](https://doc.rust-lang.org/stable/clippy/index.html) - code
   checker with [Cargo.toml
-  configuration](https://www.namtao.com/rust-toolkit-2026/#clippy-config)
+  configuration](https://www.namtao.com/rust/#strict-lints)
 - [bacon](https://crates.io/crates/bacon) - background rust compiler
   that watches your project and run jobs
 - [cargo-nextest](https://crates.io/crates/cargo-nextest) - fast test
@@ -109,6 +109,15 @@ the Rust development stack and opinionated configurations [^7]:
 - [watchexec](https://crates.io/crates/watchexec) - execute commands in
   response to file modifications, for example clippy, test, run or any
   commands
+
+Additions from Let's Get Rusty [^7]:
+
+- Editors: Zed
+- [rustfmt](https://rust-lang.github.io/rustfmt/?version=v1.10.0&search=) -
+  Rust formatter in git pre-commit hooks
+- [cargo-audit](https://crates.io/crates/cargo-audit) - Audit your
+  dependencies for crates with security vulnerabilities reported to the
+  RustSec Advisory Database
 
 ## Rust in Visual Studio Code, Neovim or Emacs
 
@@ -463,12 +472,15 @@ module [^8] and Robert Krahn's post about configuring Emacs for Rust
 [^5]: [rust-lang/rust-analyzer: A Rust compiler front-end for IDEs ·
     GitHub](https://github.com/rust-lang/rust-analyzer)
 
-[^6]: [Configuring Emacs for Rust
-    Development](https://robert.kra.hn/posts/rust-emacs-setup/)
+[^6]: [My 2026 Rust Toolkit - No Boilerplate -
+    YouTube](https://www.youtube.com/watch?v=jlWnoRsGJNQ), [My 2026 Rust
+    Toolkit - namtao](https://www.namtao.com/rust-toolkit-2026/),
+    [Rust - Libaries, Lints, Devenv nix and other settings -
+    namtao](https://www.namtao.com/rust/)
 
-[^7]: [My 2026 Rust Toolkit - No Boilerplate -
-    YouTube](https://www.youtube.com/watch?v=jlWnoRsGJNQ) and [My 2026
-    Rust Toolkit - namtao](https://www.namtao.com/rust-toolkit-2026/)
+[^7]: [My favorite Rust development tools, setups, and AI workflows -
+    Let's Get Rusty -
+    YouTube](https://www.youtube.com/watch?v=-HIKxkxbAkM)
 
 [^8]: [doomemacs/modules/lang/rust/README.org at master ·
     doomemacs/doomemacs ·

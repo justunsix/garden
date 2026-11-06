@@ -31,6 +31,8 @@ architecture](id:ac2b410e-5d70-4216-88b4-51b9dc492ad6)
 - In git, png files starting with `plantuml` will be ignored.
 - Use `:exports both` in plantuml code block header to export both code
   and results during export
+- For side by side development and viewing of the diagram, use
+  `tear-off-window` to move the preview window to a separate frame
 
 ``` plantuml
 

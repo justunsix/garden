@@ -9,11 +9,12 @@ title: kubectl, oc Openshift, Other K8s related command Snippets, Other
 
 ``` shell
 
+# Check kubeconfig
+kubectl config view
+
 # See complete list of api resources that could be viewed
 kubectl api-resources
 
-# See nodes, pods, services, deployments
-kubectl get node
 ## See more pod information
 kubectl get pod -o wide
 kubectl get pod
@@ -131,6 +132,30 @@ kubectl describe role developer
 ## Check if user can do a command
 kubectl auth can-i create deployments -n dev
 ## As admin, can also check permissions of other users
+
+```
+
+### Kubectl Node management
+
+``` shell
+
+# See nodes
+kubectl get node
+
+# Mark node foo as unschedulable
+kubectl cordon foo
+
+# Drain node "foo", even if there are pods not managed by a replication controller, replica set, job, daemon set or stateful set on it
+kubectl drain foo --force
+
+# As above, but abort if there are pods not managed by a replication controller, replica set, job, daemon set or stateful set, and use a grace period of 15 minutes
+# --delete-emptydir-data : continue even with pods using emptyDir
+# --ignore-daemonsets : ignore daemonset managed pods
+kubectl drain foo --grace-period=900 --delete-emptydir-data --ignore-daemonsets
+
+# Removing node pool named foo so pods can be rescheduled to other pools
+kubectl cordon foo
+kubectl drain foo --grace-period=900 --delete-emptydir-data --ignore-daemonsets
 
 ```
 

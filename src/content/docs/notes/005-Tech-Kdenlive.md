@@ -57,3 +57,18 @@ title: Kdenlive
       multiple clips simultaneously.
 7.  ****Repeat for Other Clips****: Follow the same process for each
     clip you need to cut.
+
+## Audio tracks
+
+### Multiple audio tracks of the same recording, for example audio from two devices
+
+If having two recorded audio tracks of the same recording or even
+different videos, use `Align Audio to Reference` which will align peaks
+and valleys of the audio tracks together. Use case is recording audio
+using a better microphone and using that audio instead of the audio with
+the video.
+
+## Transcripts
+
+Speech to text models are included in Kdenlive; however, some clean up
+of text may be required.

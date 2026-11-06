@@ -63,7 +63,7 @@ nix-channel remove nixpkgs
 # List nixos generations
 nixos-rebuild list-generations
 
-# Generate configurations
+# Generate configurations or update it from hardware scan
 sudo nixos-generate-config
 
 # NixOS Rebuild from updated configurations
@@ -116,6 +116,9 @@ nix flake update home-manager
 nix flake update nixpkgs-unstable
 ### Update only nixpkgs input
 nix flake update nixpkgs
+
+### Show dependencies
+nix flake show
 
 # Update Nix - see https://nix.dev/manual/nix/2.34/installation/upgrading.html
 # depending on original install method
@@ -270,6 +273,35 @@ nh clean all --keep-since 30d --keep-one
 
 # Help for clean all
 nh clean all --help
+
+```
+
+### Building a Container with Nix and Flakes
+
+Use cases:
+
+- Locked dependencies and multiple platform builds
+- Development environment using the shell of the result output/container
+  (similar to podman/docker exec or running with interative terminal)
+
+Commands from [Building and running Docker images -
+Nix.dev](https://nix.dev/tutorials/nixos/building-and-running-docker-images.html)
+and flake version from [Docker Has One BIG Problem - DevOps Toolbox -
+YouTube](https://www.youtube.com/watch?v=iGHmNe9JwwY)
+
+See nix.dev for a sample `hello-container.nix`
+
+``` shell
+
+# Option 1 Stable Nix
+nix-build hello-container.nix
+docker load < result
+
+# Option 2 Nix with flakes
+# Add all files to git and lock dependencies from flake.nix
+nix flake lock
+nix build .#packages.86_64-linux.image
+docker load - i result
 
 ```
 

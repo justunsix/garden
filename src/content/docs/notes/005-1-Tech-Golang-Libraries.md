@@ -6,7 +6,8 @@ title: Golang Libraries
 ---
 
 - [Bubble Tea](https://github.com/charmbracelet/bubbletea) - TUI
-  framework
+  framework based on [Elm
+  architecture](https://guide.elm-lang.org/architecture/)
 - [Huh?](https://github.com/charmbracelet/huh) - interactive terminal
   forms and prompts
 - [http package - net/http - Go Packages](https://pkg.go.dev/net/http) -

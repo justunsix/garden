@@ -80,6 +80,15 @@ between parentheses \[fn:1\].
 ;; Move forward a line or N lins
 (forward-line N)
 
+;; Go to geginning of line
+(beginning-of-line)
+
+;; Go to end of line
+(end-of-line)
+
+;; Select text (set a mark) from cursor to end of line
+(set-mark (line-end-position))
+
 ;; Insert text
 (insert "Hello world")
 
@@ -87,6 +96,9 @@ between parentheses \[fn:1\].
 (point-min)
 ;; End of buffer position
 (point-max)
+
+;; Save current line to kill ring / clipboard
+(kill-ring-save (line-beginning-position) (line-end-position)))
 
 ;;;;;;;;;;;;;;;
 ;; Functions ;;
@@ -106,6 +118,9 @@ between parentheses \[fn:1\].
   ;; save-excursion restores cursor position after function call
   (save-excursion
     (replace-string "foo" "bar" nil (point-min) (point-max))))
+
+;; Call an interactive function foo inside a function
+(call-interactively 'foo)
 
 ```
 

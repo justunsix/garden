@@ -21,4 +21,7 @@ zoxide query --list --score mypattern
 # Remove a directory from database
 zoxide remove my_directory_to_be_removed
 
+# Import history from atuin and merge with existing database
+zoxide import atuin --merge
+
 ```

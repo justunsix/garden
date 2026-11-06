@@ -192,6 +192,32 @@ xclip -o -t text/html | pandoc -f html -t org --wrap=none | sed 's/\\\\//g' | xc
 
 ```
 
+## Citations and Bibliography
+
+``` shell
+
+# --biblatex: citation method
+# --citproc: set cite-method, with it pandoc can automatically generate citations and a bibliography in a number of styles
+# --bibliography: set location of bibliography file
+# --csl: citation style
+pandoc infile.org\
+       --standalone\
+       --include-in-header=header.html\
+       --output outfile.html\
+       --css style.css\
+       --bibliography=mybibfile.bib --biblatex --citeproc \
+       --csl=apa.csl
+
+# Use citations and a bibliography and optional CSL (--csl) citation style
+pandoc --citeproc paper.txt -o paper.html
+
+```
+
+See more at [Pandoc citations - Pandoc User’s
+Guide](https://pandoc.org/MANUAL.html#citations) and [Specifying
+bibliographic data pandoc
+example](https://pandoc.org/demo/example33/9.1-specifying-bibliographic-data.html)
+
 ## Simple Clipboard Piping
 
 ### Windows / PowerShell
@@ -434,3 +460,7 @@ contents...
 ::::::::::::::
 
 ```
+
+## References
+
+- [Pandoc - Pandoc User’s Guide](https://pandoc.org/MANUAL.html)

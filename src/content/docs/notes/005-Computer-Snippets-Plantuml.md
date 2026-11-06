@@ -173,6 +173,27 @@ rectangle "Dev/Test Subscription" as devsub {
 @enduml
 ```
 
+### Background and colour styles
+
+Source: [PlantUML Styles: Modern CSS-like Styling for
+Diagrams](https://plantuml.com/style)
+
+``` plantuml
+
+!theme vibrant
+
+<style>
+root {
+        BackgroundColor: FFFFF0;
+        FontColor: black;
+}
+element {
+        BackgroundColor #FFFFAA
+}
+</style>
+
+```
+
 ### Entity Diagram Relationships
 
 ``` text

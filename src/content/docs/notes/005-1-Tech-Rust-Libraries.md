@@ -48,6 +48,8 @@ title: Rust Libraries
   Supports PostgreSQL, MySQL, and SQLite and others
 - [syntect](https://crates.io/crates/syntect) - high quality syntax
   highlighting and code intelligence using Sublime Text's grammars
+- [tuirealm](https://crates.io/crates/tuirealm) - Ratatui framework
+  inspired by Elm and React
 - [Tokio](https://lib.rs/crates/tokio) - oldest async runtime in the
   Rust ecosystem and still the most widely supported. Recommended for
   new projects.
@@ -81,7 +83,8 @@ Recommendations based on accessibility and productivity.
 - [egui](https://lib.rs/crates/egui) - easy to use, pure rust, runs on
   the web, native, and game engine
 - [gpui](https://www.gpui.rs/) - UI framework from creators of Zed
-- [Iced](https://iced.rs/) - Retained mode UI with a nice API
+- [Iced](https://iced.rs/) - GUI library inspired by Elm (functional
+  language for building web applications)
 - [Leptos](https://lib.rs/crates/leptos) - front end web, full stack
 - [Tauri](https://tauri.app/) - cross platform app platform
   - Example: <https://github.com/readest/readest>
@@ -97,6 +100,9 @@ Recommendations based on accessibility and productivity.
 
 - [bacon](https://crates.io/crates/bacon) - background rust compiler
   that watches your project and run jobs
+- [cargo-audit](https://crates.io/crates/cargo-audit) - Audit your
+  dependencies for crates with security vulnerabilities reported to the
+  RustSec Advisory Database
 - [cargo-generate](https://crates.io/crates/cargo-generate) - create
   cargo projects from templates
 - [cargo-nextest](https://crates.io/crates/cargo-nextest) - fast test
@@ -108,6 +114,8 @@ Recommendations based on accessibility and productivity.
 - [clippy](https://doc.rust-lang.org/stable/clippy/index.html) - code
   checker with [Cargo.toml
   configuration](https://www.namtao.com/rust-toolkit-2026/#clippy-config)
+- [rustfmt](https://crates.io/crates/rustfmt-nightly) - tool for
+  formatting Rust code according to style guidelines
 - [watchexec](https://crates.io/crates/watchexec) - execute commands in
   response to file modifications, for example clippy, test, run or any
   commands

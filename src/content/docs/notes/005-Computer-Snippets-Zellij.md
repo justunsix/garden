@@ -5,9 +5,6 @@ id: 17e6686e-93a5-4c52-81b6-5b0a250d4331
 title: Zellij Snippets
 ---
 
-Source: [Introduction - Zellij User
-Guide](https://zellij.dev/documentation/)
-
 ``` shell
 
 # Start with minimal user interface
@@ -43,4 +40,12 @@ zellij -l welcome
 # Autostart Zellij on shell creation
 echo 'eval "$(zellij setup --generate-auto-start bash)"' >> ~/.bashrc
 
+# Create new config file
+mkdir ~/.config/zellij
+zellij setup --dump-config > ~/.config/zellij/config.kdl
+
 ```
+
+## References
+
+- [Introduction - Zellij User Guide](https://zellij.dev/documentation/)

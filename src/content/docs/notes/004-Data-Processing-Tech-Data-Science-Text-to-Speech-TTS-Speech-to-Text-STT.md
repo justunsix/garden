@@ -22,6 +22,8 @@ title: Text to Speech (TTS) and Speech to Text (STT)
   - [eSpeak NG Text-to-Speech](https://github.com/espeak-ng/espeak-ng)
   - Others
 - [Speech Note](https://github.com/mkiol/dsnote) app
+- [Orukeet](https://github.com/Oruk-AI/orukeet) based on Parakeet -
+  suggested by Sacha Chua for her Emacs speech to text (STT)
 
 ### Free Proprietary Options
 

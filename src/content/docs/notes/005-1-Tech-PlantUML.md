@@ -8,9 +8,12 @@ title: PlantUML
 
 ## See Also
 
-- [PlantUML in Emacs](/garden/notes/005-1-tech-plantuml-emacs)
+- [C4 model for visualising software
+  architecture](/garden/notes/004-computer-tech-architecture-c4-model-for-software)
 - [Case Study: Visualize Complex Microservice Data Using
   Python](/garden/notes/005-1-tech-python-case-study-visualize-microservice-data)
+- [Diagrams as Code](/garden/notes/004-tech-comms-diagrams-as-code)
+- [PlantUML in Emacs](/garden/notes/005-1-tech-plantuml-emacs)
 
 ## External Links
 

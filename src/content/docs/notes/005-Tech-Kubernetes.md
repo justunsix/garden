@@ -16,10 +16,10 @@ work-flow](https://www.reddit.com/r/kubernetes/comments/1fj61bi/essential_tools_
 
 ## See Also
 
-- [Package: Kubernetes](/garden/notes/005-tech-emacs-kubernetes)
 - [kubectl, oc Openshift, Other K8s related command Snippets
   Snippets](/garden/notes/005-computer-snippets-kubectl-oc-kube)
 - [LogQL](/garden/notes/005-1-tech-kubernetes-logql)
+- [Package: Kubernetes](/garden/notes/005-tech-emacs-kubernetes)
 
 ## External Links
 

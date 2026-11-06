@@ -11,30 +11,56 @@ site](https://alternativeto.net/browse/).
 
 ### AI Tools & Services
 
+- [9Router](https://github.com/decolua/9router) - AI router and token
+  saver, fall backs for subscriptions
+- [Capture2Text](https://source.mde.net/projects/capture2text/) - OCR
+  part of the screen and save resulting text to clipboard
 - [GPT4All](https://www.nomic.ai/gpt4all) - Run Local LLMs on Any
   Device. Open-source and available for commercial use.
+- [Headroom](https://github.com/headroomlabs-ai/headroom) - Token
+  reduction; compresses everything AI agent reads — tool outputs, logs,
+  RAG chunks, files, and conversation history — before it reaches the
+  LLM. Same answers, fraction of the tokens. Compression runs locally;
+  no prompt or file content is sent anywhere to be compressed.
+- [Lemonade Server](https://lemonade-server.ai/) - Local LLMs with GPU
+  and NPU acceleration. Lemonade helps users discover and run local AI
+  apps by serving optimized LLMs right from their own GPUs and NPUs.
 - [MLflow](https://github.com/mlflow/mlflow) - AI engineering platform
-  for agents, LLMs, and ML models. MLflow enables teams of all sizes to
-  debug, evaluate, monitor, and optimize AI applications while
-  controlling costs and managing access to models and data. Used for
-  data science machine learning.
+  for agents, LLMs, and ML models. MLflow enables teams to debug,
+  evaluate, monitor, and optimize AI applications while controlling
+  costs and managing access to models and data. Used for data science
+  machine learning.
+- [Ollama](https://ollama.com/) - Run open models
 - [oobabooga/TextGen](https://github.com/oobabooga/textgen) - aka Text
   generation web UI. App for local LLMs. Text, vision and tool-calling
+- [OpenCode](https://opencode.ai/) - AI coding agent, Free models
+  included or connect any model from any provider
+- [OpenHands](https://github.com/OpenHands/OpenHands) - self-hosted
+  developer control center for coding agents and automations
 - [Open WebUI](https://github.com/open-webui/open-webui) - AI platform
   for offline or online operation which supports various LLM runners
   like Ollama and OpenAI-compatible APIs, with built-in inference engine
   for RAG
-- [OpenCode](https://opencode.ai/) - AI coding agent, Free models
-  included or connect any model from any provider
-- [Capture2Text](https://source.mde.net/projects/capture2text/) - OCR
-  part of the screen and save resulting text to clipboard
+- [Pi](https://pi.dev/) - Minimal agent harness. Adapt Pi to your
+  workflows and customize Pi with extensions, skills, prompt templates,
+  and themes. Bundle them as Pi packages and share.
 
 ### Audio & Music
 
 - [ABC Music Notation](https://abcnotation.com/) - text-based music
   notation system and the de facto standard for folk and traditional
   music
-- [Ardour](https://ardour.org/) - digital audio workstation (DAW)
+- [Ardour](https://ardour.org/) - digital audio workstation (DAW). Use it
+  to record, edit and mix multi-track audio and midi. Produce your own
+  CDs. Mix video soundtracks. Experiment with new ideas about music and
+  sound.
+- [LMMS](https://lmms.io/) - formerly Linux MultiMedia Studio, Digital
+  audio workstation (DAW) supporting lossless audio and VST plugins.
+  Features include music looping, sequencing, and MIDI support. Free
+  alternative to commercial programs like FL Studio, which allow you to
+  produce music with your computer. This includes the creation of
+  melodies and beats, the synthesis and mixing of sounds, and arranging
+  of samples. You can have fun with MIDI-keyboard and more.
 - [Audacity](https://www.audacityteam.org/) - digital audio editor and
   recording application software
 - [Easy Effects](https://easyeffects.org/) - formerly known as
@@ -47,12 +73,14 @@ site](https://alternativeto.net/browse/).
   to online radio, create and manage playlists, display lyrics, and more
 - [eSpeak NG Text-to-Speech](https://github.com/espeak-ng/espeak-ng) -
   speech synthesizer, TTS that supports more than hundred languages and
-  accents.
-- [Kokoro
+  accents.- [Kokoro
   TTS](https://github.com/nazdridoy/kokoro-tts?tab=readme-ov-file) - CLI
   text-to-speech tool using the Kokoro model, supporting multiple
   languages, voices (with blending), and various input formats including
   EPUB books and PDF documents
+- [Orukeet](https://github.com/Oruk-AI/orukeet) - 25-language speech
+  recognizer built from NVIDIA Parakeet, for text to speech (TTS) like
+  recordings, transcription, and interactive applications
 - [MaryTTS (Multimodal Interaction
   Architecture)](https://github.com/marytts/marytts) - multilingual
   text-to-speech (TTS) synthesis system written in pure java
@@ -126,10 +154,11 @@ site](https://alternativeto.net/browse/).
   Client for developers and database administrators. Strong in
   usability. Based on open source framework and allows writing of
   various extensions (plugins). It supports any database having a JDBC
-  driver. There is a set of plugins for certain databases (MySQL, DB2,
-  PostgreSQL, Oracle, MongoDB, Cassandra and Redis and different
-  database management utilities (ER diagrams, data migration, metadata
-  editors, and others.
+  driver such as MySQL, PostgreSQL, MariaDB, SQLite, Microsoft SQL
+  Server and more. There is a set of plugins for certain databases
+  (MySQL, DB2, PostgreSQL, Oracle, MongoDB, Cassandra and Redis and
+  different database management utilities (ER diagrams, data migration,
+  metadata editors, and others.
 - [Deno](https://github.com/denoland/deno) - JavaScript, TypeScript, and
   WebAssembly runtime with secure defaults and a great developer
   experience. It's built on V8, Rust, and Tokio.
@@ -159,12 +188,12 @@ site](https://alternativeto.net/browse/).
   languages
 - [GDBGUI](https://github.com/cs01/gdbgui) - browser front end to GDB
   (GNU debugger)
+- [Git](/garden/notes/005-tech-git) - distributed version
+  control
 - [Gitea](https://about.gitea.com/) - software code forge that is fork
   of Gogs. Private self-hosted DevOps platform that gives teams and
   developers high-efficiency, easy-to-run operations from planning to
   production
-- [Git](/garden/notes/005-tech-git) - distributed version
-  control
 - [GitLab](https://about.gitlab.com/) - software code forge with DevOps,
   security, software development life cycle, deployment and other
   functionality
@@ -176,6 +205,10 @@ site](https://alternativeto.net/browse/).
   extensions to support text editing.
 - [Helix](https://helix-editor.com/) - modal editor like vim with modern
   defaults and more built in features
+- [IntelliJ Open Source
+  Repository](https://github.com/JetBrains/intellij-community) -
+  open-source part of the JetBrains IDEs codebase. It also serves as the
+  basis for IntelliJ Platform development.
 - [Jujutsu JJ](https://github.com/jj-vcs/jj) - Git-compatible VCS that
   is simple and powerful
 - [Kate](https://apps.kde.org/kate/) - Kate Advanced Text Editor for
@@ -237,6 +270,10 @@ site](https://alternativeto.net/browse/).
 
 ### Education & Reference
 
+- [Anki](https://apps.ankiweb.net/) - program that makes remembering
+  things easy supporting a spaced reptition system (SRS) with different
+  formats and content-agnostic and supports images, audio, videos, and
+  scientific markup (via LaTeX)
 - [Gcompris](https://www.gcompris.net) - educational game used in
   schools
 - [KTouch](https://apps.kde.org/ktouch/) - typing tutor
@@ -340,6 +377,10 @@ site](https://alternativeto.net/browse/).
 - [Caddy](https://github.com/caddyserver/caddy) - Reverse proxy, Fast
   and extensible multi-platform HTTP/1-2-3 web server with automatic
   HTTPS
+- [Cilium](https://github.com/cilium/cilium) - networking,
+  observability, and security solution with an
+  [eBPF](https://ebpf.io/)-based dataplane. Use case includes Kubernetes
+  networking, security, load balancing, and monitoring.
 - [Cockpit](https://github.com/cockpit-project/cockpit) - web based
   interface for servers, intended for everyone like Linux admins and new
   users
@@ -392,6 +433,8 @@ site](https://alternativeto.net/browse/).
   through dynamic binary translation and provides a set of different
   hardware and device models for the machine, enabling it to run a
   variety of guest operating systems
+- [Rancher Desktop](https://rancherdesktop.io/) - Container Management
+  and Kubernetes on the Desktop that works cross platform
 - [Remmina](https://remmina.org/) - Remote access screen and file sharing
   to your desktop
 - [Teleport](https://github.com/gravitational/teleport) - connectivity,
@@ -420,11 +463,17 @@ site](https://alternativeto.net/browse/).
 
 ### Office & Productivity
 
+- [AutoHotkey](https://www.autohotkey.com/) - macro-creation and
+  automation software for Windows that allows users to automate
+  repetitive tasks. It is driven by a scripting language that was
+  initially aimed at providing keyboard shortcuts, otherwise known as
+  hotkeys, that over time evolved into a scripting language
 - Fairmail - privacy oriented email app for Android
 - [LibreOffice](https://www.libreoffice.org/) - office productivity
   software suite, like Microsoft Office Word, Excel, PowerPoint and
   others for document creation, spreadsheets, presentations, and other
   office documents.
+- [n8n](https://github.com/n8n-io/n8n) - workflow automation tool
 - [Nextcloud](https://nextcloud.com/) - suite of client-server software
   for creating and using file hosting services
 - [Okular](https://apps.kde.org/en-gb/okular/) - document viewer
@@ -478,6 +527,8 @@ site](https://alternativeto.net/browse/).
   acceleration.
 - GNU - "GNU is Not Unix" core software to GNU/Linux systems
 - GNU/Linux - operating system
+- [GParted](https://gparted.org/) - partition editor for graphically
+  managing disk partitions
 - [grex](https://github.com/pemistahl/grex) - Generate a matching
   regular expression from the test cases you provide, also has Rust
   library and Python bindings
@@ -522,11 +573,8 @@ site](https://alternativeto.net/browse/).
 
 ### Photos & Graphics
 
-- [Inkscape](https://inkscape.org/) - vector image and graphics editor
-  for illustrator, designer, web designer and others. Flexible drawing,
-  broad file formats, text tools, and curve tools.
-- [Blender](https://www.blender.org/) - Blender 3D computer graphics
-  software tool set
+- [Blender](https://www.blender.org/) - 3D computer graphics software
+  tool set
 - [Excalidraw](https://github.com/excalidraw/excalidraw) - virtual
   hand-drawn style whiteboard, collaborative and end-to-end encrypted
 - [gImageReader](https://github.com/manisandro/gImageReader/) - Optical

@@ -82,4 +82,5 @@ title: Software Shortcuts
 - [Windows Terminal
   Shortcuts](/garden/notes/005-computer-shortcuts-windows-terminal)
 - [Yazi Shortcuts](/garden/notes/005-computer-shortcuts-yazi)
+- [Zed Shortcuts](/garden/notes/005-computer-shortcuts-zed)
 - [Zellij Shortcuts](/garden/notes/005-computer-shortcuts-zellij)

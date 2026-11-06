@@ -63,6 +63,7 @@ title: Software Snippets
 - [Grep, ripgrep rg
   Snippets](/garden/notes/005-computer-snippets-grep-ripgrep-rg)
 - [grex Snippets](/garden/notes/005-computer-snippets-grex)
+- [Guix Snippets](/garden/notes/005-computer-snippets-guix)
 - [Helix Snippets](/garden/notes/005-computer-snippets-helix)
 - [Helm Snippets](/garden/notes/005-computer-snippets-helm)
 - [JavaScript Snippets](/garden/notes/005-computer-snippets-javascript)
@@ -104,6 +105,10 @@ title: Software Snippets
 - [Podman Snippets](/garden/notes/005-computer-snippets-podman)
 - [Power Fx Snippets](/garden/notes/005-computer-snippets-powerfx)
 - [Powershell Snippets](/garden/notes/005-computer-snippets-powershell)
+- [psmisc proc file system utilities
+  Snippets](/garden/notes/005-computer-snippets-psmisc-proc-file-system-utilities) - small useful
+  utilities that use the proc filesystem (such as fuser, killall and
+  pstree)
 - [Pulseaudio-pactl
   Snippets](/garden/notes/005-computer-snippets-pulseaudio-pactl)
 - [Python Anaconda and
@@ -131,6 +136,8 @@ title: Software Snippets
 - [Veracrypt Snippets](/garden/notes/005-computer-snippets-veracrypt)
 - [Video2X Snippets](/garden/notes/005-computer-snippets-video2x)
 - [Vim Snippets](/garden/notes/005-computer-snippets-vim)
+- [virsh - guest domain virtual machine management
+  Snippets](/garden/notes/005-computer-snippets-virsh)
 - [VS Code Snippets](/garden/notes/005-computer-snippets-vs-code)
 - [Wezterm Snippets](/garden/notes/005-computer-snippets-wezterm)
 - [Windows cmd Snippets](/garden/notes/005-computer-snippets-cmd)

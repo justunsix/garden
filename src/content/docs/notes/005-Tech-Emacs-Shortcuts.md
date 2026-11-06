@@ -152,6 +152,13 @@ Only matches characters, not regex unless using isearch-…-regex
 | Find and replace search query from isearch | C-s \<search-text\> M-% (while in isearch, can also work with isearch regex commands) |
 | Find and replace search query, previous queries | M-p |
 
+1.  replace.el
+
+    | Name | Shortcuts |
+    |----|----|
+    | Delete all lines except those containing matches for REGEXP | M-x keep-lines |
+    | Delete lines containing matches for REGEXP | M-x flush-lines |
+
 #### Other packages
 
 Find and replace works for whole buffer or selected region
@@ -403,9 +410,9 @@ g command examples
 
 | Name | Shortcuts |
 |----|----|
-| Run elisp code | eval-expression or M-: |
-| Evaluate the current elisp expression | C-x C-e or eval-last-sexp |
 | Evaluate region or buffer | C-c C-e or elisp-eval-region-or-buffer |
+| Evaluate the current elisp expression | C-x C-e or eval-last-sexp |
+| Run elisp code | eval-expression or M-: |
 
 ## Terminal
 

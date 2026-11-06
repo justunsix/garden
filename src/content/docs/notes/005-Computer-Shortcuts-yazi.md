@@ -17,6 +17,7 @@ Generally, vim shortcuts are used
 | Directory, jump, ~/.config | g c |
 | Directory, jump, ~/Downloads | g d |
 | Directory, previous, next | Shift + h, Shift + l |
+| File detail (spot file) | Tab |
 | File operations, create file (end with / for dir) | a |
 | File operations, open | o or Enter |
 | File operations, open with | Shift + o |

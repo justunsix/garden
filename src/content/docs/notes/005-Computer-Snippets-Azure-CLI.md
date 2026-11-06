@@ -13,7 +13,7 @@ title: Azure CLI Snippets
 # Log in with interactive prompt
 az login
 
-# Disable the subscription selector feature
+# Disable the subscription selector feature [1]
 az config set core.login_experience_v2=off
 az login
 
@@ -29,6 +29,22 @@ az account show
 
 ```
 
+### Azure Kubernetes Service
+
+``` shell
+
+# Set cluster subscription, get cluster credentials and use kubectl commands
+az account set --subscription sub1
+az aks get-credentials --resource-group rg-1 --name aks-c1 --overwrite-existing
+kubectl get deployments --all-namespaces=true
+
+```
+
 ## See Also
 
 - [KQL Snippets](/garden/notes/005-computer-snippets-kql)
+
+## References
+
+- \[1\] [Sign into Azure interactively using the Azure
+  CLI](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli-interactively?view=azure-cli-latest)

@@ -331,8 +331,9 @@ endlegend
 Recommendations:
 
 1.  PlantUML with C4 domain language
-2.  Structurizr
-3.  Do not use Visio
+2.  Structurizr - models as code tool designed for the C4 model with its
+    own DSL
+3.  Do not use Visio or non-structured diagramming tools
 
 ## External Links
 

@@ -43,4 +43,7 @@ terraform output
 # Output, see specific one
 terraform output load_balancer_url
 
+# Output, raw to get specific strings
+terraform output -raw instance_id
+
 ```

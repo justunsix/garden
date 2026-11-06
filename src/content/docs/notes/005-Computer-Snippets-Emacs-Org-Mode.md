@@ -30,6 +30,9 @@ title: Emacs Org Mode Snippets Emacs org mode like Jupyter Notebook
 # Link to a specific section/heading of any level in an org mode document called Golang Tutorial
 [[file:005-Golang.org::*Golang Tutorial][Golang Tutorial]]
 
+# Link to a file or directory in the operating system using absolute path
+[[file:/home/user/Code/myproject]]
+
 # ###################
 # Footnotes
 The Org website [fn:50] now looks a lot better than it used to.
@@ -46,8 +49,11 @@ The Org website [fn:50] now looks a lot better than it used to.
 # https://orgmode.org/manual/In_002dbuffer-Settings.html
 ,,#+STARTUP: inlineimages
 
-# ###################
-# Org Citations
+```
+
+## Org Citations
+
+``` org
 
 # Citation of a specific source
 My personal notes from [[https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026][FIFA 2026 Canada, Mexico, US]] volunteer training portal [cite:@fifa2026volelearn]

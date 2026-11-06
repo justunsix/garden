@@ -9,6 +9,11 @@ title: Emacs
 ### Shortcuts and Snippets
 
 - [Emacs Shortcuts](/garden/notes/005-tech-emacs-shortcuts)
+- [Emacs eshell Snippets](/garden/notes/005-computer-snippets-emacs-eshell)
+- [Emacs Lisp Snippets](/garden/notes/005-computer-snippets-emacs-lisp)
+- [Emacs Org Mode Snippets](/garden/notes/005-computer-snippets-emacs-org-mode)
+- [Emacs Org Mode Table
+  Snippets](/garden/notes/005-computer-snippets-emacs-org-mode-table)
 - [Emacs Snippets](/garden/notes/005-computer-snippets-emacs)
 
 ### Learning
@@ -41,3 +46,5 @@ title: Emacs
 - [Package: Completeion with vertico, marginalia, orderless, consult,
   embark and
   others](/garden/notes/005-tech-emacs-package-completion-vertico-and-others)
+- [Package: Org Mode,
+  Citations](/garden/notes/005-tech-emacs-package-org-citations)

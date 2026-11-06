@@ -29,7 +29,7 @@ doas pkg install ghostty
 pkg remove curl
 
 # Upgrade a package
-pkg upgrade <pkgname>
+pkg upgrade pkgname
 
 # Upgrade all available packages
 pkg upgrade
@@ -39,6 +39,9 @@ pkg audit -F
 
 # Update ports repository as needed
 git -C /usr/ports pull
+
+# Run command as root, assuming use in wheel group and doas is installed
+doas pkg install firefox
 
 ```
 

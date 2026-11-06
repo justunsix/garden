@@ -22,24 +22,24 @@ Shortcuts](https://duckduckgo.com/duckduckgo-help-pages/features/keyboard-shortc
 
 Search directly in other search engines [^1].
 
-| Name             | Shortcuts |
-|------------------|-----------|
-| Arch Linux Wiki  | !aw       |
-| Bing             | !b        |
-| Crates.io (Rust) | !cargo    |
-| Google           | !g        |
-| Internet Archive | !ia       |
-| NixOS Packages   | !nixpkg   |
-| Nixos Wiki       | !nixos    |
-| Reddit           | !reddit   |
-| Spotify          | !spy      |
-| StartPage        | !s or !sp |
-| WayBack Machine  | !wbm      |
-| wikiHow          | !wh       |
-| Wikipedia        | !w        |
-| Yandex           | !ya       |
-| Yandex.ru        | !y        |
-| YouTube          | !yt       |
+| Name                    | Shortcuts |
+|-------------------------|-----------|
+| Arch Linux Wiki         | !aw       |
+| Bing                    | !b        |
+| Crates.io (Rust)        | !cargo    |
+| Google                  | !g        |
+| Internet Archive        | !ia       |
+| NixOS Packages          | !nixpkg   |
+| Nixos Wiki (unofficial) | !nix      |
+| Reddit                  | !reddit   |
+| Spotify                 | !spy      |
+| StartPage               | !s or !sp |
+| WayBack Machine         | !wbm      |
+| wikiHow                 | !wh       |
+| Wikipedia               | !w        |
+| Yandex                  | !ya       |
+| Yandex.ru               | !y        |
+| YouTube                 | !yt       |
 
 ## References
 

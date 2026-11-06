@@ -100,6 +100,27 @@ jdbc:sqlserver://;serverName=azuresqlserver.windows.net;databaseName=DBName;encr
 
 ```
 
+### Azure SQL Database
+
+#### Firewall Rules
+
+Source: [IP Firewall Rules - Azure SQL Database \| Microsoft
+Learn](https://learn.microsoft.com/en-us/azure/azure-sql/database/firewall-configure?view=azuresql)
+
+``` sql
+
+-- See all rules
+SELECT * FROM sys.firewall_rules ORDER BY name;
+
+-- Add a rule
+EXECUTE sp_set_firewall_rule @name = N'ContosoFirewallRule',
+   @start_ip_address = '192.168.1.1', @end_ip_address = '192.168.1.10'
+
+-- To delete a server-level IP firewall rule, execute the sp_delete_firewall_rule stored procedure
+EXECUTE sp_delete_firewall_rule @name = N'ContosoFirewallRule'
+
+```
+
 ## Microsoft (MS) SQL Server T-SQL Administration
 
 ``` sql

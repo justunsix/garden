@@ -150,6 +150,9 @@ read -rs -p "Enter password: " PASSWORD
 
 # Commands
 
+# Create new login shell
+bash -l
+
 # Create directory and any parent folders needed, do not give error if directories exist
 mkdir -p /path/to/new-dir
 

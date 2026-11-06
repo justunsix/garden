@@ -8,8 +8,23 @@ Konsole is a free and open-source terminal emulator graphical
 application which is part of KDE Applications and ships with the KDE
 desktop environment.
 
-It is cross platform (can be run on both Windows and Linux) like some
-KDE programs since it uses Qt.
+It is cross platform (for example can be run on both Windows and Linux)
+like some KDE programs since it uses graphical user interface Qt
+framework.
+
+Features include:
+
+- Tabs and splits
+- Search terminal output
+- Save output
+- Command snippets
+- Folder bookmarks
+- Mouse integration and right click menus integrating with other desktop
+  applications like web search, file manager
+- Preview images on mouse over, preview colours from hex code
+- Integrate with Dolphin file manager as a panel
+- Open files and folders by clicking on item in terminal
+- Customization like layouts, font, profiles, theme
 
 ## See Also
 

@@ -1,5 +1,8 @@
 ---
 date: 2026-01-07
+description: Basic file, shell and text manipulation utilities of the
+  GNU operating system. These are the core utilities which are expected
+  to exist on every operating system.
 filetags: ":snippets:epubnote:gnu:coreutils:"
 id: 60d1c07a-22b6-40bb-99ee-274feab9cd20
 title: GNU Coreutils Snippets

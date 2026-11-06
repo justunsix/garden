@@ -16,10 +16,10 @@ package](https://github.com/emacs-evil/evil/blob/master/evil-maps.el)
 | Digraphs, show digraphs to sequences | :evil-ex-show-digraphs |
 | Enter and Exit Emacs Mode (close to default Emacs) | C-z |
 | Go to char using Avy | g s s (char), g s / (timer) |
-| Go, to lower case (evil-downcase), downcase selection | g u , u |
-| Go, to upper case (evil-upcase), upcase selection | g U , U |
 | Go, to file under cursor at point | g f |
 | Go, to file under cursor at point, with line | g F, evil-find-file-at-point-with-line |
+| Go, to lower case (evil-downcase), downcase selection | g u , u |
+| Go, to upper case (evil-upcase), upcase selection | g U , U |
 | Navigation, previous/next paragraph/section | {, } |
 | Navigation, previous/next sentence | (, ) |
 | Record macro (command mode) | q + \<register like a\> |
@@ -54,9 +54,9 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Buffer, delete buffer | SPC b d |
 | Buffer, open scratch buffer | SPC x |
 | Buffer, switch buffers, includes files, bookmarks, projects | SPC \< or consult-buffer or C-x b |
-| Code actions / LSP | SPC c a |
 | Code actions, Jump to definition (like Vim gd) | SPC c d or gd |
 | Code actions, Jump to reference (like Vim gr) | SPC c D |
+| Code actions / LSP | SPC c a |
 | Code actions, quickfix, list errors, problems, flycheck | SPC c x |
 | Command, M-x | SPC : |
 | Completion, cape, dictionary | C-x s |
@@ -66,9 +66,9 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Completion, go up 1 choice | C-k |
 | Completion, keyword | C-x C-k |
 | Completion, snippet | C-x C-s |
+| Cursor, multiple cursor, exit | ESC |
 | Cursor, multiple cursor match at | g z m or evil-mc-make-all-cursors |
 | Cursor, multiple cursor match at point or select | evil-multiedit-match-all |
-| Cursor, multiple cursor, exit | ESC |
 | Dired, Dirvish, jump to recent directory | z |
 | Dired, Dirvish, quick access directories (home, emacs) | b |
 | Dired, down directory or open file | l |
@@ -99,16 +99,23 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Git Time Machine, mode, leader prefix | g t |
 | Git Time Machine, mode, show commit | SPC t c |
 | Git Time Machine, previous and next revision | C-j, C-k |
-| Go to file or url at point | g f |
 | Go to, Avy : go to char2 | g s s |
 | Go to, Avy : go to timer | g s / |
 | Go to, element Declaration | g D |
 | Go to, element definition | g d |
 | Go to, element Implementation | g I |
+| Go to, evaluate buffer | g R |
+| Go to, evaluate region | g r |
+| Go to file or url at point | g f |
+| Go to, next, org heading | \]\] |
 | Go to, open file in separate buffer and split | C-w f |
+| Go to, previous, org babel code block | \[c |
+| Go to, previous, org babel code block | \]c |
+| Go to, previous, org heading | \[\[ |
+| Help: Check key bindings for current buffer | SPC h b b or embark-bindings |
+| Help: Doom, Doom Modules | SPC h d m |
 | Help on key bindings for current function/minibuffer | C-h b b |
 | Help, Search key map and run | SPC ? |
-| Help: Doom, Doom Modules | SPC h d m |
 | Insert, Search Evil Register | SPC i r |
 | Insert, Snippet | SPC i s |
 | Leader key while in insert mode | M-SPC |
@@ -125,8 +132,8 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Org: Link insert (org-insert-link) | SPC m l l |
 | Org: Link store (org-store-link) | SPC n l |
 | proced: sort leader key | o |
-| Project - switch and open new workspace | SPC p p |
 | Project: Search | SPC / |
+| Project - switch and open new workspace | SPC p p |
 | Search - 2 char, next match or go into avy | ; or C-; |
 | Search - 2 char, normal mode | s |
 | Search - bookmark list | SPC s m |
@@ -141,8 +148,8 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Switch Buffer | SPC , |
 | Tags: projectile find tag | C-\] |
 | Terminal, Open in cwd full screen (vterm) terminal | SPC o T |
-| Terminal, Toggle (vterm) terminal popup (bottom screen) | SPC o t |
 | Terminal, Toggle pop up | C-\` |
+| Terminal, Toggle (vterm) terminal popup (bottom screen) | SPC o t |
 | Toggle: line numbers: absolute, relative, none | SPC t l or doom/toggle-line-numbers |
 | Toggle: pop up like help, terminal | C-\` |
 | Vertico, vertical mini buffer, section, next previous | M-{ or M-} |

@@ -37,16 +37,16 @@ Different options are available.
     - For Lutris: select appropriate scripts/versions for a game, should
       be best for game
 
-Apply FSR (requires GE Proton) to set game to lower resolution and
-upscale to your monitor's resolution
+    Apply FSR (requires GE Proton) to set game to lower resolution and
+    upscale to your monitor's resolution
 
-- For Steam, set in launch options
-- For Heroic Launcher, enable FSR hack
-- For Lutris, set in game options
+    - For Steam, set in launch options
+    - For Heroic Launcher, enable FSR hack
+    - For Lutris, set in game options
 
-Heroic and Lutris can use Wine with additions for Windows games.
+    Heroic and Lutris can use Wine with additions for Windows games.
 
-1.  Use [Crossover](https://www.codeweavers.com/crossover) which uses a
+4.  Use [Crossover](https://www.codeweavers.com/crossover) which uses a
     proprietary core with Wine. Search [Crossover compatibility
     database](https://www.codeweavers.com/compatibility/) for software
     you want to run.

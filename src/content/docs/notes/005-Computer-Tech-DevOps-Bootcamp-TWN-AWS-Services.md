@@ -524,9 +524,7 @@ pipeline {
 
 ## Introduction to AWS Command Line Interface (CLI) - Part 1
 
-### See Also
-
-### External Links
+### Links
 
 - [AWS CLI - Getting
   Started](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)

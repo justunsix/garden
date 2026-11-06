@@ -342,6 +342,20 @@ fn plus_one(x: i32) -> i32 {
     x + 1
 }
 
+// Functions without an implementation with unimplemented!()
+fn baz(&self) {
+    // It makes no sense to `baz` a `MyStruct`, so we have no logic here
+    // at all.
+    // This will display "thread 'main' panicked at 'not implemented'".
+    unimplemented!();
+}
+
+// Indicated unfinished code with todo!
+fn baz(&self) {
+    // Let's not worry about implementing baz() for now
+    todo!();
+}
+
 ```
 
 ## Control Flow
@@ -486,3 +500,36 @@ fn main() {
 }
 
 ```
+
+## Error Handling
+
+Instead of `unwrap`, use
+[combinators](https://github.com/WasabiFan/combinator-quick-reference)
+to return valid values or errors instead of letting the program panic.
+
+``` rust
+
+// Returns the Ok value, else T
+unwrap_or(self, default: T);
+// Computes a new Result with f if Ok, else Err
+map(self, f: F);
+// Returns res if Ok, otherwise returns self's Err
+and(self, res: Result);
+// Compute another Result given the current value
+and_then(self, op: F);
+// Compute a new error value given the old error value
+map_err(self, op: D);
+// Returns self.Ok or res.Ok, left-biased, else res's Errr
+or(self, res: Result<T, F>);
+// Compute another Result given the current error
+or_else(self, op: O);
+
+```
+
+## References
+
+- [The Rust Programming Language - The
+  Book](https://doc.rust-lang.org/book/)
+- [Type-indexed cheat-sheet for Rust's Result and Option "combinators":
+  unwrap, map, ok, etc. - GitHub -
+  WasabiFan/combinator-quick-reference](https://github.com/WasabiFan/combinator-quick-reference)

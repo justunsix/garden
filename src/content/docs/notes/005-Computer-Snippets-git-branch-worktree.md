@@ -98,6 +98,19 @@ git push --force-with-lease origin feature-branch
 
 ```
 
+1.  Example flow to update a feature branch with the latest from the
+    main branch and force push to origin
+
+    ``` shell
+
+    git pull
+    git checkout feature-branch
+    git rebase origin/main
+    # Resolve conflicts
+    git push --force-with-lease origin feature-branch
+
+    ```
+
 #### Merge
 
 Pros:
@@ -154,6 +167,10 @@ git worktree add ../myrepo-newfeature new-feature
 
 # Create new worktree with existing branch main
 git worktree add ../repo-main main
+# Create new worktree with existing branch existing-feature-branch
+## Check remote for updates
+git fetch origin
+git worktree add ../myrepo-existing-feature-branch existing-feature-branch
 
 # Example workflow with these branches:
 # - main

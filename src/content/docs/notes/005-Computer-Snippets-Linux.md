@@ -438,6 +438,8 @@ ssh -C user@system ncdu -o- / | ./ncdu -f-
 Source: [LaurieWired-Using Strace to Trace Linux Syscalls -
 YouTube](https://www.youtube.com/watch?v=mBfurelWwPQ)
 
+Use case: Follow program execution and system calls made by a program
+
 ``` shell
 
 # Trace binary execution called mybin and output (-o) to file
@@ -705,6 +707,13 @@ type <command>
 ```
 
 ## Networking
+
+``` shell
+
+# Restart network management service
+sudo systemctl restart NetworkManager
+
+```
 
 - `ifconfig` - network information
 - `netstat` (deprecated, use ss) - active network connections
