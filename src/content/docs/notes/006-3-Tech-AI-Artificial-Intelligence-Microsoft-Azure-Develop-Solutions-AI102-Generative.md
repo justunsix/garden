@@ -270,7 +270,9 @@ grounding, and fine-tuning a model.
 
 Source: [To Fine Tune or Not Fine Tune? That is the question - Microsoft
 Developer with Alicia Frame -
-YouTube](https://www.youtube.com/watch?v=0Jo-z-MFxJs)
+YouTube](https://www.youtube.com/watch?v=0Jo-z-MFxJs), [Is Fine-Tuning
+Still Needed? LLMs, RAG, & LoRA - IBM Technology -
+YouTube](https://www.youtube.com/watch?v=-W2JdSl1v48)
 
 It is additional training for a foundation model resulting in a
 fine-tuned model. It is separate from grounding in that you are adding
@@ -282,12 +284,15 @@ Fine tuning may occur because:
   quality such as a specialist
 - Need to train on examples that are larger than the model's context
   limit
+- Reinforcement fine tuning (RFT) to train on highest scoring answers
+  instead of just correct answers
 - Saving tokens with smaller prompts
-- Faster response, especially with small models instead of a generalist
-  model
+- Faster response/inference, especially with small models instead of a
+  generalist model
+- Distillation: train smaller model with responses from a larger model
 
-A risk is the training data is poorly managing and fine tuning does not
-improve results.
+A risk is the training data is poor or not managed well and fine tuning
+does not improve results.
 
 Neural networks in the foundation model process information in the
 layers and has weights. Fine tuning shifts the model weights with
@@ -300,6 +305,26 @@ inferencing.
 Supervised fine-tuning is providing the model with many examples on
 input and desired results. There are other types of fine-tuning like
 Direct Preference Optimization and Reinforcement.
+
+#### Considerations on Base Models when Fine Tuning
+
+- Model context window: high context may make fine tuning not required
+  if you can feed it all context
+- Reasoning models: depending on task, inference time thinking may be
+  more important than tuning
+- Inference costs: newest models vs the fine tuned model training time
+  and availability
+
+Instead of fine tuning, similar approaches can be:
+
+- RAG
+- Context engineering
+- Skills
+
+#### Low-Rank Adaptation (LoRA)
+
+Training is an adapter on top for the base model where most original
+weights stay intact.
 
 ### Preparing data for fine-tuning a model
 

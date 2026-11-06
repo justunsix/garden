@@ -1,14 +1,16 @@
 ---
 filetags: ":artificial-intelligence:ai:epubnote:ethics:"
 id: 5d269fc6-f581-421a-b2c9-bd4a90ad2ca1
-title: Ethics in the Age of Generative AI - Generative AI and Ethics -
-  the Urgency of Now
+title: Ethics in the Age of Generative AI, Generative AI and Ethics
 ---
 
-Source: My personal notes from course [Ethics in the Age of Generative
-AI - Generative AI and Ethics - the Urgency of
+Source: Course [Ethics in the Age of Generative AI - Generative AI and
+Ethics - the Urgency of
 Now](https://www.linkedin.com/learning/ethics-in-the-age-of-generative-ai/generative-ai-and-ethics-the-urgency-of-now?u=299625546)
-taught by Vilas Dhar, AI Ethicist, on LinkedIn Learning
+taught by Vilas Dhar, AI Ethicist, and [Why AI Makes the Humanities More
+Important Than Ever - IBM Technology -
+YouTube](https://www.youtube.com/watch?v=l-QPwk_f4eE) with my personal
+notes [^1] [^2]
 
 ## Introduction and Summary
 
@@ -16,7 +18,22 @@ Like other tools, generative artificial intelligence (AI) is always
 changing. it is used for good and responsible and negative use cases.
 
 Goal of course is to develop your ethical analysis. Ask who does this
-affect? support?how does it make us more human?
+affect? support? how does it make us more human?
+
+## Applying Humanities to AI
+
+To develop those skills, studying humanities teaches us language and
+reality, meaning, ethics, interpretation, and how to handle ambiguity.
+Epistemology looks at knowledge, truth, evidence, and belief [^3].
+
+Prompts are affected by skills from rhetoric, philosophy, and discourse,
+so inputs to the AI affects the quality and other attributes of the
+output like truth, inclusion, and perspectives.
+
+AI does provide answers, but humans need to ask do they matter, their
+priority, are they reasonable, and what is tolerable? "Humanities is the
+structured study of answering those questions." It involves judgment
+[^4].
 
 ## Ethical Analysis Skill and Framework
 
@@ -73,7 +90,7 @@ Transparency: input-output checkpoints are put into the chatbox. The
 organization audits outputs and has a incident management process for
 issues
 
-Conclusion: ethics must be in the developent process; however, it is
+Conclusion: ethics must be in the development process; however, it is
 never too late to do it.
 
 ## AI Ethics and Organizations
@@ -186,4 +203,19 @@ Use your expertise in your community, organization
 
 Build skills in technology and social impact
 
-Value stewardship of a human centered future for human excellance
+Value stewardship of a human centered future for human excellence
+
+## References
+
+[^1]: [Ethics in the Age of Generative AI - Generative AI and Ethics -
+    the Urgency of
+    Now](https://www.linkedin.com/learning/ethics-in-the-age-of-generative-ai/generative-ai-and-ethics-the-urgency-of-now?u=299625546)
+
+[^2]: [Why AI Makes the Humanities More Important Than Ever - IBM
+    Technology - YouTube](https://www.youtube.com/watch?v=l-QPwk_f4eE)
+
+[^3]: [Why AI Makes the Humanities More Important Than Ever - IBM
+    Technology - YouTube](https://www.youtube.com/watch?v=l-QPwk_f4eE)
+
+[^4]: [Why AI Makes the Humanities More Important Than Ever - IBM
+    Technology - YouTube](https://www.youtube.com/watch?v=l-QPwk_f4eE)

@@ -12,7 +12,9 @@ Learn](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenario
 How to identify AI use cases:
 
 - Automation opportunities: find repetitive tasks, data heavy
-  operations, tasks with high error rates
+  operations, tasks with high error rates,
+- Machine learning: Pattern recognition, rules can be too complex to be
+  deterministic, predictions
   - These tasks can be delegated to AI and/or automation to increase
     productivity
 - Ask users how they could be more satisfied
@@ -23,6 +25,14 @@ How to identify AI use cases:
   account for minor operational variation (+/- 10%) and balance against
   implementation and maintenance costs, governance, opportunity cost and
   other management.
+
+Use cases that are not as suitable:
+
+- Deterministic tasks
+- Clear logical rules to follow exist
+- High impact/risk
+- Ownership of decisions is required
+- Ambiguity
 
 ## Common Use Cases
 
@@ -62,7 +72,13 @@ From [azure-openai-samples/quick<sub>start</sub> at main ·
 Azure/azure-openai-samples ·
 GitHub](https://github.com/Azure/azure-openai-samples/tree/main/quick_start)
 
-Prefer: analysis, adversarial critic, sorting through idea
+Prefer: analysis, adversarial critic, ask questions, and going through
+ideas and brainstorming. If generation is desired, have AI do
+generation, but as the user, you still write/implement what was
+generated in your own words to improve comprehension of what you are
+doing.
+
+Process: Plan, do, check, act. Design first with focused work and time.
 
 - Summarize, classify, process text
 - Discussion (chat)
