@@ -51,8 +51,8 @@ Preparedness](https://www.canada.ca/en/public-health/services/emergency-prepared
 for additional information on what to include in your emergency survival
 kit and family plan.
 
-Tips: water (2L / person /day, e.g. 6 L for 72 hours / person), extra
-clothes, Bottled water replaced every 6 months
+Tips: water (2L per person per day, e.g. 6 L for 72 hours / person),
+extra clothes, Bottled water replaced every 6 months
 
 #### Extra in Evacuation
 
