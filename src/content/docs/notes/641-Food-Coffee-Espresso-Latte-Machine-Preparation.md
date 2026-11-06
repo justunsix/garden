@@ -4,6 +4,8 @@ id: 403214bd-be13-47d1-b3fe-c44efe05440c
 title: Espresso, Latte with Machine Preparation
 ---
 
+## Espresso, Latte
+
 Instructions to prepare espresso, latte with grinder and espresso
 machines.
 
@@ -22,3 +24,9 @@ machines.
   - Shot output area of espresso machine
   - Milk cup
   - Grinds holder
+
+## Americano
+
+Do steps above with suggested 2 shots for an average cup and instead of
+adding warm milk, use hot water instead. Adjust the espresso and water
+parts for taste.
