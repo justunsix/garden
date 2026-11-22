@@ -76,6 +76,9 @@ Games tested with the steps above successfully:
 
 ## XCOM 2
 
+It may work out of box as of 2026-11 with Linux version. For Wine
+version see below:
+
 Enable Compatibility: Force the use of a specific Steam Play
 compatibility tool: Steam Linux Runtime 1.0 (Scout). The lower version
 likely due to changes in Linux and its libraries over time and old
@@ -182,6 +185,8 @@ during initial game run.
 
 ## Games that should work with no or minor changes
 
+- 007 First Light
+- Age of Wonders 4
 - Baldur's Gate 3
 - Broken Arrow
 - Call of Duty: Infinite Warfare
@@ -196,6 +201,7 @@ during initial game run.
 - Sins of a Solar Empire 1, 2
 - SpellForce Conquest of Eo
 - Stellaris
+- Streets of Rage 4 via Heroic Games Launcher (Wine version)
 - Tempest Rising
 - Total War: Pharaoh, Troy, Three Kingdoms, Warhammer 3 (Native), Attila
 - Uncharted: Legacy of Thieves
