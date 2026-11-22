@@ -4,14 +4,14 @@ id: 1e2563ae-4b97-423c-a719-8e2eb9d6db03
 title: Learning How to Learn
 ---
 
-Source: My personal notes from [Learning How to Learn Coursera
-course](https://www.coursera.org/learn/learning-how-to-learn/)
+Source: My personal notes from course "Learning How to Learn: Powerful
+mental tools to help you master tough subjects" [^1].
 
 ## Introduction
 
 - Processes to follow to learn better
-- Learning skills can be applied to any subject or skill like language,
-  math, music, science, history and more
+- Learning skills for any subject or skill like language, math, music,
+  science, history and more
 - Recommended book for course is [A Mind for
   Numbers](http://www.amazon.com/gp/product/039916524X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=039916524X&linkCode=as2&tag=learningho0a9-20&linkId=D4N64HNWGXOU5SBK).
   Book reinforces learning approaches from the course.
@@ -37,10 +37,15 @@ course](https://www.coursera.org/learn/learning-how-to-learn/)
     [Learning How to Learn Week 4 Renaissance Learning and Unlocking
     Your Potential](id:ad4f77dc-1608-4d2b-9035-a737f7735867)
 
-## Resources
+## References
+
+## External Links
 
 - [Professors: Terrence Sejnowski and Barbara Oakley–Introduction to the
   Course Structure on
   Coursera](https://www.coursera.org/learn/learning-how-to-learn)
 - [How to Learn - WikiHow](https://www.wikihow.com/Learn) - article
   summary of processes described in the course
+
+[^1]: [Learning How to Learn Coursera
+    course](https://www.coursera.org/learn/learning-how-to-learn/)
