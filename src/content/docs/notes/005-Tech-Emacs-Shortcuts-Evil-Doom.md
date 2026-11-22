@@ -35,6 +35,11 @@ For "Go, to file under cursor at point, with line", an example is using
 
 ## Doom Emacs
 
+Collection of key bindings in [Doom Emacs
+distribution](https://github.com/doomemacs/core). Some bindings are
+defaults from the packages used by Doom Emacs and some set in Doom
+Emacs.
+
 See main key bindings at:
 "~/.config/emacs/modules/config/default/+evil-bindings.el" or [Evil
 Bindings - Doom
@@ -153,6 +158,7 @@ Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default
 | Toggle: line numbers: absolute, relative, none | SPC t l or doom/toggle-line-numbers |
 | Toggle: pop up like help, terminal | C-\` |
 | Vertico, vertical mini buffer, section, next previous | M-{ or M-} |
+| View, toggle zen mode (centre buffer, reading), buffer local | SPC t z |
 | Workspace (tab): Close | SPC tab d |
 | Workspace (tab): Close session, work spaces, buffers | SPC tab x |
 | Workspace (tab): List tabs | SPC Tab Tab |
@@ -184,6 +190,15 @@ same kind of items.
 | Name | Shortcut |
 |----|----|
 | GBrowse, Opens local file in browser in upstream like GitHub/Lab for local file | :gbrowse |
+
+## References
+
+- [Evil key bindings map - Evil Emacs
+  package](https://github.com/emacs-evil/evil/blob/master/evil-maps.el)
+- [Evil Bindings - Doom
+  Emacs](https://github.com/doomemacs/doomemacs/blob/master/modules/config/default/+evil-bindings.el)
+- [oantolin/embark: Emacs Mini-Buffer Actions Rooted in Keymaps ·
+  GitHub](https://github.com/oantolin/embark)
 
 [^1]: Common actions are:
 

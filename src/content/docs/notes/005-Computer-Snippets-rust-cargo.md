@@ -449,7 +449,7 @@ fn main() {
     println!("LIFTOFF!!!");
 }
 
-// Loops within a range using for, most used type of loop sice it is concise and safer
+// Loops within a range using for, most used type of loop since it is concise and safer
 fn main() {
     let a = [10, 20, 30, 40, 50];
 

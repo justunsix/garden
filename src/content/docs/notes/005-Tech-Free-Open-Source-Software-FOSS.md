@@ -11,6 +11,11 @@ site](https://alternativeto.net/browse/).
 
 ### AI Tools & Services
 
+- [0wrx](https://0rwx.com/) - model of AI usage, inspired by unix
+  permissions. 0 is no AI / all human, R is AI read it and inspired, W
+  is AI read and write content and collaborated, and E means execute
+  where AI made and executed all content. Similar to crediting AI for
+  tasks.
 - [9Router](https://github.com/decolua/9router) - AI router and token
   saver, fall backs for subscriptions
 - [Capture2Text](https://source.mde.net/projects/capture2text/) - OCR

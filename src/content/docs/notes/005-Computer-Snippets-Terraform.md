@@ -26,7 +26,7 @@ terraform plan -out=tfplan
 terraform apply tfplan
 # Apply changes without approval prompt
 terraform apply -auto-approve tfplan
-# Apply changes with tfplan in directory ./infra
+# Apply changes with tfplan in directory ./infra without confirmation
 terraform -chdir=infra apply -auto-approve tfplan
 
 # Build or change infrastructure:
@@ -34,7 +34,7 @@ terraform apply
 
 # Destroy all infrastructure in the current directory
 terraform destroy
-# Destroy without confirmation
+# Destroy with approval (without confirmation)
 terraform destroy -auto-approve
 
 # Output, See all
@@ -45,5 +45,11 @@ terraform output load_balancer_url
 
 # Output, raw to get specific strings
 terraform output -raw instance_id
+
+# See state file and resources
+terraform state list
+
+# See state
+terraform show
 
 ```

@@ -10,6 +10,7 @@ title: Software Shortcuts
 - [Anki Shortcuts](/garden/notes/005-computer-shortcuts-anki)
 - [Atuin Shortcuts](/garden/notes/005-computer-shortcuts-atuin)
 - [Broot Shortcuts](/garden/notes/005-computer-shortcuts-broot)
+- [DBeaver Shortcuts](/garden/notes/005-computer-shortcuts-dbeaver)
 - [DevDocs Shortcuts](/garden/notes/005-computer-shortcuts-devdocs)
 - [Dolphin File Manager Shortcuts](/garden/notes/005-computer-shortcuts-dolphin)
 - [duckduckgo Shortcuts](/garden/notes/005-computer-shortcuts-duckduckgo)

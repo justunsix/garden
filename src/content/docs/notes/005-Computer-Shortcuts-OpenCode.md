@@ -10,3 +10,7 @@ title: OpenCode Shortcuts
 | Command palette                      | Ctrl + p   |
 | Session, copy last assistant message | Ctrl + x y |
 | Switch mode, plan, build             | Tab        |
+
+## References
+
+- [TUI \| OpenCode V2](https://opencode.ai/v2/docs/cli/tui/)

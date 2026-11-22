@@ -31,7 +31,40 @@ ffmpeg -i input_video.mp4 -q:a 0 -map a audio.wav
 # Compress video files, reduce file fize with slight reduction in quality
 ffmpeg -i input.mp4 -vcodec libx264 -crf 23 output.mp4
 # -vcodec libx264 specifies the H.264 codec for encoding.
-# -crf 23 controls quality (lower values = better quality).
+# -crf 23 controls quality (lower values = better quality)
+#         crf is Constant rate factor value used in crf rate control mode (0-63).
+
+# Compress video files more with H.265 / HEVC (libx265), roughly half the size with same visual quality
+# and higher CRF of 28
+ffmpeg -i input.mp4 -vcodec libx265 -crf 28 input.mp4 \
+    -preset slow \
+    -c:a aac -b:a 128k \
+    output.mp4
+# Optional flags
+# -preset slow - takes longer to encode, but better size
+# -preset medium
+# -c:a aac - encodes audio as AAC, wide support in MP4
+# -b:a 128k - pratical audio bitrate for speech and general video
+# -crf 23 / 28 - visible loss possible with 28
+
+# Compress video using hardware GPU acceleration with vulkan
+# Use h264_vulkan and higher -b:v 3M for better quality
+ffmpeg \
+  -hwaccel vulkan -hwaccel_output_format vulkan \
+  -i input.mp4 \
+  -c:v hevc_vulkan \
+  -b:v 1M \
+  output.mp4
+
+# Compress video using hardware GPU acceleration with vulkan
+# Use av1_vulkan with good compression but slower encoding
+ffmpeg \
+  -hwaccel vulkan -hwaccel_output_format vulkan \
+  -i input.mp4 \
+  -c:v av1_vulkan \
+  -qp 22 \
+  -c:a aac -b:a 128k \
+  output.mp4
 
 # Cut part of a video into another file
 ffmpeg -i input.mp4 -ss 00:00:00 -t 00:00:10 -c copy output.mp4
@@ -56,6 +89,10 @@ ffmpeg -re -i input.mp4 -c:v libx264 -f flv http://localhost:8080/live
 # Add subtitles directly into a video
 ffmpeg -i input.mp4 -vf subtitles=input.srt output.mp4
 # subtitles=input.srt: Adds subtitles from the specified subtitle file (input.srt).
+
+# View encoder information
+ffmpeg -encoder
+ffmpeg -encoder | grep -i vulkan
 
 ```
 
@@ -132,3 +169,5 @@ lc_convert_video_to_audio() {
   ffmpeg?](https://unix.stackexchange.com/questions/28803/how-can-i-reduce-a-videos-size-with-ffmpeg)
 - [The Usability of FFmpeg: A Versatile Tool for Multimedia
   Processing](https://www.aitude.com/the-usability-of-ffmpeg-a-versatile-tool-for-multimedia-processing/)
+- [Extreme compression of Video with VP9 and AV1 (webm) using
+  ffmpeg](https://www.draketo.de/software/ffmpeg-compression-vp9-av1)

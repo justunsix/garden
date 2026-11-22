@@ -17,7 +17,7 @@ Terminal User Interface (TUI) Commands
 /theme
 
 # Select models
-/model
+/models
 
 # Initialize OpenCode for project after cd into project directory, create AGENTS.md
 /init
@@ -46,35 +46,14 @@ Terminal User Interface (TUI) Commands
 /exit
 /q
 
+# Switch agents like plan, build
+/agent
+
 # Reference file with @
 How is authentication handled in @packages/functions/src/api/index.ts
 
 # Include file and line numbers in prompt context
 Review @README.md#5-10
-
-```
-
-## Agents
-
-See document for list of [specialized AI
-assistants](https://opencode.ai/docs/agents/)
-
-``` shell
-
-# Build - default primary agent
-# - Tools - all
-# - Access - all system commands, file access
-@build
-
-# Plan - for planning and analysis
-# - Permisions - ask
-@plan
-
-# General - general purpose sub-agent for research, questions, multi-step tasks
-# - Tools - all except todo
-# - Files - access
-@general
-@general search for this function
 
 ```
 
@@ -129,3 +108,10 @@ or package manager/nix.
 }
 
 ```
+
+## References
+
+- [Commands in CLI -
+  OpenCode](https://opencode.ai/v2/docs/cli/commands/)
+- [Config - Opencode](https://opencode.ai/v2/docs/config/)
+- [TUI - OpenCode](https://opencode.ai/v2/docs/cli/tui/)

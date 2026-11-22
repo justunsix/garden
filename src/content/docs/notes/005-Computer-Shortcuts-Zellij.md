@@ -8,28 +8,34 @@ title: Zellij Shortcuts
 Source: [Introduction - Zellij User
 Guide](https://zellij.dev/documentation/)
 
-| Name                                 | Shortcuts                      |
-|--------------------------------------|--------------------------------|
-| Command, Copy output of last command | Ctrl + s + c                   |
-| Command, jump forward, backward      | Ctrl + s + \[, Ctrl + s + \]   |
-| Command, select command and output   | Ctrl + s + m                   |
-| Leader (LDR), Default Lock toggle    | Ctrl + g                       |
-| Pane, Floating pane toggle           | Alt + f                        |
-| Pane, Focus                          | Alt + Arrow keys or Alt + hjkl |
-| Pane, Make larger                    | Alt and +                      |
-| Pane, Make larger or stack           | Alt and + +                    |
-| Pane, Make smaller                   | Alt + -                        |
-| Pane, Move                           | Mouse 1 click and drag         |
-| Pane, New                            | Alt + n                        |
-| Pane, Pin pane                       | Alt + p + i                    |
-| Pane, Split Down                     | LDR + p + d                    |
-| Pane, Split Right                    | LDR + p + r                    |
-| Pane, Switch stack                   | Alt + up, down                 |
-| Search, Edit scroll back, copy       | LDR + s + e                    |
-| Search, Navigate                     | LDR + s                        |
-| Session, Configuration               | LDR + o + c                    |
-| Session, Detach                      | LDR + o + d                    |
-| Session, Manager                     | LDR + o + w                    |
-| Tab, move left or right              | Alt + i or Alt + o             |
-| Tab, new                             | LDR + t + n                    |
-| Tab, or Pane, Switch                 | Alt + arrow keys               |
+| Name | Shortcuts |
+|----|----|
+| Command, Copy output of last command | Ctrl + s + c |
+| Command, jump forward, backward | Ctrl + s + \[, Ctrl + s + \] |
+| Command, select command and output | Ctrl + s + m |
+| Command, select command and output, copy it | Ctrl + s + m, c |
+| Context Menu | Mouse 2 (right click) |
+| Leader (LDR), Default Lock toggle | Ctrl + g |
+| Pane, Floating pane toggle | Alt + f |
+| Pane, Focus | Alt + Arrow keys or Alt + hjkl |
+| Pane, Make larger | Alt and + |
+| Pane, Make larger or stack | Alt and + + |
+| Pane, Make smaller | Alt + - |
+| Pane, Move | Mouse 1 click and drag |
+| Pane, New | Alt + n |
+| Pane, Pin pane | Alt + p + i |
+| Pane, Pin pane | Ctrl + p + i |
+| Pane, Split Down | LDR + p + d |
+| Pane, Split Right | LDR + p + r |
+| Pane, Switch stack | Alt + up, down |
+| Search, Edit scroll back, copy | LDR + s + e |
+| Search, Navigate | LDR + s |
+| Session, Configuration / Settings | LDR + o + c |
+| Session, Detach | LDR + o + d |
+| Session, Manager | LDR + o + w |
+| Session, Attention Inbox / Notifications | LDR + o + i |
+| Tab, move left or right | Alt + i or Alt + o |
+| Tab, new | LDR + t + n |
+| Tab, next tab left or right | Alt + h or Alt + l |
+| Tab, or Pane, Switch | Alt + arrow keys |
+| UI, Hide toggle | Ctrl p + Shift z |

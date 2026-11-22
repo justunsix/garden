@@ -61,6 +61,10 @@ pnpm outdated -g
 ## then update
 pnpm update -g --latest
 
+# Update packages to their newest version based on specified rang
+pnpm update
+pnpm update [OPTIONS] [PACKAGES]
+
 # Interactively create a package.json file
 pnpm init
 
@@ -84,6 +88,9 @@ pnpm list
 
 # List top-level [g]lobally installed modules
 pnpm list -g --depth={{0}}
+
+# Run package in temporary environment
+pnpm dlx @astrojs/upgrade
 
 ```
 

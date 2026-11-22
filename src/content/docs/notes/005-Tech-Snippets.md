@@ -83,6 +83,7 @@ title: Software Snippets
 - [Lynx Snippets](/garden/notes/005-computer-snippets-lynx)
 - [Make Snippets](/garden/notes/005-computer-snippets-make)
 - [Markdown](/garden/notes/005-computer-snippets-markdown)
+- [Maven, mvn Snippets](/garden/notes/005-computer-snippets-maven-mvn)
 - [Mermaid Diagrams Snippets](/garden/notes/005-computer-snippets-mermaid)
 - [Microsoft Power Automate
   Snippets](/garden/notes/005-computer-snippets-microsoft-power-automate)
