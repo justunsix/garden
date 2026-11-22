@@ -4,11 +4,10 @@ id: 9968f136-4607-4993-a4a0-be9d51433b4e
 title: Remote Work
 ---
 
-Source: [Smart Commute Toronto](https://smartcommutetoronto.ca/)
-
 ## Return to Office: Taking Remote Work to the Next Level - Smart Commute Toronto - 2021-12-08
 
-Presented by Dorinda
+Presented by Dorinda at [Smart Commute
+Toronto](https://smartcommutetoronto.ca/)
 
 - Part of Toronto's climate action strategy to reduce Green House Gases
   (GHGs)
@@ -151,7 +150,7 @@ Presented by Adrienne
   - Low/high demand spaces
   - Climate and budget savings
 
-## External Links
+## Example Resources to Develop for Remote Work
 
 - Hybrid Work 101
 - Guide to Hybrid Remote Work
@@ -164,3 +163,8 @@ Presented by Adrienne
     - You can use existing tools/software to do your management of the
       hybrid program
       - E.g. Calendar, sign in sheet
+
+## References
+
+- [Smart Commute Toronto – City of
+  Toronto](https://www.toronto.ca/services-payments/water-environment/live-green-toronto/smart-commute-toronto/)
