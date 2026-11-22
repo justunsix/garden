@@ -31,4 +31,4 @@ run-dev: build ## Build and run Astro development site
 	deno run dev
 
 run-preview: build ## Build and preview site
-	deno run preview
+	pnpm astro preview
