@@ -1,15 +1,13 @@
 ---
+filetags: ":remote-work:business:productivity:epubnote:cal-newport:"
 id: 4f4f5efe-b753-425c-9652-d5c9f0e3c79b
 title: Remote Work and Productivity
 ---
 
 ## How To Work From Home
 
-Source: [How To Work From Home: The Productivity System To Get More Done
-In 2025 \| Cal Newport - YouTube](https://youtu.be/gmoIIkm0gJc)
-
 Goal is to make virtual work better, increase productivity, and make job
-enjoyable.
+enjoyable [^1].
 
 ### Better Remote Work
 
@@ -153,8 +151,13 @@ will not work.
 
 See ideas discussed at "How to Work From Home" talk
 
-### See Also
+## See Also
 
 - [Learning How to Learn](/garden/notes/370-education-learning-how-to-learn) -
   course that also talks about focus, energy and attention management
 - [Remote Work](/garden/notes/650-business-environment-remote-work)
+
+## References
+
+[^1]: [How To Work From Home: The Productivity System To Get More Done
+    In 2025 \| Cal Newport - YouTube](https://youtu.be/gmoIIkm0gJc)

@@ -5,9 +5,8 @@ title: Cal Newport's Planning System - Core Documents, Productivity,
   Discipline
 ---
 
-Source: My personal notes and content from [Cal Newport's Planning
-System (In Detail) -
-YouTube](https://www.youtube.com/watch?v=3FipKTzkTD4)
+Source: My personal notes and content from Cal Newport's planning system
+[^1]
 
 Explanation of how Cal plans work, work boundaries and alignment with
 his values and vision. I noted the approach is similar to principles in
@@ -15,8 +14,8 @@ the book Stephen R. Covey's The 7 Habits of Highly Effective People.
 
 The benefits of the systems are:
 
-- Can be applied by anyone for complex and ambitious goals
-- Help people stay true to your values and be present
+- Anyone can use for complex and ambitious goals
+- Help people be true to their values and be present
 - Supports your life outside of work as you can trust the system to
   capture and track all work and set boundaries
 
@@ -27,8 +26,8 @@ For Cal they are:
 - My values
 - Career and personal strategic plans
 
-The documents link to projects and weekly goals. Can be done in digital
-and/or physical notebooks.
+The documents link to projects and weekly goals. Example record in
+digital and/or physical notebooks.
 
 ### Maintaining the Core Documents
 
@@ -45,8 +44,8 @@ summer months or vacation periods. It links back to the strategic plans.
 
 ### Daily Plan
 
-Use a daily plan which uses the weekly plan and time blocks for work can
-be done in the day. "What do I want to work on today?"
+Use a daily plan which uses the weekly plan and time blocks for daily
+work. "What do I want to work on today?"
 
 For example, meeting in morning, admin work block before lunch, deep
 work block in afternoon.
@@ -58,7 +57,12 @@ Have a work shutdown plan like time of day you stop work and start rest.
 
 ## Discipline - Habits, activities, measures
 
-Examples: how many deep work sessions, exercise time per week
+Examples: number of deep work sessions, exercise time per week
 
 Disciple sets boundaries and you can track the activities to measure
 your progress.
+
+## References
+
+[^1]: [Cal Newport's Planning System (In Detail) -
+    YouTube](https://www.youtube.com/watch?v=3FipKTzkTD4)
