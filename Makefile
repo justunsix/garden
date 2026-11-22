@@ -28,7 +28,7 @@ build: ## Build site
 	pnpm run build
 
 run-dev: build ## Build and run Astro development site
-	deno run dev
+	pnpm run dev
 
 run-preview: build ## Build and preview site
 	pnpm astro preview
