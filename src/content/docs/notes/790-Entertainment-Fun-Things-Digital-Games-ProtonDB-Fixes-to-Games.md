@@ -187,6 +187,7 @@ during initial game run.
 
 - 007 First Light
 - Age of Wonders 4
+- Age of Wonders: Planetfall
 - Baldur's Gate 3
 - Broken Arrow
 - Call of Duty: Infinite Warfare
