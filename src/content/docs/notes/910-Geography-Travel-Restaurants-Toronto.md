@@ -20,19 +20,19 @@ inexpensive options and/or good price for portions.
 | Asian Legend | Beverly-Dundas | Chinese |  |  |
 | [Bangkok garden](https://bangkokgarden.ca/) |  | Thai |  | jd |
 | [Bao House](https://www.bao-house.ca/) | Various Dundas, Yonge-Wellesley | Chinese |  | jd |
+| [Chelsea Inn food hall](https://www.chelseatoronto.com) | Yonge-Gerrard |  |  | jd |
 | Chew Chews | Sherbourne-Carlton | Diner |  | jd |
 | Congee Queen | Yonge-Gerard | Chinese, Cantonese | Value shared | jd |
+| [Darvish Persian Cuisine](https://darvishrestaurant.ca/) | Yonge-Wellesley | Persian |  | jd |
 | Denny's | Bay-Dundas | Diner |  |  |
 | Dynasty | Yorkville | Chinese | Fine |  |
 | Eaton Centre Food Court | Yonge-Dundas | Various | Value=specials \> 5pm |  |
 | Frans | Yonge-College/Shuter | Diner |  | jd |
-| [Chelsea Inn food hall](https://www.chelseatoronto.com) | Yonge-Gerrard |  |  | jd |
 | Freshii | Yonge-College | Healthy | Value | jd |
 | George Street Diner | Jarvis/George-Richmond | Diner |  | jd |
+| [Ginger](http://gingercuisine.ca/) |  | Vietnamese | Value=portions | jd |
 | Golden Diner | Church-Carlton | Diner | Value | jd |
 | Golden Eggs | Simcoe-Queens Quay | Breakfast |  |  |
-| [Ginger](http://gingercuisine.ca/) |  | Vietnamese | Value=portions | jd |
-| [Le Lert](https://lelert.ca/) | Yonge-Carlton | Thai |  | jd |
 | [Harvest Green](https://harvestgreen.ca/) | John-Wellington | Healthy | Value=portions |  |
 | Helena’s Magic Kitchen | McCaul-Dundas | Various | Value=portions |  |
 | Hot House Café |  |  | Sunday brunch |  |
@@ -40,6 +40,7 @@ inexpensive options and/or good price for portions.
 | IKEA Cafeteria | Yonge-Gerrard, Various |  | Value | jd |
 | [Karine's](https://www.karines.ca/) | McCaul-Dundas | Various, Healthy | Value=portions |  |
 | Kyoto Katsugyu | Church-Dundas | Japanese | Beef | jd |
+| [Le Lert](https://lelert.ca/) | Yonge-Carlton | Thai |  | jd |
 | Le Petit Déjeuner (LDP) | Jarvis/George-King |  | Breakfast | jd |
 | [Le Sélect Bistro](https://www.leselectbistro.com/) | Spadina-Wellington | French |  |  |
 | Mercatto | Bay-College | Italian |  |  |
@@ -82,7 +83,7 @@ Yonge-Finch and Yonge-Shepperd areas
 
 | Name | Location | Style | Special | Tag |
 |----|----|----|----|----|
-| [Bistro Five61 (561)](https://bistrofive61.com/) | Avenue Road-St. Clair |  | Fine | up |
+| [Bistro Five61 (561)](https://bistrofive61.com/) | Avenue Road-St. Clair West |  | Fine | up |
 | [Café Polonez](https://cafepolonez.ca/) | 195 Roncesvalles Avenue | Polish |  |  |
 | [Carmelina](https://carmelinasrestaurant.com) | Woodbine-John St. | Italian |  |  |
 | [Casa Barcelona](https://www.casabarcelona.ca/) | Royal York-Bloor | Spanish | tapas |  |
@@ -95,6 +96,7 @@ Yonge-Finch and Yonge-Shepperd areas
 | [Mary Be Kitchen](https://www.marybekitchen.com/) | Avenue Road-St. Clair | Local |  | up |
 | [Orient Bistro](https://www.yelp.ca/biz/orient-bistro-fine-chinese-dining-and-bar-richmond-hill) | 404-16th Ave | Chinese | Fine |  |
 | Providential 9 | Woodbine-407, Markham | Chinese |  |  |
+| [Queen of Persia](https://queenofpersiatoronto.com/) | Christie-St. Clair West | Persian |  | up |
 | [Somtum Jinda](https://somtumjinda.ca/) | Don Mills-Sheppard, Fairview Mall | Thai | Michelin |  |
 | Sushi Rock | Yonge-St. Clair | Japenese |  | up |
 | The Queen | Don Mills-Eglinton | Chinese | Fine |  |
