@@ -91,7 +91,7 @@ Appleton](https://maggieappleton.com/)
 - [616 Diseases](/garden/notes/616-diseases)
 - [634 Orchards, fruits, forestry](/garden/notes/634-forestry)
 - [635 Garden crops (Horticulture)](/garden/notes/635-gardening)
-- [640 Home and family management](/garden/notes/640-home)
+- [640 Home and family management](/garden/notes/640-home) 
 - [641 Food and drink](/garden/notes/641-food)
 - [646 Sewing, clothing, management of personal and family
   life](/garden/notes/646-sewing)
