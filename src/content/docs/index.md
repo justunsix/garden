@@ -148,8 +148,8 @@ indicated.
   - Content managed in [Emacs org](https://orgmode.org/) files and
     converted to markdown for this website using
     [pandoc](https://pandoc.org/)
-  - Conversion to markdown is in progress, so expect broken links,
-    images, and problems in markdown files
+  - Conversion to markdown and HTML is in progress, so expect broken
+    links (error 404), images, and problems in pages and markdown files
 - Hosted on [GitHub pages](https://pages.github.com/)
 
 ## References
