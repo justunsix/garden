@@ -24,3 +24,20 @@ pnpm-debug.log*
 ### Additions to Astro .gitignore template
 
 mprocs.log
+
+# Created by https://www.toptal.com/developers/gitignore/api/deno
+# Edit at https://www.toptal.com/developers/gitignore?templates=deno
+
+### Deno ###
+/.idea/
+/.vscode/
+
+.env
+*.orig
+*.pyc
+*.swp
+
+# End of https://www.toptal.com/developers/gitignore/api/deno
+
+# Don't track deno lock, use package.json and pnpm
+deno.lock
