@@ -20,6 +20,7 @@ title: Books
     (Book)](/garden/notes/613-health-safety-sport-weight-training-a-physical-education-book)
 5.  [Comic Book Guide to Growing Food
     (Book)](/garden/notes/635-gardening-comic-book-guide-to-growing-food)
+6.  [Growing Young (Book)](/garden/notes/610-Health-Growing-Young-Book.md)
 7.  [Hiking Trails and
     Books](/garden/notes/796-sports-fun-hiking-trails-and-books) - [Hiking Trails &
     Books](id:6440c45e-d468-4b37-a6ce-5fcbb2ab4c9d)
