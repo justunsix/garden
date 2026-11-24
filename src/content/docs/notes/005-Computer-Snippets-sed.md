@@ -43,6 +43,9 @@ sed -i '/lang.sql/d' lazyvim.json
 # from an input_file
 sed -n "/$start_string/,/$end_string/p" "$input_file"
 
+# Replace in place [-i] text containing [, ], (, ) characters using # as the substituion delimiter
+sed -i 's#- \[641#- [640 Home and family management](home.md) \n- [641#g' index.md
+
 # Append a string (\a) after a known string in place (-i) in file
 sed -i "/Known-string/a Inserted-String" myfile.txt
 
