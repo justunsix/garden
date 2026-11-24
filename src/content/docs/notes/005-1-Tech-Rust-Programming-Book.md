@@ -5,9 +5,13 @@ title: The Rust Programming Language, The Book (Book)
 ---
 
 Source: My notes from book: [The Rust Programming
-Language](https://doc.rust-lang.org/stable/book/) \[fn:1\] and book
-source at [rust-lang/book: The Rust Programming Language ·
-GitHub](https://github.com/rust-lang/book)
+Language](https://doc.rust-lang.org/stable/book/) [^1] and book source at
+[rust-lang/book: The Rust Programming Language ·
+GitHub](https://github.com/rust-lang/book).
+
+For examples from learning rust see [Rust and Cargo
+Snippets](/garden/notes/005-computer-snippets-rust-cargo) - [Rust Cargo
+Snippets](id:92688ec0-8523-4171-88c2-337e34693607)
 
 ## Second Edition
 
@@ -32,13 +36,12 @@ Recommendations
   `expect()` method is called during an `Err` variant.
 
 Code examples of game at [justunsix/rust-tests: Tests with Rust language
-· GitHub](https://github.com/justunsix/rust-tests) \[fn:2\].
+· GitHub](https://github.com/justunsix/rust-tests) [^2].
 
 ## 3 - Rust features that are similar to those of other programming languages
 
 See data types, functions, loops, control flow at [Rust and Cargo
-Snippets](/garden/notes/005-computer-snippets-rust-cargo) - [Rust Cargo
-Snippets](id:92688ec0-8523-4171-88c2-337e34693607)
+Snippets](/garden/notes/005-computer-snippets-rust-cargo)
 
 ## 4 - Ownership system
 
@@ -69,14 +72,14 @@ stack. When function is over, values are popper off the stack.
 
 #### Relation to Ownership
 
-Ownership helps with:
+Concept of Ownership helps with:
 
 - Minimizing duplicate data on heap
 - Cleaning up unused data on heap to avoid space problems
 
 ### Ownership Rules
 
-Rust defines thee ownership rules \[fn:1\]:
+Rust defines thee ownership rules [^3]:
 
 > - Each value in Rust has an owner.
 > - There can only be one owner at a time.
@@ -155,10 +158,17 @@ free up memory used by the resource.
 
 ## References
 
-- \[fn:1\] [The Rust Programming
-  Language](https://doc.rust-lang.org/stable/book/), Steve Klabnik, Carol
-  Nichols, and Chris Krycho, with contributions from the Rust Community.
-  “The Rust Programming Language - the Rust Programming Language.”
-  Doc.rust-Lang.org, doc.rust-lang.org/stable/book/. 2026
-- \[fn:2\] [justunsix/rust-tests: Tests with Rust language ·
-  GitHub](https://github.com/justunsix/rust-tests)
+[^1]: [The Rust Programming
+    Language](https://doc.rust-lang.org/stable/book/), Steve Klabnik,
+    Carol Nichols, and Chris Krycho, with contributions from the Rust
+    Community. “The Rust Programming Language - the Rust Programming
+    Language.” Doc.rust-Lang.org, doc.rust-lang.org/stable/book/. 2026
+
+[^2]: [justunsix/rust-tests: Tests with Rust language ·
+    GitHub](https://github.com/justunsix/rust-tests)
+
+[^3]: [The Rust Programming
+    Language](https://doc.rust-lang.org/stable/book/), Steve Klabnik,
+    Carol Nichols, and Chris Krycho, with contributions from the Rust
+    Community. “The Rust Programming Language - the Rust Programming
+    Language.” Doc.rust-Lang.org, doc.rust-lang.org/stable/book/. 2026
